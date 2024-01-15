@@ -1,4 +1,6 @@
-## Uniform Component Starter Kit
+## Uniform Example: Uniglobe
+
+Demonstrates localization features on top of the [Uniform Component Starter kit](https://github.com/uniformdev/uniform-component-starter-kit).
 
 The Component Starter kit gives you the key building blocks to create dynamic and compelling web experiences and demonstrate the power of digital experience composition in Uniform. Just install, customize and start creating.
 
