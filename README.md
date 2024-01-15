@@ -1,15 +1,10 @@
-## Uniform Example: Uniglobe
+## Uniform Example: UniGlobe
 
 Demonstrates localization features on top of the [Uniform Component Starter kit](https://github.com/uniformdev/uniform-component-starter-kit).
 
 The Component Starter kit gives you the key building blocks to create dynamic and compelling web experiences and demonstrate the power of digital experience composition in Uniform. Just install, customize and start creating.
 
 Built with love by Uniform folks, standing on the shoulders of TailwindCSS, DaisyUI, React and Next.js.
-
-<a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Funiformdev%2Funiform-component-starter-kit&env=UNIFORM_API_KEY,UNIFORM_PROJECT_ID"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
-
-- [Demo](https://components.uniform.app/)
-- [Storybook](https://components-storybook.uniform.app/)
 
 ### Prerequisites
 
@@ -58,10 +53,3 @@ This integration brings Canvas UI extensions for theme management and new useful
    > Here you can also manage your header and footer content - logo and navigation links.
 
 Important: in order to apply theme changes, you must re-publish the "Main Header" pattern after every time you change the `theme` on the integration settings page.
-
-### Additional examples
-
-This package contains an additional set of examples based on the Component Starter Kit components:
-
-1. Coveo Search Page
-1. Algolia Search Page (soon...)
