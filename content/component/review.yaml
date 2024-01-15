@@ -10,6 +10,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: description
     name: Description
     type: text
@@ -18,6 +19,7 @@ parameters:
       required: false
       multiline: true
       linesCount: '5'
+    localizable: true
   - id: stars
     name: Stars
     type: tp-slider-parameter
@@ -86,6 +88,7 @@ parameters:
     type: checkbox
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: lineCountRestriction
     name: Line Count Restriction
     type: tp-slider-parameter

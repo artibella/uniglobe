@@ -13,6 +13,7 @@ parameters:
         tel: false
         email: false
         projectMapNode: false
+    localizable: true
   - id: placeholderImage
     name: Placeholder Image
     type: asset
@@ -23,6 +24,7 @@ parameters:
       max: 1
       min: 0
       required: false
+    localizable: true
   - id: group_displaySettings
     name: Playback settings
     type: group

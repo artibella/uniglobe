@@ -9,6 +9,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: labelStyle
     name: Label Style
     type: tp-title-style-parameter
@@ -20,6 +21,7 @@ parameters:
     helpText: ''
     typeConfig:
       decimal: true
+    localizable: true
   - id: currency
     name: Currency
     type: select
@@ -30,6 +32,7 @@ parameters:
           value: USD
         - text: EUR
           value: EUR
+    localizable: true
 categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Price_preview_image

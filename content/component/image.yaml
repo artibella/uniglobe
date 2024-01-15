@@ -12,11 +12,13 @@ parameters:
     typeConfig:
       max: 1
       min: 0
+    localizable: true
   - id: alt
     name: Alt Text
     type: text
     helpText: alt text for image
     typeConfig: null
+    localizable: true
   - id: width
     name: Width
     type: number
@@ -24,12 +26,14 @@ parameters:
     typeConfig:
       min: '1'
       required: false
+    localizable: true
   - id: height
     name: Height
     type: number
     helpText: Set this only when the 'fill' property is unchecked.
     typeConfig:
       min: '1'
+    localizable: true
   - id: group_styling
     name: Overlay
     type: group

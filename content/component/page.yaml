@@ -10,6 +10,7 @@ parameters:
     helpText: ''
     typeConfig:
       required: true
+    localizable: true
   - id: group_metaData
     name: Meta Data
     type: group
@@ -24,12 +25,14 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '5'
+    localizable: true
   - id: pageKeywords
     name: Page Keywords
     type: text
     helpText: ''
     typeConfig:
       multiline: true
+    localizable: true
   - id: group_openGraph
     name: Open Graph
     type: group
@@ -45,6 +48,7 @@ parameters:
     type: text
     helpText: page head title
     typeConfig: null
+    localizable: true
   - id: openGraphDescription
     name: Open Graph Description
     type: text
@@ -54,6 +58,7 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '5'
+    localizable: true
   - id: openGraphImage
     name: Open Graph Image
     type: asset
@@ -93,6 +98,7 @@ parameters:
     type: text
     helpText: Sets `twitter:title`. Fallback to Page Title if not set.
     typeConfig: null
+    localizable: true
   - id: twitterDescription
     name: Twitter Description
     type: text
@@ -102,6 +108,7 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '5'
+    localizable: true
   - id: twitterImage
     name: Twitter Image
     type: asset

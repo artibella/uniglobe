@@ -11,6 +11,7 @@ parameters:
     helpText: ''
     typeConfig:
       required: false
+    localizable: true
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
@@ -21,6 +22,7 @@ parameters:
     type: link
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: text
     name: Text
     type: text
@@ -28,11 +30,13 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '5'
+    localizable: true
   - id: content
     name: Content
     type: json
     helpText: ''
     typeConfig: {}
+    localizable: true
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Content_preview_image

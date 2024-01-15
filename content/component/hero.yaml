@@ -22,6 +22,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: title
     name: Title
     type: text
@@ -30,6 +31,7 @@ parameters:
       required: false
       multiline: true
       linesCount: '3'
+    localizable: true
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
@@ -43,6 +45,7 @@ parameters:
       required: false
       multiline: true
       linesCount: '10'
+    localizable: true
   - id: image
     name: Image
     type: asset
@@ -50,6 +53,7 @@ parameters:
     typeConfig:
       max: 1
       min: 0
+    localizable: true
   - id: video
     name: Video
     type: link
@@ -59,6 +63,7 @@ parameters:
         tel: false
         email: false
         projectMapNode: false
+    localizable: true
   - id: group_primaryCta
     name: Primary CTA
     type: group
@@ -73,11 +78,13 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: primaryButtonLink
     name: Primary Button Link
     type: link
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: primaryButtonStyle
     name: Primary Button Style
     type: tp-button-style-parameter
@@ -107,11 +114,13 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: secondaryButtonLink
     name: Secondary Button Link
     type: link
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: secondaryButtonStyle
     name: Secondary Button Style
     type: tp-button-style-parameter

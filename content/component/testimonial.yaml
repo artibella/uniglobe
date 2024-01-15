@@ -19,16 +19,19 @@ parameters:
       required: false
       multiline: true
       linesCount: '5'
+    localizable: true
   - id: personName
     name: Person Name
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: personPosition
     name: Person Position
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: picture
     name: Picture
     type: asset

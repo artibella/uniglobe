@@ -9,6 +9,7 @@ parameters:
     type: text
     helpText: Section title
     typeConfig: null
+    localizable: true
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
@@ -21,12 +22,14 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '10'
+    localizable: true
   - id: items
     name: Items
     type: asset
     helpText: ''
     typeConfig:
       min: 0
+    localizable: true
   - id: maxItems
     name: Max Items
     type: number

@@ -11,17 +11,20 @@ parameters:
     helpText: ''
     typeConfig:
       required: false
+    localizable: true
   - id: link
     name: Link
     type: link
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: description
     name: Description
     type: text
     helpText: ''
     typeConfig:
       required: false
+    localizable: true
   - id: icon
     name: Icon
     type: asset

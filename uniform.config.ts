@@ -10,7 +10,7 @@ const config: CLIConfiguration = {
       composition: { publish: true },
       projectMapDefinition: {},
       projectMapNode: {},
-      asset: {},
+      //      asset: {},
       contentType: {},
       entry: {},
     },

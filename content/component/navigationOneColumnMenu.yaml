@@ -10,6 +10,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: group_primaryCta
     name: Primary CTA
     type: group
@@ -23,11 +24,13 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: primaryButtonLink
     name: Primary Button Link
     type: link
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: primaryButtonStyle
     name: Primary Button Style
     type: tp-button-style-parameter
@@ -46,11 +49,13 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: secondaryButtonLink
     name: Secondary Button Link
     type: link
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: secondaryButtonStyle
     name: Secondary Button Style
     type: tp-button-style-parameter

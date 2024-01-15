@@ -10,6 +10,7 @@ parameters:
     type: text
     helpText: Section title
     typeConfig: null
+    localizable: true
   - id: group_styling
     name: Styling
     type: group

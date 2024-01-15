@@ -10,12 +10,14 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: title
     name: Title
     type: text
     helpText: ''
     typeConfig:
       required: false
+    localizable: true
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
@@ -29,6 +31,7 @@ parameters:
       required: false
       multiline: true
       linesCount: '10'
+    localizable: true
   - id: image
     name: Image
     type: asset
@@ -36,6 +39,7 @@ parameters:
     typeConfig:
       max: 1
       min: 0
+    localizable: true
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Featured_callout_preview_image

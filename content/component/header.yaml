@@ -12,6 +12,7 @@ parameters:
     typeConfig:
       max: 1
       min: 0
+    localizable: true
   - id: linksAlignment
     name: Links Alignment
     type: tp-horizontal-align-parameter
