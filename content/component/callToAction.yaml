@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: callToAction
 name: Call to Action
 icon: >-
@@ -20,6 +20,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: title
     name: Title
     type: text
@@ -28,6 +29,7 @@ parameters:
       required: false
       multiline: true
       linesCount: '3'
+    localizable: true
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
@@ -41,6 +43,7 @@ parameters:
       required: false
       multiline: true
       linesCount: '6'
+    localizable: true
   - id: group_primaryCta
     name: Primary CTA
     type: group
@@ -55,11 +58,13 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: primaryButtonLink
     name: Primary Button Link
     type: link
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: primaryButtonStyle
     name: Primary Button Style
     type: tp-button-style-parameter
@@ -90,11 +95,13 @@ parameters:
     helpText: ''
     typeConfig:
       required: false
+    localizable: true
   - id: secondaryButtonLink
     name: Secondary Button Link
     type: link
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: secondaryButtonStyle
     name: Secondary Button Style
     type: tp-button-style-parameter
@@ -134,8 +141,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2023-11-22T09:43:33.448906+00:00'
-updated: '2023-11-22T09:54:34.100413+00:00'
+created: '2024-01-15T09:26:41.819556+00:00'
+updated: '2024-01-15T09:57:33.986512+00:00'
 variants:
   - id: alignLeft
     name: Align Left
