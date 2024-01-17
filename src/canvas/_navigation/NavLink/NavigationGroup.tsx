@@ -34,7 +34,7 @@ export const NavigationGroup: FC<LinkProps> = ({ title, link, styles }) => {
           {title}
         </summary>
 
-        <ul className="p-2 bg-primary !rounded-none z-50 !mt-0 [&>*]:w-full [&>*]:min-w-max [&_a]:w-full [&_a]:py-4">
+        <ul className="p-2 bg-secondary !rounded-none z-50 !mt-0 [&>*]:w-full [&>*]:min-w-max [&_a]:w-full [&_a]:py-4">
           <UniformSlot name="subNavItems" />
         </ul>
       </details>

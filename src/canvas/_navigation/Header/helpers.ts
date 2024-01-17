@@ -3,7 +3,7 @@ import { HeaderVariants } from '.';
 export const getHeaderColor = (variant?: string) => {
   switch (variant) {
     case HeaderVariants.Light:
-      return 'bg-base-200';
+      return 'bg-secondary';
     default:
       return 'bg-base-300';
   }

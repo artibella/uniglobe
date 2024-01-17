@@ -12,7 +12,7 @@ export const HeaderLink: FC<LinkProps> = ({ title, link, styles }) => {
     <li tabIndex={0}>
       <Link
         className={classNames(
-          '!rounded-none text-base focus:!text-primary-content active:!text-primary-content hover:text-primary-content hover:opacity-60',
+          '!rounded-none text-base focus:!text-secondary-content active:!text-secondary-content hover:text-secondary-content',
           styles?.link,
           {
             'font-extrabold': isCurrentRoute,
