@@ -15,7 +15,7 @@ const MenuLink: FC<MenuLinkProps> = ({ link, title, description, imageUrl, varia
   }, [router, link]);
 
   return (
-    <Link className={classNames('!rounded-none')} href={link?.path || '#'}>
+    <Link className={classNames('!rounded-none')} href={link?.path || '#'} locale={false}>
       <div className="py-2">
         <div
           className={classNames('flex items-center justify-between', {

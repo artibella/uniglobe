@@ -20,6 +20,7 @@ export const HeaderLink: FC<LinkProps> = ({ title, link, styles }) => {
           }
         )}
         href={link?.path || '#'}
+        locale={false}
       >
         {title}
       </Link>
