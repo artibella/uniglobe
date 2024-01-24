@@ -1,0 +1,83 @@
+created: '2024-01-18T12:33:27.077396+00:00'
+modified: '2024-01-18T13:01:04.364153+00:00'
+pattern: true
+entry:
+  _id: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
+  _name: Country (automatic)
+  _slug: country-pattern
+  type: country
+  fields:
+    code:
+      type: text
+      value: ${#jptr:/Country/0/cca2}
+    flag:
+      type: asset
+      value:
+        - _id: 6ad6c8d2-34e4-4e49-9ca5-47d46f5bb0b7
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Country/0/flags/svg}
+            title:
+              type: text
+              value: ${#jptr:/Country/0/flags/alt}
+          _source: custom-url
+    name:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Country/0/name/common}
+        en-US: ${#jptr:/Country/0/name/common}
+    captial:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Country/0/capital/0}
+        en-US: ${#jptr:/Country/0/capital/0}
+    flagEmoji:
+      type: text
+      value: ${#jptr:/Country/0/flag}
+    currencies:
+      type: $block
+      value:
+        - type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - type: currency
+                  fields:
+                    code:
+                      type: text
+                      locales:
+                        de-DE: ${#jptr:/Country currencies Loop Item/key}
+                        en-US: ${#jptr:/Country currencies Loop Item/key}
+                    name:
+                      type: text
+                      value: ${#jptr:/Country currencies Loop Item/value/name}
+                    symbol:
+                      type: text
+                      value: ${#jptr:/Country currencies Loop Item/value/symbol}
+          _dataResources:
+            Country currencies Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: /Country/0/currencies
+    officialName:
+      type: text
+      value: ${#jptr:/Country/0/name/official}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        fields: name,capital,currencies,flag,flags,cca2
+        country: Germany
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+    - de-DE
+  _overridability:
+    parameters:
+      name: 'yes'
+      captial: 'yes'
+      officialName: 'yes'

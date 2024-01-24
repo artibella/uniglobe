@@ -1,0 +1,9 @@
+created: '2024-01-18T13:24:08.028229+00:00'
+modified: '2024-01-18T13:24:08.028229+00:00'
+pattern: false
+entry:
+  _id: 62840beb-e2ea-4f66-96c5-3cc8fc59ae82
+  _name: 'New entry: Region'
+  _slug: new-entry-region
+  type: region
+  fields: {}

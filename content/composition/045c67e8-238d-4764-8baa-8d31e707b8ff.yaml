@@ -1,0 +1,394 @@
+composition:
+  _name: Destinations
+  _id: 045c67e8-238d-4764-8baa-8d31e707b8ff
+  _slug: destinations
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        de-DE: Destinations
+        en-US: Destinations
+  slots:
+    pageFooter:
+      - _id: ec2dca71-ea22-4f0e-958c-cc2c286a1c83
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 12759a9f-9760-4ce9-ac17-15078e29bc5c
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 49b40c93-528e-4644-b49e-9da747e54068
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value: []
+            locales:
+              de-DE:
+                - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    title:
+                      type: text
+                      value: Kyoto street
+                  _source: custom-url
+              en-US:
+                - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    title:
+                      type: text
+                      value: Kyoto street
+                  _source: custom-url
+          title:
+            type: text
+            locales:
+              de-DE: Wohin geht die Reise?
+              en-US: Where to next?
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              de-DE: Entdecke die besten Reiseziele auf der Welt
+              en-US: Discover the best travel destinations around the globe
+          eyebrowText:
+            type: text
+            locales:
+              de-DE: Plan your trip
+              en-US: Plan your trip
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 50%
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+      - _id: 6da3e11f-5354-4198-920c-fba366f76e9c
+        type: $localization
+        slots:
+          localized:
+            - _id: 94a05df6-70ba-4ce3-b5de-59e7e3ce07db
+              type: hero
+              variant: imageLeft
+              parameters:
+                image:
+                  type: asset
+                  value: []
+                  locales:
+                    en-US:
+                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                          title:
+                            type: text
+                            value: Trip plan
+                        _source: custom-url
+                title:
+                  type: text
+                  locales:
+                    en-US: Get a free itinerary plan from our local experts
+                locale:
+                  type: localeSelect
+                  value: en-US
+                objectFit:
+                  type: select
+                  value: cover
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: for any trips to South and Central America
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Special offer
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: secondary
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Medium
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 0%
+                containerVariant:
+                  type: select
+                  value: backgroundInContainer
+                textColorVariant:
+                  type: select
+                  value: Dark
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-US: Get your free plan
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/trips
+                      type: projectMapNode
+                      nodeId: d4128937-d0fe-4870-a6aa-2244787daa85
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: primary
+      - _id: 35ba41b8-b664-48cd-ba51-f979a2ef0cec
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: 991976a7-2c00-480c-93cb-e4942ea8b9fb
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: 5933ef6d-877d-4af2-aebd-4a06b1cff56d
+                    type: card
+                    _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+                  - _id: 5a74db1a-10b8-4f2a-959a-d9b320fa5227
+                    type: card
+                    parameters:
+                      badge:
+                        type: text
+                        locales:
+                          de-DE: Singapore
+                          en-US: Singapore
+                      image:
+                        type: asset
+                        value: []
+                        locales:
+                          de-DE:
+                            - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                              type: image
+                              fields:
+                                url:
+                                  type: text
+                                  value: >-
+                                    https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                              _source: custom-url
+                          en-US:
+                            - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                              type: image
+                              fields:
+                                url:
+                                  type: text
+                                  value: >-
+                                    https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                              _source: custom-url
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Singapore
+                          en-US: Singapore
+                      buttonCopy:
+                        type: text
+                        locales:
+                          de-DE: Explore
+                          en-US: Explore
+                      buttonLink:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /destinations
+                            type: projectMapNode
+                            nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          en-US:
+                            path: /destinations
+                            type: projectMapNode
+                            nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      buttonStyle:
+                        type: tp-button-style-parameter
+                        value: link
+                      description:
+                        type: text
+                        locales:
+                          de-DE: >-
+                            Culture, shopping, the best street food and great
+                            night life. Singapore has it all
+                          en-US: >-
+                            Culture, shopping, the best street food and great
+                            night life. Singapore has it all
+                      lineCountRestriction:
+                        type: tp-slider-parameter
+                        value: none
+                  - _id: 5a9475c8-d17b-4eea-9317-417f0f0bf876
+                    type: card
+                    variant: ''
+                    parameters:
+                      badge:
+                        type: text
+                        locales:
+                          de-DE: Japan
+                          en-US: Japan
+                      image:
+                        type: asset
+                        value: []
+                        locales:
+                          de-DE:
+                            - _id: ef9b4129-d793-4cb4-8714-83bf9fe00471
+                              type: image
+                              fields:
+                                url:
+                                  type: text
+                                  value: >-
+                                    https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                                title:
+                                  type: text
+                                  value: Tokyo tower
+                              _source: custom-url
+                          en-US:
+                            - _id: ef9b4129-d793-4cb4-8714-83bf9fe00471
+                              type: image
+                              fields:
+                                url:
+                                  type: text
+                                  value: >-
+                                    https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                                title:
+                                  type: text
+                                  value: Tokyo tower
+                              _source: custom-url
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Explore Tokyo
+                          en-US: Explore Tokyo
+                      badgeSize:
+                        type: select
+                        value: md
+                      objectFit:
+                        type: select
+                        locales:
+                          de-DE: cover
+                          en-US: cover
+                      buttonCopy:
+                        type: text
+                        locales:
+                          de-DE: Explore
+                          en-US: Explore
+                      buttonLink:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /destinations
+                            type: projectMapNode
+                            nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          en-US:
+                            path: /destinations
+                            type: projectMapNode
+                            nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      buttonStyle:
+                        type: tp-button-style-parameter
+                        value: link
+                      description:
+                        type: text
+                        locales:
+                          de-DE: >-
+                            Yoking past and future, Tokyo dazzles with its
+                            traditional culture and passion for everything new,
+                            from contrasting architecture to a dynamic arts
+                            scene to phenomenal dining throughout.
+                          en-US: >-
+                            Yoking past and future, Tokyo dazzles with its
+                            traditional culture and passion for everything new,
+                            from contrasting architecture to a dynamic arts
+                            scene to phenomenal dining throughout.
+                      overlayColor:
+                        type: tp-color-style-parameter
+                        locales:
+                          de-DE: base-300
+                          en-US: base-300
+                      overlayOpacity:
+                        type: tp-slider-parameter
+                        locales:
+                          de-DE: 40%
+                          en-US: 40%
+                      textColorVariant:
+                        type: select
+                        value: Dark
+                      buttonAnimationType:
+                        type: select
+                        value: fadeIn
+                      lineCountRestriction:
+                        type: tp-slider-parameter
+                        value: none
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: small
+                gapY:
+                  type: tp-slider-parameter
+                  value: none
+                columnsCount:
+                  type: tp-slider-parameter
+                  value: '3'
+        parameters:
+          title:
+            type: text
+            locales:
+              de-DE: Entdecke Asien
+              en-US: Explore Asia
+          buttonCopy:
+            type: text
+            value: See all
+          buttonLink:
+            type: link
+            value:
+              path: /${locale}/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          buttonStyle:
+            type: tp-button-style-parameter
+            value: link
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-01-15T15:05:38.343368+00:00'
+modified: '2024-01-17T18:00:04.117979+00:00'
+pattern: false

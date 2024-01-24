@@ -1,0 +1,31 @@
+id: currency
+name: Currency
+created: '2024-01-18T12:26:35.098711+00:00'
+updated: '2024-01-18T12:42:10.973547+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: code
+    name: Code
+    type: text
+    helpText: Short code like (EUR, USD)
+    typeConfig: null
+    localizable: true
+  - id: symbol
+    name: Symbol
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+entryName: name
+description: ''
+icon: dollar
+type: block
+permissions: []

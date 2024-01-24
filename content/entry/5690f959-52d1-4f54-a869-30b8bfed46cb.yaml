@@ -1,0 +1,33 @@
+created: '2024-01-18T12:46:12.168253+00:00'
+modified: '2024-01-18T13:01:19.488984+00:00'
+pattern: false
+entry:
+  _id: 5690f959-52d1-4f54-a869-30b8bfed46cb
+  _name: Austria
+  _slug: austria
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        fields: name,capital,currencies,cca2,flag,flags,translations
+        country: Austria
+  _locales:
+    - en-US
+    - de-DE
+  _overrides:
+    5690f959-52d1-4f54-a869-30b8bfed46cb:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/name/nativeName/bar/common}
+        captial:
+          type: text
+          locales:
+            de-DE: Wien
+        officialName:
+          type: text
+          value: ${#jptr:/Country/0/name/nativeName/bar/official}
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

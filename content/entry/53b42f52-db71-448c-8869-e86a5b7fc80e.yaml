@@ -1,0 +1,26 @@
+created: '2024-01-18T13:29:48.180566+00:00'
+modified: '2024-01-18T13:30:22.192646+00:00'
+pattern: false
+entry:
+  _id: 53b42f52-db71-448c-8869-e86a5b7fc80e
+  _name: Europe
+  _slug: europe
+  type: region
+  fields: {}
+  _dataResources:
+    Countries:
+      type: countriesByRegion
+      variables:
+        region: europe
+  _locales:
+    - de-DE
+    - en-US
+  _overrides:
+    53b42f52-db71-448c-8869-e86a5b7fc80e:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Europa
+            en-US: Europe
+  _pattern: 1f641569-4da4-4a00-b036-90661bac2328

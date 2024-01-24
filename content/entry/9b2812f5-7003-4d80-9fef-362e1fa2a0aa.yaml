@@ -1,0 +1,17 @@
+created: '2024-01-18T12:46:54.514189+00:00'
+modified: '2024-01-18T12:50:34.795415+00:00'
+pattern: false
+entry:
+  _id: 9b2812f5-7003-4d80-9fef-362e1fa2a0aa
+  _name: China
+  _slug: china
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        country: CN
+  _locales:
+    - en-US
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

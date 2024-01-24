@@ -1,0 +1,8 @@
+id: 197a385e-7570-499e-bfb8-fa4083baa4f7
+name: Africa
+type: placeholder
+data: {}
+order: 400
+path: /:locale/destinations/africa
+pathSegment: africa
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

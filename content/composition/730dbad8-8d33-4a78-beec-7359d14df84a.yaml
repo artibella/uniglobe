@@ -1,0 +1,105 @@
+composition:
+  _name: Trips
+  _id: 730dbad8-8d33-4a78-beec-7359d14df84a
+  _slug: trips
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Trips
+  slots:
+    pageFooter:
+      - _id: ff077366-c062-4e13-888c-40b9a3be66d0
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 47a33352-5fd1-4e00-a956-e968ba29571e
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 8e1ca450-cb22-496c-a257-f85aaabad63a
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 749a0108-de12-493f-a28d-f9a77e854d30
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
+                    url:
+                      type: text
+                      value: >-
+                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                    file:
+                      type: file
+                      value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
+                    size:
+                      type: number
+                      value: 49092
+                    title:
+                      type: text
+                      value: rectangle.webp
+                    width:
+                      type: number
+                      value: 1600
+                    height:
+                      type: number
+                      value: 689
+                    mediaType:
+                      type: text
+                      value: image/webp
+                  _source: uniform-assets
+            value: []
+          title:
+            type: text
+            locales:
+              en-US: Trips & Tours
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: Some page description
+          eyebrowText:
+            type: text
+            locales:
+              en-US: eyebrow text
+          paddingBottom:
+            type: select
+            value: None
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+      - _id: 533ba3bb-7d07-4f77-8e71-f1bc8c3c76ae
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+  _locales:
+    - en-US
+created: '2024-01-17T14:10:56.145718+00:00'
+modified: '2024-01-17T14:11:43.746728+00:00'
+pattern: false

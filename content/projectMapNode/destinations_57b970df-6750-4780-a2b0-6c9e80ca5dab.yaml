@@ -1,0 +1,9 @@
+id: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+name: Destinations
+type: composition
+data: {}
+order: 300
+path: /:locale/destinations
+compositionId: 045c67e8-238d-4764-8baa-8d31e707b8ff
+pathSegment: destinations
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

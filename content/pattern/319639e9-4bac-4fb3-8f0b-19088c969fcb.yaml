@@ -6,30 +6,30 @@ composition:
     logo:
       type: asset
       value:
-        - _id: ffeb38a1-39bf-454d-9dad-2b440d8f2ffb
+        - _id: 53d0d079-b280-4ccb-bed8-c6c751d8969f
           type: image
           fields:
             id:
               type: text
-              value: 745700bc-f7ef-4130-a2d1-256b828b1293
+              value: 2d06cb01-b8aa-490b-8567-43a27046030d
             url:
               value: >-
-                https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/QHYSVIh3Rb-lTXlusBNvPQ-uniform_logo_black.svg
+                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
               type: text
             file:
               type: file
-              value: f88f392d-9f0c-43f2-bdcb-4cd855f907a5
+              value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
             size:
-              value: 2288
+              value: 18253
               type: number
             title:
               type: text
-              value: uniform_logo_black.svg
+              value: uniglobe.svg
             width:
-              value: 608
+              value: 358
               type: number
             height:
-              value: 192
+              value: 335
               type: number
             mediaType:
               value: image/svg+xml
@@ -37,7 +37,9 @@ composition:
           _source: uniform-assets
     copyright:
       type: text
-      value: Uniform Systems, Inc. All rights reserved.
+      value: |+
+        THIS IS A FICTICIOUS WEBSITE FOR DEMOING PROPOSES ONLY
+
     footerText:
       type: richText
       value:
@@ -207,9 +209,6 @@ composition:
               children: []
               direction: ltr
           direction: ltr
-    displayBuildTimestamp:
-      type: checkbox
-      value: true
   slots:
     section:
       - _id: 6d0c5ff7-19ef-48f2-9ec8-97c65cec38ac
@@ -222,124 +221,102 @@ composition:
               parameters:
                 link:
                   type: link
-                  value:
-                    path: >-
-                      https://docs.uniform.app/docs/get-started/component-starter-kit
-                    type: url
+                  locales:
+                    en-US:
+                      path: >-
+                        https://docs.uniform.app/docs/get-started/component-starter-kit
+                      type: url
                 title:
                   type: text
-                  value: Documentation
+                  locales:
+                    en-US: Japan
             - _id: 5b5c7862-e6f7-40f6-9a51-f06299d3ecd7
               type: navigationLink
               variant: footer
               parameters:
                 link:
                   type: link
-                  value:
-                    path: https://components-storybook.uniform.app/
-                    type: url
+                  locales:
+                    en-US:
+                      path: https://components-storybook.uniform.app/
+                      type: url
                 title:
                   type: text
-                  value: Storybook
+                  locales:
+                    en-US: Berlin
             - _id: e5365d0c-00d9-42d2-90eb-4446084cc3c0
               type: navigationLink
               variant: footer
               parameters:
                 link:
                   type: link
-                  value:
-                    path: https://components.uniform.app/
-                    type: url
+                  locales:
+                    en-US:
+                      path: https://components.uniform.app/
+                      type: url
                 title:
                   type: text
-                  value: Demo
+                  locales:
+                    en-US: Demo
         parameters:
           title:
             type: text
-            value: Key resources
-    iconLinks:
-      - _id: 5ebfeac4-2e19-42fa-b71c-e3ffb179bc61
-        type: iconLink
+            value: Top destinations
+      - _id: 1eb2ed40-6a4c-404d-8710-2c31a25bfa54
+        type: footerSection
+        slots:
+          links:
+            - _id: c5206e6f-7f75-4bbe-96e9-9fe492a46b54
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    en-US:
+                      path: https://components.uniform.app/
+                      type: url
+                title:
+                  type: text
+                  locales:
+                    en-US: Demo
+            - _id: 6c95b0ca-1dd2-47f0-bb0a-f0c22e2a8382
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    en-US:
+                      path: >-
+                        https://docs.uniform.app/docs/get-started/component-starter-kit
+                      type: url
+                title:
+                  type: text
+                  locales:
+                    en-US: Japan
+            - _id: f7f8d4d5-2cff-4559-b61e-ebe7e4d3d4a8
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    en-US:
+                      path: https://components-storybook.uniform.app/
+                      type: url
+                title:
+                  type: text
+                  locales:
+                    en-US: Berlin
         parameters:
-          icon:
-            type: asset
-            value:
-              - _id: 622cc594-e795-44a7-9643-fe468f0c4e0b
-                type: image
-                fields:
-                  id:
-                    type: text
-                    value: 6e4df38e-7e0f-4f10-a490-d91ebc6ef84a
-                  url:
-                    value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/HwXZcb0XQWW8W17eUNo6lQ-storybook_icon.svg
-                    type: text
-                  file:
-                    type: file
-                    value: a7e2a12d-7ee3-4250-a44d-aa1289aa8d1c
-                  size:
-                    value: 7943
-                    type: number
-                  title:
-                    type: text
-                    value: storybook_icon.svg
-                  width:
-                    value: 38
-                    type: number
-                  height:
-                    value: 38
-                    type: number
-                  mediaType:
-                    value: image/svg+xml
-                    type: text
-                _source: uniform-assets
-          link:
-            type: link
-            value:
-              path: https://components-storybook.uniform.app/
-              type: url
-      - _id: a743d3e8-28d6-4d44-adfb-71590eba0118
-        type: iconLink
-        parameters:
-          icon:
-            type: asset
-            value:
-              - _id: ab6227e7-e44c-493c-8ba7-d7f9c5e09889
-                type: image
-                fields:
-                  id:
-                    type: text
-                    value: 3fc503ba-876c-4f9a-bb7e-2161de64ef87
-                  url:
-                    value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/fO3GkjsgSW-33LOxx6O4Jw-github_icon_black.svg
-                    type: text
-                  file:
-                    type: file
-                    value: 27a9e2a4-bdaf-45a0-ada1-26d7cc09b31a
-                  size:
-                    value: 1327
-                    type: number
-                  title:
-                    type: text
-                    value: github_icon_black.svg
-                  width:
-                    value: 35
-                    type: number
-                  height:
-                    value: 34
-                    type: number
-                  mediaType:
-                    value: image/svg+xml
-                    type: text
-                _source: uniform-assets
-          link:
-            type: link
-            value:
-              path: https://github.com/uniformdev/uniform-component-starter-kit
-              type: url
-created: '2023-08-28T12:30:22.654999+00:00'
-modified: '2023-12-12T13:37:09.62024+00:00'
+          title:
+            type: text
+            value: Tours
+  _locales:
+    - en-US
+created: '2024-01-15T09:26:47.163483+00:00'
+modified: '2024-01-15T17:30:08.554861+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Footer_preview_image

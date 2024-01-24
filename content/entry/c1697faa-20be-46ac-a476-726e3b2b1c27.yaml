@@ -1,0 +1,17 @@
+created: '2024-01-18T12:43:30.068145+00:00'
+modified: '2024-01-18T12:43:59.581393+00:00'
+pattern: false
+entry:
+  _id: c1697faa-20be-46ac-a476-726e3b2b1c27
+  _name: Cuba
+  _slug: cuba
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        country: Cuba
+  _locales:
+    - en-US
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

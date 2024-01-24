@@ -1,0 +1,26 @@
+id: region
+name: Region
+created: '2024-01-18T13:20:21.829613+00:00'
+updated: '2024-01-18T13:20:21.829613+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: countries
+    name: Countries
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - countryBlock
+        - $loop
+entryName: name
+description: ''
+icon: file-document
+type: contentType
+permissions: []

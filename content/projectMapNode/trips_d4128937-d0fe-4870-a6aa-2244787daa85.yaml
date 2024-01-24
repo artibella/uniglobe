@@ -1,0 +1,9 @@
+id: d4128937-d0fe-4870-a6aa-2244787daa85
+name: Trips
+type: composition
+data: {}
+order: 350
+path: /:locale/trips
+compositionId: 730dbad8-8d33-4a78-beec-7359d14df84a
+pathSegment: trips
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

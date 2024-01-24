@@ -1,0 +1,10 @@
+id: b29e3d30-3892-43f9-ae4b-0fbe7efaf32a
+name: Place
+type: composition
+data:
+  previewValue: ''
+order: 300
+path: /:locale/destinations/:place
+compositionId: 7391ada8-e55f-4c69-92dd-252b2b842497
+pathSegment: ':place'
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

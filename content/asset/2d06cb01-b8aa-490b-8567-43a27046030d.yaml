@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2d06cb01-b8aa-490b-8567-43a27046030d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: uniglobe.svg
+    file:
+      type: file
+      value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+      type: text
+    size:
+      value: 18253
+      type: number
+    width:
+      value: 358
+      type: number
+    height:
+      value: 335
+      type: number
+    custom: {}
+created: '2024-01-15T12:30:01.744006+00:00'
+modified: '2024-01-15T12:30:01.744006+00:00'

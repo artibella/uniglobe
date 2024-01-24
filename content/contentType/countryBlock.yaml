@@ -1,0 +1,57 @@
+id: countryBlock
+name: Country Block
+created: '2024-01-18T13:10:45.161616+00:00'
+updated: '2024-01-18T13:10:45.161616+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: code
+    name: Code
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: officialName
+    name: Official name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: captial
+    name: Captial
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: flagEmoji
+    name: Flag Emoji
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: flag
+    name: Flag
+    type: asset
+    helpText: ''
+    typeConfig: {}
+    localizable: false
+  - id: currencies
+    name: Currencies
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - currency
+        - $loop
+entryName: name
+description: ''
+icon: globe-alt
+type: block
+permissions: []

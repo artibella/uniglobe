@@ -1,0 +1,138 @@
+composition:
+  _name: Shop
+  _id: 58d1a885-d2e6-432d-9e38-db2ec9f9d3f4
+  _slug: shop
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        de-DE: Shop 🇩🇪
+        en-US: Shop
+  slots:
+    pageFooter:
+      - _id: 31b62d98-7ccf-419c-8f25-7fc8a10f20ef
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: aa52a744-460d-46ca-b067-f614b31acb8f
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 9fc879b0-4876-42aa-aa86-a2eda9768a6a
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value: []
+            locales:
+              de-DE:
+                - _id: 749a0108-de12-493f-a28d-f9a77e854d30
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
+                    url:
+                      type: text
+                      value: >-
+                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                    file:
+                      type: file
+                      value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
+                    size:
+                      type: number
+                      value: 49092
+                    title:
+                      type: text
+                      value: rectangle.webp
+                    width:
+                      type: number
+                      value: 1600
+                    height:
+                      type: number
+                      value: 689
+                    mediaType:
+                      type: text
+                      value: image/webp
+                  _source: uniform-assets
+              en-US:
+                - _id: 749a0108-de12-493f-a28d-f9a77e854d30
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
+                    url:
+                      type: text
+                      value: >-
+                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                    file:
+                      type: file
+                      value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
+                    size:
+                      type: number
+                      value: 49092
+                    title:
+                      type: text
+                      value: rectangle.webp
+                    width:
+                      type: number
+                      value: 1600
+                    height:
+                      type: number
+                      value: 689
+                    mediaType:
+                      type: text
+                      value: image/webp
+                  _source: uniform-assets
+          title:
+            type: text
+            locales:
+              de-DE: Shop 🇩🇪
+              en-US: Shop
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              de-DE: Some page description
+          eyebrowText:
+            type: text
+            locales:
+              de-DE: eyebrow text
+          paddingBottom:
+            type: select
+            value: None
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+      - _id: bb128d44-43eb-46a6-b26a-d889f6750700
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-01-17T15:29:40.565424+00:00'
+modified: '2024-01-17T15:31:26.278739+00:00'
+pattern: false

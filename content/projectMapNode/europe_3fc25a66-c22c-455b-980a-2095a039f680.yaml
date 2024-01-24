@@ -1,0 +1,8 @@
+id: 3fc25a66-c22c-455b-980a-2095a039f680
+name: Europe
+type: placeholder
+data: {}
+order: 550
+path: /:locale/destinations/europe
+pathSegment: europe
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

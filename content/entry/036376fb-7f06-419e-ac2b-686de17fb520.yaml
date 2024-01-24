@@ -1,0 +1,17 @@
+created: '2024-01-18T12:43:00.172879+00:00'
+modified: '2024-01-18T12:43:17.565957+00:00'
+pattern: false
+entry:
+  _id: 036376fb-7f06-419e-ac2b-686de17fb520
+  _name: Denmark
+  _slug: denmark
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        country: Danmark
+  _locales:
+    - en-US
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
