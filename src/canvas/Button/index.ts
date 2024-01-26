@@ -13,4 +13,9 @@ registerUniformComponent({
   component: Button,
 });
 
+registerUniformComponent({
+  type: 'buttonLocalized',
+  component: Button,
+});
+
 export default Button;

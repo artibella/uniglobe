@@ -80,4 +80,14 @@ const Hero: FC<HeroProps> = props => {
   }
 );
 
+[undefined, HeroVariant.ImageLeft, HeroVariant.ImageRight, HeroVariant.BackgroundImage, HeroVariant.TwoColumns].forEach(
+  variantId => {
+    registerUniformComponent({
+      type: 'heroLocalized',
+      component: withoutContainer(Hero),
+      variantId,
+    });
+  }
+);
+
 export default withoutContainer(Hero);
