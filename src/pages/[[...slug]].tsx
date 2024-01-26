@@ -1,5 +1,5 @@
 import { CANVAS_DRAFT_STATE, CANVAS_PUBLISHED_STATE } from '@uniformdev/canvas';
-import { withUniformGetServerSideProps } from '@uniformdev/canvas-next/route';
+import { withUniformGetServerSideProps, prependLocale } from '@uniformdev/canvas-next/route';
 import { getBreadcrumbs, getRouteClient } from '../utilities/canvas/canvasClients';
 export { default } from '../components/BasePage';
 
@@ -10,11 +10,7 @@ export const getServerSideProps = withUniformGetServerSideProps({
     state: Boolean(context.preview) ? CANVAS_DRAFT_STATE : CANVAS_PUBLISHED_STATE,
     //locale: context.locale ?? context.defaultLocale,
   }),
-  modifyPath: (path: string, { locale, defaultLocale, locales }) => {
-    if (!locales?.length) return path;
-    const slug = path === '/' ? '' : path;
-    return `/${locale || defaultLocale}${slug}`;
-  },
+  modifyPath: prependLocale,
   client: getRouteClient(),
   handleComposition: async (routeResponse, _context) => {
     const { composition, errors } = routeResponse.compositionApiResponse || {};
