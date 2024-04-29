@@ -3,8 +3,8 @@
   "version": "5.1.16",
   "private": true,
   "engines": {
-    "npm": ">=10.0.0",
-    "node": ">=20.0.0npm",
+    "npm": "10.x",
+    "node": "20.x",
     "yarn": "please-use-npm",
     "pnpm": "please-use-npm"
   },
