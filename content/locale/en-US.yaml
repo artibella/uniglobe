@@ -1,3 +1,6 @@
-displayName: English
-isDefault: true
+displayName: 🇺🇸 English (United States)
 locale: en-US
+group: 🇺🇸 United States
+tags:
+  - English
+order: 64

@@ -1,3 +1,6 @@
-displayName: German
-isDefault: false
+displayName: 🇩🇪 German (Germany)
 locale: de-DE
+group: 🇩🇪 Germany
+tags:
+  - German
+order: 41
