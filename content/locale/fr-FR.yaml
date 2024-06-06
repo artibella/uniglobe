@@ -1,4 +1,6 @@
 displayName: 🇫🇷 French (France)
 locale: fr-FR
 group: France
+tags:
+  - French
 order: 37

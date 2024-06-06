@@ -1,4 +1,6 @@
 displayName: '🇱🇺 French (Luxembourg) '
 locale: fr-LU
 group: 🇱🇺 Luxembourg
+tags:
+  - French
 order: 77
