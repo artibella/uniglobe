@@ -5,6 +5,7 @@ import {
   UniformComposition,
   UniformSlot,
   useUniformCurrentComposition,
+  registerUniformComponent,
 } from '@uniformdev/canvas-react';
 import ComponentStarterKitContextProvider from '../../context/ComponentStarterKitContext';
 import UniformPreviewIcon from '../UniformPreviewIcon';
@@ -81,3 +82,8 @@ const BasePage: FC<BasePageProps> = ({
 );
 
 export default BasePage;
+
+registerUniformComponent({
+  type: 'page',
+  component: BasePage,
+});
