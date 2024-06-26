@@ -13,6 +13,8 @@ import ThemeProvider from '../ThemeProvider';
 import { getGapClass, getMarginBottomClass, PaddingSize } from '../../utilities/styling';
 import { CHILDREN_CONTAINER_STYLES, COMMON_PADDING } from '../../hocs/withoutContainer';
 import { BasePageProps } from './';
+import { useClientConditionsComposition } from '../../lib/useClientConditionsComposition';
+import { useSetViewportQuirk } from '../../lib/useSetViewportQuirk';
 
 const PageContent: FC<Pick<BasePageProps, 'preview' | 'useUniformComposition' | 'providers' | 'styles'>> = ({
   useUniformComposition,
@@ -64,22 +66,28 @@ const BasePage: FC<BasePageProps> = ({
   providers,
   styles,
   context,
-}) => (
-  <UniformComposition
-    data={composition}
-    behaviorTracking="onLoad"
-    contextualEditingEnhancer={createUniformApiEnhancer({ apiUrl: '/api/preview' })}
-  >
-    <ComponentStarterKitContextProvider {...(context || {})}>
-      <PageContent
-        useUniformComposition={useUniformComposition}
-        preview={preview}
-        providers={providers}
-        styles={styles}
-      />
-    </ComponentStarterKitContextProvider>
-  </UniformComposition>
-);
+}) => {
+  // set viewport quirk
+  useSetViewportQuirk();
+  const preprocessedComposition = useClientConditionsComposition(composition);
+
+  return (
+    <UniformComposition
+      data={preprocessedComposition}
+      behaviorTracking="onLoad"
+      contextualEditingEnhancer={createUniformApiEnhancer({ apiUrl: '/api/preview' })}
+    >
+      <ComponentStarterKitContextProvider {...(context || {})}>
+        <PageContent
+          useUniformComposition={useUniformComposition}
+          preview={preview}
+          providers={providers}
+          styles={styles}
+        />
+      </ComponentStarterKitContextProvider>
+    </UniformComposition>
+  );
+};
 
 export default BasePage;
 
