@@ -5,12 +5,23 @@ import classNames from 'classnames';
 import { UniformRichText, UniformSlot } from '@uniformdev/canvas-react';
 import { ScreenContainer } from '../../../components/Container';
 import { getMediaUrl } from '../../../utilities';
+import { useUniformContext } from '@uniformdev/context-react';
 import { FooterProps } from '.';
 
 const BuildTimestamp = dynamic(() => import('../../../components/BuildTimestamp'), { ssr: false });
 
 export const Footer: FC<FooterProps> = ({ logo, displayBuildTimestamp = false, copyright, styles }) => {
   const imageUrl = getMediaUrl(logo);
+  const context = useUniformContext({ throwOnMissingProvider: false });
+  // callback to set user OS
+  const setUserOS = (os: string) => {
+    context?.context.update({
+      quirks: {
+        os: os,
+      },
+    });
+  };
+
   return (
     <div className={classNames('bg-secondary', styles?.container)}>
       <ScreenContainer>
@@ -29,6 +40,12 @@ export const Footer: FC<FooterProps> = ({ logo, displayBuildTimestamp = false, c
             />
             <div className="footer-content text-secondary-content">
               <UniformRichText parameterId="footerText" />
+            </div>
+            <div>
+              <button className="inline-block mr-5" onClick={() => setUserOS('android')}>
+                Android
+              </button>
+              <button onClick={() => setUserOS('ios')}>iOS</button>
             </div>
           </div>
           <UniformSlot name="section" />

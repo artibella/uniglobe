@@ -1,6 +1,38 @@
 {
   "project": {
-    "pz": {},
+    "pz": {
+      "sig": {
+        "androidUsers": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "os",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "android"
+                }
+              },
+              {
+                "key": "deviceType",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "!=",
+                  "rhs": "d"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
     "test": {}
   }
 }
