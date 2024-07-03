@@ -85,5 +85,5 @@ export default BasePage;
 
 registerUniformComponent({
   type: 'page',
-  component: BasePage,
+  component: PageContent,
 });
