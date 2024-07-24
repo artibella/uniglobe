@@ -13,8 +13,7 @@ import ThemeProvider from '../ThemeProvider';
 import { getGapClass, getMarginBottomClass, PaddingSize } from '../../utilities/styling';
 import { CHILDREN_CONTAINER_STYLES, COMMON_PADDING } from '../../hocs/withoutContainer';
 import { BasePageProps } from './';
-import { useClientConditionsComposition } from '../../lib/useClientConditionsComposition';
-import { useSetViewportQuirk } from '../../lib/useSetViewportQuirk';
+import { useSetViewportQuirk } from '../../hooks/useSetViewportQuirk';
 
 const PageContent: FC<Pick<BasePageProps, 'preview' | 'useUniformComposition' | 'providers' | 'styles'>> = ({
   useUniformComposition,
@@ -69,11 +68,10 @@ const BasePage: FC<BasePageProps> = ({
 }) => {
   // set viewport quirk
   useSetViewportQuirk();
-  const preprocessedComposition = useClientConditionsComposition(composition);
 
   return (
     <UniformComposition
-      data={preprocessedComposition}
+      data={composition}
       behaviorTracking="onLoad"
       contextualEditingEnhancer={createUniformApiEnhancer({ apiUrl: '/api/preview' })}
     >
