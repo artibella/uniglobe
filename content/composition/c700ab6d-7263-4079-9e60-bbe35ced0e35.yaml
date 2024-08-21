@@ -1,0 +1,17 @@
+composition:
+  _name: USA
+  _id: c700ab6d-7263-4079-9e60-bbe35ced0e35
+  _slug: usa
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: 19e60e4d-45a2-4f36-a256-f95107fa4511
+  _locales:
+    - en-US
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2024-08-21T14:02:42.015431+00:00'
+modified: '2024-08-21T14:03:19.004749+00:00'
+pattern: false

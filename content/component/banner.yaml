@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: banner
 name: Banner
 icon: toolbar-bottom
@@ -7,13 +7,11 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: text
-    helpText: ''
     typeConfig:
       multiline: true
       linesCount: '5'
@@ -21,7 +19,6 @@ parameters:
   - id: icon
     name: Icon
     type: asset
-    helpText: ''
     typeConfig:
       max: 1
       min: 0
@@ -37,7 +34,6 @@ parameters:
   - id: position
     name: Position
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Top
@@ -56,7 +52,6 @@ parameters:
   - id: textAlign
     name: Text Align
     type: tp-horizontal-align-parameter
-    helpText: ''
     typeConfig: null
   - id: group_primaryCta
     name: Primary CTA
@@ -71,24 +66,20 @@ parameters:
   - id: primaryButtonCopy
     name: Primary Button Copy
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: primaryButtonLink
     name: Primary Button Link
     type: link
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: primaryButtonStyle
     name: Primary Button Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: primaryButtonAnimationType
     name: Primary Button Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -108,24 +99,20 @@ parameters:
   - id: secondaryButtonCopy
     name: Secondary Button Copy
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: secondaryButtonLink
     name: Secondary Button Link
     type: link
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: secondaryButtonStyle
     name: Secondary Button Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: secondaryButtonAnimationType
     name: Secondary Button Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -139,8 +126,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: description
 canBeComposition: false
-created: '2023-11-22T09:43:33.502308+00:00'
-updated: '2023-11-22T09:53:32.685693+00:00'
+created: '2024-01-15T09:26:42.717428+00:00'
+updated: '2024-01-15T10:04:13.017539+00:00'
 variants:
   - id: fullWidth
     name: Full Width

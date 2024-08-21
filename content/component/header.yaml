@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: header
 name: Header
 icon: >-
@@ -8,15 +8,12 @@ parameters:
   - id: logo
     name: Logo
     type: asset
-    helpText: ''
     typeConfig:
       max: 1
       min: 0
-    localizable: true
   - id: linksAlignment
     name: Links Alignment
     type: tp-horizontal-align-parameter
-    helpText: ''
     typeConfig: null
   - id: group_global
     name: Global
@@ -30,12 +27,10 @@ parameters:
   - id: theme
     name: Theme
     type: tp-set-up-theme-parameter
-    helpText: ''
     typeConfig: null
   - id: primaryFont
     name: Primary Font
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Inter
@@ -65,7 +60,6 @@ parameters:
   - id: favicon
     name: Favicon
     type: asset
-    helpText: ''
     typeConfig:
       max: 1
       min: 0
@@ -111,8 +105,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: linksAlignment
 canBeComposition: false
-created: '2023-11-22T09:43:34.431017+00:00'
-updated: '2023-11-22T10:00:48.910499+00:00'
+created: '2024-01-15T09:26:43.681289+00:00'
+updated: '2024-02-01T15:36:00.639198+00:00'
 variants:
   - id: light
     name: Light

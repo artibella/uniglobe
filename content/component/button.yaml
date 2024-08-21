@@ -7,24 +7,19 @@ parameters:
   - id: copy
     name: Copy
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: link
     name: Link
     type: link
-    helpText: ''
     typeConfig: null
-    localizable: true
   - id: style
     name: Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: animationType
     name: Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -39,4 +34,4 @@ slots: []
 titleParameter: copy
 canBeComposition: false
 created: '2024-01-15T09:26:41.93275+00:00'
-updated: '2024-01-15T09:55:22.089314+00:00'
+updated: '2024-01-26T13:05:11.747121+00:00'

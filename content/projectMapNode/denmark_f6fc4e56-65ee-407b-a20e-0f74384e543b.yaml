@@ -1,0 +1,9 @@
+id: f6fc4e56-65ee-407b-a20e-0f74384e543b
+name: Denmark
+order: 500
+path: /:locale/destinations/europe/denmark
+type: composition
+pathSegment: denmark
+data: {}
+compositionId: 85acf4eb-d6e1-42a3-8a3a-995b94651548
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

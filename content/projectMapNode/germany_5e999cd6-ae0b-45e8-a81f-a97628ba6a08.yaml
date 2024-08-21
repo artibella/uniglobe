@@ -1,0 +1,9 @@
+id: 5e999cd6-ae0b-45e8-a81f-a97628ba6a08
+name: Germany
+order: 500
+path: /:locale/destinations/europe/germany
+type: composition
+pathSegment: germany
+data: {}
+compositionId: bd1065bb-b133-4ae8-9fea-96bbc359b64c
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

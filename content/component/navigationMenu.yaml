@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: navigationMenu
 name: Navigation Menu
 icon: >-
@@ -8,13 +8,11 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: link
     name: Link
     type: link
-    helpText: ''
     typeConfig: null
     localizable: true
 categoryId: 1bf9504a-07c4-4873-bbca-f235a6da182b
@@ -32,5 +30,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2023-11-22T09:43:34.284438+00:00'
-updated: '2023-11-22T10:05:26.815081+00:00'
+created: '2024-01-15T09:26:44.530674+00:00'
+updated: '2024-01-15T15:03:13.124369+00:00'

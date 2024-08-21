@@ -1,0 +1,19 @@
+id: multipleCountries
+displayName: Countries (selection)
+ttl: 30
+body: ''
+path: /multiple
+custom:
+  maxItems: 0
+  proposedName: Multiple Country
+  allowedContentTypes:
+    - country
+method: GET
+purgeKey: 2e73a3fd-bf0c-49b1-bdb1-a908ea2730a8
+archetype: multipleEntries
+variables:
+  entryIds:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

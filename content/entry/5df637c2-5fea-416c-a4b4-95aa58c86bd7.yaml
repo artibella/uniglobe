@@ -1,0 +1,228 @@
+created: '2024-08-21T13:38:41.298934+00:00'
+modified: '2024-08-21T13:40:38.044734+00:00'
+pattern: false
+entry:
+  _id: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+  _name: Italy
+  _slug: italy
+  _thumbnail: https://flagcdn.com/it.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        country: Italy
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+  _overrides:
+    5df637c2-5fea-416c-a4b4-95aa58c86bd7:
+      parameters:
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              Discover Italy, where timeless history, breathtaking landscapes,
+              and exquisite cuisine create a journey of unforgettable
+              experiences and enchanting adventures.
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Italy is a captivating tapestry of history, art, and
+                          culinary delights, offering travelers an unparalleled
+                          experience from the rolling hills of Tuscany to the
+                          enchanting canals of Venice. Wander through the
+                          ancient ruins of Rome, marvel at the Renaissance art
+                          in Florence, and savor world-class cuisine in Naples.
+                          From the stunning Amalfi Coast and the picturesque
+                          lakes of Northern Italy to the vibrant streets of
+                          Milan and the historic charm of Sicily, Italy provides
+                          a rich blend of cultural heritage, natural beauty, and
+                          culinary excellence. Whether you're exploring historic
+                          landmarks, relaxing on sun-drenched beaches, or
+                          indulging in local wines and dishes, Italy promises a
+                          truly unforgettable adventure.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Italy
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Italy depends on the regions
+                          you plan to explore and your travel preferences:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (April to June):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring is ideal for traveling in Italy with mild temperatures and blooming landscapes. It''s a great time to explore cities, enjoy outdoor cafes, and visit gardens and historical sites without the peak summer crowds.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (July to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer offers warm weather perfect for enjoying Italy''s beautiful beaches and outdoor festivals. However, it can be hot in cities and crowded with tourists, especially in popular destinations like Rome, Florence, and Venice. Coastal regions and islands are particularly appealing during this time.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn brings cooler temperatures and fewer tourists, making it ideal for exploring cities, wine regions, and the countryside. This season offers beautiful fall foliage, harvest festivals, and a more relaxed travel experience.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is perfect for experiencing Italy’s festive Christmas markets, cozy atmosphere, and winter sports in regions like the Alps. Cities are beautifully decorated for the holidays, and it’s a great time to enjoy seasonal cuisine and cultural events.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For pleasant weather and fewer crowds, visit in spring
+                          or autumn. Summer is ideal for beach vacations and
+                          festivals, while winter offers a magical holiday
+                          atmosphere and opportunities for winter sports.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: b863f1cc-efe4-4839-a1c6-7e906d62568f
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1551801319-ca06060f3fcc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Bjorn Snelders, Unsplash'
+                _source: custom-url
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

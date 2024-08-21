@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: menuSection
 name: Menu Section
 icon: >-
@@ -8,7 +8,6 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
 categoryId: 1bf9504a-07c4-4873-bbca-f235a6da182b
@@ -18,5 +17,5 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2023-11-22T09:43:33.332661+00:00'
-updated: '2023-11-22T10:03:39.026691+00:00'
+created: '2024-01-15T09:26:43.533335+00:00'
+updated: '2024-01-15T15:03:15.172977+00:00'

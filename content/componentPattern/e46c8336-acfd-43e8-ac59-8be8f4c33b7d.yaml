@@ -1,0 +1,446 @@
+composition:
+  _name: Main Header
+  _id: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+  type: header
+  variant: light
+  parameters:
+    logo:
+      type: asset
+      value:
+        - _id: 14268c6f-2973-4ca6-905f-4dd0fcb76c71
+          type: image
+          fields:
+            id:
+              type: text
+              value: 2d06cb01-b8aa-490b-8567-43a27046030d
+            url:
+              value: >-
+                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+              type: text
+            file:
+              type: file
+              value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
+            size:
+              value: 18253
+              type: number
+            title:
+              type: text
+              value: uniglobe.svg
+            width:
+              value: 358
+              type: number
+            height:
+              value: 335
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+      locales:
+        de-DE:
+          - _id: 50c9b863-04e9-48cd-8b6c-9561a87169d0
+            type: image
+            fields:
+              id:
+                type: text
+                value: 2d06cb01-b8aa-490b-8567-43a27046030d
+              url:
+                value: >-
+                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+                type: text
+              file:
+                type: file
+                value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
+              size:
+                value: 18253
+                type: number
+              title:
+                type: text
+                value: uniglobe.svg
+              width:
+                value: 358
+                type: number
+              height:
+                value: 335
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+        en-US:
+          - _id: 8dac0f50-5ea5-407a-9c67-0be4b61526fb
+            type: image
+            fields:
+              id:
+                type: text
+                value: 2d06cb01-b8aa-490b-8567-43a27046030d
+              url:
+                value: >-
+                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+                type: text
+              file:
+                type: file
+                value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
+              size:
+                value: 18253
+                type: number
+              title:
+                type: text
+                value: uniglobe.svg
+              width:
+                value: 358
+                type: number
+              height:
+                value: 335
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    theme:
+      type: tp-set-up-theme-parameter
+      value:
+        colors:
+          - name: primary
+            label: Primary
+            value: '#0052ED'
+          - name: primary-content
+            label: Primary Content
+            value: '#FFFFFF'
+          - name: secondary
+            label: Secondary
+            value: '#ffffff'
+          - name: secondary-content
+            label: Secondary Content
+            value: '#000000'
+          - name: accent
+            label: Accent
+            value: '#DF0000'
+          - name: accent-content
+            label: Accent Content
+            value: '#FFFFFF'
+          - name: info-content
+            label: Info Content
+            value: '#99C6FF'
+          - name: base-200
+            label: Base 200
+            value: '#6b8ff0'
+          - name: base-300
+            label: Base 300
+            value: '#001242'
+        themeName: uniform
+        themeLabel: Uniform
+    favicon:
+      type: asset
+      value:
+        - _id: 93994c6e-dfc3-4d44-8a0b-db3e2cc508a2
+          type: image
+          fields:
+            id:
+              type: text
+              value: 2d06cb01-b8aa-490b-8567-43a27046030d
+            url:
+              value: >-
+                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+              type: text
+            file:
+              type: file
+              value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
+            size:
+              value: 18253
+              type: number
+            title:
+              type: text
+              value: uniglobe.svg
+            width:
+              value: 358
+              type: number
+            height:
+              value: 335
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+    primaryFont:
+      type: select
+      value: inter
+    syntheticGap:
+      type: tp-slider-parameter
+      value: Medium
+    linksAlignment:
+      type: tp-horizontal-align-parameter
+      value: left
+  slots:
+    links:
+      - _id: fa9fde41-a60f-4f5b-9b02-0be9bd390783
+        type: navigationGroup
+        slots:
+          subNavItems:
+            - _id: 20b5c320-954b-48d1-941e-c598892336f8
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /${locale}/destinations/asia
+                      type: projectMapNode
+                      nodeId: 6d7efb88-dfa1-48cf-a681-05e4c97c8cc3
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                    en-US:
+                      path: /${locale}/destinations/asia
+                      type: projectMapNode
+                      nodeId: 6d7efb88-dfa1-48cf-a681-05e4c97c8cc3
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Asien
+                    en-US: Asia
+              _overridability:
+                hideLockedParameters: true
+            - _id: 942c926a-7c77-4895-9968-0035122b3aaf
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /${locale}/destinations/africa
+                      type: projectMapNode
+                      nodeId: 197a385e-7570-499e-bfb8-fa4083baa4f7
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                    en-US:
+                      path: /${locale}/destinations/africa
+                      type: projectMapNode
+                      nodeId: 197a385e-7570-499e-bfb8-fa4083baa4f7
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Afrika
+                    en-US: Africa
+              _overridability:
+                hideLockedParameters: true
+            - _id: 4c978ad0-c927-405d-ab88-9750923d0821
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /:locale/destinations/middle-east
+                      type: projectMapNode
+                      nodeId: 955ac309-663a-4455-9f8e-a31df88dc000
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    en-US:
+                      path: /${locale}/destinations/middle-east
+                      type: projectMapNode
+                      nodeId: 955ac309-663a-4455-9f8e-a31df88dc000
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Mittlerer Osten
+                    en-US: Middle East
+              _overridability:
+                hideLockedParameters: true
+            - _id: e4e163e7-b584-4532-858e-900b40985474
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /:locale/destinations/europe
+                      type: projectMapNode
+                      nodeId: 3fc25a66-c22c-455b-980a-2095a039f680
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    en-US:
+                      path: /${locale}/destinations/europe
+                      type: projectMapNode
+                      nodeId: 3fc25a66-c22c-455b-980a-2095a039f680
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Europa
+                    en-US: Europe
+              _overridability:
+                hideLockedParameters: true
+            - _id: d0b595c2-4035-47cb-b862-2911cb5a489e
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /${locale}/destinations/north-america
+                      type: projectMapNode
+                      nodeId: cca6ab42-658f-4dec-9161-31b08f151652
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                    en-US:
+                      path: /${locale}/destinations/north-america
+                      type: projectMapNode
+                      nodeId: cca6ab42-658f-4dec-9161-31b08f151652
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Nordamerika
+                    en-US: North America
+              _overridability:
+                hideLockedParameters: true
+            - _id: 1e8b5e5a-5e41-46cf-9cfa-097a48c14165
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /${locale}/destinations/central-america-and-caribbean
+                      type: projectMapNode
+                      nodeId: c733b89d-b0b8-4ac2-873f-d219b4acbd16
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                    en-US:
+                      path: /${locale}/destinations/central-america-and-caribbean
+                      type: projectMapNode
+                      nodeId: c733b89d-b0b8-4ac2-873f-d219b4acbd16
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Zentralamerika & Karibik
+                    en-US: Central America & Caribbean
+              _overridability:
+                hideLockedParameters: true
+            - _id: a1355659-e117-4054-847d-c099d2eea589
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /:locale/destinations/south-america
+                      type: projectMapNode
+                      nodeId: 9601ba92-0700-449f-8e5f-00a700d71cc0
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    en-US:
+                      path: /${locale}/destinations/south-america
+                      type: projectMapNode
+                      nodeId: 9601ba92-0700-449f-8e5f-00a700d71cc0
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Südamerika
+                    en-US: South America
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          link:
+            type: link
+            value:
+              path: /${locale}/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+          title:
+            type: text
+            locales:
+              de-DE: Reiseziele
+              en-US: Destinations
+        _overridability:
+          hideLockedParameters: true
+      - _id: 7e1606da-1b52-4d4d-8896-00a503345736
+        type: navigationLink
+        parameters:
+          link:
+            type: link
+            locales:
+              de-DE:
+                path: /${locale}/trips
+                type: projectMapNode
+                nodeId: d4128937-d0fe-4870-a6aa-2244787daa85
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+              en-US:
+                path: /${locale}/trips
+                type: projectMapNode
+                nodeId: d4128937-d0fe-4870-a6aa-2244787daa85
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          title:
+            type: text
+            locales:
+              de-DE: Reisen
+              en-US: Trips
+        _overridability:
+          hideLockedParameters: true
+      - _id: 3359d687-6f66-4508-8d05-877852db8768
+        type: navigationLink
+        parameters:
+          link:
+            type: link
+            locales:
+              de-DE:
+                path: /${locale}/destinations/:place
+                type: projectMapNode
+                nodeId: b29e3d30-3892-43f9-ae4b-0fbe7efaf32a
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+              en-US:
+                path: /${locale}/shop
+                type: projectMapNode
+                nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          title:
+            type: text
+            locales:
+              de-DE: Shop
+              en-US: Shop
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      syntheticGap: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-01-15T09:26:48.084372+00:00'
+modified: '2024-03-22T15:25:58.946116+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Header_pattern_preview_image
+categoryId: 1bf9504a-07c4-4873-bbca-f235a6da182b

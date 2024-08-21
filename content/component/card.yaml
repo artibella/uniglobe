@@ -16,14 +16,12 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig:
       required: false
     localizable: true
   - id: image
     name: Image
     type: asset
-    helpText: ''
     typeConfig:
       max: 1
       min: 0
@@ -39,7 +37,6 @@ parameters:
   - id: description
     name: Description
     type: text
-    helpText: ''
     typeConfig:
       required: false
       multiline: true
@@ -48,7 +45,6 @@ parameters:
   - id: lineCountRestriction
     name: Line Count Restriction
     type: tp-slider-parameter
-    helpText: ''
     typeConfig:
       step: 1
       type: custom
@@ -81,13 +77,11 @@ parameters:
   - id: badge
     name: Badge
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: badgeSize
     name: Badge Size
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Large
@@ -101,7 +95,6 @@ parameters:
   - id: badgeStyle
     name: Badge Style
     type: tp-badge-style-parameter
-    helpText: ''
     typeConfig: null
   - id: group_cta
     name: CTA
@@ -115,24 +108,20 @@ parameters:
   - id: buttonLink
     name: Button Link
     type: link
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: buttonStyle
     name: Button Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: buttonCopy
     name: Button Copy
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: buttonAnimationType
     name: Button Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -151,7 +140,6 @@ parameters:
   - id: objectFit
     name: Object Fit
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Contain
@@ -166,13 +154,11 @@ parameters:
   - id: overlayColor
     name: Overlay Color
     type: tp-color-style-parameter
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: overlayOpacity
     name: Overlay Opacity
     type: tp-slider-parameter
-    helpText: ''
     typeConfig:
       step: 10
       type: steps
@@ -192,7 +178,6 @@ parameters:
   - id: textColorVariant
     name: Text Color Variant
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Dark
@@ -212,7 +197,6 @@ parameters:
   - id: animationType
     name: Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -222,7 +206,6 @@ parameters:
   - id: duration
     name: Duration
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Slow
@@ -234,7 +217,6 @@ parameters:
   - id: delay
     name: Delay
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: None
@@ -248,7 +230,6 @@ parameters:
   - id: animationPreview
     name: Animation Preview
     type: tp-play-animation-parameter
-    helpText: ''
     typeConfig: null
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 previewImageUrl: >-

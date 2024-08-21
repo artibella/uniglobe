@@ -1,0 +1,15 @@
+created: '2024-08-21T13:08:06.173321+00:00'
+modified: '2024-08-21T13:08:29.424494+00:00'
+pattern: false
+entry:
+  _id: 88d8be8f-08fe-4b94-b27a-05d2f3c8b633
+  _name: North America
+  _slug: north-america
+  type: region
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: North America
+  _locales:
+    - en-US

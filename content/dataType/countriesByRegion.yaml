@@ -1,0 +1,23 @@
+id: countriesByRegion
+displayName: Countries by region
+ttl: 30
+path: /region/${region}
+custom:
+  proposedName: region/${region}
+method: GET
+purgeKey: 9cf594c0-151a-468b-8d0a-0026a54bb65b
+archetype: default
+variables:
+  fields:
+    type: text
+    default: name,capital,currencies,cca2,flag,flags,translations
+    helpText: Fields to include in the response. See https://restcountries.com/#fields
+  region:
+    type: text
+    default: ''
+parameters:
+  - key: fields
+    value: ${fields}
+    omitIfEmpty: true
+dataSourceId: restCountries
+allowedOnComponents: []

@@ -1,0 +1,9 @@
+id: 9b2feeda-100f-4cad-84df-02bef20609b1
+name: USA
+order: 500
+path: /:locale/destinations/north-america/usa
+type: composition
+pathSegment: usa
+data: {}
+compositionId: c700ab6d-7263-4079-9e60-bbe35ced0e35
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

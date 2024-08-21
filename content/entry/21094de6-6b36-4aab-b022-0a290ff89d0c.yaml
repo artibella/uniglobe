@@ -1,0 +1,227 @@
+created: '2024-08-21T13:22:29.264606+00:00'
+modified: '2024-08-21T13:23:47.028002+00:00'
+pattern: false
+entry:
+  _id: 21094de6-6b36-4aab-b022-0a290ff89d0c
+  _name: Australia
+  _slug: australia
+  _thumbnail: https://flagcdn.com/au.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        country: Australia
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+  _overrides:
+    21094de6-6b36-4aab-b022-0a290ff89d0c:
+      parameters:
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              Embark on an adventure in Australia, where stunning landscapes,
+              vibrant cities, and unique wildlife create the ultimate
+              destination for every traveler.
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Australia is a land of diverse landscapes and
+                          unforgettable adventures, offering something for every
+                          type of traveler. From the iconic Sydney Opera House
+                          and the Great Barrier Reef to the rugged Outback and
+                          pristine beaches, Australia is a country of contrasts.
+                          Explore vibrant cities, dive into crystal-clear
+                          waters, and encounter unique wildlife like kangaroos
+                          and koalas. Whether you're surfing on the Gold Coast,
+                          hiking in the Blue Mountains, or exploring the
+                          cultural heritage of the Aboriginal people, Australia
+                          promises a journey filled with natural wonders, warm
+                          hospitality, and endless exploration.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Australia
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Australia varies depending on
+                          the regions you plan to explore:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming flowers, making it ideal for exploring cities, national parks, and coastal regions. This is a great time to visit the Great Barrier Reef and the southern cities like Sydney and Melbourne.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer is perfect for beach lovers, with warm temperatures ideal for swimming, surfing, and enjoying outdoor activities. However, it can be hot in the interior and northern regions, so it''s best to stick to coastal areas. Summer also coincides with the festive season, offering lively events and celebrations.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn brings cooler temperatures and fewer crowds, making it a great time to explore Australia’s wine regions, enjoy outdoor festivals, and visit natural attractions like the Blue Mountains. The weather is still warm enough for beach activities, especially in the north.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter in Australia offers a different experience, with cooler weather in the south and mild, dry conditions in the north. This is the best time to explore the Outback, the Northern Territory, and the Great Barrier Reef without the summer heat. It''s also ski season in the Australian Alps.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For beach holidays and outdoor activities, summer is
+                          ideal, while spring and autumn offer mild weather and
+                          fewer tourists. Winter is perfect for exploring the
+                          northern regions and experiencing Australia’s diverse
+                          landscapes.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: 8751569b-7d49-4688-97cb-fe09023f9986
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Dan Freeman, Unsplash'
+                _source: custom-url
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

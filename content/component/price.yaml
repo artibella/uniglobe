@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: price
 name: Price
 icon: awards
@@ -7,25 +7,21 @@ parameters:
   - id: label
     name: Label
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: labelStyle
     name: Label Style
     type: tp-title-style-parameter
-    helpText: ''
     typeConfig: null
   - id: price
     name: Price
     type: number
-    helpText: ''
     typeConfig:
       decimal: true
     localizable: true
   - id: currency
     name: Currency
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: USD
@@ -40,5 +36,5 @@ useTeamPermissions: true
 slots: []
 titleParameter: label
 canBeComposition: false
-created: '2023-11-22T09:43:34.023795+00:00'
-updated: '2023-11-22T10:07:45.527504+00:00'
+created: '2024-01-15T09:26:44.817898+00:00'
+updated: '2024-01-15T15:03:13.316795+00:00'

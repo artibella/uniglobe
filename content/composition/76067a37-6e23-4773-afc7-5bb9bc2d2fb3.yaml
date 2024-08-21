@@ -1,0 +1,59 @@
+composition:
+  _name: Category page
+  _id: 76067a37-6e23-4773-afc7-5bb9bc2d2fb3
+  _slug: ':category-page'
+  type: page
+  _overrides:
+    76067a37-6e23-4773-afc7-5bb9bc2d2fb3|56b695bf-7f88-4bc1-a08b-df6b768677af:
+      slots:
+        $slotSectionItems:
+          - _id: 81ecb062-ebb7-493f-a083-4b902411edff
+            type: hero
+            variant: backgroundImage
+            parameters:
+              image:
+                type: asset
+                locales:
+                  en-US:
+                    - _id: 3411f077-8154-4d32-8be2-33b23436388c
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
+                        url:
+                          type: text
+                          value: >-
+                            https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/u1NHvzSFROOXX-TMfSEKkg-hero_rectangle.png
+                        file:
+                          type: file
+                          value: e629a8c7-e367-441e-93ad-ac98bcec07ef
+                        size:
+                          type: number
+                          value: 76327
+                        title:
+                          type: text
+                          value: hero_rectangle.png
+                        width:
+                          type: number
+                          value: 510
+                        height:
+                          type: number
+                          value: 496
+                        mediaType:
+                          type: text
+                          value: image/png
+                      _source: uniform-assets
+              title:
+                type: text
+                locales:
+                  en-US: Category
+              titleStyle:
+                type: tp-title-style-parameter
+                value: h1
+  _locales:
+    - en-US
+  _pattern: eeb69c1c-e00f-44de-b07a-f76e6a4526bb
+created: '2024-08-20T10:08:00.712124+00:00'
+modified: '2024-08-20T10:09:33.967893+00:00'
+pattern: false

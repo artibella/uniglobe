@@ -1,10 +1,11 @@
 created: '2024-01-18T12:43:30.068145+00:00'
-modified: '2024-01-18T12:43:59.581393+00:00'
+modified: '2024-08-21T13:31:18.897749+00:00'
 pattern: false
 entry:
   _id: c1697faa-20be-46ac-a476-726e3b2b1c27
   _name: Cuba
   _slug: cuba
+  _thumbnail: https://flagcdn.com/cu.svg
   type: country
   fields: {}
   _dataResources:
@@ -14,4 +15,168 @@ entry:
         country: Cuba
   _locales:
     - en-US
+  _overrides:
+    c1697faa-20be-46ac-a476-726e3b2b1c27:
+      parameters:
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              Immerse yourself in the vibrant culture and sun-kissed beauty of
+              Cuba, where lively streets, historic charm, and stunning beaches
+              create the perfect tropical escape.
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Cuba is a captivating island brimming with vibrant
+                          culture, stunning landscapes, and rich history. From
+                          the colorful streets of Havana and the historic charm
+                          of Trinidad to the pristine beaches of Varadero and
+                          the lush tobacco fields of Viñales, Cuba offers a
+                          diverse array of experiences. Explore the rhythm of
+                          salsa music, savor authentic Cuban cuisine, and
+                          immerse yourself in the island’s unique blend of
+                          colonial architecture and revolutionary history.
+                          Whether you're lounging on sun-drenched shores or
+                          dancing to live music, Cuba promises an unforgettable
+                          adventure filled with warmth and charm.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Cuba
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Cuba depends on your
+                          preferences for weather and activities:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dry Season (November to April):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This is the most popular time to visit, with warm temperatures and minimal rainfall, ideal for enjoying Cuba’s beaches, outdoor activities, and festivals. The pleasant weather is perfect for exploring Havana, lounging on the Caribbean coast, and participating in cultural events.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Wet Season (May to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This period is characterized by higher humidity and occasional tropical showers, with temperatures remaining warm. It’s a good time for fewer crowds and lower prices, though be prepared for brief, heavy rain showers. The wet season is also hurricane season, with the possibility of storms, especially in September and October.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the best weather and beach conditions, visit
+                          during the dry season from November to April. The wet
+                          season offers a more budget-friendly experience but
+                          comes with the risk of rain and storms.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: 4616b7ce-8c4e-42d0-be64-511370799fa1
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1500759285222-a95626b934cb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Alexander Kunze'
+                _source: custom-url
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

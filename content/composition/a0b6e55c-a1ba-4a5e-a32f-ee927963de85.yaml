@@ -1,0 +1,382 @@
+composition:
+  _name: Countries
+  _id: a0b6e55c-a1ba-4a5e-a32f-ee927963de85
+  _slug: countries
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Countries
+  slots:
+    pageFooter:
+      - _id: e26474f7-37e7-4cef-b201-6ee3d2e5791c
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: d3633b8a-24f7-4ca2-b25b-ffaa58a2c9c5
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 6e22e634-d977-4d84-bbb4-5b049795eef0
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: f11cc836-b96a-4e6b-8e64-bc4b1cbad443
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    title:
+                      type: text
+                      value: Globe
+                  _source: custom-url
+          title:
+            type: text
+            locales:
+              en-US: All countries
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          paddingBottom:
+            type: select
+            value: None
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+      - _id: 207c44bb-b2f4-43ed-be25-ee699b3449fb
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+      - _id: 99934e2f-b4ec-437f-9a9e-6f944a97dc48
+        type: container
+        slots:
+          container-inner:
+            - _id: 297955c7-7be0-4f3a-8b9e-5a65abf984d0
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Countries (A-Z)
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                        direction: ltr
+            - _id: 2885b129-a7c3-4174-8666-7f040c948603
+              type: table
+              slots:
+                tableBody:
+                  - _id: c198f0d8-a0c3-4105-9691-ead727bf2b2c
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 654ed230-a397-4951-a306-f72c2bdebd45
+                          type: tableRow
+                          slots:
+                            cells:
+                              - _id: a2fd97eb-3410-4c53-8bad-fb34536e86d6
+                                type: tableDataCell
+                                parameters:
+                                  value:
+                                    type: text
+                                    locales:
+                                      en-US: >-
+                                        ${#jptr:/Countries entries Loop
+                                        Item/entry/fields/name/value}
+                              - _id: c4ce905d-a488-430f-a300-e9129f059422
+                                type: tableDataCell
+                                parameters:
+                                  value:
+                                    type: text
+                                    locales:
+                                      en-US: >-
+                                        ${#jptr:/Countries entries Loop
+                                        Item/entry/fields/flagEmoji/value}
+                              - _id: 737bf820-598b-4c34-b1fb-9691b919228b
+                                type: tableDataCell
+                                parameters:
+                                  value:
+                                    type: text
+                                    locales:
+                                      en-US: >-
+                                        ${#jptr:/Countries entries Loop
+                                        Item/entry/fields/captial/value}
+                          parameters:
+                            highlightsOnHover:
+                              type: checkbox
+                              value: true
+                    _dataResources:
+                      Countries entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Countries/entries
+                tableHead:
+                  - _id: b0996c7a-c3bb-4061-b40f-9d115e9a41af
+                    type: tableRow
+                    slots:
+                      cells:
+                        - _id: 5a3dc81b-78dd-45d8-b329-e397b3e5d678
+                          type: tableHeaderCell
+                          parameters:
+                            value:
+                              type: text
+                              locales:
+                                en-US: Country name
+                        - _id: 5911080a-8160-435e-9b53-7c90d68179c1
+                          type: tableHeaderCell
+                          parameters:
+                            value:
+                              type: text
+                              locales:
+                                en-US: Flag
+                        - _id: 41fa673f-b3a3-4d80-b474-173c06261926
+                          type: tableHeaderCell
+                          parameters:
+                            value:
+                              type: text
+                              locales:
+                                en-US: Capital
+              parameters:
+                size:
+                  type: tp-slider-parameter
+                  value: large
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Countries A-Z
+          paddingTop:
+            type: select
+            value: Small
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+      - _id: 985d8c27-08ab-43cd-bf15-5f3afd83c959
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US: ${#jptr:/Country/entry/fields/flag/value}
+          title:
+            type: text
+            locales:
+              en-US: ${#jptr:/Country/entry/fields/name/value}
+          objectFit:
+            type: select
+            value: cover
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: 'Captial: ${#jptr:/Country/entry/fields/captial/value}'
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Featured country
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Light
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 50%
+          containerVariant:
+            type: select
+            value: backgroundInContainer
+          textColorVariant:
+            type: select
+            value: Light
+      - _id: 5daa83c7-0ad4-429a-a059-9ac877f6d306
+        type: container
+        slots:
+          container-inner:
+            - _id: 0482d67a-9648-4c95-8770-dc1551b9a3e6
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: EU Countries
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                        direction: ltr
+            - _id: 318f7720-a28a-4e5f-b645-7fc3c27d885d
+              type: table
+              slots:
+                tableBody:
+                  - _id: 584add42-8514-475d-b9de-f91499725e59
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: fbae2503-8684-4d8b-98c5-7e0693cbedeb
+                          type: tableRow
+                          slots:
+                            cells:
+                              - _id: 5b259712-eb73-4268-9736-546f32742c73
+                                type: tableDataCell
+                                parameters:
+                                  value:
+                                    type: text
+                                    locales:
+                                      en-US: >-
+                                        ${#jptr:/EU entries Loop
+                                        Item/entry/fields/name/value}
+                              - _id: d7fe165d-00d8-491e-a169-803ae61f8ffc
+                                type: tableDataCell
+                                parameters:
+                                  value:
+                                    type: text
+                                    locales:
+                                      en-US: >-
+                                        ${#jptr:/EU entries Loop
+                                        Item/entry/fields/flagEmoji/value}
+                              - _id: 56aa12a6-1fc7-4d42-b8ea-48a605eb6652
+                                type: tableDataCell
+                                parameters:
+                                  value:
+                                    type: text
+                                    locales:
+                                      en-US: >-
+                                        ${#jptr:/EU entries Loop
+                                        Item/entry/fields/captial/value}
+                          parameters:
+                            highlightsOnHover:
+                              type: checkbox
+                              value: true
+                    _dataResources:
+                      EU entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /EU Countries/entries
+                tableHead:
+                  - _id: c01c4308-73e5-4fa8-a9ac-a2cfc124488f
+                    type: tableRow
+                    slots:
+                      cells:
+                        - _id: 73e108d4-fc90-4627-a9a3-1fc3ec4eddbe
+                          type: tableHeaderCell
+                          parameters:
+                            value:
+                              type: text
+                              locales:
+                                en-US: Country name
+                        - _id: 423e18f6-1999-4ea7-8b5e-c998d1a32c19
+                          type: tableHeaderCell
+                          parameters:
+                            value:
+                              type: text
+                              locales:
+                                en-US: Flag
+                        - _id: a357bab8-8c96-4224-8e99-54a9f6b82ca3
+                          type: tableHeaderCell
+                          parameters:
+                            value:
+                              type: text
+                              locales:
+                                en-US: Capital
+              parameters:
+                size:
+                  type: tp-slider-parameter
+                  value: large
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Countries EU
+          paddingTop:
+            type: select
+            value: Small
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+  _dataResources:
+    Country:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: 76e366f2-9c21-4003-8c02-36d43e5c08de
+    Countries:
+      type: countryList
+      variables:
+        limit: '10'
+        locale: ${locale}
+        offset: '0'
+        search: ''
+        orderBy: name_ASC
+        contentTypes: country
+    EU Countries:
+      type: multipleCountries
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          5690f959-52d1-4f54-a869-30b8bfed46cb,036376fb-7f06-419e-ac2b-686de17fb520,a78fe34d-0e49-4f9a-a675-8487a4b928b6,764d065c-6412-4bb0-b354-8f98be36b00c
+  _locales:
+    - en-US
+created: '2024-05-13T20:10:39.872798+00:00'
+modified: '2024-05-14T17:07:59.87182+00:00'
+pattern: false

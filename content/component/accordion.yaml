@@ -8,14 +8,12 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig:
       required: false
     localizable: true
   - id: description
     name: Description
     type: text
-    helpText: ''
     typeConfig:
       required: false
       multiline: true

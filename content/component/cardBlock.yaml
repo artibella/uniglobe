@@ -17,18 +17,15 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
-    helpText: ''
     typeConfig: null
   - id: description
     name: Description
     type: text
-    helpText: ''
     typeConfig:
       multiline: true
       linesCount: '10'
@@ -45,22 +42,19 @@ parameters:
   - id: buttonLink
     name: Button Link
     type: link
-    helpText: ''
     typeConfig: null
   - id: buttonCopy
     name: Button Copy
     type: text
-    helpText: ''
     typeConfig: null
+    localizable: true
   - id: buttonStyle
     name: Button Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: buttonAnimationType
     name: Button Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -77,7 +71,6 @@ parameters:
   - id: textColorVariant
     name: Text Color Variant
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Dark
@@ -104,7 +97,7 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:42.17352+00:00'
-updated: '2024-01-15T09:59:44.188303+00:00'
+updated: '2024-02-01T15:59:48.500871+00:00'
 variants:
   - id: carousel
     name: Carousel

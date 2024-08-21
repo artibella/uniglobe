@@ -1,0 +1,50 @@
+composition:
+  _name: Austria
+  _id: 7c4f741f-e9ac-408d-8a47-c79994047755
+  _slug: austria
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: 5690f959-52d1-4f54-a869-30b8bfed46cb
+  _overrides:
+    7c4f741f-e9ac-408d-8a47-c79994047755|f0693bc9-5723-4bc9-924b-f2fd6fe3089f:
+      slots:
+        $slotSectionItems:
+          - _id: c3af69de-923e-4927-b7bb-1ff7411a1c8a
+            type: richText
+            parameters:
+              content:
+                type: richText
+                locales:
+                  en-US:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Hello Austria
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+  _locales:
+    - en-US
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2024-08-21T14:45:18.877566+00:00'
+modified: '2024-08-21T14:48:20.497169+00:00'
+pattern: false

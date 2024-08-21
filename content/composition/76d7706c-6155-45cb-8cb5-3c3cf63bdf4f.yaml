@@ -1,0 +1,17 @@
+composition:
+  _name: Italy
+  _id: 76d7706c-6155-45cb-8cb5-3c3cf63bdf4f
+  _slug: italy
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+  _locales:
+    - en-US
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2024-08-21T13:58:12.999688+00:00'
+modified: '2024-08-21T13:58:30.543569+00:00'
+pattern: false

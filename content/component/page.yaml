@@ -7,7 +7,6 @@ parameters:
   - id: pageTitle
     name: Page Title
     type: text
-    helpText: ''
     typeConfig:
       required: true
     localizable: true
@@ -21,7 +20,6 @@ parameters:
   - id: pageMetaDescription
     name: Page Meta Description
     type: text
-    helpText: ''
     typeConfig:
       multiline: true
       linesCount: '5'
@@ -29,7 +27,6 @@ parameters:
   - id: pageKeywords
     name: Page Keywords
     type: text
-    helpText: ''
     typeConfig:
       multiline: true
     localizable: true
@@ -143,7 +140,7 @@ slots:
   - id: pageHeader
     name: Page Header
     maxComponents: 1
-    minComponents: 1
+    minComponents: 0
     allowedComponents:
       - header
     allowAllComponents: false
@@ -184,6 +181,7 @@ slots:
       - table
       - countdown
       - $localization
+      - page
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -284,4 +282,4 @@ defaults:
 titleParameter: pageTitle
 canBeComposition: true
 created: '2024-01-15T09:26:44.57822+00:00'
-updated: '2024-01-17T15:11:52.549333+00:00'
+updated: '2024-08-20T10:25:26.856049+00:00'

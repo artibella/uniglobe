@@ -10,12 +10,14 @@ entry:
     countries:
       type: $block
       value:
-        - type: $loop
+        - _id: 6dfe7541-f847-45c9-9f5b-10d8099d94ad
+          type: $loop
           fields:
             body:
               type: $block
               value:
-                - type: countryBlock
+                - _id: 406b2c3e-38f8-4a37-97bd-e8f82dd253c9
+                  type: countryBlock
                   fields:
                     code:
                       type: text
@@ -36,12 +38,14 @@ entry:
                     currencies:
                       type: $block
                       value:
-                        - type: $loop
+                        - _id: c47e11cd-1ca5-4d0d-bcf9-d99fe7eae075
+                          type: $loop
                           fields:
                             body:
                               type: $block
                               value:
-                                - type: currency
+                                - _id: 1e7392a5-9d1a-4d8b-9aa6-42b9355f42f5
+                                  type: currency
                                   fields:
                                     code:
                                       type: text

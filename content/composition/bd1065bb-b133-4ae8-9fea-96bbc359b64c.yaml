@@ -1,0 +1,17 @@
+composition:
+  _name: Germany
+  _id: bd1065bb-b133-4ae8-9fea-96bbc359b64c
+  _slug: germany
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: a78fe34d-0e49-4f9a-a675-8487a4b928b6
+  _locales:
+    - en-US
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2024-08-21T14:00:16.09987+00:00'
+modified: '2024-08-21T14:00:58.363467+00:00'
+pattern: false

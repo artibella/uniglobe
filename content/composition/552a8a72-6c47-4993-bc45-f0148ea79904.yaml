@@ -5,13 +5,15 @@ composition:
   parameters:
     pageTitle:
       type: text
-      value: Uniform’s Component Starter Kit
+      locales:
+        en-US: Uniform’s Component Starter Kit
     twitterCard:
       type: select
       value: summary_large_image
     pageKeywords:
       type: text
-      value: uniform, nextjs, composable, cms, commerce
+      locales:
+        en-US: uniform, nextjs, composable, cms, commerce
     twitterImage:
       type: asset
       value:
@@ -46,7 +48,8 @@ composition:
           _source: uniform-assets
     twitterTitle:
       type: text
-      value: Test Twitter Title
+      locales:
+        en-US: Test Twitter Title
     openGraphType:
       type: select
       value: website
@@ -84,15 +87,18 @@ composition:
           _source: uniform-assets
     openGraphTitle:
       type: text
-      value: Uniform // Component Starter Kit
+      locales:
+        en-US: Uniform // Component Starter Kit
     twitterDescription:
       type: text
-      value: Test Twitter Description
+      locales:
+        en-US: Test Twitter Description
     pageMetaDescription:
       type: text
-      value: >-
-        Essential set of components you need to start building personalizable
-        web experiences with Uniform.
+      locales:
+        en-US: >-
+          Essential set of components you need to start building personalizable
+          web experiences with Uniform.
     overlayTitleToTwitterImage:
       type: checkbox
       value: true
@@ -112,39 +118,41 @@ composition:
         parameters:
           image:
             type: asset
-            value:
-              - _id: d3788ab5-1e29-4fcc-af9b-15665112d7fb
-                type: image
-                fields:
-                  id:
-                    type: text
-                    value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
-                  url:
-                    value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/k1_VXz4cSo-x7dnH4q_t2g-rectangle.webp
-                    type: text
-                  file:
-                    type: file
-                    value: 69fa8a52-761c-4a8a-977d-346522aa884c
-                  size:
-                    value: 49092
-                    type: number
-                  title:
-                    type: text
-                    value: rectangle.webp
-                  width:
-                    value: 1600
-                    type: number
-                  height:
-                    value: 689
-                    type: number
-                  mediaType:
-                    value: image/webp
-                    type: text
-                _source: uniform-assets
+            locales:
+              en-US:
+                - _id: d3788ab5-1e29-4fcc-af9b-15665112d7fb
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/k1_VXz4cSo-x7dnH4q_t2g-rectangle.webp
+                      type: text
+                    file:
+                      type: file
+                      value: 69fa8a52-761c-4a8a-977d-346522aa884c
+                    size:
+                      value: 49092
+                      type: number
+                    title:
+                      type: text
+                      value: rectangle.webp
+                    width:
+                      value: 1600
+                      type: number
+                    height:
+                      value: 689
+                      type: number
+                    mediaType:
+                      value: image/webp
+                      type: text
+                  _source: uniform-assets
           title:
             type: text
-            value: Uniform’s Component Starter Kit
+            locales:
+              en-US: Uniglobe
           objectFit:
             type: select
             value: cover
@@ -156,12 +164,12 @@ composition:
             value: h1
           description:
             type: text
-            value: >-
-              An essential set of components you need to start building
-              personalized web experiences with Uniform.
+            locales:
+              en-US: a travel-themed demo site for Uniform
           eyebrowText:
             type: text
-            value: hello and welcome! this is
+            locales:
+              en-US: hello and welcome! this is
           paddingBottom:
             type: select
             value: None
@@ -173,37 +181,42 @@ composition:
             value: Light
           primaryButtonCopy:
             type: text
-            value: Browse THE components
+            locales:
+              en-US: Browse THE Destinations
           primaryButtonLink:
             type: link
             value:
-              path: /components
+              path: /${locale}/destinations
               type: projectMapNode
-              nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
           primaryButtonStyle:
             type: tp-button-style-parameter
             value: primary
       - _id: 7e072bd7-bbe7-4f97-8707-635f74d6ea8e
         type: callToAction
-        variant: ''
         parameters:
           title:
             type: text
-            value: How will Component Starter Kit help you?
+            locales:
+              en-US: How will Component Starter Kit help you?
           titleStyle:
             type: tp-title-style-parameter
             value: h2
           description:
             type: text
-            value: >-
-              The Component Starter kit gives you the key building blocks to
-              create dynamic and compelling web experiences and demonstrate the
-              power of digital experience composition in Uniform. Just install,
-              customize and start creating.
+            locales:
+              en-US: >-
+                The Component Starter kit gives you the key building blocks to
+                create dynamic and compelling web experiences and demonstrate
+                the power of digital experience composition in Uniform. Just
+                install, customize and start creating.
           eyebrowText:
             type: text
-            value: ''
+            locales:
+              en-US: ''
       - _id: cc1d51b7-9e89-4031-8658-5b0d81ba15a7
         type: featuredCallout
         slots:
@@ -245,12 +258,14 @@ composition:
                       _source: uniform-assets
                 title:
                   type: text
-                  value: Clone, run locally, and customize
+                  locales:
+                    en-US: Clone, run locally, and customize
                 description:
                   type: text
-                  value: >-
-                    We designed the starter kit for you to take it home and
-                    customize it according to your needs. Go nuts!
+                  locales:
+                    en-US: >-
+                      We designed the starter kit for you to take it home and
+                      customize it according to your needs. Go nuts!
             - _id: 2a2bb40f-f543-4566-97c8-7cd14cb82bc1
               type: feature
               parameters:
@@ -288,12 +303,14 @@ composition:
                       _source: uniform-assets
                 title:
                   type: text
-                  value: Optimized for performance
+                  locales:
+                    en-US: Optimized for performance
                 description:
                   type: text
-                  value: >-
-                    Lightweight React components help keep your Core Web Vitals
-                    green.
+                  locales:
+                    en-US: >-
+                      Lightweight React components help keep your Core Web
+                      Vitals green.
             - _id: 19438067-1453-4709-9346-914fdac47fe0
               type: feature
               parameters:
@@ -331,62 +348,68 @@ composition:
                       _source: uniform-assets
                 title:
                   type: text
-                  value: Completely adaptable
+                  locales:
+                    en-US: Completely adaptable
                 description:
                   type: text
-                  value: >-
-                    The whole library is open source and based on TailwindCSS
-                    and DaisyUI, making it easy for you to adapt to your brand
-                    style.
+                  locales:
+                    en-US: >-
+                      The whole library is open source and based on TailwindCSS
+                      and DaisyUI, making it easy for you to adapt to your brand
+                      style.
         parameters:
           image:
             type: asset
-            value:
-              - _id: 78eaa239-74c5-4ffa-b9e8-748bae255ab9
-                type: image
-                fields:
-                  id:
-                    type: text
-                    value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
-                  url:
-                    value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
-                    type: text
-                  file:
-                    type: file
-                    value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                  size:
-                    value: 76327
-                    type: number
-                  title:
-                    type: text
-                    value: hero_rectangle.png
-                  width:
-                    value: 510
-                    type: number
-                  height:
-                    value: 496
-                    type: number
-                  mediaType:
-                    value: image/png
-                    type: text
-                _source: uniform-assets
+            locales:
+              en-US:
+                - _id: 78eaa239-74c5-4ffa-b9e8-748bae255ab9
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
+                      type: text
+                    file:
+                      type: file
+                      value: 27494b32-5697-465f-8c36-db62a2ab45ce
+                    size:
+                      value: 76327
+                      type: number
+                    title:
+                      type: text
+                      value: hero_rectangle.png
+                    width:
+                      value: 510
+                      type: number
+                    height:
+                      value: 496
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
           title:
             type: text
-            value: Built with the modern stack!
+            locales:
+              en-US: Built with the modern stack!
           titleStyle:
             type: tp-title-style-parameter
             value: h2
           description:
             type: text
-            value: >+
-              Our Component Starter Kit is built on a TNT stack - Typescript,
-              Next.js, and TailwindCSS. That means it’s completely customizable
-              and adaptable for what you need to build.
+            locales:
+              en-US: >+
+                Our Component Starter Kit is built on a TNT stack - Typescript,
+                Next.js, and TailwindCSS. That means it’s completely
+                customizable and adaptable for what you need to build.
 
           eyebrowText:
             type: text
-            value: something for the developers
+            locales:
+              en-US: something for the developers
       - _id: 45ca2e18-6110-4047-8f54-2f9ae43d047b
         type: featuredCallout
         slots:
@@ -428,13 +451,15 @@ composition:
                       _source: uniform-assets
                 title:
                   type: text
-                  value: Bring your CMS and commerce content
+                  locales:
+                    en-US: Bring your CMS and commerce content
                 description:
                   type: text
-                  value: >-
-                    Leverage our latest integrations to bring content from your
-                    own Headless CMS and/or Commerce systems without any glue
-                    code.
+                  locales:
+                    en-US: >-
+                      Leverage our latest integrations to bring content from
+                      your own Headless CMS and/or Commerce systems without any
+                      glue code.
             - _id: b637acaa-f979-4bde-aa94-086c1ccf9c02
               type: feature
               parameters:
@@ -472,12 +497,14 @@ composition:
                       _source: uniform-assets
                 title:
                   type: text
-                  value: ' No integration? No problem. No code required.'
+                  locales:
+                    en-US: ' No integration? No problem. No code required.'
                 description:
                   type: text
-                  value: >-
-                    Bring content from any REST API without a single developer
-                    ticket.
+                  locales:
+                    en-US: >-
+                      Bring content from any REST API without a single developer
+                      ticket.
             - _id: c8205ca3-c293-4338-8392-83574cf74dd0
               type: feature
               parameters:
@@ -515,62 +542,68 @@ composition:
                       _source: uniform-assets
                 title:
                   type: text
-                  value: Build web experiences visually with real-time preview
+                  locales:
+                    en-US: Build web experiences visually with real-time preview
                 description:
                   type: text
-                  value: >-
-                    Create new pages from existing components, try different
-                    variants and customize the theme.
+                  locales:
+                    en-US: >-
+                      Create new pages from existing components, try different
+                      variants and customize the theme.
         variant: imageRight
         parameters:
           image:
             type: asset
-            value:
-              - _id: 7fef684c-39d1-46e2-b160-3b3ad0cdac8a
-                type: image
-                fields:
-                  id:
-                    type: text
-                    value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
-                  url:
-                    value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
-                    type: text
-                  file:
-                    type: file
-                    value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                  size:
-                    value: 76327
-                    type: number
-                  title:
-                    type: text
-                    value: hero_rectangle.png
-                  width:
-                    value: 510
-                    type: number
-                  height:
-                    value: 496
-                    type: number
-                  mediaType:
-                    value: image/png
-                    type: text
-                _source: uniform-assets
+            locales:
+              en-US:
+                - _id: 7fef684c-39d1-46e2-b160-3b3ad0cdac8a
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
+                      type: text
+                    file:
+                      type: file
+                      value: 27494b32-5697-465f-8c36-db62a2ab45ce
+                    size:
+                      value: 76327
+                      type: number
+                    title:
+                      type: text
+                      value: hero_rectangle.png
+                    width:
+                      value: 510
+                      type: number
+                    height:
+                      value: 496
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
           title:
             type: text
-            value: Unleash your content. Unchain from the backlog.
+            locales:
+              en-US: Unleash your content. Unchain from the backlog.
           titleStyle:
             type: tp-title-style-parameter
             value: h2
           description:
             type: text
-            value: >+
-              Our Component Starter Kit is built on a TNT stack - Typescript,
-              Next.js, and TailwindCSS. That means it’s completely customizable
-              and adaptable for what you need to build.
+            locales:
+              en-US: >+
+                Our Component Starter Kit is built on a TNT stack - Typescript,
+                Next.js, and TailwindCSS. That means it’s completely
+                customizable and adaptable for what you need to build.
 
           eyebrowText:
             type: text
-            value: something for the marketer
+            locales:
+              en-US: something for the marketer
       - _id: a952a7c9-697c-4dc4-a8e5-4614fef5419b
         type: cardBlock
         slots:
@@ -585,71 +618,80 @@ composition:
                     parameters:
                       badge:
                         type: text
-                        value: New
+                        locales:
+                          en-US: New
                       image:
                         type: asset
-                        value:
-                          - _id: 6441e6db-cf49-4754-80fb-91859b9dd426
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
-                              url:
-                                value: >-
-                                  https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
-                                type: text
-                              file:
-                                type: file
-                                value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                              size:
-                                value: 76327
-                                type: number
-                              title:
-                                type: text
-                                value: hero_rectangle.png
-                              width:
-                                value: 510
-                                type: number
-                              height:
-                                value: 496
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
+                        locales:
+                          en-US:
+                            - _id: 6441e6db-cf49-4754-80fb-91859b9dd426
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
+                                url:
+                                  value: >-
+                                    https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
+                                  type: text
+                                file:
+                                  type: file
+                                  value: 27494b32-5697-465f-8c36-db62a2ab45ce
+                                size:
+                                  value: 76327
+                                  type: number
+                                title:
+                                  type: text
+                                  value: hero_rectangle.png
+                                width:
+                                  value: 510
+                                  type: number
+                                height:
+                                  value: 496
+                                  type: number
+                                mediaType:
+                                  value: image/png
+                                  type: text
+                              _source: uniform-assets
                       title:
                         type: text
-                        value: Heroes
+                        locales:
+                          en-US: Heroes
                       objectFit:
                         type: select
-                        value: cover
+                        locales:
+                          en-US: cover
                       badgeStyle:
                         type: tp-badge-style-parameter
                         value: accent
                       buttonCopy:
                         type: text
-                        value: See all heroes
+                        locales:
+                          en-US: See all heroes
                       buttonLink:
                         type: link
-                        value:
-                          path: /components/heroes
-                          type: projectMapNode
-                          nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
-                          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                        locales:
+                          en-US:
+                            path: /components/heroes
+                            type: projectMapNode
+                            nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
+                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                       buttonStyle:
                         type: tp-button-style-parameter
                         value: primary
                       description:
                         type: text
-                        value: |
-                          Not just for one day
+                        locales:
+                          en-US: |
+                            Not just for one day
                       overlayColor:
                         type: tp-color-style-parameter
-                        value: base-300
+                        locales:
+                          en-US: base-300
                       overlayOpacity:
                         type: tp-slider-parameter
-                        value: 50%
+                        locales:
+                          en-US: 50%
                       textColorVariant:
                         type: select
                         value: Light
@@ -662,70 +704,79 @@ composition:
                     parameters:
                       badge:
                         type: text
-                        value: New
+                        locales:
+                          en-US: New
                       image:
                         type: asset
-                        value:
-                          - _id: 8eea1b56-4a64-41a2-980f-849d57527ca4
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
-                              url:
-                                value: >-
-                                  https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
-                                type: text
-                              file:
-                                type: file
-                                value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                              size:
-                                value: 76327
-                                type: number
-                              title:
-                                type: text
-                                value: hero_rectangle.png
-                              width:
-                                value: 510
-                                type: number
-                              height:
-                                value: 496
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
+                        locales:
+                          en-US:
+                            - _id: 8eea1b56-4a64-41a2-980f-849d57527ca4
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
+                                url:
+                                  value: >-
+                                    https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
+                                  type: text
+                                file:
+                                  type: file
+                                  value: 27494b32-5697-465f-8c36-db62a2ab45ce
+                                size:
+                                  value: 76327
+                                  type: number
+                                title:
+                                  type: text
+                                  value: hero_rectangle.png
+                                width:
+                                  value: 510
+                                  type: number
+                                height:
+                                  value: 496
+                                  type: number
+                                mediaType:
+                                  value: image/png
+                                  type: text
+                              _source: uniform-assets
                       title:
                         type: text
-                        value: Card Blocks
+                        locales:
+                          en-US: Card Blocks
                       objectFit:
                         type: select
-                        value: cover
+                        locales:
+                          en-US: cover
                       badgeStyle:
                         type: tp-badge-style-parameter
                         value: accent
                       buttonCopy:
                         type: text
-                        value: Play with more cards
+                        locales:
+                          en-US: Play with more cards
                       buttonLink:
                         type: link
-                        value:
-                          path: /components/card-blocks
-                          type: projectMapNode
-                          nodeId: 88ede0b7-bb7c-4d6b-b3f8-10b545bd986b
-                          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                        locales:
+                          en-US:
+                            path: /components/card-blocks
+                            type: projectMapNode
+                            nodeId: 88ede0b7-bb7c-4d6b-b3f8-10b545bd986b
+                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                       buttonStyle:
                         type: tp-button-style-parameter
                         value: primary
                       description:
                         type: text
-                        value: Pick a card, any card…
+                        locales:
+                          en-US: Pick a card, any card…
                       overlayColor:
                         type: tp-color-style-parameter
-                        value: base-300
+                        locales:
+                          en-US: base-300
                       overlayOpacity:
                         type: tp-slider-parameter
-                        value: 50%
+                        locales:
+                          en-US: 50%
                       textColorVariant:
                         type: select
                         value: Light
@@ -738,71 +789,80 @@ composition:
                     parameters:
                       badge:
                         type: text
-                        value: New
+                        locales:
+                          en-US: New
                       image:
                         type: asset
-                        value:
-                          - _id: aab37658-1329-4fa2-a5d5-56500aa6a4cb
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
-                              url:
-                                value: >-
-                                  https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
-                                type: text
-                              file:
-                                type: file
-                                value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                              size:
-                                value: 76327
-                                type: number
-                              title:
-                                type: text
-                                value: hero_rectangle.png
-                              width:
-                                value: 510
-                                type: number
-                              height:
-                                value: 496
-                                type: number
-                              mediaType:
-                                value: image/png
-                                type: text
-                            _source: uniform-assets
+                        locales:
+                          en-US:
+                            - _id: aab37658-1329-4fa2-a5d5-56500aa6a4cb
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
+                                url:
+                                  value: >-
+                                    https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
+                                  type: text
+                                file:
+                                  type: file
+                                  value: 27494b32-5697-465f-8c36-db62a2ab45ce
+                                size:
+                                  value: 76327
+                                  type: number
+                                title:
+                                  type: text
+                                  value: hero_rectangle.png
+                                width:
+                                  value: 510
+                                  type: number
+                                height:
+                                  value: 496
+                                  type: number
+                                mediaType:
+                                  value: image/png
+                                  type: text
+                              _source: uniform-assets
                       title:
                         type: text
-                        value: Featured Callouts
+                        locales:
+                          en-US: Featured Callouts
                       objectFit:
                         type: select
-                        value: cover
+                        locales:
+                          en-US: cover
                       badgeStyle:
                         type: tp-badge-style-parameter
                         value: accent
                       buttonCopy:
                         type: text
-                        value: All Featured Callouts
+                        locales:
+                          en-US: All Featured Callouts
                       buttonLink:
                         type: link
-                        value:
-                          path: /components/featured-callouts
-                          type: projectMapNode
-                          nodeId: 97c2b0b3-66d9-4ecd-88dd-36bf5ce8144a
-                          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                        locales:
+                          en-US:
+                            path: /components/featured-callouts
+                            type: projectMapNode
+                            nodeId: 97c2b0b3-66d9-4ecd-88dd-36bf5ce8144a
+                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                       buttonStyle:
                         type: tp-button-style-parameter
                         value: primary
                       description:
                         type: text
-                        value: |
-                          The call of the wild
+                        locales:
+                          en-US: |
+                            The call of the wild
                       overlayColor:
                         type: tp-color-style-parameter
-                        value: base-300
+                        locales:
+                          en-US: base-300
                       overlayOpacity:
                         type: tp-slider-parameter
-                        value: 50%
+                        locales:
+                          en-US: 50%
                       textColorVariant:
                         type: select
                         value: Light
@@ -831,7 +891,8 @@ composition:
         parameters:
           title:
             type: text
-            value: Featured components
+            locales:
+              en-US: Featured components
           titleStyle:
             type: tp-title-style-parameter
             value: h1
@@ -840,10 +901,11 @@ composition:
             value: primary
           description:
             type: text
-            value: >-
-              There are lots of components to choose from, but these are our
-              favorites. There are more coming, so it's always worth checking
-              again.
+            locales:
+              en-US: >-
+                There are lots of components to choose from, but these are our
+                favorites. There are more coming, so it's always worth checking
+                again.
       - _id: 5baddcdc-228e-4013-9243-ccfcfd7d8a17
         type: accordion
         slots:
@@ -853,94 +915,106 @@ composition:
               parameters:
                 title:
                   type: text
-                  value: How much does the Component Starter Kit cost?
+                  locales:
+                    en-US: How much does the Component Starter Kit cost?
                 description:
                   type: text
-                  value: >-
-                    Exactly $0. These components are totally open source and
-                    available for anyone to use.
+                  locales:
+                    en-US: >-
+                      Exactly $0. These components are totally open source and
+                      available for anyone to use.
             - _id: 40feaadf-2bb2-4d6c-87d7-d72487a6aab8
               type: accordionItem
               parameters:
                 title:
                   type: text
-                  value: Can I use these components for commercial projects?
+                  locales:
+                    en-US: Can I use these components for commercial projects?
                 description:
                   type: text
-                  value: Yes you can! We’d be very happy if you do.
+                  locales:
+                    en-US: Yes you can! We’d be very happy if you do.
             - _id: 6ef4f9f8-90e5-4fc6-8290-6a48b0f8046b
               type: accordionItem
               parameters:
                 title:
                   type: text
-                  value: Are there more components coming?
+                  locales:
+                    en-US: Are there more components coming?
                 description:
                   type: text
-                  value: >-
-                    There will be, and we have some big ideas. Get in touch if
-                    there’s anything you want to see here.
+                  locales:
+                    en-US: >-
+                      There will be, and we have some big ideas. Get in touch if
+                      there’s anything you want to see here.
             - _id: 68387eb3-5d35-4f58-99aa-3dcc7f628cfc
               type: accordionItem
               parameters:
                 title:
                   type: text
-                  value: Can I connect my own content and data to these components?
+                  locales:
+                    en-US: Can I connect my own content and data to these components?
                 description:
                   type: text
-                  value: >-
-                    Of course! You can use a pre-built Uniform integration or
-                    connect to any REST-based API source using Uniform. You can
-                    learn more in our documentation.
+                  locales:
+                    en-US: >-
+                      Of course! You can use a pre-built Uniform integration or
+                      connect to any REST-based API source using Uniform. You
+                      can learn more in our documentation.
         parameters:
           title:
             type: text
-            value: Frequently Asked Questions
+            locales:
+              en-US: Frequently Asked Questions
           description:
             type: text
-            value: >-
-              Answer your customers possible questions here, it will increase
-              the conversion rate as well as support or chat requests.
+            locales:
+              en-US: >-
+                Answer your customers possible questions here, it will increase
+                the conversion rate as well as support or chat requests.
       - _id: 8fff3946-2b9b-45c4-ab24-c56e5ef09d19
         type: hero
         variant: imageRight
         parameters:
           image:
             type: asset
-            value:
-              - _id: 0956ce89-e3e5-43b2-b72e-f34475a9722c
-                type: image
-                fields:
-                  id:
-                    type: text
-                    value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
-                  url:
-                    value: >-
-                      https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
-                    type: text
-                  file:
-                    type: file
-                    value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                  size:
-                    value: 76327
-                    type: number
-                  title:
-                    type: text
-                    value: hero_rectangle.png
-                  width:
-                    value: 510
-                    type: number
-                  height:
-                    value: 496
-                    type: number
-                  mediaType:
-                    value: image/png
-                    type: text
-                _source: uniform-assets
+            locales:
+              en-US:
+                - _id: 0956ce89-e3e5-43b2-b72e-f34475a9722c
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
+                      type: text
+                    file:
+                      type: file
+                      value: 27494b32-5697-465f-8c36-db62a2ab45ce
+                    size:
+                      value: 76327
+                      type: number
+                    title:
+                      type: text
+                      value: hero_rectangle.png
+                    width:
+                      value: 510
+                      type: number
+                    height:
+                      value: 496
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
           title:
             type: text
-            value: >-
-              Now it's time to see how Uniform can help you accelerate building
-              modern digital experiences.
+            locales:
+              en-US: >-
+                Now it's time to see how Uniform can help you accelerate
+                building modern digital experiences.
           objectFit:
             type: select
             value: cover
@@ -952,11 +1026,13 @@ composition:
             value: h1
           description:
             type: text
-            value: |
-              We’d love to show you.
+            locales:
+              en-US: |
+                We’d love to show you.
           eyebrowText:
             type: text
-            value: Now this is Empowering!
+            locales:
+              en-US: Now this is Empowering!
           paddingBottom:
             type: select
             value: Medium
@@ -965,7 +1041,8 @@ composition:
             value: Dark
           primaryButtonCopy:
             type: text
-            value: Book a free demo now
+            locales:
+              en-US: Book a free demo now
           primaryButtonLink:
             type: link
             value:
@@ -976,7 +1053,8 @@ composition:
             value: primary
           secondaryButtonCopy:
             type: text
-            value: No Uniform access? Request one
+            locales:
+              en-US: No Uniform access? Request one
           secondaryButtonLink:
             type: link
             value:
@@ -985,6 +1063,8 @@ composition:
           secondaryButtonStyle:
             type: tp-button-style-parameter
             value: link
+  _locales:
+    - en-US
 created: '2024-01-15T09:27:31.731839+00:00'
-modified: '2024-01-15T09:27:31.731839+00:00'
+modified: '2024-05-07T14:01:14.357764+00:00'
 pattern: false

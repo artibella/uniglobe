@@ -1,0 +1,17 @@
+composition:
+  _name: Cuba
+  _id: 54c125ae-6715-407b-b7a2-13e91cb05779
+  _slug: cuba
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: c1697faa-20be-46ac-a476-726e3b2b1c27
+  _locales:
+    - en-US
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2024-08-21T14:01:47.5669+00:00'
+modified: '2024-08-21T14:02:06.201921+00:00'
+pattern: false

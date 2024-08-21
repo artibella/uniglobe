@@ -1,0 +1,9 @@
+id: 2cd1e9f5-4182-4bc1-b9a0-013238a91cca
+name: Cuba
+order: 500
+path: /:locale/destinations/central-america-and-caribbean/cuba
+type: composition
+pathSegment: cuba
+data: {}
+compositionId: 54c125ae-6715-407b-b7a2-13e91cb05779
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

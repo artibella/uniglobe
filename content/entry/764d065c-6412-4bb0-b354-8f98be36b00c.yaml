@@ -1,0 +1,226 @@
+created: '2024-03-12T15:25:01.437775+00:00'
+modified: '2024-08-21T13:26:00.283285+00:00'
+pattern: false
+entry:
+  _id: 764d065c-6412-4bb0-b354-8f98be36b00c
+  _name: Norway
+  _slug: norway
+  _thumbnail: https://flagcdn.com/no.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        country: norway
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+  _overrides:
+    764d065c-6412-4bb0-b354-8f98be36b00c:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Norwegen
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Norway offers an extraordinary blend of dramatic
+                          landscapes and vibrant culture, making it a top
+                          destination for nature lovers and explorers alike.
+                          From the stunning fjords and the Northern Lights to
+                          charming coastal towns and the Arctic Circle, Norway
+                          is a country of breathtaking beauty and rich heritage.
+                          Discover picturesque villages, majestic mountains, and
+                          serene lakes, while enjoying outdoor activities like
+                          hiking, skiing, and cruising through pristine waters.
+                          Whether you're marveling at the midnight sun or
+                          exploring historic sites, Norway promises an
+                          unforgettable experience immersed in natural splendor
+                          and Scandinavian charm.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Norway
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Norway depends on the
+                          experiences you seek:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer is perfect for exploring Norway''s fjords, enjoying the midnight sun, and experiencing the vibrant cultural festivals. The weather is mild, and the long daylight hours offer ample time to explore scenic landscapes and outdoor activities.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn brings cooler temperatures and stunning fall foliage, especially in the forests and hills. This is a great time for hiking and enjoying Norway’s natural beauty with fewer tourists around. It’s also a good time to start looking for the Northern Lights in the northern regions.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is ideal for those interested in winter sports, including skiing and snowboarding. It''s also the best time to see the Northern Lights in northern Norway. Cities like Oslo and Bergen offer festive Christmas markets and cozy atmospheres.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers a beautiful transition with blooming flowers and thawing landscapes. It’s a great time to witness the fjords coming to life and enjoy milder weather before the summer crowds arrive. This season is also ideal for exploring the Arctic regions as they awaken from winter.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For mild weather and vibrant outdoor activities,
+                          summer is the best time. For winter sports and the
+                          Northern Lights, visit in winter. Autumn and spring
+                          offer beautiful scenery and fewer crowds, with autumn
+                          being great for fall foliage and spring for blooming
+                          landscapes.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: c31297a6-809f-4ff6-a15f-d495256c8d17
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1504233529578-6d46baba6d34?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Seth Kane, Unsplash'
+                _source: custom-url
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

@@ -1,0 +1,56 @@
+composition:
+  _name: Default Page
+  _id: eeb69c1c-e00f-44de-b07a-f76e6a4526bb
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: <replace page title>
+  slots:
+    pageFooter:
+      - _id: e76fcadf-ecd8-4ac0-972c-9731de025f51
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: f72ba450-a989-4025-9121-6f9426cea8e4
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 56b695bf-7f88-4bc1-a08b-df6b768677af
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Page content
+          specific:
+            type: array
+            value:
+              - $p:9854cddc-f320-4a77-b7dc-de9d74638436
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      pageTitle: 'yes'
+      twitterCard: 'yes'
+      pageKeywords: 'yes'
+      twitterImage: 'yes'
+      twitterTitle: 'yes'
+      openGraphType: 'yes'
+      openGraphImage: 'yes'
+      openGraphTitle: 'yes'
+      twitterDescription: 'yes'
+      pageMetaDescription: 'yes'
+      openGraphDescription: 'yes'
+      overlayTitleToOgImage: 'yes'
+      overlayTitleToTwitterImage: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-08-20T10:04:47.853355+00:00'
+modified: '2024-08-20T10:26:06.669467+00:00'
+pattern: true

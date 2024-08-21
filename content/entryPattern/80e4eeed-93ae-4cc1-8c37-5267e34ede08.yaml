@@ -1,10 +1,11 @@
 created: '2024-01-18T12:33:27.077396+00:00'
-modified: '2024-01-18T13:01:04.364153+00:00'
+modified: '2024-08-21T12:55:28.752374+00:00'
 pattern: true
 entry:
   _id: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
-  _name: Country (automatic)
+  _name: Country (from API)
   _slug: country-pattern
+  _thumbnail: https://flagcdn.com/de.svg
   type: country
   fields:
     code:
@@ -28,29 +29,34 @@ entry:
       locales:
         de-DE: ${#jptr:/Country/0/name/common}
         en-US: ${#jptr:/Country/0/name/common}
+        it-IT: ${#jptr:/Country/0/name/common}
     captial:
       type: text
       locales:
         de-DE: ${#jptr:/Country/0/capital/0}
         en-US: ${#jptr:/Country/0/capital/0}
+        it-IT: ${#jptr:/Country/0/capital/0}
     flagEmoji:
       type: text
       value: ${#jptr:/Country/0/flag}
     currencies:
       type: $block
       value:
-        - type: $loop
+        - _id: 89488101-74df-43ab-94d1-f51212719a87
+          type: $loop
           fields:
             body:
               type: $block
               value:
-                - type: currency
+                - _id: 3087e4df-27ba-4baf-a9bb-7236d3a350cb
+                  type: currency
                   fields:
                     code:
                       type: text
                       locales:
                         de-DE: ${#jptr:/Country currencies Loop Item/key}
                         en-US: ${#jptr:/Country currencies Loop Item/key}
+                        it-IT: ${#jptr:/Country currencies Loop Item/key}
                     name:
                       type: text
                       value: ${#jptr:/Country currencies Loop Item/value/name}
@@ -69,15 +75,20 @@ entry:
     Country:
       type: countryByName
       variables:
-        fields: name,capital,currencies,flag,flags,cca2
+        fields: name,capital,currencies,flag,flags,cca2,region,subregion
         country: Germany
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _locales:
     - en-US
     - de-DE
+    - it-IT
   _overridability:
     parameters:
       name: 'yes'
+      region: 'yes'
       captial: 'yes'
+      teaserText: 'yes'
+      description: 'yes'
+      teaserImage: 'yes'
       officialName: 'yes'

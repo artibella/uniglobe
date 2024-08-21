@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: tab
 name: Tab
 icon: tab
@@ -7,13 +7,11 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: isActive
     name: Is Active
     type: checkbox
-    helpText: ''
     typeConfig: null
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
 previewImageUrl: >-
@@ -28,5 +26,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2023-11-22T09:43:35.112177+00:00'
-updated: '2023-11-22T10:09:11.758959+00:00'
+created: '2024-01-15T09:26:45.844583+00:00'
+updated: '2024-01-15T15:03:13.844012+00:00'

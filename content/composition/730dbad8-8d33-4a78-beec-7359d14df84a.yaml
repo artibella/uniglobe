@@ -7,7 +7,9 @@ composition:
     pageTitle:
       type: text
       locales:
+        de-DE: Trips
         en-US: Trips
+        it-IT: Trips
   slots:
     pageFooter:
       - _id: ff077366-c062-4e13-888c-40b9a3be66d0
@@ -25,6 +27,36 @@ composition:
           image:
             type: asset
             locales:
+              de-DE:
+                - _id: 749a0108-de12-493f-a28d-f9a77e854d30
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                      type: text
+                    file:
+                      type: file
+                      value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
+                    size:
+                      value: 49092
+                      type: number
+                    title:
+                      type: text
+                      value: rectangle.webp
+                    width:
+                      value: 1600
+                      type: number
+                    height:
+                      value: 689
+                      type: number
+                    mediaType:
+                      value: image/webp
+                      type: text
+                  _source: uniform-assets
               en-US:
                 - _id: 749a0108-de12-493f-a28d-f9a77e854d30
                   type: image
@@ -33,33 +65,64 @@ composition:
                       type: text
                       value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                     url:
-                      type: text
                       value: >-
                         https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                      type: text
                     file:
                       type: file
                       value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
                     size:
-                      type: number
                       value: 49092
+                      type: number
                     title:
                       type: text
                       value: rectangle.webp
                     width:
-                      type: number
                       value: 1600
-                    height:
                       type: number
+                    height:
                       value: 689
+                      type: number
                     mediaType:
-                      type: text
                       value: image/webp
+                      type: text
                   _source: uniform-assets
-            value: []
+              it-IT:
+                - _id: 749a0108-de12-493f-a28d-f9a77e854d30
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                      type: text
+                    file:
+                      type: file
+                      value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
+                    size:
+                      value: 49092
+                      type: number
+                    title:
+                      type: text
+                      value: rectangle.webp
+                    width:
+                      value: 1600
+                      type: number
+                    height:
+                      value: 689
+                      type: number
+                    mediaType:
+                      value: image/webp
+                      type: text
+                  _source: uniform-assets
           title:
             type: text
             locales:
+              de-DE: Ausflüge & Touren
               en-US: Trips & Tours
+              it-IT: 'Italian: Trips & Tours'
           objectFit:
             type: select
             value: cover
@@ -72,11 +135,15 @@ composition:
           description:
             type: text
             locales:
+              de-DE: Some page description
               en-US: Some page description
+              it-IT: Some page description
           eyebrowText:
             type: text
             locales:
+              de-DE: eyebrow text
               en-US: eyebrow text
+              it-IT: eyebrow text
           paddingBottom:
             type: select
             value: None
@@ -86,6 +153,21 @@ composition:
           textColorVariant:
             type: select
             value: Light
+          primaryButtonCopy:
+            type: text
+            locales:
+              de-DE: Alle Reiseziele
+              en-US: See destinations
+              it-IT: See destinations
+          primaryButtonLink:
+            type: link
+            value:
+              path: /${locale}/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
       - _id: 533ba3bb-7d07-4f77-8e71-f1bc8c3c76ae
         type: breadcrumbs
         parameters:
@@ -100,6 +182,8 @@ composition:
             value: true
   _locales:
     - en-US
+    - de-DE
+    - it-IT
 created: '2024-01-17T14:10:56.145718+00:00'
-modified: '2024-01-17T14:11:43.746728+00:00'
+modified: '2024-04-19T18:34:43.657261+00:00'
 pattern: false

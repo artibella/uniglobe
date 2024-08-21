@@ -1,0 +1,241 @@
+composition:
+  _name: Destination page
+  _id: 1d32f312-8540-44d9-920d-f2dcbe97db34
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: ${#jptr:/Country Content/entry/fields/name/value}
+    twitterCard:
+      type: select
+      value: summary_large_image
+    twitterImage:
+      type: asset
+      value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+    twitterTitle:
+      type: text
+      locales:
+        en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+    openGraphType:
+      type: select
+      value: article
+    openGraphImage:
+      type: asset
+      value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+    openGraphTitle:
+      type: text
+      locales:
+        en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+    twitterDescription:
+      type: text
+      locales:
+        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
+    pageMetaDescription:
+      type: text
+      locales:
+        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
+    openGraphDescription:
+      type: text
+      locales:
+        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
+  slots:
+    pageFooter:
+      - _id: 05db1d2d-2263-4f45-a013-78babc9b91fe
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 3069030e-5839-4dd4-bace-c5c0458b3970
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: e15c08f3-b04e-4dde-b9e8-ae2b23acdc29
+        type: banner
+        variant: fullWidth
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: ❄️  Winter offer ❄️
+          inline:
+            type: checkbox
+            value: true
+          textAlign:
+            type: tp-horizontal-align-parameter
+            value: center
+          description:
+            type: text
+            locales:
+              en-US: Save 10% for all trips to Asia in December and January
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Book now
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}/shop
+                type: projectMapNode
+                nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+        _overridability:
+          hideLockedParameters: true
+      - _id: 89a78264-bfb9-4be3-af8d-0bdf4b26ac41
+        type: hero
+        variant: imageLeft
+        parameters:
+          image:
+            type: asset
+            value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+          title:
+            type: text
+            value: ${#jptr:/Country Content/entry/fields/name/value}
+          marginTop:
+            type: select
+            value: None
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            value: ${#jptr:/Country Content/entry/fields/teaserText/value}
+          eyebrowText:
+            type: text
+            value: ${#jptr:/Country Content/entry/fields/flagEmoji/value}
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+        _overridability:
+          variants: true
+          parameters:
+            $viz: 'no'
+            delay: 'no'
+            image: 'yes'
+            title: 'yes'
+            video: 'no'
+            duration: 'no'
+            marginTop: 'no'
+            objectFit: 'yes'
+            fullHeight: 'no'
+            paddingTop: 'no'
+            titleStyle: 'no'
+            description: 'yes'
+            eyebrowText: 'yes'
+            marginBottom: 'no'
+            overlayColor: 'yes'
+            animationType: 'no'
+            paddingBottom: 'no'
+            animationOrder: 'no'
+            backgroundType: 'yes'
+            overlayOpacity: 'yes'
+            animationPreview: 'no'
+            containerVariant: 'yes'
+            textColorVariant: 'yes'
+            primaryButtonCopy: 'no'
+            primaryButtonLink: 'no'
+            primaryButtonStyle: 'no'
+            secondaryButtonCopy: 'no'
+            secondaryButtonLink: 'no'
+            secondaryButtonStyle: 'no'
+            primaryButtonAnimationType: 'no'
+            secondaryButtonAnimationType: 'no'
+          hideLockedParameters: true
+      - _id: d75abf18-18ba-456a-9850-5668a0c04d1d
+        type: container
+        slots:
+          container-inner:
+            - _id: 37eb9880-2b8c-40e7-b48b-7d13e5c055eb
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    en-US: ${#jptr:/Country Content/entry/fields/description/value}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Facts
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: Small
+          marginBottom:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: Small
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+        _overridability:
+          hideLockedParameters: true
+      - _id: f0693bc9-5723-4bc9-924b-f2fd6fe3089f
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Destination content
+          groupType:
+            type: text
+            value: inherit
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      pageTitle: 'yes'
+      twitterCard: 'yes'
+      pageKeywords: 'yes'
+      twitterImage: 'yes'
+      twitterTitle: 'yes'
+      openGraphType: 'yes'
+      openGraphImage: 'yes'
+      openGraphTitle: 'yes'
+      twitterDescription: 'yes'
+      pageMetaDescription: 'yes'
+      openGraphDescription: 'yes'
+      overlayTitleToOgImage: 'yes'
+      overlayTitleToTwitterImage: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-08-20T19:12:13.706954+00:00'
+modified: '2024-08-21T14:50:23.287647+00:00'
+pattern: true
+description: A custom destination page
+categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

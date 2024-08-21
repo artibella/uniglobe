@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: hero
 name: Hero
 icon: >-
@@ -20,13 +20,11 @@ parameters:
   - id: eyebrowText
     name: Eyebrow text
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig:
       required: false
       multiline: true
@@ -35,12 +33,10 @@ parameters:
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
-    helpText: ''
     typeConfig: null
   - id: description
     name: Description
     type: text
-    helpText: ''
     typeConfig:
       required: false
       multiline: true
@@ -49,7 +45,6 @@ parameters:
   - id: image
     name: Image
     type: asset
-    helpText: ''
     typeConfig:
       max: 1
       min: 0
@@ -57,7 +52,6 @@ parameters:
   - id: video
     name: Video
     type: link
-    helpText: ''
     typeConfig:
       linkTypes:
         tel: false
@@ -76,24 +70,19 @@ parameters:
   - id: primaryButtonCopy
     name: Primary Button Copy
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: primaryButtonLink
     name: Primary Button Link
     type: link
-    helpText: ''
     typeConfig: null
-    localizable: true
   - id: primaryButtonStyle
     name: Primary Button Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: primaryButtonAnimationType
     name: Primary Button Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -112,24 +101,19 @@ parameters:
   - id: secondaryButtonCopy
     name: Secondary Button Copy
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: secondaryButtonLink
     name: Secondary Button Link
     type: link
-    helpText: ''
     typeConfig: null
-    localizable: true
   - id: secondaryButtonStyle
     name: Secondary Button Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: secondaryButtonAnimationType
     name: Secondary Button Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -148,7 +132,6 @@ parameters:
   - id: objectFit
     name: Object Fit
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Contain
@@ -162,12 +145,10 @@ parameters:
   - id: overlayColor
     name: Overlay Color
     type: tp-color-style-parameter
-    helpText: ''
     typeConfig: null
   - id: overlayOpacity
     name: Overlay Opacity
     type: tp-slider-parameter
-    helpText: ''
     typeConfig:
       step: 10
       type: steps
@@ -198,7 +179,6 @@ parameters:
   - id: textColorVariant
     name: Text Color Variant
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Dark
@@ -208,7 +188,6 @@ parameters:
   - id: containerVariant
     name: Container Variant
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Background In Container
@@ -218,12 +197,10 @@ parameters:
   - id: backgroundType
     name: Background Type
     type: tp-background-type-parameter
-    helpText: ''
     typeConfig: null
   - id: paddingTop
     name: Padding Top
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Small
@@ -237,7 +214,6 @@ parameters:
   - id: paddingBottom
     name: Padding Bottom
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Small
@@ -251,7 +227,6 @@ parameters:
   - id: marginBottom
     name: Margin Bottom
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Small
@@ -265,7 +240,6 @@ parameters:
   - id: marginTop
     name: Margin Top
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Small
@@ -290,7 +264,6 @@ parameters:
   - id: animationType
     name: Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -300,7 +273,6 @@ parameters:
   - id: duration
     name: Duration
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Slow
@@ -312,7 +284,6 @@ parameters:
   - id: delay
     name: Delay
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: None
@@ -326,7 +297,6 @@ parameters:
   - id: animationOrder
     name: Animation Order
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: All at once (default)
@@ -336,7 +306,6 @@ parameters:
   - id: animationPreview
     name: Animation Preview
     type: tp-play-animation-parameter
-    helpText: ''
     typeConfig: null
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 previewImageUrl: >-
@@ -345,8 +314,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2023-11-22T09:43:33.997085+00:00'
-updated: '2023-11-22T10:01:10.893872+00:00'
+created: '2024-01-15T09:26:43.56116+00:00'
+updated: '2024-01-26T13:07:20.406007+00:00'
 variants:
   - id: imageLeft
     name: Image Left

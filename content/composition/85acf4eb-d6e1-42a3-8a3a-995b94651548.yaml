@@ -1,0 +1,17 @@
+composition:
+  _name: Denmark
+  _id: 85acf4eb-d6e1-42a3-8a3a-995b94651548
+  _slug: denmark
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: 036376fb-7f06-419e-ac2b-686de17fb520
+  _locales:
+    - en-US
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2024-08-21T13:58:55.122115+00:00'
+modified: '2024-08-21T13:59:29.455109+00:00'
+pattern: false

@@ -1,0 +1,31 @@
+composition:
+  _name: Country Card
+  _id: 2090817e-0963-4450-a3b2-4e1327a10c37
+  type: card
+  parameters:
+    image:
+      type: asset
+      locales:
+        de-DE: ${#jptr:/Country/entry/fields/flag/value}
+        en-US: ${#jptr:/Country/entry/fields/flag/value}
+    title:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Country/entry/fields/name/value}
+        en-US: ${#jptr:/Country/entry/fields/name/value}
+  _dataResources:
+    Country:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: 5690f959-52d1-4f54-a869-30b8bfed46cb
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-05-14T07:03:30.583211+00:00'
+modified: '2024-05-14T07:05:13.553781+00:00'
+pattern: true

@@ -1,0 +1,25 @@
+id: countryByName
+displayName: Country by name
+ttl: 30
+body: ''
+path: /name/${country}
+custom:
+  proposedName: name/${country}
+method: GET
+purgeKey: 9cf594c0-151a-468b-8d0a-0026a54bb65b
+archetype: default
+variables:
+  fields:
+    type: text
+    default: name,capital,currencies,cca2,flag,flags
+    helpText: Fields to include in the response. See https://restcountries.com/#fields
+  country:
+    type: text
+    default: ''
+    helpText: Enter the country name of code
+parameters:
+  - key: fields
+    value: ${fields}
+    omitIfEmpty: true
+dataSourceId: restCountries
+allowedOnComponents: []

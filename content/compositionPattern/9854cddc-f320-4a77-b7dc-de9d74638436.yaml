@@ -1,0 +1,160 @@
+composition:
+  _name: Basic page
+  _id: 9854cddc-f320-4a77-b7dc-de9d74638436
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: <replace me>
+  slots:
+    pageContent:
+      - _id: 4b328fd1-c6ac-4666-8bb7-9d0996320c43
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 749a0108-de12-493f-a28d-f9a77e854d30
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                    type: text
+                  file:
+                    type: file
+                    value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
+                  size:
+                    value: 49092
+                    type: number
+                  title:
+                    type: text
+                    value: rectangle.webp
+                  width:
+                    value: 1600
+                    type: number
+                  height:
+                    value: 689
+                    type: number
+                  mediaType:
+                    value: image/webp
+                    type: text
+                _source: uniform-assets
+          title:
+            type: text
+            value: Page Title
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            value: Some page description
+          eyebrowText:
+            type: text
+            value: eyebrow text
+          paddingBottom:
+            type: select
+            value: None
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+        _overridability:
+          variants: true
+          parameters:
+            $viz: 'yes'
+            delay: 'yes'
+            image: 'yes'
+            title: 'yes'
+            video: 'yes'
+            duration: 'yes'
+            marginTop: 'yes'
+            objectFit: 'yes'
+            fullHeight: 'yes'
+            paddingTop: 'yes'
+            titleStyle: 'yes'
+            description: 'yes'
+            eyebrowText: 'yes'
+            marginBottom: 'yes'
+            overlayColor: 'yes'
+            animationType: 'yes'
+            paddingBottom: 'yes'
+            animationOrder: 'yes'
+            backgroundType: 'yes'
+            overlayOpacity: 'yes'
+            animationPreview: 'yes'
+            containerVariant: 'yes'
+            textColorVariant: 'yes'
+            primaryButtonCopy: 'yes'
+            primaryButtonLink: 'yes'
+            primaryButtonStyle: 'yes'
+            secondaryButtonCopy: 'yes'
+            secondaryButtonLink: 'yes'
+            secondaryButtonStyle: 'yes'
+            primaryButtonAnimationType: 'yes'
+            secondaryButtonAnimationType: 'yes'
+          hideLockedParameters: true
+      - _id: 6dcf5fda-1306-4bdd-8905-5bd4a99f2ae4
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            title: 'yes'
+            separator: 'yes'
+            colorStyle: 'yes'
+            displayRootNode: 'yes'
+            displayPlaceholderNodes: 'yes'
+          hideLockedParameters: true
+      - _id: 1b5e7f73-2c6c-45c6-9b64-40fa984e9a9b
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Content
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      pageTitle: 'yes'
+      twitterCard: 'yes'
+      pageKeywords: 'yes'
+      twitterImage: 'yes'
+      twitterTitle: 'yes'
+      openGraphType: 'yes'
+      openGraphImage: 'yes'
+      openGraphTitle: 'yes'
+      twitterDescription: 'yes'
+      pageMetaDescription: 'yes'
+      openGraphDescription: 'yes'
+      overlayTitleToOgImage: 'yes'
+      overlayTitleToTwitterImage: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-08-20T10:20:40.261891+00:00'
+modified: '2024-08-20T10:22:26.60441+00:00'
+pattern: true

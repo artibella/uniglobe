@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: featuredCallout
 name: Featured Callout
 icon: >-
@@ -8,25 +8,21 @@ parameters:
   - id: eyebrowText
     name: Eyebrow Text
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig:
       required: false
     localizable: true
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
-    helpText: ''
     typeConfig: null
   - id: description
     name: Description
     type: text
-    helpText: ''
     typeConfig:
       required: false
       multiline: true
@@ -35,7 +31,6 @@ parameters:
   - id: image
     name: Image
     type: asset
-    helpText: ''
     typeConfig:
       max: 1
       min: 0
@@ -54,8 +49,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2023-11-22T09:43:32.447724+00:00'
-updated: '2023-11-22T09:59:10.927083+00:00'
+created: '2024-01-15T09:26:42.656446+00:00'
+updated: '2024-01-15T15:03:12.776309+00:00'
 variants:
   - id: imageRight
     name: Image Right

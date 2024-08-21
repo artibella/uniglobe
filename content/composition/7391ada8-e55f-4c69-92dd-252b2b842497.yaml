@@ -8,7 +8,7 @@ composition:
       type: text
       locales:
         de-DE: ${place}
-        en-US: ${place}
+        en-US: ${#jptr:/Country/entry/fields/officialName/value}
   slots:
     pageFooter:
       - _id: 379cd610-3392-4647-81cb-692fe9146c0a
@@ -25,7 +25,6 @@ composition:
         parameters:
           image:
             type: asset
-            value: []
             locales:
               de-DE:
                 - _id: 749a0108-de12-493f-a28d-f9a77e854d30
@@ -35,27 +34,27 @@ composition:
                       type: text
                       value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                     url:
-                      type: text
                       value: >-
                         https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                      type: text
                     file:
                       type: file
                       value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
                     size:
-                      type: number
                       value: 49092
+                      type: number
                     title:
                       type: text
                       value: rectangle.webp
                     width:
-                      type: number
                       value: 1600
-                    height:
                       type: number
+                    height:
                       value: 689
+                      type: number
                     mediaType:
-                      type: text
                       value: image/webp
+                      type: text
                   _source: uniform-assets
               en-US:
                 - _id: 749a0108-de12-493f-a28d-f9a77e854d30
@@ -65,33 +64,33 @@ composition:
                       type: text
                       value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                     url:
-                      type: text
                       value: >-
                         https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                      type: text
                     file:
                       type: file
                       value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
                     size:
-                      type: number
                       value: 49092
+                      type: number
                     title:
                       type: text
                       value: rectangle.webp
                     width:
-                      type: number
                       value: 1600
-                    height:
                       type: number
+                    height:
                       value: 689
+                      type: number
                     mediaType:
-                      type: text
                       value: image/webp
+                      type: text
                   _source: uniform-assets
           title:
             type: text
             locales:
               de-DE: "Welcome to\_${place}"
-              en-US: "Welcome to\_${place}"
+              en-US: "Welcome to\_${#jptr:/Country/entry/fields/name/value}"
           objectFit:
             type: select
             value: cover
@@ -120,9 +119,15 @@ composition:
           textColorVariant:
             type: select
             value: Light
+  _dataResources:
+    Country:
+      type: countryBySlug
+      variables:
+        slug: ${place}
+        locale: ${locale}
   _locales:
     - de-DE
     - en-US
 created: '2024-01-17T14:33:07.585946+00:00'
-modified: '2024-01-17T14:56:32.526323+00:00'
+modified: '2024-07-25T08:28:24.34685+00:00'
 pattern: false

@@ -1,7 +1,7 @@
 id: country
 name: Country
 created: '2024-01-18T12:23:31.527234+00:00'
-updated: '2024-01-18T12:26:55.143589+00:00'
+updated: '2024-08-21T13:00:45.689106+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -12,12 +12,73 @@ fields:
     helpText: ''
     typeConfig: null
     localizable: true
-  - id: code
-    name: Code
+  - id: description
+    name: Description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+    allowConditionalValues: true
+  - id: 42da00fe-fc24-40f5-8c99-6192aaf5ecd1
+    name: Teaser settings
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - teaserImage
+        - teaserText
+  - id: teaserImage
+    name: Teaser image
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+    localizable: true
+  - id: teaserText
+    name: Teaser text
     type: text
     helpText: ''
-    typeConfig: null
-    localizable: false
+    typeConfig:
+      multiline: true
+    localizable: true
+    allowConditionalValues: true
+  - id: 3bb59b43-bfc4-41b4-b416-c672abb9d0a0
+    name: Country facts
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - officialName
+        - captial
+        - code
+        - currencies
+        - flag
+        - flagEmoji
+        - region
   - id: officialName
     name: Official name
     type: text
@@ -30,17 +91,11 @@ fields:
     helpText: ''
     typeConfig: null
     localizable: true
-  - id: flagEmoji
-    name: Flag Emoji
+  - id: code
+    name: Code
     type: text
     helpText: ''
     typeConfig: null
-    localizable: false
-  - id: flag
-    name: Flag
-    type: asset
-    helpText: ''
-    typeConfig: {}
     localizable: false
   - id: currencies
     name: Currencies
@@ -50,7 +105,28 @@ fields:
       allowedTypes:
         - currency
         - $loop
+  - id: flag
+    name: Flag
+    type: asset
+    helpText: ''
+    typeConfig: {}
+    localizable: false
+  - id: flagEmoji
+    name: Flag Emoji
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: region
+    name: Region
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      allowedContentTypes:
+        - region
+    localizable: false
 entryName: name
+thumbnailField: flag
 description: ''
 icon: globe-alt
 type: contentType

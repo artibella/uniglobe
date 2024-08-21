@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: richText
 name: Rich Text
 icon: format-text
@@ -7,7 +7,6 @@ parameters:
   - id: content
     name: Content
     type: richText
-    helpText: ''
     typeConfig:
       elements:
         builtIn:
@@ -35,8 +34,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: content
 canBeComposition: false
-created: '2023-11-22T09:43:35.138185+00:00'
-updated: '2023-11-22T10:08:40.99577+00:00'
+created: '2024-01-15T09:26:45.82382+00:00'
+updated: '2024-01-15T15:03:14.116504+00:00'
 variants:
   - id: light
     name: Light

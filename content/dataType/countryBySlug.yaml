@@ -1,0 +1,17 @@
+id: countryBySlug
+displayName: Country by Slug
+ttl: 30
+path: /single-by-slug
+custom:
+  proposedName: Country
+  allowedContentTypes:
+    - country
+method: GET
+purgeKey: d740fbfc-6f4a-49e8-afc2-7b6f2ab7c0b5
+archetype: singleEntryBySlug
+variables:
+  slug:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

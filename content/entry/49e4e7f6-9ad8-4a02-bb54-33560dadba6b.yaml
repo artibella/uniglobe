@@ -1,0 +1,226 @@
+created: '2024-08-20T21:38:22.074765+00:00'
+modified: '2024-08-21T13:05:07.090429+00:00'
+pattern: false
+entry:
+  _id: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+  _name: Japan
+  _slug: japan
+  _thumbnail: https://flagcdn.com/jp.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        country: japan
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+  _overrides:
+    49e4e7f6-9ad8-4a02-bb54-33560dadba6b:
+      parameters:
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              Experience the perfect fusion of ancient traditions and
+              cutting-edge modernity in Japan, where every journey is a
+              discovery of culture, cuisine, and breathtaking landscapes.
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Japan is a captivating blend of ancient and modern,
+                          offering travellers a unique experience at every turn.
+                          From the tranquil temples of Kyoto and the majestic
+                          Mount Fuji to the neon-lit streets of Tokyo, Japan
+                          seamlessly combines its rich cultural heritage with
+                          futuristic innovation. Discover exquisite cuisine,
+                          from sushi to ramen, and immerse yourself in
+                          traditional arts like tea ceremonies and kabuki
+                          theater. Whether you're exploring serene gardens,
+                          soaking in natural hot springs, or enjoying the
+                          vibrant nightlife, Japan promises an unforgettable
+                          journey filled with diverse landscapes, friendly
+                          locals, and timeless traditions.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best time to visit
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Japan depends on what you want
+                          to experience:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This is one of the most popular times to visit, as cherry blossoms (sakura) bloom across the country. The weather is mild, and the landscape is breathtaking with pink and white blossoms.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Another beautiful time to visit, with cooler temperatures and stunning autumn foliage (koyo) painting the countryside in shades of red, orange, and gold.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Ideal for those who enjoy winter sports, with excellent skiing and snowboarding in places like Hokkaido. Additionally, the winter illuminations and hot springs (onsen) are unique attractions.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Although hot and humid, summer offers vibrant festivals, fireworks displays, and opportunities to explore Japan’s coastal areas and mountainous regions. However, it''s also the rainy season, especially in June and July.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For cherry blossoms, aim for late March to early
+                          April; for autumn leaves, late October to early
+                          December is ideal.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: c822e52e-be10-4c97-a4ba-ffe9a4dc93bd
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: Copyright Sora Sagano
+                _source: custom-url
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

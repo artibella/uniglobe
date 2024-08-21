@@ -1,0 +1,9 @@
+id: 3fc59067-4de9-41e2-b322-4cb733ba4c6b
+name: Italy
+order: 500
+path: /:locale/destinations/europe/italy
+type: composition
+pathSegment: italy
+data: {}
+compositionId: 76d7706c-6155-45cb-8cb5-3c3cf63bdf4f
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

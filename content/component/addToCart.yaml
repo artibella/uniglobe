@@ -7,23 +7,19 @@ parameters:
   - id: product
     name: Product
     type: json
-    helpText: ''
     typeConfig: {}
   - id: buttonCopy
     name: Button Copy
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: buttonStyle
     name: Button Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: buttonAnimationType
     name: Button Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In

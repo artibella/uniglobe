@@ -1,0 +1,72 @@
+composition:
+  _name: Image card (light text)
+  _id: 36fdb4df-9340-465c-8cba-321377db11ce
+  type: card
+  variant: backgroundImage
+  parameters:
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: af42e305-491b-41fe-872a-190f17bf9c96
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1569982175971-d92b01cf8694?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+            _source: custom-url
+    badgeSize:
+      type: select
+      value: md
+    objectFit:
+      type: select
+      locales:
+        en-US: cover
+    buttonCopy:
+      type: text
+      locales:
+        en-US: Learn more
+    buttonLink:
+      type: link
+      locales:
+        en-US:
+          path: '#'
+          type: url
+    buttonStyle:
+      type: tp-button-style-parameter
+      value: link
+    overlayOpacity:
+      type: tp-slider-parameter
+      locales:
+        en-US: 0%
+    animationPreview:
+      type: tp-play-animation-parameter
+      value: true
+    textColorVariant:
+      type: select
+      value: Light
+    lineCountRestriction:
+      type: tp-slider-parameter
+      value: none
+  _overridability:
+    parameters:
+      badge: 'yes'
+      image: 'yes'
+      title: 'yes'
+      badgeSize: 'yes'
+      objectFit: 'yes'
+      buttonCopy: 'yes'
+      buttonLink: 'yes'
+      buttonStyle: 'yes'
+      description: 'yes'
+      overlayColor: 'yes'
+      overlayOpacity: 'yes'
+      textColorVariant: 'no'
+      lineCountRestriction: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-07-10T18:01:03.672592+00:00'
+modified: '2024-07-10T18:05:46.29838+00:00'
+pattern: true

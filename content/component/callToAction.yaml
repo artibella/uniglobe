@@ -18,13 +18,11 @@ parameters:
   - id: eyebrowText
     name: 'Eyebrow Text '
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig:
       required: false
       multiline: true
@@ -33,12 +31,10 @@ parameters:
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
-    helpText: ''
     typeConfig: null
   - id: description
     name: Description
     type: text
-    helpText: ''
     typeConfig:
       required: false
       multiline: true
@@ -56,24 +52,20 @@ parameters:
   - id: primaryButtonCopy
     name: Primary Button Copy
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: primaryButtonLink
     name: Primary Button Link
     type: link
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: primaryButtonStyle
     name: Primary Button Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: primaryButtonAnimationType
     name: Primary Button Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -92,25 +84,21 @@ parameters:
   - id: secondaryButtonCopy
     name: Secondary Button Copy
     type: text
-    helpText: ''
     typeConfig:
       required: false
     localizable: true
   - id: secondaryButtonLink
     name: Secondary Button Link
     type: link
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: secondaryButtonStyle
     name: Secondary Button Style
     type: tp-button-style-parameter
-    helpText: ''
     typeConfig: null
   - id: secondaryButtonAnimationType
     name: Secondary Button Animation Type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fade-In
@@ -127,7 +115,6 @@ parameters:
   - id: textColorVariant
     name: Text Color Variant
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Dark

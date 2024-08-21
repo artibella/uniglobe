@@ -1,0 +1,9 @@
+id: faa52848-830f-40e1-bfef-8b58bad70110
+name: Countries
+order: 300
+path: /:locale/countries
+type: composition
+pathSegment: countries
+data: {}
+compositionId: a0b6e55c-a1ba-4a5e-a32f-ee927963de85
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

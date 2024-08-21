@@ -25,19 +25,18 @@ composition:
         parameters:
           image:
             type: asset
-            value: []
             locales:
               de-DE:
-                - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
+                - _id: e8ea1d46-b0cd-411a-9a39-9ec9fe4223f7
                   type: image
                   fields:
                     url:
                       type: text
                       value: >-
-                        https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                        https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                     title:
                       type: text
-                      value: Kyoto street
+                      value: On a boat on Lago di Braies
                   _source: custom-url
               en-US:
                 - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
@@ -54,7 +53,7 @@ composition:
           title:
             type: text
             locales:
-              de-DE: Wohin geht die Reise?
+              de-DE: Wohin geht die nächste Reise?
               en-US: Where to next?
           objectFit:
             type: select
@@ -68,12 +67,12 @@ composition:
           description:
             type: text
             locales:
-              de-DE: Entdecke die besten Reiseziele auf der Welt
+              de-DE: Entdecke die besten Reiseziele
               en-US: Discover the best travel destinations around the globe
           eyebrowText:
             type: text
             locales:
-              de-DE: Plan your trip
+              de-DE: Reiseplanung
               en-US: Plan your trip
           overlayColor:
             type: tp-color-style-parameter
@@ -86,90 +85,13 @@ composition:
             value: Dark
           overlayOpacity:
             type: tp-slider-parameter
-            value: 50%
+            value: 40%
           containerVariant:
             type: select
             value: fluidContent
           textColorVariant:
             type: select
             value: Light
-      - _id: 6da3e11f-5354-4198-920c-fba366f76e9c
-        type: $localization
-        slots:
-          localized:
-            - _id: 94a05df6-70ba-4ce3-b5de-59e7e3ce07db
-              type: hero
-              variant: imageLeft
-              parameters:
-                image:
-                  type: asset
-                  value: []
-                  locales:
-                    en-US:
-                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                          title:
-                            type: text
-                            value: Trip plan
-                        _source: custom-url
-                title:
-                  type: text
-                  locales:
-                    en-US: Get a free itinerary plan from our local experts
-                locale:
-                  type: localeSelect
-                  value: en-US
-                objectFit:
-                  type: select
-                  value: cover
-                titleStyle:
-                  type: tp-title-style-parameter
-                  value: h1
-                description:
-                  type: text
-                  locales:
-                    en-US: for any trips to South and Central America
-                eyebrowText:
-                  type: text
-                  locales:
-                    en-US: Special offer
-                overlayColor:
-                  type: tp-color-style-parameter
-                  value: secondary
-                backgroundType:
-                  type: tp-background-type-parameter
-                  value: Medium
-                overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 0%
-                containerVariant:
-                  type: select
-                  value: backgroundInContainer
-                textColorVariant:
-                  type: select
-                  value: Dark
-                primaryButtonCopy:
-                  type: text
-                  locales:
-                    en-US: Get your free plan
-                primaryButtonLink:
-                  type: link
-                  locales:
-                    en-US:
-                      path: /:locale/trips
-                      type: projectMapNode
-                      nodeId: d4128937-d0fe-4870-a6aa-2244787daa85
-                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      dynamicInputValues:
-                        locale: ${locale}
-                primaryButtonStyle:
-                  type: tp-button-style-parameter
-                  value: primary
       - _id: 35ba41b8-b664-48cd-ba51-f979a2ef0cec
         type: cardBlock
         slots:
@@ -191,7 +113,6 @@ composition:
                           en-US: Singapore
                       image:
                         type: asset
-                        value: []
                         locales:
                           de-DE:
                             - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
@@ -225,12 +146,12 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /destinations
+                            path: /:locale/destinations
                             type: projectMapNode
                             nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
                             projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                           en-US:
-                            path: /destinations
+                            path: /:locale/destinations
                             type: projectMapNode
                             nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
                             projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -251,7 +172,6 @@ composition:
                         value: none
                   - _id: 5a9475c8-d17b-4eea-9317-417f0f0bf876
                     type: card
-                    variant: ''
                     parameters:
                       badge:
                         type: text
@@ -260,7 +180,6 @@ composition:
                           en-US: Japan
                       image:
                         type: asset
-                        value: []
                         locales:
                           de-DE:
                             - _id: ef9b4129-d793-4cb4-8714-83bf9fe00471
@@ -308,12 +227,12 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /destinations
+                            path: /:locale/destinations
                             type: projectMapNode
                             nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
                             projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                           en-US:
-                            path: /destinations
+                            path: /:locale/destinations
                             type: projectMapNode
                             nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
                             projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -362,6 +281,11 @@ composition:
                 columnsCount:
                   type: tp-slider-parameter
                   value: '3'
+                  conditions:
+                    - id: 0
+                      when:
+                        clauses: []
+                      value: '3'
         parameters:
           title:
             type: text
@@ -370,7 +294,9 @@ composition:
               en-US: Explore Asia
           buttonCopy:
             type: text
-            value: See all
+            locales:
+              de-DE: Mehr entdecken
+              en-US: See All
           buttonLink:
             type: link
             value:
@@ -386,9 +312,85 @@ composition:
           buttonStyle:
             type: tp-button-style-parameter
             value: link
+      - _id: 94a05df6-70ba-4ce3-b5de-59e7e3ce07db
+        type: hero
+        variant: imageLeft
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              criteria:
+                clauses:
+                  - op: is
+                    rule: $locale
+                    value: en-US
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    title:
+                      type: text
+                      value: Trip plan
+                  _source: custom-url
+          title:
+            type: text
+            locales:
+              en-US: Get a free itinerary plan from our local experts
+          objectFit:
+            type: select
+            value: cover
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: for any trips to South and Central America
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Special offer
+          overlayColor:
+            type: tp-color-style-parameter
+            value: secondary
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 0%
+          containerVariant:
+            type: select
+            value: backgroundInContainer
+          textColorVariant:
+            type: select
+            value: Dark
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Get your free plan
+          primaryButtonLink:
+            type: link
+            value:
+              path: /${locale}/trips
+              type: projectMapNode
+              nodeId: d4128937-d0fe-4870-a6aa-2244787daa85
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+          primaryButtonStyle:
+            type: tp-button-style-parameter
+            value: primary
   _locales:
     - en-US
     - de-DE
 created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2024-01-17T18:00:04.117979+00:00'
+modified: '2024-08-21T19:18:15.480018+00:00'
 pattern: false
