@@ -1,0 +1,26 @@
+created: '2024-09-19T15:41:51.079355+00:00'
+modified: '2024-09-19T15:42:14.691142+00:00'
+pattern: false
+entry:
+  _id: d6dbde96-f109-42cc-9205-0e6ffe662117
+  _name: Caribbean
+  _slug: caribbean
+  type: region
+  fields: {}
+  _dataResources:
+    Countries:
+      type: countriesBySubRegion
+      variables:
+        Subregion: Caribbean
+  _locales:
+    - en-US
+    - de-DE
+  _overrides:
+    d6dbde96-f109-42cc-9205-0e6ffe662117:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Karibik
+            en-US: Caribbean
+  _pattern: 57ca4594-f957-4139-a439-fbfb7eb58300

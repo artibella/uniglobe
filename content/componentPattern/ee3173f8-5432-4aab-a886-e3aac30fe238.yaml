@@ -1,0 +1,302 @@
+composition:
+  _name: App banner
+  _id: ee3173f8-5432-4aab-a886-e3aac30fe238
+  type: container
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: App teaser banner
+    marginTop:
+      type: select
+      value: None
+    paddingTop:
+      type: select
+      value: None
+    marginBottom:
+      type: select
+      value: None
+    paddingBottom:
+      type: select
+      value: None
+    backgroundType:
+      type: tp-background-type-parameter
+      value: Medium
+  slots:
+    container-inner:
+      - _id: af6145df-990f-4d27-9218-c5905b8d885f
+        type: grid
+        slots:
+          grid-inner:
+            - _id: ece3f63a-f151-478f-95f7-771552278fe0
+              type: gridItem
+              slots:
+                inner:
+                  - _id: 827696b7-9ff8-4fe6-9303-4ee0ec969a80
+                    type: richText
+                    variant: light
+                    parameters:
+                      content:
+                        type: richText
+                        locales:
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - tag: h2
+                                  type: heading
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Get exclusive deals and offline access
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: ltr
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: by downloading our app
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                                  textFormat: 1
+                                - tag: ul
+                                  type: list
+                                  start: 1
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: listitem
+                                      value: 1
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: Deals on hotels and flights
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                    - type: listitem
+                                      value: 2
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: Access to our exclusive members club
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                    - type: listitem
+                                      value: 3
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: Offline guides and maps
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                  listType: bullet
+                                  direction: ltr
+                              direction: ltr
+                    _overridability:
+                      variants: true
+                      parameters:
+                        $viz: 'yes'
+                        content: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                title:
+                  type: text
+                  value: Download banner
+                rowSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                rowStart:
+                  type: tp-slider-parameter
+                  value: None
+                columnSpan:
+                  type: tp-slider-parameter
+                  value: '4'
+                columnStart:
+                  type: tp-slider-parameter
+                  value: none
+              _overridability:
+                hideLockedParameters: true
+            - _id: 6c8284f7-0f27-4ed7-bd3f-87a6b4af60a2
+              type: gridItem
+              slots:
+                inner:
+                  - _id: 57b5df72-fdd8-4cfb-8064-d69717392b76
+                    type: image
+                    parameters:
+                      alt:
+                        type: text
+                        locales:
+                          en-US: Download in app store
+                      src:
+                        type: asset
+                        locales:
+                          en-US:
+                            - _id: e29213f9-506e-4345-9bd7-af126331cc7f
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: 698d91b2-bf29-4db4-8795-70de7d92ff07
+                                url:
+                                  value: >-
+                                    https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
+                                  type: text
+                                file:
+                                  type: file
+                                  value: 39d7e546-dc16-4a1e-9727-6ae06a3ff650
+                                size:
+                                  value: 8406
+                                  type: number
+                                title:
+                                  type: text
+                                  value: Apple app store button
+                                width:
+                                  value: 150
+                                  type: number
+                                height:
+                                  value: 150
+                                  type: number
+                                mediaType:
+                                  value: image/svg+xml
+                                  type: text
+                              _source: uniform-assets
+                      link:
+                        type: link
+                        locales:
+                          en-US:
+                            path: https://store.apple.com/uniglobe
+                            type: url
+                      width:
+                        type: number
+                        locales:
+                          en-US: '150'
+                      height:
+                        type: number
+                        locales:
+                          en-US: '150'
+                      priority:
+                        type: checkbox
+                        value: true
+                      objectFit:
+                        type: select
+                        value: contain
+                      borderRadius:
+                        type: tp-slider-parameter
+                        value: none
+                    _overridability:
+                      parameters:
+                        alt: 'yes'
+                        src: 'yes'
+                        link: 'yes'
+                        width: 'yes'
+                        height: 'yes'
+                      hideLockedParameters: true
+              parameters:
+                title:
+                  type: text
+                  value: App logo
+                rowSpan:
+                  type: tp-slider-parameter
+                  value: '1'
+                rowStart:
+                  type: tp-slider-parameter
+                  value: None
+                columnSpan:
+                  type: tp-slider-parameter
+                  value: '2'
+                columnStart:
+                  type: tp-slider-parameter
+                  value: none
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gapX:
+            type: tp-slider-parameter
+            value: medium
+          gapY:
+            type: tp-slider-parameter
+            value: none
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: Small
+          columnsCount:
+            type: tp-slider-parameter
+            locales:
+              en-US: '6'
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: Small
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            gapX: 'yes'
+            gapY: 'yes'
+            title: 'yes'
+            marginTop: 'yes'
+            paddingTop: 'yes'
+            columnsCount: 'yes'
+            marginBottom: 'yes'
+            paddingBottom: 'yes'
+            backgroundType: 'yes'
+            containerVariant: 'yes'
+          hideLockedParameters: true
+  _overridability:
+    variants: true
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      marginTop: 'yes'
+      paddingTop: 'yes'
+      marginBottom: 'yes'
+      paddingBottom: 'yes'
+      backgroundType: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-09-19T16:45:41.703706+00:00'
+modified: '2024-09-19T17:09:10.633017+00:00'
+pattern: true

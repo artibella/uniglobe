@@ -1,5 +1,5 @@
 created: '2024-01-18T12:46:54.514189+00:00'
-modified: '2024-08-21T13:15:17.203687+00:00'
+modified: '2024-09-19T15:24:52.44306+00:00'
 pattern: false
 entry:
   _id: 9b2812f5-7003-4d80-9fef-362e1fa2a0aa
@@ -13,11 +13,19 @@ entry:
       type: countryByName
       variables:
         country: People's Republic of China
+    ref-9b2812f5-7003-4d80-9fef-362e1fa2a0aa-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
   _locales:
     - en-US
   _overrides:
     9b2812f5-7003-4d80-9fef-362e1fa2a0aa:
       parameters:
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-9b2812f5-7003-4d80-9fef-362e1fa2a0aa-region/entries/0}
         teaserText:
           type: text
           locales:

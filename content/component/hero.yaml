@@ -22,6 +22,7 @@ parameters:
     type: text
     typeConfig: null
     localizable: true
+    allowConditionalValues: true
   - id: title
     name: Title
     type: text
@@ -30,6 +31,7 @@ parameters:
       multiline: true
       linesCount: '3'
     localizable: true
+    allowConditionalValues: true
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
@@ -49,6 +51,7 @@ parameters:
       max: 1
       min: 0
     localizable: true
+    allowConditionalValues: true
   - id: video
     name: Video
     type: link
@@ -58,6 +61,7 @@ parameters:
         email: false
         projectMapNode: false
     localizable: true
+    allowConditionalValues: true
   - id: group_primaryCta
     name: Primary CTA
     type: group
@@ -315,7 +319,7 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:43.56116+00:00'
-updated: '2024-01-26T13:07:20.406007+00:00'
+updated: '2024-09-19T09:35:35.499146+00:00'
 variants:
   - id: imageLeft
     name: Image Left

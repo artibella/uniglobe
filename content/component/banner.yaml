@@ -124,10 +124,10 @@ previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Banner_preview_image
 useTeamPermissions: true
 slots: []
-titleParameter: description
+titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:42.717428+00:00'
-updated: '2024-01-15T10:04:13.017539+00:00'
+updated: '2024-09-23T11:46:45.571433+00:00'
 variants:
   - id: fullWidth
     name: Full Width

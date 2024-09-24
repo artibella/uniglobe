@@ -1,9 +1,0 @@
-id: 6756a87b-55af-4351-8950-d73f0dcbdcce
-name: Test
-order: 600
-path: /:locale/shop/test
-type: composition
-pathSegment: test
-data: {}
-compositionId: 18380011-e74d-4aba-a9e9-3c87e5df4df2
-projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

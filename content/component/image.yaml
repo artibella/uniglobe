@@ -12,6 +12,7 @@ parameters:
       max: 1
       min: 0
     localizable: true
+    allowConditionalValues: true
   - id: alt
     name: Alt Text
     type: text
@@ -33,6 +34,16 @@ parameters:
     typeConfig:
       min: '1'
     localizable: true
+  - id: link
+    name: Link
+    type: link
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+        projectMapNode: true
+    localizable: true
+    allowConditionalValues: true
   - id: group_styling
     name: Overlay
     type: group
@@ -60,8 +71,8 @@ parameters:
     type: group
     typeConfig:
       childrenParams:
-        - borderWidth
         - borderColor
+        - borderWidth
         - borderRadius
   - id: borderColor
     name: Border Color
@@ -103,10 +114,10 @@ parameters:
     typeConfig:
       collapsed: true
       childrenParams:
+        - objectFit
+        - fill
         - quality
         - priority
-        - fill
-        - objectFit
   - id: objectFit
     name: Object Fit
     type: select
@@ -147,6 +158,7 @@ previewImageUrl: >-
 useTeamPermissions: true
 slots: []
 titleParameter: alt
+thumbnailParameter: src
 canBeComposition: false
 created: '2024-01-15T09:26:43.570364+00:00'
-updated: '2024-01-15T15:03:15.128666+00:00'
+updated: '2024-09-19T17:00:33.748093+00:00'

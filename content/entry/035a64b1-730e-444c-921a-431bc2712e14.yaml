@@ -1,5 +1,5 @@
 created: '2024-08-21T13:15:35.435656+00:00'
-modified: '2024-08-21T13:18:38.18192+00:00'
+modified: '2024-09-20T10:04:51.479563+00:00'
 pattern: false
 entry:
   _id: 035a64b1-730e-444c-921a-431bc2712e14
@@ -14,6 +14,11 @@ entry:
       variables:
         fields: name,capital,currencies,cca2,flag,flags,region,subregion
         country: Thailand
+    ref-035a64b1-730e-444c-921a-431bc2712e14-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
   _locales:
     - en-US
     - de-DE
@@ -21,17 +26,341 @@ entry:
   _overrides:
     035a64b1-730e-444c-921a-431bc2712e14:
       parameters:
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-035a64b1-730e-444c-921a-431bc2712e14-region/entries/0}
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Entdecken Sie die bezaubernde Schönheit Thailands, wo goldene
+              Tempel, unberührte Strände und eine pulsierende Kultur das
+              ultimative tropische Urlaubsziel bieten.
             en-US: >-
+              Discover the enchanting beauty of Thailand, where golden temples,
+              pristine beaches, and vibrant culture create the ultimate tropical
+              getaway.
+            it-IT: >-
               Discover the enchanting beauty of Thailand, where golden temples,
               pristine beaches, and vibrant culture create the ultimate tropical
               getaway.
         description:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Thailand ist ein tropisches Paradies, das für seine
+                          lebendige Kultur, seine atemberaubenden Landschaften
+                          und seine herzliche Gastfreundschaft bekannt ist. Von
+                          den belebten Straßen Bangkoks über die ruhigen Strände
+                          von Phuket bis hin zu den üppigen Dschungeln von
+                          Chiang Mai bietet Thailand eine Vielzahl von
+                          Erlebnissen. Erkunden Sie kunstvolle Tempel, genießen
+                          Sie das weltberühmte Straßenessen und tauchen Sie ein
+                          in das lebhafte Treiben der Märkte und Festivals. Ob
+                          Sie auf idyllischen Inseln entspannen, antike Ruinen
+                          erkunden oder das pulsierende Nachtleben genießen -
+                          Thailand verspricht eine Fülle von Abenteuern und
+                          unvergesslichen Erinnerungen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Beste Reisezeit für Thailand
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Die beste Reisezeit für Thailand hängt von den
+                          Regionen ab, die Sie erkunden möchten, und von der Art
+                          des Erlebnisses, das Sie suchen:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Kühle Jahreszeit (November bis Februar): Dies ist die
+                          beliebteste Reisezeit, mit angenehmen Temperaturen und
+                          niedriger Luftfeuchtigkeit. Sie ist ideal, um Städte
+                          zu erkunden, Aktivitäten im Freien zu genießen und an
+                          den Stränden zu entspannen. Das Wetter ist perfekt für
+                          Inselhopping und den Besuch nördlicher Regionen wie
+                          Chiang Mai.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Heiße Jahreszeit (März bis Mai): In dieser Zeit
+                          herrscht in Thailand heißes und trockenes Wetter,
+                          besonders in den zentralen und nördlichen Regionen.
+                          Dies ist eine großartige Zeit für Strandurlaube und
+                          Wasseraktivitäten, obwohl es für Stadtbesichtigungen
+                          recht warm sein kann. Das Songkran-Festival im April,
+                          das thailändische Neujahrsfest, ist ein großer
+                          Höhepunkt.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Regenzeit (Juni bis Oktober): Die Regenzeit bringt
+                          häufige Regenschauer mit sich, ist aber auch eine
+                          schöne Reisezeit, wenn Sie weniger Touristen und
+                          üppige, grüne Landschaften bevorzugen. Die südlichen
+                          Inseln, vor allem auf der Golfseite, sind immer noch
+                          gut für Strandaktivitäten geeignet, und die Regenfälle
+                          sind meist kurz und erfrischend.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Das beste Gesamterlebnis bei idealem Wetter bietet ein
+                          Besuch in der kühlen Jahreszeit von November bis
+                          Februar. Die heiße Jahreszeit ist ideal für
+                          Strandliebhaber und Festivalbesucher, während die
+                          Regenzeit ein ruhigeres und grüneres Erlebnis bietet.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
             en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Thailand is a tropical paradise known for its vibrant
+                          culture, stunning landscapes, and warm hospitality.
+                          From the bustling streets of Bangkok to the serene
+                          beaches of Phuket and the lush jungles of Chiang Mai,
+                          Thailand offers a diverse array of experiences.
+                          Explore ornate temples, indulge in world-famous street
+                          food, and immerse yourself in the lively markets and
+                          festivals. Whether you're relaxing on idyllic islands,
+                          exploring ancient ruins, or enjoying the vibrant
+                          nightlife, Thailand promises a rich tapestry of
+                          adventures and unforgettable memories.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Thailand
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Thailand depends on the regions
+                          you wish to explore and the type of experience you
+                          seek:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Cool Season (November to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This is the most popular time to visit, with pleasant temperatures and low humidity. It''s ideal for exploring cities, enjoying outdoor activities, and relaxing on the beaches. The weather is perfect for island-hopping and visiting northern regions like Chiang Mai.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Hot Season (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Thailand experiences hot and dry weather during this time, particularly in central and northern regions. This is a great time for beach vacations and water activities, though it can be quite warm for city exploration. The Songkran Festival in April, Thailand''s New Year, is a major highlight.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Rainy Season (June to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The rainy season brings frequent showers, but it''s also a beautiful time to visit if you prefer fewer tourists and lush, green landscapes. The southern islands, especially on the Gulf side, are still good for beach activities, and the rains tend to be short and refreshing.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the best overall experience with ideal weather,
+                          visit during the cool season from November to
+                          February. The hot season is great for beach lovers and
+                          festival-goers, while the rainy season offers a more
+                          tranquil and verdant experience.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
               root:
                 type: root
                 format: ''
@@ -192,7 +521,31 @@ entry:
         teaserImage:
           type: asset
           locales:
+            de-DE:
+              - _id: d12aff46-dffb-472c-8ebf-7865c1aeb246
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?q=80&w=1139&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copright: Sumit Chinchane'
+                _source: custom-url
             en-US:
+              - _id: d12aff46-dffb-472c-8ebf-7865c1aeb246
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?q=80&w=1139&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copright: Sumit Chinchane'
+                _source: custom-url
+            it-IT:
               - _id: d12aff46-dffb-472c-8ebf-7865c1aeb246
                 type: image
                 fields:

@@ -1,5 +1,5 @@
 created: '2024-08-20T21:38:22.074765+00:00'
-modified: '2024-08-21T13:05:07.090429+00:00'
+modified: '2024-09-19T15:24:28.523935+00:00'
 pattern: false
 entry:
   _id: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
@@ -13,6 +13,11 @@ entry:
       type: countryByName
       variables:
         country: japan
+    ref-49e4e7f6-9ad8-4a02-bb54-33560dadba6b-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
   _locales:
     - en-US
     - de-DE
@@ -20,6 +25,9 @@ entry:
   _overrides:
     49e4e7f6-9ad8-4a02-bb54-33560dadba6b:
       parameters:
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-49e4e7f6-9ad8-4a02-bb54-33560dadba6b-region/entries/0}
         teaserText:
           type: text
           locales:

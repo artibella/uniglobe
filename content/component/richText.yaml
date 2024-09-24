@@ -27,6 +27,7 @@ parameters:
           - italic
           - underline
     localizable: true
+    allowConditionalValues: true
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Rich_text_preview_image
@@ -35,7 +36,7 @@ slots: []
 titleParameter: content
 canBeComposition: false
 created: '2024-01-15T09:26:45.82382+00:00'
-updated: '2024-01-15T15:03:14.116504+00:00'
+updated: '2024-09-19T16:53:00.771496+00:00'
 variants:
   - id: light
     name: Light

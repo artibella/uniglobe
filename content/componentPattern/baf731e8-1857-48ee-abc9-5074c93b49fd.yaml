@@ -1,0 +1,79 @@
+composition:
+  _name: 'Banner: Seasonal Offer  '
+  _id: baf731e8-1857-48ee-abc9-5074c93b49fd
+  type: banner
+  variant: fullWidth
+  parameters:
+    title:
+      type: text
+      locales:
+        de-DE: ❄️  Winter offer ❄️
+        en-US: ❄️  Winter offer ❄️
+        it-IT: ❄️  Winter offer ❄️
+    inline:
+      type: checkbox
+      value: true
+    textAlign:
+      type: tp-horizontal-align-parameter
+      value: center
+    description:
+      type: text
+      locales:
+        de-DE: Save 10% for all trips to Asia in December and January
+        en-US: Save 10% for all trips to Asia in December and January
+        it-IT: Save 10% for all trips to Asia in December and January
+    primaryButtonCopy:
+      type: text
+      locales:
+        de-DE: Book now
+        en-US: Book now
+        it-IT: Book now
+    primaryButtonLink:
+      type: link
+      locales:
+        de-DE:
+          path: /${locale}/shop
+          type: projectMapNode
+          nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+          dynamicInputValues:
+            locale: ${locale}
+        en-US:
+          path: /${locale}/shop
+          type: projectMapNode
+          nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+          dynamicInputValues:
+            locale: ${locale}
+        it-IT:
+          path: /${locale}/shop
+          type: projectMapNode
+          nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+          dynamicInputValues:
+            locale: ${locale}
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      icon: 'no'
+      title: 'yes'
+      inline: 'no'
+      position: 'no'
+      textAlign: 'no'
+      description: 'yes'
+      primaryButtonCopy: 'yes'
+      primaryButtonLink: 'yes'
+      primaryButtonStyle: 'no'
+      secondaryButtonCopy: 'no'
+      secondaryButtonLink: 'no'
+      secondaryButtonStyle: 'no'
+      primaryButtonAnimationType: 'no'
+      secondaryButtonAnimationType: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+created: '2024-09-20T08:44:17.681435+00:00'
+modified: '2024-09-23T11:47:35.722568+00:00'
+pattern: true

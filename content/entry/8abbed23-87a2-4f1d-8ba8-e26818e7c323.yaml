@@ -1,40 +1,41 @@
-created: '2024-03-12T15:24:34.437337+00:00'
-modified: '2024-09-19T15:57:29.539737+00:00'
+created: '2024-09-19T15:18:49.18102+00:00'
+modified: '2024-09-19T15:23:49.397679+00:00'
 pattern: false
 entry:
-  _id: 7bb27e7a-4b58-41a6-9229-894a2e6b9ada
-  _name: United Kingdom
-  _slug: united-kingdom
-  _thumbnail: https://flagcdn.com/gb.svg
+  _id: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
+  _name: Vietnam
+  _slug: vietnam
+  _thumbnail: https://flagcdn.com/vn.svg
   type: country
   fields: {}
   _dataResources:
     Country:
       type: countryByName
       variables:
-        country: United Kingdom
-    ref-7bb27e7a-4b58-41a6-9229-894a2e6b9ada-region:
+        fields: name,capital,currencies,cca2,flag,flags,region,subregion
+        country: vietnam
+    ref-8abbed23-87a2-4f1d-8ba8-e26818e7c323-region:
       type: uniformContentInternalReference
       variables:
         locale: ${locale}
-        entryIds: 53b42f52-db71-448c-8869-e86a5b7fc80e
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
   _locales:
     - en-US
     - de-DE
     - it-IT
   _overrides:
-    7bb27e7a-4b58-41a6-9229-894a2e6b9ada:
+    8abbed23-87a2-4f1d-8ba8-e26818e7c323:
       parameters:
         region:
           type: contentReference
-          value: ${#jptr:/ref-7bb27e7a-4b58-41a6-9229-894a2e6b9ada-region/entries/0}
+          value: ${#jptr:/ref-8abbed23-87a2-4f1d-8ba8-e26818e7c323-region/entries/0}
         teaserText:
           type: text
           locales:
             en-US: >-
-              Experience the charm and diversity of the UK, where historic
-              landmarks, vibrant cities, and stunning landscapes come together
-              to create an unforgettable adventure.
+              Experience the vibrant culture, stunning landscapes, and rich
+              history of Vietnam, where ancient traditions meet breathtaking
+              natural beauty for an unforgettable adventure.
         description:
           type: richText
           locales:
@@ -52,19 +53,19 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          The UK is a diverse and vibrant destination, offering
-                          a rich tapestry of history, culture, and natural
-                          beauty. From the bustling streets of London and the
-                          historic landmarks of Edinburgh to the picturesque
-                          countryside of the Cotswolds and the rugged landscapes
-                          of Scotland, the UK caters to every traveler's
-                          interests. Explore iconic sites like Buckingham
-                          Palace, Stonehenge, and the Lake District, and immerse
-                          yourself in the local traditions, culinary delights,
-                          and world-renowned arts. Whether you're wandering
-                          through ancient castles or enjoying lively pub
-                          culture, the UK promises a memorable and multifaceted
-                          experience.
+                          Vietnam is a captivating destination, offering a
+                          unique blend of natural beauty, rich history, and
+                          vibrant culture. From the bustling streets of Hanoi
+                          and Ho Chi Minh City to the serene landscapes of Ha
+                          Long Bay and the terraced rice fields of Sapa, Vietnam
+                          provides a diverse array of experiences. Explore
+                          ancient temples, indulge in delicious street food, and
+                          immerse yourself in local traditions and festivals.
+                          Whether you're cruising through emerald waters,
+                          visiting historic sites like the Cu Chi Tunnels, or
+                          relaxing on the pristine beaches of Da Nang, Vietnam
+                          promises an unforgettable adventure full of discovery
+                          and charm.
                         type: text
                         style: ''
                         detail: 0
@@ -80,7 +81,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Best Time to Visit the UK
+                        text: Best Time to Visit Vietnam
                         type: text
                         style: ''
                         detail: 0
@@ -94,8 +95,8 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          The best time to visit the UK depends on your
-                          preferences for weather and activities:
+                          The best time to visit Vietnam depends on the region
+                          you want to explore due to its diverse climate:
                         type: text
                         style: ''
                         detail: 0
@@ -118,14 +119,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Spring (March to May):'
+                            text: 'Spring (February to April):'
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' Spring offers mild temperatures and blooming flowers, making it a wonderful time for sightseeing and exploring gardens, parks, and historic sites. This season is ideal for enjoying outdoor events and avoiding the peak tourist crowds.'
+                            text: ' This is one of the best times to visit, with mild temperatures and less rainfall across the country. It''s a great time for sightseeing in cities like Hanoi and Ho Chi Minh City, as well as exploring natural attractions such as Ha Long Bay.'
                             type: text
                             style: ''
                             detail: 0
@@ -139,14 +140,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Summer (June to August):'
+                            text: 'Autumn (September to November):'
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' Summer brings warmer weather and longer daylight hours, perfect for exploring cities, countryside, and coastal areas. It’s also the high tourist season, with numerous festivals, events, and outdoor activities. Be prepared for occasional rain showers.'
+                            text: ' Autumn also offers pleasant weather, making it an excellent time for outdoor activities and exploring the countryside. The humidity is lower, and the landscapes are lush after the summer rains, providing beautiful scenery.'
                             type: text
                             style: ''
                             detail: 0
@@ -160,14 +161,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Autumn (September to November):'
+                            text: 'Summer (May to August):'
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' Autumn features cooler temperatures and beautiful fall foliage, especially in rural areas and national parks. This season is great for hiking, exploring historic towns, and enjoying seasonal events. Crowds are fewer compared to summer, offering a more relaxed experience.'
+                            text: ' Summer is hot and humid, particularly in the northern and southern regions, with occasional heavy rains. However, it’s a great time for beach holidays along the central coast in places like Da Nang and Nha Trang, where the weather remains relatively dry.'
                             type: text
                             style: ''
                             detail: 0
@@ -181,14 +182,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Winter (December to February):'
+                            text: 'Winter (December to January):'
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' Winter is ideal for experiencing festive holiday markets, cozy pub visits, and winter sports in Scotland. Cities like London and Edinburgh are beautifully decorated for the holidays, offering a magical atmosphere. However, be prepared for colder temperatures and shorter daylight hours.'
+                            text: ' Winter is cooler in the north, especially in regions like Hanoi and Sapa, where it can get quite chilly. The south remains warm, making this a good time to explore places like Ho Chi Minh City and the Mekong Delta.'
                             type: text
                             style: ''
                             detail: 0
@@ -204,10 +205,10 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          For the best weather and outdoor activities, visit in
-                          spring or summer. Autumn offers beautiful landscapes
-                          and fewer tourists, while winter provides a festive
-                          atmosphere and unique seasonal experiences.
+                          For the most comfortable weather and ideal sightseeing
+                          conditions, visit during spring or autumn. Summer is
+                          best for beach vacations, while winter offers cooler
+                          temperatures and festive cultural experiences.
                         type: text
                         style: ''
                         detail: 0
@@ -221,15 +222,15 @@ entry:
           type: asset
           locales:
             en-US:
-              - _id: 0fdb9ca0-d7ae-4ac7-a4b4-4b4fdbb70112
+              - _id: 05479cb1-6758-4bac-bd42-ba456ae3e234
                 type: image
                 fields:
                   url:
                     type: text
                     value: >-
-                      https://images.unsplash.com/photo-1487846418109-474dd0e7b64b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                      https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                   title:
                     type: text
-                    value: 'Copyright: Kate Krivanec, Unsplash'
+                    value: Copyright Ammie Ngo, Unsplash
                 _source: custom-url
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

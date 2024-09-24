@@ -85,13 +85,13 @@ slots:
   - id: container-inner
     name: Container Inner
     allowedComponents: []
-    allowAllComponents: false
-    inheritAllowedComponents: true
+    allowAllComponents: true
+    inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:42.529198+00:00'
-updated: '2024-01-15T15:03:12.725896+00:00'
+updated: '2024-09-19T16:46:54.234819+00:00'
 variants:
   - id: backgroundInContainer
     name: Background In Container

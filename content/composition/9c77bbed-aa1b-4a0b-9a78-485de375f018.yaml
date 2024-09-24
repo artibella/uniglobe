@@ -1,0 +1,796 @@
+composition:
+  _name: Destination
+  _id: 9c77bbed-aa1b-4a0b-9a78-485de375f018
+  _slug: ':destination'
+  type: page
+  _dataResources:
+    Country:
+      type: countryBySlug
+      variables:
+        slug: ${destination}
+        locale: ${locale},en-US
+  _overrides:
+    621c7747-7fa2-411b-ba90-1f6b4d4cec4a:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: ❄️ Winterangebot ❄️
+        description:
+          type: text
+          locales:
+            de-DE: Sparen Sie 10% bei allen Reisen nach Asien im Dezember und Januar
+    8d7d4d4c-a4cd-415f-9413-f391615ab61b:
+      variant: fluidContent
+      parameters:
+        $viz:
+          type: $viz
+          value: null
+        title:
+          type: text
+          locales:
+            de-DE: App teaser banner
+            it-IT: App teaser banner
+        paddingTop:
+          type: select
+          value: None
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Light
+    9c77bbed-aa1b-4a0b-9a78-485de375f018:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/entry/fields/name/value}
+            it-IT: ${#jptr:/Country/entry/fields/name/value}
+        twitterTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country/entry/fields/name/value}'
+            it-IT: 'Destination: ${#jptr:/Country/entry/fields/name/value}'
+        openGraphTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country/entry/fields/name/value}'
+            it-IT: 'Destination: ${#jptr:/Country/entry/fields/name/value}'
+        twitterDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
+            it-IT: ${#jptr:/Country/entry/fields/teaserText/value}
+        pageMetaDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
+            it-IT: ${#jptr:/Country/entry/fields/teaserText/value}
+        openGraphDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
+            it-IT: ${#jptr:/Country/entry/fields/teaserText/value}
+    8d7d4d4c-a4cd-415f-9413-f391615ab61b|57b5df72-fdd8-4cfb-8064-d69717392b76:
+      parameters:
+        alt:
+          type: text
+          locales:
+            de-DE: Download in app store
+            it-IT: Download in app store
+        src:
+          type: asset
+          locales:
+            de-DE:
+              - _id: e29213f9-506e-4345-9bd7-af126331cc7f
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 698d91b2-bf29-4db4-8795-70de7d92ff07
+                  url:
+                    type: text
+                    value: >-
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
+                  file:
+                    type: file
+                    value: 39d7e546-dc16-4a1e-9727-6ae06a3ff650
+                  size:
+                    type: number
+                    value: 8406
+                  title:
+                    type: text
+                    value: Apple app store button
+                  width:
+                    type: number
+                    value: 150
+                  height:
+                    type: number
+                    value: 150
+                  mediaType:
+                    type: text
+                    value: image/svg+xml
+                _source: uniform-assets
+            it-IT:
+              - _id: e29213f9-506e-4345-9bd7-af126331cc7f
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 698d91b2-bf29-4db4-8795-70de7d92ff07
+                  url:
+                    type: text
+                    value: >-
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
+                  file:
+                    type: file
+                    value: 39d7e546-dc16-4a1e-9727-6ae06a3ff650
+                  size:
+                    type: number
+                    value: 8406
+                  title:
+                    type: text
+                    value: Apple app store button
+                  width:
+                    type: number
+                    value: 150
+                  height:
+                    type: number
+                    value: 150
+                  mediaType:
+                    type: text
+                    value: image/svg+xml
+                _source: uniform-assets
+          localesConditions:
+            en-US:
+              - id: 0
+                when:
+                  clauses:
+                    - op: is
+                      rule: $qk
+                      value: android
+                      source: os
+                value:
+                  - _id: a40a1185-4209-46cf-9af9-7b8f8a4190ad
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 1d0b21e3-9e09-4965-8326-e634529a73bf
+                      url:
+                        type: text
+                        value: >-
+                          https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/GfmpVtCXQRe6RmxnIvHF9A-google-play-badge.svg
+                      file:
+                        type: file
+                        value: 73b5837c-0221-42c0-81a5-05f64d00ad8f
+                      size:
+                        type: number
+                        value: 11823
+                      title:
+                        type: text
+                        value: Google Play store button
+                      width:
+                        type: number
+                        value: 150
+                      height:
+                        type: number
+                        value: 150
+                      mediaType:
+                        type: text
+                        value: image/svg+xml
+                    _source: uniform-assets
+              - id: 1
+                when:
+                  clauses:
+                    - op: is
+                      rule: $qk
+                      value: ios
+                      source: os
+                value:
+                  - _id: e29213f9-506e-4345-9bd7-af126331cc7f
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 698d91b2-bf29-4db4-8795-70de7d92ff07
+                      url:
+                        type: text
+                        value: >-
+                          https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
+                      file:
+                        type: file
+                        value: 39d7e546-dc16-4a1e-9727-6ae06a3ff650
+                      size:
+                        type: number
+                        value: 8406
+                      title:
+                        type: text
+                        value: Apple app store button
+                      width:
+                        type: number
+                        value: 150
+                      height:
+                        type: number
+                        value: 150
+                      mediaType:
+                        type: text
+                        value: image/svg+xml
+                    _source: uniform-assets
+        link:
+          type: link
+          locales:
+            de-DE:
+              path: https://store.apple.com/uniglobe
+              type: url
+            it-IT:
+              path: https://store.apple.com/uniglobe
+              type: url
+          localesConditions:
+            en-US:
+              - id: 0
+                when:
+                  clauses:
+                    - op: is
+                      rule: $qk
+                      value: ios
+                      source: os
+                value:
+                  path: https://store.apple.com/uniglobe
+                  type: url
+              - id: 1
+                when:
+                  clauses:
+                    - op: is
+                      rule: $qk
+                      value: android
+                      source: os
+                value:
+                  path: https://play.google.com/uniglobe
+                  type: url
+        width:
+          type: number
+          locales:
+            de-DE: '150'
+            it-IT: '150'
+        height:
+          type: number
+          locales:
+            de-DE: '150'
+            it-IT: '150'
+    8d7d4d4c-a4cd-415f-9413-f391615ab61b|827696b7-9ff8-4fe6-9303-4ee0ec969a80:
+      variant: ''
+      parameters:
+        content:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Get exclusive deals and offline access
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: by downloading our app
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 1
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Deals on hotels and flights
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Access to our exclusive members club
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Offline guides and maps
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                direction: ltr
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Get exclusive deals and offline access
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: by downloading our app
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 1
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Deals on hotels and flights
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Access to our exclusive members club
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Offline guides and maps
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                direction: ltr
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Get exclusive deals and offline access
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: by downloading our app
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 1
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Deals on hotels and flights
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Access to our exclusive members club
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Offline guides and maps
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                direction: ltr
+          localesConditions:
+            en-US:
+              - id: 0
+                when:
+                  clauses:
+                    - op: is
+                      rule: $qk
+                      value: ios
+                      source: os
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - tag: h2
+                        type: heading
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Get exclusive deals and offline access
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                        direction: ltr
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: by downloading our iOS app
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 1
+                      - tag: ul
+                        type: list
+                        start: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: listitem
+                            value: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Deals on hotels and flights
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: listitem
+                            value: 2
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Access to our exclusive members club
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: listitem
+                            value: 3
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Offline guides and maps
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                        listType: bullet
+                        direction: ltr
+                    direction: ltr
+              - id: 1
+                when:
+                  clauses:
+                    - op: is
+                      rule: $qk
+                      value: android
+                      source: os
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - tag: h2
+                        type: heading
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Get exclusive deals and offline access
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                        direction: ltr
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: by downloading our Android app
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                        direction: ltr
+                        textStyle: ''
+                        textFormat: 1
+                      - tag: ul
+                        type: list
+                        start: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: listitem
+                            value: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Deals on hotels and flights
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: listitem
+                            value: 2
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Access to our exclusive members club
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: listitem
+                            value: 3
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Offline guides and maps
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                        listType: bullet
+                        direction: ltr
+                    direction: ltr
+    8d7d4d4c-a4cd-415f-9413-f391615ab61b|af6145df-990f-4d27-9218-c5905b8d885f:
+      parameters:
+        columnsCount:
+          type: tp-slider-parameter
+          locales:
+            de-DE: '6'
+            it-IT: '6'
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Light
+    9c77bbed-aa1b-4a0b-9a78-485de375f018|89a78264-bfb9-4be3-af8d-0bdf4b26ac41:
+      parameters:
+        image:
+          type: asset
+          value: ${#jptr:/Country/entry/fields/flag/value}
+          conditions:
+            - id: 0
+              when:
+                clauses:
+                  - op: '!empty'
+                    rule: $dt
+                    value: ''
+                    source: >-
+                      ${#jptr:/Country/entry/fields/teaserImage/value/0/fields/url/value}
+              value: ${#jptr:/Country/entry/fields/teaserImage/value}
+    9c77bbed-aa1b-4a0b-9a78-485de375f018|b538d098-7848-4a90-8aed-01ce5b3bf6b4:
+      slots:
+        $slotSectionItems:
+          - _id: 621c7747-7fa2-411b-ba90-1f6b4d4cec4a
+            type: banner
+            variant: fullWidth
+            _pattern: baf731e8-1857-48ee-abc9-5074c93b49fd
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                icon: 'no'
+                title: 'yes'
+                inline: 'no'
+                position: 'no'
+                textAlign: 'no'
+                description: 'yes'
+                primaryButtonCopy: 'yes'
+                primaryButtonLink: 'yes'
+                primaryButtonStyle: 'no'
+                secondaryButtonCopy: 'no'
+                secondaryButtonLink: 'no'
+                secondaryButtonStyle: 'no'
+                primaryButtonAnimationType: 'no'
+                secondaryButtonAnimationType: 'no'
+              hideLockedParameters: true
+    9c77bbed-aa1b-4a0b-9a78-485de375f018|f0693bc9-5723-4bc9-924b-f2fd6fe3089f:
+      slots:
+        $slotSectionItems:
+          - _id: 8d7d4d4c-a4cd-415f-9413-f391615ab61b
+            type: container
+            variant: fluidContent
+            _pattern: ee3173f8-5432-4aab-a886-e3aac30fe238
+            _overridability:
+              variants: true
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                marginTop: 'yes'
+                paddingTop: 'yes'
+                marginBottom: 'yes'
+                paddingBottom: 'yes'
+                backgroundType: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+  _pattern: 3cf98231-24a0-4007-a17e-eb16c19e8abf
+created: '2024-09-19T15:05:13.631235+00:00'
+modified: '2024-09-23T13:52:44.285902+00:00'
+pattern: false

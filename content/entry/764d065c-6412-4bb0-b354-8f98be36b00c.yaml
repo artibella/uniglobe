@@ -1,5 +1,5 @@
 created: '2024-03-12T15:25:01.437775+00:00'
-modified: '2024-08-21T13:26:00.283285+00:00'
+modified: '2024-09-19T15:34:44.094048+00:00'
 pattern: false
 entry:
   _id: 764d065c-6412-4bb0-b354-8f98be36b00c
@@ -13,6 +13,11 @@ entry:
       type: countryByName
       variables:
         country: norway
+    ref-764d065c-6412-4bb0-b354-8f98be36b00c-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 53b42f52-db71-448c-8869-e86a5b7fc80e
   _locales:
     - en-US
     - de-DE
@@ -24,6 +29,9 @@ entry:
           type: text
           locales:
             de-DE: Norwegen
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-764d065c-6412-4bb0-b354-8f98be36b00c-region/entries/0}
         description:
           type: richText
           locales:

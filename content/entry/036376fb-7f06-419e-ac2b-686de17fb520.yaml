@@ -1,5 +1,5 @@
 created: '2024-01-18T12:43:00.172879+00:00'
-modified: '2024-08-21T13:00:26.663219+00:00'
+modified: '2024-09-19T15:26:56.852223+00:00'
 pattern: false
 entry:
   _id: 036376fb-7f06-419e-ac2b-686de17fb520
@@ -13,11 +13,19 @@ entry:
       type: countryByName
       variables:
         country: Danmark
+    ref-036376fb-7f06-419e-ac2b-686de17fb520-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 53b42f52-db71-448c-8869-e86a5b7fc80e
   _locales:
     - en-US
   _overrides:
     036376fb-7f06-419e-ac2b-686de17fb520:
       parameters:
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-036376fb-7f06-419e-ac2b-686de17fb520-region/entries/0}
         teaserText:
           type: text
           locales:

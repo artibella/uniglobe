@@ -1,5 +1,5 @@
 created: '2024-01-18T12:46:12.168253+00:00'
-modified: '2024-08-21T13:33:50.810257+00:00'
+modified: '2024-09-19T15:28:05.805149+00:00'
 pattern: false
 entry:
   _id: 5690f959-52d1-4f54-a869-30b8bfed46cb
@@ -14,6 +14,11 @@ entry:
       variables:
         fields: name,capital,currencies,cca2,flag,flags,translations
         country: Austria
+    ref-5690f959-52d1-4f54-a869-30b8bfed46cb-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 53b42f52-db71-448c-8869-e86a5b7fc80e
   _locales:
     - en-US
     - de-DE
@@ -24,6 +29,9 @@ entry:
           type: text
           locales:
             de-DE: ${#jptr:/Country/0/name/nativeName/bar/common}
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-5690f959-52d1-4f54-a869-30b8bfed46cb-region/entries/0}
         captial:
           type: text
           locales:

@@ -1,5 +1,5 @@
 created: '2024-08-21T13:38:41.298934+00:00'
-modified: '2024-08-21T13:40:38.044734+00:00'
+modified: '2024-09-19T15:28:50.528885+00:00'
 pattern: false
 entry:
   _id: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
@@ -13,6 +13,11 @@ entry:
       type: countryByName
       variables:
         country: Italy
+    ref-5df637c2-5fea-416c-a4b4-95aa58c86bd7-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 53b42f52-db71-448c-8869-e86a5b7fc80e
   _locales:
     - en-US
     - de-DE
@@ -20,6 +25,9 @@ entry:
   _overrides:
     5df637c2-5fea-416c-a4b4-95aa58c86bd7:
       parameters:
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-5df637c2-5fea-416c-a4b4-95aa58c86bd7-region/entries/0}
         teaserText:
           type: text
           locales:

@@ -1,0 +1,26 @@
+created: '2024-09-19T15:30:48.142099+00:00'
+modified: '2024-09-19T15:31:25.39589+00:00'
+pattern: false
+entry:
+  _id: 7b570064-67cd-464b-bc9a-27a2440e9cc2
+  _name: Oceania
+  _slug: oceania
+  type: region
+  fields: {}
+  _dataResources:
+    Countries:
+      type: countriesByRegion
+      variables:
+        region: Oceania
+  _locales:
+    - en-US
+    - de-DE
+  _overrides:
+    7b570064-67cd-464b-bc9a-27a2440e9cc2:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Ozeanien
+            en-US: Oceania
+  _pattern: 1f641569-4da4-4a00-b036-90661bac2328

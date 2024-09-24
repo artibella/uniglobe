@@ -1,5 +1,5 @@
 created: '2024-04-29T16:14:53.213797+00:00'
-modified: '2024-08-21T13:08:52.037075+00:00'
+modified: '2024-09-19T15:28:29.770645+00:00'
 pattern: false
 entry:
   _id: 5ca426ea-70d4-4837-aa2b-172291f03447
@@ -16,6 +16,7 @@ entry:
     ref-5ca426ea-70d4-4837-aa2b-172291f03447-region:
       type: uniformContentInternalReference
       variables:
+        locale: ${locale}
         entryIds: 88d8be8f-08fe-4b94-b27a-05d2f3c8b633
   _locales:
     - en-US

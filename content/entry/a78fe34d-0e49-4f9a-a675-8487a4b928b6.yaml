@@ -1,5 +1,5 @@
 created: '2024-01-18T12:38:43.726776+00:00'
-modified: '2024-08-21T13:37:56.051264+00:00'
+modified: '2024-09-19T17:33:06.544344+00:00'
 pattern: false
 entry:
   _id: a78fe34d-0e49-4f9a-a675-8487a4b928b6
@@ -13,22 +13,407 @@ entry:
       type: countryByName
       variables:
         country: Germany
+    ref-a78fe34d-0e49-4f9a-a675-8487a4b928b6-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 53b42f52-db71-448c-8869-e86a5b7fc80e
   _locales:
     - en-US
+    - de-DE
+    - it-IT
   _overrides:
     a78fe34d-0e49-4f9a-a675-8487a4b928b6:
       parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Deutschland
+            en-US: ${#jptr:/Country/0/name/common}
+            it-IT: ${#jptr:/Country/0/name/common}
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-a78fe34d-0e49-4f9a-a675-8487a4b928b6-region/entries/0}
+        captial:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/capital/0}
+            it-IT: ${#jptr:/Country/0/capital/0}
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Explore Germany, where historic charm, vibrant culture, and
+              stunning landscapes come together to offer an unforgettable
+              journey through tradition and modernity.
             en-US: >-
+              Explore Germany, where historic charm, vibrant culture, and
+              stunning landscapes come together to offer an unforgettable
+              journey through tradition and modernity.
+            it-IT: >-
               Explore Germany, where historic charm, vibrant culture, and
               stunning landscapes come together to offer an unforgettable
               journey through tradition and modernity.
         description:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Germany is a captivating blend of rich history,
+                          vibrant culture, and stunning landscapes, offering
+                          travelers a diverse array of experiences. Explore the
+                          dynamic city life of Berlin, the fairy-tale castles of
+                          Bavaria, and the charming towns along the Rhine River.
+                          Discover world-class museums, indulge in hearty German
+                          cuisine, and immerse yourself in festive traditions
+                          such as Oktoberfest. Whether you're wandering through
+                          medieval streets, cruising along picturesque rivers,
+                          or enjoying the natural beauty of the Black Forest,
+                          Germany promises an enriching and memorable adventure.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Germany
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Germany depends on your
+                          interests and the experiences you wish to have:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming flowers, making it an ideal time for exploring cities, parks, and gardens. It''s a great time to visit historic sites and enjoy outdoor activities without the summer crowds.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer provides warm weather and long daylight hours, perfect for outdoor festivals, sightseeing, and enjoying Germany’s picturesque landscapes. This is the high tourist season, with events like Oktoberfest in Munich and various open-air concerts and festivals.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn is known for its beautiful fall foliage and harvest festivals, including the famous Oktoberfest. This season is ideal for exploring wine regions, hiking in the countryside, and enjoying cooler temperatures with fewer tourists.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is perfect for experiencing Germany’s festive Christmas markets, cozy atmosphere, and winter sports in the Alps. Cities are beautifully decorated for the holidays, and it’s a great time for enjoying seasonal traditions and warm, hearty cuisine.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For pleasant weather and outdoor activities, spring
+                          and summer are best. Autumn offers beautiful scenery
+                          and cultural festivals, while winter provides a
+                          magical holiday atmosphere and winter sports
+                          opportunities.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
             en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Germany is a captivating blend of rich history,
+                          vibrant culture, and stunning landscapes, offering
+                          travelers a diverse array of experiences. Explore the
+                          dynamic city life of Berlin, the fairy-tale castles of
+                          Bavaria, and the charming towns along the Rhine River.
+                          Discover world-class museums, indulge in hearty German
+                          cuisine, and immerse yourself in festive traditions
+                          such as Oktoberfest. Whether you're wandering through
+                          medieval streets, cruising along picturesque rivers,
+                          or enjoying the natural beauty of the Black Forest,
+                          Germany promises an enriching and memorable adventure.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Germany
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Germany depends on your
+                          interests and the experiences you wish to have:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming flowers, making it an ideal time for exploring cities, parks, and gardens. It''s a great time to visit historic sites and enjoy outdoor activities without the summer crowds.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer provides warm weather and long daylight hours, perfect for outdoor festivals, sightseeing, and enjoying Germany’s picturesque landscapes. This is the high tourist season, with events like Oktoberfest in Munich and various open-air concerts and festivals.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn is known for its beautiful fall foliage and harvest festivals, including the famous Oktoberfest. This season is ideal for exploring wine regions, hiking in the countryside, and enjoying cooler temperatures with fewer tourists.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is perfect for experiencing Germany’s festive Christmas markets, cozy atmosphere, and winter sports in the Alps. Cities are beautifully decorated for the holidays, and it’s a great time for enjoying seasonal traditions and warm, hearty cuisine.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For pleasant weather and outdoor activities, spring
+                          and summer are best. Autumn offers beautiful scenery
+                          and cultural festivals, while winter provides a
+                          magical holiday atmosphere and winter sports
+                          opportunities.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
               root:
                 type: root
                 format: ''
@@ -209,7 +594,31 @@ entry:
         teaserImage:
           type: asset
           locales:
+            de-DE:
+              - _id: 863da1a5-ba32-49e7-9414-54f44447c1f7
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1449452198679-05c7fd30f416?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Rachel Davis, Unsplash'
+                _source: custom-url
             en-US:
+              - _id: 863da1a5-ba32-49e7-9414-54f44447c1f7
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1449452198679-05c7fd30f416?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Rachel Davis, Unsplash'
+                _source: custom-url
+            it-IT:
               - _id: 863da1a5-ba32-49e7-9414-54f44447c1f7
                 type: image
                 fields:

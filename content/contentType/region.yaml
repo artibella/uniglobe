@@ -1,8 +1,9 @@
 id: region
 name: Region
 created: '2024-01-18T13:20:21.829613+00:00'
-updated: '2024-01-18T13:20:21.829613+00:00'
-slugSettings: {}
+updated: '2024-09-09T17:03:55.662479+00:00'
+slugSettings:
+  required: 'no'
 useTeamPermissions: true
 fields:
   - id: name
@@ -21,6 +22,6 @@ fields:
         - $loop
 entryName: name
 description: ''
-icon: file-document
+icon: pin
 type: contentType
 permissions: []

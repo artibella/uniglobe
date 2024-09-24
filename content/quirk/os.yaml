@@ -1,0 +1,10 @@
+id: os
+name: Mobile OS
+description: Target specific mobile operating systems
+options:
+  - name: iOS
+    value: ios
+  - name: Android
+    value: android
+  - name: Other
+    value: other

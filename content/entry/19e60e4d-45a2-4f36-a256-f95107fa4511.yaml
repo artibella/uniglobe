@@ -1,5 +1,5 @@
 created: '2024-01-24T16:03:55.627825+00:00'
-modified: '2024-08-21T13:29:00.579875+00:00'
+modified: '2024-09-19T18:10:40.105491+00:00'
 pattern: false
 entry:
   _id: 19e60e4d-45a2-4f36-a256-f95107fa4511
@@ -13,22 +13,406 @@ entry:
       type: countryByName
       variables:
         country: United States of America
+    ref-19e60e4d-45a2-4f36-a256-f95107fa4511-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 88d8be8f-08fe-4b94-b27a-05d2f3c8b633
   _locales:
     - en-US
+    - de-DE
+    - it-IT
   _overrides:
     19e60e4d-45a2-4f36-a256-f95107fa4511:
       parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Vereinigte Staaten von Amerika
+            it-IT: ${#jptr:/Country/0/name/common}
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-19e60e4d-45a2-4f36-a256-f95107fa4511-region/entries/0}
+        captial:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/capital/0}
+            it-IT: ${#jptr:/Country/0/capital/0}
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Entdecken Sie die grenzenlosen Abenteuer der USA, wo ikonische
+              Wahrzeichen, vielfältige Landschaften und pulsierende Städte die
+              ultimative Reise für jeden Reisenden darstellen.
             en-US: >-
+              Discover the boundless adventures of the USA, where iconic
+              landmarks, diverse landscapes, and vibrant cities create the
+              ultimate journey for every traveler.
+            it-IT: >-
               Discover the boundless adventures of the USA, where iconic
               landmarks, diverse landscapes, and vibrant cities create the
               ultimate journey for every traveler.
         description:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Die USA sind ein riesiges und vielfältiges Land, das
+                          von Küste zu Küste eine Fülle von Erlebnissen bietet.
+                          Erkunden Sie ikonische Wahrzeichen wie die
+                          Freiheitsstatue, den Grand Canyon und den
+                          Yellowstone-Nationalpark und entdecken Sie pulsierende
+                          Städte wie New York, Los Angeles und Chicago. Genießen
+                          Sie die vielfältigen Landschaften, die von den
+                          sonnigen Stränden Floridas bis zu den schroffen Bergen
+                          der Rocky Mountains reichen, und erfreuen Sie sich an
+                          einem reichhaltigen Angebot an Kultur, Küche und
+                          Unterhaltung. Ganz gleich, ob Sie auf der Suche nach
+                          Abenteuern, Entspannung oder kulturellen Entdeckungen
+                          sind, die USA bieten unzählige Möglichkeiten für
+                          unvergessliche Reiseerlebnisse.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Die beste Zeit für einen Besuch in den USA
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Die beste Reisezeit für die USA hängt von den Regionen
+                          ab, die Sie erkunden möchten, und von Ihren
+                          Interessen:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Frühling (März bis Mai): Der Frühling bietet milde
+                          Temperaturen und blühende Blumen und ist damit ideal
+                          für die Erkundung von Städten, Nationalparks und
+                          Küstenregionen. Es ist eine gute Zeit, um Ziele wie
+                          Washington, D.C. zum Kirschblütenfest zu besuchen oder
+                          die natürliche Schönheit von Orten wie den Great Smoky
+                          Mountains zu erleben.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Sommer (Juni bis August): Der Sommer ist die perfekte
+                          Zeit für Strandurlaube, Roadtrips und
+                          Outdoor-Abenteuer. Genießen Sie das sonnige Wetter in
+                          Küstenstädten wie Miami und San Diego, oder erkunden
+                          Sie Nationalparks wie Yosemite und Zion. Allerdings
+                          kann es in vielen Teilen des Landes sehr heiß werden,
+                          und beliebte Reiseziele können überfüllt sein.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Herbst (September bis November): Der Herbst bringt
+                          kühlere Temperaturen und eine atemberaubende
+                          Herbstfärbung mit sich, besonders in Neuengland und im
+                          Mittleren Westen. Diese Jahreszeit ist ideal, um
+                          Städte zu erkunden, malerische Landschaften zu
+                          erkunden und Aktivitäten im Freien zu unternehmen. Es
+                          ist auch eine gute Zeit, um Weinregionen zu besuchen
+                          und Erntefeste zu erleben.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Winter (Dezember bis Februar): Der Winter ist ideal
+                          zum Skifahren und Snowboarden an Reisezielen wie Aspen
+                          und Lake Tahoe oder zum Erleben festlicher
+                          Veranstaltungen in Städten wie New York und Chicago.
+                          Wärmere Reiseziele wie Florida und Hawaii bieten
+                          angenehmes Wetter für eine Winterflucht.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Das beste Wetter und die besten Outdoor-Aktivitäten
+                          bieten der Frühling und der Herbst. Der Sommer ist
+                          ideal für Strände und Nationalparks, während der
+                          Winter einzigartige Erlebnisse bietet, von
+                          Schneeabenteuern bis hin zu Festtagsfeiern.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
             en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The USA is a vast and diverse country, offering a
+                          wealth of experiences from coast to coast. Explore
+                          iconic landmarks like the Statue of Liberty, the Grand
+                          Canyon, and Yellowstone National Park, while
+                          discovering vibrant cities such as New York, Los
+                          Angeles, and Chicago. Enjoy diverse landscapes ranging
+                          from sunny beaches in Florida to the rugged mountains
+                          of the Rockies, and indulge in a rich variety of
+                          cultural experiences, cuisine, and entertainment.
+                          Whether you're seeking adventure, relaxation, or
+                          cultural exploration, the USA provides endless
+                          opportunities for memorable travel experiences.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit the USA
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit the USA depends on the regions
+                          you plan to explore and your interests:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming flowers, making it ideal for exploring cities, national parks, and coastal areas. It''s a great time to visit destinations like Washington, D.C. for the Cherry Blossom Festival or experience the natural beauty of places like the Great Smoky Mountains.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer is perfect for beach vacations, road trips, and outdoor adventures. Enjoy sunny weather in coastal cities like Miami and San Diego, or explore national parks like Yosemite and Zion. However, it can be hot in many parts of the country, and popular tourist destinations may be crowded.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn brings cooler temperatures and stunning fall foliage, especially in New England and the Midwest. This season is ideal for exploring cities, scenic drives, and outdoor activities. It’s also a great time to visit wine regions and experience harvest festivals.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is ideal for skiing and snowboarding in destinations like Aspen and Lake Tahoe, or experiencing festive holiday events in cities like New York and Chicago. Warmer destinations like Florida and Hawaii offer pleasant weather for a winter escape.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the best overall weather and outdoor activities,
+                          spring and autumn are excellent. Summer is great for
+                          beaches and national parks, while winter offers unique
+                          experiences from snowy adventures to holiday
+                          celebrations.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
               root:
                 type: root
                 format: ''
@@ -210,16 +594,31 @@ entry:
         teaserImage:
           type: asset
           locales:
-            en-US:
-              - _id: e62a2cbd-0559-41c9-a479-78bc82615844
+            de-DE:
+              - _id: 2abcc713-1451-4787-a116-1edde75490fd
                 type: image
                 fields:
                   url:
                     type: text
                     value: >-
                       https://images.unsplash.com/photo-1573530256504-79487d8427fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
+                _source: custom-url
+            en-US:
+              - _id: 2abcc713-1451-4787-a116-1edde75490fd
+                type: image
+                fields:
+                  url:
                     type: text
-                    value: 'Copyright: Jessy Smith, Unsplash'
+                    value: >-
+                      https://images.unsplash.com/photo-1573530256504-79487d8427fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            it-IT:
+              - _id: 2abcc713-1451-4787-a116-1edde75490fd
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1573530256504-79487d8427fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                 _source: custom-url
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
