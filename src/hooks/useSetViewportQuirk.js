@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 
 const BREAKPOINTS = {
   mobile: 512,
-  tablet: 768,
+  tablet: 820, // needs to be larger than 768 as columns are set on md breakpoint in Tailwind
 };
 
 export function useSetViewportQuirk() {
