@@ -8,7 +8,15 @@ const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
 
 const ASPECT_RATION_PADDING = '56.25%';
 
-export const Video: FC<VideoProps> = ({ url, loop, controls, lazyLoad = false, placeholderImage, muted }) => {
+export const Video: FC<VideoProps> = ({
+  url,
+  videoAsset,
+  loop,
+  controls,
+  lazyLoad = false,
+  placeholderImage,
+  muted,
+}) => {
   const [playing, setPlaying] = useState(false);
   const playerRef = useRef(null);
 
@@ -16,13 +24,14 @@ export const Video: FC<VideoProps> = ({ url, loop, controls, lazyLoad = false, p
 
   const onPause = useCallback(() => setPlaying(false), []);
 
+  const videoUrl = url ? url.path : getMediaUrl(videoAsset);
   return (
     <div className="border-2 border-white group/video relative">
-      {url && (
+      {videoUrl && (
         <div style={{ paddingBottom: ASPECT_RATION_PADDING }}>
           <ReactPlayer
             ref={playerRef}
-            url={url.path}
+            url={videoUrl}
             playing={playing}
             onPause={onPause}
             onPlay={onPlay}

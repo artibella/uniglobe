@@ -3,7 +3,8 @@ import type { Asset } from '@uniformdev/assets';
 import { Video } from './Video';
 
 export type VideoProps = ComponentProps<{
-  url: Types.ProjectMapLink;
+  url?: Types.ProjectMapLink;
+  videoAsset?: Asset;
   loop?: boolean;
   controls: boolean;
   lazyLoad?: boolean;
