@@ -1,0 +1,74 @@
+composition:
+  _name: Japan
+  _id: dd333bcc-0fc6-430e-855a-9a7653153846
+  _slug: japan
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale},en-
+        entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+  _overrides:
+    dd333bcc-0fc6-430e-855a-9a7653153846:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            de-DE: ' ${#jptr:/Country Content/entry/fields/name/value}'
+            it-IT: ' ${#jptr:/Country Content/entry/fields/name/value}'
+        twitterTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+            it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        openGraphTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+            it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        twitterDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+            it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        pageMetaDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+            it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        openGraphDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+            it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+    dd333bcc-0fc6-430e-855a-9a7653153846|89a78264-bfb9-4be3-af8d-0bdf4b26ac41:
+      variant: imageLeft
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 15cc643e-9138-4b11-9b9f-a0f10233d097
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+              _source: custom-url
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 10%
+  _locales:
+    - de-DE
+    - it-IT
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2024-10-23T08:57:43.407417+00:00'
+modified: '2024-11-13T12:43:06.495491+00:00'
+pattern: false
+editionId: f81a4b3f-33e5-41df-b593-06b5b4e68fe3
+editionName: 'Region: EU'
+editionPriority: 10

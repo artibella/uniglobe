@@ -1,11 +1,11 @@
 asset:
   type: image
   _id: 67cf9549-d649-4ab6-b6f1-cec07db58150
-  _name: ''
+  _name: uniglobe.png
   fields:
     title:
       type: text
-      value: uniglobe.png
+      value: Logo Uniglobe (PNG)
     file:
       type: file
       value: ccf4da80-b9ed-45fb-b1e8-970cd8229fd0
@@ -27,4 +27,4 @@ asset:
       type: number
     custom: {}
 created: '2024-01-15T18:22:21.43405+00:00'
-modified: '2024-01-15T18:22:21.43405+00:00'
+modified: '2024-11-07T11:09:21.865244+00:00'

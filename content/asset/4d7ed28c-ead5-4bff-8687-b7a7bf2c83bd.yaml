@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 4d7ed28c-ead5-4bff-8687-b7a7bf2c83bd
+  _name: sakura.jpg
+  fields:
+    title:
+      type: text
+      value: Sakura tree
+    description:
+      type: text
+      value: Photo by Kum on Unsplash
+    file:
+      type: file
+      value: d1c8a5c6-6ea1-4e2a-aa32-06a10adacfb3
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/hXku4GUnQEmrzlqs5GfBKw-sakura.jpg
+      type: text
+    size:
+      value: 458525
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1080
+      type: number
+    custom: {}
+created: '2024-10-11T14:30:00.155952+00:00'
+modified: '2024-10-11T14:30:59.37826+00:00'

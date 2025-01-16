@@ -1,0 +1,608 @@
+created: '2024-11-04T16:42:54.96019+00:00'
+modified: '2024-11-14T12:22:33.498874+00:00'
+pattern: false
+editionName: Default
+entry:
+  _id: 1e00d404-3375-4219-a14f-dc639caf6147
+  _name: Laos
+  _slug: laos
+  _thumbnail: https://flagcdn.com/la.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        fields: name,capital,currencies,cca2,flag,flags,region,subregion
+        country: laos
+    ref-1e00d404-3375-4219-a14f-dc639caf6147-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
+    ref-8abbed23-87a2-4f1d-8ba8-e26818e7c323-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+  _overrides:
+    1e00d404-3375-4219-a14f-dc639caf6147:
+      parameters:
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-1e00d404-3375-4219-a14f-dc639caf6147-region/entries/0}
+        teaserText:
+          type: text
+          locales:
+            de-DE: >-
+              Discover the serene beauty of Laos, where tranquil landscapes,
+              ancient temples, and warm hospitality offer a journey of cultural
+              richness and natural splendor.
+            en-US: >-
+              Discover the serene beauty of Laos, where tranquil landscapes,
+              ancient temples, and warm hospitality offer a journey of cultural
+              richness and natural splendor.
+            it-IT: >-
+              Discover the serene beauty of Laos, where tranquil landscapes,
+              ancient temples, and warm hospitality offer a journey of cultural
+              richness and natural splendor.
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Laos is a serene and enchanting destination, known for
+                          its tranquil landscapes, rich cultural heritage, and
+                          friendly locals. From the ancient temples and vibrant
+                          night markets of Luang Prabang to the lush jungles and
+                          limestone mountains of Vang Vieng, Laos offers a
+                          peaceful escape filled with natural beauty and
+                          historical charm. Explore Buddhist monasteries, cruise
+                          along the mighty Mekong River, and experience the
+                          stunning Kuang Si Falls. Whether you’re seeking
+                          adventure, spiritual exploration, or a relaxed
+                          cultural experience, Laos provides a unique journey
+                          into Southeast Asia’s heart.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Laos is a serene and enchanting destination, known for
+                          its tranquil landscapes, rich cultural heritage, and
+                          friendly locals. From the ancient temples and vibrant
+                          night markets of Luang Prabang to the lush jungles and
+                          limestone mountains of Vang Vieng, Laos offers a
+                          peaceful escape filled with natural beauty and
+                          historical charm. Explore Buddhist monasteries, cruise
+                          along the mighty Mekong River, and experience the
+                          stunning Kuang Si Falls. Whether you’re seeking
+                          adventure, spiritual exploration, or a relaxed
+                          cultural experience, Laos provides a unique journey
+                          into Southeast Asia’s heart.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Laos is a serene and enchanting destination, known for
+                          its tranquil landscapes, rich cultural heritage, and
+                          friendly locals. From the ancient temples and vibrant
+                          night markets of Luang Prabang to the lush jungles and
+                          limestone mountains of Vang Vieng, Laos offers a
+                          peaceful escape filled with natural beauty and
+                          historical charm. Explore Buddhist monasteries, cruise
+                          along the mighty Mekong River, and experience the
+                          stunning Kuang Si Falls. Whether you’re seeking
+                          adventure, spiritual exploration, or a relaxed
+                          cultural experience, Laos provides a unique journey
+                          into Southeast Asia’s heart.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            de-DE:
+              - _id: 69e3087f-c167-4e17-b768-20e8d74ae847
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1693039880389-62840065382c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: Waterfall in Laos
+                  description:
+                    type: text
+                    value: Copyright Honbin, Unsplash
+                _source: custom-url
+            en-US:
+              - _id: 69e3087f-c167-4e17-b768-20e8d74ae847
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1693039880389-62840065382c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: Waterfall in Laos
+                  description:
+                    type: text
+                    value: Copyright Honbin, Unsplash
+                _source: custom-url
+            it-IT:
+              - _id: 69e3087f-c167-4e17-b768-20e8d74ae847
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1693039880389-62840065382c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: Waterfall in Laos
+                  description:
+                    type: text
+                    value: Copyright Honbin, Unsplash
+                _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Laos
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Laos depends on the activities
+                          you’re interested in and the regions you plan to
+                          explore:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dry Season (November to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The dry season offers cooler temperatures and minimal rainfall, making it ideal for outdoor activities, sightseeing, and exploring cities. This is the most popular time to visit, with pleasant weather perfect for trekking, temple visits, and river cruises.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Hot Season (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The hot season brings warmer temperatures, especially in the lowlands, but it’s still a good time to visit highland areas where temperatures remain cooler. This season is great for those looking to experience local festivals, such as Lao New Year in April.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Rainy Season (June to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The rainy season is marked by frequent showers and lush green landscapes, making it a beautiful time to experience the countryside. It’s ideal for fewer crowds and lower prices, though some areas may experience limited accessibility due to rain.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the most comfortable experience with ideal
+                          weather, visit during the dry season from November to
+                          February. The rainy season offers a more peaceful
+                          experience with lush scenery, while the hot season is
+                          ideal for cultural festivals.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Laos
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Laos depends on the activities
+                          you’re interested in and the regions you plan to
+                          explore:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dry Season (November to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The dry season offers cooler temperatures and minimal rainfall, making it ideal for outdoor activities, sightseeing, and exploring cities. This is the most popular time to visit, with pleasant weather perfect for trekking, temple visits, and river cruises.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Hot Season (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The hot season brings warmer temperatures, especially in the lowlands, but it’s still a good time to visit highland areas where temperatures remain cooler. This season is great for those looking to experience local festivals, such as Lao New Year in April.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Rainy Season (June to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The rainy season is marked by frequent showers and lush green landscapes, making it a beautiful time to experience the countryside. It’s ideal for fewer crowds and lower prices, though some areas may experience limited accessibility due to rain.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the most comfortable experience with ideal
+                          weather, visit during the dry season from November to
+                          February. The rainy season offers a more peaceful
+                          experience with lush scenery, while the hot season is
+                          ideal for cultural festivals.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Laos
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Laos depends on the activities
+                          you’re interested in and the regions you plan to
+                          explore:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dry Season (November to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The dry season offers cooler temperatures and minimal rainfall, making it ideal for outdoor activities, sightseeing, and exploring cities. This is the most popular time to visit, with pleasant weather perfect for trekking, temple visits, and river cruises.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Hot Season (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The hot season brings warmer temperatures, especially in the lowlands, but it’s still a good time to visit highland areas where temperatures remain cooler. This season is great for those looking to experience local festivals, such as Lao New Year in April.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Rainy Season (June to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' The rainy season is marked by frequent showers and lush green landscapes, making it a beautiful time to experience the countryside. It’s ideal for fewer crowds and lower prices, though some areas may experience limited accessibility due to rain.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the most comfortable experience with ideal
+                          weather, visit during the dry season from November to
+                          February. The rainy season offers a more peaceful
+                          experience with lush scenery, while the hot season is
+                          ideal for cultural festivals.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

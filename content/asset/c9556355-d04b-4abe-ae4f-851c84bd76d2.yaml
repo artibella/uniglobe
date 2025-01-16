@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c9556355-d04b-4abe-ae4f-851c84bd76d2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: aerial photography of sea beside green trees during daytime
+    file:
+      type: file
+      value: 40334f40-9aef-4c65-b4de-6e63a085f876
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/V7LaplKlQXm6rE_JsKPfXg-photo-1506918357967-b358ad447c56
+      type: text
+    size:
+      value: 1138813
+      type: number
+    width:
+      value: 3000
+      type: number
+    height:
+      value: 2000
+      type: number
+    custom: {}
+created: '2024-10-11T12:00:25.082616+00:00'
+modified: '2024-10-11T12:00:25.082616+00:00'

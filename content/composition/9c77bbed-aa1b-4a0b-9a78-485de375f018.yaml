@@ -12,6 +12,16 @@ composition:
   _overrides:
     621c7747-7fa2-411b-ba90-1f6b4d4cec4a:
       parameters:
+        $viz:
+          type: $viz
+          value:
+            criteria:
+              clauses:
+                - op: has
+                  rule: $dt
+                  value: Asia
+                  source: >-
+                    ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
         title:
           type: text
           locales:
@@ -41,9 +51,7 @@ composition:
       parameters:
         pageTitle:
           type: text
-          locales:
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            it-IT: ${#jptr:/Country/entry/fields/name/value}
+          value: ${#jptr:/Country/entry/fields/name/value:fa=a:fl=e}
         twitterTitle:
           type: text
           locales:
@@ -792,5 +800,5 @@ composition:
     - it-IT
   _pattern: 3cf98231-24a0-4007-a17e-eb16c19e8abf
 created: '2024-09-19T15:05:13.631235+00:00'
-modified: '2024-09-23T13:52:44.285902+00:00'
+modified: '2025-01-15T14:07:09.308661+00:00'
 pattern: false

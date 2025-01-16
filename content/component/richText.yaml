@@ -20,12 +20,20 @@ parameters:
           - orderedList
           - link
           - quote
+          - code
+          - table
+          - asset
+          - variable
       required: false
       formatting:
         builtIn:
           - bold
           - italic
           - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
     localizable: true
     allowConditionalValues: true
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
@@ -36,7 +44,7 @@ slots: []
 titleParameter: content
 canBeComposition: false
 created: '2024-01-15T09:26:45.82382+00:00'
-updated: '2024-09-19T16:53:00.771496+00:00'
+updated: '2024-10-10T12:04:18.369965+00:00'
 variants:
   - id: light
     name: Light

@@ -1,0 +1,9 @@
+id: 249ff2ae-57df-4955-84c6-5e015e8d8408
+name: Thailand
+order: 500
+path: /:locale/destinations/asia/thailand
+type: composition
+pathSegment: thailand
+data: {}
+compositionId: 565b38a6-aafa-468f-a314-778e548b635d
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

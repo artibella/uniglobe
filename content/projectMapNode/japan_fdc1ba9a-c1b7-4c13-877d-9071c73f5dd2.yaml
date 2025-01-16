@@ -1,0 +1,9 @@
+id: fdc1ba9a-c1b7-4c13-877d-9071c73f5dd2
+name: Japan
+order: 500
+path: /:locale/destinations/asia/japan
+type: composition
+pathSegment: japan
+data: {}
+compositionId: dd333bcc-0fc6-430e-855a-9a7653153846
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

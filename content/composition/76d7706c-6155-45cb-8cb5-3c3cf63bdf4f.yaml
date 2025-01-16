@@ -9,9 +9,56 @@ composition:
       variables:
         locale: ${locale}
         entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+  _overrides:
+    76d7706c-6155-45cb-8cb5-3c3cf63bdf4f|68fa61d5-dfe1-402c-98f7-fb0a9068833e:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: You also might like
+        description:
+          type: text
+          locales:
+            en-US: Explore these popular destinations
+      dataResources:
+        Featured countries:
+          type: multipleCountries
+          variables:
+            locale: ${locale}
+            entryIds: >-
+              5690f959-52d1-4f54-a869-30b8bfed46cb,bdd4c8f3-2999-4885-a2b3-a08216a80aa7,036376fb-7f06-419e-ac2b-686de17fb520
+    76d7706c-6155-45cb-8cb5-3c3cf63bdf4f|68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
+      parameters:
+        badge:
+          type: text
+          locales: {}
+        image:
+          type: asset
+          locales: {}
+        title:
+          type: text
+          locales: {}
+        objectFit:
+          type: select
+          locales: {}
+        buttonCopy:
+          type: text
+          locales: {}
+        buttonLink:
+          type: link
+          locales: {}
+        description:
+          type: text
+          locales: {}
+        overlayColor:
+          type: tp-color-style-parameter
+          locales: {}
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales: {}
   _locales:
     - en-US
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-08-21T13:58:12.999688+00:00'
-modified: '2024-08-21T13:58:30.543569+00:00'
+modified: '2024-11-21T16:49:14.842076+00:00'
 pattern: false

@@ -1,0 +1,9 @@
+id: 40f7fbe3-c7ad-4982-a5c5-ed805cedb17f
+name: China
+order: 500
+path: /:locale/destinations/asia/china
+type: composition
+pathSegment: china
+data: {}
+compositionId: ad7ec9b0-e26f-4490-b542-7ad51b8eccd2
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

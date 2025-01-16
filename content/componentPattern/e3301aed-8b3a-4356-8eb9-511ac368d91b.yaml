@@ -1,0 +1,18 @@
+composition:
+  _name: Text Button
+  _id: e3301aed-8b3a-4356-8eb9-511ac368d91b
+  type: button
+  parameters:
+    style:
+      type: tp-button-style-parameter
+      value: link
+  _overridability:
+    parameters:
+      copy: 'yes'
+      link: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-11-22T12:27:30.528477+00:00'
+modified: '2024-11-22T12:28:19.532839+00:00'
+pattern: true

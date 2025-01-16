@@ -7,9 +7,9 @@ composition:
     pageTitle:
       type: text
       locales:
-        de-DE: Trips
+        de-DE: Reisen
         en-US: Trips
-        it-IT: Trips
+        it-IT: Viaggi
   slots:
     pageFooter:
       - _id: ff077366-c062-4e13-888c-40b9a3be66d0
@@ -120,9 +120,9 @@ composition:
           title:
             type: text
             locales:
-              de-DE: Ausflüge & Touren
+              de-DE: Reisen & Touren
               en-US: Trips & Tours
-              it-IT: 'Italian: Trips & Tours'
+              it-IT: Viaggi & Tour
           objectFit:
             type: select
             value: cover
@@ -135,15 +135,13 @@ composition:
           description:
             type: text
             locales:
-              de-DE: Some page description
-              en-US: Some page description
-              it-IT: Some page description
+              de-DE: Entdecken Sie unsere Touren rund um den Globus
+              en-US: Explore our tours around the globe
+              it-IT: Esplora i nostri tour in tutto il mondo
           eyebrowText:
             type: text
             locales:
-              de-DE: eyebrow text
-              en-US: eyebrow text
-              it-IT: eyebrow text
+              de-DE: Augenbrauentext
           paddingBottom:
             type: select
             value: None
@@ -158,7 +156,7 @@ composition:
             locales:
               de-DE: Alle Reiseziele
               en-US: See destinations
-              it-IT: See destinations
+              it-IT: Vedi le destinazioni
           primaryButtonLink:
             type: link
             value:
@@ -185,5 +183,5 @@ composition:
     - de-DE
     - it-IT
 created: '2024-01-17T14:10:56.145718+00:00'
-modified: '2024-04-19T18:34:43.657261+00:00'
+modified: '2024-11-05T10:36:18.290127+00:00'
 pattern: false

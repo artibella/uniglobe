@@ -4,9 +4,19 @@ id: video
 name: Video
 icon: camera
 parameters:
+  - id: videoAsset
+    name: Video Asset
+    type: asset
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - video
+    localizable: true
+    allowConditionalValues: true
   - id: url
     name: Video Url
     type: link
+    helpText: For external video players such as Vimeo
     typeConfig:
       linkTypes:
         tel: false
@@ -65,4 +75,4 @@ useTeamPermissions: true
 slots: []
 canBeComposition: false
 created: '2024-01-15T09:26:45.70946+00:00'
-updated: '2024-01-15T15:03:15.516322+00:00'
+updated: '2024-12-05T09:48:30.530199+00:00'

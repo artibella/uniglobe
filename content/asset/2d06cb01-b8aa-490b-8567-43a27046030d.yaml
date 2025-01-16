@@ -1,11 +1,11 @@
 asset:
   type: image
   _id: 2d06cb01-b8aa-490b-8567-43a27046030d
-  _name: ''
+  _name: uniglobe.svg
   fields:
     title:
       type: text
-      value: uniglobe.svg
+      value: Logo Uniglobe (SVG)
     file:
       type: file
       value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
@@ -27,4 +27,4 @@ asset:
       type: number
     custom: {}
 created: '2024-01-15T12:30:01.744006+00:00'
-modified: '2024-01-15T12:30:01.744006+00:00'
+modified: '2024-11-07T11:09:37.633024+00:00'

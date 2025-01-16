@@ -1,0 +1,74 @@
+created: '2024-11-05T10:25:38.04907+00:00'
+modified: '2024-11-05T10:27:31.13514+00:00'
+pattern: false
+entry:
+  _id: 4fc2e1e7-9d95-4d9f-b59d-80940da769d6
+  _name: Southeast Asia
+  _slug: southeast-asia
+  type: region
+  fields:
+    name:
+      type: text
+      locales:
+        de-DE: Südostasien
+        en-US: Southeast Asia
+    description:
+      type: richText
+      locales:
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Südostasien ist ein lebhaftes Mosaik aus atemberaubenden
+                      Landschaften, reichen Traditionen und köstlicher Küche, wo
+                      goldene Tempel, üppige Dschungel und geschäftige Märkte
+                      jeden Reisenden erwarten.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: lts
+                textStyle: ''
+                textFormat: 0
+            direction: lts
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Southeast Asia is a vibrant mosaic of stunning landscapes,
+                      rich traditions, and mouthwatering cuisine, where golden
+                      temples, lush jungles, and bustling markets await every
+                      traveler.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+  _locales:
+    - de-DE
+    - en-US

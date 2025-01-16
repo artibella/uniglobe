@@ -1,5 +1,5 @@
 created: '2024-09-19T15:16:53.717376+00:00'
-modified: '2024-09-19T15:17:51.286443+00:00'
+modified: '2024-11-04T16:41:37.441396+00:00'
 pattern: false
 entry:
   _id: b37861c7-61e6-4171-9561-c4d8df5461c5
@@ -15,13 +15,20 @@ entry:
   _locales:
     - en-US
     - de-DE
+    - it-IT
+    - de-AT
+    - de-CH
+    - fr-CH
   _overrides:
     b37861c7-61e6-4171-9561-c4d8df5461c5:
       parameters:
         name:
           type: text
-          value: null
           locales:
+            de-AT: Asia
+            de-CH: Asia
             de-DE: Asien
             en-US: Asia
+            fr-CH: Asia
+            it-IT: Asia
   _pattern: 1f641569-4da4-4a00-b036-90661bac2328

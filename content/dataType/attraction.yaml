@@ -1,0 +1,18 @@
+id: attraction
+displayName: Attraction
+ttl: 30
+body: ''
+path: /single
+custom:
+  maxDepth: 2
+  allowedContentTypes:
+    - attraction
+method: GET
+purgeKey: f9d47579-1699-4b34-a770-13dc63bac6de
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

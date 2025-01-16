@@ -1,6 +1,7 @@
 id: countryBySlug
 displayName: Country by Slug
 ttl: 30
+body: ''
 path: /single-by-slug
 custom:
   proposedName: Country

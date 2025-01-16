@@ -1,0 +1,55 @@
+id: attraction
+name: Attraction
+created: '2024-11-25T12:44:23.972203+00:00'
+updated: '2024-11-25T12:44:23.972203+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    typeConfig:
+      max: 1
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+entryName: title
+thumbnailField: image
+description: ''
+icon: flag-alt
+type: contentType
+permissions: []

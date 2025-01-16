@@ -24,7 +24,7 @@ composition:
               type: number
             title:
               type: text
-              value: uniglobe.svg
+              value: Logo Uniglobe (SVG)
             width:
               value: 358
               type: number
