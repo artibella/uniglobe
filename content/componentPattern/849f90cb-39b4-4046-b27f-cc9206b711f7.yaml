@@ -1,0 +1,102 @@
+composition:
+  _name: Country Hero
+  _id: 849f90cb-39b4-4046-b27f-cc9206b711f7
+  type: hero
+  variant: imageLeft
+  parameters:
+    image:
+      type: asset
+      value: ${#jptr:/Hero country/entry/fields/teaserImage/value}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Hero country/entry/fields/name/value}
+    marginTop:
+      type: select
+      value: None
+    objectFit:
+      type: select
+      value: cover
+    paddingTop:
+      type: select
+      value: None
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h1
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/Hero country/entry/fields/teaserText/value}
+    eyebrowText:
+      type: text
+      locales:
+        en-US: >-
+          ${#jptr:/Hero
+          country/entry/fields/region/value/entry/fields/name/value}
+    marginBottom:
+      type: select
+      value: None
+    paddingBottom:
+      type: select
+      value: None
+    backgroundType:
+      type: tp-background-type-parameter
+      value: Dark
+    containerVariant:
+      type: select
+      value: fluidContent
+    textColorVariant:
+      type: select
+      value: Light
+  _dataResources:
+    Hero country:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      $viz: 'no'
+      delay: 'no'
+      image: 'no'
+      title: 'no'
+      video: 'no'
+      duration: 'no'
+      marginTop: 'no'
+      objectFit: 'no'
+      fullHeight: 'no'
+      paddingTop: 'no'
+      titleStyle: 'no'
+      description: 'no'
+      eyebrowText: 'no'
+      marginBottom: 'no'
+      overlayColor: 'no'
+      animationType: 'no'
+      paddingBottom: 'no'
+      animationOrder: 'no'
+      backgroundType: 'no'
+      overlayOpacity: 'no'
+      animationPreview: 'no'
+      containerVariant: 'no'
+      textColorVariant: 'no'
+      primaryButtonCopy: 'no'
+      primaryButtonLink: 'no'
+      primaryButtonStyle: 'no'
+      secondaryButtonCopy: 'no'
+      secondaryButtonLink: 'no'
+      secondaryButtonStyle: 'no'
+      primaryButtonAnimationType: 'no'
+      secondaryButtonAnimationType: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+created: '2024-11-06T18:59:05.185721+00:00'
+modified: '2024-11-07T11:20:40.179625+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1730978313/Uniglobe/Component%20Previews/country-hero.png

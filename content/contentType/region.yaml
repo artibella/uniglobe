@@ -1,7 +1,7 @@
 id: region
 name: Region
 created: '2024-01-18T13:20:21.829613+00:00'
-updated: '2024-09-09T17:03:55.662479+00:00'
+updated: '2024-10-10T12:03:38.514364+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -20,6 +20,37 @@ fields:
       allowedTypes:
         - countryBlock
         - $loop
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
 entryName: name
 description: ''
 icon: pin

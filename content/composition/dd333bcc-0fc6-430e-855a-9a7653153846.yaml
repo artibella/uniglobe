@@ -10,34 +10,172 @@ composition:
         locale: ${locale}
         entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
   _overrides:
+    2223ef11-942d-477c-9304-c1e9fc7653ed:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Japan
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            en-US: Explore Tokyo
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Yoking past and future, Tokyo dazzles with its traditional culture
+              and passion for everything new.
+        textColorVariant:
+          type: select
+          value: Light
+    363aab69-d2ac-4d09-b269-090d6818a388:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Explore Asia
+    d9978790-1275-4558-ad3b-0758da9cb8eb:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Singapore
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            en-US: Singapore
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Culture, shopping, the best street food and great night life.
+              Singapore has it all
+        textColorVariant:
+          type: select
+          value: Light
     dd333bcc-0fc6-430e-855a-9a7653153846:
       parameters:
         pageTitle:
           type: text
           locales:
             en-US: ' ${#jptr:/Country Content/entry/fields/name/value}'
+    363aab69-d2ac-4d09-b269-090d6818a388|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: 8f6047d8-40c2-478e-bafb-eff8ae2df01d
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: 2223ef11-942d-477c-9304-c1e9fc7653ed
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: d9978790-1275-4558-ad3b-0758da9cb8eb
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
     dd333bcc-0fc6-430e-855a-9a7653153846|89a78264-bfb9-4be3-af8d-0bdf4b26ac41:
+      variant: imageRight
       parameters:
-        image:
-          type: asset
-          value:
-            - _id: 15cc643e-9138-4b11-9b9f-a0f10233d097
-              type: image
-              fields:
-                url:
-                  type: text
-                  value: >-
-                    https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-              _source: custom-url
         overlayColor:
           type: tp-color-style-parameter
           value: base-300
         overlayOpacity:
           type: tp-slider-parameter
           value: 10%
+    dd333bcc-0fc6-430e-855a-9a7653153846|f0693bc9-5723-4bc9-924b-f2fd6fe3089f:
+      slots:
+        $slotSectionItems:
+          - _id: 363aab69-d2ac-4d09-b269-090d6818a388
+            type: cardBlock
+            _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                buttonCopy: 'no'
+                buttonLink: 'yes'
+                titleStyle: 'no'
+                buttonStyle: 'no'
+                description: 'yes'
+                textColorVariant: 'yes'
+                buttonAnimationType: 'no'
+              hideLockedParameters: true
   _locales:
     - en-US
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-08-20T21:36:27.105719+00:00'
-modified: '2024-08-21T13:47:53.819114+00:00'
+modified: '2024-11-13T12:39:12.853182+00:00'
 pattern: false
+editionName: 'Region: US'
+editionPriority: 10

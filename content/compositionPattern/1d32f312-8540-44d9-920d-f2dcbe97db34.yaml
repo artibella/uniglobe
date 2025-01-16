@@ -1,12 +1,14 @@
 composition:
-  _name: Destination page
+  _name: Destination page (manual)
   _id: 1d32f312-8540-44d9-920d-f2dcbe97db34
   type: page
   parameters:
     pageTitle:
       type: text
       locales:
+        de-DE: ${#jptr:/Country Content/entry/fields/name/value}
         en-US: ${#jptr:/Country Content/entry/fields/name/value}
+        it-IT: ${#jptr:/Country Content/entry/fields/name/value}
     twitterCard:
       type: select
       value: summary_large_image
@@ -16,7 +18,9 @@ composition:
     twitterTitle:
       type: text
       locales:
+        de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
         en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
     openGraphType:
       type: select
       value: article
@@ -26,19 +30,27 @@ composition:
     openGraphTitle:
       type: text
       locales:
+        de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
         en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
     twitterDescription:
       type: text
       locales:
+        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
         en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
     pageMetaDescription:
       type: text
       locales:
+        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
         en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
     openGraphDescription:
       type: text
       locales:
+        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
         en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
   slots:
     pageFooter:
       - _id: 05db1d2d-2263-4f45-a013-78babc9b91fe
@@ -53,10 +65,23 @@ composition:
         type: banner
         variant: fullWidth
         parameters:
+          $viz:
+            type: $viz
+            value:
+              criteria:
+                clauses:
+                  - op: has
+                    rule: $dt
+                    value: Asia
+                    source: >-
+                      ${#jptr:/Country
+                      Content/entry/fields/region/value/entry/fields/name/value}
           title:
             type: text
             locales:
+              de-DE: ❄️  Winter Angebot ❄️
               en-US: ❄️  Winter offer ❄️
+              it-IT: ❄️  Winter offer ❄️
           inline:
             type: checkbox
             value: true
@@ -66,15 +91,33 @@ composition:
           description:
             type: text
             locales:
+              de-DE: Spare 10% bei allen Reisen nach Asien im Dezember und Januar"
               en-US: Save 10% for all trips to Asia in December and January
+              it-IT: Save 10% for all trips to Asia in December and January
           primaryButtonCopy:
             type: text
             locales:
+              de-DE: Jetzt Buchen
               en-US: Book now
+              it-IT: Book now
           primaryButtonLink:
             type: link
             locales:
+              de-DE:
+                path: /${locale}/shop
+                type: projectMapNode
+                nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
               en-US:
+                path: /${locale}/shop
+                type: projectMapNode
+                nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+              it-IT:
                 path: /${locale}/shop
                 type: projectMapNode
                 nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
@@ -171,14 +214,18 @@ composition:
                 content:
                   type: richText
                   locales:
+                    de-DE: ${#jptr:/Country Content/entry/fields/description/value}
                     en-US: ${#jptr:/Country Content/entry/fields/description/value}
+                    it-IT: ${#jptr:/Country Content/entry/fields/description/value}
               _overridability:
                 hideLockedParameters: true
         parameters:
           title:
             type: text
             locales:
+              de-DE: Facts
               en-US: Facts
+              it-IT: Facts
           marginTop:
             type: select
             value: None
@@ -207,14 +254,181 @@ composition:
             value: inherit
         _overridability:
           hideLockedParameters: true
+      - _id: 68fa61d5-dfe1-402c-98f7-fb0a9068833e
+        type: cardBlock
+        _pattern: 0ef27220-119a-497e-9b02-4008400e0282
+      - _id: 86bd9a69-45f0-4999-b3c6-b4bae1026fb7
+        type: container
+        slots:
+          container-inner:
+            - _id: a1fa30e4-42e8-4dd0-ab3d-bf76feaacff2
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    de-DE: ${#jptr:/Country Content/entry/fields/timeToVisit/value}
+                    en-US: ${#jptr:/Country Content/entry/fields/timeToVisit/value}
+                    it-IT: ${#jptr:/Country Content/entry/fields/timeToVisit/value}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              criteria:
+                clauses:
+                  - op: is
+                    rule: $dt
+                    value: richText
+                    source: ${#jptr:/Country Content/entry/fields/timeToVisit/type}
+          title:
+            type: text
+            value: Time to visit
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: Small
+          marginBottom:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: Small
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+        _overridability:
+          hideLockedParameters: true
+      - _id: a516cce5-731b-4482-be81-1441d151971b
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Next reads
+          specific:
+            type: array
+            value:
+              - $p:d68861d1-a129-4798-91c8-e1e6d2a05b2c
+              - $p:0ef27220-119a-497e-9b02-4008400e0282
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
   _dataResources:
     Country Content:
       type: country
       variables:
-        locale: ${locale}
-        entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+        locale: ${locale},en-US
+        entryId: 035a64b1-730e-444c-921a-431bc2712e14
       isPatternParameter: true
       ignorePatternParameterDefault: true
+  _overrides:
+    68fa61d5-dfe1-402c-98f7-fb0a9068833e:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Das könnte dir auch gefallen
+            en-US: You also might like
+            it-IT: You also might like
+        description:
+          type: text
+          locales:
+            de-DE: Endecke beliebte Reiseziele
+            en-US: Explore these popular destinations
+            it-IT: Explore these popular destinations
+      dataResources:
+        Featured countries:
+          type: multipleCountries
+          variables:
+            locale: ${locale}
+            entryIds: >-
+              19e60e4d-45a2-4f36-a256-f95107fa4511,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,035a64b1-730e-444c-921a-431bc2712e14
+    68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/region/value/entry/fields/name/value}
+            it-IT: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/region/value/entry/fields/name/value}
+        image:
+          type: asset
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserImage/value}
+            it-IT: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserImage/value}
+        title:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/name/value}
+            it-IT: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/name/value}
+        objectFit:
+          type: select
+          locales:
+            de-DE: cover
+            it-IT: cover
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
+            it-IT: Explore
+        buttonLink:
+          type: link
+          locales:
+            de-DE:
+              path: >-
+                /${locale}/destinations/${#jptr:/Featured countries entries Loop
+                Item/entry/_slug}
+              type: projectMapNode
+              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+                destination: ${#jptr:/Featured countries entries Loop Item/entry/_slug}
+            it-IT:
+              path: >-
+                /${locale}/destinations/${#jptr:/Featured countries entries Loop
+                Item/entry/_slug}
+              type: projectMapNode
+              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+                destination: ${#jptr:/Featured countries entries Loop Item/entry/_slug}
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserText/value}
+            it-IT: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserText/value}
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+            it-IT: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 0%
+            it-IT: 0%
   _overridability:
     parameters:
       $viz: 'yes'
@@ -234,8 +448,10 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
+    - de-DE
+    - it-IT
 created: '2024-08-20T19:12:13.706954+00:00'
-modified: '2024-08-21T14:50:23.287647+00:00'
+modified: '2024-11-14T12:18:15.542484+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

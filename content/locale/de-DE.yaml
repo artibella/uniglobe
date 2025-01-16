@@ -1,2 +1,6 @@
 displayName: 🇩🇪 German
 locale: de-DE
+group: DACH
+tags:
+  - German
+order: 2

@@ -1,0 +1,826 @@
+composition:
+  _name: Destinations
+  _id: 045c67e8-238d-4764-8baa-8d31e707b8ff
+  _slug: destinations
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        de-AT: Destinations
+        de-CH: Destinations
+        de-DE: Destinations
+        fr-CH: Destinations
+  slots:
+    pageFooter:
+      - _id: ec2dca71-ea22-4f0e-958c-cc2c286a1c83
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 12759a9f-9760-4ce9-ac17-15078e29bc5c
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 49b40c93-528e-4644-b49e-9da747e54068
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            locales:
+              de-AT:
+                - _id: e8ea1d46-b0cd-411a-9a39-9ec9fe4223f7
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    title:
+                      type: text
+                      value: On a boat on Lago di Braies
+                  _source: custom-url
+              de-CH:
+                - _id: e8ea1d46-b0cd-411a-9a39-9ec9fe4223f7
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    title:
+                      type: text
+                      value: On a boat on Lago di Braies
+                  _source: custom-url
+              de-DE:
+                - _id: e8ea1d46-b0cd-411a-9a39-9ec9fe4223f7
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    title:
+                      type: text
+                      value: On a boat on Lago di Braies
+                  _source: custom-url
+              fr-CH:
+                - _id: e8ea1d46-b0cd-411a-9a39-9ec9fe4223f7
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    title:
+                      type: text
+                      value: On a boat on Lago di Braies
+                  _source: custom-url
+          title:
+            type: text
+            locales:
+              de-AT: Wohin geht die nächste Reise?
+              de-CH: Wohin geht die nächste Reise?
+              de-DE: Wohin geht die nächste Reise?
+              fr-CH: Wohin geht die nächste Reise?
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              de-AT: Entdecke die besten Reiseziele
+              de-CH: Entdecke die besten Reiseziele
+              de-DE: Entdecke die besten Reiseziele
+              fr-CH: Entdecke die besten Reiseziele
+          eyebrowText:
+            type: text
+            locales:
+              de-AT: Reiseplanung
+              de-CH: Reiseplanung
+              de-DE: Reiseplanung
+              fr-CH: Reiseplanung
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 40%
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+      - _id: 35ba41b8-b664-48cd-ba51-f979a2ef0cec
+        type: cardBlock
+        _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+      - _id: 9da1d7c2-04a8-4013-a78e-dcf735295ba8
+        type: cardBlock
+        _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+  _overrides:
+    35ba41b8-b664-48cd-ba51-f979a2ef0cec:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-AT: Entdecke Asien
+            de-CH: Entdecke Asien
+            fr-CH: Entdecke Asien
+    4d8e43b6-14b1-42f8-b0e5-0190e220085a:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-AT: Thailand
+            de-CH: Thailand
+            fr-CH: Thailand
+        image:
+          type: asset
+          locales:
+            de-AT:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            de-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            fr-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            de-AT: Bangkok
+            de-CH: Bangkok
+            fr-CH: Bangkok
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonCopy:
+          type: text
+          locales:
+            de-AT: Mehr Lesen
+            de-CH: Mehr Lesen
+            fr-CH: Mehr Lesen
+        buttonLink:
+          type: link
+          locales:
+            de-AT:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            de-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            fr-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        description:
+          type: text
+          locales:
+            de-AT: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            de-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            fr-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+        textColorVariant:
+          type: select
+          value: Light
+    9da1d7c2-04a8-4013-a78e-dcf735295ba8:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-AT: Entdecke Asien
+            de-CH: Entdecke Asien
+            fr-CH: Entdecke Asien
+    a3d9edf4-f67d-4ee1-bb62-f2f78a081354:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-AT: Thailand
+            de-CH: Thailand
+            fr-CH: Thailand
+        image:
+          type: asset
+          locales:
+            de-AT:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            de-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            fr-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            de-AT: Bangkok
+            de-CH: Bangkok
+            fr-CH: Bangkok
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonCopy:
+          type: text
+          locales:
+            de-AT: Mehr Lesen
+            de-CH: Mehr Lesen
+            fr-CH: Mehr Lesen
+        buttonLink:
+          type: link
+          locales:
+            de-AT:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            de-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            fr-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        description:
+          type: text
+          locales:
+            de-AT: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            de-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            fr-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+        textColorVariant:
+          type: select
+          value: Light
+    a7f6f7d6-0408-4bf8-83f9-abb1dc76a860:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-AT: Thailand
+            de-CH: Thailand
+            fr-CH: Thailand
+        image:
+          type: asset
+          locales:
+            de-AT:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            de-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            fr-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            de-AT: Bangkok
+            de-CH: Bangkok
+            fr-CH: Bangkok
+        buttonCopy:
+          type: text
+          locales:
+            de-AT: Mehr Lesen
+            de-CH: Mehr Lesen
+            fr-CH: Mehr Lesen
+        buttonLink:
+          type: link
+          locales:
+            de-AT:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            de-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            fr-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+        description:
+          type: text
+          locales:
+            de-AT: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            de-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            fr-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+    ac1e9d81-173c-4141-86f4-b4e25e8f24c8:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-AT: Thailand
+            de-CH: Thailand
+            fr-CH: Thailand
+        image:
+          type: asset
+          locales:
+            de-AT:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            de-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            fr-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            de-AT: Bangkok
+            de-CH: Bangkok
+            fr-CH: Bangkok
+        buttonCopy:
+          type: text
+          locales:
+            de-AT: Mehr Lesen
+            de-CH: Mehr Lesen
+            fr-CH: Mehr Lesen
+        buttonLink:
+          type: link
+          locales:
+            de-AT:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            de-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            fr-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+        description:
+          type: text
+          locales:
+            de-AT: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            de-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            fr-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+        textColorVariant:
+          type: select
+          value: Light
+    d66927fd-6e90-4bae-8dcb-104e663308e2:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-AT: Thailand
+            de-CH: Thailand
+            fr-CH: Thailand
+        image:
+          type: asset
+          locales:
+            de-AT:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            de-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            fr-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            de-AT: Bangkok
+            de-CH: Bangkok
+            fr-CH: Bangkok
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonCopy:
+          type: text
+          locales:
+            de-AT: Mehr Lesen
+            de-CH: Mehr Lesen
+            fr-CH: Mehr Lesen
+        buttonLink:
+          type: link
+          locales:
+            de-AT:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            de-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            fr-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        description:
+          type: text
+          locales:
+            de-AT: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            de-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            fr-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+        textColorVariant:
+          type: select
+          value: Light
+    f8f6406b-0b49-4c7e-86a0-5fe0e46f90e1:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-AT: Thailand
+            de-CH: Thailand
+            fr-CH: Thailand
+        image:
+          type: asset
+          locales:
+            de-AT:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            de-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            fr-CH:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            de-AT: Bangkok
+            de-CH: Bangkok
+            fr-CH: Bangkok
+        buttonCopy:
+          type: text
+          locales:
+            de-AT: Mehr Lesen
+            de-CH: Mehr Lesen
+            fr-CH: Mehr Lesen
+        buttonLink:
+          type: link
+          locales:
+            de-AT:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            de-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            fr-CH:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+        description:
+          type: text
+          locales:
+            de-AT: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            de-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+            fr-CH: >-
+              Culture, shopping, the best street food and great night life.
+              Bangkok has it all
+        textColorVariant:
+          type: select
+          value: Light
+    35ba41b8-b664-48cd-ba51-f979a2ef0cec|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: a7f6f7d6-0408-4bf8-83f9-abb1dc76a860
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: f8f6406b-0b49-4c7e-86a0-5fe0e46f90e1
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: ac1e9d81-173c-4141-86f4-b4e25e8f24c8
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+    9da1d7c2-04a8-4013-a78e-dcf735295ba8|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: 4d8e43b6-14b1-42f8-b0e5-0190e220085a
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: a3d9edf4-f67d-4ee1-bb62-f2f78a081354
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: d66927fd-6e90-4bae-8dcb-104e663308e2
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: a78fe34d-0e49-4f9a-a675-8487a4b928b6
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - de-DE
+    - de-AT
+    - de-CH
+    - fr-CH
+created: '2024-11-04T16:37:42.82191+00:00'
+modified: '2024-11-04T16:39:14.610836+00:00'
+pattern: false
+editionId: 16f158bf-ceec-4ce1-a51f-0fa7a0c79fd9
+editionName: DACH Edition
+editionPriority: 10

@@ -1,0 +1,64 @@
+composition:
+  _name: Laos
+  _id: 026a088b-f11f-492e-ba53-eea6cd6689e2
+  _slug: laos
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+  _overrides:
+    026a088b-f11f-492e-ba53-eea6cd6689e2|68fa61d5-dfe1-402c-98f7-fb0a9068833e:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: You also might like
+        description:
+          type: text
+          locales:
+            en-US: Explore these popular destinations
+      dataResources:
+        Featured countries:
+          type: multipleCountries
+          variables:
+            locale: ${locale}
+            entryIds: >-
+              49e4e7f6-9ad8-4a02-bb54-33560dadba6b,035a64b1-730e-444c-921a-431bc2712e14,8abbed23-87a2-4f1d-8ba8-e26818e7c323
+    026a088b-f11f-492e-ba53-eea6cd6689e2|68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
+      parameters:
+        badge:
+          type: text
+          locales: {}
+        image:
+          type: asset
+          locales: {}
+        title:
+          type: text
+          locales: {}
+        objectFit:
+          type: select
+          locales: {}
+        buttonCopy:
+          type: text
+          locales: {}
+        buttonLink:
+          type: link
+          locales: {}
+        description:
+          type: text
+          locales: {}
+        overlayColor:
+          type: tp-color-style-parameter
+          locales: {}
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales: {}
+  _locales:
+    - en-US
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2024-11-14T12:57:08.747727+00:00'
+modified: '2024-11-14T12:58:36.657912+00:00'
+pattern: false

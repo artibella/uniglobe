@@ -1,0 +1,103 @@
+created: '2024-11-29T13:03:19.552188+00:00'
+modified: '2025-01-15T13:59:54.944202+00:00'
+pattern: false
+entry:
+  _id: 43c27b05-c86b-45e4-90c2-fbf5653b8c16
+  _name: Portugal
+  _slug: portugal
+  _thumbnail: https://flagcdn.com/pt.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        country: portugal
+    ref-43c27b05-c86b-45e4-90c2-fbf5653b8c16-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 53b42f52-db71-448c-8869-e86a5b7fc80e
+  _locales:
+    - de-DE
+  _overrides:
+    43c27b05-c86b-45e4-90c2-fbf5653b8c16:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/name/common}
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-43c27b05-c86b-45e4-90c2-fbf5653b8c16-region/entries/0}
+        captial:
+          type: text
+          locales:
+            de-DE: Lissabon
+        teaserText:
+          type: text
+          locales:
+            de-DE: Erleben sie Sonne, Meer und Kultur in Portugal
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Portugal – Ein Land voller Charme und Vielfalt
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Portugal begeistert mit atemberaubenden Landschaften,
+                          historischen Städten und köstlicher Küche. Von den
+                          goldenen Stränden der Algarve über die charmanten
+                          Gassen Lissabons bis zu den üppigen Weinbergen des
+                          Douro-Tals – dieses Land bietet für jeden etwas.
+                          Entdecken Sie die kulturellen Schätze in Porto,
+                          probieren Sie frischen Bacalhau und Pastéis de Nata,
+                          oder genießen Sie die melancholischen Klänge des Fado.
+                          Mit mildem Klima, gastfreundlichen Menschen und einer
+                          reichen Geschichte ist Portugal das perfekte Ziel für
+                          eine unvergessliche Reise.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: unknown
+          value:
+            - _id: bee475c7-1ae1-4b13-a695-6e4a16e403a6
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1501927023255-9063be98970c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+              _source: custom-url
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

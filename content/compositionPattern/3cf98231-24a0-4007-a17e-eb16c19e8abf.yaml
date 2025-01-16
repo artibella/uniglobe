@@ -208,13 +208,57 @@ composition:
             value: inherit
         _overridability:
           hideLockedParameters: true
+      - _id: dcb7b2b1-ec70-4ecb-b918-edb61089e032
+        type: container
+        slots:
+          container-inner:
+            - _id: 119d42fd-2c7a-459f-9af1-4a08d5414ac2
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    de-DE: ${#jptr:/Country/entry/fields/timeToVisit/value}
+                    en-US: ${#jptr:/Country/entry/fields/timeToVisit/value}
+                    it-IT: ${#jptr:/Country/entry/fields/timeToVisit/value}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              criteria:
+                clauses:
+                  - op: is
+                    rule: $dt
+                    value: richText
+                    source: ${#jptr:/Country/entry/fields/timeToVisit/type}
+          title:
+            type: text
+            value: Time to visit
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: Small
+          marginBottom:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: Small
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+        _overridability:
+          hideLockedParameters: true
   _dataResources:
     Country:
       type: countryBySlug
       variables:
-        slug: italy
+        slug: japan
         locale: ${locale}
-        entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _overridability:
@@ -239,7 +283,7 @@ composition:
     - de-DE
     - it-IT
 created: '2024-09-19T14:56:45.173053+00:00'
-modified: '2024-09-20T08:49:30.065492+00:00'
+modified: '2024-11-13T13:16:28.975687+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

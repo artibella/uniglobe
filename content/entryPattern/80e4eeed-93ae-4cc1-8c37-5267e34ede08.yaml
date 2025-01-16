@@ -1,5 +1,5 @@
 created: '2024-01-18T12:33:27.077396+00:00'
-modified: '2024-08-21T12:55:28.752374+00:00'
+modified: '2024-11-13T12:26:52.602034+00:00'
 pattern: true
 entry:
   _id: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
@@ -53,10 +53,7 @@ entry:
                   fields:
                     code:
                       type: text
-                      locales:
-                        de-DE: ${#jptr:/Country currencies Loop Item/key}
-                        en-US: ${#jptr:/Country currencies Loop Item/key}
-                        it-IT: ${#jptr:/Country currencies Loop Item/key}
+                      value: ${#jptr:/Country currencies Loop Item/key}
                     name:
                       type: text
                       value: ${#jptr:/Country currencies Loop Item/value/name}
@@ -91,4 +88,7 @@ entry:
       teaserText: 'yes'
       description: 'yes'
       teaserImage: 'yes'
+      timeToVisit: 'yes'
+      description2: 'yes'
       officialName: 'yes'
+    hideLockedParameters: true

@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 38e53eb2-d22a-467e-821d-5eb1abdbd5be
+  _name: gray deer under white and gray arch
+  fields:
+    title:
+      type: text
+      value: Grey deer under white and grey arch
+    description:
+      type: text
+      value: 'Copyright: Timo Volz, Unsplash'
+    file:
+      type: file
+      value: f115df05-0faf-4117-b128-7231d50e4748
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/lnpVwGDWQkKmSudu83Qkew-photo-1550303435-1703d8811aaa
+      type: text
+    size:
+      value: 1251990
+      type: number
+    width:
+      value: 3000
+      type: number
+    height:
+      value: 2000
+      type: number
+    custom: {}
+created: '2024-10-11T12:11:37.578401+00:00'
+modified: '2024-10-11T12:44:10.680805+00:00'

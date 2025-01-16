@@ -16,6 +16,8 @@ const config: CLIConfiguration = {
       contentType: {},
       entry: {},
       dataType: {},
+      previewUrl: {},
+      previewViewport: {},
       quirk: {},
       redirect: {},
       signal: {},

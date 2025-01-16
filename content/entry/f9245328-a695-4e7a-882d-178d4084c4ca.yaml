@@ -1,0 +1,211 @@
+created: '2024-11-25T12:45:01.849119+00:00'
+modified: '2024-11-25T12:47:24.761203+00:00'
+pattern: false
+entry:
+  _id: f9245328-a695-4e7a-882d-178d4084c4ca
+  _name: Kinkakuji (Golden Pavilion)
+  _slug: kinkakuji-golden-pavilion
+  _thumbnail: https://www.japan-guide.com/g18/3908_top.jpg
+  type: attraction
+  fields:
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 014f63d4-4307-4761-85e9-a308e997ec59
+            type: image
+            fields:
+              url:
+                type: text
+                value: https://www.japan-guide.com/g18/3908_top.jpg
+            _source: custom-url
+    title:
+      type: text
+      locales:
+        en-US: Kinkakuji (Golden Pavilion)
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Kinkakuji (金閣寺, Golden Pavilion) is a\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.japan-guide.com/e/e2055.html
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Zen
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: "\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.japan-guide.com/e/e2058.html
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: temple
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: "\_in northern\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.japan-guide.com/e/e2158.html
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Kyoto
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: "\_whose top two floors are completely covered in gold leaf. Formally known as Rokuonji, the temple was the retirement villa of the shogun\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.japan-guide.com/e/e2134.html
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Ashikaga Yoshimitsu
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ", and according to his will it became a Zen temple of the Rinzai sect after his death in 1408. Kinkakuji was the inspiration for the similarly named\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.japan-guide.com/e/e3907.html
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Ginkakuji (Silver Pavilion)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: >-
+                      , built by Yoshimitsu's grandson, Ashikaga Yoshimasa, on
+                      the other side of the city a few decades later.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Kinkakuji is an impressive structure built overlooking a large pond, and is the only building left of Yoshimitsu's former retirement complex. It has burned down numerous times throughout its history including twice during the\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.japan-guide.com/e/e2134.html
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Onin War
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: >-
+                      , a civil war that destroyed much of Kyoto; and once again
+                      more recently in 1950 when it was set on fire by a fanatic
+                      monk. The present structure was rebuilt in 1955.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+  _locales:
+    - en-US

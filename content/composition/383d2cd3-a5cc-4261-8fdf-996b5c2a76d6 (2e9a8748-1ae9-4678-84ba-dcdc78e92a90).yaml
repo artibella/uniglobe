@@ -1,0 +1,3489 @@
+composition:
+  _name: Vietnam
+  _id: 383d2cd3-a5cc-4261-8fdf-996b5c2a76d6
+  _slug: vietnam
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale},en-
+        entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+  _overrides:
+    383d2cd3-a5cc-4261-8fdf-996b5c2a76d6:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            de-DE: ' ${#jptr:/Country Content/entry/fields/name/value}'
+            it-IT: ' ${#jptr:/Country Content/entry/fields/name/value}'
+        twitterTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+            it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        openGraphTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+            it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        twitterDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+            it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        pageMetaDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+            it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        openGraphDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+            it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+    383d2cd3-a5cc-4261-8fdf-996b5c2a76d6|89a78264-bfb9-4be3-af8d-0bdf4b26ac41:
+      variant: imageLeft
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 15cc643e-9138-4b11-9b9f-a0f10233d097
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+              _source: custom-url
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 10%
+    383d2cd3-a5cc-4261-8fdf-996b5c2a76d6|f0693bc9-5723-4bc9-924b-f2fd6fe3089f:
+      slots:
+        $slotSectionItems:
+          - _id: f93d567f-673e-4671-a3c0-6b26d642ad80
+            type: richText
+            parameters:
+              content:
+                type: richText
+                locales:
+                  de-DE:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: When to visit Japan?
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Spring: The Magic of Cherry Blossoms and
+                                Cultural Harmony
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Visiting Japan in spring is a truly enchanting
+                                experience as cherry blossoms (sakura) blanket
+                                the country in shades of pink. The tradition of
+                                Hanami, or flower viewing, allows visitors to
+                                enjoy picnics beneath the blooming trees while
+                                soaking in Japan's seasonal beauty. With
+                                pleasant temperatures and lively festivals,
+                                spring is the perfect time to explore Japan’s
+                                serene gardens, historic temples, and vibrant
+                                cities as nature and culture harmonize.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: asset
+                          __asset:
+                            _id: ce100d7f-8b93-4c3e-9f6a-c6a39da6ab14
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.unsplash.com/photo-1709629920025-125c967d4a9f?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                              title:
+                                type: text
+                                value: Cherry blossom in Japan
+                              description:
+                                type: text
+                                value: >-
+                                  Cherry blossom in Japan, copyright Kum,
+                                  Unsplash
+                            _source: custom-url
+                          version: 1
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Summer: Vibrant Festivals and Scenic Getaways'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                In summer, Japan comes alive with energy and
+                                excitement. The season is filled with colorful
+                                festivals such as Gion Matsuri, and spectacular
+                                fireworks displays light up the night sky. While
+                                the weather can be hot and humid, it’s an ideal
+                                time to relax on Japan's beautiful beaches or
+                                explore the cooler mountain regions. Summer also
+                                brings refreshing seasonal dishes like kakigori
+                                (shaved ice) and cold soba, adding a culinary
+                                highlight to the vibrant cultural atmosphere.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: asset
+                          __asset:
+                            _id: 28e9a5f4-875b-47cc-9e6c-67f332b3836a
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 29845429-20ce-4c40-9252-e84e4b297c78
+                              url:
+                                type: text
+                                value: >-
+                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/pjiMy2e6TpGjN0cStA5dhg-photo-1721232080277-5a7f8370a2c4
+                              file:
+                                type: file
+                                value: 7bf04894-febe-41ab-9387-7f90ed2dd2fc
+                              size:
+                                type: number
+                                value: 1291114
+                              title:
+                                type: text
+                                value: A building that has a lot of decorations on it
+                              width:
+                                type: number
+                                value: 3000
+                              height:
+                                type: number
+                                value: 2000
+                              mediaType:
+                                type: text
+                                value: image/jpeg
+                            _source: uniform-assets
+                          version: 1
+                        - type: asset
+                          __asset:
+                            _id: 2971f1ad-58aa-431f-b377-df6a9c4f7c64
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: c9556355-d04b-4abe-ae4f-851c84bd76d2
+                              url:
+                                type: text
+                                value: >-
+                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/V7LaplKlQXm6rE_JsKPfXg-photo-1506918357967-b358ad447c56
+                              file:
+                                type: file
+                                value: 40334f40-9aef-4c65-b4de-6e63a085f876
+                              size:
+                                type: number
+                                value: 1138813
+                              title:
+                                type: text
+                                value: >-
+                                  aerial photography of sea beside green trees
+                                  during daytime
+                              width:
+                                type: number
+                                value: 3000
+                              height:
+                                type: number
+                                value: 2000
+                              mediaType:
+                                type: text
+                                value: image/jpeg
+                            _source: uniform-assets
+                          version: 1
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Fall: Autumn Foliage and Harvest Delights'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                During fall, Japan’s landscapes transform into a
+                                stunning canvas of red, gold, and orange,
+                                offering some of the most beautiful autumn
+                                foliage in the world. This season is perfect for
+                                exploring Kyoto’s temples, taking scenic hikes,
+                                or enjoying a peaceful stroll through parks and
+                                gardens. With crisp, cool weather and seasonal
+                                delicacies like roasted chestnuts and sweet
+                                potatoes, fall is a time to appreciate Japan’s
+                                natural beauty and its rich culinary traditions.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: asset
+                          __asset:
+                            _id: 944bf2f1-5d85-45ba-a1d7-3e7e35ba141f
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 38e53eb2-d22a-467e-821d-5eb1abdbd5be
+                              url:
+                                type: text
+                                value: >-
+                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/lnpVwGDWQkKmSudu83Qkew-photo-1550303435-1703d8811aaa
+                              file:
+                                type: file
+                                value: f115df05-0faf-4117-b128-7231d50e4748
+                              size:
+                                type: number
+                                value: 1251990
+                              title:
+                                type: text
+                                value: gray deer under white and gray arch
+                              width:
+                                type: number
+                                value: 3000
+                              height:
+                                type: number
+                                value: 2000
+                              mediaType:
+                                type: text
+                                value: image/jpeg
+                            _source: uniform-assets
+                          version: 1
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Winter: Snowy Adventures and Cozy Comforts'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                In winter, Japan reveals a different charm, with
+                                snow-covered mountains and tranquil landscapes
+                                perfect for skiing, snowboarding, and hot spring
+                                (onsen) escapes. Hokkaido and the Japanese Alps
+                                become winter wonderlands, while cities sparkle
+                                with dazzling light displays. Special events
+                                like Sapporo's Snow Festival, featuring
+                                impressive ice sculptures, showcase Japan’s
+                                creativity. Warm up with comforting dishes such
+                                as ramen and nabe, making winter a cozy and
+                                inviting time to experience both Japan’s natural
+                                beauty and cultural richness.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children: []
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children: []
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Weather in Japan
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: table
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Month
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: null
+                                  headerState: 3
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Average High (°C)
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: null
+                                  headerState: 1
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Average Low (°C)
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: null
+                                  headerState: 1
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Rainy Days
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: null
+                                  headerState: 1
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: January
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 10°C - 13°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 1°C - 4°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 5 - 8 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: February
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 10°C - 13°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 1°C - 4°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 6 - 8 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: March
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 13°C - 16°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 4°C - 7°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 9 - 12 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: April
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 17°C - 21°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 8°C - 12°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 10 - 12 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: May
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 21°C - 24°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 13°C - 16°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 9 - 11 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: June
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 24°C - 27°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 18°C - 20°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 12 - 15 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: July
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 28°C - 31°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 22°C - 25°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 12 - 15 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: August
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 30°C - 33°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 23°C - 26°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 10 - 13 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: September
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 26°C - 29°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 20°C - 22°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 11 - 14 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: October
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 21°C - 24°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 14°C - 16°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 8 - 11 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: November
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 16°C - 19°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 8°C - 11°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 6 - 9 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: December
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 12°C - 15°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 3°C - 6°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 4 - 7 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                          direction: null
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Note:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 3
+                              version: 1
+                            - mode: normal
+                              text: ' The temperatures and rainy days may vary depending on the region in Japan. For instance, northern areas like Hokkaido tend to be colder, while southern areas like Okinawa are warmer year-round.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 3
+                      direction: ltr
+                  it-IT:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: When to visit Japan?
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Spring: The Magic of Cherry Blossoms and
+                                Cultural Harmony
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Visiting Japan in spring is a truly enchanting
+                                experience as cherry blossoms (sakura) blanket
+                                the country in shades of pink. The tradition of
+                                Hanami, or flower viewing, allows visitors to
+                                enjoy picnics beneath the blooming trees while
+                                soaking in Japan's seasonal beauty. With
+                                pleasant temperatures and lively festivals,
+                                spring is the perfect time to explore Japan’s
+                                serene gardens, historic temples, and vibrant
+                                cities as nature and culture harmonize.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: asset
+                          __asset:
+                            _id: ce100d7f-8b93-4c3e-9f6a-c6a39da6ab14
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.unsplash.com/photo-1709629920025-125c967d4a9f?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                              title:
+                                type: text
+                                value: Cherry blossom in Japan
+                              description:
+                                type: text
+                                value: >-
+                                  Cherry blossom in Japan, copyright Kum,
+                                  Unsplash
+                            _source: custom-url
+                          version: 1
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Summer: Vibrant Festivals and Scenic Getaways'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                In summer, Japan comes alive with energy and
+                                excitement. The season is filled with colorful
+                                festivals such as Gion Matsuri, and spectacular
+                                fireworks displays light up the night sky. While
+                                the weather can be hot and humid, it’s an ideal
+                                time to relax on Japan's beautiful beaches or
+                                explore the cooler mountain regions. Summer also
+                                brings refreshing seasonal dishes like kakigori
+                                (shaved ice) and cold soba, adding a culinary
+                                highlight to the vibrant cultural atmosphere.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: asset
+                          __asset:
+                            _id: 28e9a5f4-875b-47cc-9e6c-67f332b3836a
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 29845429-20ce-4c40-9252-e84e4b297c78
+                              url:
+                                type: text
+                                value: >-
+                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/pjiMy2e6TpGjN0cStA5dhg-photo-1721232080277-5a7f8370a2c4
+                              file:
+                                type: file
+                                value: 7bf04894-febe-41ab-9387-7f90ed2dd2fc
+                              size:
+                                type: number
+                                value: 1291114
+                              title:
+                                type: text
+                                value: A building that has a lot of decorations on it
+                              width:
+                                type: number
+                                value: 3000
+                              height:
+                                type: number
+                                value: 2000
+                              mediaType:
+                                type: text
+                                value: image/jpeg
+                            _source: uniform-assets
+                          version: 1
+                        - type: asset
+                          __asset:
+                            _id: 2971f1ad-58aa-431f-b377-df6a9c4f7c64
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: c9556355-d04b-4abe-ae4f-851c84bd76d2
+                              url:
+                                type: text
+                                value: >-
+                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/V7LaplKlQXm6rE_JsKPfXg-photo-1506918357967-b358ad447c56
+                              file:
+                                type: file
+                                value: 40334f40-9aef-4c65-b4de-6e63a085f876
+                              size:
+                                type: number
+                                value: 1138813
+                              title:
+                                type: text
+                                value: >-
+                                  aerial photography of sea beside green trees
+                                  during daytime
+                              width:
+                                type: number
+                                value: 3000
+                              height:
+                                type: number
+                                value: 2000
+                              mediaType:
+                                type: text
+                                value: image/jpeg
+                            _source: uniform-assets
+                          version: 1
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Fall: Autumn Foliage and Harvest Delights'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                During fall, Japan’s landscapes transform into a
+                                stunning canvas of red, gold, and orange,
+                                offering some of the most beautiful autumn
+                                foliage in the world. This season is perfect for
+                                exploring Kyoto’s temples, taking scenic hikes,
+                                or enjoying a peaceful stroll through parks and
+                                gardens. With crisp, cool weather and seasonal
+                                delicacies like roasted chestnuts and sweet
+                                potatoes, fall is a time to appreciate Japan’s
+                                natural beauty and its rich culinary traditions.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: asset
+                          __asset:
+                            _id: 944bf2f1-5d85-45ba-a1d7-3e7e35ba141f
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 38e53eb2-d22a-467e-821d-5eb1abdbd5be
+                              url:
+                                type: text
+                                value: >-
+                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/lnpVwGDWQkKmSudu83Qkew-photo-1550303435-1703d8811aaa
+                              file:
+                                type: file
+                                value: f115df05-0faf-4117-b128-7231d50e4748
+                              size:
+                                type: number
+                                value: 1251990
+                              title:
+                                type: text
+                                value: gray deer under white and gray arch
+                              width:
+                                type: number
+                                value: 3000
+                              height:
+                                type: number
+                                value: 2000
+                              mediaType:
+                                type: text
+                                value: image/jpeg
+                            _source: uniform-assets
+                          version: 1
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Winter: Snowy Adventures and Cozy Comforts'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                In winter, Japan reveals a different charm, with
+                                snow-covered mountains and tranquil landscapes
+                                perfect for skiing, snowboarding, and hot spring
+                                (onsen) escapes. Hokkaido and the Japanese Alps
+                                become winter wonderlands, while cities sparkle
+                                with dazzling light displays. Special events
+                                like Sapporo's Snow Festival, featuring
+                                impressive ice sculptures, showcase Japan’s
+                                creativity. Warm up with comforting dishes such
+                                as ramen and nabe, making winter a cozy and
+                                inviting time to experience both Japan’s natural
+                                beauty and cultural richness.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children: []
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children: []
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                        - tag: h3
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Weather in Japan
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: table
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Month
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: null
+                                  headerState: 3
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Average High (°C)
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: null
+                                  headerState: 1
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Average Low (°C)
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: null
+                                  headerState: 1
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Rainy Days
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                  direction: null
+                                  headerState: 1
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: January
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 10°C - 13°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 1°C - 4°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 5 - 8 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: February
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 10°C - 13°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 1°C - 4°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 6 - 8 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: March
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 13°C - 16°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 4°C - 7°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 9 - 12 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: April
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 17°C - 21°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 8°C - 12°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 10 - 12 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: May
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 21°C - 24°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 13°C - 16°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 9 - 11 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: June
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 24°C - 27°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 18°C - 20°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 12 - 15 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: July
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 28°C - 31°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 22°C - 25°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 12 - 15 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: August
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 30°C - 33°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 23°C - 26°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 10 - 13 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: September
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 26°C - 29°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 20°C - 22°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 11 - 14 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: October
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 21°C - 24°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 14°C - 16°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 8 - 11 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: November
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 16°C - 19°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 8°C - 11°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 6 - 9 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                            - type: tablerow
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: December
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 2
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 12°C - 15°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 3°C - 6°C
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                                - type: tablecell
+                                  format: ''
+                                  indent: 0
+                                  colSpan: 1
+                                  rowSpan: 1
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: 4 - 7 days
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                      textStyle: ''
+                                      textFormat: 0
+                                  direction: null
+                                  headerState: 0
+                                  backgroundColor: null
+                              direction: null
+                          direction: null
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Note:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 3
+                              version: 1
+                            - mode: normal
+                              text: ' The temperatures and rainy days may vary depending on the region in Japan. For instance, northern areas like Hokkaido tend to be colder, while southern areas like Okinawa are warmer year-round.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 3
+                      direction: ltr
+  _locales:
+    - de-DE
+    - it-IT
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2024-11-04T16:48:46.337726+00:00'
+modified: '2024-11-04T16:54:10.735505+00:00'
+pattern: false
+editionId: 2e9a8748-1ae9-4678-84ba-dcdc78e92a90
+editionName: 'Region: EU'
+editionPriority: 10
