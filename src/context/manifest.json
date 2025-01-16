@@ -1,6 +1,30 @@
 {
   "project": {
-    "pz": {},
+    "pz": {
+      "sig": {
+        "downloadGuide": {
+          "str": 50,
+          "cap": 100,
+          "dur": "s",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "PVC",
+                "match": {
+                  "op": ">",
+                  "rhs": 5
+                }
+              }
+            ]
+          },
+          "conversion": {
+            "freq": "O"
+          }
+        }
+      }
+    },
     "test": {
       "itineraryOfferDestinations": {}
     }
