@@ -1,0 +1,35 @@
+id: trip
+name: Trip
+created: '2025-01-28T10:50:10.825326+00:00'
+updated: '2025-01-28T10:50:10.825326+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: arrivaldate
+    name: Arrival date
+    type: datetime
+    typeConfig: null
+  - id: departureDate
+    name: Departure date
+    type: datetime
+    typeConfig: null
+  - id: itinerary
+    name: Itinerary
+    type: contentReference
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - attraction
+        - country
+entryName: title
+description: |-
+  A created itinerary of visits to one or more places of interest,
+  Inspired by https://schema.org/TouristTrip
+icon: airplane
+type: contentType
+permissions: []

@@ -1,5 +1,5 @@
 created: '2024-08-20T21:38:22.074765+00:00'
-modified: '2024-11-13T12:41:36.282127+00:00'
+modified: '2025-01-29T09:25:16.173958+00:00'
 pattern: false
 entry:
   _id: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
@@ -2243,7 +2243,7 @@ entry:
                                 detail: 0
                                 format: 1
                                 version: 1
-                            direction: ltr
+                            direction: null
                             headerState: 3
                             backgroundColor: null
                           - type: tablecell
@@ -2260,7 +2260,7 @@ entry:
                                 detail: 0
                                 format: 1
                                 version: 1
-                            direction: ltr
+                            direction: null
                             headerState: 1
                             backgroundColor: null
                           - type: tablecell
@@ -2277,7 +2277,7 @@ entry:
                                 detail: 0
                                 format: 1
                                 version: 1
-                            direction: ltr
+                            direction: null
                             headerState: 1
                             backgroundColor: null
                           - type: tablecell
@@ -2294,10 +2294,10 @@ entry:
                                 detail: 0
                                 format: 1
                                 version: 1
-                            direction: ltr
+                            direction: null
                             headerState: 1
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -2325,7 +2325,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2350,7 +2350,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2375,7 +2375,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2400,10 +2400,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -2431,7 +2431,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2456,7 +2456,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2481,7 +2481,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2506,10 +2506,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -2537,7 +2537,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2562,7 +2562,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2587,7 +2587,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2612,10 +2612,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -2643,7 +2643,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2668,7 +2668,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2693,7 +2693,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2718,10 +2718,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -2749,7 +2749,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2774,7 +2774,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2799,7 +2799,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2824,10 +2824,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -2855,7 +2855,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2880,7 +2880,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2905,7 +2905,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2930,10 +2930,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -2961,7 +2961,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2986,7 +2986,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3011,7 +3011,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3036,10 +3036,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -3067,7 +3067,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3092,7 +3092,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3117,7 +3117,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3142,10 +3142,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -3173,7 +3173,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3198,7 +3198,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3223,7 +3223,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3248,10 +3248,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -3279,7 +3279,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3304,7 +3304,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3329,7 +3329,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3354,10 +3354,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -3385,7 +3385,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3410,7 +3410,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3435,7 +3435,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3460,10 +3460,10 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
+                        direction: null
                       - type: tablerow
                         format: ''
                         indent: 0
@@ -3491,7 +3491,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3516,7 +3516,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3541,7 +3541,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3566,11 +3566,11 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
-                            direction: ltr
+                            direction: null
                             headerState: 0
                             backgroundColor: null
-                        direction: ltr
-                    direction: ltr
+                        direction: null
+                    direction: null
                   - type: paragraph
                     format: ''
                     indent: 0

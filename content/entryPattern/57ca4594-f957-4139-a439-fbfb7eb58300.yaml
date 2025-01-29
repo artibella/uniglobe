@@ -1,5 +1,5 @@
 created: '2024-09-19T15:40:33.832669+00:00'
-modified: '2024-09-19T15:41:32.279903+00:00'
+modified: '2025-01-27T15:14:58.085758+00:00'
 pattern: true
 entry:
   _id: 57ca4594-f957-4139-a439-fbfb7eb58300
@@ -93,3 +93,8 @@ entry:
   _overridability:
     parameters:
       name: 'yes'
+      image: 'yes'
+      teaserText: 'yes'
+      description: 'yes'
+      destinations: 'yes'
+    hideLockedParameters: true

@@ -10,6 +10,14 @@ composition:
         locale: ${locale}
         entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
   _overrides:
+    76d7706c-6155-45cb-8cb5-3c3cf63bdf4f:
+      parameters:
+        $enr:
+          type: $enr
+          value:
+            - cat: dest
+              key: eur
+              str: 50
     76d7706c-6155-45cb-8cb5-3c3cf63bdf4f|68fa61d5-dfe1-402c-98f7-fb0a9068833e:
       parameters:
         title:
@@ -60,5 +68,5 @@ composition:
     - en-US
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-08-21T13:58:12.999688+00:00'
-modified: '2024-11-21T16:49:14.842076+00:00'
+modified: '2025-01-27T14:22:17.201284+00:00'
 pattern: false

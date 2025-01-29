@@ -1,5 +1,5 @@
 composition:
-  _name: Destination Card
+  _name: Destination Card (Static)
   _id: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
   type: card
   variant: backgroundImage
@@ -95,5 +95,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-17T17:49:59.018884+00:00'
-modified: '2024-08-21T19:44:52.38473+00:00'
+modified: '2025-01-20T20:38:27.449981+00:00'
 pattern: true

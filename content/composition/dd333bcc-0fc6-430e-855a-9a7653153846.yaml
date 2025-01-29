@@ -15,10 +15,20 @@ composition:
         badge:
           type: text
           locales:
+            de-DE: Japan
             en-US: Japan
         image:
           type: asset
           locales:
+            de-DE:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
             en-US:
               - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
                 type: image
@@ -31,13 +41,29 @@ composition:
         title:
           type: text
           locales:
+            de-DE: Explore Tokyo
             en-US: Explore Tokyo
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
         description:
           type: text
           locales:
+            de-DE: >-
+              Yoking past and future, Tokyo dazzles with its traditional culture
+              and passion for everything new.
             en-US: >-
               Yoking past and future, Tokyo dazzles with its traditional culture
               and passion for everything new.
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 30%
         textColorVariant:
           type: select
           value: Light
@@ -46,16 +72,41 @@ composition:
         title:
           type: text
           locales:
+            de-DE: Explore Asia
             en-US: Explore Asia
+    8f6047d8-40c2-478e-bafb-eff8ae2df01d:
+      parameters:
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 30%
     d9978790-1275-4558-ad3b-0758da9cb8eb:
       parameters:
         badge:
           type: text
           locales:
+            de-DE: Singapore
             en-US: Singapore
         image:
           type: asset
           locales:
+            de-DE:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
             en-US:
               - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
                 type: image
@@ -68,22 +119,71 @@ composition:
         title:
           type: text
           locales:
+            de-DE: Singapore
             en-US: Singapore
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
         description:
           type: text
           locales:
+            de-DE: >-
+              Culture, shopping, the best street food and great night life.
+              Singapore has it all
             en-US: >-
               Culture, shopping, the best street food and great night life.
               Singapore has it all
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 30%
         textColorVariant:
           type: select
           value: Light
     dd333bcc-0fc6-430e-855a-9a7653153846:
       parameters:
+        $enr:
+          type: $enr
+          value:
+            - cat: dest
+              key: asia
+              str: 50
         pageTitle:
           type: text
           locales:
+            de-DE: Japan
             en-US: ' ${#jptr:/Country Content/entry/fields/name/value}'
+        twitterTitle:
+          type: text
+          locales:
+            de-DE: 'Reiseziel: Japan'
+        openGraphTitle:
+          type: text
+          locales:
+            de-DE: 'Reiseziel: Japan'
+        twitterDescription:
+          type: text
+          locales:
+            de-DE: >-
+              Japan verblüfft mit einer einzigartigen Mischung aus
+              traditioneller Kultur und modernem Lebensstil.
+        pageMetaDescription:
+          type: text
+          locales:
+            de-DE: >-
+              Entdecke die faszinierende Mischung aus Vergangenheit und Zukunft
+              in Japan, einem Land voller Kultur, Technologie und Tradition.
+        openGraphDescription:
+          type: text
+          locales:
+            de-DE: >-
+              Japan verblüfft mit einer einzigartigen Mischung aus
+              traditioneller Kultur und modernem Lebensstil.
     363aab69-d2ac-4d09-b269-090d6818a388|20809b46-57c4-4683-abfb-38920d790266:
       slots:
         $slotSectionItems:
@@ -144,6 +244,25 @@ composition:
                 overlayColor: 'yes'
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
+    dd333bcc-0fc6-430e-855a-9a7653153846|68fa61d5-dfe1-402c-98f7-fb0a9068833e:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: You also might like
+            en-US: You also might like
+        description:
+          type: text
+          locales:
+            de-DE: Explore these popular destinations
+            en-US: Explore these popular destinations
+      dataResources:
+        Featured countries:
+          type: multipleCountries
+          variables:
+            locale: ${locale}
+            entryIds: >-
+              19e60e4d-45a2-4f36-a256-f95107fa4511,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,035a64b1-730e-444c-921a-431bc2712e14
     dd333bcc-0fc6-430e-855a-9a7653153846|89a78264-bfb9-4be3-af8d-0bdf4b26ac41:
       variant: imageRight
       parameters:
@@ -171,11 +290,67 @@ composition:
                 textColorVariant: 'yes'
                 buttonAnimationType: 'no'
               hideLockedParameters: true
+    dd333bcc-0fc6-430e-855a-9a7653153846|68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/region/value/entry/fields/name/value}
+        image:
+          type: asset
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserImage/value}
+        title:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/name/value}
+        objectFit:
+          type: select
+          locales:
+            de-DE: cover
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
+        buttonLink:
+          type: link
+          locales:
+            de-DE:
+              path: >-
+                /${locale}/destinations/${#jptr:/Featured countries entries Loop
+                Item/entry/_slug}
+              type: projectMapNode
+              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+                destination: ${#jptr:/Featured countries entries Loop Item/entry/_slug}
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserText/value}
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 0%
   _locales:
     - en-US
+    - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-08-20T21:36:27.105719+00:00'
-modified: '2024-11-13T12:39:12.853182+00:00'
+modified: '2025-01-27T14:20:37.087636+00:00'
 pattern: false
 editionName: 'Region: US'
 editionPriority: 10

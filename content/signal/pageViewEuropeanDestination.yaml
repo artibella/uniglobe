@@ -1,0 +1,20 @@
+id: pageViewEuropeanDestination
+name: Page view - European destination
+cap: 1000
+crit:
+  op: '|'
+  type: G
+  clauses:
+    - path:
+        cs: false
+        op: '~'
+        rhs: /europe/
+      type: PV
+    - path:
+        cs: false
+        op: '~'
+        rhs: /europa/
+      type: PV
+dur: p
+description: A page view of an European destination
+str: 10

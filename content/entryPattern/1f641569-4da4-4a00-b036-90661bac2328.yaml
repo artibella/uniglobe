@@ -1,5 +1,5 @@
 created: '2024-01-18T13:24:25.092358+00:00'
-modified: '2024-11-05T10:22:37.513829+00:00'
+modified: '2025-01-27T15:52:27.769293+00:00'
 pattern: true
 entry:
   _id: 1f641569-4da4-4a00-b036-90661bac2328
@@ -7,6 +7,10 @@ entry:
   _slug: region-pattern
   type: region
   fields:
+    name:
+      type: text
+      locales:
+        en-US: <Region name>
     countries:
       type: $block
       value:
@@ -83,7 +87,7 @@ entry:
     Countries:
       type: countriesByRegion
       variables:
-        region: europe
+        region: africa
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _locales:
@@ -92,4 +96,8 @@ entry:
   _overridability:
     parameters:
       name: 'yes'
+      image: 'yes'
+      teaserText: 'yes'
       description: 'yes'
+      destinations: 'yes'
+    hideLockedParameters: true

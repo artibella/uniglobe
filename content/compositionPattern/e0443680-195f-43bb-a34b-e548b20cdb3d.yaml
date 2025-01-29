@@ -1,0 +1,419 @@
+composition:
+  _name: Region page (manual)
+  _id: e0443680-195f-43bb-a34b-e548b20cdb3d
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Country Content/entry/fields/name/value}
+        en-US: ${#jptr:/Country Content/entry/fields/name/value}
+        it-IT: ${#jptr:/Country Content/entry/fields/name/value}
+    twitterCard:
+      type: select
+      value: summary_large_image
+    twitterImage:
+      type: asset
+      value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+    twitterTitle:
+      type: text
+      locales:
+        de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+    openGraphType:
+      type: select
+      value: article
+    openGraphImage:
+      type: asset
+      value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+    openGraphTitle:
+      type: text
+      locales:
+        de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+    twitterDescription:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+    pageMetaDescription:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+    openGraphDescription:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+  slots:
+    pageFooter:
+      - _id: 05db1d2d-2263-4f45-a013-78babc9b91fe
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 3069030e-5839-4dd4-bace-c5c0458b3970
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: e15c08f3-b04e-4dde-b9e8-ae2b23acdc29
+        type: banner
+        variant: fullWidth
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              criteria:
+                clauses:
+                  - op: has
+                    rule: $dt
+                    value: Asia
+                    source: ${#jptr:/Region/entry/fields/name/value}
+          title:
+            type: text
+            locales:
+              de-DE: ❄️  Winter Angebot ❄️
+              en-US: ❄️  Winter offer ❄️
+              it-IT: ❄️  Winter offer ❄️
+          inline:
+            type: checkbox
+            value: true
+          textAlign:
+            type: tp-horizontal-align-parameter
+            value: center
+          description:
+            type: text
+            locales:
+              de-DE: Spare 10% bei allen Reisen nach Asien im Dezember und Januar"
+              en-US: Save 10% for all trips to Asia in December and January
+              it-IT: Save 10% for all trips to Asia in December and January
+          primaryButtonCopy:
+            type: text
+            locales:
+              de-DE: Jetzt Buchen
+              en-US: Book now
+              it-IT: Book now
+          primaryButtonLink:
+            type: link
+            locales:
+              de-DE:
+                path: /${locale}/shop
+                type: projectMapNode
+                nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+              en-US:
+                path: /${locale}/shop
+                type: projectMapNode
+                nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+              it-IT:
+                path: /${locale}/shop
+                type: projectMapNode
+                nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+        _overridability:
+          hideLockedParameters: true
+      - _id: 89a78264-bfb9-4be3-af8d-0bdf4b26ac41
+        type: hero
+        variant: imageLeft
+        parameters:
+          image:
+            type: asset
+            value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+          title:
+            type: text
+            value: ${#jptr:/Region/entry/fields/name/value}
+          marginTop:
+            type: select
+            value: None
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          eyebrowText:
+            type: text
+            value: Region overview
+          marginBottom:
+            type: select
+            value: None
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+        _overridability:
+          variants: true
+          parameters:
+            $viz: 'no'
+            delay: 'no'
+            image: 'yes'
+            title: 'yes'
+            video: 'no'
+            duration: 'no'
+            marginTop: 'no'
+            objectFit: 'yes'
+            fullHeight: 'no'
+            paddingTop: 'no'
+            titleStyle: 'no'
+            description: 'yes'
+            eyebrowText: 'yes'
+            marginBottom: 'no'
+            overlayColor: 'yes'
+            animationType: 'no'
+            paddingBottom: 'no'
+            animationOrder: 'no'
+            backgroundType: 'yes'
+            overlayOpacity: 'yes'
+            animationPreview: 'no'
+            containerVariant: 'yes'
+            textColorVariant: 'yes'
+            primaryButtonCopy: 'no'
+            primaryButtonLink: 'no'
+            primaryButtonStyle: 'no'
+            secondaryButtonCopy: 'no'
+            secondaryButtonLink: 'no'
+            secondaryButtonStyle: 'no'
+            primaryButtonAnimationType: 'no'
+            secondaryButtonAnimationType: 'no'
+          hideLockedParameters: true
+      - _id: d75abf18-18ba-456a-9850-5668a0c04d1d
+        type: container
+        slots:
+          container-inner:
+            - _id: 37eb9880-2b8c-40e7-b48b-7d13e5c055eb
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    de-DE: ${#jptr:/Country Content/entry/fields/description/value}
+                    en-US: ${#jptr:/Country Content/entry/fields/description/value}
+                    it-IT: ${#jptr:/Country Content/entry/fields/description/value}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          title:
+            type: text
+            locales:
+              de-DE: Facts
+              en-US: Facts
+              it-IT: Facts
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: Small
+          marginBottom:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: Small
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+        _overridability:
+          hideLockedParameters: true
+      - _id: f0693bc9-5723-4bc9-924b-f2fd6fe3089f
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Region Content
+          specific:
+            type: array
+            value:
+              - carousel
+              - video
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+      - _id: 68fa61d5-dfe1-402c-98f7-fb0a9068833e
+        type: cardBlock
+        _pattern: 0ef27220-119a-497e-9b02-4008400e0282
+      - _id: a516cce5-731b-4482-be81-1441d151971b
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Next reads
+          specific:
+            type: array
+            value:
+              - $p:d68861d1-a129-4798-91c8-e1e6d2a05b2c
+              - $p:0ef27220-119a-497e-9b02-4008400e0282
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Region:
+      type: region
+      variables:
+        locale: ${locale}
+        entryId: b37861c7-61e6-4171-9561-c4d8df5461c5
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale},en-US
+        entryId: 035a64b1-730e-444c-921a-431bc2712e14
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overrides:
+    68fa61d5-dfe1-402c-98f7-fb0a9068833e:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Das könnte dir auch gefallen
+            en-US: "Destinations in\_${#jptr:/Region/entry/fields/name/value}"
+            it-IT: You also might like
+        description:
+          type: text
+          locales:
+            de-DE: Endecke beliebte Reiseziele
+            en-US: Explore these popular destinations
+            it-IT: Explore these popular destinations
+      dataResources:
+        Featured countries:
+          type: multipleCountries
+          variables:
+            locale: ${locale}
+            entryIds: >-
+              19e60e4d-45a2-4f36-a256-f95107fa4511,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,035a64b1-730e-444c-921a-431bc2712e14
+    68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/region/value/entry/fields/name/value}
+            it-IT: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/region/value/entry/fields/name/value}
+        image:
+          type: asset
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserImage/value}
+            it-IT: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserImage/value}
+        title:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/name/value}
+            it-IT: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/name/value}
+        objectFit:
+          type: select
+          locales:
+            de-DE: cover
+            it-IT: cover
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
+            it-IT: Explore
+        buttonLink:
+          type: link
+          locales:
+            de-DE:
+              path: >-
+                /${locale}/destinations/${#jptr:/Featured countries entries Loop
+                Item/entry/_slug}
+              type: projectMapNode
+              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+                destination: ${#jptr:/Featured countries entries Loop Item/entry/_slug}
+            it-IT:
+              path: >-
+                /${locale}/destinations/${#jptr:/Featured countries entries Loop
+                Item/entry/_slug}
+              type: projectMapNode
+              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+                destination: ${#jptr:/Featured countries entries Loop Item/entry/_slug}
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserText/value}
+            it-IT: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserText/value}
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+            it-IT: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 0%
+            it-IT: 0%
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      pageTitle: 'yes'
+      twitterCard: 'yes'
+      pageKeywords: 'yes'
+      twitterImage: 'yes'
+      twitterTitle: 'yes'
+      openGraphType: 'yes'
+      openGraphImage: 'yes'
+      openGraphTitle: 'yes'
+      twitterDescription: 'yes'
+      pageMetaDescription: 'yes'
+      openGraphDescription: 'yes'
+      overlayTitleToOgImage: 'yes'
+      overlayTitleToTwitterImage: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+created: '2025-01-27T14:59:07.719048+00:00'
+modified: '2025-01-27T15:05:35.213177+00:00'
+pattern: true
+description: A custom destination page
+categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

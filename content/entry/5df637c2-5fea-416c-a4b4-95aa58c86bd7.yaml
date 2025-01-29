@@ -1,5 +1,5 @@
 created: '2024-08-21T13:38:41.298934+00:00'
-modified: '2024-09-19T15:28:50.528885+00:00'
+modified: '2025-01-21T16:11:06.167157+00:00'
 pattern: false
 entry:
   _id: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
@@ -74,6 +74,39 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children: []
+                    direction: null
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: b863f1cc-efe4-4839-a1c6-7e906d62568f
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1551801319-ca06060f3fcc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Bjorn Snelders, Unsplash'
+                _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
                   - tag: h3
                     type: heading
                     format: ''
@@ -218,19 +251,4 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        teaserImage:
-          type: asset
-          locales:
-            en-US:
-              - _id: b863f1cc-efe4-4839-a1c6-7e906d62568f
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1551801319-ca06060f3fcc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
-                    type: text
-                    value: 'Copyright: Bjorn Snelders, Unsplash'
-                _source: custom-url
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

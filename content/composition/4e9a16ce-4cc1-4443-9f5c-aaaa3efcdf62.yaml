@@ -1,0 +1,119 @@
+composition:
+  _name: Country Detail (manual)
+  _id: 4e9a16ce-4cc1-4443-9f5c-aaaa3efcdf62
+  _slug: country-detail-manual
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale},en-US
+        entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+  _overrides:
+    4e9a16ce-4cc1-4443-9f5c-aaaa3efcdf62:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/name/value}
+        twitterTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        openGraphTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        twitterDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        pageMetaDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        openGraphDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+    4e9a16ce-4cc1-4443-9f5c-aaaa3efcdf62|68fa61d5-dfe1-402c-98f7-fb0a9068833e:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: You also might like
+            en-US: You also might like
+        description:
+          type: text
+          locales:
+            de-DE: Explore these popular destinations
+            en-US: Explore these popular destinations
+      dataResources:
+        Featured countries:
+          type: multipleCountries
+          variables:
+            locale: ${locale}
+            entryIds: >-
+              19e60e4d-45a2-4f36-a256-f95107fa4511,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,035a64b1-730e-444c-921a-431bc2712e14
+    4e9a16ce-4cc1-4443-9f5c-aaaa3efcdf62|68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/region/value/entry/fields/name/value}
+        image:
+          type: asset
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserImage/value}
+        title:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/name/value}
+        objectFit:
+          type: select
+          locales:
+            de-DE: cover
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
+        buttonLink:
+          type: link
+          locales:
+            de-DE:
+              path: >-
+                /${locale}/destinations/${#jptr:/Featured countries entries Loop
+                Item/entry/_slug}
+              type: projectMapNode
+              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+                destination: ${#jptr:/Featured countries entries Loop Item/entry/_slug}
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Featured countries entries Loop
+              Item/entry/fields/teaserText/value}
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 0%
+  _locales:
+    - en-US
+    - de-DE
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2025-01-20T21:06:51.708937+00:00'
+modified: '2025-01-20T21:32:41.027205+00:00'
+pattern: false

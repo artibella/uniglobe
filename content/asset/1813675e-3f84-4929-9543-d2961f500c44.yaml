@@ -1,0 +1,24 @@
+asset:
+  type: video
+  _id: 1813675e-3f84-4929-9543-d2961f500c44
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: turtle.mp4
+    file:
+      type: file
+      value: 0bb5ef7f-f7f7-4ca8-8a0f-3e6a25c3bfdb
+    mediaType:
+      value: video/mp4
+      type: text
+    url:
+      value: >-
+        https://files.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/WbdfSHuvS5iWJPORozx7Tg-turtle.mp4
+      type: text
+    size:
+      value: 12030518
+      type: number
+    custom: {}
+created: '2025-01-24T09:59:32.031283+00:00'
+modified: '2025-01-24T09:59:32.031283+00:00'

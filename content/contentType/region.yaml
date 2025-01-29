@@ -1,7 +1,7 @@
 id: region
 name: Region
 created: '2024-01-18T13:20:21.829613+00:00'
-updated: '2024-10-10T12:03:38.514364+00:00'
+updated: '2025-01-27T15:11:07.018889+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -12,14 +12,20 @@ fields:
     helpText: ''
     typeConfig: null
     localizable: true
-  - id: countries
-    name: Countries
-    type: $block
-    helpText: ''
+  - id: image
+    name: Image
+    type: asset
     typeConfig:
+      max: 1
       allowedTypes:
-        - countryBlock
-        - $loop
+        - image
+    localizable: true
+    allowConditionalValues: true
+  - id: teaserText
+    name: Teaser Text
+    type: text
+    typeConfig: null
+    localizable: true
   - id: description
     name: Description
     type: richText
@@ -51,7 +57,31 @@ fields:
           - superscript
           - subscript
     localizable: true
+    allowConditionalValues: true
+  - id: destinations
+    name: Destinations
+    type: contentReference
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - country
+  - id: 3178f1d2-d9cd-47a5-bb29-d527a9e39604
+    name: External data
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - countries
+  - id: countries
+    name: Countries
+    type: $block
+    helpText: All countries in that region (from API)
+    typeConfig:
+      allowedTypes:
+        - countryBlock
+        - $loop
 entryName: name
+thumbnailField: image
 description: ''
 icon: pin
 type: contentType

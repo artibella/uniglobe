@@ -1,0 +1,21 @@
+id: visitoraustria
+name: Visitor Austria
+cap: 100
+crit:
+  op: '|'
+  type: G
+  clauses:
+    - key: vc-country
+      type: QK
+      match:
+        cs: false
+        op: '='
+        rhs: AT
+    - path:
+        cs: false
+        op: '~'
+        rhs: /de-AT/
+      type: PV
+dur: p
+description: ''
+str: 50

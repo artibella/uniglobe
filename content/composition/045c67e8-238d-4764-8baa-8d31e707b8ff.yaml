@@ -73,7 +73,7 @@ composition:
             type: text
             locales:
               de-DE: Wohin geht die nächste Reise?
-              en-US: Where to next?
+              en-US: Where to next??
           objectFit:
             type: select
             value: cover
@@ -111,9 +111,26 @@ composition:
           textColorVariant:
             type: select
             value: Light
-      - _id: 35ba41b8-b664-48cd-ba51-f979a2ef0cec
-        type: cardBlock
-        _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+      - _id: 9e01b248-3d44-479a-9795-a54fe1c9b19e
+        type: $personalization
+        slots:
+          pz:
+            - _id: 9da1d7c2-04a8-4013-a78e-dcf735295ba8
+              type: cardBlock
+              _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+            - _id: 35ba41b8-b664-48cd-ba51-f979a2ef0cec
+              type: cardBlock
+              _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+            - _id: 55bb281d-426f-4c91-9d3a-7a1d73873516
+              type: cardBlock
+              _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+        parameters:
+          count:
+            type: number
+            value: 1
+          trackingEventName:
+            type: text
+            value: destinations-featured cards
       - _id: 039ff536-5193-4f28-a41a-c2085382978b
         type: $test
         slots:
@@ -122,14 +139,6 @@ composition:
               type: hero
               variant: imageLeft
               parameters:
-                $viz:
-                  type: $viz
-                  value:
-                    criteria:
-                      clauses:
-                        - op: is
-                          rule: $locale
-                          value: en-US
                 image:
                   type: asset
                   locales:
@@ -202,14 +211,6 @@ composition:
               type: hero
               variant: imageLeft
               parameters:
-                $viz:
-                  type: $viz
-                  value:
-                    criteria:
-                      clauses:
-                        - op: is
-                          rule: $locale
-                          value: en-US
                 image:
                   type: asset
                   locales:
@@ -282,9 +283,6 @@ composition:
           test:
             type: testSelect
             value: itineraryOfferDestinations
-      - _id: 9da1d7c2-04a8-4013-a78e-dcf735295ba8
-        type: cardBlock
-        _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
   _overrides:
     35ba41b8-b664-48cd-ba51-f979a2ef0cec:
       parameters:
@@ -292,6 +290,13 @@ composition:
           type: text
           locales:
             en-US: Explore Asia
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: bookAsiaVacation
+                op: +
+            name: 'Card Block: Explore Asia'
     4d8e43b6-14b1-42f8-b0e5-0190e220085a:
       parameters:
         badgeSize:
@@ -314,12 +319,60 @@ composition:
         textColorVariant:
           type: select
           value: Light
+    55bb281d-426f-4c91-9d3a-7a1d73873516:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Explore our top destinations
+        $pzCrit:
+          type: $pzCrit
+          value: null
+    79eadb73-5885-4f96-9cdc-09c5feac3f3b:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        objectFit:
+          type: select
+          locales:
+            en-US: cover
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 035a64b1-730e-444c-921a-431bc2712e14
     9da1d7c2-04a8-4013-a78e-dcf735295ba8:
       parameters:
         title:
           type: text
           locales:
             en-US: Explore Europe
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: dest_eur
+                op: +
+            name: 'Card Block: Explore Europe'
     a3d9edf4-f67d-4ee1-bb62-f2f78a081354:
       parameters:
         badgeSize:
@@ -373,6 +426,28 @@ composition:
         textColorVariant:
           type: select
           value: Light
+    cd80f548-e7a9-4bb6-8c00-794a32a164b9:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
     d66927fd-6e90-4bae-8dcb-104e663308e2:
       parameters:
         badgeSize:
@@ -399,6 +474,34 @@ composition:
         textColorVariant:
           type: select
           value: Light
+    f0d943ea-d8f8-4aa8-b234-0e832467d556:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 30%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
     f8f6406b-0b49-4c7e-86a0-5fe0e46f90e1:
       parameters:
         badge:
@@ -490,6 +593,90 @@ composition:
                 overlayColor: 'yes'
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
+    55bb281d-426f-4c91-9d3a-7a1d73873516|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: cd80f548-e7a9-4bb6-8c00-794a32a164b9
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: f0d943ea-d8f8-4aa8-b234-0e832467d556
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: 79eadb73-5885-4f96-9cdc-09c5feac3f3b
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 035a64b1-730e-444c-921a-431bc2712e14
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
     9da1d7c2-04a8-4013-a78e-dcf735295ba8|20809b46-57c4-4683-abfb-38920d790266:
       slots:
         $slotSectionItems:
@@ -578,5 +765,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-01-16T12:11:58.916947+00:00'
+modified: '2025-01-27T16:01:18.655597+00:00'
 pattern: false

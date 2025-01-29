@@ -1,0 +1,105 @@
+composition:
+  _name: Country preview
+  _id: c3335aaa-fb8a-4a1a-8e08-1eef3ada73e2
+  _slug: country-preview
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Country preview
+  slots:
+    pageFooter:
+      - _id: f6519c17-6bbc-4aa1-a4bb-7bea0765d76a
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 20710003-092e-43fb-bc5d-d68a6fe2c7fb
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 7ac3d31a-f3d9-4462-8bf2-f2b6e74dd25b
+        type: hero
+        _pattern: 849f90cb-39b4-4046-b27f-cc9206b711f7
+      - _id: 73832804-1abe-4de2-a074-2075a91cb931
+        type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
+      - _id: 85ac6b22-4005-42dc-8faa-d57f1e99523f
+        type: cardBlock
+        _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+  _overrides:
+    7ac3d31a-f3d9-4462-8bf2-f2b6e74dd25b:
+      dataResources:
+        Hero country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+    85ac6b22-4005-42dc-8faa-d57f1e99523f:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Card preview
+        description:
+          type: text
+          locales:
+            en-US: null
+    fb0b759a-f8f4-46c8-a2cf-96e2b55ca96e:
+      parameters:
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+    85ac6b22-4005-42dc-8faa-d57f1e99523f|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: fb0b759a-f8f4-46c8-a2cf-96e2b55ca96e
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-01-20T20:51:10.415242+00:00'
+modified: '2025-01-20T21:31:41.6368+00:00'
+pattern: false
