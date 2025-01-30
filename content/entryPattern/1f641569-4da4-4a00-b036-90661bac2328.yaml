@@ -1,5 +1,5 @@
 created: '2024-01-18T13:24:25.092358+00:00'
-modified: '2025-01-27T15:52:27.769293+00:00'
+modified: '2025-01-29T15:27:05.696197+00:00'
 pattern: true
 entry:
   _id: 1f641569-4da4-4a00-b036-90661bac2328
@@ -35,7 +35,7 @@ entry:
                       type: text
                       locales:
                         de-DE: ${#jptr:/Countries Loop Item/capital/0}
-                        en-US: ${#jptr:/Countries Loop Item/capital/0}
+                        en-US: ${#jptr:/Countries Loop Item/capital/0:fl=i}
                     flagEmoji:
                       type: text
                       value: ${#jptr:/Countries Loop Item/flag}

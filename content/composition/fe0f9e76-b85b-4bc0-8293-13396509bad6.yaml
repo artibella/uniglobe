@@ -1,0 +1,787 @@
+composition:
+  _name: Destinations 2
+  _id: fe0f9e76-b85b-4bc0-8293-13396509bad6
+  _slug: destinations-2
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        de-DE: Destinations
+        en-US: Top Travel Destinations Worldwide - Explore Asia and Europe
+    openGraphType:
+      type: select
+      value: website
+    openGraphImage:
+      type: asset
+      value: []
+    openGraphTitle:
+      type: text
+      locales:
+        en-US: Explore the World's Top Destinations
+    openGraphDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover leading travel destinations across Asia and Europe. Dive into
+          the rich cultures and breathtaking landscapes.
+    overlayTitleToOgImage:
+      type: checkbox
+      value: 'false'
+  slots:
+    pageFooter:
+      - _id: ec2dca71-ea22-4f0e-958c-cc2c286a1c83
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 12759a9f-9760-4ce9-ac17-15078e29bc5c
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 49b40c93-528e-4644-b49e-9da747e54068
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            locales:
+              de-DE:
+                - _id: e8ea1d46-b0cd-411a-9a39-9ec9fe4223f7
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    title:
+                      type: text
+                      value: On a boat on Lago di Braies
+                  _source: custom-url
+              en-US:
+                - _id: b4107a7b-1479-4444-825c-7e45baeec442
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 8a3b44b6-8624-4618-b27d-e588e8163134
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O29eafLQSmmM4p90NzbXnQ-photo-1644804679983-06778d699333
+                      type: text
+                    file:
+                      type: file
+                      value: 7696e75b-fe73-4547-9252-947370b4202f
+                    size:
+                      value: 800892
+                      type: number
+                    title:
+                      type: text
+                      value: a house covered in snow with trees in the background
+                    width:
+                      value: 3000
+                      type: number
+                    height:
+                      value: 2000
+                      type: number
+                    mediaType:
+                      value: image/jpeg
+                      type: text
+                  _source: uniform-assets
+          title:
+            type: text
+            locales:
+              de-DE: Wohin geht die nächste Reise?
+              en-US: Where to next??
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              de-DE: Entdecke die besten Reiseziele
+              en-US: Discover the best travel destinations around the globe
+          eyebrowText:
+            type: text
+            locales:
+              de-DE: Reiseplanung
+              en-US: Plan your trip
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 40%
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+      - _id: 9e01b248-3d44-479a-9795-a54fe1c9b19e
+        type: $personalization
+        slots:
+          pz:
+            - _id: 9da1d7c2-04a8-4013-a78e-dcf735295ba8
+              type: cardBlock
+              _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+            - _id: 35ba41b8-b664-48cd-ba51-f979a2ef0cec
+              type: cardBlock
+              _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+            - _id: 55bb281d-426f-4c91-9d3a-7a1d73873516
+              type: cardBlock
+              _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+        parameters:
+          count:
+            type: number
+            value: 1
+          trackingEventName:
+            type: text
+            value: destinations-featured cards
+      - _id: 039ff536-5193-4f28-a41a-c2085382978b
+        type: $test
+        slots:
+          test:
+            - _id: 94a05df6-70ba-4ce3-b5de-59e7e3ce07db
+              type: hero
+              variant: imageLeft
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                          title:
+                            type: text
+                            value: Trip plan
+                        _source: custom-url
+                title:
+                  type: text
+                  locales:
+                    en-US: Get a free itinerary plan
+                $tstVrnt:
+                  type: testVariant
+                  value:
+                    id: short-title
+                objectFit:
+                  type: select
+                  value: cover
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: for any trips to South and Central America
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Special offer
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: secondary
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Medium
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 0%
+                containerVariant:
+                  type: select
+                  value: backgroundInContainer
+                textColorVariant:
+                  type: select
+                  value: Dark
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-US: Get your free plan
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/trips
+                    type: projectMapNode
+                    nodeId: d4128937-d0fe-4870-a6aa-2244787daa85
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: primary
+            - _id: 00d5c5ef-56d3-4a69-9109-e2bf7b315bc5
+              type: hero
+              variant: imageLeft
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                          title:
+                            type: text
+                            value: Trip plan
+                        _source: custom-url
+                title:
+                  type: text
+                  locales:
+                    en-US: Get a free itinerary plan from our local experts
+                $tstVrnt:
+                  type: testVariant
+                  value:
+                    id: long-title
+                objectFit:
+                  type: select
+                  value: cover
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: for any trips to South and Central America
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Special offer
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: secondary
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Medium
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 0%
+                containerVariant:
+                  type: select
+                  value: backgroundInContainer
+                textColorVariant:
+                  type: select
+                  value: Dark
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-US: Get your free plan
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/trips
+                    type: projectMapNode
+                    nodeId: d4128937-d0fe-4870-a6aa-2244787daa85
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: primary
+        parameters:
+          test:
+            type: testSelect
+            value: itineraryOfferDestinations
+  _overrides:
+    35ba41b8-b664-48cd-ba51-f979a2ef0cec:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Explore Asia
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: bookAsiaVacation
+                op: +
+            name: 'Card Block: Explore Asia'
+    4d8e43b6-14b1-42f8-b0e5-0190e220085a:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+    55bb281d-426f-4c91-9d3a-7a1d73873516:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Explore our top destinations
+        $pzCrit:
+          type: $pzCrit
+          value: null
+    79eadb73-5885-4f96-9cdc-09c5feac3f3b:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        objectFit:
+          type: select
+          locales:
+            en-US: cover
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 035a64b1-730e-444c-921a-431bc2712e14
+    9da1d7c2-04a8-4013-a78e-dcf735295ba8:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Explore Europe
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: dest_eur
+                op: +
+            name: 'Card Block: Explore Europe'
+    a3d9edf4-f67d-4ee1-bb62-f2f78a081354:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 30%
+        textColorVariant:
+          type: select
+          value: Light
+    ac1e9d81-173c-4141-86f4-b4e25e8f24c8:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Singapore
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            en-US: Singapore
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Culture, shopping, the best street food and great night life.
+              Singapore has it all
+        textColorVariant:
+          type: select
+          value: Light
+    cd80f548-e7a9-4bb6-8c00-794a32a164b9:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+    d66927fd-6e90-4bae-8dcb-104e663308e2:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        objectFit:
+          type: select
+          locales:
+            en-US: cover
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+    f0d943ea-d8f8-4aa8-b234-0e832467d556:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 30%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
+    f8f6406b-0b49-4c7e-86a0-5fe0e46f90e1:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Japan
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            en-US: Explore Tokyo
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Yoking past and future, Tokyo dazzles with its traditional culture
+              and passion for everything new.
+        textColorVariant:
+          type: select
+          value: Light
+    35ba41b8-b664-48cd-ba51-f979a2ef0cec|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: a7f6f7d6-0408-4bf8-83f9-abb1dc76a860
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: f8f6406b-0b49-4c7e-86a0-5fe0e46f90e1
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: ac1e9d81-173c-4141-86f4-b4e25e8f24c8
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+    55bb281d-426f-4c91-9d3a-7a1d73873516|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: cd80f548-e7a9-4bb6-8c00-794a32a164b9
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: f0d943ea-d8f8-4aa8-b234-0e832467d556
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: 79eadb73-5885-4f96-9cdc-09c5feac3f3b
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 035a64b1-730e-444c-921a-431bc2712e14
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+    9da1d7c2-04a8-4013-a78e-dcf735295ba8|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: 4d8e43b6-14b1-42f8-b0e5-0190e220085a
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: a3d9edf4-f67d-4ee1-bb62-f2f78a081354
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: d66927fd-6e90-4bae-8dcb-104e663308e2
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: a78fe34d-0e49-4f9a-a675-8487a4b928b6
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+created: '2025-01-29T14:37:51.64849+00:00'
+modified: '2025-01-29T14:39:24.516347+00:00'
+pattern: false

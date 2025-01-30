@@ -1,0 +1,12 @@
+id: 35648a92-af07-4f48-844d-4c83eef58d3c
+sourceUrl: /:locale/thailand
+sourceRetainQuerystring: true
+targetUrl: https://uniglobe.vercel.app/:locale/destinations/asia/thailand
+targetStatusCode: 301
+targetProjectMapNodeId: 249ff2ae-57df-4955-84c6-5e015e8d8408
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: false
+targetPreserveIncomingDomain: false
+targetMergeQuerystring: true
+labelAsSystem: false
