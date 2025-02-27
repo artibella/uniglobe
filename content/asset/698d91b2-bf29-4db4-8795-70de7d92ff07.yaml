@@ -14,17 +14,17 @@ asset:
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
+        https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/DkqhIduWSHKeI5YN-vSqeg-app-store-badge.svg
       type: text
     size:
       value: 8406
       type: number
     width:
-      value: 150
+      value: 128
       type: number
     height:
-      value: 150
+      value: 128
       type: number
     custom: {}
-created: '2024-09-19T16:42:58.797685+00:00'
-modified: '2024-09-19T16:43:19.544522+00:00'
+created: '2025-02-06T09:46:04.281882+00:00'
+modified: '2025-02-06T09:46:04.281882+00:00'
