@@ -195,6 +195,7 @@ composition:
                                   value: image/svg+xml
                                   type: text
                               _source: uniform-assets
+                        value: []
                       link:
                         type: link
                         locales:

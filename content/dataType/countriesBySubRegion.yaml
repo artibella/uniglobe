@@ -1,9 +1,9 @@
 id: countriesBySubRegion
 displayName: Countries by subregion
 ttl: 30
-path: /subregion
+path: /subregion/${Subregion}
 custom:
-  proposedName: subregion
+  proposedName: subregion/${Subregion}
 method: GET
 purgeKey: 9cf594c0-151a-468b-8d0a-0026a54bb65b
 archetype: default
@@ -12,8 +12,5 @@ variables:
     type: text
     default: ''
     helpText: e.g. Caribbean, Northern Europe
-parameters:
-  - key: subregion
-    value: ${Subregion}
 dataSourceId: restCountries
 allowedOnComponents: []

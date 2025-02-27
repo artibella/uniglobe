@@ -91,6 +91,7 @@ composition:
                       value: image/webp
                       type: text
                   _source: uniform-assets
+            value: []
           title:
             type: text
             locales:
@@ -275,6 +276,7 @@ composition:
                       value: image/png
                       type: text
                   _source: uniform-assets
+            value: []
           title:
             type: text
             locales:
@@ -411,6 +413,7 @@ composition:
                       value: image/png
                       type: text
                   _source: uniform-assets
+            value: []
           title:
             type: text
             locales:
@@ -479,6 +482,7 @@ composition:
                                   value: image/png
                                   type: text
                               _source: uniform-assets
+                        value: []
                       title:
                         type: text
                         locales:
@@ -565,6 +569,7 @@ composition:
                                   value: image/png
                                   type: text
                               _source: uniform-assets
+                        value: []
                       title:
                         type: text
                         locales:
@@ -650,6 +655,7 @@ composition:
                                   value: image/png
                                   type: text
                               _source: uniform-assets
+                        value: []
                       title:
                         type: text
                         locales:
@@ -835,6 +841,7 @@ composition:
                       value: image/png
                       type: text
                   _source: uniform-assets
+            value: []
           title:
             type: text
             locales:

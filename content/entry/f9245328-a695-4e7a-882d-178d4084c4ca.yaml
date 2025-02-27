@@ -19,6 +19,7 @@ entry:
                 type: text
                 value: https://www.japan-guide.com/g18/3908_top.jpg
             _source: custom-url
+      value: []
     title:
       type: text
       locales:

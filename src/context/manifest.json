@@ -1,7 +1,98 @@
 {
   "project": {
     "pz": {
+      "agg": {
+        "usersDACH": {
+          "inputs": [
+            {
+              "dim": "visitoraustria"
+            },
+            {
+              "dim": "visitorGermany"
+            }
+          ]
+        },
+        "bookAsiaVacation": {
+          "inputs": [
+            {
+              "dim": "dest_asia"
+            },
+            {
+              "dim": "pageViewAsianDestination"
+            }
+          ]
+        },
+        "bookEuropeVacation": {
+          "inputs": [
+            {
+              "dim": "dest_eur"
+            },
+            {
+              "dim": "pageViewEuropeanDestination"
+            }
+          ]
+        }
+      },
+      "enr": {
+        "dest": {
+          "cap": 10000
+        }
+      },
       "sig": {
+        "pageViewEuropeanDestination": {
+          "str": 10,
+          "cap": 1000,
+          "dur": "p",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/europe/"
+                },
+                "type": "PV"
+              },
+              {
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/europa/"
+                },
+                "type": "PV"
+              }
+            ]
+          }
+        },
+        "pageViewAsianDestination": {
+          "str": 10,
+          "cap": 1000,
+          "dur": "p",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/destinations/asia/"
+                },
+                "type": "PV"
+              },
+              {
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/reiseziele/asien"
+                },
+                "type": "PV"
+              }
+            ]
+          }
+        },
         "downloadGuide": {
           "str": 50,
           "cap": 100,
@@ -21,6 +112,62 @@
           },
           "conversion": {
             "freq": "O"
+          }
+        },
+        "visitorGermany": {
+          "str": 50,
+          "cap": 100,
+          "dur": "s",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "vc-country",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "DE"
+                }
+              },
+              {
+                "path": {
+                  "cs": true,
+                  "op": "~",
+                  "rhs": "/de-DE/"
+                },
+                "type": "PV"
+              }
+            ]
+          }
+        },
+        "visitoraustria": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "vc-country",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "AT"
+                }
+              },
+              {
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/de-AT/"
+                },
+                "type": "PV"
+              }
+            ]
           }
         }
       }

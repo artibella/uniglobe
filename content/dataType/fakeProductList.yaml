@@ -1,0 +1,27 @@
+id: fakeProductList
+displayName: Product list
+ttl: 30
+path: '/products '
+custom:
+  proposedName: 'products '
+method: GET
+purgeKey: 38e60ba1-2ed7-4f0e-9088-fb546b970721
+archetype: default
+variables:
+  sort:
+    type: text
+    default: ''
+    helpText: Sorting order (desc, asc)
+  limit:
+    type: text
+    default: '20'
+    helpText: Limit how many products to show
+parameters:
+  - key: limit
+    value: ${limit}
+    omitIfEmpty: true
+  - key: sort
+    value: ${sort}
+    omitIfEmpty: true
+dataSourceId: fakeStoreApi
+allowedOnComponents: []

@@ -76,6 +76,7 @@ composition:
                       type: text
                       value: On a boat on Lago di Braies
                   _source: custom-url
+            value: []
           title:
             type: text
             locales:

@@ -22,6 +22,7 @@ composition:
                   https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
             _source: custom-url
         en-US: ${#jptr:/Country/entry/fields/teaserImage/value}
+      value: []
     title:
       type: text
       locales:

@@ -7,7 +7,6 @@ composition:
     pageTitle:
       type: text
       locales:
-        de-DE: Destinations
         en-US: Top Travel Destinations Worldwide - Explore Asia and Europe
     openGraphType:
       type: select
@@ -45,18 +44,6 @@ composition:
           image:
             type: asset
             locales:
-              de-DE:
-                - _id: e8ea1d46-b0cd-411a-9a39-9ec9fe4223f7
-                  type: image
-                  fields:
-                    url:
-                      type: text
-                      value: >-
-                        https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                    title:
-                      type: text
-                      value: On a boat on Lago di Braies
-                  _source: custom-url
               en-US:
                 - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
                   type: image
@@ -69,11 +56,11 @@ composition:
                       type: text
                       value: Kyoto street
                   _source: custom-url
+            value: []
           title:
             type: text
             locales:
-              de-DE: Wohin geht die nächste Reise?
-              en-US: Where to next??
+              en-US: Where to next?
           objectFit:
             type: select
             value: cover
@@ -86,12 +73,10 @@ composition:
           description:
             type: text
             locales:
-              de-DE: Entdecke die besten Reiseziele
               en-US: Discover the best travel destinations around the globe
           eyebrowText:
             type: text
             locales:
-              de-DE: Reiseplanung
               en-US: Plan your trip
           overlayColor:
             type: tp-color-style-parameter
@@ -154,6 +139,7 @@ composition:
                             type: text
                             value: Trip plan
                         _source: custom-url
+                  value: []
                 title:
                   type: text
                   locales:
@@ -226,6 +212,7 @@ composition:
                             type: text
                             value: Trip plan
                         _source: custom-url
+                  value: []
                 title:
                   type: text
                   locales:
@@ -763,7 +750,6 @@ composition:
               hideLockedParameters: true
   _locales:
     - en-US
-    - de-DE
 created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-01-27T16:01:18.655597+00:00'
+modified: '2025-02-20T14:34:18.317283+00:00'
 pattern: false

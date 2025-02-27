@@ -87,6 +87,7 @@ composition:
                       value: image/jpeg
                       type: text
                   _source: uniform-assets
+            value: []
           title:
             type: text
             locales:
@@ -172,6 +173,7 @@ composition:
                             type: text
                             value: Trip plan
                         _source: custom-url
+                  value: []
                 title:
                   type: text
                   locales:
@@ -244,6 +246,7 @@ composition:
                             type: text
                             value: Trip plan
                         _source: custom-url
+                  value: []
                 title:
                   type: text
                   locales:

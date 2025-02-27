@@ -1,9 +1,9 @@
 id: countriesByRegion
 displayName: Countries by region
 ttl: 30
-path: /region
+path: /region/${region}
 custom:
-  proposedName: region
+  proposedName: region/${region}
 method: GET
 purgeKey: 9cf594c0-151a-468b-8d0a-0026a54bb65b
 archetype: default
@@ -11,8 +11,5 @@ variables:
   region:
     type: text
     default: ''
-parameters:
-  - key: region
-    value: ${region}
 dataSourceId: restCountries
 allowedOnComponents: []

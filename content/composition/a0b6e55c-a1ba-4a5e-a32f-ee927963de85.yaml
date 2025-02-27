@@ -37,6 +37,7 @@ composition:
                       type: text
                       value: Globe
                   _source: custom-url
+            value: []
           title:
             type: text
             locales:
@@ -200,6 +201,7 @@ composition:
             type: asset
             locales:
               en-US: ${#jptr:/Country/entry/fields/flag/value}
+            value: []
           title:
             type: text
             locales:

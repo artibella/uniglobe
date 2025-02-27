@@ -1,0 +1,114 @@
+composition:
+  _name: Destination
+  _id: 9c77bbed-aa1b-4a0b-9a78-485de375f018
+  _slug: ':destination'
+  type: page
+  _dataResources:
+    Country:
+      type: countryBySlug
+      variables:
+        slug: ${destination}
+        locale: ${locale},en-US
+  _overrides:
+    621c7747-7fa2-411b-ba90-1f6b4d4cec4a:
+      parameters:
+        $viz:
+          type: $viz
+          value:
+            criteria:
+              clauses:
+                - op: has
+                  rule: $dt
+                  value: Asia
+                  source: >-
+                    ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
+    8d7d4d4c-a4cd-415f-9413-f391615ab61b:
+      variant: fluidContent
+      parameters:
+        $viz:
+          type: $viz
+          value: null
+        paddingTop:
+          type: select
+          value: None
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Light
+    9c77bbed-aa1b-4a0b-9a78-485de375f018:
+      parameters:
+        pageTitle:
+          type: text
+          value: ${#jptr:/Country/entry/fields/name/value:fa=a:fl=e}
+    8d7d4d4c-a4cd-415f-9413-f391615ab61b|827696b7-9ff8-4fe6-9303-4ee0ec969a80:
+      variant: ''
+    8d7d4d4c-a4cd-415f-9413-f391615ab61b|af6145df-990f-4d27-9218-c5905b8d885f:
+      parameters:
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Light
+    9c77bbed-aa1b-4a0b-9a78-485de375f018|89a78264-bfb9-4be3-af8d-0bdf4b26ac41:
+      parameters:
+        image:
+          type: asset
+          value: ${#jptr:/Country/entry/fields/flag/value}
+          conditions:
+            - id: 0
+              when:
+                clauses:
+                  - op: '!empty'
+                    rule: $dt
+                    value: ''
+                    source: >-
+                      ${#jptr:/Country/entry/fields/teaserImage/value/0/fields/url/value}
+              value: ${#jptr:/Country/entry/fields/teaserImage/value}
+    9c77bbed-aa1b-4a0b-9a78-485de375f018|b538d098-7848-4a90-8aed-01ce5b3bf6b4:
+      slots:
+        $slotSectionItems:
+          - _id: 621c7747-7fa2-411b-ba90-1f6b4d4cec4a
+            type: banner
+            variant: fullWidth
+            _pattern: baf731e8-1857-48ee-abc9-5074c93b49fd
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                icon: 'no'
+                title: 'yes'
+                inline: 'no'
+                position: 'no'
+                textAlign: 'no'
+                description: 'yes'
+                primaryButtonCopy: 'yes'
+                primaryButtonLink: 'yes'
+                primaryButtonStyle: 'no'
+                secondaryButtonCopy: 'no'
+                secondaryButtonLink: 'no'
+                secondaryButtonStyle: 'no'
+                primaryButtonAnimationType: 'no'
+                secondaryButtonAnimationType: 'no'
+              hideLockedParameters: true
+    9c77bbed-aa1b-4a0b-9a78-485de375f018|f0693bc9-5723-4bc9-924b-f2fd6fe3089f:
+      slots:
+        $slotSectionItems:
+          - _id: 8d7d4d4c-a4cd-415f-9413-f391615ab61b
+            type: container
+            variant: fluidContent
+            _pattern: ee3173f8-5432-4aab-a886-e3aac30fe238
+            _overridability:
+              variants: true
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                marginTop: 'yes'
+                paddingTop: 'yes'
+                marginBottom: 'yes'
+                paddingBottom: 'yes'
+                backgroundType: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - es-ES
+  _pattern: 3cf98231-24a0-4007-a17e-eb16c19e8abf
+created: '2025-01-30T17:11:39.838743+00:00'
+modified: '2025-01-30T17:11:39.838743+00:00'
+pattern: false
+editionId: ef5d2a89-01ba-4c4e-8c80-a2c9d4ea047e
+editionName: 🇪🇸 Spanish Edition
