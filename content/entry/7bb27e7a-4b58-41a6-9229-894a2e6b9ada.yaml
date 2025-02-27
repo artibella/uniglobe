@@ -1,5 +1,5 @@
-created: '2024-03-12T15:24:34.437337+00:00'
-modified: '2024-09-19T15:57:29.539737+00:00'
+created: '2025-02-06T09:48:16.846283+00:00'
+modified: '2025-02-27T11:31:47.992206+00:00'
 pattern: false
 entry:
   _id: 7bb27e7a-4b58-41a6-9229-894a2e6b9ada
@@ -31,14 +31,22 @@ entry:
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Experience the charm and diversity of the UK, where historic
+              landmarks, vibrant cities, and stunning landscapes come together
+              to create an unforgettable adventure.
             en-US: >-
+              Experience the charm and diversity of the UK, where historic
+              landmarks, vibrant cities, and stunning landscapes come together
+              to create an unforgettable adventure.
+            it-IT: >-
               Experience the charm and diversity of the UK, where historic
               landmarks, vibrant cities, and stunning landscapes come together
               to create an unforgettable adventure.
         description:
           type: richText
           locales:
-            en-US:
+            de-DE:
               root:
                 type: root
                 format: ''
@@ -217,9 +225,242 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The UK is a diverse and vibrant destination, offering
+                          a rich tapestry of history, culture, and natural
+                          beauty. From the bustling streets of London and the
+                          historic landmarks of Edinburgh to the picturesque
+                          countryside of the Cotswolds and the rugged landscapes
+                          of Scotland, the UK caters to every traveler's
+                          interests. Explore iconic sites like Buckingham
+                          Palace, Stonehenge, and the Lake District, and immerse
+                          yourself in the local traditions, culinary delights,
+                          and world-renowned arts. Whether you're wandering
+                          through ancient castles or enjoying lively pub
+                          culture, the UK promises a memorable and multifaceted
+                          experience.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The UK is a diverse and vibrant destination, offering
+                          a rich tapestry of history, culture, and natural
+                          beauty. From the bustling streets of London and the
+                          historic landmarks of Edinburgh to the picturesque
+                          countryside of the Cotswolds and the rugged landscapes
+                          of Scotland, the UK caters to every traveler's
+                          interests. Explore iconic sites like Buckingham
+                          Palace, Stonehenge, and the Lake District, and immerse
+                          yourself in the local traditions, culinary delights,
+                          and world-renowned arts. Whether you're wandering
+                          through ancient castles or enjoying lively pub
+                          culture, the UK promises a memorable and multifaceted
+                          experience.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit the UK
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit the UK depends on your
+                          preferences for weather and activities:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming flowers, making it a wonderful time for sightseeing and exploring gardens, parks, and historic sites. This season is ideal for enjoying outdoor events and avoiding the peak tourist crowds.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer brings warmer weather and longer daylight hours, perfect for exploring cities, countryside, and coastal areas. It’s also the high tourist season, with numerous festivals, events, and outdoor activities. Be prepared for occasional rain showers.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn features cooler temperatures and beautiful fall foliage, especially in rural areas and national parks. This season is great for hiking, exploring historic towns, and enjoying seasonal events. Crowds are fewer compared to summer, offering a more relaxed experience.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is ideal for experiencing festive holiday markets, cozy pub visits, and winter sports in Scotland. Cities like London and Edinburgh are beautifully decorated for the holidays, offering a magical atmosphere. However, be prepared for colder temperatures and shorter daylight hours.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the best weather and outdoor activities, visit in
+                          spring or summer. Autumn offers beautiful landscapes
+                          and fewer tourists, while winter provides a festive
+                          atmosphere and unique seasonal experiences.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: eur
+              str: 10
         teaserImage:
           type: asset
           locales:
+            de-DE:
+              - _id: 0fdb9ca0-d7ae-4ac7-a4b4-4b4fdbb70112
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1487846418109-474dd0e7b64b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Kate Krivanec, Unsplash'
+                _source: custom-url
             en-US:
               - _id: 0fdb9ca0-d7ae-4ac7-a4b4-4b4fdbb70112
                 type: image
@@ -232,4 +473,170 @@ entry:
                     type: text
                     value: 'Copyright: Kate Krivanec, Unsplash'
                 _source: custom-url
+            it-IT:
+              - _id: 0fdb9ca0-d7ae-4ac7-a4b4-4b4fdbb70112
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1487846418109-474dd0e7b64b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Kate Krivanec, Unsplash'
+                _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit the UK
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit the UK depends on your
+                          preferences for weather and activities:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming flowers, making it a wonderful time for sightseeing and exploring gardens, parks, and historic sites. This season is ideal for enjoying outdoor events and avoiding the peak tourist crowds.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer brings warmer weather and longer daylight hours, perfect for exploring cities, countryside, and coastal areas. It’s also the high tourist season, with numerous festivals, events, and outdoor activities. Be prepared for occasional rain showers.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn features cooler temperatures and beautiful fall foliage, especially in rural areas and national parks. This season is great for hiking, exploring historic towns, and enjoying seasonal events. Crowds are fewer compared to summer, offering a more relaxed experience.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is ideal for experiencing festive holiday markets, cozy pub visits, and winter sports in Scotland. Cities like London and Edinburgh are beautifully decorated for the holidays, offering a magical atmosphere. However, be prepared for colder temperatures and shorter daylight hours.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the best weather and outdoor activities, visit in
+                          spring or summer. Autumn offers beautiful landscapes
+                          and fewer tourists, while winter provides a festive
+                          atmosphere and unique seasonal experiences.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

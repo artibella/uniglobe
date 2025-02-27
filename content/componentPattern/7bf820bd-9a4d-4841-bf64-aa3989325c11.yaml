@@ -1,13 +1,13 @@
 composition:
-  _name: 'Card Block: Featured Countries'
-  _id: 0ef27220-119a-497e-9b02-4008400e0282
+  _name: 'Card Block: Countries by region slug'
+  _id: 7bf820bd-9a4d-4841-bf64-aa3989325c11
   type: cardBlock
   parameters:
     title:
       type: text
       locales:
         de-DE: Entdecke Asien
-        en-US: ' '
+        en-US: "Explore\_${#jptr:/Region/entry/fields/name/value:fa=c}"
     buttonCopy:
       type: text
       locales:
@@ -93,18 +93,13 @@ composition:
                             projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                           en-US:
                             path: >-
-                              /${locale}/destinations/${#jptr:/Featured
-                              countries entries Loop
-                              Item/entry/fields/region/value/entry/_slug}/${#jptr:/Featured
+                              /${locale}/destinations/:region/${#jptr:/Featured
                               countries entries Loop Item/entry/_slug}
                             type: projectMapNode
                             nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
                             projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                             dynamicInputValues:
                               locale: ${locale}
-                              region: >-
-                                ${#jptr:/Featured countries entries Loop
-                                Item/entry/fields/region/value/entry/_slug}
                               destination: >-
                                 ${#jptr:/Featured countries entries Loop
                                 Item/entry/_slug}
@@ -152,7 +147,8 @@ composition:
                 Featured countries entries Loop Item:
                   type: sys-reserved-loop
                   variables:
-                    connectedData: '#jptr:/Featured countries/entries:fa=c'
+                    limit: '3'
+                    connectedData: '#jptr:/Region/entry/fields/destinations/value:fa=c:fl=i'
               _overridability:
                 hideLockedParameters: true
         parameters:
@@ -196,12 +192,11 @@ composition:
         _overridability:
           hideLockedParameters: true
   _dataResources:
-    Featured countries:
-      type: multipleCountries
+    Region:
+      type: regionBySlug
       variables:
+        slug: europe
         locale: ${locale}
-        entryIds: >-
-          035a64b1-730e-444c-921a-431bc2712e14,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,9b2812f5-7003-4d80-9fef-362e1fa2a0aa
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _overridability:
@@ -209,16 +204,16 @@ composition:
       $viz: 'yes'
       title: 'yes'
       buttonCopy: 'no'
-      buttonLink: 'yes'
+      buttonLink: 'no'
       titleStyle: 'no'
       buttonStyle: 'no'
       description: 'yes'
-      textColorVariant: 'yes'
+      textColorVariant: 'no'
       buttonAnimationType: 'no'
     hideLockedParameters: true
   _locales:
     - en-US
     - de-DE
-created: '2025-02-06T09:47:28.499755+00:00'
-modified: '2025-02-27T12:48:37.641643+00:00'
+created: '2025-02-27T11:41:38.472217+00:00'
+modified: '2025-02-27T12:27:33.732203+00:00'
 pattern: true

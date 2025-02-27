@@ -48,10 +48,15 @@ composition:
           nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
         en-US:
-          path: /:locale/destinations
+          path: >-
+            /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
           type: projectMapNode
-          nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+          nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+          dynamicInputValues:
+            locale: ${locale}
+            region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
+            destination: ${#jptr:/Country/entry/_slug}
     buttonStyle:
       type: tp-button-style-parameter
       value: secondary
@@ -101,8 +106,8 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2024-10-23T13:52:50.185915+00:00'
-modified: '2025-01-20T20:49:06.9477+00:00'
+created: '2025-02-06T09:47:28.845611+00:00'
+modified: '2025-02-27T12:50:34.846963+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1737406073/Uniglobe/Component%20Previews/Country%20card.png

@@ -1,59 +1,50 @@
 composition:
-  _name: Destination page (manual)
-  _id: 1d32f312-8540-44d9-920d-f2dcbe97db34
+  _name: Region page (dynamic)
+  _id: 3b329a4a-fdb5-4687-b925-f8aa522886b1
   type: page
   parameters:
-    $enr:
-      type: $enr
-      value: ${#jptr:/Country Content/entry/fields/enrichments/value:fa=p:fl=i}
     pageTitle:
       type: text
       locales:
-        de-DE: ${#jptr:/Country Content/entry/fields/name/value}
-        en-US: ${#jptr:/Country Content/entry/fields/name/value}
-        it-IT: ${#jptr:/Country Content/entry/fields/name/value}
+        de-DE: Explore ${#jptr:/Region/entry/fields/name/value}
+        en-US: Explore ${#jptr:/Region/entry/fields/name/value}
+        it-IT: Explore ${#jptr:/Region/entry/fields/name/value}
     twitterCard:
       type: select
       value: summary_large_image
     twitterImage:
       type: asset
-      value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+      value: []
     twitterTitle:
       type: text
       locales:
-        de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
-        en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
-        it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        de-DE: Explore ${#jptr:/Region/entry/fields/name/value}
+        en-US: Explore ${#jptr:/Region/entry/fields/name/value}
+        it-IT: Explore ${#jptr:/Region/entry/fields/name/value}
     openGraphType:
       type: select
       value: article
     openGraphImage:
       type: asset
-      value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+      value: []
     openGraphTitle:
       type: text
       locales:
-        de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
-        en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
-        it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
-    twitterDescription:
-      type: text
-      locales:
-        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
-    pageMetaDescription:
-      type: text
-      locales:
-        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        de-DE: Explore ${#jptr:/Region/entry/fields/name/value}
+        en-US: Explore ${#jptr:/Region/entry/fields/name/value}
+        it-IT: Explore ${#jptr:/Region/entry/fields/name/value}
     openGraphDescription:
       type: text
       locales:
-        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        de-DE: >-
+          Explore travel destinations in
+          ${#jptr:/Region/entry/fields/name/value}
+        en-US: >-
+          Explore travel destinations in
+          ${#jptr:/Region/entry/fields/name/value}
+        it-IT: >-
+          Explore travel destinations in
+          ${#jptr:/Region/entry/fields/name/value}
   slots:
     pageFooter:
       - _id: 05db1d2d-2263-4f45-a013-78babc9b91fe
@@ -76,13 +67,11 @@ composition:
                   - op: has
                     rule: $dt
                     value: Asia
-                    source: >-
-                      ${#jptr:/Country
-                      Content/entry/fields/region/value/entry/fields/name/value}
+                    source: ${#jptr:/Region/entry/fields/name/value}
           title:
             type: text
             locales:
-              de-DE: ❄️  Winter Angebot ❄️
+              de-DE: ❄️  Winter offer ❄️
               en-US: ❄️  Winter offer ❄️
               it-IT: ❄️  Winter offer ❄️
           inline:
@@ -94,13 +83,13 @@ composition:
           description:
             type: text
             locales:
-              de-DE: Spare 10% bei allen Reisen nach Asien im Dezember und Januar"
+              de-DE: Save 10% for all trips to Asia in December and January
               en-US: Save 10% for all trips to Asia in December and January
               it-IT: Save 10% for all trips to Asia in December and January
           primaryButtonCopy:
             type: text
             locales:
-              de-DE: Jetzt Buchen
+              de-DE: Book now
               en-US: Book now
               it-IT: Book now
           primaryButtonLink:
@@ -131,14 +120,31 @@ composition:
           hideLockedParameters: true
       - _id: 89a78264-bfb9-4be3-af8d-0bdf4b26ac41
         type: hero
-        variant: imageLeft
+        variant: backgroundImage
         parameters:
           image:
             type: asset
-            value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+            value:
+              - _id: eb1b5051-aa5e-4af5-8f83-8f02f5e194bf
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1531266752426-aad472b7bbf4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+            conditions:
+              - when:
+                  clauses:
+                    - op: '!empty'
+                      rule: $dt
+                      value: ''
+                      source: ${#jptr:/Region/entry/fields/image/value/0/_id}
+                value: ${#jptr:/Region/entry/fields/image/value}
+                id: 0
           title:
             type: text
-            value: ${#jptr:/Country Content/entry/fields/name/value}
+            value: ${#jptr:/Region/entry/fields/name/value}
           marginTop:
             type: select
             value: None
@@ -151,21 +157,24 @@ composition:
           titleStyle:
             type: tp-title-style-parameter
             value: h1
-          description:
-            type: text
-            value: ${#jptr:/Country Content/entry/fields/teaserText/value}
           eyebrowText:
             type: text
-            value: ${#jptr:/Country Content/entry/fields/flagEmoji/value}
+            value: Region overview
           marginBottom:
             type: select
             value: None
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
           paddingBottom:
             type: select
             value: None
           backgroundType:
             type: tp-background-type-parameter
             value: Dark
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 50%
           containerVariant:
             type: select
             value: fluidContent
@@ -207,151 +216,49 @@ composition:
             primaryButtonAnimationType: 'no'
             secondaryButtonAnimationType: 'no'
           hideLockedParameters: true
-      - _id: d75abf18-18ba-456a-9850-5668a0c04d1d
-        type: container
-        slots:
-          container-inner:
-            - _id: 37eb9880-2b8c-40e7-b48b-7d13e5c055eb
-              type: richText
-              parameters:
-                content:
-                  type: richText
-                  locales:
-                    de-DE: ${#jptr:/Country Content/entry/fields/description/value}
-                    en-US: ${#jptr:/Country Content/entry/fields/description/value}
-                    it-IT: ${#jptr:/Country Content/entry/fields/description/value}
-              _overridability:
-                hideLockedParameters: true
-        parameters:
-          title:
-            type: text
-            locales:
-              de-DE: Facts
-              en-US: Facts
-              it-IT: Facts
-          marginTop:
-            type: select
-            value: None
-          paddingTop:
-            type: select
-            value: Small
-          marginBottom:
-            type: select
-            value: Small
-          paddingBottom:
-            type: select
-            value: Small
-          backgroundType:
-            type: tp-background-type-parameter
-            value: Medium
-        _overridability:
-          hideLockedParameters: true
       - _id: f0693bc9-5723-4bc9-924b-f2fd6fe3089f
         type: $slotSection
         parameters:
           name:
             type: text
-            value: Destination content
-          groupType:
-            type: text
-            value: inherit
-        _overridability:
-          hideLockedParameters: true
-      - _id: 68fa61d5-dfe1-402c-98f7-fb0a9068833e
-        type: cardBlock
-        _pattern: 0ef27220-119a-497e-9b02-4008400e0282
-      - _id: 86bd9a69-45f0-4999-b3c6-b4bae1026fb7
-        type: container
-        slots:
-          container-inner:
-            - _id: a1fa30e4-42e8-4dd0-ab3d-bf76feaacff2
-              type: richText
-              parameters:
-                content:
-                  type: richText
-                  locales:
-                    de-DE: ${#jptr:/Country Content/entry/fields/timeToVisit/value}
-                    en-US: ${#jptr:/Country Content/entry/fields/timeToVisit/value}
-                    it-IT: ${#jptr:/Country Content/entry/fields/timeToVisit/value}
-              _overridability:
-                hideLockedParameters: true
-        parameters:
-          $viz:
-            type: $viz
-            value:
-              criteria:
-                clauses:
-                  - op: is
-                    rule: $dt
-                    value: richText
-                    source: ${#jptr:/Country Content/entry/fields/timeToVisit/type}
-          title:
-            type: text
-            value: Time to visit
-          marginTop:
-            type: select
-            value: None
-          paddingTop:
-            type: select
-            value: Small
-          marginBottom:
-            type: select
-            value: Small
-          paddingBottom:
-            type: select
-            value: Small
-          backgroundType:
-            type: tp-background-type-parameter
-            value: Medium
-        _overridability:
-          hideLockedParameters: true
-      - _id: a516cce5-731b-4482-be81-1441d151971b
-        type: $slotSection
-        parameters:
-          name:
-            type: text
-            value: Next reads
+            value: Region Content
           specific:
             type: array
             value:
-              - $p:d68861d1-a129-4798-91c8-e1e6d2a05b2c
-              - $p:0ef27220-119a-497e-9b02-4008400e0282
+              - carousel
+              - video
           groupType:
             type: text
             value: specific
         _overridability:
           hideLockedParameters: true
+      - _id: 5609b15e-6579-4330-a8b5-2f217f421e4c
+        type: cardBlock
+        _pattern: 7bf820bd-9a4d-4841-bf64-aa3989325c11
   _dataResources:
-    Country Content:
-      type: country
+    Region:
+      type: regionBySlug
       variables:
-        locale: ${locale},en-US
-        entryId: 035a64b1-730e-444c-921a-431bc2712e14
+        slug: asia
+        locale: ${locale}
+        entryId: b37861c7-61e6-4171-9561-c4d8df5461c5
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _overrides:
-    68fa61d5-dfe1-402c-98f7-fb0a9068833e:
+    5609b15e-6579-4330-a8b5-2f217f421e4c:
       parameters:
         title:
           type: text
           locales:
-            de-DE: Das könnte dir auch gefallen
-            en-US: You also might like
-            it-IT: You also might like
-        description:
-          type: text
-          locales:
-            de-DE: Endecke beliebte Reiseziele
-            en-US: Explore these popular destinations
-            it-IT: Explore these popular destinations
+            de-DE: "Explore\_${#jptr:/Region/entry/fields/name/value}"
+            it-IT: "Explore\_${#jptr:/Region/entry/fields/name/value}"
       dataResources:
-        Featured countries:
-          type: multipleCountries
+        Region:
+          type: regionBySlug
           variables:
+            slug: asia
             locale: ${locale}
-            entryIds: >-
-              19e60e4d-45a2-4f36-a256-f95107fa4511,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,035a64b1-730e-444c-921a-431bc2712e14
-    68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
+    5609b15e-6579-4330-a8b5-2f217f421e4c|797b9518-801c-44fe-b57d-d3bd74788ee1:
       parameters:
         badge:
           type: text
@@ -453,8 +360,8 @@ composition:
     - en-US
     - de-DE
     - it-IT
-created: '2025-02-06T09:47:14.86714+00:00'
-modified: '2025-02-27T11:37:28.966504+00:00'
+created: '2025-02-27T11:39:11.958262+00:00'
+modified: '2025-02-27T12:23:30.552007+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

@@ -68,10 +68,7 @@ composition:
                 $pzCrit:
                   type: $pzCrit
                   value:
-                    crit:
-                      - l: dest_eur
-                        r: 0
-                        op: '>'
+                    dim: dest_eur
                     name: destination-hero-eu
                 objectFit:
                   type: select
@@ -132,10 +129,7 @@ composition:
                 $pzCrit:
                   type: $pzCrit
                   value:
-                    crit:
-                      - l: dest_asia
-                        r: 0
-                        op: '>'
+                    dim: dest_asia
                     name: destination-hero-asia
                 objectFit:
                   type: select
@@ -180,16 +174,13 @@ composition:
                   type: asset
                   locales:
                     en-US:
-                      - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
+                      - _id: 497c44ea-be34-4205-b81c-01dab420a3f7
                         type: image
                         fields:
                           url:
                             type: text
                             value: >-
-                              https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                          title:
-                            type: text
-                            value: Kyoto street
+                              https://images.unsplash.com/photo-1464881522406-d5f66adb3e3e?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                         _source: custom-url
                   value: []
                 title:
@@ -424,6 +415,23 @@ composition:
             type: testSelect
             value: itineraryOfferDestinations
   _overrides:
+    1f0fd05e-014b-4679-8bf2-ccaf456b256f:
+      parameters:
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5690f959-52d1-4f54-a869-30b8bfed46cb
     35ba41b8-b664-48cd-ba51-f979a2ef0cec:
       parameters:
         title:
@@ -641,25 +649,50 @@ composition:
           type: country
           variables:
             locale: ${locale}
-            entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+            entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
     ddd3940f-1d37-4e40-96dd-c9252008371a:
       parameters:
         title:
           type: text
           locales:
-            en-US: Explore Japan
+            en-US: German holiday specials
         $pzCrit:
           type: $pzCrit
           value:
             crit:
-              - l: deviceType
-                r: t
+              - l: vc-country
+                r: DE
                 t: q
                 op: '='
-              - l: dest_asia
-                r: 0
-                op: '>'
-            name: destinations-tablet-explore-japan
+            name: offers-germany
+    e55ea3cc-9e7c-4a2a-b179-46514f335375:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
     f0d943ea-d8f8-4aa8-b234-0e832467d556:
       parameters:
         badgeSize:
@@ -959,7 +992,61 @@ composition:
                 type: country
                 variables:
                   locale: ${locale}
-                  entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+                  entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: 1f0fd05e-014b-4679-8bf2-ccaf456b256f
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 5690f959-52d1-4f54-a869-30b8bfed46cb
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: e55ea3cc-9e7c-4a2a-b179-46514f335375
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
             _overridability:
               parameters:
                 $viz: 'yes'
@@ -980,5 +1067,5 @@ composition:
   _locales:
     - en-US
 created: '2025-02-06T09:47:02.930206+00:00'
-modified: '2025-02-27T10:25:28.333324+00:00'
+modified: '2025-02-27T11:04:14.08423+00:00'
 pattern: false

@@ -1,5 +1,5 @@
-created: '2024-01-18T13:24:25.092358+00:00'
-modified: '2025-01-29T15:27:05.696197+00:00'
+created: '2025-02-06T09:47:58.802295+00:00'
+modified: '2025-02-27T11:15:53.952837+00:00'
 pattern: true
 entry:
   _id: 1f641569-4da4-4a00-b036-90661bac2328
@@ -99,5 +99,6 @@ entry:
       image: 'yes'
       teaserText: 'yes'
       description: 'yes'
+      enrichments: 'yes'
       destinations: 'yes'
     hideLockedParameters: true

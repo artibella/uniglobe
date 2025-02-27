@@ -1,5 +1,5 @@
-created: '2024-08-22T12:42:33.89971+00:00'
-modified: '2024-09-19T16:37:56.984661+00:00'
+created: '2025-02-06T09:48:15.619219+00:00'
+modified: '2025-02-27T11:26:27.520976+00:00'
 pattern: false
 entry:
   _id: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
@@ -227,6 +227,12 @@ entry:
                     children: []
                     direction: null
                 direction: ltr
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: eur
+              str: 50
         teaserImage:
           type: asset
           locales:
