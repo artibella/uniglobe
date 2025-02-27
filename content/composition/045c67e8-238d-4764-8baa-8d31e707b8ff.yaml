@@ -37,70 +37,223 @@ composition:
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: 49b40c93-528e-4644-b49e-9da747e54068
-        type: hero
-        variant: backgroundImage
+      - _id: c642d034-6bec-4bd4-9619-8ddaca60435d
+        type: $personalization
+        slots:
+          pz:
+            - _id: 49b40c93-528e-4644-b49e-9da747e54068
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 89ea6b54-38de-48ce-9237-7d4164da3dde
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1562083589-3bf71182e9c2?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                          title:
+                            type: text
+                            value: Europe
+                        _source: custom-url
+                  value: []
+                title:
+                  type: text
+                  locales:
+                    en-US: Explore magical Europe
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: dest_eur
+                        r: 0
+                        op: '>'
+                    name: destination-hero-eu
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: Discover the best travel destinations in Europe
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Plan your trip
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: base-300
+                paddingBottom:
+                  type: select
+                  value: None
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 40%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                textColorVariant:
+                  type: select
+                  value: Light
+            - _id: fc966f20-6887-4994-b6a9-cf46705e86c2
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 1ce29ca3-aaf4-4f88-b499-3a789b5dcd18
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1540187334920-54e87c2771c0?q=80&w=1716&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                        _source: custom-url
+                  value: []
+                title:
+                  type: text
+                  locales:
+                    en-US: Explore Asia
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: dest_asia
+                        r: 0
+                        op: '>'
+                    name: destination-hero-asia
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: Discover the hidden secrets of Asia
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Plan your trip
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: base-300
+                paddingBottom:
+                  type: select
+                  value: None
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 40%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                textColorVariant:
+                  type: select
+                  value: Light
+            - _id: d5123d0c-90e5-45f2-bd35-473d39767c6c
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                          title:
+                            type: text
+                            value: Kyoto street
+                        _source: custom-url
+                  value: []
+                title:
+                  type: text
+                  locales:
+                    en-US: Where to next?
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit: []
+                    name: destination-hero-default
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: Discover the best travel destinations around the globe
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Plan your trip
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: base-300
+                paddingBottom:
+                  type: select
+                  value: None
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 40%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                textColorVariant:
+                  type: select
+                  value: Light
         parameters:
-          image:
-            type: asset
-            locales:
-              en-US:
-                - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
-                  type: image
-                  fields:
-                    url:
-                      type: text
-                      value: >-
-                        https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                    title:
-                      type: text
-                      value: Kyoto street
-                  _source: custom-url
-            value: []
-          title:
+          count:
+            type: number
+            value: 1
+          algorithm:
+            type: pzAlgorithm
+            value: ssc
+          trackingEventName:
             type: text
-            locales:
-              en-US: Where to next?
-          objectFit:
-            type: select
-            value: cover
-          paddingTop:
-            type: select
-            value: None
-          titleStyle:
-            type: tp-title-style-parameter
-            value: h1
-          description:
-            type: text
-            locales:
-              en-US: Discover the best travel destinations around the globe
-          eyebrowText:
-            type: text
-            locales:
-              en-US: Plan your trip
-          overlayColor:
-            type: tp-color-style-parameter
-            value: base-300
-          paddingBottom:
-            type: select
-            value: None
-          backgroundType:
-            type: tp-background-type-parameter
-            value: Dark
-          overlayOpacity:
-            type: tp-slider-parameter
-            value: 40%
-          containerVariant:
-            type: select
-            value: fluidContent
-          textColorVariant:
-            type: select
-            value: Light
+            value: Destinations-Hero
       - _id: 9e01b248-3d44-479a-9795-a54fe1c9b19e
         type: $personalization
         slots:
           pz:
             - _id: 9da1d7c2-04a8-4013-a78e-dcf735295ba8
+              type: cardBlock
+              _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+            - _id: ddd3940f-1d37-4e40-96dd-c9252008371a
               type: cardBlock
               _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
             - _id: 35ba41b8-b664-48cd-ba51-f979a2ef0cec
@@ -461,6 +614,52 @@ composition:
         textColorVariant:
           type: select
           value: Light
+    dcd5fc10-7d66-46a0-a7aa-41d6242b7407:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+    ddd3940f-1d37-4e40-96dd-c9252008371a:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Explore Japan
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: deviceType
+                r: t
+                t: q
+                op: '='
+              - l: dest_asia
+                r: 0
+                op: '>'
+            name: destinations-tablet-explore-japan
     f0d943ea-d8f8-4aa8-b234-0e832467d556:
       parameters:
         badgeSize:
@@ -748,8 +947,38 @@ composition:
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
               hideLockedParameters: true
+    ddd3940f-1d37-4e40-96dd-c9252008371a|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: dcd5fc10-7d66-46a0-a7aa-41d6242b7407
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
   _locales:
     - en-US
-created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-02-20T14:34:18.317283+00:00'
+created: '2025-02-06T09:47:02.930206+00:00'
+modified: '2025-02-27T10:25:28.333324+00:00'
 pattern: false

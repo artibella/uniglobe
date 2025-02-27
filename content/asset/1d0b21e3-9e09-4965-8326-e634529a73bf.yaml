@@ -14,17 +14,17 @@ asset:
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/GfmpVtCXQRe6RmxnIvHF9A-google-play-badge.svg
+        https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/EZJAQCtdRR-zSWFt6WyeWw-google-play-badge.svg
       type: text
     size:
       value: 11823
       type: number
     width:
-      value: 150
+      value: 128
       type: number
     height:
-      value: 150
+      value: 128
       type: number
     custom: {}
-created: '2024-09-19T16:42:41.490063+00:00'
-modified: '2024-09-19T16:43:33.482772+00:00'
+created: '2025-02-06T09:45:58.468494+00:00'
+modified: '2025-02-06T09:45:58.468494+00:00'

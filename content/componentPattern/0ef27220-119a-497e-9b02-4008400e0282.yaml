@@ -43,6 +43,7 @@ composition:
                 body:
                   - _id: 797b9518-801c-44fe-b57d-d3bd74788ee1
                     type: card
+                    variant: ''
                     parameters:
                       badge:
                         type: text
@@ -53,6 +54,7 @@ composition:
                             Item/entry/fields/region/value/entry/fields/name/value}
                       image:
                         type: asset
+                        value: []
                         locales:
                           de-DE:
                             - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
@@ -66,7 +68,6 @@ composition:
                           en-US: >-
                             ${#jptr:/Featured countries entries Loop
                             Item/entry/fields/teaserImage/value}
-                        value: []
                       title:
                         type: text
                         locales:
@@ -214,8 +215,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2024-11-06T18:09:42.821697+00:00'
-modified: '2025-02-20T15:18:14.169096+00:00'
+created: '2025-02-06T09:47:28.499755+00:00'
+modified: '2025-02-06T09:47:28.499755+00:00'
 pattern: true
-previewImageUrl: >-
-  https://res.cloudinary.com/content-ops/image/upload/v1740064572/Uniglobe/Component%20Previews/Card_Block_Wireframe_yz7aab.svg
