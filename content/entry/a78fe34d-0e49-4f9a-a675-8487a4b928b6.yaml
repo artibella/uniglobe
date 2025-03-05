@@ -1,5 +1,5 @@
 created: '2025-02-06T09:48:09.391979+00:00'
-modified: '2025-02-27T11:27:11.181497+00:00'
+modified: '2025-02-27T13:51:05.119227+00:00'
 pattern: false
 entry:
   _id: a78fe34d-0e49-4f9a-a675-8487a4b928b6
@@ -597,6 +597,9 @@ entry:
             - cat: dest
               key: eur
               str: 50
+            - cat: '2'
+              key: de
+              str: 100
         teaserImage:
           type: asset
           locales:

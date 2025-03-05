@@ -1,5 +1,5 @@
 created: '2025-02-06T09:48:08.859608+00:00'
-modified: '2025-02-27T12:16:02.24263+00:00'
+modified: '2025-02-27T15:33:10.306912+00:00'
 pattern: false
 entry:
   _id: 53b42f52-db71-448c-8869-e86a5b7fc80e
@@ -48,7 +48,7 @@ entry:
           value:
             - cat: dest
               key: eur
-              str: 100
+              str: 90
         destinations:
           type: contentReference
           value: >-

@@ -200,6 +200,68 @@ composition:
             value: Medium
         _overridability:
           hideLockedParameters: true
+      - _id: c40ff281-d6c6-48be-bf9e-4749dd6c26f3
+        type: container
+        slots:
+          container-inner:
+            - _id: 140ba4fe-a1c9-4467-99be-a20bf8ebee7b
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    de-DE: ${#jptr:/Country/entry/fields/description/value}
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: variable
+                                version: 1
+                                reference: >-
+                                  #jptr:/Country/entry/fields/region/value/entry/fields/name/value
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                    it-IT: ${#jptr:/Country/entry/fields/description/value}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          $enr:
+            type: $enr
+            value: >-
+              ${#jptr:/Country/entry/fields/region/value/entry/fields/enrichments/value}
+          title:
+            type: text
+            locales:
+              de-DE: Facts
+              en-US: Region
+              it-IT: Facts
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: Small
+          marginBottom:
+            type: select
+            value: Small
+          paddingBottom:
+            type: select
+            value: Small
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+        _overridability:
+          hideLockedParameters: true
       - _id: f0693bc9-5723-4bc9-924b-f2fd6fe3089f
         type: $slotSection
         parameters:
@@ -286,7 +348,7 @@ composition:
     - de-DE
     - it-IT
 created: '2025-02-06T09:47:14.57764+00:00'
-modified: '2025-02-27T12:39:33.492244+00:00'
+modified: '2025-02-27T15:42:25.7457+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

@@ -15,7 +15,7 @@ composition:
               value: 2d06cb01-b8aa-490b-8567-43a27046030d
             url:
               value: >-
-                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+                https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/IwoXIxKhQkKHcRQOnSAnvA-uniglobe.svg
               type: text
             file:
               type: file
@@ -36,67 +36,6 @@ composition:
               value: image/svg+xml
               type: text
           _source: uniform-assets
-      locales:
-        de-DE:
-          - _id: 50c9b863-04e9-48cd-8b6c-9561a87169d0
-            type: image
-            fields:
-              id:
-                type: text
-                value: 2d06cb01-b8aa-490b-8567-43a27046030d
-              url:
-                value: >-
-                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
-                type: text
-              file:
-                type: file
-                value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
-              size:
-                value: 18253
-                type: number
-              title:
-                type: text
-                value: Logo Uniglobe (SVG)
-              width:
-                value: 358
-                type: number
-              height:
-                value: 335
-                type: number
-              mediaType:
-                value: image/svg+xml
-                type: text
-            _source: uniform-assets
-        en-US:
-          - _id: 8dac0f50-5ea5-407a-9c67-0be4b61526fb
-            type: image
-            fields:
-              id:
-                type: text
-                value: 2d06cb01-b8aa-490b-8567-43a27046030d
-              url:
-                value: >-
-                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
-                type: text
-              file:
-                type: file
-                value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
-              size:
-                value: 18253
-                type: number
-              title:
-                type: text
-                value: Logo Uniglobe (SVG)
-              width:
-                value: 358
-                type: number
-              height:
-                value: 335
-                type: number
-              mediaType:
-                value: image/svg+xml
-                type: text
-            _source: uniform-assets
     theme:
       type: tp-set-up-theme-parameter
       value:
@@ -141,7 +80,7 @@ composition:
               value: 2d06cb01-b8aa-490b-8567-43a27046030d
             url:
               value: >-
-                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+                https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/IwoXIxKhQkKHcRQOnSAnvA-uniglobe.svg
               type: text
             file:
               type: file
@@ -177,6 +116,25 @@ composition:
         type: navigationGroup
         slots:
           subNavItems:
+            - _id: 1d5cb2b9-5a5d-44fe-a6cb-f302490d6d73
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /${locale}/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    en-US: All destinations
+              _overridability:
+                hideLockedParameters: true
             - _id: 20b5c320-954b-48d1-941e-c598892336f8
               type: navigationLink
               parameters:
@@ -438,8 +396,8 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2024-01-15T09:26:48.084372+00:00'
-modified: '2024-03-22T15:25:58.946116+00:00'
+created: '2025-02-06T09:47:30.923858+00:00'
+modified: '2025-02-27T12:57:21.544906+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Header_pattern_preview_image

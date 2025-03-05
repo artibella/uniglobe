@@ -1,5 +1,5 @@
 created: '2025-02-06T09:48:03.899764+00:00'
-modified: '2025-02-27T12:15:09.928834+00:00'
+modified: '2025-02-27T15:44:05.981396+00:00'
 pattern: false
 entry:
   _id: b37861c7-61e6-4171-9561-c4d8df5461c5
@@ -79,7 +79,7 @@ entry:
           value:
             - cat: dest
               key: asia
-              str: 100
+              str: 30
         destinations:
           type: contentReference
           value: >-
