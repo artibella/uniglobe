@@ -45,17 +45,47 @@ composition:
             type: asset
             locales:
               en-US:
-                - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
+                - _id: b4d8d79f-21ec-4c8f-978c-acbe97e9c6c1
                   type: image
                   fields:
                     url:
                       type: text
                       value: >-
-                        https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                        https://images.unsplash.com/photo-1558862107-d49ef2a04d72?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA&ixlib=rb-4.0.3&q=85
                     title:
                       type: text
-                      value: Kyoto street
-                  _source: custom-url
+                      value: empty tunnel between red walls
+                    width:
+                      type: number
+                      value: 2832
+                    custom:
+                      type: object
+                      value:
+                        color: '#8c260c'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/empty-tunnel-between-red-walls-EJvGBYjrwEA
+                        blurHash: LOF{q?s9IU-A{xSgTKr?OraynOj]
+                        sourceId: EJvGBYjrwEA
+                        createdAt: '2019-05-26T09:15:50Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/empty-tunnel-between-red-walls-EJvGBYjrwEA
+                        updatedAt: '2025-03-02T21:19:10Z'
+                        authorName: David Emrich
+                        downloadUrl: >-
+                          https://unsplash.com/photos/EJvGBYjrwEA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA
+                        authorUsername: davidemrich
+                        authorProfileUrl: https://unsplash.com/@davidemrich
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/EJvGBYjrwEA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-fb-1520935645-e58a496183d3.jpg?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 1888
+                    description:
+                      type: text
+                      value: Photo by David Emrich on Unsplash
+                  _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
             value: []
           title:
             type: text
@@ -751,5 +781,5 @@ composition:
   _locales:
     - en-US
 created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-02-20T14:34:18.317283+00:00'
+modified: '2025-03-03T00:51:20.076173+00:00'
 pattern: false

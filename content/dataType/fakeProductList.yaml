@@ -1,6 +1,7 @@
 id: fakeProductList
 displayName: Product list
 ttl: 30
+body: ''
 path: '/products '
 custom:
   proposedName: 'products '
