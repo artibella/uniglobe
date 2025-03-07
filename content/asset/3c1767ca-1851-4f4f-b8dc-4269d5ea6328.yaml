@@ -9,12 +9,13 @@ asset:
     file:
       type: file
       value: f9689f0f-6f6e-481e-a696-6030918493a0
+      value: f9689f0f-6f6e-481e-a696-6030918493a0
     mediaType:
       value: image/webp
       type: text
     url:
       value: >-
-        https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/ZtE2lj5lTIyJdjt0K2tkwg-rectangle.webp
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
       type: text
     size:
       value: 49092
@@ -26,5 +27,5 @@ asset:
       value: 689
       type: number
     custom: {}
-created: '2025-02-06T09:45:38.60264+00:00'
-modified: '2025-02-06T09:45:38.60264+00:00'
+created: '2024-01-15T09:26:37.878822+00:00'
+modified: '2024-01-15T09:26:37.878822+00:00'

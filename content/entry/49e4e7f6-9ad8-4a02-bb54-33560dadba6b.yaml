@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:10.90318+00:00'
-modified: '2025-02-27T14:26:23.701121+00:00'
+created: '2024-08-20T21:38:22.074765+00:00'
+modified: '2025-03-03T10:22:25.476368+00:00'
 pattern: false
 entry:
   _id: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
@@ -25,6 +25,173 @@ entry:
   _overrides:
     49e4e7f6-9ad8-4a02-bb54-33560dadba6b:
       parameters:
+        name:
+          type: text
+          locales:
+            en-US: Japan
+        images:
+          type: asset
+          locales:
+            en-US:
+              - _id: 34d1e6c7-7790-4f96-ae4f-bb2bd6a3ac38
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1533050487297-09b450131914?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8dG9reW98ZW58MHx8fHwxNzQwOTYyMDk1fDA&ixlib=rb-4.0.3&q=85
+                  title:
+                    type: text
+                    value: >-
+                      Wandering through the small back alleys of Sangenjaya,
+                      Tokyo, around midnight, after the last train has left and
+                      only the locals are still around drinking and enjoying
+                      lively conversations. This place is packed to the brim
+                      with tiny bars that only fit a few people, shoulder to
+                      shoulder. Each bar with it’s own vibe and new experience
+                      to enjoy.
+                  width:
+                    type: number
+                    value: 7952
+                  custom:
+                    type: object
+                    value:
+                      color: '#0c2626'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/empty-pathway-in-between-stores-wfwUpfVqrKU
+                      blurHash: LGBp8,~8#PNcEU5DD+xZSt-io{j]
+                      sourceId: wfwUpfVqrKU
+                      createdAt: '2018-07-31T15:27:30Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/empty-pathway-in-between-stores-wfwUpfVqrKU
+                      updatedAt: '2025-03-03T00:11:16Z'
+                      authorName: Alex Knight
+                      downloadUrl: >-
+                        https://unsplash.com/photos/wfwUpfVqrKU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8dG9reW98ZW58MHx8fHwxNzQwOTYyMDk1fDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1533050487297-09b450131914?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8dG9reW98ZW58MHx8fHwxNzQwOTYyMDk1fDA&ixlib=rb-4.0.3
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1533050487297-09b450131914?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8dG9reW98ZW58MHx8fHwxNzQwOTYyMDk1fDA&ixlib=rb-4.0.3&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1533050487297-09b450131914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8dG9reW98ZW58MHx8fHwxNzQwOTYyMDk1fDA&ixlib=rb-4.0.3&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1533050487297-09b450131914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8dG9reW98ZW58MHx8fHwxNzQwOTYyMDk1fDA&ixlib=rb-4.0.3&q=80&w=200
+                      authorUsername: agk42
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1533050487297-09b450131914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8dG9reW98ZW58MHx8fHwxNzQwOTYyMDk1fDA&ixlib=rb-4.0.3&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@agk42
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/wfwUpfVqrKU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8dG9reW98ZW58MHx8fHwxNzQwOTYyMDk1fDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1485919296305-2617a7f696c4?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 5304
+                  description:
+                    type: text
+                    value: Photo by Alex Knight on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+              - _id: ae3c0afe-1471-4be2-bb3f-e556f60bbfbb
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1558862107-d49ef2a04d72?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA&ixlib=rb-4.0.3&q=85
+                  title:
+                    type: text
+                    value: empty tunnel between red walls
+                  width:
+                    type: number
+                    value: 2832
+                  custom:
+                    type: object
+                    value:
+                      color: '#8c260c'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/empty-tunnel-between-red-walls-EJvGBYjrwEA
+                      blurHash: LOF{q?s9IU-A{xSgTKr?OraynOj]
+                      sourceId: EJvGBYjrwEA
+                      createdAt: '2019-05-26T09:15:50Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/empty-tunnel-between-red-walls-EJvGBYjrwEA
+                      updatedAt: '2025-03-02T21:19:10Z'
+                      authorName: David Emrich
+                      downloadUrl: >-
+                        https://unsplash.com/photos/EJvGBYjrwEA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1558862107-d49ef2a04d72?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA&ixlib=rb-4.0.3
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1558862107-d49ef2a04d72?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA&ixlib=rb-4.0.3&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1558862107-d49ef2a04d72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA&ixlib=rb-4.0.3&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1558862107-d49ef2a04d72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA&ixlib=rb-4.0.3&q=80&w=200
+                      authorUsername: davidemrich
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1558862107-d49ef2a04d72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA&ixlib=rb-4.0.3&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@davidemrich
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/EJvGBYjrwEA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-fb-1520935645-e58a496183d3.jpg?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 1888
+                  description:
+                    type: text
+                    value: Photo by David Emrich on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+              - _id: 372fd7d2-fd1a-48d5-8e28-7297162eefac
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzYWt1cmElMjBqYXBhbnxlbnwwfHx8fDE3NDA5OTY4MzJ8MA&ixlib=rb-4.0.3&q=85
+                  title:
+                    type: text
+                    value: Mt. Fuji, Japan
+                  width:
+                    type: number
+                    value: 5472
+                  custom:
+                    type: object
+                    value:
+                      color: '#40a6f3'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/mt-fuji-japan-9Qwbfa_RM94
+                      blurHash: LX9,IQt6QkR-I_kXt6oMMHV@odfl
+                      sourceId: 9Qwbfa_RM94
+                      createdAt: '2017-03-29T18:17:50Z'
+                      detailUrl: https://unsplash.com/photos/mt-fuji-japan-9Qwbfa_RM94
+                      updatedAt: '2025-03-03T09:03:50Z'
+                      authorName: JJ Ying
+                      downloadUrl: >-
+                        https://unsplash.com/photos/9Qwbfa_RM94/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzYWt1cmElMjBqYXBhbnxlbnwwfHx8fDE3NDA5OTY4MzJ8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzYWt1cmElMjBqYXBhbnxlbnwwfHx8fDE3NDA5OTY4MzJ8MA&ixlib=rb-4.0.3
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzYWt1cmElMjBqYXBhbnxlbnwwfHx8fDE3NDA5OTY4MzJ8MA&ixlib=rb-4.0.3&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzYWt1cmElMjBqYXBhbnxlbnwwfHx8fDE3NDA5OTY4MzJ8MA&ixlib=rb-4.0.3&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzYWt1cmElMjBqYXBhbnxlbnwwfHx8fDE3NDA5OTY4MzJ8MA&ixlib=rb-4.0.3&q=80&w=200
+                      authorUsername: jjying
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzYWt1cmElMjBqYXBhbnxlbnwwfHx8fDE3NDA5OTY4MzJ8MA&ixlib=rb-4.0.3&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@jjying
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/9Qwbfa_RM94/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzYWt1cmElMjBqYXBhbnxlbnwwfHx8fDE3NDA5OTY4MzJ8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1486092899496-359010a96a9c?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3648
+                  description:
+                    type: text
+                    value: Photo by JJ Ying on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
         region:
           type: contentReference
           value: ${#jptr:/ref-49e4e7f6-9ad8-4a02-bb54-33560dadba6b-region/entries/0}
@@ -2253,6 +2420,7 @@ entry:
                                 format: 1
                                 version: 1
                             direction: ltr
+                            direction: ltr
                             headerState: 3
                             backgroundColor: null
                           - type: tablecell
@@ -2269,6 +2437,7 @@ entry:
                                 detail: 0
                                 format: 1
                                 version: 1
+                            direction: ltr
                             direction: ltr
                             headerState: 1
                             backgroundColor: null
@@ -2287,6 +2456,7 @@ entry:
                                 format: 1
                                 version: 1
                             direction: ltr
+                            direction: ltr
                             headerState: 1
                             backgroundColor: null
                           - type: tablecell
@@ -2304,8 +2474,10 @@ entry:
                                 format: 1
                                 version: 1
                             direction: ltr
+                            direction: ltr
                             headerState: 1
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -2335,6 +2507,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2359,6 +2532,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -2385,6 +2559,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2410,8 +2585,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -2441,6 +2618,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2465,6 +2643,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -2491,6 +2670,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2516,8 +2696,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -2547,6 +2729,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2571,6 +2754,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -2597,6 +2781,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2622,8 +2807,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -2653,6 +2840,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2677,6 +2865,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -2703,6 +2892,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2728,8 +2918,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -2759,6 +2951,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2783,6 +2976,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -2809,6 +3003,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2834,8 +3029,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -2865,6 +3062,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2889,6 +3087,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -2915,6 +3114,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -2940,8 +3140,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -2971,6 +3173,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -2995,6 +3198,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -3021,6 +3225,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3046,8 +3251,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -3077,6 +3284,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3101,6 +3309,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -3127,6 +3336,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3152,8 +3362,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -3183,6 +3395,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3207,6 +3420,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -3233,6 +3447,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3258,8 +3473,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -3289,6 +3506,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3313,6 +3531,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -3339,6 +3558,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3364,8 +3584,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -3395,6 +3617,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3419,6 +3642,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -3445,6 +3669,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3470,8 +3695,10 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
                         direction: ltr
                       - type: tablerow
                         format: ''
@@ -3501,6 +3728,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 2
                             backgroundColor: null
                           - type: tablecell
@@ -3525,6 +3753,7 @@ entry:
                                 direction: ltr
                                 textStyle: ''
                                 textFormat: 0
+                            direction: ltr
                             direction: ltr
                             headerState: 0
                             backgroundColor: null
@@ -3551,6 +3780,7 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
                           - type: tablecell
@@ -3576,8 +3806,11 @@ entry:
                                 textStyle: ''
                                 textFormat: 0
                             direction: ltr
+                            direction: ltr
                             headerState: 0
                             backgroundColor: null
+                        direction: ltr
+                    direction: ltr
                         direction: ltr
                     direction: ltr
                   - type: paragraph

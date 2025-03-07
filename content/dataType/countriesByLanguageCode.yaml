@@ -1,0 +1,16 @@
+id: countriesByLanguageCode
+displayName: Countries by language code
+ttl: 30
+path: /lang/${language}
+custom:
+  proposedName: lang/${language}
+method: GET
+purgeKey: ae7b8178-b53b-4637-b391-695b92006c1f
+archetype: default
+variables:
+  language:
+    type: text
+    default: ''
+    helpText: 'Language code (iso639_1 or iso639_2). Example: "es" or "spa" for Spanish'
+dataSourceId: apicountries
+allowedOnComponents: []

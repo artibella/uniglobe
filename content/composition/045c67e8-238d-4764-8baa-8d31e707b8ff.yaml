@@ -37,206 +37,95 @@ composition:
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: c642d034-6bec-4bd4-9619-8ddaca60435d
-        type: $personalization
-        slots:
-          pz:
-            - _id: 49b40c93-528e-4644-b49e-9da747e54068
-              type: hero
-              variant: backgroundImage
-              parameters:
-                image:
-                  type: asset
-                  locales:
-                    en-US:
-                      - _id: 89ea6b54-38de-48ce-9237-7d4164da3dde
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1562083589-3bf71182e9c2?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                          title:
-                            type: text
-                            value: Europe
-                        _source: custom-url
-                  value: []
-                title:
-                  type: text
-                  locales:
-                    en-US: Explore magical Europe
-                $pzCrit:
-                  type: $pzCrit
-                  value:
-                    dim: dest_eur
-                    name: destination-hero-eu
-                objectFit:
-                  type: select
-                  value: cover
-                paddingTop:
-                  type: select
-                  value: None
-                titleStyle:
-                  type: tp-title-style-parameter
-                  value: h1
-                description:
-                  type: text
-                  locales:
-                    en-US: Discover the best travel destinations in Europe
-                eyebrowText:
-                  type: text
-                  locales:
-                    en-US: Plan your trip
-                overlayColor:
-                  type: tp-color-style-parameter
-                  value: base-300
-                paddingBottom:
-                  type: select
-                  value: None
-                backgroundType:
-                  type: tp-background-type-parameter
-                  value: Dark
-                overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 40%
-                containerVariant:
-                  type: select
-                  value: fluidContent
-                textColorVariant:
-                  type: select
-                  value: Light
-            - _id: fc966f20-6887-4994-b6a9-cf46705e86c2
-              type: hero
-              variant: backgroundImage
-              parameters:
-                image:
-                  type: asset
-                  locales:
-                    en-US:
-                      - _id: 1ce29ca3-aaf4-4f88-b499-3a789b5dcd18
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1540187334920-54e87c2771c0?q=80&w=1716&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                        _source: custom-url
-                  value: []
-                title:
-                  type: text
-                  locales:
-                    en-US: Explore Asia
-                $pzCrit:
-                  type: $pzCrit
-                  value:
-                    dim: dest_asia
-                    name: destination-hero-asia
-                objectFit:
-                  type: select
-                  value: cover
-                paddingTop:
-                  type: select
-                  value: None
-                titleStyle:
-                  type: tp-title-style-parameter
-                  value: h1
-                description:
-                  type: text
-                  locales:
-                    en-US: Discover the hidden secrets of Asia
-                eyebrowText:
-                  type: text
-                  locales:
-                    en-US: Plan your trip
-                overlayColor:
-                  type: tp-color-style-parameter
-                  value: base-300
-                paddingBottom:
-                  type: select
-                  value: None
-                backgroundType:
-                  type: tp-background-type-parameter
-                  value: Dark
-                overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 40%
-                containerVariant:
-                  type: select
-                  value: fluidContent
-                textColorVariant:
-                  type: select
-                  value: Light
-            - _id: d5123d0c-90e5-45f2-bd35-473d39767c6c
-              type: hero
-              variant: backgroundImage
-              parameters:
-                image:
-                  type: asset
-                  locales:
-                    en-US:
-                      - _id: 497c44ea-be34-4205-b81c-01dab420a3f7
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1464881522406-d5f66adb3e3e?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                        _source: custom-url
-                  value: []
-                title:
-                  type: text
-                  locales:
-                    en-US: Where to next?
-                $pzCrit:
-                  type: $pzCrit
-                  value:
-                    crit: []
-                    name: destination-hero-default
-                objectFit:
-                  type: select
-                  value: cover
-                paddingTop:
-                  type: select
-                  value: None
-                titleStyle:
-                  type: tp-title-style-parameter
-                  value: h1
-                description:
-                  type: text
-                  locales:
-                    en-US: Discover the best travel destinations around the globe
-                eyebrowText:
-                  type: text
-                  locales:
-                    en-US: Plan your trip
-                overlayColor:
-                  type: tp-color-style-parameter
-                  value: base-300
-                paddingBottom:
-                  type: select
-                  value: None
-                backgroundType:
-                  type: tp-background-type-parameter
-                  value: Dark
-                overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 40%
-                containerVariant:
-                  type: select
-                  value: fluidContent
-                textColorVariant:
-                  type: select
-                  value: Light
+      - _id: 49b40c93-528e-4644-b49e-9da747e54068
+        type: hero
+        variant: backgroundImage
         parameters:
-          count:
-            type: number
-            value: 1
-          algorithm:
-            type: pzAlgorithm
-            value: ssc
-          trackingEventName:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: b4d8d79f-21ec-4c8f-978c-acbe97e9c6c1
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1558862107-d49ef2a04d72?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA&ixlib=rb-4.0.3&q=85
+                    title:
+                      type: text
+                      value: empty tunnel between red walls
+                    width:
+                      type: number
+                      value: 2832
+                    custom:
+                      type: object
+                      value:
+                        color: '#8c260c'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/empty-tunnel-between-red-walls-EJvGBYjrwEA
+                        blurHash: LOF{q?s9IU-A{xSgTKr?OraynOj]
+                        sourceId: EJvGBYjrwEA
+                        createdAt: '2019-05-26T09:15:50Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/empty-tunnel-between-red-walls-EJvGBYjrwEA
+                        updatedAt: '2025-03-02T21:19:10Z'
+                        authorName: David Emrich
+                        downloadUrl: >-
+                          https://unsplash.com/photos/EJvGBYjrwEA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA
+                        authorUsername: davidemrich
+                        authorProfileUrl: https://unsplash.com/@davidemrich
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/EJvGBYjrwEA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxreW90b3xlbnwwfHx8fDE3NDA5NjI5NTV8MA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-fb-1520935645-e58a496183d3.jpg?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 1888
+                    description:
+                      type: text
+                      value: Photo by David Emrich on Unsplash
+                  _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            value: []
+          title:
             type: text
-            value: Destinations-Hero
+            locales:
+              en-US: Where to next?
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: Discover the best travel destinations around the globe
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Plan your trip
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 40%
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
       - _id: 9e01b248-3d44-479a-9795-a54fe1c9b19e
         type: $personalization
         slots:
@@ -1330,6 +1219,6 @@ composition:
               hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-02-06T09:47:02.930206+00:00'
-modified: '2025-02-27T15:25:04.090921+00:00'
+created: '2024-01-15T15:05:38.343368+00:00'
+modified: '2025-03-03T00:51:20.076173+00:00'
 pattern: false

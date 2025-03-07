@@ -9,12 +9,13 @@ asset:
     file:
       type: file
       value: 3ff33bf6-60d4-4076-80ae-d16887f3c919
+      value: 3ff33bf6-60d4-4076-80ae-d16887f3c919
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/RzFNDR67SDuSJr-HbS-B4w-icon_improve.svg
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/5FB1B_M0Sd-eM9WMQE08IA-icon_improve.svg
       type: text
     size:
       value: 729
@@ -26,5 +27,5 @@ asset:
       value: 48
       type: number
     custom: {}
-created: '2025-02-06T09:45:31.153891+00:00'
-modified: '2025-02-06T09:45:31.153891+00:00'
+created: '2024-01-15T09:26:36.885273+00:00'
+modified: '2024-01-15T09:26:36.885273+00:00'

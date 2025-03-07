@@ -9,12 +9,13 @@ asset:
     file:
       type: file
       value: 791c6998-e9f9-4054-9237-ee9209c9fd62
+      value: 791c6998-e9f9-4054-9237-ee9209c9fd62
     mediaType:
       value: image/jpeg
       type: text
     url:
       value: >-
-        https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/409XZ3yCTCuVM5MDge_4MA-person_photo_1.jpg
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/0N-lYJX7TxO3rltspyBkzA-person_photo_1.jpg
       type: text
     size:
       value: 8294
@@ -26,5 +27,5 @@ asset:
       value: 256
       type: number
     custom: {}
-created: '2025-02-06T09:45:27.255012+00:00'
-modified: '2025-02-06T09:45:27.255012+00:00'
+created: '2024-01-15T09:26:35.967482+00:00'
+modified: '2024-01-15T09:26:35.967482+00:00'

@@ -9,12 +9,13 @@ asset:
     file:
       type: file
       value: e629a8c7-e367-441e-93ad-ac98bcec07ef
+      value: e629a8c7-e367-441e-93ad-ac98bcec07ef
     mediaType:
       value: image/png
       type: text
     url:
       value: >-
-        https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/oSYkTzpIRPOdvyzpiV-alA-hero_rectangle.png
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/u1NHvzSFROOXX-TMfSEKkg-hero_rectangle.png
       type: text
     size:
       value: 76327
@@ -26,5 +27,5 @@ asset:
       value: 496
       type: number
     custom: {}
-created: '2025-02-06T09:45:45.356668+00:00'
-modified: '2025-02-06T09:45:45.356668+00:00'
+created: '2024-01-15T09:26:38.742132+00:00'
+modified: '2024-01-15T09:26:38.742132+00:00'

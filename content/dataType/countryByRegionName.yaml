@@ -1,0 +1,16 @@
+id: countryByRegionName
+displayName: Country by region name
+ttl: 30
+path: /region/${region}
+custom:
+  proposedName: region/${region}
+method: GET
+purgeKey: dc199f9b-1a53-442e-9606-2314312257be
+archetype: default
+variables:
+  region:
+    type: text
+    default: ''
+    helpText: 'Name of the region. Examples: "asia", "europe", "americas"'
+dataSourceId: apicountries
+allowedOnComponents: []
