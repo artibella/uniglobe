@@ -1,4 +1,6 @@
 import type { AssetParamValueItem } from '@uniformdev/canvas';
+import type { Asset } from '@uniformdev/assets';
+import '../types/Type.d';
 
 export type MediaType =
   | string
@@ -6,7 +8,8 @@ export type MediaType =
   | { path?: string }
   | Types.UniformOldImage
   | AssetParamValueItem
-  | AssetParamValueItem[];
+  | AssetParamValueItem[]
+  | Asset;
 
 export const getMediaUrl = (media?: MediaType) => {
   const mediaUrl: string | undefined = (() => {
@@ -16,7 +19,7 @@ export const getMediaUrl = (media?: MediaType) => {
     if (isMediaAsset(media)) return media?.fields?.url?.value;
     // If it is asset library images
     if (isMediaAssets(media)) return media?.[0]?.fields?.url?.value;
-    // If it cloudinary images selector
+    // If cloudinary images selector
     if (isCloudinaryImages(media)) return media?.[0]?.url;
     // If it cloudinary image selector
     if (isCloudinaryImage(media)) return media?.path;
@@ -27,7 +30,7 @@ export const getMediaUrl = (media?: MediaType) => {
 
   if (!mediaUrl || mediaUrl === 'unresolved') return '';
 
-  if (mediaUrl.startsWith('//')) return mediaUrl.replace('//', 'https://');
+  if (typeof mediaUrl === 'string' && mediaUrl.startsWith('//')) return mediaUrl.replace('//', 'https://');
 
   return mediaUrl;
 };

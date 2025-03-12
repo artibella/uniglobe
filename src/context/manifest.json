@@ -2,16 +2,6 @@
   "project": {
     "pz": {
       "agg": {
-        "usersDACH": {
-          "inputs": [
-            {
-              "dim": "visitoraustria"
-            },
-            {
-              "dim": "visitorGermany"
-            }
-          ]
-        },
         "bookAsiaVacation": {
           "inputs": [
             {
@@ -31,6 +21,16 @@
               "dim": "pageViewEuropeanDestination"
             }
           ]
+        },
+        "usersDACH": {
+          "inputs": [
+            {
+              "dim": "visitoraustria"
+            },
+            {
+              "dim": "visitorGermany"
+            }
+          ]
         }
       },
       "enr": {
@@ -39,31 +39,25 @@
         }
       },
       "sig": {
-        "pageViewEuropeanDestination": {
-          "str": 10,
-          "cap": 1000,
-          "dur": "p",
+        "downloadGuide": {
+          "str": 50,
+          "cap": 100,
+          "dur": "s",
           "crit": {
-            "op": "|",
+            "op": "&",
             "type": "G",
             "clauses": [
               {
-                "path": {
-                  "cs": false,
-                  "op": "~",
-                  "rhs": "/europe/"
-                },
-                "type": "PV"
-              },
-              {
-                "path": {
-                  "cs": false,
-                  "op": "~",
-                  "rhs": "/europa/"
-                },
-                "type": "PV"
+                "type": "PVC",
+                "match": {
+                  "op": ">",
+                  "rhs": 5
+                }
               }
             ]
+          },
+          "conversion": {
+            "freq": "O"
           }
         },
         "pageViewAsianDestination": {
@@ -93,49 +87,27 @@
             ]
           }
         },
-        "downloadGuide": {
-          "str": 50,
-          "cap": 100,
-          "dur": "s",
-          "crit": {
-            "op": "&",
-            "type": "G",
-            "clauses": [
-              {
-                "type": "PVC",
-                "match": {
-                  "op": ">",
-                  "rhs": 5
-                }
-              }
-            ]
-          },
-          "conversion": {
-            "freq": "O"
-          }
-        },
-        "visitorGermany": {
-          "str": 50,
-          "cap": 100,
-          "dur": "s",
+        "pageViewEuropeanDestination": {
+          "str": 10,
+          "cap": 1000,
+          "dur": "p",
           "crit": {
             "op": "|",
             "type": "G",
             "clauses": [
               {
-                "key": "vc-country",
-                "type": "QK",
-                "match": {
+                "path": {
                   "cs": false,
-                  "op": "=",
-                  "rhs": "DE"
-                }
+                  "op": "~",
+                  "rhs": "/europe/"
+                },
+                "type": "PV"
               },
               {
                 "path": {
-                  "cs": true,
+                  "cs": false,
                   "op": "~",
-                  "rhs": "/de-DE/"
+                  "rhs": "/europa/"
                 },
                 "type": "PV"
               }
@@ -164,6 +136,34 @@
                   "cs": false,
                   "op": "~",
                   "rhs": "/de-AT/"
+                },
+                "type": "PV"
+              }
+            ]
+          }
+        },
+        "visitorGermany": {
+          "str": 50,
+          "cap": 100,
+          "dur": "s",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "vc-country",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "DE"
+                }
+              },
+              {
+                "path": {
+                  "cs": true,
+                  "op": "~",
+                  "rhs": "/de-DE/"
                 },
                 "type": "PV"
               }

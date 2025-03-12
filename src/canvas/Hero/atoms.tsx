@@ -142,7 +142,8 @@ export const SideImage: FC<
     className?: string;
   }
 > = ({ image, video, objectFit, overlayColor, overlayOpacity, className }) => {
-  const imageUrl = getResizedAssetUrl(image?.[0], 500, 500, FIT_OPTIONS.COVER);
+  const imageToUse = Array.isArray(image) ? image[0] : image;
+  const imageUrl = image ? getResizedAssetUrl(imageToUse, 500, 500, FIT_OPTIONS.COVER) : '';
   console.log('🗜️ Resized image url', imageUrl);
   const videoUrl = getMediaUrl(video);
 

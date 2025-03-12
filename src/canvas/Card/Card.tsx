@@ -65,9 +65,10 @@ export const Card: FC<CardProps> = ({
   }
 
   // First try to get a resized asset URL, falling back to standard media URL
-  // Use a type assertion to ensure TypeScript knows we're handling the correct types
-  const imageUrl = image ? getResizedAssetUrl(image?.[0] as MediaType, imageWidth, imageHeight, FIT_OPTIONS.COVER) : '';
-  console.log('🗜️ Card: Resized image url', image?.[0], imageUrl);
+  // Handle both array and non-array types of image
+  const imageToUse = Array.isArray(image) ? image[0] : image;
+  const imageUrl = image ? getResizedAssetUrl(imageToUse as MediaType, imageWidth, imageHeight, FIT_OPTIONS.COVER) : '';
+  console.log('🗜️ Card: Resized image url', imageToUse, imageUrl);
   const { isContextualEditing } = useUniformCurrentComposition();
 
   const badgeClassNames = classNames('badge', getBadgeStyleClass(badgeStyle), getBadgeSizeClass(badgeSize));
