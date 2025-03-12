@@ -1,0 +1,16 @@
+id: countryByCallingCode
+displayName: Country by calling code
+ttl: 30
+path: /callingcode/${code}
+custom:
+  proposedName: callingcode/${code}
+method: GET
+purgeKey: f17d161c-630b-4d67-9bcb-b10b556c2e37
+archetype: default
+variables:
+  code:
+    type: text
+    default: ''
+    helpText: Calling code of a country (e.g. 49 for Germany)
+dataSourceId: apicountries
+allowedOnComponents: []

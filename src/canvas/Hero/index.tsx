@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { ComponentProps, registerUniformComponent } from '@uniformdev/canvas-react';
-import type { Asset } from '@uniformdev/assets';
+import type { AssetParamValueItem } from '@uniformdev/assets';
 import { withoutContainer } from '../../hocs/withoutContainer';
 import { ContainerProps } from '../../components/Container';
 import { HeroSideImage } from './HeroSideImage';
@@ -23,7 +23,7 @@ export type HeroProps = ComponentProps<
     title: string;
     titleStyle: Types.HeadingStyles;
     description: string;
-    image?: string | Asset;
+    image?: string | AssetParamValueItem;
     video?: string;
     primaryButtonCopy: string;
     primaryButtonLink: Types.ProjectMapLink;

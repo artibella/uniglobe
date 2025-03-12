@@ -1,0 +1,11 @@
+id: countries
+displayName: All countries
+ttl: 30
+path: /countries
+custom:
+  proposedName: countries
+method: GET
+purgeKey: 4cbc55b0-41cb-47f3-8f60-73be56d23395
+archetype: default
+dataSourceId: apicountries
+allowedOnComponents: []

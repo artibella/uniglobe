@@ -1,0 +1,18 @@
+id: borderingCountries
+displayName: Bordering Countries
+ttl: 30
+path: /borders/${country}
+custom:
+  proposedName: borders/${country}
+method: GET
+purgeKey: 37303921-6f81-464d-b795-14181b923fdb
+archetype: default
+variables:
+  country:
+    type: text
+    default: ''
+    helpText: >-
+      Name of the country of which you want to fetch bordering countries (e.g.
+      Canada)
+dataSourceId: apicountries
+allowedOnComponents: []

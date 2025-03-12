@@ -1,0 +1,16 @@
+id: countryByCapital
+displayName: Country by capital
+ttl: 30
+path: /capital/${name}
+custom:
+  proposedName: capital/${name}
+method: GET
+purgeKey: a3293103-36dd-40c3-b06d-4bd0dde6392e
+archetype: default
+variables:
+  name:
+    type: text
+    default: ''
+    helpText: Name of the countries capital (e.g. Berlin)
+dataSourceId: apicountries
+allowedOnComponents: []

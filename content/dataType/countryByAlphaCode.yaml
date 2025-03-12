@@ -1,0 +1,16 @@
+id: countryByAlphaCode
+displayName: Country by alpha code
+ttl: 30
+path: /alpha/${code}
+custom:
+  proposedName: alpha/${code}
+method: GET
+purgeKey: c69e9e66-3cc5-43d1-a77b-99ca7b9e36ad
+archetype: default
+variables:
+  code:
+    type: text
+    default: ''
+    helpText: ISO 3166-1 alpha-2 or alpha-3 code (e.g. US or USA)
+dataSourceId: apicountries
+allowedOnComponents: []

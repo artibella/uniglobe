@@ -1,6 +1,15 @@
+import type { AssetParamValueItem } from '@uniformdev/canvas';
 import type { Asset } from '@uniformdev/assets';
+import '../types/Type.d';
 
-type MediaType = string | Types.CloudinaryImage | { path?: string } | Types.UniformOldImage | Asset | Asset[];
+export type MediaType =
+  | string
+  | Types.CloudinaryImage
+  | { path?: string }
+  | Types.UniformOldImage
+  | AssetParamValueItem
+  | AssetParamValueItem[]
+  | Asset;
 
 export const getMediaUrl = (media?: MediaType) => {
   const mediaUrl: string | undefined = (() => {
@@ -10,7 +19,7 @@ export const getMediaUrl = (media?: MediaType) => {
     if (isMediaAsset(media)) return media?.fields?.url?.value;
     // If it is asset library images
     if (isMediaAssets(media)) return media?.[0]?.fields?.url?.value;
-    // If it cloudinary images selector
+    // If cloudinary images selector
     if (isCloudinaryImages(media)) return media?.[0]?.url;
     // If it cloudinary image selector
     if (isCloudinaryImage(media)) return media?.path;
@@ -21,24 +30,24 @@ export const getMediaUrl = (media?: MediaType) => {
 
   if (!mediaUrl || mediaUrl === 'unresolved') return '';
 
-  if (mediaUrl.startsWith('//')) return mediaUrl.replace('//', 'https://');
+  if (typeof mediaUrl === 'string' && mediaUrl.startsWith('//')) return mediaUrl.replace('//', 'https://');
 
   return mediaUrl;
 };
 
-const isMediaAsset = (media?: MediaType): media is Asset =>
+export const isMediaAsset = (media?: MediaType): media is AssetParamValueItem =>
   Boolean(media && typeof media !== 'string' && 'fields' in media);
 
-const isMediaAssets = (media?: MediaType): media is Asset[] =>
+export const isMediaAssets = (media?: MediaType): media is AssetParamValueItem[] =>
   Boolean(media && typeof media !== 'string' && Array.isArray(media) && media.length && 'fields' in media[0]);
 
-const isCloudinaryImages = (media?: MediaType): media is Types.CloudinaryImage =>
+export const isCloudinaryImages = (media?: MediaType): media is Types.CloudinaryImage =>
   Boolean(media && typeof media !== 'string' && Array.isArray(media) && media.length && 'url' in media[0]);
 
-const isCloudinaryImage = (media?: MediaType): media is { path?: string } =>
+export const isCloudinaryImage = (media?: MediaType): media is { path?: string } =>
   Boolean(media && typeof media !== 'string' && 'path' in media);
 
-const isMediaOldAsset = (media?: MediaType): media is Types.UniformOldImage =>
+export const isMediaOldAsset = (media?: MediaType): media is Types.UniformOldImage =>
   Boolean(media && typeof media !== 'string' && 'url' in media);
 
 export const camelize = (str: string) => {

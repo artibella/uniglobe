@@ -1,7 +1,7 @@
 id: country
 name: Country
 created: '2024-01-18T12:23:31.527234+00:00'
-updated: '2024-11-13T12:28:16.799378+00:00'
+updated: '2025-02-28T16:26:26.443893+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -99,11 +99,35 @@ fields:
       multiline: true
     localizable: true
     allowConditionalValues: true
+  - id: 1d68a7b5-a661-4a6a-ab50-f389312ff9e8
+    name: Media
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - images
+        - videos
+  - id: images
+    name: Images
+    type: asset
+    typeConfig:
+      max: 10
+      allowedTypes:
+        - image
+    localizable: true
+  - id: videos
+    name: Videos
+    type: asset
+    typeConfig:
+      allowedTypes:
+        - image
+        - video
+    localizable: true
   - id: 3bb59b43-bfc4-41b4-b416-c672abb9d0a0
     name: Country facts
     type: group
     typeConfig:
-      collapsed: true
+      collapsed: false
       childrenParams:
         - officialName
         - captial

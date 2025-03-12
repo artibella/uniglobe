@@ -1,24 +1,69 @@
 created: '2024-11-25T12:45:01.849119+00:00'
-modified: '2024-11-25T12:47:24.761203+00:00'
+modified: '2025-03-03T10:24:15.132598+00:00'
 pattern: false
 entry:
   _id: f9245328-a695-4e7a-882d-178d4084c4ca
   _name: Kinkakuji (Golden Pavilion)
   _slug: kinkakuji-golden-pavilion
-  _thumbnail: https://www.japan-guide.com/g18/3908_top.jpg
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1578469645735-d48a0fe89fb7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxnb2xkZW4lMjBwYXZpbGlvbnxlbnwwfHx8fDE3NDA5OTc0NDN8MA&ixlib=rb-4.0.3&q=85
   type: attraction
   fields:
     image:
       type: asset
       locales:
         en-US:
-          - _id: 014f63d4-4307-4761-85e9-a308e997ec59
+          - _id: b3ff7d99-183e-4296-803b-01d00cb692a4
             type: image
             fields:
               url:
                 type: text
-                value: https://www.japan-guide.com/g18/3908_top.jpg
-            _source: custom-url
+                value: >-
+                  https://images.unsplash.com/photo-1578469645735-d48a0fe89fb7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxnb2xkZW4lMjBwYXZpbGlvbnxlbnwwfHx8fDE3NDA5OTc0NDN8MA&ixlib=rb-4.0.3&q=85
+              title:
+                type: text
+                value: view of pagoda by water and trees
+              width:
+                type: number
+                value: 4921
+              custom:
+                type: object
+                value:
+                  color: '#f3f3f3'
+                  apiUrl: >-
+                    https://api.unsplash.com/photos/view-of-pagoda-by-water-and-trees-NtHDlebYeRI
+                  blurHash: LyHLe+OFIps.?^kWR*jZyXsmWBS4
+                  sourceId: NtHDlebYeRI
+                  createdAt: '2020-01-08T07:49:03Z'
+                  detailUrl: >-
+                    https://unsplash.com/photos/view-of-pagoda-by-water-and-trees-NtHDlebYeRI
+                  updatedAt: '2025-03-03T09:30:02Z'
+                  authorName: Cosmin Georgian
+                  downloadUrl: >-
+                    https://unsplash.com/photos/NtHDlebYeRI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxnb2xkZW4lMjBwYXZpbGlvbnxlbnwwfHx8fDE3NDA5OTc0NDN8MA
+                  photoRawUrl: >-
+                    https://images.unsplash.com/photo-1578469645735-d48a0fe89fb7?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxnb2xkZW4lMjBwYXZpbGlvbnxlbnwwfHx8fDE3NDA5OTc0NDN8MA&ixlib=rb-4.0.3
+                  photoFullUrl: >-
+                    https://images.unsplash.com/photo-1578469645735-d48a0fe89fb7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxnb2xkZW4lMjBwYXZpbGlvbnxlbnwwfHx8fDE3NDA5OTc0NDN8MA&ixlib=rb-4.0.3&q=85
+                  photoSmallUrl: >-
+                    https://images.unsplash.com/photo-1578469645735-d48a0fe89fb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxnb2xkZW4lMjBwYXZpbGlvbnxlbnwwfHx8fDE3NDA5OTc0NDN8MA&ixlib=rb-4.0.3&q=80&w=400
+                  photoThumbUrl: >-
+                    https://images.unsplash.com/photo-1578469645735-d48a0fe89fb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxnb2xkZW4lMjBwYXZpbGlvbnxlbnwwfHx8fDE3NDA5OTc0NDN8MA&ixlib=rb-4.0.3&q=80&w=200
+                  authorUsername: cosmingeorgian
+                  photoRegularUrl: >-
+                    https://images.unsplash.com/photo-1578469645735-d48a0fe89fb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxnb2xkZW4lMjBwYXZpbGlvbnxlbnwwfHx8fDE3NDA5OTc0NDN8MA&ixlib=rb-4.0.3&q=80&w=1080
+                  authorProfileUrl: https://unsplash.com/@cosmingeorgian
+                  downloadLocation: >-
+                    https://api.unsplash.com/photos/NtHDlebYeRI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxnb2xkZW4lMjBwYXZpbGlvbnxlbnwwfHx8fDE3NDA5OTc0NDN8MA
+                  authorProfileImage: >-
+                    https://images.unsplash.com/profile-1630654199070-e95ad8af9122image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+              height:
+                type: number
+                value: 3281
+              description:
+                type: text
+                value: Photo by Cosmin Georgian on Unsplash
+            _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
       value: []
     title:
       type: text

@@ -1,0 +1,16 @@
+id: countryBySubregionName
+displayName: Country by subregion name
+ttl: 30
+path: /subregion/${subregion}
+custom:
+  proposedName: subregion/${subregion}
+method: GET
+purgeKey: dc199f9b-1a53-442e-9606-2314312257be
+archetype: default
+variables:
+  subregion:
+    type: text
+    default: ''
+    helpText: 'Name of subregion. Examples: "North America", "Western Asia", "Caribbean"'
+dataSourceId: apicountries
+allowedOnComponents: []

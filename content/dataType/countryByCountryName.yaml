@@ -1,0 +1,16 @@
+id: countryByCountryName
+displayName: Country by name
+ttl: 30
+path: /name/${name}
+custom:
+  proposedName: name/${name}
+method: GET
+purgeKey: abef75dc-3511-4943-abea-cc44b35d74a1
+archetype: default
+variables:
+  name:
+    type: text
+    default: ''
+    helpText: 'Full name of the country. Example: "France"'
+dataSourceId: apicountries
+allowedOnComponents: []
