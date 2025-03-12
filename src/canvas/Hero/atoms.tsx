@@ -7,6 +7,7 @@ import {
   getObjectFitClass,
   getTextClass,
 } from '../../utilities/styling';
+import { getResizedAssetUrl, FIT_OPTIONS } from '../../utilities/assets';
 import { UniformText, useUniformCurrentComposition } from '@uniformdev/canvas-react';
 import Button from '../../components/Button';
 import { formatProjectMapLink, getMediaUrl } from '../../utilities';
@@ -99,7 +100,7 @@ export const SecondaryButton: FC<Pick<HeroProps, 'secondaryButtonLink' | 'second
 export const BackgroundImage: FC<
   Pick<HeroProps, 'image' | 'video' | 'objectFit' | 'overlayOpacity' | 'overlayColor'>
 > = ({ image, video, objectFit, overlayColor, overlayOpacity }) => {
-  const imageUrl = getMediaUrl(image);
+  const imageUrl = getResizedAssetUrl(image, 2000, undefined, FIT_OPTIONS.COVER);
   const videoUrl = getMediaUrl(video);
 
   if (!imageUrl && !videoUrl) return null;
@@ -141,13 +142,14 @@ export const SideImage: FC<
     className?: string;
   }
 > = ({ image, video, objectFit, overlayColor, overlayOpacity, className }) => {
-  const imageUrl = getMediaUrl(image);
+  const imageUrl = getResizedAssetUrl(image?.[0], 500, 500, FIT_OPTIONS.COVER);
+  console.log('🗜️ Resized image url', imageUrl);
   const videoUrl = getMediaUrl(video);
 
   if (!imageUrl && !videoUrl) return null;
 
   return (
-    <div className={classNames('relative shrink-0 relative w-full md:w-[500px] h-[500px]', className)}>
+    <div className={classNames('relative shrink-0 w-full md:w-[500px] h-[500px]', className)}>
       {video ? (
         <video
           autoPlay

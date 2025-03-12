@@ -9,7 +9,8 @@ import {
   getLineClampClass,
   getObjectFitClass,
 } from '../../utilities/styling';
-import { formatProjectMapLink, getMediaUrl } from '../../utilities';
+import { formatProjectMapLink, MediaType } from '../../utilities';
+import { getResizedAssetUrl, FIT_OPTIONS } from '../../utilities/assets';
 import {
   getBadgeSizeClass,
   getBadgeStyleClass,
@@ -45,7 +46,28 @@ export const Card: FC<CardProps> = ({
   delay,
   styles,
 }) => {
-  const imageUrl = getMediaUrl(image);
+  // Determine image dimensions based on the card variant
+  let imageWidth: number;
+  let imageHeight: number;
+
+  switch (variant) {
+    case CardVariants.Featured:
+      imageWidth = 80;
+      imageHeight = 80;
+      break;
+    case CardVariants.BackgroundImage:
+      imageWidth = 384;
+      imageHeight = 600; // Taller for background image variant
+      break;
+    default:
+      imageWidth = 384;
+      imageHeight = 384;
+  }
+
+  // First try to get a resized asset URL, falling back to standard media URL
+  // Use a type assertion to ensure TypeScript knows we're handling the correct types
+  const imageUrl = image ? getResizedAssetUrl(image?.[0] as MediaType, imageWidth, imageHeight, FIT_OPTIONS.COVER) : '';
+  console.log('🗜️ Card: Resized image url', image?.[0], imageUrl);
   const { isContextualEditing } = useUniformCurrentComposition();
 
   const badgeClassNames = classNames('badge', getBadgeStyleClass(badgeStyle), getBadgeSizeClass(badgeSize));
