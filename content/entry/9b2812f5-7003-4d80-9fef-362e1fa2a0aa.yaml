@@ -1,5 +1,5 @@
-created: '2024-01-18T12:46:54.514189+00:00'
-modified: '2024-09-19T15:24:52.44306+00:00'
+created: '2025-02-06T09:48:06.647995+00:00'
+modified: '2025-02-27T11:48:41.637298+00:00'
 pattern: false
 entry:
   _id: 9b2812f5-7003-4d80-9fef-362e1fa2a0aa
@@ -12,7 +12,7 @@ entry:
     Country:
       type: countryByName
       variables:
-        country: People's Republic of China
+        country: cn
     ref-9b2812f5-7003-4d80-9fef-362e1fa2a0aa-region:
       type: uniformContentInternalReference
       variables:
@@ -70,6 +70,38 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
+                direction: ltr
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: asia
+              str: 50
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: 69a1084d-f820-407c-80f3-8791b7d29d8f
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1510001618818-4b4e3d86bf0f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Theodor Lundqvist'
+                _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
                   - tag: h3
                     type: heading
                     format: ''
@@ -215,19 +247,4 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        teaserImage:
-          type: asset
-          locales:
-            en-US:
-              - _id: 69a1084d-f820-407c-80f3-8791b7d29d8f
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1510001618818-4b4e3d86bf0f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
-                    type: text
-                    value: 'Copyright: Theodor Lundqvist'
-                _source: custom-url
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

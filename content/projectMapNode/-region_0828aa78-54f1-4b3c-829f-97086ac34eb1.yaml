@@ -1,0 +1,11 @@
+id: 0828aa78-54f1-4b3c-829f-97086ac34eb1
+name: Region
+order: 350
+path: /:locale/destinations/:region
+type: composition
+pathSegment: ':region'
+data:
+  previewValue: asia
+  queryStrings: []
+compositionId: 619b471c-8913-45d4-b849-b5dbc76676f3
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

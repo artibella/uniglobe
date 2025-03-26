@@ -1,7 +1,7 @@
 id: country
 name: Country
-created: '2024-01-18T12:23:31.527234+00:00'
-updated: '2024-11-13T12:28:16.799378+00:00'
+created: '2025-02-06T09:47:51.64607+00:00'
+updated: '2025-02-27T11:19:49.759974+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -158,6 +158,11 @@ fields:
       allowedContentTypes:
         - region
     localizable: false
+  - id: enrichments
+    name: Enrichments
+    type: $enr
+    helpText: Add enrichment tags for personalization
+    typeConfig: null
 entryName: name
 thumbnailField: flag
 description: ''

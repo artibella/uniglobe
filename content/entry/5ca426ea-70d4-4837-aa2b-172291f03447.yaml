@@ -1,5 +1,5 @@
-created: '2024-04-29T16:14:53.213797+00:00'
-modified: '2024-09-19T15:28:29.770645+00:00'
+created: '2025-02-06T09:48:05.534149+00:00'
+modified: '2025-02-27T13:49:56.404274+00:00'
 pattern: false
 entry:
   _id: 5ca426ea-70d4-4837-aa2b-172291f03447
@@ -72,6 +72,41 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
+                direction: ltr
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: na
+              str: 50
+            - cat: '2'
+              key: ca
+              str: 100
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: 6382ca6d-bbb6-471a-af8b-73bc97e2ff2b
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1111&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: John Lee, Unsplash'
+                _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
                   - tag: h3
                     type: heading
                     format: ''
@@ -215,19 +250,4 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        teaserImage:
-          type: asset
-          locales:
-            en-US:
-              - _id: 6382ca6d-bbb6-471a-af8b-73bc97e2ff2b
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1111&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
-                    type: text
-                    value: 'Copyright: John Lee, Unsplash'
-                _source: custom-url
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

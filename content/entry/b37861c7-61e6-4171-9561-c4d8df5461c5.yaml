@@ -1,10 +1,12 @@
-created: '2024-09-19T15:16:53.717376+00:00'
-modified: '2025-01-29T15:32:06.814954+00:00'
+created: '2025-02-06T09:48:03.899764+00:00'
+modified: '2025-02-27T15:44:05.981396+00:00'
 pattern: false
 entry:
   _id: b37861c7-61e6-4171-9561-c4d8df5461c5
   _name: Asia
   _slug: asia
+  _thumbnail: >-
+    https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/35TnctkITemcgk8Q9oyq5g-photo-1506918357967-b358ad447c56
   type: region
   fields: {}
   _dataResources:
@@ -12,6 +14,12 @@ entry:
       type: countriesByRegion
       variables:
         region: asia
+    ref-b37861c7-61e6-4171-9561-c4d8df5461c5-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          9b2812f5-7003-4d80-9fef-362e1fa2a0aa,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,1e00d404-3375-4219-a14f-dc639caf6147,035a64b1-730e-444c-921a-431bc2712e14,8abbed23-87a2-4f1d-8ba8-e26818e7c323
   _locales:
     - en-US
     - de-DE
@@ -31,4 +39,49 @@ entry:
             en-US: Asia
             fr-CH: Asia
             it-IT: Asia
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: 5678f7f4-d0e5-46dc-b847-5d038f847842
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: c9556355-d04b-4abe-ae4f-851c84bd76d2
+                  url:
+                    type: text
+                    value: >-
+                      https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/35TnctkITemcgk8Q9oyq5g-photo-1506918357967-b358ad447c56
+                  file:
+                    type: file
+                    value: 40334f40-9aef-4c65-b4de-6e63a085f876
+                  size:
+                    type: number
+                    value: 1138813
+                  title:
+                    type: text
+                    value: >-
+                      aerial photography of sea beside green trees during
+                      daytime
+                  width:
+                    type: number
+                    value: 3000
+                  height:
+                    type: number
+                    value: 2000
+                  mediaType:
+                    type: text
+                    value: image/jpeg
+                _source: uniform-assets
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: asia
+              str: 30
+        destinations:
+          type: contentReference
+          value: >-
+            ${#jptr:/ref-b37861c7-61e6-4171-9561-c4d8df5461c5-destinations/entries}
   _pattern: 1f641569-4da4-4a00-b036-90661bac2328

@@ -1,5 +1,5 @@
-created: '2024-03-12T15:25:01.437775+00:00'
-modified: '2024-09-19T15:34:44.094048+00:00'
+created: '2025-02-06T09:48:12.871414+00:00'
+modified: '2025-02-27T13:57:37.122373+00:00'
 pattern: false
 entry:
   _id: 764d065c-6412-4bb0-b354-8f98be36b00c
@@ -70,6 +70,38 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
+                direction: ltr
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: eur
+              str: 50
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: c31297a6-809f-4ff6-a15f-d495256c8d17
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1504233529578-6d46baba6d34?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Seth Kane, Unsplash'
+                _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
                   - tag: h3
                     type: heading
                     format: ''
@@ -216,19 +248,4 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        teaserImage:
-          type: asset
-          locales:
-            en-US:
-              - _id: c31297a6-809f-4ff6-a15f-d495256c8d17
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1504233529578-6d46baba6d34?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
-                    type: text
-                    value: 'Copyright: Seth Kane, Unsplash'
-                _source: custom-url
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

@@ -1,5 +1,5 @@
-created: '2024-11-29T13:03:19.552188+00:00'
-modified: '2025-01-15T13:59:54.944202+00:00'
+created: '2025-02-06T09:48:14.58457+00:00'
+modified: '2025-02-27T11:29:29.042279+00:00'
 pattern: false
 entry:
   _id: 43c27b05-c86b-45e4-90c2-fbf5653b8c16
@@ -89,6 +89,12 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: eur
+              str: 50
         teaserImage:
           type: unknown
           value:

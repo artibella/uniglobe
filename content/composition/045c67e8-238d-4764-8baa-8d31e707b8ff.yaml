@@ -37,69 +37,213 @@ composition:
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: 49b40c93-528e-4644-b49e-9da747e54068
-        type: hero
-        variant: backgroundImage
+      - _id: c642d034-6bec-4bd4-9619-8ddaca60435d
+        type: $personalization
+        slots:
+          pz:
+            - _id: 49b40c93-528e-4644-b49e-9da747e54068
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 89ea6b54-38de-48ce-9237-7d4164da3dde
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1562083589-3bf71182e9c2?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                          title:
+                            type: text
+                            value: Europe
+                        _source: custom-url
+                  value: []
+                title:
+                  type: text
+                  locales:
+                    en-US: Explore magical Europe
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    dim: dest_eur
+                    name: destination-hero-eu
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: Discover the best travel destinations in Europe
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Plan your trip
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: base-300
+                paddingBottom:
+                  type: select
+                  value: None
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 40%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                textColorVariant:
+                  type: select
+                  value: Light
+            - _id: fc966f20-6887-4994-b6a9-cf46705e86c2
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 1ce29ca3-aaf4-4f88-b499-3a789b5dcd18
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1540187334920-54e87c2771c0?q=80&w=1716&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                        _source: custom-url
+                  value: []
+                title:
+                  type: text
+                  locales:
+                    en-US: Explore Asia
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    dim: dest_asia
+                    name: destination-hero-asia
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: Discover the hidden secrets of Asia
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Plan your trip
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: base-300
+                paddingBottom:
+                  type: select
+                  value: None
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 40%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                textColorVariant:
+                  type: select
+                  value: Light
+            - _id: d5123d0c-90e5-45f2-bd35-473d39767c6c
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 497c44ea-be34-4205-b81c-01dab420a3f7
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1464881522406-d5f66adb3e3e?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                        _source: custom-url
+                  value: []
+                title:
+                  type: text
+                  locales:
+                    en-US: Where to next?
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit: []
+                    name: destination-hero-default
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: Discover the best travel destinations around the globe
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Plan your trip
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: base-300
+                paddingBottom:
+                  type: select
+                  value: None
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Dark
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 40%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                textColorVariant:
+                  type: select
+                  value: Light
         parameters:
-          image:
-            type: asset
-            locales:
-              en-US:
-                - _id: a64d952f-7d53-40bf-ac1f-b944b64d84f2
-                  type: image
-                  fields:
-                    url:
-                      type: text
-                      value: >-
-                        https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                    title:
-                      type: text
-                      value: Kyoto street
-                  _source: custom-url
-            value: []
-          title:
+          count:
+            type: number
+            value: 1
+          algorithm:
+            type: pzAlgorithm
+            value: ssc
+          trackingEventName:
             type: text
-            locales:
-              en-US: Where to next?
-          objectFit:
-            type: select
-            value: cover
-          paddingTop:
-            type: select
-            value: None
-          titleStyle:
-            type: tp-title-style-parameter
-            value: h1
-          description:
-            type: text
-            locales:
-              en-US: Discover the best travel destinations around the globe
-          eyebrowText:
-            type: text
-            locales:
-              en-US: Plan your trip
-          overlayColor:
-            type: tp-color-style-parameter
-            value: base-300
-          paddingBottom:
-            type: select
-            value: None
-          backgroundType:
-            type: tp-background-type-parameter
-            value: Dark
-          overlayOpacity:
-            type: tp-slider-parameter
-            value: 40%
-          containerVariant:
-            type: select
-            value: fluidContent
-          textColorVariant:
-            type: select
-            value: Light
+            value: Destinations-Hero
       - _id: 9e01b248-3d44-479a-9795-a54fe1c9b19e
         type: $personalization
         slots:
           pz:
+            - _id: ddd3940f-1d37-4e40-96dd-c9252008371a
+              type: cardBlock
+              _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
             - _id: 9da1d7c2-04a8-4013-a78e-dcf735295ba8
               type: cardBlock
               _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
@@ -116,6 +260,102 @@ composition:
           trackingEventName:
             type: text
             value: destinations-featured cards
+      - _id: 57297088-99e6-4b85-8035-748a1d6f9ec9
+        type: $personalization
+        slots:
+          pz:
+            - _id: 483b0939-c0d0-431b-94e3-edb3e2e9e7a1
+              type: $personalization
+              slots:
+                pz:
+                  - _id: f964a9dc-5ccf-4b50-a226-048d2e63c089
+                    type: hero
+                    _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+                  - _id: edb9d88e-4b0c-4765-8796-07dcba62c9ff
+                    type: hero
+                    _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+                  - _id: 0f370dda-f316-4cdb-9d85-2ceeb2096194
+                    type: hero
+                    _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+                  - _id: f83d9208-6bf2-4d24-b60d-c307489a1f6f
+                    type: hero
+                    _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+              parameters:
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit: []
+                    name: spotlight-asia
+                algorithm:
+                  type: pzAlgorithm
+                  value: ssc
+                trackingEventName:
+                  type: text
+                  value: spotlight-asia-country
+            - _id: 12fdcc41-f276-42dd-9058-161e13b46e97
+              type: hero
+              _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+            - _id: 00d5c5ef-56d3-4a69-9109-e2bf7b315bc5
+              type: hero
+              _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+        parameters:
+          count:
+            type: number
+            value: 1
+          algorithm:
+            type: pzAlgorithm
+            value: ssc
+          trackingEventName:
+            type: text
+            value: Destinations-country-spotlight
+      - _id: f3960830-5e1e-4fd5-a59e-b8022fa391d8
+        type: $personalization
+        slots:
+          pz:
+            - _id: 4c69cbdd-a541-4a35-b2cf-087dc7e6cf3f
+              type: $personalization
+              slots:
+                pz:
+                  - _id: 380fdc4a-0754-4c89-8235-f6d30692854a
+                    type: hero
+                    _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+                  - _id: 8a42c717-fe0d-4c70-9379-c6eb36d96a91
+                    type: hero
+                    _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+                  - _id: 2b21a866-2692-4ca9-afac-28a0704c3789
+                    type: hero
+                    _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+                  - _id: ff06e28e-df7a-4382-84a0-87eb0de623fc
+                    type: hero
+                    _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+              parameters:
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    dim: dest_asia
+                    name: spotlight-asia
+                algorithm:
+                  type: pzAlgorithm
+                  value: ssc
+                trackingEventName:
+                  type: text
+                  value: spotlight-asia-country-Lars
+            - _id: 4ffa7554-ca21-4b6c-a22a-21135d8d484a
+              type: hero
+              _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+            - _id: 41d2165e-ff61-4c6c-b09b-40ba0083a732
+              type: hero
+              _pattern: c55073f8-5c7d-405b-9cae-d2c746703955
+        parameters:
+          count:
+            type: number
+            value: 1
+          algorithm:
+            type: pzAlgorithm
+            value: ssc
+          trackingEventName:
+            type: text
+            value: Destinations-country-spotlight-Lars
       - _id: 039ff536-5193-4f28-a41a-c2085382978b
         type: $test
         slots:
@@ -193,7 +433,7 @@ composition:
                 primaryButtonStyle:
                   type: tp-button-style-parameter
                   value: primary
-            - _id: 00d5c5ef-56d3-4a69-9109-e2bf7b315bc5
+            - _id: c88da419-5ad9-4362-881b-12f60ff3a220
               type: hero
               variant: imageLeft
               parameters:
@@ -220,7 +460,7 @@ composition:
                 $tstVrnt:
                   type: testVariant
                   value:
-                    id: long-title
+                    id: hero-c88d
                 objectFit:
                   type: select
                   value: cover
@@ -271,6 +511,82 @@ composition:
             type: testSelect
             value: itineraryOfferDestinations
   _overrides:
+    00d5c5ef-56d3-4a69-9109-e2bf7b315bc5:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: spotlight-default
+        $tstVrnt:
+          type: testVariant
+          value:
+            id: long-title
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
+    0f370dda-f316-4cdb-9d85-2ceeb2096194:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: 2_ja
+            name: spotlight-japan
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+    12fdcc41-f276-42dd-9058-161e13b46e97:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: dest_eur
+                r: 0
+                op: ^
+            name: spotlight-europe
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+    1f0fd05e-014b-4679-8bf2-ccaf456b256f:
+      parameters:
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5690f959-52d1-4f54-a869-30b8bfed46cb
+    2b21a866-2692-4ca9-afac-28a0704c3789:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: 2_ja
+            name: spotlight-japan
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
     35ba41b8-b664-48cd-ba51-f979a2ef0cec:
       parameters:
         title:
@@ -281,9 +597,40 @@ composition:
           type: $pzCrit
           value:
             crit:
-              - l: bookAsiaVacation
-                op: +
-            name: 'Card Block: Explore Asia'
+              - l: dest_asia
+                r: 0
+                op: '>'
+            name: featured-cards-asia
+    380fdc4a-0754-4c89-8235-f6d30692854a:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: 2_th
+            name: spotlight-thailand
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 035a64b1-730e-444c-921a-431bc2712e14
+    41d2165e-ff61-4c6c-b09b-40ba0083a732:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: spotlight-default
+        $tstVrnt:
+          type: testVariant
+          value:
+            id: long-title
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
     4d8e43b6-14b1-42f8-b0e5-0190e220085a:
       parameters:
         badgeSize:
@@ -306,6 +653,19 @@ composition:
         textColorVariant:
           type: select
           value: Light
+    4ffa7554-ca21-4b6c-a22a-21135d8d484a:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: dest_eur
+            name: spotlight-europe
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
     55bb281d-426f-4c91-9d3a-7a1d73873516:
       parameters:
         title:
@@ -314,7 +674,9 @@ composition:
             en-US: Explore our top destinations
         $pzCrit:
           type: $pzCrit
-          value: null
+          value:
+            crit: []
+            name: featured-cards-default
     79eadb73-5885-4f96-9cdc-09c5feac3f3b:
       parameters:
         badgeSize:
@@ -347,6 +709,19 @@ composition:
           variables:
             locale: ${locale}
             entryId: 035a64b1-730e-444c-921a-431bc2712e14
+    8a42c717-fe0d-4c70-9379-c6eb36d96a91:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: 2_vi
+            name: spotlight-vietnam
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
     9da1d7c2-04a8-4013-a78e-dcf735295ba8:
       parameters:
         title:
@@ -359,7 +734,7 @@ composition:
             crit:
               - l: dest_eur
                 op: +
-            name: 'Card Block: Explore Europe'
+            name: featured-cards-eu
     a3d9edf4-f67d-4ee1-bb62-f2f78a081354:
       parameters:
         badgeSize:
@@ -461,6 +836,90 @@ composition:
         textColorVariant:
           type: select
           value: Light
+    dcd5fc10-7d66-46a0-a7aa-41d6242b7407:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+    ddd3940f-1d37-4e40-96dd-c9252008371a:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: German holiday specials
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit:
+              - l: vc-country
+                r: DE
+                t: q
+                op: '='
+            name: offers-germany
+    e55ea3cc-9e7c-4a2a-b179-46514f335375:
+      parameters:
+        badgeSize:
+          type: select
+          value: sm
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
+    edb9d88e-4b0c-4765-8796-07dcba62c9ff:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: 2_vi
+            name: spotlight-vietnam
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
     f0d943ea-d8f8-4aa8-b234-0e832467d556:
       parameters:
         badgeSize:
@@ -489,6 +948,18 @@ composition:
           variables:
             locale: ${locale}
             entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
+    f83d9208-6bf2-4d24-b60d-c307489a1f6f:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            name: spotlight-asia-default
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 9b2812f5-7003-4d80-9fef-362e1fa2a0aa
     f8f6406b-0b49-4c7e-86a0-5fe0e46f90e1:
       parameters:
         badge:
@@ -520,6 +991,31 @@ composition:
         textColorVariant:
           type: select
           value: Light
+    f964a9dc-5ccf-4b50-a226-048d2e63c089:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: 2_th
+            name: spotlight-thailand
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 035a64b1-730e-444c-921a-431bc2712e14
+    ff06e28e-df7a-4382-84a0-87eb0de623fc:
+      parameters:
+        $pzCrit:
+          type: $pzCrit
+          value:
+            name: spotlight-asia-default
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 9b2812f5-7003-4d80-9fef-362e1fa2a0aa
     35ba41b8-b664-48cd-ba51-f979a2ef0cec|20809b46-57c4-4683-abfb-38920d790266:
       slots:
         $slotSectionItems:
@@ -748,8 +1244,92 @@ composition:
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
               hideLockedParameters: true
+    ddd3940f-1d37-4e40-96dd-c9252008371a|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: dcd5fc10-7d66-46a0-a7aa-41d6242b7407
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: 1f0fd05e-014b-4679-8bf2-ccaf456b256f
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 5690f959-52d1-4f54-a869-30b8bfed46cb
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: e55ea3cc-9e7c-4a2a-b179-46514f335375
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
   _locales:
     - en-US
-created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-02-20T14:34:18.317283+00:00'
+created: '2025-02-06T09:47:02.930206+00:00'
+modified: '2025-02-27T15:25:04.090921+00:00'
 pattern: false

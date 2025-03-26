@@ -1,10 +1,12 @@
-created: '2024-01-18T13:29:48.180566+00:00'
-modified: '2024-01-18T13:30:22.192646+00:00'
+created: '2025-02-06T09:48:08.859608+00:00'
+modified: '2025-02-27T15:33:10.306912+00:00'
 pattern: false
 entry:
   _id: 53b42f52-db71-448c-8869-e86a5b7fc80e
   _name: Europe
   _slug: europe
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1542379950-b3fc716c16f1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   type: region
   fields: {}
   _dataResources:
@@ -12,6 +14,12 @@ entry:
       type: countriesByRegion
       variables:
         region: europe
+    ref-53b42f52-db71-448c-8869-e86a5b7fc80e-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          5690f959-52d1-4f54-a869-30b8bfed46cb,036376fb-7f06-419e-ac2b-686de17fb520,a78fe34d-0e49-4f9a-a675-8487a4b928b6,5df637c2-5fea-416c-a4b4-95aa58c86bd7,bdd4c8f3-2999-4885-a2b3-a08216a80aa7
   _locales:
     - de-DE
     - en-US
@@ -23,4 +31,26 @@ entry:
           locales:
             de-DE: Europa
             en-US: Europe
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: cd0cfb7b-c88f-430c-bdb7-a10684f23b3e
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1542379950-b3fc716c16f1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: eur
+              str: 90
+        destinations:
+          type: contentReference
+          value: >-
+            ${#jptr:/ref-53b42f52-db71-448c-8869-e86a5b7fc80e-destinations/entries}
   _pattern: 1f641569-4da4-4a00-b036-90661bac2328

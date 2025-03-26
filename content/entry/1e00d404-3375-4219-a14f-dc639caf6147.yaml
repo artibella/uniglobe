@@ -1,5 +1,5 @@
-created: '2024-11-04T16:42:54.96019+00:00'
-modified: '2024-11-14T12:22:33.498874+00:00'
+created: '2025-02-06T09:48:11.908162+00:00'
+modified: '2025-02-27T13:55:01.320188+00:00'
 pattern: false
 editionName: Default
 entry:
@@ -158,6 +158,15 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: asia
+              str: 50
+            - cat: '2'
+              key: la
+              str: 100
         teaserImage:
           type: asset
           locales:
