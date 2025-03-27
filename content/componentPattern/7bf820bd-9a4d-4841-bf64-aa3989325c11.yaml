@@ -1,13 +1,13 @@
 composition:
-  _name: 'Card Block: Featured Countries'
-  _id: 0ef27220-119a-497e-9b02-4008400e0282
+  _name: 'Card Block: Countries by region slug'
+  _id: 7bf820bd-9a4d-4841-bf64-aa3989325c11
   type: cardBlock
   parameters:
     title:
       type: text
       locales:
         de-DE: Entdecke Asien
-        en-US: ' '
+        en-US: "Explore\_${#jptr:/Region/entry/fields/name/value:fa=c}"
     buttonCopy:
       type: text
       locales:
@@ -47,22 +47,18 @@ composition:
                       badge:
                         type: text
                         locales:
-                          de-DE: Thailand
+                          de-DE: >-
+                            ${#jptr:/Featured countries entries Loop
+                            Item/entry/fields/region/value/entry/fields/name/value}
                           en-US: >-
                             ${#jptr:/Featured countries entries Loop
                             Item/entry/fields/region/value/entry/fields/name/value}
                       image:
                         type: asset
                         locales:
-                          de-DE:
-                            - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                              type: image
-                              fields:
-                                url:
-                                  type: text
-                                  value: >-
-                                    https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                              _source: custom-url
+                          de-DE: >-
+                            ${#jptr:/Featured countries entries Loop
+                            Item/entry/fields/teaserImage/value}
                           en-US: >-
                             ${#jptr:/Featured countries entries Loop
                             Item/entry/fields/teaserImage/value}
@@ -70,36 +66,56 @@ composition:
                       title:
                         type: text
                         locales:
-                          de-DE: Bangkok
+                          de-DE: >-
+                            ${#jptr:/Featured countries entries Loop
+                            Item/entry/fields/name/value}
                           en-US: >-
                             ${#jptr:/Featured countries entries Loop
                             Item/entry/fields/name/value}
                       objectFit:
                         type: select
                         locales:
+                          de-DE: cover
                           en-US: cover
                       buttonCopy:
                         type: text
                         locales:
-                          de-DE: Mehr Lesen
+                          de-DE: Explore
                           en-US: Explore
                       buttonLink:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/destinations
-                            type: projectMapNode
-                            nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                          en-US:
                             path: >-
-                              /${locale}/destinations/:region/${#jptr:/Featured
+                              /${locale}/destinations/${#jptr:/Featured
+                              countries entries Loop
+                              Item/entry/fields/region/value/entry/_slug}/${#jptr:/Featured
                               countries entries Loop Item/entry/_slug}
                             type: projectMapNode
                             nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
                             projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                             dynamicInputValues:
                               locale: ${locale}
+                              region: >-
+                                ${#jptr:/Featured countries entries Loop
+                                Item/entry/fields/region/value/entry/_slug}
+                              destination: >-
+                                ${#jptr:/Featured countries entries Loop
+                                Item/entry/_slug}
+                          en-US:
+                            path: >-
+                              /${locale}/destinations/${#jptr:/Featured
+                              countries entries Loop
+                              Item/entry/fields/region/value/entry/_slug}/${#jptr:/Featured
+                              countries entries Loop Item/entry/_slug}
+                            type: projectMapNode
+                            nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                            dynamicInputValues:
+                              locale: ${locale}
+                              region: >-
+                                ${#jptr:/Featured countries entries Loop
+                                Item/entry/fields/region/value/entry/_slug}
                               destination: >-
                                 ${#jptr:/Featured countries entries Loop
                                 Item/entry/_slug}
@@ -110,18 +126,20 @@ composition:
                         type: text
                         locales:
                           de-DE: >-
-                            Culture, shopping, the best street food and great
-                            night life. Bangkok has it all
+                            ${#jptr:/Featured countries entries Loop
+                            Item/entry/fields/teaserText/value}
                           en-US: >-
                             ${#jptr:/Featured countries entries Loop
                             Item/entry/fields/teaserText/value}
                       overlayColor:
                         type: tp-color-style-parameter
                         locales:
+                          de-DE: base-300
                           en-US: base-300
                       overlayOpacity:
                         type: tp-slider-parameter
                         locales:
+                          de-DE: 0%
                           en-US: 0%
                       lineCountRestriction:
                         type: tp-slider-parameter
@@ -147,7 +165,8 @@ composition:
                 Featured countries entries Loop Item:
                   type: sys-reserved-loop
                   variables:
-                    connectedData: '#jptr:/Featured countries/entries:fa=c'
+                    limit: '3'
+                    connectedData: '#jptr:/Region/entry/fields/destinations/value:fa=c:fl=i'
               _overridability:
                 hideLockedParameters: true
         parameters:
@@ -191,12 +210,11 @@ composition:
         _overridability:
           hideLockedParameters: true
   _dataResources:
-    Featured countries:
-      type: multipleCountries
+    Region:
+      type: regionBySlug
       variables:
+        slug: asia
         locale: ${locale}
-        entryIds: >-
-          035a64b1-730e-444c-921a-431bc2712e14,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,9b2812f5-7003-4d80-9fef-362e1fa2a0aa
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _overridability:
@@ -204,18 +222,16 @@ composition:
       $viz: 'yes'
       title: 'yes'
       buttonCopy: 'no'
-      buttonLink: 'yes'
+      buttonLink: 'no'
       titleStyle: 'no'
       buttonStyle: 'no'
       description: 'yes'
-      textColorVariant: 'yes'
+      textColorVariant: 'no'
       buttonAnimationType: 'no'
     hideLockedParameters: true
   _locales:
     - en-US
     - de-DE
-created: '2024-11-06T18:09:42.821697+00:00'
-modified: '2025-02-20T15:18:14.169096+00:00'
+created: '2025-03-27T18:29:19.811927+00:00'
+modified: '2025-03-27T19:14:19.174233+00:00'
 pattern: true
-previewImageUrl: >-
-  https://res.cloudinary.com/content-ops/image/upload/v1740064572/Uniglobe/Component%20Previews/Card_Block_Wireframe_yz7aab.svg

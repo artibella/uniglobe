@@ -445,6 +445,10 @@ composition:
           value: Light
     cd80f548-e7a9-4bb6-8c00-794a32a164b9:
       parameters:
+        title:
+          type: text
+          locales:
+            en-US: '${#jptr:/Country/entry/fields/name/value} '
         badgeSize:
           type: select
           value: sm
@@ -493,6 +497,10 @@ composition:
           value: Light
     f0d943ea-d8f8-4aa8-b234-0e832467d556:
       parameters:
+        title:
+          type: text
+          locales:
+            en-US: '${#jptr:/Country/entry/fields/name/value} '
         badgeSize:
           type: select
           value: sm
@@ -781,5 +789,5 @@ composition:
   _locales:
     - en-US
 created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-03-03T00:51:20.076173+00:00'
+modified: '2025-03-27T19:36:42.15175+00:00'
 pattern: false

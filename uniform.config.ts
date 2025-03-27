@@ -7,7 +7,7 @@ const config: CLIConfiguration = {
       category: {},
       component: {},
       componentPattern: { publish: true },
-      entryPattern: { mode: 'createOrUpdate', publish: true },
+      entryPattern: { publish: true },
       composition: { publish: true },
       compositionPattern: { publish: true },
       projectMapDefinition: {},

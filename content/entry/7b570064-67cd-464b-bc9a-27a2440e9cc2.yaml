@@ -1,17 +1,24 @@
 created: '2024-09-19T15:30:48.142099+00:00'
-modified: '2024-09-19T15:31:25.39589+00:00'
+modified: '2025-03-27T18:58:36.093335+00:00'
 pattern: false
 entry:
   _id: 7b570064-67cd-464b-bc9a-27a2440e9cc2
   _name: Oceania
   _slug: oceania
+  _thumbnail: >-
+    https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
   type: region
   fields: {}
   _dataResources:
     Countries:
-      type: countriesByRegion
+      type: countriesByRegionName
       variables:
         region: Oceania
+    ref-7b570064-67cd-464b-bc9a-27a2440e9cc2-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 21094de6-6b36-4aab-b022-0a290ff89d0c
   _locales:
     - en-US
     - de-DE
@@ -23,4 +30,151 @@ entry:
           locales:
             de-DE: Ozeanien
             en-US: Oceania
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: 00283781-61cc-4678-aeb2-4213f6978b7d
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      A picturesque aerial view of a tropical island resort
+                      surrounded by clear blue ocean during a vibrant sunset.
+                  width:
+                    type: number
+                    value: 5464
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '9482126'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/aerial-view-of-island-9482126/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Asad Photo Maldives
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@asadphoto
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/9482126/pexels-photo-9482126.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 3640
+                  description:
+                    type: text
+                    value: >-
+                      A picturesque aerial view of a tropical island resort
+                      surrounded by clear blue ocean during a vibrant sunset. -
+                      Photo by Asad Photo Maldives on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              Discover the rugged beauty of Australia, from the iconic Outback
+              to the Great Barrier Reef. Experience unique wildlife, vibrant
+              cities, and ancient Indigenous culture. 
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Discover the rugged beauty of Australia, from the
+                          iconic Sydney Opera House to the vast Outback. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Dive into the Great Barrier Reef, explore lush
+                          rainforests, and encounter unique wildlife like
+                          kangaroos and koalas. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Immerse yourself in the vibrant culture, indulge in
+                          delicious cuisine, and experience the laid-back Aussie
+                          lifestyle. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          With its stunning landscapes, thrilling adventures,
+                          and friendly locals, Australia promises an
+                          unforgettable journey. Start planning your Australian
+                          adventure today!
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        destinations:
+          type: contentReference
+          value: >-
+            ${#jptr:/ref-7b570064-67cd-464b-bc9a-27a2440e9cc2-destinations/entries}
   _pattern: 1f641569-4da4-4a00-b036-90661bac2328

@@ -1,0 +1,25 @@
+composition:
+  _name: Region
+  _id: 619b471c-8913-45d4-b849-b5dbc76676f3
+  _slug: ':region'
+  type: page
+  _dataResources:
+    Region:
+      type: regionBySlug
+      variables:
+        slug: ${region}
+        locale: ${locale}
+  _overrides:
+    619b471c-8913-45d4-b849-b5dbc76676f3|5609b15e-6579-4330-a8b5-2f217f421e4c:
+      dataResources:
+        Region:
+          type: regionBySlug
+          variables:
+            slug: ${region}
+            locale: ${locale}
+  _locales:
+    - en-US
+  _pattern: 3b329a4a-fdb5-4687-b925-f8aa522886b1
+created: '2025-03-27T18:26:45.246349+00:00'
+modified: '2025-03-27T19:26:07.101799+00:00'
+pattern: false

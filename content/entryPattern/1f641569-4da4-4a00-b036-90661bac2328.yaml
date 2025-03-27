@@ -1,5 +1,5 @@
 created: '2024-01-18T13:24:25.092358+00:00'
-modified: '2025-03-27T15:39:11.273636+00:00'
+modified: '2025-03-27T18:56:31.341523+00:00'
 pattern: true
 entry:
   _id: 1f641569-4da4-4a00-b036-90661bac2328
@@ -48,7 +48,7 @@ entry:
                       type: text
                       locales:
                         de-DE: ${#jptr:/Countries Loop Item/capital}
-                        en-US: ${#jptr:/Countries Loop Item/capital}
+                        en-US: ${#jptr:/Countries Loop Item/capital:fl=i}
                         it-IT: ${#jptr:/Countries Loop Item/capital}
                     currencies:
                       type: $block
@@ -87,12 +87,12 @@ entry:
                                   Item/currencies:fa=c:fl=i
                     officialName:
                       type: text
-                      value: ${#jptr:/Countries Loop Item/name}
+                      value: ${#jptr:/Countries Loop Item/name:fl=i}
           _dataResources:
             Countries Loop Item:
               type: sys-reserved-loop
               variables:
-                connectedData: /Countries
+                connectedData: '#jptr:/Countries:fa=c:fl=i'
   _dataResources:
     Countries:
       type: countriesByRegionName

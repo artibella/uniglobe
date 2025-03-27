@@ -1,5 +1,5 @@
 created: '2024-09-19T15:16:53.717376+00:00'
-modified: '2025-03-27T15:42:31.356279+00:00'
+modified: '2025-03-27T18:44:00.431204+00:00'
 pattern: false
 entry:
   _id: b37861c7-61e6-4171-9561-c4d8df5461c5
@@ -14,6 +14,12 @@ entry:
       type: countriesByRegionName
       variables:
         region: asia
+    ref-b37861c7-61e6-4171-9561-c4d8df5461c5-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          9b2812f5-7003-4d80-9fef-362e1fa2a0aa,1e00d404-3375-4219-a14f-dc639caf6147,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,035a64b1-730e-444c-921a-431bc2712e14,8abbed23-87a2-4f1d-8ba8-e26818e7c323
   _locales:
     - en-US
     - it-IT
@@ -84,4 +90,100 @@ entry:
                       waters and lush cliffs, a perfect tropical getaway. -
                       Photo by Christian Paul Del Rosario on Pexels
                 _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              A vast continent of ancient wonders, vibrant cultures, and diverse
+              landscapes. From the Great Wall to the Taj Mahal, iconic sites
+              abound. Savor culinary delights and immerse yourself in timeless
+              traditions. Discover Asia's magic today.
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Discover the wonders of Asia, a vast continent steeped
+                          in ancient traditions and modern marvels. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          From the bustling streets of Tokyo to the serene
+                          temples of Thailand, Asia offers an unparalleled
+                          tapestry of cultures, cuisines, and landscapes.
+                          Immerse yourself in the vibrant colors of India's
+                          festivals, explore the Great Wall of China, or relax
+                          on the pristine beaches of Bali. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          With its rich history, diverse peoples, and
+                          breathtaking natural beauty, Asia promises an
+                          unforgettable journey for every traveler. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Start your adventure today and unlock the magic of
+                          this captivating continent.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        destinations:
+          type: contentReference
+          value: >-
+            ${#jptr:/ref-b37861c7-61e6-4171-9561-c4d8df5461c5-destinations/entries}
   _pattern: 1f641569-4da4-4a00-b036-90661bac2328

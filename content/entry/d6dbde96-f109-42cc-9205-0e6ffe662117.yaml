@@ -1,17 +1,24 @@
 created: '2024-09-19T15:41:51.079355+00:00'
-modified: '2024-09-19T15:42:14.691142+00:00'
+modified: '2025-03-27T19:01:18.720062+00:00'
 pattern: false
 entry:
   _id: d6dbde96-f109-42cc-9205-0e6ffe662117
   _name: Caribbean
   _slug: caribbean
+  _thumbnail: >-
+    https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
   type: region
   fields: {}
   _dataResources:
     Countries:
-      type: countriesBySubRegion
+      type: countriesBySubregionName
       variables:
-        Subregion: Caribbean
+        region: Caribbean
+    ref-d6dbde96-f109-42cc-9205-0e6ffe662117-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: c1697faa-20be-46ac-a476-726e3b2b1c27
   _locales:
     - en-US
     - de-DE
@@ -21,6 +28,223 @@ entry:
         name:
           type: text
           locales:
-            de-DE: Karibik
+            de-DE: Caribbean
             en-US: Caribbean
+        image:
+          type: asset
+          locales:
+            de-DE:
+              - _id: 97470ef4-6895-40f8-bc13-c5a6928b7ad0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Serene beach with turquoise waters, white sand, and palm
+                      trees under a sunny sky, perfect for relaxation.
+                  width:
+                    type: number
+                    value: 4180
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '1450353'
+                      pexelsUrl: https://www.pexels.com/photo/parked-boat-1450353/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Asad Photo Maldives
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@asadphoto
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2776
+                  description:
+                    type: text
+                    value: >-
+                      Serene beach with turquoise waters, white sand, and palm
+                      trees under a sunny sky, perfect for relaxation. - Photo
+                      by Asad Photo Maldives on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+            en-US:
+              - _id: 97470ef4-6895-40f8-bc13-c5a6928b7ad0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Serene beach with turquoise waters, white sand, and palm
+                      trees under a sunny sky, perfect for relaxation.
+                  width:
+                    type: number
+                    value: 4180
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '1450353'
+                      pexelsUrl: https://www.pexels.com/photo/parked-boat-1450353/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Asad Photo Maldives
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@asadphoto
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2776
+                  description:
+                    type: text
+                    value: >-
+                      Serene beach with turquoise waters, white sand, and palm
+                      trees under a sunny sky, perfect for relaxation. - Photo
+                      by Asad Photo Maldives on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+        teaserText:
+          type: text
+          locales:
+            de-DE: >-
+              Discover the vibrant Caribbean islands, where crystal-clear waters
+              and white-sand beaches meet lively culture and rich history.
+              Explore lush rainforests, savor delicious cuisine, and unwind in
+              paradise.
+            en-US: >-
+              Discover the vibrant Caribbean islands, where crystal-clear waters
+              and white-sand beaches meet lively culture and rich history.
+              Explore lush rainforests, savor delicious cuisine, and unwind in
+              paradise.
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Discover the captivating Caribbean, a tropical
+                          paradise of crystal-clear turquoise waters, pristine
+                          white-sand beaches, and vibrant island culture.
+                          Explore lush rainforests, colorful coral reefs, and
+                          ancient Mayan ruins. Savor delectable cuisine, from
+                          jerk chicken to fresh seafood, and dance to the
+                          rhythms of reggae and calypso. With its rich history,
+                          diverse landscapes, and warm hospitality, the
+                          Caribbean invites you to embark on an unforgettable
+                          journey. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Start planning your dream getaway today.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Discover the captivating Caribbean, a tropical
+                          paradise of crystal-clear turquoise waters, pristine
+                          white-sand beaches, and vibrant island culture.
+                          Explore lush rainforests, colorful coral reefs, and
+                          ancient Mayan ruins. Savor delectable cuisine, from
+                          jerk chicken to fresh seafood, and dance to the
+                          rhythms of reggae and calypso. With its rich history,
+                          diverse landscapes, and warm hospitality, the
+                          Caribbean invites you to embark on an unforgettable
+                          journey. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Start planning your dream getaway today.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        destinations:
+          type: contentReference
+          value: >-
+            ${#jptr:/ref-d6dbde96-f109-42cc-9205-0e6ffe662117-destinations/entries}
   _pattern: 57ca4594-f957-4139-a439-fbfb7eb58300

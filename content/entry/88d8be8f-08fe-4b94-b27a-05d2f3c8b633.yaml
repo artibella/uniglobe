@@ -1,5 +1,5 @@
 created: '2024-08-21T13:08:06.173321+00:00'
-modified: '2025-03-27T13:34:02.684204+00:00'
+modified: '2025-03-27T18:46:14.285801+00:00'
 pattern: false
 entry:
   _id: 88d8be8f-08fe-4b94-b27a-05d2f3c8b633
@@ -65,5 +65,88 @@ entry:
                   with intricate details. - Photo by John-Mark Smith on Pexels
             _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
       value: []
+    teaserText:
+      type: text
+      locales:
+        en-US: >-
+          Discover the diverse wonders of North America, from the majestic
+          Rockies to vibrant cities and stunning coastlines. Immerse yourself in
+          rich history, thrilling adventures, and culinary delights. Your
+          unforgettable journey awaits.
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Discover the diverse wonders of North America, from the
+                      majestic Rocky Mountains to the vibrant cities of the East
+                      Coast. Explore iconic landmarks like the Grand Canyon and
+                      Niagara Falls, or immerse yourself in the rich cultures of
+                      New Orleans and San Francisco. 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Savor the flavors of classic American cuisine, and uncover
+                      the fascinating history that shaped this continent.
+                      Whether you seek adventure or relaxation, North America
+                      offers an unforgettable experience. 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Start planning your journey today.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    destinations:
+      type: contentReference
+      value: ${#jptr:/ref-88d8be8f-08fe-4b94-b27a-05d2f3c8b633-destinations/entries}
+  _dataResources:
+    ref-88d8be8f-08fe-4b94-b27a-05d2f3c8b633-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          19d4ce40-1fc2-46cb-ac68-4b89d1956170,5ca426ea-70d4-4837-aa2b-172291f03447,19e60e4d-45a2-4f36-a256-f95107fa4511
   _locales:
     - en-US
