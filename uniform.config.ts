@@ -14,7 +14,7 @@ const config: CLIConfiguration = {
       projectMapNode: {},
       asset: {},
       contentType: {},
-      entry: { mode: 'createOrUpdate' },
+      entry: {},
       dataType: {},
       previewUrl: {},
       previewViewport: {},

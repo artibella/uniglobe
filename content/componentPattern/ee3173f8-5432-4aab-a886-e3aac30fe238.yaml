@@ -164,7 +164,6 @@ composition:
                           en-US: Download in app store
                       src:
                         type: asset
-                        value: []
                         locales:
                           en-US:
                             - _id: e29213f9-506e-4345-9bd7-af126331cc7f
@@ -175,7 +174,7 @@ composition:
                                   value: 698d91b2-bf29-4db4-8795-70de7d92ff07
                                 url:
                                   value: >-
-                                    https://canary-pr-13260-img.uniform.rocks/p/kMLmbeu9Qv2JxNj4FnJBFA/DkqhIduWSHKeI5YN-vSqeg-app-store-badge.svg
+                                    https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
                                   type: text
                                 file:
                                   type: file
@@ -187,15 +186,16 @@ composition:
                                   type: text
                                   value: Apple app store button
                                 width:
-                                  value: 128
+                                  value: 150
                                   type: number
                                 height:
-                                  value: 128
+                                  value: 150
                                   type: number
                                 mediaType:
                                   value: image/svg+xml
                                   type: text
                               _source: uniform-assets
+                        value: []
                       link:
                         type: link
                         locales:
@@ -298,6 +298,6 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-02-06T09:47:27.301047+00:00'
-modified: '2025-02-06T09:47:27.301047+00:00'
+created: '2024-09-19T16:45:41.703706+00:00'
+modified: '2024-09-19T17:09:10.633017+00:00'
 pattern: true

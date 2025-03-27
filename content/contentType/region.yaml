@@ -65,11 +65,6 @@ fields:
       isMulti: true
       allowedContentTypes:
         - country
-  - id: enrichments
-    name: Enrichments
-    type: $enr
-    helpText: Add enrichment tags for personalization classification
-    typeConfig: null
   - id: 3178f1d2-d9cd-47a5-bb29-d527a9e39604
     name: External data
     type: group

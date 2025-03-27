@@ -94,17 +94,12 @@ composition:
                           en-US:
                             path: >-
                               /${locale}/destinations/${#jptr:/Featured
-                              countries entries Loop
-                              Item/entry/fields/region/value/entry/_slug}/${#jptr:/Featured
                               countries entries Loop Item/entry/_slug}
                             type: projectMapNode
                             nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
                             projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                             dynamicInputValues:
                               locale: ${locale}
-                              region: >-
-                                ${#jptr:/Featured countries entries Loop
-                                Item/entry/fields/region/value/entry/_slug}
                               destination: >-
                                 ${#jptr:/Featured countries entries Loop
                                 Item/entry/_slug}
@@ -219,6 +214,8 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-02-06T09:47:28.499755+00:00'
-modified: '2025-02-27T12:48:37.641643+00:00'
+created: '2024-11-06T18:09:42.821697+00:00'
+modified: '2025-02-20T15:18:14.169096+00:00'
 pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1740064572/Uniglobe/Component%20Previews/Card_Block_Wireframe_yz7aab.svg

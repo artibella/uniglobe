@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13260.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13260.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: cardBlock
 name: Card Block
 icon: >-
@@ -80,7 +79,7 @@ parameters:
           value: Light
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 previewImageUrl: >-
-  https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Card_block_preview_image
+  https://res.cloudinary.com/content-ops/image/upload/v1740064572/Uniglobe/Component%20Previews/Card_Block_Wireframe_yz7aab.svg
 useTeamPermissions: true
 slots:
   - id: cardBlockInner
@@ -97,8 +96,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2025-02-06T09:46:47.842949+00:00'
-updated: '2025-02-06T09:46:47.842949+00:00'
+created: '2024-01-15T09:26:42.17352+00:00'
+updated: '2025-02-20T15:17:46.798453+00:00'
 variants:
   - id: carousel
     name: Carousel

@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: d8d6a2af-6c22-4d88-b62f-69e7fc2afb20
+  _name: image.png
+  fields:
+    title:
+      type: text
+      value: Seljalandsfoss Waterfall, Iceland
+    description:
+      type: text
+      value: by Robert Lukeman, Unsplash
+    file:
+      type: file
+      value: 7fa27697-8ab2-4ee7-b88c-3d1ad2c60905
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/4SRZunkSSeK_8Kf3D8scQA-image.png
+      type: text
+    size:
+      value: 3046256
+      type: number
+    width:
+      value: 1859
+      type: number
+    height:
+      value: 1125
+      type: number
+    custom: {}
+created: '2025-02-17T13:40:35.177506+00:00'
+modified: '2025-02-17T13:41:17.284255+00:00'

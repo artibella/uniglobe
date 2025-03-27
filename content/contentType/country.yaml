@@ -182,11 +182,6 @@ fields:
       allowedContentTypes:
         - region
     localizable: false
-  - id: enrichments
-    name: Enrichments
-    type: $enr
-    helpText: Add enrichment tags for personalization
-    typeConfig: null
 entryName: name
 thumbnailField: flag
 description: ''

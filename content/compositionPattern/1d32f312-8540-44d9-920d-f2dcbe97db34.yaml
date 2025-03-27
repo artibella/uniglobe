@@ -3,9 +3,6 @@ composition:
   _id: 1d32f312-8540-44d9-920d-f2dcbe97db34
   type: page
   parameters:
-    $enr:
-      type: $enr
-      value: ${#jptr:/Country Content/entry/fields/enrichments/value:fa=p:fl=i}
     pageTitle:
       type: text
       locales:
@@ -326,7 +323,7 @@ composition:
       type: country
       variables:
         locale: ${locale},en-US
-        entryId: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+        entryId: 035a64b1-730e-444c-921a-431bc2712e14
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _overrides:
@@ -453,8 +450,8 @@ composition:
     - en-US
     - de-DE
     - it-IT
-created: '2025-02-06T09:47:14.86714+00:00'
-modified: '2025-02-27T14:25:58.189928+00:00'
+created: '2024-08-20T19:12:13.706954+00:00'
+modified: '2024-11-14T12:18:15.542484+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

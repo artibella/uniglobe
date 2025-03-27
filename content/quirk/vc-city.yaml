@@ -1,3 +1,0 @@
-id: vc-city
-name: City
-description: Name of the city. Resolved from the Vercel geolocation data.
