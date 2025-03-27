@@ -1,0 +1,80 @@
+created: '2025-03-07T13:54:39.730384+00:00'
+modified: '2025-03-27T10:45:17.545441+00:00'
+pattern: false
+entry:
+  _id: 19d4ce40-1fc2-46cb-ac68-4b89d1956170
+  _name: Mexico
+  _slug: mexico
+  _thumbnail: https://flagcdn.com/mx.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByCountryName
+      variables:
+        name: Mexico
+    ref-19d4ce40-1fc2-46cb-ac68-4b89d1956170-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 88d8be8f-08fe-4b94-b27a-05d2f3c8b633
+  _locales:
+    - en-US
+  _overrides:
+    19d4ce40-1fc2-46cb-ac68-4b89d1956170:
+      parameters:
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-19d4ce40-1fc2-46cb-ac68-4b89d1956170-region/entries/0}
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              Immerse yourself in Mexico's vibrant culture, savor the zesty
+              flavors, marvel at ancient pyramids, and bask in sun-drenched
+              beaches! An unforgettable adventure awaits in this spirited land
+              of fiestas, tequila, and warm smiles.
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: 4123c63a-caab-4e52-b2f8-46a45e876ad0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/29438748/pexels-photo-29438748.jpeg?auto=compress&cs=tinysrgb&h=350
+                  title:
+                    type: text
+                    value: >-
+                      Beautiful view of Cenote Ik Kil surrounded by lush
+                      greenery in Yucatan, Mexico.
+                  width:
+                    type: number
+                    value: 4032
+                  custom:
+                    type: object
+                    value:
+                      source: pexels
+                      sourceId: '29438748'
+                      photographer: Frank Rojas
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/29438748/pexels-photo-29438748.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      sourceLogoUrl: /Pexels.svg
+                      authorProfileUrl: https://www.pexels.com/@frankrojas
+                      photoOriginalUrl: >-
+                        https://www.pexels.com/photo/stunning-cenote-ik-kil-in-yucatan-mexico-29438748/
+                      photoThumbnailUrl: >-
+                        https://images.pexels.com/photos/29438748/pexels-photo-29438748.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                  height:
+                    type: number
+                    value: 3024
+                  description:
+                    type: text
+                    value: >-
+                      Beautiful view of Cenote Ik Kil surrounded by lush
+                      greenery in Yucatan, Mexico. Photo by Frank Rojas on
+                      Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

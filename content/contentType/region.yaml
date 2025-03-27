@@ -1,10 +1,10 @@
 id: region
 name: Region
 created: '2024-01-18T13:20:21.829613+00:00'
-updated: '2025-03-14T11:15:39.980948+00:00'
+updated: '2025-03-27T15:15:39.338318+00:00'
 slugSettings:
   required: 'no'
-useTeamPermissions: false
+useTeamPermissions: true
 fields:
   - id: name
     name: Name

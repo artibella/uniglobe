@@ -1,5 +1,5 @@
 created: '2024-08-21T13:22:29.264606+00:00'
-modified: '2024-09-19T15:32:26.641712+00:00'
+modified: '2025-03-27T11:42:57.158527+00:00'
 pattern: false
 entry:
   _id: 21094de6-6b36-4aab-b022-0a290ff89d0c
@@ -10,9 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        country: Australia
+        name: Australia
     ref-21094de6-6b36-4aab-b022-0a290ff89d0c-region:
       type: uniformContentInternalReference
       variables:
@@ -25,20 +25,506 @@ entry:
   _overrides:
     21094de6-6b36-4aab-b022-0a290ff89d0c:
       parameters:
+        images:
+          type: asset
+          locales:
+            de-DE:
+              - _id: 32de0ffc-3464-4123-878b-0b51d46efa75
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Portrait of a kangaroo by a pond in Melbourne, showcasing
+                      Australia's wildlife.
+                  width:
+                    type: number
+                    value: 3840
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '2122423'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/shallow-focus-photo-of-kangaroo-2122423/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Ethan Brooke
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@ethan-brooke-1123775
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2360
+                  description:
+                    type: text
+                    value: >-
+                      Portrait of a kangaroo by a pond in Melbourne, showcasing
+                      Australia's wildlife. - Photo by Ethan Brooke on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+              - _id: ebfba8f7-cdb3-437c-992f-d43d954e8951
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Capture the majestic Uluru rock formation glowing under
+                      the sunset. A natural wonder in Australia's Outback.
+                  width:
+                    type: number
+                    value: 3648
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '6610368'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/uluru-rock-formation-in-central-australia-6610368/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Jonas Schallenberg
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@jonas-schallenberg-1925290
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2736
+                  description:
+                    type: text
+                    value: >-
+                      Capture the majestic Uluru rock formation glowing under
+                      the sunset. A natural wonder in Australia's Outback. -
+                      Photo by Jonas Schallenberg on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+              - _id: 1f514a26-5c39-4ab1-8a8e-ffb40b27ceb4
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Spectacular aerial view of Melbourne's rocky coastline
+                      with vibrant blue waters and rugged rock formations.
+                  width:
+                    type: number
+                    value: 6240
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '3762303'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/photo-of-rock-formation-on-sea-3762303/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Mitchell Luo
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@mitchel3uo
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 4160
+                  description:
+                    type: text
+                    value: >-
+                      Spectacular aerial view of Melbourne's rocky coastline
+                      with vibrant blue waters and rugged rock formations. -
+                      Photo by Mitchell Luo on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+            en-US:
+              - _id: 32de0ffc-3464-4123-878b-0b51d46efa75
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Portrait of a kangaroo by a pond in Melbourne, showcasing
+                      Australia's wildlife.
+                  width:
+                    type: number
+                    value: 3840
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '2122423'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/shallow-focus-photo-of-kangaroo-2122423/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Ethan Brooke
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@ethan-brooke-1123775
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2360
+                  description:
+                    type: text
+                    value: >-
+                      Portrait of a kangaroo by a pond in Melbourne, showcasing
+                      Australia's wildlife. - Photo by Ethan Brooke on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+              - _id: ebfba8f7-cdb3-437c-992f-d43d954e8951
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Capture the majestic Uluru rock formation glowing under
+                      the sunset. A natural wonder in Australia's Outback.
+                  width:
+                    type: number
+                    value: 3648
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '6610368'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/uluru-rock-formation-in-central-australia-6610368/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Jonas Schallenberg
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@jonas-schallenberg-1925290
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2736
+                  description:
+                    type: text
+                    value: >-
+                      Capture the majestic Uluru rock formation glowing under
+                      the sunset. A natural wonder in Australia's Outback. -
+                      Photo by Jonas Schallenberg on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+              - _id: 1f514a26-5c39-4ab1-8a8e-ffb40b27ceb4
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Spectacular aerial view of Melbourne's rocky coastline
+                      with vibrant blue waters and rugged rock formations.
+                  width:
+                    type: number
+                    value: 6240
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '3762303'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/photo-of-rock-formation-on-sea-3762303/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Mitchell Luo
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@mitchel3uo
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 4160
+                  description:
+                    type: text
+                    value: >-
+                      Spectacular aerial view of Melbourne's rocky coastline
+                      with vibrant blue waters and rugged rock formations. -
+                      Photo by Mitchell Luo on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+            it-IT:
+              - _id: 32de0ffc-3464-4123-878b-0b51d46efa75
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Portrait of a kangaroo by a pond in Melbourne, showcasing
+                      Australia's wildlife.
+                  width:
+                    type: number
+                    value: 3840
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '2122423'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/shallow-focus-photo-of-kangaroo-2122423/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Ethan Brooke
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@ethan-brooke-1123775
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/2122423/pexels-photo-2122423.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2360
+                  description:
+                    type: text
+                    value: >-
+                      Portrait of a kangaroo by a pond in Melbourne, showcasing
+                      Australia's wildlife. - Photo by Ethan Brooke on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+              - _id: ebfba8f7-cdb3-437c-992f-d43d954e8951
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Capture the majestic Uluru rock formation glowing under
+                      the sunset. A natural wonder in Australia's Outback.
+                  width:
+                    type: number
+                    value: 3648
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '6610368'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/uluru-rock-formation-in-central-australia-6610368/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Jonas Schallenberg
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@jonas-schallenberg-1925290
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/6610368/pexels-photo-6610368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2736
+                  description:
+                    type: text
+                    value: >-
+                      Capture the majestic Uluru rock formation glowing under
+                      the sunset. A natural wonder in Australia's Outback. -
+                      Photo by Jonas Schallenberg on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+              - _id: 1f514a26-5c39-4ab1-8a8e-ffb40b27ceb4
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Spectacular aerial view of Melbourne's rocky coastline
+                      with vibrant blue waters and rugged rock formations.
+                  width:
+                    type: number
+                    value: 6240
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '3762303'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/photo-of-rock-formation-on-sea-3762303/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Mitchell Luo
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@mitchel3uo
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/3762303/pexels-photo-3762303.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 4160
+                  description:
+                    type: text
+                    value: >-
+                      Spectacular aerial view of Melbourne's rocky coastline
+                      with vibrant blue waters and rugged rock formations. -
+                      Photo by Mitchell Luo on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
         region:
           type: contentReference
           value: ${#jptr:/ref-21094de6-6b36-4aab-b022-0a290ff89d0c-region/entries/0}
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Embark on an adventure in Australia, where stunning landscapes,
+              vibrant cities, and unique wildlife create the ultimate
+              destination for every traveler.
             en-US: >-
+              Embark on an adventure in Australia, where stunning landscapes,
+              vibrant cities, and unique wildlife create the ultimate
+              destination for every traveler.
+            it-IT: >-
               Embark on an adventure in Australia, where stunning landscapes,
               vibrant cities, and unique wildlife create the ultimate
               destination for every traveler.
         description:
           type: richText
           locales:
-            de-DE: null
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Australia is a land of diverse landscapes and
+                          unforgettable adventures, offering something for every
+                          type of traveler. From the iconic Sydney Opera House
+                          and the Great Barrier Reef to the rugged Outback and
+                          pristine beaches, Australia is a country of contrasts.
+                          Explore vibrant cities, dive into crystal-clear
+                          waters, and encounter unique wildlife like kangaroos
+                          and koalas. Whether you're surfing on the Gold Coast,
+                          hiking in the Blue Mountains, or exploring the
+                          cultural heritage of the Aboriginal people, Australia
+                          promises a journey filled with natural wonders, warm
+                          hospitality, and endless exploration.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
             en-US:
               root:
                 type: root
@@ -73,6 +559,91 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
+                direction: ltr
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Australia is a land of diverse landscapes and
+                          unforgettable adventures, offering something for every
+                          type of traveler. From the iconic Sydney Opera House
+                          and the Great Barrier Reef to the rugged Outback and
+                          pristine beaches, Australia is a country of contrasts.
+                          Explore vibrant cities, dive into crystal-clear
+                          waters, and encounter unique wildlife like kangaroos
+                          and koalas. Whether you're surfing on the Gold Coast,
+                          hiking in the Blue Mountains, or exploring the
+                          cultural heritage of the Aboriginal people, Australia
+                          promises a journey filled with natural wonders, warm
+                          hospitality, and endless exploration.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            de-DE:
+              - _id: 8751569b-7d49-4688-97cb-fe09023f9986
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Dan Freeman, Unsplash'
+                _source: custom-url
+            en-US:
+              - _id: 8751569b-7d49-4688-97cb-fe09023f9986
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Dan Freeman, Unsplash'
+                _source: custom-url
+            it-IT:
+              - _id: 8751569b-7d49-4688-97cb-fe09023f9986
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Dan Freeman, Unsplash'
+                _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
                   - tag: h3
                     type: heading
                     format: ''
@@ -218,19 +789,308 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        teaserImage:
-          type: asset
-          locales:
             en-US:
-              - _id: 8751569b-7d49-4688-97cb-fe09023f9986
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
-                    type: text
-                    value: 'Copyright: Dan Freeman, Unsplash'
-                _source: custom-url
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Australia
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Australia varies depending on
+                          the regions you plan to explore:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming flowers, making it ideal for exploring cities, national parks, and coastal regions. This is a great time to visit the Great Barrier Reef and the southern cities like Sydney and Melbourne.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer is perfect for beach lovers, with warm temperatures ideal for swimming, surfing, and enjoying outdoor activities. However, it can be hot in the interior and northern regions, so it''s best to stick to coastal areas. Summer also coincides with the festive season, offering lively events and celebrations.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn brings cooler temperatures and fewer crowds, making it a great time to explore Australia’s wine regions, enjoy outdoor festivals, and visit natural attractions like the Blue Mountains. The weather is still warm enough for beach activities, especially in the north.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter in Australia offers a different experience, with cooler weather in the south and mild, dry conditions in the north. This is the best time to explore the Outback, the Northern Territory, and the Great Barrier Reef without the summer heat. It''s also ski season in the Australian Alps.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For beach holidays and outdoor activities, summer is
+                          ideal, while spring and autumn offer mild weather and
+                          fewer tourists. Winter is perfect for exploring the
+                          northern regions and experiencing Australia’s diverse
+                          landscapes.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Australia
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Australia varies depending on
+                          the regions you plan to explore:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming flowers, making it ideal for exploring cities, national parks, and coastal regions. This is a great time to visit the Great Barrier Reef and the southern cities like Sydney and Melbourne.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer is perfect for beach lovers, with warm temperatures ideal for swimming, surfing, and enjoying outdoor activities. However, it can be hot in the interior and northern regions, so it''s best to stick to coastal areas. Summer also coincides with the festive season, offering lively events and celebrations.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn brings cooler temperatures and fewer crowds, making it a great time to explore Australia’s wine regions, enjoy outdoor festivals, and visit natural attractions like the Blue Mountains. The weather is still warm enough for beach activities, especially in the north.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter in Australia offers a different experience, with cooler weather in the south and mild, dry conditions in the north. This is the best time to explore the Outback, the Northern Territory, and the Great Barrier Reef without the summer heat. It''s also ski season in the Australian Alps.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For beach holidays and outdoor activities, summer is
+                          ideal, while spring and autumn offer mild weather and
+                          fewer tourists. Winter is perfect for exploring the
+                          northern regions and experiencing Australia’s diverse
+                          landscapes.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

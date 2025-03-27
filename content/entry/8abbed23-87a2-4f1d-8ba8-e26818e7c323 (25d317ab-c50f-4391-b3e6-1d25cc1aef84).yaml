@@ -1,0 +1,48 @@
+created: '2024-11-04T16:40:05.490582+00:00'
+modified: '2024-12-05T14:23:22.173898+00:00'
+pattern: false
+editionId: 25d317ab-c50f-4391-b3e6-1d25cc1aef84
+editionName: DACH Edition
+editionPriority: 10
+entry:
+  _id: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
+  _name: Vietnam
+  _slug: vietnam
+  _thumbnail: https://flagcdn.com/vn.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByName
+      variables:
+        fields: name,capital,currencies,cca2,flag,flags,region,subregion
+        country: vietnam
+    ref-8abbed23-87a2-4f1d-8ba8-e26818e7c323-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
+  _locales:
+    - de-DE
+    - de-AT
+    - de-CH
+    - fr-CH
+  _overrides:
+    8abbed23-87a2-4f1d-8ba8-e26818e7c323:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-AT: ${#jptr:/Country/0/name/common}
+            de-CH: ${#jptr:/Country/0/name/common}
+            fr-CH: ${#jptr:/Country/0/name/common}
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-8abbed23-87a2-4f1d-8ba8-e26818e7c323-region/entries/0}
+        captial:
+          type: text
+          locales:
+            de-AT: ${#jptr:/Country/0/capital/0}
+            de-CH: ${#jptr:/Country/0/capital/0}
+            fr-CH: ${#jptr:/Country/0/capital/0}
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

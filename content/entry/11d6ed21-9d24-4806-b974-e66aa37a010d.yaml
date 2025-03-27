@@ -1,0 +1,97 @@
+created: '2025-03-14T11:04:42.846251+00:00'
+modified: '2025-03-14T11:05:38.288951+00:00'
+pattern: false
+entry:
+  _id: 11d6ed21-9d24-4806-b974-e66aa37a010d
+  _name: Best things to do in Japan in 2025
+  _slug: best-things-to-do-in-japan-in-2025
+  _thumbnail: >-
+    https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  type: blogPosts
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Some content here
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    title:
+      type: text
+      locales:
+        en-US: Best things to do in Japan in 2025
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: 261ce50b-6926-42e3-b48d-811a6eba0e49
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+              title:
+                type: text
+                value: >-
+                  Night view of a busy Tokyo street with vibrant neon signs and
+                  people walking in Shinjuku, Japan.
+              width:
+                type: number
+                value: 5932
+              custom:
+                type: object
+                value:
+                  sourceId: '2506923'
+                  pexelsUrl: >-
+                    https://www.pexels.com/photo/people-walking-on-the-street-2506923/
+                  photoTinyUrl: >-
+                    https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                  photographer: Aleksandar Pasaric
+                  photoLargeUrl: >-
+                    https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  photoSmallUrl: >-
+                    https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=130
+                  photoMediumUrl: >-
+                    https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=350
+                  photoLarge2xUrl: >-
+                    https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                  photographerUrl: https://www.pexels.com/@apasaric
+                  photoPortraitUrl: >-
+                    https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                  pexelsOriginalUrl: >-
+                    https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg
+                  photoLandscapeUrl: >-
+                    https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+              height:
+                type: number
+                value: 3955
+              description:
+                type: text
+                value: >-
+                  Night view of a busy Tokyo street with vibrant neon signs and
+                  people walking in Shinjuku, Japan. - Photo by Aleksandar
+                  Pasaric on Pexels
+            _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+      value: []
+  _locales:
+    - en-US

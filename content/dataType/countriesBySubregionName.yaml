@@ -1,14 +1,14 @@
-id: countryBySubregionName
-displayName: Country by subregion name
+id: countriesBySubregionName
+displayName: Countries by subregion
 ttl: 30
-path: /subregion/${subregion}
+path: /subregion/${region}
 custom:
-  proposedName: subregion/${subregion}
+  proposedName: subregion/${region}
 method: GET
 purgeKey: dc199f9b-1a53-442e-9606-2314312257be
 archetype: default
 variables:
-  subregion:
+  region:
     type: text
     default: ''
     helpText: 'Name of subregion. Examples: "North America", "Western Asia", "Caribbean"'

@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:09.391979+00:00'
-modified: '2025-02-27T13:51:05.119227+00:00'
+created: '2024-01-18T12:38:43.726776+00:00'
+modified: '2025-03-27T11:22:08.73988+00:00'
 pattern: false
 entry:
   _id: a78fe34d-0e49-4f9a-a675-8487a4b928b6
@@ -10,9 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        country: Germany
+        name: Germany
     ref-a78fe34d-0e49-4f9a-a675-8487a4b928b6-region:
       type: uniformContentInternalReference
       variables:
@@ -29,16 +29,9 @@ entry:
           type: text
           locales:
             de-DE: Deutschland
-            en-US: ${#jptr:/Country/0/name/common}
-            it-IT: ${#jptr:/Country/0/name/common}
         region:
           type: contentReference
           value: ${#jptr:/ref-a78fe34d-0e49-4f9a-a675-8487a4b928b6-region/entries/0}
-        captial:
-          type: text
-          locales:
-            de-DE: ${#jptr:/Country/0/capital/0}
-            it-IT: ${#jptr:/Country/0/capital/0}
         teaserText:
           type: text
           locales:
@@ -591,15 +584,6 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        enrichments:
-          type: $enr
-          value:
-            - cat: dest
-              key: eur
-              str: 50
-            - cat: '2'
-              key: de
-              str: 100
         teaserImage:
           type: asset
           locales:

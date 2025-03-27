@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:06.647995+00:00'
-modified: '2025-02-27T11:48:41.637298+00:00'
+created: '2024-01-18T12:46:54.514189+00:00'
+modified: '2025-03-27T11:38:04.045413+00:00'
 pattern: false
 entry:
   _id: 9b2812f5-7003-4d80-9fef-362e1fa2a0aa
@@ -10,9 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        country: cn
+        name: China
     ref-9b2812f5-7003-4d80-9fef-362e1fa2a0aa-region:
       type: uniformContentInternalReference
       variables:
@@ -20,22 +20,77 @@ entry:
         entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
   _locales:
     - en-US
+    - de-DE
+    - it-IT
   _overrides:
     9b2812f5-7003-4d80-9fef-362e1fa2a0aa:
       parameters:
+        name:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/name}
+            it-IT: ${#jptr:/Country/0/name}
         region:
           type: contentReference
           value: ${#jptr:/ref-9b2812f5-7003-4d80-9fef-362e1fa2a0aa-region/entries/0}
+        captial:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/capital}
+            it-IT: ${#jptr:/Country/0/capital}
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Embark on a journey through China, where ancient wonders and
+              vibrant modernity come together in a land of breathtaking beauty
+              and rich culture.
             en-US: >-
+              Embark on a journey through China, where ancient wonders and
+              vibrant modernity come together in a land of breathtaking beauty
+              and rich culture.
+            it-IT: >-
               Embark on a journey through China, where ancient wonders and
               vibrant modernity come together in a land of breathtaking beauty
               and rich culture.
         description:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          China is a land of ancient history and dynamic
+                          modernity, offering travelers an unforgettable journey
+                          through time and culture. From the iconic Great Wall
+                          and the Terracotta Army to the bustling streets of
+                          Shanghai and the serene landscapes of Guilin, China is
+                          a country of stunning contrasts. Explore vibrant
+                          cities, tranquil temples, and majestic mountains, and
+                          savor world-renowned cuisine from every region.
+                          Whether you're discovering the ancient Silk Road,
+                          cruising the Yangtze River, or immersing yourself in
+                          the vibrant traditions of Chinese festivals, China
+                          promises a travel experience like no other.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
             en-US:
               root:
                 type: root
@@ -71,16 +126,69 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        enrichments:
-          type: $enr
-          value:
-            - cat: dest
-              key: asia
-              str: 50
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          China is a land of ancient history and dynamic
+                          modernity, offering travelers an unforgettable journey
+                          through time and culture. From the iconic Great Wall
+                          and the Terracotta Army to the bustling streets of
+                          Shanghai and the serene landscapes of Guilin, China is
+                          a country of stunning contrasts. Explore vibrant
+                          cities, tranquil temples, and majestic mountains, and
+                          savor world-renowned cuisine from every region.
+                          Whether you're discovering the ancient Silk Road,
+                          cruising the Yangtze River, or immersing yourself in
+                          the vibrant traditions of Chinese festivals, China
+                          promises a travel experience like no other.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
         teaserImage:
           type: asset
           locales:
+            de-DE:
+              - _id: 69a1084d-f820-407c-80f3-8791b7d29d8f
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1510001618818-4b4e3d86bf0f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Theodor Lundqvist'
+                _source: custom-url
             en-US:
+              - _id: 69a1084d-f820-407c-80f3-8791b7d29d8f
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1510001618818-4b4e3d86bf0f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Theodor Lundqvist'
+                _source: custom-url
+            it-IT:
               - _id: 69a1084d-f820-407c-80f3-8791b7d29d8f
                 type: image
                 fields:
@@ -95,7 +203,311 @@ entry:
         timeToVisit:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit China
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit China depends on the regions
+                          you plan to explore and the experiences you seek:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (April to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring is one of the best times to visit, with mild weather and blooming flowers. It''s an ideal time for exploring cities, visiting historical sites, and enjoying outdoor activities like hiking in the countryside.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Another excellent time to visit, with comfortable temperatures and beautiful fall foliage, particularly in regions like Beijing and the Yellow Mountains. This season offers clear skies and less rainfall, making it perfect for sightseeing.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is ideal if you want to experience China''s unique festivals, like Chinese New Year, or enjoy winter sports in northern regions like Harbin, known for its spectacular Ice and Snow Festival. However, be prepared for cold temperatures, especially in the north.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer is the peak tourist season, with warm to hot weather and bustling tourist sites. This season is great for exploring China’s mountainous regions and enjoying river cruises, but it can also be quite humid and crowded in major cities.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For mild weather and fewer crowds, spring and autumn
+                          are the best times to visit. Winter is perfect for
+                          cultural experiences and festive celebrations, while
+                          summer offers opportunities for exploring natural
+                          wonders.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
             en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit China
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit China depends on the regions
+                          you plan to explore and the experiences you seek:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (April to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring is one of the best times to visit, with mild weather and blooming flowers. It''s an ideal time for exploring cities, visiting historical sites, and enjoying outdoor activities like hiking in the countryside.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Another excellent time to visit, with comfortable temperatures and beautiful fall foliage, particularly in regions like Beijing and the Yellow Mountains. This season offers clear skies and less rainfall, making it perfect for sightseeing.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is ideal if you want to experience China''s unique festivals, like Chinese New Year, or enjoy winter sports in northern regions like Harbin, known for its spectacular Ice and Snow Festival. However, be prepared for cold temperatures, especially in the north.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer is the peak tourist season, with warm to hot weather and bustling tourist sites. This season is great for exploring China’s mountainous regions and enjoying river cruises, but it can also be quite humid and crowded in major cities.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For mild weather and fewer crowds, spring and autumn
+                          are the best times to visit. Winter is perfect for
+                          cultural experiences and festive celebrations, while
+                          summer offers opportunities for exploring natural
+                          wonders.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
               root:
                 type: root
                 format: ''

@@ -1,9 +1,9 @@
 id: blogPosts
 name: Blog posts
 created: '2025-03-14T11:04:33.745697+00:00'
-updated: '2025-03-14T11:08:23.43269+00:00'
+updated: '2025-03-27T15:15:15.245813+00:00'
 slugSettings: {}
-useTeamPermissions: false
+useTeamPermissions: true
 fields:
   - id: title
     name: Title

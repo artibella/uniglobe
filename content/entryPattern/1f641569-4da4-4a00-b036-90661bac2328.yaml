@@ -1,5 +1,5 @@
-created: '2025-02-06T09:47:58.802295+00:00'
-modified: '2025-02-27T11:15:53.952837+00:00'
+created: '2024-01-18T13:24:25.092358+00:00'
+modified: '2025-03-27T15:39:11.273636+00:00'
 pattern: true
 entry:
   _id: 1f641569-4da4-4a00-b036-90661bac2328
@@ -10,7 +10,9 @@ entry:
     name:
       type: text
       locales:
+        de-DE: <Region name>
         en-US: <Region name>
+        it-IT: <Region name>
     countries:
       type: $block
       value:
@@ -25,59 +27,67 @@ entry:
                   fields:
                     code:
                       type: text
-                      value: ${#jptr:/Countries Loop Item/cca2}
+                      value: ${#jptr:/Countries Loop Item/alpha2Code:fl=i}
+                    flag:
+                      type: asset
+                      value:
+                        - _id: 442fa0da-bc50-4274-8bfe-4e83b48db670
+                          type: image
+                          fields:
+                            url:
+                              type: text
+                              value: ${#jptr:/Countries Loop Item/flags/svg}
+                          _source: custom-url
                     name:
                       type: text
                       locales:
-                        de-DE: ${#jptr:/Countries Loop Item/translations/deu/common}
-                        en-US: ${#jptr:/Countries Loop Item/name/common}
+                        de-DE: ${#jptr:/Countries Loop Item/name}
+                        en-US: ${#jptr:/Countries Loop Item/name:fa=c:fl=i}
+                        it-IT: ${#jptr:/Countries Loop Item/name}
                     captial:
                       type: text
                       locales:
-                        de-DE: ${#jptr:/Countries Loop Item/capital/0}
-                        en-US: ${#jptr:/Countries Loop Item/capital/0:fl=i}
-                    flagEmoji:
-                      type: text
-                      value: ${#jptr:/Countries Loop Item/flag}
+                        de-DE: ${#jptr:/Countries Loop Item/capital}
+                        en-US: ${#jptr:/Countries Loop Item/capital}
+                        it-IT: ${#jptr:/Countries Loop Item/capital}
                     currencies:
                       type: $block
                       value:
-                        - _id: c47e11cd-1ca5-4d0d-bcf9-d99fe7eae075
+                        - _id: b1b41213-2d20-4fad-8e9c-a77e70df52e1
                           type: $loop
                           fields:
                             body:
                               type: $block
                               value:
-                                - _id: 1e7392a5-9d1a-4d8b-9aa6-42b9355f42f5
+                                - _id: 1685f9a6-7746-4bbc-978e-eba40c1d97c2
                                   type: currency
                                   fields:
                                     code:
                                       type: text
                                       locales:
-                                        de-DE: >-
-                                          ${#jptr:/Countries Loop Item currencies
-                                          Loop Item/key}
                                         en-US: >-
                                           ${#jptr:/Countries Loop Item currencies
-                                          Loop Item/key}
+                                          Loop Item/code:fl=i}
                                     name:
                                       type: text
                                       value: >-
                                         ${#jptr:/Countries Loop Item currencies
-                                        Loop Item/value/name}
+                                        Loop Item/name:fl=i}
                                     symbol:
                                       type: text
                                       value: >-
                                         ${#jptr:/Countries Loop Item currencies
-                                        Loop Item/value/symbol}
+                                        Loop Item/symbol:fl=i}
                           _dataResources:
                             Countries Loop Item currencies Loop Item:
                               type: sys-reserved-loop
                               variables:
-                                connectedData: /Countries Loop Item/currencies
+                                connectedData: >-
+                                  #jptr:/Countries Loop
+                                  Item/currencies:fa=c:fl=i
                     officialName:
                       type: text
-                      value: ${#jptr:/Countries Loop Item/translations/deu/official}
+                      value: ${#jptr:/Countries Loop Item/name}
           _dataResources:
             Countries Loop Item:
               type: sys-reserved-loop
@@ -85,7 +95,7 @@ entry:
                 connectedData: /Countries
   _dataResources:
     Countries:
-      type: countriesByRegion
+      type: countriesByRegionName
       variables:
         region: africa
       isPatternParameter: true
@@ -93,12 +103,12 @@ entry:
   _locales:
     - en-US
     - de-DE
+    - it-IT
   _overridability:
     parameters:
       name: 'yes'
       image: 'yes'
       teaserText: 'yes'
       description: 'yes'
-      enrichments: 'yes'
       destinations: 'yes'
     hideLockedParameters: true

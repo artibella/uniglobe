@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:04.968018+00:00'
-modified: '2025-02-27T13:53:43.835835+00:00'
+created: '2024-01-18T12:46:12.168253+00:00'
+modified: '2025-03-27T11:39:51.054374+00:00'
 pattern: false
 entry:
   _id: 5690f959-52d1-4f54-a869-30b8bfed46cb
@@ -10,10 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        fields: name,capital,currencies,cca2,flag,flags,translations
-        country: Austria
+        name: Austria
     ref-5690f959-52d1-4f54-a869-30b8bfed46cb-region:
       type: uniformContentInternalReference
       variables:
@@ -28,7 +27,7 @@ entry:
         name:
           type: text
           locales:
-            de-DE: ${#jptr:/Country/0/name/nativeName/bar/common}
+            de-DE: Österreich
         region:
           type: contentReference
           value: ${#jptr:/ref-5690f959-52d1-4f54-a869-30b8bfed46cb-region/entries/0}
@@ -46,6 +45,42 @@ entry:
         description:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Austria is a charming blend of historical grandeur and
+                          natural beauty, offering a rich tapestry of
+                          experiences for every traveler. From the elegant
+                          streets of Vienna and the cultural splendor of
+                          Salzburg to the picturesque alpine scenery of
+                          Innsbruck, Austria enchants with its stunning
+                          landscapes and historical landmarks. Explore
+                          magnificent castles, enjoy world-class music and
+                          opera, and indulge in delicious Austrian cuisine.
+                          Whether you're skiing in the Alps, cruising along the
+                          Danube River, or strolling through historic towns,
+                          Austria promises an unforgettable journey through its
+                          enchanting heritage and breathtaking scenery.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
             en-US:
               root:
                 type: root
@@ -81,6 +116,32 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: 63aa4807-c8d9-4df6-9c62-b2451755ce14
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1516550893923-42d28e5677af?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Jacek Dylag'
+                _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
                   - tag: h3
                     type: heading
                     format: ''
@@ -225,30 +286,157 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        enrichments:
-          type: $enr
-          value:
-            - cat: dest
-              key: eur
-              str: 50
-            - cat: '2'
-              key: at
-              str: 100
-        teaserImage:
-          type: asset
-          locales:
             en-US:
-              - _id: 63aa4807-c8d9-4df6-9c62-b2451755ce14
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1516550893923-42d28e5677af?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
-                    type: text
-                    value: 'Copyright: Jacek Dylag'
-                _source: custom-url
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Austria
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Austria depends on your
+                          interests and the experiences you seek:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (April to June):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring brings mild temperatures and blooming flowers, making it an excellent time for sightseeing and outdoor activities. This season is perfect for exploring cities, enjoying scenic landscapes, and attending cultural festivals.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (July to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer offers warm weather ideal for hiking, cycling, and exploring Austria’s lakes and mountains. It''s also a great time to enjoy outdoor music festivals and cultural events. Cities like Vienna and Salzburg are vibrant with festivals and open-air events.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn is marked by cooler temperatures and stunning fall foliage, especially in the alpine regions. This season is ideal for enjoying wine harvest festivals, scenic drives, and outdoor activities in the countryside.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (November to March):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is perfect for skiing and snowboarding in the Austrian Alps, with excellent conditions in resorts like St. Anton and Kitzbühel. It’s also a magical time to visit cities for Christmas markets and festive holiday events.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For outdoor activities and city exploration, spring
+                          and summer are ideal. For winter sports and holiday
+                          festivities, visit during the winter months. Autumn
+                          offers beautiful scenery and fewer tourists.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
         officialName:
           type: text
           value: ${#jptr:/Country/0/name/nativeName/bar/official}

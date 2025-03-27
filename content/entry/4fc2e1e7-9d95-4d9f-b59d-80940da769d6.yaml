@@ -1,5 +1,5 @@
 created: '2024-11-05T10:25:38.04907+00:00'
-modified: '2024-11-05T10:27:31.13514+00:00'
+modified: '2025-03-27T15:45:01.102836+00:00'
 pattern: false
 entry:
   _id: 4fc2e1e7-9d95-4d9f-b59d-80940da769d6
@@ -12,6 +12,14 @@ entry:
       locales:
         de-DE: Südostasien
         en-US: Southeast Asia
+    teaserText:
+      type: text
+      locales:
+        en-US: >-
+          Discover the vibrant tapestry of Southeast Asia, where ancient
+          temples, lush landscapes, and flavorful cuisine intertwine. Immerse
+          yourself in the region's rich history and diverse traditions. Your
+          unforgettable journey awaits.
     description:
       type: richText
       locales:
@@ -56,10 +64,31 @@ entry:
                 children:
                   - mode: normal
                     text: >-
-                      Southeast Asia is a vibrant mosaic of stunning landscapes,
-                      rich traditions, and mouthwatering cuisine, where golden
-                      temples, lush jungles, and bustling markets await every
-                      traveler.
+                      Embark on an enchanting journey through Southeast Asia, a
+                      vibrant tapestry of ancient temples, lush landscapes, and
+                      warm hospitality. From the bustling streets of Bangkok to
+                      the serene beauty of Halong Bay, immerse yourself in a
+                      rich mosaic of cultures and cuisines. Explore the
+                      awe-inspiring Angkor Wat, relax on pristine beaches, and
+                      savor aromatic dishes bursting with flavor. 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      With its captivating history and natural wonders,
+                      Southeast Asia promises an unforgettable adventure. Start
+                      planning your dream escape today.
                     type: text
                     style: ''
                     detail: 0

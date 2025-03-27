@@ -1,5 +1,5 @@
 created: '2024-01-18T12:33:27.077396+00:00'
-modified: '2025-03-03T10:21:09.252731+00:00'
+modified: '2025-03-27T10:41:56.302233+00:00'
 pattern: true
 entry:
   _id: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
@@ -10,11 +10,11 @@ entry:
   fields:
     code:
       type: text
-      value: ${#jptr:/Country/0/cca2}
+      value: ${#jptr:/Country/0/alpha2Code}
     flag:
       type: asset
       value:
-        - _id: 6ad6c8d2-34e4-4e49-9ca5-47d46f5bb0b7
+        - _id: b097257a-be8b-4978-ba57-160f0c4bd896
           type: image
           fields:
             url:
@@ -22,23 +22,23 @@ entry:
               value: ${#jptr:/Country/0/flags/svg}
             title:
               type: text
-              value: ${#jptr:/Country/0/flags/alt}
+              value: Flag of ${#jptr:/Country/0/name}
+            description:
+              type: text
+              value: ''
           _source: custom-url
     name:
       type: text
       locales:
-        de-DE: ${#jptr:/Country/0/name/common}
-        en-US: ${#jptr:/Country/0/name/common}
-        it-IT: ${#jptr:/Country/0/name/common}
+        de-DE: ${#jptr:/Country/0/name}
+        en-US: ${#jptr:/Country/0/name}
+        it-IT: ${#jptr:/Country/0/name}
     captial:
       type: text
       locales:
-        de-DE: ${#jptr:/Country/0/capital/0}
-        en-US: ${#jptr:/Country/0/capital/0}
-        it-IT: ${#jptr:/Country/0/capital/0}
-    flagEmoji:
-      type: text
-      value: ${#jptr:/Country/0/flag}
+        de-DE: ${#jptr:/Country/0/capital}
+        en-US: ${#jptr:/Country/0/capital}
+        it-IT: ${#jptr:/Country/0/capital}
     currencies:
       type: $block
       value:
@@ -53,26 +53,23 @@ entry:
                   fields:
                     code:
                       type: text
-                      value: ${#jptr:/Country currencies Loop Item/key}
+                      value: ${#jptr:/Country 0 Loop Item/code}
                     name:
                       type: text
-                      value: ${#jptr:/Country currencies Loop Item/value/name}
+                      value: ${#jptr:/Country 0 Loop Item/name}
                     symbol:
                       type: text
-                      value: ${#jptr:/Country currencies Loop Item/value/symbol}
+                      value: ${#jptr:/Country 0 Loop Item/symbol}
           _dataResources:
-            Country currencies Loop Item:
+            Country 0 Loop Item:
               type: sys-reserved-loop
               variables:
-                connectedData: /Country/0/currencies
-    officialName:
-      type: text
-      value: ${#jptr:/Country/0/name/official}
+                connectedData: '#jptr:/Country/0/currencies:fa=c'
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        country: japan
+        name: Japan
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _locales:
@@ -81,14 +78,15 @@ entry:
     - it-IT
   _overridability:
     parameters:
+      flag: 'yes'
       name: 'yes'
       images: 'yes'
       region: 'yes'
       videos: 'yes'
       captial: 'yes'
+      flagEmoji: 'yes'
       teaserText: 'yes'
       description: 'yes'
-      enrichments: 'yes'
       teaserImage: 'yes'
       timeToVisit: 'yes'
       description2: 'yes'

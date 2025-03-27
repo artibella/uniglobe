@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:12.871414+00:00'
-modified: '2025-02-27T13:57:37.122373+00:00'
+created: '2024-03-12T15:25:01.437775+00:00'
+modified: '2025-03-27T11:20:27.336895+00:00'
 pattern: false
 entry:
   _id: 764d065c-6412-4bb0-b354-8f98be36b00c
@@ -10,9 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        country: norway
+        name: Norway
     ref-764d065c-6412-4bb0-b354-8f98be36b00c-region:
       type: uniformContentInternalReference
       variables:
@@ -29,6 +29,58 @@ entry:
           type: text
           locales:
             de-DE: Norwegen
+        images:
+          type: asset
+          locales:
+            en-US:
+              - _id: e714cf6b-bffe-4a42-b8ee-ac83dddc8824
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Breathtaking view of aurora borealis illuminating the
+                      snowy mountains of Lofoten Islands at night.
+                  width:
+                    type: number
+                    value: 4671
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '1933239'
+                      pexelsUrl: https://www.pexels.com/photo/aurora-borealis-1933239/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: stein egil liland
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@therato
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 3109
+                  description:
+                    type: text
+                    value: >-
+                      Breathtaking view of aurora borealis illuminating the
+                      snowy mountains of Lofoten Islands at night. - Photo by
+                      stein egil liland on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
         region:
           type: contentReference
           value: ${#jptr:/ref-764d065c-6412-4bb0-b354-8f98be36b00c-region/entries/0}
@@ -70,38 +122,6 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
-                direction: ltr
-        enrichments:
-          type: $enr
-          value:
-            - cat: dest
-              key: eur
-              str: 50
-        teaserImage:
-          type: asset
-          locales:
-            en-US:
-              - _id: c31297a6-809f-4ff6-a15f-d495256c8d17
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1504233529578-6d46baba6d34?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
-                    type: text
-                    value: 'Copyright: Seth Kane, Unsplash'
-                _source: custom-url
-        timeToVisit:
-          type: richText
-          locales:
-            en-US:
-              root:
-                type: root
-                format: ''
-                indent: 0
-                version: 1
-                children:
                   - tag: h3
                     type: heading
                     format: ''
@@ -248,4 +268,19 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: c31297a6-809f-4ff6-a15f-d495256c8d17
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1504233529578-6d46baba6d34?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: 'Copyright: Seth Kane, Unsplash'
+                _source: custom-url
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

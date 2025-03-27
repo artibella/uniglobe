@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:08.316888+00:00'
-modified: '2025-02-27T13:51:25.405959+00:00'
+created: '2024-01-18T12:43:00.172879+00:00'
+modified: '2025-03-27T14:00:14.385485+00:00'
 pattern: false
 entry:
   _id: 036376fb-7f06-419e-ac2b-686de17fb520
@@ -10,9 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        country: Danmark
+        name: Denmark
     ref-036376fb-7f06-419e-ac2b-686de17fb520-region:
       type: uniformContentInternalReference
       variables:
@@ -33,15 +33,43 @@ entry:
               Experience the magic of Denmark, where rich history, stunning
               landscapes, and innovative culture create the perfect Scandinavian
               escape.
-        enrichments:
-          type: $enr
-          value:
-            - cat: dest
-              key: eur
-              str: 50
-            - cat: '2'
-              key: dk
-              str: 100
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Discover the enchanting kingdom of Denmark, a
+                          Scandinavian gem nestled along the Baltic Sea. From
+                          the charming canals of Copenhagen to the windswept
+                          beaches of the North Sea, Denmark offers a captivating
+                          blend of history, culture, and natural beauty. Explore
+                          magnificent castles, indulge in delectable Danish
+                          cuisine, and immerse yourself in the hygge lifestyle.
+                          With its friendly locals, rich Viking heritage, and
+                          picturesque landscapes, Denmark promises an
+                          unforgettable adventure. Start planning your Danish
+                          getaway today!
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
         teaserImage:
           type: asset
           locales:

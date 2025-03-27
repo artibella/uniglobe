@@ -1,5 +1,5 @@
 created: '2024-01-18T12:43:30.068145+00:00'
-modified: '2024-09-19T15:56:09.363851+00:00'
+modified: '2025-03-27T11:36:43.124137+00:00'
 pattern: false
 entry:
   _id: c1697faa-20be-46ac-a476-726e3b2b1c27
@@ -10,9 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        country: Cuba
+        name: Cuba
     ref-c1697faa-20be-46ac-a476-726e3b2b1c27-region:
       type: uniformContentInternalReference
       variables:
@@ -28,16 +28,19 @@ entry:
         name:
           type: text
           locales:
-            de-DE: ${#jptr:/Country/0/name/common}
-            it-IT: ${#jptr:/Country/0/name/common}
+            de-DE: ${#jptr:/Country/0/name}
+            it-IT: ${#jptr:/Country/0/name}
         region:
           type: contentReference
           value: ${#jptr:/ref-c1697faa-20be-46ac-a476-726e3b2b1c27-region/entries/0}
         captial:
           type: text
           locales:
-            de-DE: ${#jptr:/Country/0/capital/0}
-            it-IT: ${#jptr:/Country/0/capital/0}
+            de-DE: ${#jptr:/Country/0/capital}
+            it-IT: ${#jptr:/Country/0/capital}
+        flagEmoji:
+          type: text
+          value: 🇨🇺
         teaserText:
           type: text
           locales:
@@ -90,107 +93,6 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
-                  - tag: h3
-                    type: heading
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: Best Time to Visit Cuba
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          The best time to visit Cuba depends on your
-                          preferences for weather and activities:
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
-                  - tag: ol
-                    type: list
-                    start: 1
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - type: listitem
-                        value: 1
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Dry Season (November to April):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' This is the most popular time to visit, with warm temperatures and minimal rainfall, ideal for enjoying Cuba’s beaches, outdoor activities, and festivals. The pleasant weather is perfect for exploring Havana, lounging on the Caribbean coast, and participating in cultural events.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 2
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Wet Season (May to October):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' This period is characterized by higher humidity and occasional tropical showers, with temperatures remaining warm. It’s a good time for fewer crowds and lower prices, though be prepared for brief, heavy rain showers. The wet season is also hurricane season, with the possibility of storms, especially in September and October.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                    listType: number
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          For the best weather and beach conditions, visit
-                          during the dry season from November to April. The wet
-                          season offers a more budget-friendly experience but
-                          comes with the risk of rain and storms.
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
                 direction: ltr
             en-US:
               root:
@@ -226,107 +128,6 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
-                  - tag: h3
-                    type: heading
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: Best Time to Visit Cuba
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          The best time to visit Cuba depends on your
-                          preferences for weather and activities:
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
-                  - tag: ol
-                    type: list
-                    start: 1
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - type: listitem
-                        value: 1
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Dry Season (November to April):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' This is the most popular time to visit, with warm temperatures and minimal rainfall, ideal for enjoying Cuba’s beaches, outdoor activities, and festivals. The pleasant weather is perfect for exploring Havana, lounging on the Caribbean coast, and participating in cultural events.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 2
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Wet Season (May to October):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' This period is characterized by higher humidity and occasional tropical showers, with temperatures remaining warm. It’s a good time for fewer crowds and lower prices, though be prepared for brief, heavy rain showers. The wet season is also hurricane season, with the possibility of storms, especially in September and October.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                    listType: number
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          For the best weather and beach conditions, visit
-                          during the dry season from November to April. The wet
-                          season offers a more budget-friendly experience but
-                          comes with the risk of rain and storms.
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
                 direction: ltr
             it-IT:
               root:
@@ -354,107 +155,6 @@ entry:
                           Whether you're lounging on sun-drenched shores or
                           dancing to live music, Cuba promises an unforgettable
                           adventure filled with warmth and charm.
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
-                  - tag: h3
-                    type: heading
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: Best Time to Visit Cuba
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          The best time to visit Cuba depends on your
-                          preferences for weather and activities:
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
-                  - tag: ol
-                    type: list
-                    start: 1
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - type: listitem
-                        value: 1
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Dry Season (November to April):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' This is the most popular time to visit, with warm temperatures and minimal rainfall, ideal for enjoying Cuba’s beaches, outdoor activities, and festivals. The pleasant weather is perfect for exploring Havana, lounging on the Caribbean coast, and participating in cultural events.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 2
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Wet Season (May to October):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' This period is characterized by higher humidity and occasional tropical showers, with temperatures remaining warm. It’s a good time for fewer crowds and lower prices, though be prepared for brief, heavy rain showers. The wet season is also hurricane season, with the possibility of storms, especially in September and October.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                    listType: number
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          For the best weather and beach conditions, visit
-                          during the dry season from November to April. The wet
-                          season offers a more budget-friendly experience but
-                          comes with the risk of rain and storms.
                         type: text
                         style: ''
                         detail: 0
@@ -503,4 +203,334 @@ entry:
                     type: text
                     value: 'Copyright: Alexander Kunze'
                 _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Cuba
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Cuba depends on your
+                          preferences for weather and activities:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dry Season (November to April):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This is the most popular time to visit, with warm temperatures and minimal rainfall, ideal for enjoying Cuba’s beaches, outdoor activities, and festivals. The pleasant weather is perfect for exploring Havana, lounging on the Caribbean coast, and participating in cultural events.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Wet Season (May to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This period is characterized by higher humidity and occasional tropical showers, with temperatures remaining warm. It’s a good time for fewer crowds and lower prices, though be prepared for brief, heavy rain showers. The wet season is also hurricane season, with the possibility of storms, especially in September and October.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the best weather and beach conditions, visit
+                          during the dry season from November to April. The wet
+                          season offers a more budget-friendly experience but
+                          comes with the risk of rain and storms.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Cuba
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Cuba depends on your
+                          preferences for weather and activities:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dry Season (November to April):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This is the most popular time to visit, with warm temperatures and minimal rainfall, ideal for enjoying Cuba’s beaches, outdoor activities, and festivals. The pleasant weather is perfect for exploring Havana, lounging on the Caribbean coast, and participating in cultural events.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Wet Season (May to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This period is characterized by higher humidity and occasional tropical showers, with temperatures remaining warm. It’s a good time for fewer crowds and lower prices, though be prepared for brief, heavy rain showers. The wet season is also hurricane season, with the possibility of storms, especially in September and October.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the best weather and beach conditions, visit
+                          during the dry season from November to April. The wet
+                          season offers a more budget-friendly experience but
+                          comes with the risk of rain and storms.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Cuba
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Cuba depends on your
+                          preferences for weather and activities:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dry Season (November to April):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This is the most popular time to visit, with warm temperatures and minimal rainfall, ideal for enjoying Cuba’s beaches, outdoor activities, and festivals. The pleasant weather is perfect for exploring Havana, lounging on the Caribbean coast, and participating in cultural events.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Wet Season (May to October):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' This period is characterized by higher humidity and occasional tropical showers, with temperatures remaining warm. It’s a good time for fewer crowds and lower prices, though be prepared for brief, heavy rain showers. The wet season is also hurricane season, with the possibility of storms, especially in September and October.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the best weather and beach conditions, visit
+                          during the dry season from November to April. The wet
+                          season offers a more budget-friendly experience but
+                          comes with the risk of rain and storms.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

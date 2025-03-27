@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:17.701145+00:00'
-modified: '2025-02-27T11:22:42.165403+00:00'
+created: '2024-09-19T15:18:49.18102+00:00'
+modified: '2025-03-27T11:11:36.201478+00:00'
 pattern: false
 entry:
   _id: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
@@ -10,10 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        fields: name,capital,currencies,cca2,flag,flags,region,subregion
-        country: vietnam
+        name: Vietnam
     ref-8abbed23-87a2-4f1d-8ba8-e26818e7c323-region:
       type: uniformContentInternalReference
       variables:
@@ -218,12 +217,6 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        enrichments:
-          type: $enr
-          value:
-            - cat: dest
-              key: asia
-              str: 50
         teaserImage:
           type: asset
           locales:

@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:11.908162+00:00'
-modified: '2025-02-27T13:55:01.320188+00:00'
+created: '2024-11-04T16:42:54.96019+00:00'
+modified: '2025-03-27T11:10:57.921123+00:00'
 pattern: false
 editionName: Default
 entry:
@@ -11,10 +11,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        fields: name,capital,currencies,cca2,flag,flags,region,subregion
-        country: laos
+        name: Lao People's Democratic Republic
     ref-1e00d404-3375-4219-a14f-dc639caf6147-region:
       type: uniformContentInternalReference
       variables:
@@ -32,6 +31,12 @@ entry:
   _overrides:
     1e00d404-3375-4219-a14f-dc639caf6147:
       parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Laos
+            en-US: Laos
+            it-IT: Laos
         region:
           type: contentReference
           value: ${#jptr:/ref-1e00d404-3375-4219-a14f-dc639caf6147-region/entries/0}
@@ -158,15 +163,6 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        enrichments:
-          type: $enr
-          value:
-            - cat: dest
-              key: asia
-              str: 50
-            - cat: '2'
-              key: la
-              str: 100
         teaserImage:
           type: asset
           locales:

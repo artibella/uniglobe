@@ -1,10 +1,10 @@
 id: country
 name: Country
 created: '2024-01-18T12:23:31.527234+00:00'
-updated: '2025-03-14T11:15:18.953989+00:00'
+updated: '2025-03-27T15:13:31.003709+00:00'
 slugSettings:
   required: 'no'
-useTeamPermissions: false
+useTeamPermissions: true
 fields:
   - id: name
     name: Name

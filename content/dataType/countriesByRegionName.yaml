@@ -1,6 +1,7 @@
-id: countryByRegionName
-displayName: Country by region name
+id: countriesByRegionName
+displayName: Countries by region
 ttl: 30
+body: ''
 path: /region/${region}
 custom:
   proposedName: region/${region}

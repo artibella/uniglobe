@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:16.337051+00:00'
-modified: '2025-02-27T14:27:00.878646+00:00'
+created: '2024-08-21T13:15:35.435656+00:00'
+modified: '2025-03-27T11:18:51.340682+00:00'
 pattern: false
 entry:
   _id: 035a64b1-730e-444c-921a-431bc2712e14
@@ -10,10 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        fields: name,capital,currencies,cca2,flag,flags,region,subregion
-        country: Thailand
+        name: Thailand
     ref-035a64b1-730e-444c-921a-431bc2712e14-region:
       type: uniformContentInternalReference
       variables:
@@ -171,15 +170,6 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
-        enrichments:
-          type: $enr
-          value:
-            - cat: dest
-              key: asia
-              str: 50
-            - cat: '2'
-              key: th
-              str: 100
         teaserImage:
           type: asset
           locales:

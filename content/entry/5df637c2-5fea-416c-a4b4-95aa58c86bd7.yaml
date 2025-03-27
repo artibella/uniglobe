@@ -1,5 +1,5 @@
-created: '2025-02-06T09:48:10.19358+00:00'
-modified: '2025-02-27T14:16:11.666151+00:00'
+created: '2024-08-21T13:38:41.298934+00:00'
+modified: '2025-03-27T11:13:00.196993+00:00'
 pattern: false
 entry:
   _id: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
@@ -10,9 +10,9 @@ entry:
   fields: {}
   _dataResources:
     Country:
-      type: countryByName
+      type: countryByCountryName
       variables:
-        country: Italy
+        name: Italy
     ref-5df637c2-5fea-416c-a4b4-95aa58c86bd7-region:
       type: uniformContentInternalReference
       variables:
@@ -82,15 +82,6 @@ entry:
                     children: []
                     direction: null
                 direction: ltr
-        enrichments:
-          type: $enr
-          value:
-            - cat: dest
-              key: eur
-              str: 50
-            - cat: '2'
-              key: it
-              str: 100
         teaserImage:
           type: asset
           locales:

@@ -1,5 +1,5 @@
 created: '2024-09-19T15:40:33.832669+00:00'
-modified: '2025-01-27T15:14:58.085758+00:00'
+modified: '2025-03-27T15:47:46.676917+00:00'
 pattern: true
 entry:
   _id: 57ca4594-f957-4139-a439-fbfb7eb58300
@@ -21,20 +21,30 @@ entry:
                   fields:
                     code:
                       type: text
-                      value: ${#jptr:/Countries Loop Item/cca2}
+                      value: ${#jptr:/Countries Loop Item/alpha2Code}
+                    flag:
+                      type: asset
+                      value:
+                        - _id: 23478b7c-9754-43f3-8372-4d4c28b47eec
+                          type: image
+                          fields:
+                            url:
+                              type: text
+                              value: ${#jptr:/Countries Loop Item/flags/svg}
+                            title:
+                              type: text
+                              value: ''
+                          _source: custom-url
                     name:
                       type: text
                       locales:
                         de-DE: ${#jptr:/Countries Loop Item/translations/deu/common}
-                        en-US: ${#jptr:/Countries Loop Item/name/common}
+                        en-US: ${#jptr:/Countries Loop Item/name}
                     captial:
                       type: text
                       locales:
                         de-DE: ${#jptr:/Countries Loop Item/capital/0}
-                        en-US: ${#jptr:/Countries Loop Item/capital/0}
-                    flagEmoji:
-                      type: text
-                      value: ${#jptr:/Countries Loop Item/flag}
+                        en-US: ${#jptr:/Countries Loop Item/capital}
                     currencies:
                       type: $block
                       value:
@@ -73,7 +83,7 @@ entry:
                                 connectedData: /Countries Loop Item/currencies
                     officialName:
                       type: text
-                      value: ${#jptr:/Countries Loop Item/translations/deu/official}
+                      value: ${#jptr:/Countries Loop Item/name}
           _dataResources:
             Countries Loop Item:
               type: sys-reserved-loop
@@ -81,9 +91,9 @@ entry:
                 connectedData: /Countries
   _dataResources:
     Countries:
-      type: countriesBySubRegion
+      type: countriesBySubregionName
       variables:
-        region: europe
+        region: Caribbean
         Subregion: Caribbean
       isPatternParameter: true
       ignorePatternParameterDefault: true

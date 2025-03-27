@@ -1,9 +1,9 @@
 id: trip
 name: Trip
 created: '2025-01-28T10:50:10.825326+00:00'
-updated: '2025-03-14T11:16:17.570041+00:00'
+updated: '2025-03-27T15:15:28.555817+00:00'
 slugSettings: {}
-useTeamPermissions: false
+useTeamPermissions: true
 fields:
   - id: title
     name: Title
