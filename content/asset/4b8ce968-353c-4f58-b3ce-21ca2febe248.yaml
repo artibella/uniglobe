@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 4b8ce968-353c-4f58-b3ce-21ca2febe248
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ash-edmonds-uztw2giebSc-unsplash.jpg
+    file:
+      type: file
+      value: 4ca871b2-db13-49ff-bb3c-a4f31fd58862
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/uXJdcX2rSQauCdJBrl8JTQ-ash-edmonds-uztw2giebSc-unsplash.jpg
+      type: text
+    size:
+      value: 1190028
+      type: number
+    width:
+      value: 3142
+      type: number
+    height:
+      value: 4713
+      type: number
+    custom: {}
+created: '2025-03-25T13:01:21.034798+00:00'
+modified: '2025-03-25T13:01:21.034798+00:00'

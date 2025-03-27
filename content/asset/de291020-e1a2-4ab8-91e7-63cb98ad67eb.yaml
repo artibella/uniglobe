@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: de291020-e1a2-4ab8-91e7-63cb98ad67eb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: anders-jilden-cYrMQA7a3Wc-unsplash.jpg
+    file:
+      type: file
+      value: 532ceaab-60a4-4be9-be19-b14b90e6f654
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/FJvOylVVSUKdN47ol5DY3g-anders-jilden-cYrMQA7a3Wc-unsplash.jpg
+      type: text
+    size:
+      value: 808153
+      type: number
+    width:
+      value: 2400
+      type: number
+    height:
+      value: 1600
+      type: number
+    custom: {}
+created: '2025-03-25T13:01:21.034798+00:00'
+modified: '2025-03-25T13:01:21.034798+00:00'

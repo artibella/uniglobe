@@ -1,9 +1,9 @@
 id: attraction
 name: Attraction
 created: '2024-11-25T12:44:23.972203+00:00'
-updated: '2024-11-25T12:44:23.972203+00:00'
+updated: '2025-03-14T11:16:42.64938+00:00'
 slugSettings: {}
-useTeamPermissions: true
+useTeamPermissions: false
 fields:
   - id: title
     name: Title
@@ -52,4 +52,28 @@ thumbnailField: image
 description: ''
 icon: flag-alt
 type: contentType
-permissions: []
+permissions:
+  - roleId: 798be9d8-4202-44f7-b7c6-942bd5e26406
+    permission: read
+    state: 0
+  - roleId: 798be9d8-4202-44f7-b7c6-942bd5e26406
+    permission: read
+    state: 64
+  - roleId: 798be9d8-4202-44f7-b7c6-942bd5e26406
+    permission: write
+    state: 0
+  - roleId: 798be9d8-4202-44f7-b7c6-942bd5e26406
+    permission: write
+    state: 64
+  - roleId: 798be9d8-4202-44f7-b7c6-942bd5e26406
+    permission: create
+    state: 0
+  - roleId: 798be9d8-4202-44f7-b7c6-942bd5e26406
+    permission: create
+    state: 64
+  - roleId: 798be9d8-4202-44f7-b7c6-942bd5e26406
+    permission: delete
+    state: 0
+  - roleId: 798be9d8-4202-44f7-b7c6-942bd5e26406
+    permission: delete
+    state: 64

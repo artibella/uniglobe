@@ -7,26 +7,61 @@ composition:
     Country Content:
       type: country
       variables:
-        locale: ${locale}
+        locale: ${locale},en-US
         entryId: 035a64b1-730e-444c-921a-431bc2712e14
   _overrides:
+    565b38a6-aafa-468f-a314-778e548b635d:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/name/value}
+        twitterTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        openGraphTitle:
+          type: text
+          locales:
+            de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+        twitterDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        pageMetaDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
+        openGraphDescription:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
     565b38a6-aafa-468f-a314-778e548b635d|68fa61d5-dfe1-402c-98f7-fb0a9068833e:
       parameters:
         title:
           type: text
           locales:
+            de-DE: You also might like
             en-US: You also might like
         description:
           type: text
           locales:
+            de-DE: Explore these popular destinations
             en-US: Explore these popular destinations
       dataResources:
         Featured countries:
           type: multipleCountries
           variables:
-            locale: ${locale}
+            locale: ${locale},en-US
             entryIds: >-
               8abbed23-87a2-4f1d-8ba8-e26818e7c323,1e00d404-3375-4219-a14f-dc639caf6147,9b2812f5-7003-4d80-9fef-362e1fa2a0aa
+    565b38a6-aafa-468f-a314-778e548b635d|89a78264-bfb9-4be3-af8d-0bdf4b26ac41:
+      parameters:
+        eyebrowText:
+          type: text
+          value: >-
+            ${#jptr:/Country
+            Content/entry/fields/region/value/entry/fields/name/value}
     565b38a6-aafa-468f-a314-778e548b635d|f0693bc9-5723-4bc9-924b-f2fd6fe3089f:
       slots:
         $slotSectionItems:
@@ -39,6 +74,30 @@ composition:
               videoAsset:
                 type: asset
                 locales:
+                  de-DE:
+                    - _id: 9b570863-a787-4f48-a055-dcec0c85c853
+                      type: video
+                      fields:
+                        id:
+                          type: text
+                          value: 1813675e-3f84-4929-9543-d2961f500c44
+                        url:
+                          type: text
+                          value: >-
+                            https://files.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/WbdfSHuvS5iWJPORozx7Tg-turtle.mp4
+                        file:
+                          type: file
+                          value: 0bb5ef7f-f7f7-4ca8-8a0f-3e6a25c3bfdb
+                        size:
+                          type: number
+                          value: 12030518
+                        title:
+                          type: text
+                          value: turtle.mp4
+                        mediaType:
+                          type: text
+                          value: video/mp4
+                      _source: uniform-assets
                   en-US:
                     - _id: 9b570863-a787-4f48-a055-dcec0c85c853
                       type: video
@@ -94,7 +153,8 @@ composition:
           locales: {}
   _locales:
     - en-US
+    - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-11-08T14:38:18.10988+00:00'
-modified: '2025-01-24T10:22:03.065457+00:00'
+modified: '2025-03-18T14:38:03.246602+00:00'
 pattern: false

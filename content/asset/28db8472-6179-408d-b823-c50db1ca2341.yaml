@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 28db8472-6179-408d-b823-c50db1ca2341
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: shibuya-crazy-by-jezael-melgoza-unsplash-small-alY6_Opd.jpg
+    file:
+      type: file
+      value: 95a52eaa-2227-4367-9d25-979e036827d0
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/Z8gsqFLSTAu159uFwJq6jw-shibuya-crazy-by-jezael-melgoza-unsplash-small-alY6_Opd.jpg
+      type: text
+    size:
+      value: 47011
+      type: number
+    width:
+      value: 400
+      type: number
+    height:
+      value: 267
+      type: number
+    custom: {}
+created: '2025-03-25T13:01:21.034798+00:00'
+modified: '2025-03-25T13:01:21.034798+00:00'

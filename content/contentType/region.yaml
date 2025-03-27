@@ -1,10 +1,10 @@
 id: region
 name: Region
-created: '2025-02-06T09:47:53.636936+00:00'
-updated: '2025-02-27T11:15:41.821565+00:00'
+created: '2024-01-18T13:20:21.829613+00:00'
+updated: '2025-03-14T11:15:39.980948+00:00'
 slugSettings:
   required: 'no'
-useTeamPermissions: true
+useTeamPermissions: false
 fields:
   - id: name
     name: Name
@@ -90,4 +90,10 @@ thumbnailField: image
 description: ''
 icon: pin
 type: contentType
-permissions: []
+permissions:
+  - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
+    permission: read
+    state: 0
+  - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
+    permission: read
+    state: 64

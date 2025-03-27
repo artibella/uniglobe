@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 47d8f407-a05c-4966-8e41-cf7c7e374ce0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: erik-eastman-4HG5hlhmZg8-unsplash.jpg
+    file:
+      type: file
+      value: d75a62df-4a27-4f26-b97b-e93f2d6a1b7e
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/NHYS8N7_RDSrzMiWIOfT1g-erik-eastman-4HG5hlhmZg8-unsplash.jpg
+      type: text
+    size:
+      value: 4290437
+      type: number
+    width:
+      value: 2995
+      type: number
+    height:
+      value: 4492
+      type: number
+    custom: {}
+created: '2025-03-25T13:01:21.034798+00:00'
+modified: '2025-03-25T13:01:21.034798+00:00'

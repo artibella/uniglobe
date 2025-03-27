@@ -1,10 +1,10 @@
 id: country
 name: Country
 created: '2024-01-18T12:23:31.527234+00:00'
-updated: '2025-02-28T16:26:26.443893+00:00'
+updated: '2025-03-14T11:15:18.953989+00:00'
 slugSettings:
   required: 'no'
-useTeamPermissions: true
+useTeamPermissions: false
 fields:
   - id: name
     name: Name
@@ -192,4 +192,10 @@ thumbnailField: flag
 description: ''
 icon: globe-alt
 type: contentType
-permissions: []
+permissions:
+  - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
+    permission: read
+    state: 0
+  - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
+    permission: read
+    state: 64

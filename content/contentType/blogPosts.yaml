@@ -1,0 +1,108 @@
+id: blogPosts
+name: Blog posts
+created: '2025-03-14T11:04:33.745697+00:00'
+updated: '2025-03-14T11:08:23.43269+00:00'
+slugSettings: {}
+useTeamPermissions: false
+fields:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: body
+    name: Body
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+            - video
+    localizable: true
+  - id: featuredImage
+    name: Featured image
+    type: asset
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+entryName: title
+thumbnailField: featuredImage
+icon: file-document
+type: contentType
+permissions:
+  - roleId: 11102cae-a68c-4769-9373-21fea82ff1ad
+    permission: read
+    state: 0
+  - roleId: 11102cae-a68c-4769-9373-21fea82ff1ad
+    permission: read
+    state: 64
+  - roleId: 11102cae-a68c-4769-9373-21fea82ff1ad
+    permission: write
+    state: 0
+  - roleId: 11102cae-a68c-4769-9373-21fea82ff1ad
+    permission: write
+    state: 64
+  - roleId: 11102cae-a68c-4769-9373-21fea82ff1ad
+    permission: create
+    state: 0
+  - roleId: 11102cae-a68c-4769-9373-21fea82ff1ad
+    permission: create
+    state: 64
+  - roleId: 11102cae-a68c-4769-9373-21fea82ff1ad
+    permission: delete
+    state: 0
+  - roleId: 11102cae-a68c-4769-9373-21fea82ff1ad
+    permission: delete
+    state: 64
+  - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
+    permission: read
+    state: 0
+  - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
+    permission: read
+    state: 64
+  - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
+    permission: write
+    state: 0
+  - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
+    permission: write
+    state: 64
+  - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
+    permission: create
+    state: 0
+  - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
+    permission: create
+    state: 64
+  - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
+    permission: delete
+    state: 0
+  - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
+    permission: delete
+    state: 64

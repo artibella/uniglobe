@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: eb2c3354-bb0c-4525-bc18-e0450a144eae
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: serey-kim-xjrvTc52xYc-unsplash.jpg
+    file:
+      type: file
+      value: 0ab5f483-3590-482c-b468-c11b2c386ea4
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/Z_wEljEOT5u2Im7fgSNO3Q-serey-kim-xjrvTc52xYc-unsplash.jpg
+      type: text
+    size:
+      value: 2918876
+      type: number
+    width:
+      value: 7708
+      type: number
+    height:
+      value: 3036
+      type: number
+    custom: {}
+created: '2025-03-25T13:01:21.034798+00:00'
+modified: '2025-03-25T13:01:21.034798+00:00'
