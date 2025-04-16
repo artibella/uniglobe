@@ -1,0 +1,15 @@
+created: '2025-04-04T09:48:33.446465+00:00'
+modified: '2025-04-04T09:48:38.350656+00:00'
+pattern: false
+entry:
+  _id: 444e9b8a-255b-4387-9579-071e87a0784c
+  _name: Photo Stop
+  _slug: photo-stop
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Photo Stop
+  _locales:
+    - en-US

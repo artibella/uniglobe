@@ -1,0 +1,15 @@
+created: '2025-04-04T09:45:14.731534+00:00'
+modified: '2025-04-04T09:45:21.603072+00:00'
+pattern: false
+entry:
+  _id: 2016edcf-8b3c-4b40-bdcb-eb8a94e1ff4a
+  _name: Accommodation
+  _slug: accommodation
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Accommodation
+  _locales:
+    - en-US

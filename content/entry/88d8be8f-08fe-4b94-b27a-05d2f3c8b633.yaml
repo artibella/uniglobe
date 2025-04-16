@@ -1,9 +1,9 @@
 created: '2024-08-21T13:08:06.173321+00:00'
-modified: '2025-03-27T18:46:14.285801+00:00'
+modified: '2025-04-10T12:31:22.746707+00:00'
 pattern: false
 entry:
   _id: 88d8be8f-08fe-4b94-b27a-05d2f3c8b633
-  _name: North America
+  _name: Nordamerika
   _slug: north-america
   _thumbnail: >-
     https://images.pexels.com/photos/32307/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940
@@ -12,10 +12,59 @@ entry:
     name:
       type: text
       locales:
-        en-US: North America
+        de-DE: North America
+        en-US: Nordamerika
     image:
       type: asset
       locales:
+        de-DE:
+          - _id: 2bb693cf-0aea-4579-a070-d8e5fc89f71c
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.pexels.com/photos/32307/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940
+              title:
+                type: text
+                value: >-
+                  High-angle view of a vintage map depicting the United States
+                  with intricate details.
+              width:
+                type: number
+                value: 4608
+              custom:
+                type: object
+                value:
+                  sourceId: '32307'
+                  pexelsUrl: >-
+                    https://www.pexels.com/photo/map-of-the-world-book-laid-open-on-brown-wooden-surface-32307/
+                  photoTinyUrl: >-
+                    https://images.pexels.com/photos/32307/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                  photographer: John-Mark Smith
+                  photoLargeUrl: >-
+                    https://images.pexels.com/photos/32307/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940
+                  photoSmallUrl: >-
+                    https://images.pexels.com/photos/32307/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=130
+                  photoMediumUrl: >-
+                    https://images.pexels.com/photos/32307/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350
+                  photoLarge2xUrl: >-
+                    https://images.pexels.com/photos/32307/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                  photographerUrl: https://www.pexels.com/@jmark
+                  photoPortraitUrl: >-
+                    https://images.pexels.com/photos/32307/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                  pexelsOriginalUrl: https://images.pexels.com/photos/32307/pexels-photo.jpg
+                  photoLandscapeUrl: >-
+                    https://images.pexels.com/photos/32307/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+              height:
+                type: number
+                value: 3072
+              description:
+                type: text
+                value: >-
+                  High-angle view of a vintage map depicting the United States
+                  with intricate details. - Photo by John-Mark Smith on Pexels
+            _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
         en-US:
           - _id: 2bb693cf-0aea-4579-a070-d8e5fc89f71c
             type: image
@@ -65,9 +114,19 @@ entry:
                   with intricate details. - Photo by John-Mark Smith on Pexels
             _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
       value: []
+    customSlug:
+      type: text
+      locales:
+        de-DE: nordamerika
+        en-US: north-america
     teaserText:
       type: text
       locales:
+        de-DE: >-
+          Discover the diverse wonders of North America, from the majestic
+          Rockies to vibrant cities and stunning coastlines. Immerse yourself in
+          rich history, thrilling adventures, and culinary delights. Your
+          unforgettable journey awaits.
         en-US: >-
           Discover the diverse wonders of North America, from the majestic
           Rockies to vibrant cities and stunning coastlines. Immerse yourself in
@@ -76,6 +135,68 @@ entry:
     description:
       type: richText
       locales:
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Discover the diverse wonders of North America, from the
+                      majestic Rocky Mountains to the vibrant cities of the East
+                      Coast. Explore iconic landmarks like the Grand Canyon and
+                      Niagara Falls, or immerse yourself in the rich cultures of
+                      New Orleans and San Francisco. 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Savor the flavors of classic American cuisine, and uncover
+                      the fascinating history that shaped this continent.
+                      Whether you seek adventure or relaxation, North America
+                      offers an unforgettable experience. 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Start planning your journey today.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
         en-US:
           root:
             type: root
@@ -150,3 +271,4 @@ entry:
           19d4ce40-1fc2-46cb-ac68-4b89d1956170,5ca426ea-70d4-4837-aa2b-172291f03447,19e60e4d-45a2-4f36-a256-f95107fa4511
   _locales:
     - en-US
+    - de-DE

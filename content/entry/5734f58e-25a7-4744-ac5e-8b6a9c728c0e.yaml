@@ -1,0 +1,15 @@
+created: '2025-04-04T09:45:54.054925+00:00'
+modified: '2025-04-04T09:46:04.102632+00:00'
+pattern: false
+entry:
+  _id: 5734f58e-25a7-4744-ac5e-8b6a9c728c0e
+  _name: Activity
+  _slug: activity
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Activity
+  _locales:
+    - en-US

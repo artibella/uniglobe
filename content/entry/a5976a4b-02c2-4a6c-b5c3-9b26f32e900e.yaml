@@ -1,0 +1,137 @@
+created: '2025-03-28T11:33:38.46673+00:00'
+modified: '2025-03-28T11:35:36.476213+00:00'
+pattern: false
+entry:
+  _id: a5976a4b-02c2-4a6c-b5c3-9b26f32e900e
+  _name: Africa
+  _slug: africa
+  _thumbnail: >-
+    https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  type: region
+  fields: {}
+  _dataResources:
+    Countries:
+      type: countriesByRegionName
+      variables:
+        region: africa
+  _locales:
+    - en-US
+  _overrides:
+    a5976a4b-02c2-4a6c-b5c3-9b26f32e900e:
+      parameters:
+        name:
+          type: text
+          locales:
+            en-US: Africa
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: bd7a9bfe-3779-4cee-9187-9a319f493108
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      A group of zebras graze under sunrays in the Ngorongoro
+                      Crater, Tanzania, showcasing wildlife and natural beauty.
+                  width:
+                    type: number
+                    value: 4898
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '2862070'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/five-zebra-grazing-on-grass-field-2862070/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Hendrik Cornelissen
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@hendrikcornelissen
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 3265
+                  description:
+                    type: text
+                    value: >-
+                      A group of zebras graze under sunrays in the Ngorongoro
+                      Crater, Tanzania, showcasing wildlife and natural beauty.
+                      - Photo by Hendrik Cornelissen on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              Discover Africa's breathtaking diversity, from the Sahara to the
+              Serengeti. Experience vibrant cultures, incredible wildlife, and
+              ancient wonders
+        description:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Discover the breathtaking wonders of Africa, from the
+                          majestic Sahara Desert to the lush rainforests of the
+                          Congo Basin. Witness the Big Five on thrilling safari
+                          adventures, trek through ancient mountain ranges, and
+                          immerse yourself in the vibrant cultures of over 1.2
+                          billion people across 54 diverse countries. Explore
+                          iconic landmarks like the Pyramids of Giza and
+                          Victoria Falls, and savor the flavors of traditional
+                          cuisine. With its rich history and stunning natural
+                          beauty, Africa promises an unforgettable journey. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Start planning your African adventure today!
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+  _pattern: 1f641569-4da4-4a00-b036-90661bac2328

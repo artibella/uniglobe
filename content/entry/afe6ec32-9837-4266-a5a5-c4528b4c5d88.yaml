@@ -1,0 +1,15 @@
+created: '2025-04-04T09:46:22.818043+00:00'
+modified: '2025-04-04T09:46:27.668996+00:00'
+pattern: false
+entry:
+  _id: afe6ec32-9837-4266-a5a5-c4528b4c5d88
+  _name: Meal
+  _slug: meal
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Meal
+  _locales:
+    - en-US

@@ -1,0 +1,15 @@
+created: '2025-04-04T09:46:53.517606+00:00'
+modified: '2025-04-04T09:47:01.425825+00:00'
+pattern: false
+entry:
+  _id: cbe4db3b-1e9d-4519-bb1e-25feb1fb67aa
+  _name: Free Time
+  _slug: free-time
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Free Time
+  _locales:
+    - en-US

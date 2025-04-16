@@ -1,0 +1,299 @@
+id: itineraryStop
+name: Itinerary Stop
+created: '2025-04-04T08:53:06.066208+00:00'
+updated: '2025-04-04T09:54:44.543129+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: 244ddd27-cd7e-4941-9cdd-00ce6fd0db6e
+    name: Basic information
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - title
+        - type
+        - description
+        - image
+  - id: title
+    name: Title
+    type: text
+    helpText: Name of this stop or activity as it will appear to travelers.
+    typeConfig:
+      required: true
+    localizable: true
+  - id: type
+    name: Type
+    type: contentReference
+    helpText: >-
+      Choose the activity type that best describes this stop for traveler
+      understanding and filtering.
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        - activityType
+  - id: description
+    name: Description
+    type: richText
+    helpText: >-
+      Detailed information about what travelers will see, do, or experience at
+      this stop.
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    helpText: Visual representation of this stop to display in the itinerary.
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+  - id: notes
+    name: Notes
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: 4c838e94-e1e2-4b13-9faa-1f9f175304dd
+    name: Timing & Duration
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - duration
+        - timeOfDay
+  - id: duration
+    name: Duration
+    type: text
+    helpText: How long this stop typically takes (e.g., '2 hours', '45 minutes').
+    typeConfig: null
+    localizable: true
+  - id: timeOfDay
+    name: Time of Day
+    type: multi-select
+    helpText: When this activity takes place during the day.
+    typeConfig:
+      options:
+        - text: Morning
+          value: morning
+        - text: Afternoon
+          value: afternoon
+        - text: Evening
+          value: evening
+        - text: Night
+          value: night
+  - id: dcbe8a74-e7d4-4931-aecc-615a9e7d7c46
+    name: Locations
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - startLocation
+        - endLocation
+        - distance
+  - id: startLocation
+    name: Start location
+    type: text
+    helpText: Where this activity begins, especially important for transport or tours.
+    typeConfig: null
+    localizable: true
+  - id: endLocation
+    name: End location
+    type: text
+    helpText: '"Where this activity ends, if different from the starting point.'
+    typeConfig: null
+    localizable: true
+  - id: distance
+    name: Distance
+    type: text
+    helpText: Distance covered during transport or tour.
+    typeConfig: null
+    localizable: true
+  - id: d883e550-e6ca-437b-aa5c-e0a5d0a62b8e
+    name: Points of Interest
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - highlights
+        - attractions
+  - id: highlights
+    name: Highlights
+    type: richText
+    helpText: Key points or special features of this stop to emphasize to travelers.
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: attractions
+    name: Attractions
+    type: contentReference
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - attraction
+  - id: 490a2e2c-f6da-412f-9ae7-f9cf07fef111
+    name: Meals
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - includedMeals
+        - mealNotes
+  - id: includedMeals
+    name: Included meals
+    type: multi-select
+    helpText: Meals that are included as part of this stop.
+    typeConfig:
+      options:
+        - text: Breakfast
+          value: breakfast
+        - text: Lunch
+          value: lunch
+        - text: Dinner
+          value: dinner
+        - text: Snack
+          value: snack
+  - id: mealNotes
+    name: Meal notes
+    type: text
+    helpText: Additional details about included meals, dietary options, etc.
+    typeConfig: null
+    localizable: true
+  - id: 15b2760b-6894-4e3b-959c-3763800a1203
+    name: Pricing & Options
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - priceStatus
+        - isOptional
+        - costAmount
+  - id: priceStatus
+    name: Price status
+    type: select
+    helpText: Specify how this activity is priced for travelers
+    typeConfig:
+      options:
+        - text: Included in trip price
+          value: included
+        - text: Additional cost
+          value: excluded
+        - text: Optional Add-on
+          value: addon
+  - id: isOptional
+    name: Optional Activity
+    type: checkbox
+    helpText: Indicates whether travelers can choose to skip this activity.
+    typeConfig: null
+  - id: costAmount
+    name: Cost Amount
+    type: $block
+    helpText: Amount travelers will pay for this activity if not included in base price.
+    typeConfig:
+      allowedTypes:
+        - price
+  - id: itineraryStops
+    name: Itinerary Stops
+    type: $block
+    helpText: Add detailed stops that occur within this main stop.
+    typeConfig:
+      allowedTypes:
+        - itineraryStop
+entryName: title
+thumbnailField: image
+description: >-
+  An Itinerary Stop represents a specific location, activity, or experience that
+  travellers will encounter during a particular day of their journey.
+icon: pin
+type: block
+permissions: []
+previewConfigurations: []

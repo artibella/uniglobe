@@ -1,11 +1,11 @@
 asset:
   type: image
   _id: de291020-e1a2-4ab8-91e7-63cb98ad67eb
-  _name: ''
+  _name: anders-jilden-cYrMQA7a3Wc-unsplash.jpg
   fields:
     title:
       type: text
-      value: anders-jilden-cYrMQA7a3Wc-unsplash.jpg
+      value: Italian village by the Ocean
     file:
       type: file
       value: 532ceaab-60a4-4be9-be19-b14b90e6f654
@@ -27,4 +27,4 @@ asset:
       type: number
     custom: {}
 created: '2025-03-25T13:01:21.034798+00:00'
-modified: '2025-03-25T13:01:21.034798+00:00'
+modified: '2025-04-07T17:32:26.217783+00:00'

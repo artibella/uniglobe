@@ -1,0 +1,15 @@
+created: '2025-04-04T09:48:14.078033+00:00'
+modified: '2025-04-04T09:48:20.080843+00:00'
+pattern: false
+entry:
+  _id: 7fea75ec-b36a-463c-a9e4-3eb299f902b4
+  _name: Nature & Wildlife
+  _slug: nature-and-wildlife
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Nature & Wildlife
+  _locales:
+    - en-US

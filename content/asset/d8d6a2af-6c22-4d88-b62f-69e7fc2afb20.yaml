@@ -28,6 +28,11 @@ asset:
     height:
       value: 1125
       type: number
+    focalPoint:
+      value:
+        x: 0.8
+        'y': 0.85
+      type: focalPoint
     custom: {}
 created: '2025-02-17T13:40:35.177506+00:00'
-modified: '2025-02-17T13:41:17.284255+00:00'
+modified: '2025-04-04T17:58:24.048051+00:00'

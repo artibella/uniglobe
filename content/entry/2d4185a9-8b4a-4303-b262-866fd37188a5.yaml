@@ -1,0 +1,135 @@
+created: '2025-04-04T14:23:53.432741+00:00'
+modified: '2025-04-04T15:16:31.619939+00:00'
+pattern: false
+entry:
+  _id: 2d4185a9-8b4a-4303-b262-866fd37188a5
+  _name: Tokyo to Kyoto
+  _slug: tokyo-to-kyoto
+  _thumbnail: >-
+    https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  type: trip
+  fields:
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: ab0390a5-5f8d-41cd-a4fe-c449eec4f6c7
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+              title:
+                type: text
+                value: >-
+                  Beautiful view of Kiyomizu Dera Temple in Kyoto, showcasing
+                  traditional Japanese architecture under a vibrant sky.
+              width:
+                type: number
+                value: 4172
+              custom:
+                type: object
+                value:
+                  sourceId: '1673978'
+                  pexelsUrl: https://www.pexels.com/photo/temple-1673978/
+                  photoTinyUrl: >-
+                    https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                  photographer: Kyle Kroeger
+                  photoLargeUrl: >-
+                    https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  photoSmallUrl: >-
+                    https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?auto=compress&cs=tinysrgb&h=130
+                  photoMediumUrl: >-
+                    https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?auto=compress&cs=tinysrgb&h=350
+                  photoLarge2xUrl: >-
+                    https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                  photographerUrl: https://www.pexels.com/@blackbearmedia
+                  photoPortraitUrl: >-
+                    https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                  pexelsOriginalUrl: >-
+                    https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg
+                  photoLandscapeUrl: >-
+                    https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+              height:
+                type: number
+                value: 2613
+              description:
+                type: text
+                value: >-
+                  Beautiful view of Kiyomizu Dera Temple in Kyoto, showcasing
+                  traditional Japanese architecture under a vibrant sky. - Photo
+                  by Kyle Kroeger on Pexels
+            _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+      value: []
+    title:
+      type: text
+      locales:
+        en-US: Tokyo to Kyoto
+    regions:
+      type: contentReference
+      value: ${#jptr:/ref-2d4185a9-8b4a-4303-b262-866fd37188a5-regions/entries}
+    duration:
+      type: text
+      locales:
+        en-US: 8 days
+    countries:
+      type: contentReference
+      value: ${#jptr:/ref-2d4185a9-8b4a-4303-b262-866fd37188a5-countries/entries}
+    itinerary:
+      type: $block
+      value:
+        - _id: 3ff6f808-dbfb-4d93-9721-db88aaa20d94
+          type: itineraryStop
+          fields:
+            type:
+              type: contentReference
+              value: >-
+                ${#jptr:/ref-3ff6f808-dbfb-4d93-9721-db88aaa20d94-type/entries/0}
+            title:
+              type: text
+              locales:
+                en-US: Day 1
+            priceStatus:
+              type: select
+              value: included
+            includedMeals:
+              type: multi-select
+              value:
+                - breakfast
+                - lunch
+          _dataResources:
+            ref-3ff6f808-dbfb-4d93-9721-db88aaa20d94-type:
+              type: uniformContentInternalReference
+              variables:
+                locale: ${locale}
+                entryIds: a3f2dbef-c735-4943-b25f-c754ecd2c51d
+    attractions:
+      type: contentReference
+      value: ${#jptr:/ref-2d4185a9-8b4a-4303-b262-866fd37188a5-attractions/entries}
+    endLocation:
+      type: text
+      locales:
+        en-US: Kyoto, Japan
+    startLocation:
+      type: text
+      locales:
+        en-US: Tokyo, Japan
+  _dataResources:
+    ref-2d4185a9-8b4a-4303-b262-866fd37188a5-regions:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
+    ref-2d4185a9-8b4a-4303-b262-866fd37188a5-countries:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+    ref-2d4185a9-8b4a-4303-b262-866fd37188a5-attractions:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: f9245328-a695-4e7a-882d-178d4084c4ca
+  _locales:
+    - en-US

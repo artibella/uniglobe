@@ -1,7 +1,7 @@
 id: country
 name: Country
 created: '2024-01-18T12:23:31.527234+00:00'
-updated: '2025-03-27T15:13:31.003709+00:00'
+updated: '2025-04-09T10:34:18.449724+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -194,3 +194,11 @@ permissions:
   - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
     permission: read
     state: 64
+previewConfigurations:
+  - type: project-map
+    id: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+    label: Detail page
+    dynamicInputs:
+      locale: ${locale}
+      region: ${#jptr:/entry/fields/region/value/entry/_slug}
+      destination: ${#jptr:/entry/_slug}

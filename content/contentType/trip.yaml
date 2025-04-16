@@ -1,7 +1,7 @@
 id: trip
 name: Trip
 created: '2025-01-28T10:50:10.825326+00:00'
-updated: '2025-03-27T15:15:28.555817+00:00'
+updated: '2025-04-04T14:23:36.8409+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
@@ -10,23 +10,107 @@ fields:
     type: text
     typeConfig: null
     localizable: true
-  - id: arrivaldate
-    name: Arrival date
-    type: datetime
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+  - id: media
+    name: Media
+    type: asset
+    typeConfig:
+      allowedTypes:
+        - image
+        - video
+    localizable: true
+  - id: duration
+    name: Duration
+    type: text
     typeConfig: null
-  - id: departureDate
-    name: Departure date
-    type: datetime
+    localizable: true
+  - id: startLocation
+    name: Start location
+    type: text
     typeConfig: null
-  - id: itinerary
-    name: Itinerary
+    localizable: true
+  - id: endLocation
+    name: End location
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: regions
+    name: Regions
     type: contentReference
     typeConfig:
       isMulti: true
       allowedContentTypes:
-        - attraction
+        - region
+  - id: countries
+    name: Countries
+    type: contentReference
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
         - country
+  - id: attractions
+    name: Main attractions
+    type: contentReference
+    helpText: Which attractions are the highlights of the trip
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - attraction
+  - id: ageRange
+    name: Age range
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: itinerary
+    name: Itinerary
+    type: $block
+    typeConfig:
+      allowedTypes:
+        - itineraryStop
 entryName: title
+thumbnailField: image
 description: |-
   A created itinerary of visits to one or more places of interest,
   Inspired by https://schema.org/TouristTrip
@@ -105,3 +189,4 @@ permissions:
   - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
     permission: delete
     state: 64
+previewConfigurations: []

@@ -1,0 +1,15 @@
+created: '2025-04-04T09:47:57.783511+00:00'
+modified: '2025-04-04T09:48:03.332038+00:00'
+pattern: false
+entry:
+  _id: 114bae5e-d192-4da2-ba15-0a3bdb2accb6
+  _name: Entertainment
+  _slug: entertainment
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Entertainment
+  _locales:
+    - en-US

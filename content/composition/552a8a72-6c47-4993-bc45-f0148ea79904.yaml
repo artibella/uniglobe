@@ -6,41 +6,110 @@ composition:
     pageTitle:
       type: text
       locales:
-        en-US: Uniform’s Component Starter Kit
+        en-US: Uniglobe Travel | Exceptional Travel Experiences
     twitterCard:
       type: select
       value: summary_large_image
     pageKeywords:
       type: text
       locales:
-        en-US: uniform, nextjs, composable, cms, commerce
+        en-US: >-
+          travel, vacation, adventure, global travel, luxury travel, business
+          travel, group travel
     twitterImage:
       type: asset
-      value: []
+      value:
+        - _id: 6b327f7e-7687-4b94-9083-2b373583cd7b
+          type: image
+          fields:
+            id:
+              type: text
+              value: 2d06cb01-b8aa-490b-8567-43a27046030d
+            url:
+              value: >-
+                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+              type: text
+            file:
+              type: file
+              value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
+            size:
+              value: 18253
+              type: number
+            title:
+              type: text
+              value: Logo Uniglobe (SVG)
+            width:
+              value: 358
+              type: number
+            height:
+              value: 335
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
     twitterTitle:
       type: text
       locales:
-        en-US: Test Twitter Title
+        en-US: Uniglobe Travel | Your Journey, Our Expertise
     openGraphType:
       type: select
       value: website
     openGraphImage:
       type: asset
-      value: []
+      value:
+        - _id: 32d146e7-dcdd-451b-bae1-30584def01de
+          type: image
+          fields:
+            id:
+              type: text
+              value: 2d06cb01-b8aa-490b-8567-43a27046030d
+            url:
+              value: >-
+                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+              type: text
+            file:
+              type: file
+              value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
+            size:
+              value: 18253
+              type: number
+            title:
+              type: text
+              value: Logo Uniglobe (SVG)
+            width:
+              value: 358
+              type: number
+            height:
+              value: 335
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
     openGraphTitle:
       type: text
       locales:
-        en-US: Uniform // Component Starter Kit
+        en-US: Uniglobe Travel | Your Journey, Our Expertise
     twitterDescription:
       type: text
       locales:
-        en-US: Test Twitter Description
+        en-US: >-
+          Discover personalized travel solutions crafted by industry experts
+          with over 25 years of global experience.
     pageMetaDescription:
       type: text
       locales:
         en-US: >-
-          Essential set of components you need to start building personalizable
-          web experiences with Uniform.
+          Discover personalized travel solutions crafted by industry experts
+          with over 25 years of global experience. Let Uniglobe be your gateway
+          to extraordinary destinations.
+    openGraphDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover personalized travel solutions crafted by industry experts
+          with over 25 years of global experience.
     overlayTitleToTwitterImage:
       type: checkbox
       value: true
@@ -62,40 +131,62 @@ composition:
             type: asset
             locales:
               en-US:
-                - _id: d3788ab5-1e29-4fcc-af9b-15665112d7fb
+                - _id: 7f09a9b7-43da-4f24-b690-fe2708b4775f
                   type: image
                   fields:
-                    id:
-                      type: text
-                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                     url:
-                      value: >-
-                        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/k1_VXz4cSo-x7dnH4q_t2g-rectangle.webp
                       type: text
-                    file:
-                      type: file
-                      value: 69fa8a52-761c-4a8a-977d-346522aa884c
-                    size:
-                      value: 49092
-                      type: number
+                      value: >-
+                        https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=85
                     title:
                       type: text
-                      value: rectangle.webp
+                      value: On a boat on Lago di Braies
                     width:
-                      value: 1600
                       type: number
+                      value: 4896
+                    custom:
+                      type: object
+                      value:
+                        color: '#262626'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/brown-wooden-boat-moving-towards-the-mountain-O453M2Liufs
+                        blurHash: LmG921WAE1Rj_4V@RPRj-;WBj@Rj
+                        sourceId: O453M2Liufs
+                        createdAt: '2016-10-15T06:59:06Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/brown-wooden-boat-moving-towards-the-mountain-O453M2Liufs
+                        updatedAt: '2025-04-07T09:02:29Z'
+                        authorName: Luca Bravo
+                        downloadUrl: >-
+                          https://unsplash.com/photos/O453M2Liufs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=80&w=200
+                        authorUsername: lucabravo
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@lucabravo
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/O453M2Liufs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1585521746678-1988925483d3image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
                     height:
-                      value: 689
                       type: number
-                    mediaType:
-                      value: image/webp
+                      value: 3264
+                    description:
                       type: text
-                  _source: uniform-assets
+                      value: Photo by Luca Bravo on Unsplash
+                  _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
             value: []
           title:
             type: text
             locales:
-              en-US: Uniglobe
+              en-US: Your Journey, Our Expertise
           objectFit:
             type: select
             value: cover
@@ -108,14 +199,25 @@ composition:
           description:
             type: text
             locales:
-              en-US: a travel-themed demo site for Uniform
+              en-US: >-
+                Discover personalized travel solutions crafted by industry
+                experts with over 25 years of global experience
           eyebrowText:
             type: text
             locales:
-              en-US: hello and welcome! this is
+              en-US: Exceptional Travel Experiences
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
           paddingBottom:
             type: select
             value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Light
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 30%
           containerVariant:
             type: select
             value: fluidContent
@@ -144,7 +246,7 @@ composition:
           title:
             type: text
             locales:
-              en-US: How will Component Starter Kit help you?
+              en-US: How can Uniglobe elevate your travel experience?
           titleStyle:
             type: tp-title-style-parameter
             value: h2
@@ -152,14 +254,14 @@ composition:
             type: text
             locales:
               en-US: >-
-                The Component Starter kit gives you the key building blocks to
-                create dynamic and compelling web experiences and demonstrate
-                the power of digital experience composition in Uniform. Just
-                install, customize and start creating.
+                From pristine beaches to ancient wonders, Uniglobe Travel
+                provides unforgettable journeys tailored to your preferences.
+                Our expert travel advisors ensure every detail of your trip
+                exceeds expectations.
           eyebrowText:
             type: text
             locales:
-              en-US: ''
+              en-US: Travel with Confidence
       - _id: cc1d51b7-9e89-4031-8658-5b0d81ba15a7
         type: featuredCallout
         slots:
@@ -173,58 +275,26 @@ composition:
                 title:
                   type: text
                   locales:
-                    en-US: Clone, run locally, and customize
+                    en-US: Personalized Itineraries
                 description:
                   type: text
                   locales:
                     en-US: >-
-                      We designed the starter kit for you to take it home and
-                      customize it according to your needs. Go nuts!
+                      Custom travel plans designed around your preferences,
+                      schedule, and budget. Your dream vacation, your way.
             - _id: 2a2bb40f-f543-4566-97c8-7cd14cb82bc1
               type: feature
               parameters:
-                icon:
-                  type: asset
-                  value:
-                    - _id: 428b0c14-b724-4bdc-beca-73cf149c35f4
-                      type: image
-                      fields:
-                        id:
-                          type: text
-                          value: 68b4d970-8062-4a91-965b-97d2587811fc
-                        url:
-                          value: >-
-                            https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/MIWsDoPXSw-zFY1_TdqD_g-icon_improve.svg
-                          type: text
-                        file:
-                          type: file
-                          value: 7e74c65b-c100-4d3e-91ad-5e605bf70b79
-                        size:
-                          value: 729
-                          type: number
-                        title:
-                          type: text
-                          value: icon_improve.svg
-                        width:
-                          value: 35
-                          type: number
-                        height:
-                          value: 48
-                          type: number
-                        mediaType:
-                          value: image/svg+xml
-                          type: text
-                      _source: uniform-assets
                 title:
                   type: text
                   locales:
-                    en-US: Optimized for performance
+                    en-US: Global Expertise
                 description:
                   type: text
                   locales:
                     en-US: >-
-                      Lightweight React components help keep your Core Web
-                      Vitals green.
+                      Local insights and insider access to destinations
+                      worldwide through our established network of partners.
             - _id: 19438067-1453-4709-9346-914fdac47fe0
               type: feature
               parameters:
@@ -234,53 +304,73 @@ composition:
                 title:
                   type: text
                   locales:
-                    en-US: Completely adaptable
+                    en-US: 24/7 Support
                 description:
                   type: text
                   locales:
                     en-US: >-
-                      The whole library is open source and based on TailwindCSS
-                      and DaisyUI, making it easy for you to adapt to your brand
-                      style.
+                      Travel with confidence knowing our team is available
+                      whenever you need assistance, no matter where you are in
+                      the world.
         parameters:
           image:
             type: asset
             locales:
               en-US:
-                - _id: 78eaa239-74c5-4ffa-b9e8-748bae255ab9
+                - _id: 9c6c93d5-8947-41e8-9588-e5da0e198b23
                   type: image
                   fields:
-                    id:
-                      type: text
-                      value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
                     url:
-                      value: >-
-                        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
                       type: text
-                    file:
-                      type: file
-                      value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                    size:
-                      value: 76327
-                      type: number
+                      value: >-
+                        https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
                     title:
                       type: text
-                      value: hero_rectangle.png
+                      value: >-
+                        Hand on map with camera, passport, laptop, and coffee,
+                        perfect for travel planning inspiration.
                     width:
-                      value: 510
                       type: number
+                      value: 3372
+                    custom:
+                      type: object
+                      value:
+                        sourceId: '1051075'
+                        pexelsUrl: >-
+                          https://www.pexels.com/photo/person-pointing-a-location-on-the-map-1051075/
+                        photoTinyUrl: >-
+                          https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                        photographer: Element5 Digital
+                        photoLargeUrl: >-
+                          https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        photoSmallUrl: >-
+                          https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&h=130
+                        photoMediumUrl: >-
+                          https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&h=350
+                        photoLarge2xUrl: >-
+                          https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        photographerUrl: https://www.pexels.com/@element5
+                        photoPortraitUrl: >-
+                          https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                        pexelsOriginalUrl: >-
+                          https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg
+                        photoLandscapeUrl: >-
+                          https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
                     height:
-                      value: 496
                       type: number
-                    mediaType:
-                      value: image/png
+                      value: 3468
+                    description:
                       type: text
-                  _source: uniform-assets
+                      value: >-
+                        Hand on map with camera, passport, laptop, and coffee,
+                        perfect for travel planning inspiration. - Photo by
+                        Element5 Digital on Pexels
+                  _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
             value: []
           title:
             type: text
             locales:
-              en-US: Built with the modern stack!
+              en-US: Service That Goes the Extra Mile
           titleStyle:
             type: tp-title-style-parameter
             value: h2
@@ -288,14 +378,18 @@ composition:
             type: text
             locales:
               en-US: >+
-                Our Component Starter Kit is built on a TNT stack - Typescript,
-                Next.js, and TailwindCSS. That means it’s completely
-                customizable and adaptable for what you need to build.
+                At Uniglobe, we believe that exceptional travel experiences
+                begin with exceptional service. Our dedicated team of travel
+                experts is committed to crafting personalized journeys that
+                exceed your expectations at every turn.
 
           eyebrowText:
             type: text
             locales:
-              en-US: something for the developers
+              en-US: why choose uniglobe
+      - _id: e27870d1-b74f-4c3c-86ca-20d3b881fe95
+        type: cardBlock
+        _pattern: 0ef27220-119a-497e-9b02-4008400e0282
       - _id: 45ca2e18-6110-4047-8f54-2f9ae43d047b
         type: featuredCallout
         slots:
@@ -303,20 +397,17 @@ composition:
             - _id: 068668d5-520c-4bc5-b72a-9bda8beb189f
               type: feature
               parameters:
-                icon:
-                  type: asset
-                  value: []
                 title:
                   type: text
                   locales:
-                    en-US: Bring your CMS and commerce content
+                    en-US: Family Vacations
                 description:
                   type: text
                   locales:
                     en-US: >-
-                      Leverage our latest integrations to bring content from
-                      your own Headless CMS and/or Commerce systems without any
-                      glue code.
+                      Create lasting memories with carefully planned
+                      family-friendly accommodations, activities, and
+                      experiences for travelers of all ages.
             - _id: b637acaa-f979-4bde-aa94-086c1ccf9c02
               type: feature
               parameters:
@@ -326,98 +417,87 @@ composition:
                 title:
                   type: text
                   locales:
-                    en-US: ' No integration? No problem. No code required.'
+                    en-US: ' Adventure Travel'
                 description:
                   type: text
                   locales:
                     en-US: >-
-                      Bring content from any REST API without a single developer
-                      ticket.
+                      Push your boundaries with expertly guided outdoor
+                      experiences, from wildlife safaris to hiking expeditions
+                      and water sports.
             - _id: c8205ca3-c293-4338-8392-83574cf74dd0
               type: feature
               parameters:
-                icon:
-                  type: asset
-                  value:
-                    - _id: 0d86e7e6-6552-45ff-ace7-f03b88067b8d
-                      type: image
-                      fields:
-                        id:
-                          type: text
-                          value: 68b4d970-8062-4a91-965b-97d2587811fc
-                        url:
-                          value: >-
-                            https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/MIWsDoPXSw-zFY1_TdqD_g-icon_improve.svg
-                          type: text
-                        file:
-                          type: file
-                          value: 7e74c65b-c100-4d3e-91ad-5e605bf70b79
-                        size:
-                          value: 729
-                          type: number
-                        title:
-                          type: text
-                          value: icon_improve.svg
-                        width:
-                          value: 35
-                          type: number
-                        height:
-                          value: 48
-                          type: number
-                        mediaType:
-                          value: image/svg+xml
-                          type: text
-                      _source: uniform-assets
                 title:
                   type: text
                   locales:
-                    en-US: Build web experiences visually with real-time preview
+                    en-US: Group & Event Travel
                 description:
                   type: text
                   locales:
                     en-US: >-
-                      Create new pages from existing components, try different
-                      variants and customize the theme.
+                      Seamless coordination for weddings, family reunions,
+                      retreats, and special interest groups of any size.
         variant: imageRight
         parameters:
           image:
             type: asset
             locales:
               en-US:
-                - _id: 7fef684c-39d1-46e2-b160-3b3ad0cdac8a
+                - _id: 7b74e979-a7d2-410c-9259-5a8feb786d02
                   type: image
                   fields:
-                    id:
-                      type: text
-                      value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
                     url:
-                      value: >-
-                        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
                       type: text
-                    file:
-                      type: file
-                      value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                    size:
-                      value: 76327
-                      type: number
+                      value: >-
+                        https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
                     title:
                       type: text
-                      value: hero_rectangle.png
+                      value: >-
+                        Close-up of a hotel reception desk showcasing a service
+                        bell and signage, emphasizing hospitality.
                     width:
-                      value: 510
                       type: number
+                      value: 7680
+                    custom:
+                      type: object
+                      value:
+                        sourceId: '3768095'
+                        pexelsUrl: >-
+                          https://www.pexels.com/photo/selective-focus-photo-of-reception-signage-3768095/
+                        photoTinyUrl: >-
+                          https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                        photographer: Andrea Piacquadio
+                        photoLargeUrl: >-
+                          https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        photoSmallUrl: >-
+                          https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg?auto=compress&cs=tinysrgb&h=130
+                        photoMediumUrl: >-
+                          https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg?auto=compress&cs=tinysrgb&h=350
+                        photoLarge2xUrl: >-
+                          https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        photographerUrl: https://www.pexels.com/@olly
+                        photoPortraitUrl: >-
+                          https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                        pexelsOriginalUrl: >-
+                          https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg
+                        photoLandscapeUrl: >-
+                          https://images.pexels.com/photos/3768095/pexels-photo-3768095.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
                     height:
-                      value: 496
                       type: number
-                    mediaType:
-                      value: image/png
+                      value: 5120
+                    description:
                       type: text
-                  _source: uniform-assets
+                      value: >-
+                        Close-up of a hotel reception desk showcasing a service
+                        bell and signage, emphasizing hospitality. - Photo by
+                        Andrea Piacquadio on Pexels
+                  _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
             value: []
           title:
             type: text
             locales:
-              en-US: Unleash your content. Unchain from the backlog.
+              en-US: Travel Services Tailored to You
           titleStyle:
             type: tp-title-style-parameter
             value: h2
@@ -425,374 +505,89 @@ composition:
             type: text
             locales:
               en-US: >+
-                Our Component Starter Kit is built on a TNT stack - Typescript,
-                Next.js, and TailwindCSS. That means it’s completely
-                customizable and adaptable for what you need to build.
+                Whatever your travel needs, Uniglobe has the expertise and
+                resources to create the perfect experience. From family
+                vacations to adventure trips, we offer comprehensive solutions
+                for every type of traveler.
+
 
           eyebrowText:
             type: text
             locales:
-              en-US: something for the marketer
-      - _id: a952a7c9-697c-4dc4-a8e5-4614fef5419b
-        type: cardBlock
-        slots:
-          cardBlockInner:
-            - _id: f0d8e26b-683f-4ae8-b335-426c894a0931
-              type: grid
-              slots:
-                grid-inner:
-                  - _id: 5aa9b20e-3146-455e-a88d-a5c8769a5c6c
-                    type: card
-                    variant: backgroundImage
-                    parameters:
-                      badge:
-                        type: text
-                        locales:
-                          en-US: New
-                      image:
-                        type: asset
-                        locales:
-                          en-US:
-                            - _id: 6441e6db-cf49-4754-80fb-91859b9dd426
-                              type: image
-                              fields:
-                                id:
-                                  type: text
-                                  value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
-                                url:
-                                  value: >-
-                                    https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
-                                  type: text
-                                file:
-                                  type: file
-                                  value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                                size:
-                                  value: 76327
-                                  type: number
-                                title:
-                                  type: text
-                                  value: hero_rectangle.png
-                                width:
-                                  value: 510
-                                  type: number
-                                height:
-                                  value: 496
-                                  type: number
-                                mediaType:
-                                  value: image/png
-                                  type: text
-                              _source: uniform-assets
-                        value: []
-                      title:
-                        type: text
-                        locales:
-                          en-US: Heroes
-                      objectFit:
-                        type: select
-                        locales:
-                          en-US: cover
-                      badgeStyle:
-                        type: tp-badge-style-parameter
-                        value: accent
-                      buttonCopy:
-                        type: text
-                        locales:
-                          en-US: See all heroes
-                      buttonLink:
-                        type: link
-                        locales:
-                          en-US:
-                            path: /components/heroes
-                            type: projectMapNode
-                            nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
-                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      buttonStyle:
-                        type: tp-button-style-parameter
-                        value: primary
-                      description:
-                        type: text
-                        locales:
-                          en-US: |
-                            Not just for one day
-                      overlayColor:
-                        type: tp-color-style-parameter
-                        locales:
-                          en-US: base-300
-                      overlayOpacity:
-                        type: tp-slider-parameter
-                        locales:
-                          en-US: 50%
-                      textColorVariant:
-                        type: select
-                        value: Light
-                      lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: none
-                  - _id: fc361f40-ad1a-4950-a03c-4a84f5cfc423
-                    type: card
-                    variant: backgroundImage
-                    parameters:
-                      badge:
-                        type: text
-                        locales:
-                          en-US: New
-                      image:
-                        type: asset
-                        locales:
-                          en-US:
-                            - _id: 8eea1b56-4a64-41a2-980f-849d57527ca4
-                              type: image
-                              fields:
-                                id:
-                                  type: text
-                                  value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
-                                url:
-                                  value: >-
-                                    https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
-                                  type: text
-                                file:
-                                  type: file
-                                  value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                                size:
-                                  value: 76327
-                                  type: number
-                                title:
-                                  type: text
-                                  value: hero_rectangle.png
-                                width:
-                                  value: 510
-                                  type: number
-                                height:
-                                  value: 496
-                                  type: number
-                                mediaType:
-                                  value: image/png
-                                  type: text
-                              _source: uniform-assets
-                        value: []
-                      title:
-                        type: text
-                        locales:
-                          en-US: Card Blocks
-                      objectFit:
-                        type: select
-                        locales:
-                          en-US: cover
-                      badgeStyle:
-                        type: tp-badge-style-parameter
-                        value: accent
-                      buttonCopy:
-                        type: text
-                        locales:
-                          en-US: Play with more cards
-                      buttonLink:
-                        type: link
-                        locales:
-                          en-US:
-                            path: /components/card-blocks
-                            type: projectMapNode
-                            nodeId: 88ede0b7-bb7c-4d6b-b3f8-10b545bd986b
-                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      buttonStyle:
-                        type: tp-button-style-parameter
-                        value: primary
-                      description:
-                        type: text
-                        locales:
-                          en-US: Pick a card, any card…
-                      overlayColor:
-                        type: tp-color-style-parameter
-                        locales:
-                          en-US: base-300
-                      overlayOpacity:
-                        type: tp-slider-parameter
-                        locales:
-                          en-US: 50%
-                      textColorVariant:
-                        type: select
-                        value: Light
-                      lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: none
-                  - _id: 4316b6f4-c818-4f33-9d6a-094f6c01818d
-                    type: card
-                    variant: backgroundImage
-                    parameters:
-                      badge:
-                        type: text
-                        locales:
-                          en-US: New
-                      image:
-                        type: asset
-                        locales:
-                          en-US:
-                            - _id: aab37658-1329-4fa2-a5d5-56500aa6a4cb
-                              type: image
-                              fields:
-                                id:
-                                  type: text
-                                  value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
-                                url:
-                                  value: >-
-                                    https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
-                                  type: text
-                                file:
-                                  type: file
-                                  value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                                size:
-                                  value: 76327
-                                  type: number
-                                title:
-                                  type: text
-                                  value: hero_rectangle.png
-                                width:
-                                  value: 510
-                                  type: number
-                                height:
-                                  value: 496
-                                  type: number
-                                mediaType:
-                                  value: image/png
-                                  type: text
-                              _source: uniform-assets
-                        value: []
-                      title:
-                        type: text
-                        locales:
-                          en-US: Featured Callouts
-                      objectFit:
-                        type: select
-                        locales:
-                          en-US: cover
-                      badgeStyle:
-                        type: tp-badge-style-parameter
-                        value: accent
-                      buttonCopy:
-                        type: text
-                        locales:
-                          en-US: All Featured Callouts
-                      buttonLink:
-                        type: link
-                        locales:
-                          en-US:
-                            path: /components/featured-callouts
-                            type: projectMapNode
-                            nodeId: 97c2b0b3-66d9-4ecd-88dd-36bf5ce8144a
-                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      buttonStyle:
-                        type: tp-button-style-parameter
-                        value: primary
-                      description:
-                        type: text
-                        locales:
-                          en-US: |
-                            The call of the wild
-                      overlayColor:
-                        type: tp-color-style-parameter
-                        locales:
-                          en-US: base-300
-                      overlayOpacity:
-                        type: tp-slider-parameter
-                        locales:
-                          en-US: 50%
-                      textColorVariant:
-                        type: select
-                        value: Light
-                      lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: none
-              parameters:
-                gapX:
-                  type: tp-slider-parameter
-                  value: small
-                gapY:
-                  type: tp-slider-parameter
-                  value: none
-                title:
-                  type: text
-                  value: Inner Grid
-                paddingTop:
-                  type: select
-                  value: None
-                columnsCount:
-                  type: tp-slider-parameter
-                  value: '3'
-                paddingBottom:
-                  type: select
-                  value: None
-        parameters:
-          title:
-            type: text
-            locales:
-              en-US: Featured components
-          titleStyle:
-            type: tp-title-style-parameter
-            value: h1
-          buttonStyle:
-            type: tp-button-style-parameter
-            value: primary
-          description:
-            type: text
-            locales:
-              en-US: >-
-                There are lots of components to choose from, but these are our
-                favorites. There are more coming, so it's always worth checking
-                again.
+              en-US: explore our services
       - _id: 5baddcdc-228e-4013-9243-ccfcfd7d8a17
         type: accordion
         slots:
           items:
-            - _id: 92d7f00f-d300-4fee-8f02-45305892ac4c
-              type: accordionItem
-              parameters:
-                title:
-                  type: text
-                  locales:
-                    en-US: How much does the Component Starter Kit cost?
-                description:
-                  type: text
-                  locales:
-                    en-US: >-
-                      Exactly $0. These components are totally open source and
-                      available for anyone to use.
             - _id: 40feaadf-2bb2-4d6c-87d7-d72487a6aab8
               type: accordionItem
               parameters:
                 title:
                   type: text
                   locales:
-                    en-US: Can I use these components for commercial projects?
+                    en-US: What's included in Uniglobe's all-inclusive packages?
                 description:
                   type: text
                   locales:
-                    en-US: Yes you can! We’d be very happy if you do.
+                    en-US: >-
+                      Our all-inclusive packages typically include round-trip
+                      airfare, airport transfers, resort accommodations, all
+                      meals and drinks, entertainment, and select activities.
+                      Some premium experiences and excursions may be available
+                      at an additional cost. Each package clearly outlines
+                      what's included, and our travel advisors can help
+                      customize your experience.
+            - _id: 92d7f00f-d300-4fee-8f02-45305892ac4c
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How far in advance should I book my trip?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      For peak travel seasons (summer, holidays) and popular
+                      destinations, we recommend booking 6-8 months in advance
+                      for the best availability and pricing. For off-peak
+                      travel, 3-4 months is typically sufficient. Last-minute
+                      deals are occasionally available, but selection may be
+                      limited.
             - _id: 6ef4f9f8-90e5-4fc6-8290-6a48b0f8046b
               type: accordionItem
               parameters:
                 title:
                   type: text
                   locales:
-                    en-US: Are there more components coming?
+                    en-US: Do I need travel insurance?
                 description:
                   type: text
                   locales:
                     en-US: >-
-                      There will be, and we have some big ideas. Get in touch if
-                      there’s anything you want to see here.
+                      While not mandatory, we strongly recommend travel
+                      insurance for all trips. It provides coverage for
+                      unexpected events such as trip cancellations, medical
+                      emergencies, lost luggage, and travel delays. Our advisors
+                      can help you select the right policy based on your
+                      specific trip and needs.
             - _id: 68387eb3-5d35-4f58-99aa-3dcc7f628cfc
               type: accordionItem
               parameters:
                 title:
                   type: text
                   locales:
-                    en-US: Can I connect my own content and data to these components?
+                    en-US: What support does Uniglobe provide during my trip?
                 description:
                   type: text
                   locales:
                     en-US: >-
-                      Of course! You can use a pre-built Uniform integration or
-                      connect to any REST-based API source using Uniform. You
-                      can learn more in our documentation.
+                      Uniglobe offers 24/7 emergency assistance for all
+                      travelers. Our global support team can help with flight
+                      disruptions, accommodation issues, lost documents, medical
+                      emergencies, and any other challenges that may arise
+                      during your journey. You'll receive dedicated contact
+                      information prior to departure.
         parameters:
           title:
             type: text
@@ -802,8 +597,9 @@ composition:
             type: text
             locales:
               en-US: >-
-                Answer your customers possible questions here, it will increase
-                the conversion rate as well as support or chat requests.
+                Find answers to common questions about traveling with Uniglobe.
+                If you don't see your question here, our travel experts are just
+                a call or click away.
       - _id: 8fff3946-2b9b-45c4-ab24-c56e5ef09d19
         type: hero
         variant: imageRight
@@ -812,42 +608,62 @@ composition:
             type: asset
             locales:
               en-US:
-                - _id: 0956ce89-e3e5-43b2-b72e-f34475a9722c
+                - _id: 1193243f-7708-4335-a936-ce42b3c55bc9
                   type: image
                   fields:
-                    id:
-                      type: text
-                      value: e3963aca-5918-41b5-9ab7-db6785f7bbe3
                     url:
-                      value: >-
-                        https://canary-img.uniform.global/p/kCbnPCDaS0i62FtZC0jaqQ/Uq1cHqUkQ-KHkWlCMo7m6w-hero_rectangle.png
                       type: text
-                    file:
-                      type: file
-                      value: 27494b32-5697-465f-8c36-db62a2ab45ce
-                    size:
-                      value: 76327
-                      type: number
+                      value: >-
+                        https://images.unsplash.com/photo-1601871925712-3c803d50fa72?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx2YWNhdGlvbnxlbnwwfHx8fDE3NDQwMjMxMDd8MA&ixlib=rb-4.0.3&q=85
                     title:
                       type: text
-                      value: hero_rectangle.png
+                      value: woman in brown sun hat lying on sand during daytime
                     width:
-                      value: 510
                       type: number
+                      value: 4966
+                    custom:
+                      type: object
+                      value:
+                        color: '#d9d9d9'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/woman-in-brown-sun-hat-lying-on-sand-during-daytime-y5PG8ZecXQI
+                        blurHash: LSMI1sNH.8%13saywIs.XnoLnOs.
+                        sourceId: y5PG8ZecXQI
+                        createdAt: '2020-10-05T04:27:10Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/woman-in-brown-sun-hat-lying-on-sand-during-daytime-y5PG8ZecXQI
+                        updatedAt: '2025-04-07T09:45:56Z'
+                        authorName: Rafael Cisneros Méndez
+                        downloadUrl: >-
+                          https://unsplash.com/photos/y5PG8ZecXQI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx2YWNhdGlvbnxlbnwwfHx8fDE3NDQwMjMxMDd8MA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1601871925712-3c803d50fa72?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx2YWNhdGlvbnxlbnwwfHx8fDE3NDQwMjMxMDd8MA&ixlib=rb-4.0.3
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1601871925712-3c803d50fa72?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx2YWNhdGlvbnxlbnwwfHx8fDE3NDQwMjMxMDd8MA&ixlib=rb-4.0.3&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1601871925712-3c803d50fa72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx2YWNhdGlvbnxlbnwwfHx8fDE3NDQwMjMxMDd8MA&ixlib=rb-4.0.3&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1601871925712-3c803d50fa72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx2YWNhdGlvbnxlbnwwfHx8fDE3NDQwMjMxMDd8MA&ixlib=rb-4.0.3&q=80&w=200
+                        authorUsername: ralppie
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1601871925712-3c803d50fa72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx2YWNhdGlvbnxlbnwwfHx8fDE3NDQwMjMxMDd8MA&ixlib=rb-4.0.3&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@ralppie
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/y5PG8ZecXQI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx2YWNhdGlvbnxlbnwwfHx8fDE3NDQwMjMxMDd8MA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1600901213299-5661364fee32image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
                     height:
-                      value: 496
                       type: number
-                    mediaType:
-                      value: image/png
+                      value: 3311
+                    description:
                       type: text
-                  _source: uniform-assets
+                      value: Photo by Rafael Cisneros Méndez on Unsplash
+                  _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
             value: []
           title:
             type: text
             locales:
-              en-US: >-
-                Now it's time to see how Uniform can help you accelerate
-                building modern digital experiences.
+              en-US: Ready to turn your travel dreams into reality?
           objectFit:
             type: select
             value: cover
@@ -856,16 +672,18 @@ composition:
             value: Medium
           titleStyle:
             type: tp-title-style-parameter
-            value: h1
+            value: h2
           description:
             type: text
             locales:
-              en-US: |
-                We’d love to show you.
+              en-US: >+
+                Let us handle the details while you focus on creating memories
+                that last a lifetime.
+
           eyebrowText:
             type: text
             locales:
-              en-US: Now this is Empowering!
+              en-US: Start Your Journey
           paddingBottom:
             type: select
             value: Medium
@@ -875,29 +693,38 @@ composition:
           primaryButtonCopy:
             type: text
             locales:
-              en-US: Book a free demo now
+              en-US: Start Your Journey
           primaryButtonLink:
             type: link
             value:
-              path: https://uniform.dev/demo?utm_source=component-starter-kit
-              type: url
+              path: /${locale}/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
           primaryButtonStyle:
             type: tp-button-style-parameter
             value: primary
-          secondaryButtonCopy:
-            type: text
-            locales:
-              en-US: No Uniform access? Request one
-          secondaryButtonLink:
-            type: link
-            value:
-              path: https://uniform.dev/try?utm_source=component-starter-kit
-              type: url
           secondaryButtonStyle:
             type: tp-button-style-parameter
             value: link
+  _overrides:
+    e27870d1-b74f-4c3c-86ca-20d3b881fe95:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Featured Destinations
+      dataResources:
+        Featured countries:
+          type: multipleCountries
+          variables:
+            locale: ${locale}
+            entryIds: >-
+              bdd4c8f3-2999-4885-a2b3-a08216a80aa7,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,035a64b1-730e-444c-921a-431bc2712e14
   _locales:
     - en-US
 created: '2024-01-15T09:27:31.731839+00:00'
-modified: '2024-05-07T14:01:14.357764+00:00'
+modified: '2025-04-07T11:42:48.389984+00:00'
 pattern: false

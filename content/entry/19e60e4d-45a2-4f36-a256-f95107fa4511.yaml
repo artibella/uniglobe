@@ -1,5 +1,5 @@
 created: '2024-01-24T16:03:55.627825+00:00'
-modified: '2025-03-27T11:16:28.813051+00:00'
+modified: '2025-04-09T17:17:56.939687+00:00'
 pattern: false
 entry:
   _id: 19e60e4d-45a2-4f36-a256-f95107fa4511
@@ -272,145 +272,8 @@ entry:
                     format: ''
                     indent: 0
                     version: 1
-                    children:
-                      - mode: normal
-                        text: Best Time to Visit the USA
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          The best time to visit the USA depends on the regions
-                          you plan to explore and your interests:
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
-                  - tag: ol
-                    type: list
-                    start: 1
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - type: listitem
-                        value: 1
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Spring (March to May):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' Spring offers mild temperatures and blooming flowers, making it ideal for exploring cities, national parks, and coastal areas. It''s a great time to visit destinations like Washington, D.C. for the Cherry Blossom Festival or experience the natural beauty of places like the Great Smoky Mountains.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 2
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Summer (June to August):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' Summer is perfect for beach vacations, road trips, and outdoor adventures. Enjoy sunny weather in coastal cities like Miami and San Diego, or explore national parks like Yosemite and Zion. However, it can be hot in many parts of the country, and popular tourist destinations may be crowded.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 3
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Autumn (September to November):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' Autumn brings cooler temperatures and stunning fall foliage, especially in New England and the Midwest. This season is ideal for exploring cities, scenic drives, and outdoor activities. It’s also a great time to visit wine regions and experience harvest festivals.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 4
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: 'Winter (December to February):'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 1
-                            version: 1
-                          - mode: normal
-                            text: ' Winter is ideal for skiing and snowboarding in destinations like Aspen and Lake Tahoe, or experiencing festive holiday events in cities like New York and Chicago. Warmer destinations like Florida and Hawaii offer pleasant weather for a winter escape.'
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                    listType: number
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          For the best overall weather and outdoor activities,
-                          spring and autumn are excellent. Summer is great for
-                          beaches and national parks, while winter offers unique
-                          experiences from snowy adventures to holiday
-                          celebrations.
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
+                    children: []
+                    direction: null
                 direction: ltr
             it-IT:
               root:
@@ -604,14 +467,54 @@ entry:
                       https://images.unsplash.com/photo-1573530256504-79487d8427fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                 _source: custom-url
             en-US:
-              - _id: 2abcc713-1451-4787-a116-1edde75490fd
+              - _id: 1cec3ee5-2c2c-42ad-8851-de2cfa3e1716
                 type: image
                 fields:
                   url:
                     type: text
                     value: >-
-                      https://images.unsplash.com/photo-1573530256504-79487d8427fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
+                      https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Golden Gate Bridge shrouded in fog during sunset, San
+                      Francisco.
+                  width:
+                    type: number
+                    value: 6000
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '1141853'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/golden-gate-bridge-san-francisco-california-1141853/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Tae Fuller
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@tae-fuller-331517
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 3750
+                  description:
+                    type: text
+                    value: >-
+                      Golden Gate Bridge shrouded in fog during sunset, San
+                      Francisco. - Photo by Tae Fuller on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
             it-IT:
               - _id: 2abcc713-1451-4787-a116-1edde75490fd
                 type: image
@@ -621,4 +524,159 @@ entry:
                     value: >-
                       https://images.unsplash.com/photo-1573530256504-79487d8427fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                 _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit the USA
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit the USA depends on the regions
+                          you plan to explore and your interests:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming flowers, making it ideal for exploring cities, national parks, and coastal areas. It''s a great time to visit destinations like Washington, D.C. for the Cherry Blossom Festival or experience the natural beauty of places like the Great Smoky Mountains.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer is perfect for beach vacations, road trips, and outdoor adventures. Enjoy sunny weather in coastal cities like Miami and San Diego, or explore national parks like Yosemite and Zion. However, it can be hot in many parts of the country, and popular tourist destinations may be crowded.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn brings cooler temperatures and stunning fall foliage, especially in New England and the Midwest. This season is ideal for exploring cities, scenic drives, and outdoor activities. It’s also a great time to visit wine regions and experience harvest festivals.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter is ideal for skiing and snowboarding in destinations like Aspen and Lake Tahoe, or experiencing festive holiday events in cities like New York and Chicago. Warmer destinations like Florida and Hawaii offer pleasant weather for a winter escape.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For the best overall weather and outdoor activities,
+                          spring and autumn are excellent. Summer is great for
+                          beaches and national parks, while winter offers unique
+                          experiences from snowy adventures to holiday
+                          celebrations.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

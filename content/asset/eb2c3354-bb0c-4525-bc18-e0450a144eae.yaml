@@ -1,7 +1,7 @@
 asset:
   type: image
   _id: eb2c3354-bb0c-4525-bc18-e0450a144eae
-  _name: ''
+  _name: serey-kim-xjrvTc52xYc-unsplash.jpg
   fields:
     title:
       type: text
@@ -25,6 +25,11 @@ asset:
     height:
       value: 3036
       type: number
+    focalPoint:
+      value:
+        x: 0.54
+        'y': 0.53
+      type: focalPoint
     custom: {}
 created: '2025-03-25T13:01:21.034798+00:00'
-modified: '2025-03-25T13:01:21.034798+00:00'
+modified: '2025-04-04T17:59:05.61031+00:00'

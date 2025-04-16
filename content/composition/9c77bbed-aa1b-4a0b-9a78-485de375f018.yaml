@@ -751,6 +751,9 @@ composition:
                     source: >-
                       ${#jptr:/Country/entry/fields/teaserImage/value/0/fields/url/value}
               value: ${#jptr:/Country/entry/fields/teaserImage/value}
+        eyebrowText:
+          type: text
+          value: null
     9c77bbed-aa1b-4a0b-9a78-485de375f018|b538d098-7848-4a90-8aed-01ce5b3bf6b4:
       slots:
         $slotSectionItems:
@@ -800,5 +803,5 @@ composition:
     - it-IT
   _pattern: 3cf98231-24a0-4007-a17e-eb16c19e8abf
 created: '2024-09-19T15:05:13.631235+00:00'
-modified: '2025-01-15T14:07:09.308661+00:00'
+modified: '2025-04-09T10:35:02.756456+00:00'
 pattern: false

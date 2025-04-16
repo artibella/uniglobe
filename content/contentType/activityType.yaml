@@ -1,0 +1,73 @@
+id: activityType
+name: Activity Type
+created: '2025-04-04T09:02:23.473553+00:00'
+updated: '2025-04-04T09:02:23.473553+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: teaserText
+    name: Teaser Text
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+          - h2
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes: []
+    localizable: true
+  - id: icon
+    name: Icon
+    type: asset
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+  - id: featuredImage
+    name: Featured Image
+    type: asset
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+entryName: title
+thumbnailField: icon
+description: ''
+icon: tag
+type: contentType
+permissions: []
+previewConfigurations: []

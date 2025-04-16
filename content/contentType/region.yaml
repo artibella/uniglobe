@@ -1,7 +1,7 @@
 id: region
 name: Region
 created: '2024-01-18T13:20:21.829613+00:00'
-updated: '2025-03-27T15:15:39.338318+00:00'
+updated: '2025-04-10T12:25:34.744466+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -80,6 +80,11 @@ fields:
       allowedTypes:
         - countryBlock
         - $loop
+  - id: customSlug
+    name: Custom Slug
+    type: text
+    typeConfig: null
+    localizable: true
 entryName: name
 thumbnailField: image
 description: ''
@@ -92,3 +97,10 @@ permissions:
   - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
     permission: read
     state: 64
+previewConfigurations:
+  - type: project-map
+    id: f7eba10c-97be-4a46-ae77-df46666ea2d8
+    label: Detail page
+    dynamicInputs:
+      locale: ${locale}
+      region: ${#jptr:/entry/_slug}

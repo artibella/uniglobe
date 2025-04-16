@@ -1,0 +1,15 @@
+created: '2025-04-04T09:48:45.964627+00:00'
+modified: '2025-04-04T09:48:50.711815+00:00'
+pattern: false
+entry:
+  _id: d81c35a5-38a3-4bc4-9a24-920627b77160
+  _name: Other
+  _slug: other
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Other
+  _locales:
+    - en-US

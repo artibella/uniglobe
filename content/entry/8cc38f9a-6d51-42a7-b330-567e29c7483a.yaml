@@ -1,0 +1,377 @@
+created: '2025-03-28T11:30:24.807418+00:00'
+modified: '2025-03-28T11:37:10.751828+00:00'
+pattern: false
+entry:
+  _id: 8cc38f9a-6d51-42a7-b330-567e29c7483a
+  _name: Switzerland
+  _slug: switzerland
+  _thumbnail: https://flagcdn.com/ch.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByCountryName
+      variables:
+        name: Switzerland
+    ref-8cc38f9a-6d51-42a7-b330-567e29c7483a-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 53b42f52-db71-448c-8869-e86a5b7fc80e
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+  _overrides:
+    8cc38f9a-6d51-42a7-b330-567e29c7483a:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Schweiz
+            en-US: Switzerland
+            it-IT: Svizzera
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-8cc38f9a-6d51-42a7-b330-567e29c7483a-region/entries/0}
+        flagEmoji:
+          type: text
+          value: 🇨🇭
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              Discover the pristine beauty of Switzerland, where majestic Alpine
+              peaks,  picturesque lakes, and charming villages combine with
+              world-class cities  to create an unforgettable European
+              experience.
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Switzerland is a breathtaking destination that offers
+                          a perfect blend  of natural beauty, cultural richness,
+                          and modern convenience. Nestled  in the heart of
+                          Europe, this alpine paradise boasts stunning mountain 
+                          landscapes, crystal-clear lakes, and charming medieval
+                          towns. From the  cosmopolitan cities of Zurich and
+                          Geneva to the picture-perfect settings  of Lucerne and
+                          Interlaken, Switzerland provides diverse experiences
+                          for  every traveler. Explore iconic sites like the
+                          Matterhorn, journey through  the countryside on scenic
+                          rail routes, and indulge in world-renowned  Swiss
+                          chocolate and cheese. Whether you're skiing in the
+                          Alps, hiking  through meadows, or experiencing the
+                          precision of Swiss craftsmanship,  Switzerland
+                          delivers an unforgettable blend of adventure,
+                          relaxation,  and cultural immersion.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Switzerland is a breathtaking destination that offers
+                          a perfect blend  of natural beauty, cultural richness,
+                          and modern convenience. Nestled  in the heart of
+                          Europe, this alpine paradise boasts stunning mountain 
+                          landscapes, crystal-clear lakes, and charming medieval
+                          towns. From the  cosmopolitan cities of Zurich and
+                          Geneva to the picture-perfect settings  of Lucerne and
+                          Interlaken, Switzerland provides diverse experiences
+                          for  every traveler. Explore iconic sites like the
+                          Matterhorn, journey through  the countryside on scenic
+                          rail routes, and indulge in world-renowned  Swiss
+                          chocolate and cheese. Whether you're skiing in the
+                          Alps, hiking  through meadows, or experiencing the
+                          precision of Swiss craftsmanship,  Switzerland
+                          delivers an unforgettable blend of adventure,
+                          relaxation,  and cultural immersion.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Switzerland is a breathtaking destination that offers
+                          a perfect blend  of natural beauty, cultural richness,
+                          and modern convenience. Nestled  in the heart of
+                          Europe, this alpine paradise boasts stunning mountain 
+                          landscapes, crystal-clear lakes, and charming medieval
+                          towns. From the  cosmopolitan cities of Zurich and
+                          Geneva to the picture-perfect settings  of Lucerne and
+                          Interlaken, Switzerland provides diverse experiences
+                          for  every traveler. Explore iconic sites like the
+                          Matterhorn, journey through  the countryside on scenic
+                          rail routes, and indulge in world-renowned  Swiss
+                          chocolate and cheese. Whether you're skiing in the
+                          Alps, hiking  through meadows, or experiencing the
+                          precision of Swiss craftsmanship,  Switzerland
+                          delivers an unforgettable blend of adventure,
+                          relaxation,  and cultural immersion.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          value:
+            - _id: 0c7ea406-e937-4a67-ba2d-2775c7a0654d
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1527668752968-14dc70a27c95?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxTd2l0emVybGFuZHxlbnwwfHx8fDE3NDMxNjE4MTR8MA&ixlib=rb-4.0.3&q=85
+                title:
+                  type: text
+                  value: Wonderful spring in the Alps
+                width:
+                  type: number
+                  value: 5760
+                custom:
+                  type: object
+                  value:
+                    color: '#598ca6'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/mountain-and-houses-58uZCE8zrdk
+                    blurHash: LUD0=Tt5NHoe.AbdR.j?XWRhM}WE
+                    sourceId: 58uZCE8zrdk
+                    createdAt: '2018-05-30T08:29:54Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/mountain-and-houses-58uZCE8zrdk
+                    updatedAt: '2025-03-28T09:25:35Z'
+                    authorName: Ricardo Gomez Angel
+                    downloadUrl: >-
+                      https://unsplash.com/photos/58uZCE8zrdk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxTd2l0emVybGFuZHxlbnwwfHx8fDE3NDMxNjE4MTR8MA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1527668752968-14dc70a27c95?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxTd2l0emVybGFuZHxlbnwwfHx8fDE3NDMxNjE4MTR8MA&ixlib=rb-4.0.3
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1527668752968-14dc70a27c95?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxTd2l0emVybGFuZHxlbnwwfHx8fDE3NDMxNjE4MTR8MA&ixlib=rb-4.0.3&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1527668752968-14dc70a27c95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxTd2l0emVybGFuZHxlbnwwfHx8fDE3NDMxNjE4MTR8MA&ixlib=rb-4.0.3&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1527668752968-14dc70a27c95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxTd2l0emVybGFuZHxlbnwwfHx8fDE3NDMxNjE4MTR8MA&ixlib=rb-4.0.3&q=80&w=200
+                    authorUsername: rgaleriacom
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1527668752968-14dc70a27c95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxTd2l0emVybGFuZHxlbnwwfHx8fDE3NDMxNjE4MTR8MA&ixlib=rb-4.0.3&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@rgaleriacom
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/58uZCE8zrdk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxTd2l0emVybGFuZHxlbnwwfHx8fDE3NDMxNjE4MTR8MA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1492187901140-48ac7eff801c?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 3840
+                description:
+                  type: text
+                  value: Photo by Ricardo Gomez Angel on Unsplash
+              _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        timeToVisit:
+          type: richText
+          locales:
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Best Time to Visit Switzerland
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Switzerland depends on your
+                          preferred activities and experiences:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ol
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Spring (March to May):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spring offers mild temperatures and blooming alpine flowers. This is an excellent time for hiking in lower elevations and exploring cities and villages with fewer tourists. The snow starts to melt, revealing lush green landscapes, though some mountain passes may still be closed.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Summer (June to August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Summer is peak tourist season with warm days and perfect conditions for hiking, mountain biking, and water activities on the lakes. All mountain passes are open, and various festivals take place throughout the country. This is the best time for high-altitude hiking and outdoor adventures, though prices are higher and popular destinations can be crowded.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Autumn (September to November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Autumn brings spectacular fall colors, especially in forested regions and vineyards. Tourist crowds thin out, and prices begin to decrease. This season is perfect for hiking, wine tasting, and cultural experiences. Weather remains pleasant through early October, with cooler temperatures as November approaches.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (December to February):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Winter transforms Switzerland into a snow-covered wonderland ideal for skiing, snowboarding, and other winter sports. The famous Swiss ski resorts are in full swing, and Christmas markets add charm to cities and towns. While mountain regions are busy with winter sports enthusiasts, some smaller attractions may be closed for the season.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: number
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For outdoor adventures and hiking, summer is ideal.
+                          Winter is perfect for snow sports and alpine
+                          experiences. Spring and fall offer fewer crowds and
+                          comfortable weather for sightseeing, with each season
+                          presenting its own unique charm and activities.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

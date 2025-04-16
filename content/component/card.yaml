@@ -231,6 +231,11 @@ parameters:
     name: Animation Preview
     type: tp-play-animation-parameter
     typeConfig: null
+  - id: tags
+    name: Tags
+    type: $enr
+    helpText: Set enrichment tagging for this component
+    typeConfig: null
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Card_preview_image
@@ -239,7 +244,7 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:43.206652+00:00'
-updated: '2024-01-15T09:59:06.488114+00:00'
+updated: '2025-04-11T14:28:05.984525+00:00'
 variants:
   - id: backgroundImage
     name: Background Image

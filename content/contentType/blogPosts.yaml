@@ -106,3 +106,4 @@ permissions:
   - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
     permission: delete
     state: 64
+previewConfigurations: []

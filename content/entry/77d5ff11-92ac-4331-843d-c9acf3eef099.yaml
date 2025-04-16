@@ -1,0 +1,15 @@
+created: '2025-04-04T09:47:11.142757+00:00'
+modified: '2025-04-04T09:47:16.689864+00:00'
+pattern: false
+entry:
+  _id: 77d5ff11-92ac-4331-843d-c9acf3eef099
+  _name: Shopping
+  _slug: shopping
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Shopping
+  _locales:
+    - en-US

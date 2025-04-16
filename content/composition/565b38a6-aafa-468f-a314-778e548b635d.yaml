@@ -16,6 +16,7 @@ composition:
           type: text
           locales:
             de-DE: ${#jptr:/Country Content/entry/fields/name/value}
+            en-US: ${#jptr:/Country Content/entry/fields/name/value}
         twitterTitle:
           type: text
           locales:
@@ -57,6 +58,9 @@ composition:
               8abbed23-87a2-4f1d-8ba8-e26818e7c323,1e00d404-3375-4219-a14f-dc639caf6147,9b2812f5-7003-4d80-9fef-362e1fa2a0aa
     565b38a6-aafa-468f-a314-778e548b635d|89a78264-bfb9-4be3-af8d-0bdf4b26ac41:
       parameters:
+        image:
+          type: asset
+          value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
         eyebrowText:
           type: text
           value: >-
@@ -156,5 +160,5 @@ composition:
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-11-08T14:38:18.10988+00:00'
-modified: '2025-03-18T14:38:03.246602+00:00'
+modified: '2025-04-08T14:04:52.626846+00:00'
 pattern: false

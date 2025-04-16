@@ -1,0 +1,15 @@
+created: '2025-04-04T09:45:29.625306+00:00'
+modified: '2025-04-04T09:45:43.060119+00:00'
+pattern: false
+entry:
+  _id: a3f2dbef-c735-4943-b25f-c754ecd2c51d
+  _name: Guided Tour
+  _slug: guided-tour
+  type: activityType
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Guided Tour
+  _locales:
+    - en-US
