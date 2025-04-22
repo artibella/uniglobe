@@ -1,0 +1,16 @@
+id: profile
+name: Traveler Profile
+cap: 10000
+values:
+  - id: sn
+    value: Senior
+  - id: mil
+    value: Millennial
+  - id: genz
+    value: Gen Z
+  - id: fam
+    value: Family
+  - id: pro
+    value: Professional
+  - id: std
+    value: Student

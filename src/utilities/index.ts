@@ -1,4 +1,5 @@
-import type { Asset } from '@uniformdev/assets';
+import type { Asset, ImageDeliveryParams } from '@uniformdev/assets';
+import { imageFrom } from '@uniformdev/assets';
 
 type MediaType = string | Types.CloudinaryImage | { path?: string } | Types.UniformOldImage | Asset | Asset[];
 
@@ -7,9 +8,9 @@ export const getMediaUrl = (media?: MediaType) => {
     // If it is string image url
     if (typeof media === 'string') return media;
     // If it is asset library image
-    if (isMediaAsset(media)) return media?.fields?.url?.value;
+    if (isMediaAsset(media)) return imageFrom(media).url();
     // If it is asset library images
-    if (isMediaAssets(media)) return media?.[0]?.fields?.url?.value;
+    if (isMediaAssets(media)) return imageFrom(media?.[0]).url();
     // If it cloudinary images selector
     if (isCloudinaryImages(media)) return media?.[0]?.url;
     // If it cloudinary image selector
@@ -24,6 +25,17 @@ export const getMediaUrl = (media?: MediaType) => {
   if (mediaUrl.startsWith('//')) return mediaUrl.replace('//', 'https://');
 
   return mediaUrl;
+};
+
+export const getTransformedMediaUrl = (media?: MediaType, options?: ImageDeliveryParams) => {
+  if (!media) return '';
+  if (typeof media === 'string') return media;
+  if (isMediaAsset(media)) return imageFrom(media).transform(options).url();
+  if (isMediaAssets(media))
+    return imageFrom(media?.[0])
+      .transform(options)
+      .url();
+  return '';
 };
 
 const isMediaAsset = (media?: MediaType): media is Asset =>

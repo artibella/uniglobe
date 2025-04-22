@@ -1,0 +1,9 @@
+id: bookAsiaVacation
+name: Book Asia Vacation
+description: ''
+type: 1
+inputs:
+  - dim: dest_asia
+    sign: +
+  - dim: pageViewAsianDestination
+    sign: +

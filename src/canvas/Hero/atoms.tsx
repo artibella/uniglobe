@@ -9,7 +9,7 @@ import {
 } from '../../utilities/styling';
 import { UniformText, useUniformCurrentComposition } from '@uniformdev/canvas-react';
 import Button from '../../components/Button';
-import { formatProjectMapLink, getMediaUrl } from '../../utilities';
+import { formatProjectMapLink, getMediaUrl, getTransformedMediaUrl } from '../../utilities';
 import Image from '../../components/Image';
 import BaseContainer, { ContainerVariants, ContainerProps, ScreenContainer } from '../../components/Container';
 import { HeroProps } from './';
@@ -99,7 +99,7 @@ export const SecondaryButton: FC<Pick<HeroProps, 'secondaryButtonLink' | 'second
 export const BackgroundImage: FC<
   Pick<HeroProps, 'image' | 'video' | 'objectFit' | 'overlayOpacity' | 'overlayColor'>
 > = ({ image, video, objectFit, overlayColor, overlayOpacity }) => {
-  const imageUrl = getMediaUrl(image);
+  const imageUrl = getTransformedMediaUrl(image, { width: 1600, height: 900 });
   const videoUrl = getMediaUrl(video);
 
   if (!imageUrl && !videoUrl) return null;
@@ -141,13 +141,13 @@ export const SideImage: FC<
     className?: string;
   }
 > = ({ image, video, objectFit, overlayColor, overlayOpacity, className }) => {
-  const imageUrl = getMediaUrl(image);
+  const imageUrl = getTransformedMediaUrl(image, { width: 1000, height: 1000 });
   const videoUrl = getMediaUrl(video);
 
   if (!imageUrl && !videoUrl) return null;
 
   return (
-    <div className={classNames('relative shrink-0 relative w-full md:w-[500px] h-[500px]', className)}>
+    <div className={classNames('shrink-0 relative w-full md:w-[500px] h-[500px]', className)}>
       {video ? (
         <video
           autoPlay

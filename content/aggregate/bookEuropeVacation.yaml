@@ -1,0 +1,9 @@
+id: bookEuropeVacation
+name: Book Europe Vacation
+description: ''
+type: 1
+inputs:
+  - dim: dest_eur
+    sign: +
+  - dim: pageViewEuropeanDestination
+    sign: +

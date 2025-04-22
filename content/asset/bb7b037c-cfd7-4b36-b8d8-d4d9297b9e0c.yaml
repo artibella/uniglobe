@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: bb7b037c-cfd7-4b36-b8d8-d4d9297b9e0c
+  _name: GPTempDownload.jpeg
+  fields:
+    title:
+      type: text
+      value: Turtle with bubbles
+    file:
+      type: file
+      value: 9a1b47f7-da75-4fbf-8114-bc73396b8db2
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/IeXTIuazRvOF-s-kOxxhiQ-GPTempDownload.jpeg
+      type: text
+    size:
+      value: 1101818
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1080
+      type: number
+    focalPoint:
+      value:
+        x: 0.57
+        'y': 0.53
+      type: focalPoint
+    custom: {}
+created: '2025-04-17T16:27:10.051048+00:00'
+modified: '2025-04-17T16:29:41.221732+00:00'

@@ -1,0 +1,9 @@
+id: usersDACH
+name: DACH Users
+description: Users that come from Austria, Germany or Switzerland
+type: 0
+inputs:
+  - dim: visitoraustria
+    sign: +
+  - dim: visitorGermany
+    sign: +

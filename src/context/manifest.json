@@ -2,6 +2,16 @@
   "project": {
     "pz": {
       "agg": {
+        "usersDACH": {
+          "inputs": [
+            {
+              "dim": "visitoraustria"
+            },
+            {
+              "dim": "visitorGermany"
+            }
+          ]
+        },
         "bookAsiaVacation": {
           "inputs": [
             {
@@ -21,46 +31,39 @@
               "dim": "pageViewEuropeanDestination"
             }
           ]
-        },
-        "usersDACH": {
-          "inputs": [
-            {
-              "dim": "visitoraustria"
-            },
-            {
-              "dim": "visitorGermany"
-            }
-          ]
         }
       },
       "enr": {
-        "2": {
-          "cap": 1000
-        },
         "dest": {
-          "cap": 1000
+          "cap": 10000
         }
       },
       "sig": {
-        "downloadGuide": {
-          "str": 50,
-          "cap": 100,
-          "dur": "s",
+        "pageViewEuropeanDestination": {
+          "str": 10,
+          "cap": 1000,
+          "dur": "p",
           "crit": {
-            "op": "&",
+            "op": "|",
             "type": "G",
             "clauses": [
               {
-                "type": "PVC",
-                "match": {
-                  "op": ">",
-                  "rhs": 5
-                }
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/europe/"
+                },
+                "type": "PV"
+              },
+              {
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/europa/"
+                },
+                "type": "PV"
               }
             ]
-          },
-          "conversion": {
-            "freq": "O"
           }
         },
         "pageViewAsianDestination": {
@@ -90,27 +93,49 @@
             ]
           }
         },
-        "pageViewEuropeanDestination": {
-          "str": 10,
-          "cap": 1000,
-          "dur": "p",
+        "downloadGuide": {
+          "str": 50,
+          "cap": 100,
+          "dur": "s",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "PVC",
+                "match": {
+                  "op": ">",
+                  "rhs": 5
+                }
+              }
+            ]
+          },
+          "conversion": {
+            "freq": "O"
+          }
+        },
+        "visitorGermany": {
+          "str": 50,
+          "cap": 100,
+          "dur": "s",
           "crit": {
             "op": "|",
             "type": "G",
             "clauses": [
               {
-                "path": {
+                "key": "vc-country",
+                "type": "QK",
+                "match": {
                   "cs": false,
-                  "op": "~",
-                  "rhs": "/europe/"
-                },
-                "type": "PV"
+                  "op": "=",
+                  "rhs": "DE"
+                }
               },
               {
                 "path": {
-                  "cs": false,
+                  "cs": true,
                   "op": "~",
-                  "rhs": "/europa/"
+                  "rhs": "/de-DE/"
                 },
                 "type": "PV"
               }
@@ -139,34 +164,6 @@
                   "cs": false,
                   "op": "~",
                   "rhs": "/de-AT/"
-                },
-                "type": "PV"
-              }
-            ]
-          }
-        },
-        "visitorGermany": {
-          "str": 50,
-          "cap": 100,
-          "dur": "s",
-          "crit": {
-            "op": "|",
-            "type": "G",
-            "clauses": [
-              {
-                "key": "vc-country",
-                "type": "QK",
-                "match": {
-                  "cs": false,
-                  "op": "=",
-                  "rhs": "DE"
-                }
-              },
-              {
-                "path": {
-                  "cs": true,
-                  "op": "~",
-                  "rhs": "/de-DE/"
                 },
                 "type": "PV"
               }

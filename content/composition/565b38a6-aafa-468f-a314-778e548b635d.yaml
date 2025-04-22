@@ -126,6 +126,315 @@ composition:
                           type: text
                           value: video/mp4
                       _source: uniform-assets
+          - _id: 4328d2e3-f47d-4435-b4ae-4e80aa7c1a5d
+            type: imageGallery
+            slots:
+              images:
+                - _id: 5220d099-fb3d-45f0-8d33-061e2e0999ca
+                  type: image
+                  parameters:
+                    alt:
+                      type: text
+                      locales:
+                        en-US: Demo of focal point
+                    src:
+                      type: asset
+                      locales:
+                        en-US:
+                          - _id: dc3c05c4-3117-4086-89a4-382696adc7f9
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 2def1ae3-96b9-472d-bb8a-3b875185142f
+                              url:
+                                type: text
+                                value: >-
+                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                              file:
+                                type: file
+                                value: 7c0881b1-32bc-44cf-bac5-aff1f5610077
+                              size:
+                                type: number
+                                value: 3328074
+                              title:
+                                type: text
+                                value: su-san-lee-E_eWwM29wfU-unsplash.jpg
+                              width:
+                                type: number
+                                value: 5911
+                              height:
+                                type: number
+                                value: 3941
+                              mediaType:
+                                type: text
+                                value: image/jpeg
+                            _source: uniform-assets
+                    width:
+                      type: number
+                      locales:
+                        en-US: '400'
+                    height:
+                      type: number
+                      locales:
+                        en-US: '400'
+                    objectFit:
+                      type: select
+                      value: contain
+                    borderRadius:
+                      type: tp-slider-parameter
+                      value: none
+                - _id: 9a8cd41a-25b1-401c-ae1f-2ec2dac03c5f
+                  type: image
+                  parameters:
+                    alt:
+                      type: text
+                      locales:
+                        en-US: Demo 2 of focal point
+                    src:
+                      type: asset
+                      locales:
+                        en-US:
+                          - _id: a9e99436-8268-434b-9db5-5d80a1127f4f
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: eb2c3354-bb0c-4525-bc18-e0450a144eae
+                              url:
+                                type: text
+                                value: >-
+                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/Z_wEljEOT5u2Im7fgSNO3Q-serey-kim-xjrvTc52xYc-unsplash.jpg
+                              file:
+                                type: file
+                                value: 0ab5f483-3590-482c-b468-c11b2c386ea4
+                              size:
+                                type: number
+                                value: 2918876
+                              title:
+                                type: text
+                                value: serey-kim-xjrvTc52xYc-unsplash.jpg
+                              width:
+                                type: number
+                                value: 7708
+                              height:
+                                type: number
+                                value: 3036
+                              mediaType:
+                                type: text
+                                value: image/jpeg
+                              focalPoint:
+                                type: focalPoint
+                                value:
+                                  x: 0.22
+                                  'y': 0.49
+                            _source: uniform-assets
+                    width:
+                      type: number
+                      locales:
+                        en-US: '400'
+                    height:
+                      type: number
+                      locales:
+                        en-US: '400'
+                    objectFit:
+                      type: select
+                      value: contain
+            variant: backgroundInContainer
+            parameters:
+              items:
+                type: asset
+                locales:
+                  en-US:
+                    - _id: 7d3e0d2e-7431-4a85-953d-e752b971dbf6
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: c9556355-d04b-4abe-ae4f-851c84bd76d2
+                        url:
+                          type: text
+                          value: >-
+                            https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/V7LaplKlQXm6rE_JsKPfXg-photo-1506918357967-b358ad447c56
+                        file:
+                          type: file
+                          value: 40334f40-9aef-4c65-b4de-6e63a085f876
+                        size:
+                          type: number
+                          value: 1138813
+                        title:
+                          type: text
+                          value: >-
+                            aerial photography of sea beside green trees during
+                            daytime
+                        width:
+                          type: number
+                          value: 3000
+                        height:
+                          type: number
+                          value: 2000
+                        mediaType:
+                          type: text
+                          value: image/jpeg
+                      _source: uniform-assets
+                    - _id: c8972cfe-ac1e-4683-a6dd-9816aabb1457
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.pexels.com/photos/2078251/pexels-photo-2078251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        title:
+                          type: text
+                          value: >-
+                            View from a tuk-tuk in Bangkok amidst motorcycle
+                            traffic at sunset.
+                        width:
+                          type: number
+                          value: 6000
+                        custom:
+                          type: object
+                          value:
+                            sourceId: '2078251'
+                            pexelsUrl: >-
+                              https://www.pexels.com/photo/man-sitting-inside-vehicle-2078251/
+                            photoTinyUrl: >-
+                              https://images.pexels.com/photos/2078251/pexels-photo-2078251.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                            photographer: Martin  Péchy
+                            photoLargeUrl: >-
+                              https://images.pexels.com/photos/2078251/pexels-photo-2078251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                            photoSmallUrl: >-
+                              https://images.pexels.com/photos/2078251/pexels-photo-2078251.jpeg?auto=compress&cs=tinysrgb&h=130
+                            photoMediumUrl: >-
+                              https://images.pexels.com/photos/2078251/pexels-photo-2078251.jpeg?auto=compress&cs=tinysrgb&h=350
+                            photoLarge2xUrl: >-
+                              https://images.pexels.com/photos/2078251/pexels-photo-2078251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                            photographerUrl: https://www.pexels.com/@martinpechy
+                            photoPortraitUrl: >-
+                              https://images.pexels.com/photos/2078251/pexels-photo-2078251.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                            pexelsOriginalUrl: >-
+                              https://images.pexels.com/photos/2078251/pexels-photo-2078251.jpeg
+                            photoLandscapeUrl: >-
+                              https://images.pexels.com/photos/2078251/pexels-photo-2078251.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                        height:
+                          type: number
+                          value: 4000
+                        description:
+                          type: text
+                          value: >-
+                            View from a tuk-tuk in Bangkok amidst motorcycle
+                            traffic at sunset. - Photo by Martin  Péchy on
+                            Pexels
+                      _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+                    - _id: 9775459b-3a37-4d14-a1fe-3e74919dd6ee
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        title:
+                          type: text
+                          value: >-
+                            Vibrant longtail boats lined up on a sandy beach,
+                            perfect for travel and tourism imagery.
+                        width:
+                          type: number
+                          value: 4572
+                        custom:
+                          type: object
+                          value:
+                            sourceId: '176398'
+                            pexelsUrl: >-
+                              https://www.pexels.com/photo/brown-wooden-docked-boat-at-daytime-176398/
+                            photoTinyUrl: >-
+                              https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                            photographer: Miro Alt
+                            photoLargeUrl: >-
+                              https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                            photoSmallUrl: >-
+                              https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&h=130
+                            photoMediumUrl: >-
+                              https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&h=350
+                            photoLarge2xUrl: >-
+                              https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                            photographerUrl: https://www.pexels.com/@miroalt
+                            photoPortraitUrl: >-
+                              https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                            pexelsOriginalUrl: >-
+                              https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg
+                            photoLandscapeUrl: >-
+                              https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                        height:
+                          type: number
+                          value: 3047
+                        description:
+                          type: text
+                          value: >-
+                            Vibrant longtail boats lined up on a sandy beach,
+                            perfect for travel and tourism imagery. - Photo by
+                            Miro Alt on Pexels
+                      _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+                    - _id: 1cd05538-0f4e-49a7-a239-2a56c8bad5ac
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.pexels.com/photos/19992964/pexels-photo-19992964.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        title:
+                          type: text
+                          value: >-
+                            Thai curry with rice, lime, and chili on a turquoise
+                            plate, perfect for food lovers.
+                        width:
+                          type: number
+                          value: 5616
+                        custom:
+                          type: object
+                          value:
+                            sourceId: '19992964'
+                            pexelsUrl: >-
+                              https://www.pexels.com/photo/bowl-of-soup-on-plate-19992964/
+                            photoTinyUrl: >-
+                              https://images.pexels.com/photos/19992964/pexels-photo-19992964.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                            photographer: Роман Нагаевский
+                            photoLargeUrl: >-
+                              https://images.pexels.com/photos/19992964/pexels-photo-19992964.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                            photoSmallUrl: >-
+                              https://images.pexels.com/photos/19992964/pexels-photo-19992964.jpeg?auto=compress&cs=tinysrgb&h=130
+                            photoMediumUrl: >-
+                              https://images.pexels.com/photos/19992964/pexels-photo-19992964.jpeg?auto=compress&cs=tinysrgb&h=350
+                            photoLarge2xUrl: >-
+                              https://images.pexels.com/photos/19992964/pexels-photo-19992964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                            photographerUrl: https://www.pexels.com/@924587518
+                            photoPortraitUrl: >-
+                              https://images.pexels.com/photos/19992964/pexels-photo-19992964.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                            pexelsOriginalUrl: >-
+                              https://images.pexels.com/photos/19992964/pexels-photo-19992964.jpeg
+                            photoLandscapeUrl: >-
+                              https://images.pexels.com/photos/19992964/pexels-photo-19992964.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                        height:
+                          type: number
+                          value: 3744
+                        description:
+                          type: text
+                          value: >-
+                            Thai curry with rice, lime, and chili on a turquoise
+                            plate, perfect for food lovers. - Photo by Роман
+                            Нагаевский on Pexels
+                      _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+              title:
+                type: text
+                locales:
+                  en-US: Gallery
+              titleStyle:
+                type: tp-title-style-parameter
+                value: h2
+              description:
+                type: text
+                locales:
+                  en-US: Here are some impressions of Thailand
     565b38a6-aafa-468f-a314-778e548b635d|68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
       parameters:
         badge:
@@ -160,5 +469,5 @@ composition:
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-11-08T14:38:18.10988+00:00'
-modified: '2025-04-08T14:04:52.626846+00:00'
+modified: '2025-04-17T16:13:21.481117+00:00'
 pattern: false
