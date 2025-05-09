@@ -1,4 +1,5 @@
 import { registerUniformComponent, ComponentProps } from '@uniformdev/canvas-react';
+import { EnrichmentData } from '@uniformdev/context';
 import { Button } from './Button';
 
 export type ButtonProps = ComponentProps<{
@@ -6,6 +7,7 @@ export type ButtonProps = ComponentProps<{
   link: Types.ProjectMapLink;
   style: Types.ButtonStyles;
   animationType?: Types.AnimationType;
+  clickTags?: EnrichmentData[];
 }>;
 
 registerUniformComponent({

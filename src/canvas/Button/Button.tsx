@@ -4,7 +4,7 @@ import BaseButton from '../../components/Button';
 import { formatProjectMapLink } from '../../utilities';
 import { ButtonProps } from '.';
 
-export const Button: FC<ButtonProps> = ({ link, style, animationType }) => {
+export const Button: FC<ButtonProps> = ({ link, style, animationType, clickTags }) => {
   const { isContextualEditing } = useUniformCurrentComposition();
   return (
     <BaseButton
@@ -18,6 +18,7 @@ export const Button: FC<ButtonProps> = ({ link, style, animationType }) => {
         />
       }
       style={style}
+      clickTags={clickTags}
     />
   );
 };

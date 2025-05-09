@@ -1,3 +1,4 @@
+import { EnrichmentData } from '@uniformdev/context';
 import { MouseEvent, ReactNode } from 'react';
 
 export type ButtonProps = {
@@ -8,6 +9,7 @@ export type ButtonProps = {
   onClick?: (e?: MouseEvent<HTMLButtonElement>) => void;
   disable?: boolean;
   animationType?: Types.AnimationType;
+  clickTags?: EnrichmentData[];
 };
 
 export { default } from './Button';
