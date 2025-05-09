@@ -1,16 +1,16 @@
 id: ses
 name: Season/Time
-cap: 10000
+cap: 1000
 values:
+  - id: aut
+    value: Autumn
+  - id: hol
+    value: Holidays
+  - id: 'off'
+    value: Off-Peak
   - id: spr
     value: Spring
   - id: sum
     value: Summer
-  - id: aut
-    value: Autumn
   - id: win
     value: Winter
-  - id: hol
-    value: Holidays
-  - id: off
-    value: Off-Peak

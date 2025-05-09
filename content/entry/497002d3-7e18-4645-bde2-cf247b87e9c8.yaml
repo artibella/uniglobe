@@ -1,0 +1,21 @@
+created: '2025-04-28T14:05:17.990608+00:00'
+modified: '2025-04-28T14:05:35.05209+00:00'
+pattern: false
+entry:
+  _id: 497002d3-7e18-4645-bde2-cf247b87e9c8
+  _name: Green Travel
+  _slug: green-travel
+  type: blogCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Green Travel
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Focused on eco-friendly practices, conservation efforts, and
+          sustainable tourism options.
+  _locales:
+    - en-US

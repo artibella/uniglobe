@@ -1,5 +1,5 @@
 created: '2024-01-18T12:33:27.077396+00:00'
-modified: '2025-03-27T10:41:56.302233+00:00'
+modified: '2025-05-05T07:52:45.107286+00:00'
 pattern: true
 entry:
   _id: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
@@ -84,9 +84,11 @@ entry:
       region: 'yes'
       videos: 'yes'
       captial: 'yes'
+      detailURL: 'yes'
       flagEmoji: 'yes'
       teaserText: 'yes'
       description: 'yes'
+      enrichments: 'yes'
       teaserImage: 'yes'
       timeToVisit: 'yes'
       description2: 'yes'

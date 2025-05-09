@@ -1,0 +1,21 @@
+created: '2025-04-28T14:07:22.822386+00:00'
+modified: '2025-04-28T14:07:47.916379+00:00'
+pattern: false
+entry:
+  _id: f86f265b-e4be-483a-a141-dbcc75855568
+  _name: Adventure Paths
+  _slug: adventure-paths
+  type: blogCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Adventure Paths
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Unique experiences away from mass tourism, focusing on outdoor
+          activities and natural discoveries.
+  _locales:
+    - en-US

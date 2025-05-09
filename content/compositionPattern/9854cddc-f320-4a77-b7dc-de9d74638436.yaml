@@ -8,6 +8,14 @@ composition:
       locales:
         en-US: <replace me>
   slots:
+    pageFooter:
+      - _id: 06a42098-4640-4ea9-90b4-cb4cecdc8d14
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: cf15e894-4494-46d6-ae9e-8a0975a8490f
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
       - _id: 4b328fd1-c6ac-4666-8bb7-9d0996320c43
         type: hero
@@ -107,27 +115,6 @@ composition:
             primaryButtonAnimationType: 'yes'
             secondaryButtonAnimationType: 'yes'
           hideLockedParameters: true
-      - _id: 6dcf5fda-1306-4bdd-8905-5bd4a99f2ae4
-        type: breadcrumbs
-        parameters:
-          separator:
-            type: select
-            value: chevron
-          colorStyle:
-            type: tp-color-style-parameter
-            value: primary
-          displayRootNode:
-            type: checkbox
-            value: true
-        _overridability:
-          parameters:
-            $viz: 'yes'
-            title: 'yes'
-            separator: 'yes'
-            colorStyle: 'yes'
-            displayRootNode: 'yes'
-            displayPlaceholderNodes: 'yes'
-          hideLockedParameters: true
       - _id: 1b5e7f73-2c6c-45c6-9b64-40fa984e9a9b
         type: $slotSection
         parameters:
@@ -156,5 +143,5 @@ composition:
   _locales:
     - en-US
 created: '2024-08-20T10:20:40.261891+00:00'
-modified: '2024-08-20T10:22:26.60441+00:00'
+modified: '2025-04-29T15:27:54.097312+00:00'
 pattern: true

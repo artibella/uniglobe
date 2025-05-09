@@ -1,7 +1,7 @@
 id: country
 name: Country
 created: '2024-01-18T12:23:31.527234+00:00'
-updated: '2025-04-09T10:34:18.449724+00:00'
+updated: '2025-05-05T08:03:04.764036+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -84,6 +84,7 @@ fields:
       childrenParams:
         - teaserImage
         - teaserText
+        - detailURL
   - id: teaserImage
     name: Teaser image
     type: asset
@@ -97,6 +98,19 @@ fields:
     helpText: ''
     typeConfig:
       multiline: true
+    localizable: true
+    allowConditionalValues: true
+  - id: detailURL
+    name: Detail URL
+    type: link
+    helpText: >-
+      Choose the node if this country has a special detail page (for linking and
+      preview)
+    typeConfig:
+      linkTypes:
+        tel: false
+        url: false
+        email: false
     localizable: true
     allowConditionalValues: true
   - id: 1d68a7b5-a661-4a6a-ab50-f389312ff9e8
@@ -182,6 +196,10 @@ fields:
       allowedContentTypes:
         - region
     localizable: false
+  - id: enrichments
+    name: Enrichments
+    type: $enr
+    typeConfig: null
 entryName: name
 thumbnailField: flag
 description: ''
@@ -202,3 +220,8 @@ previewConfigurations:
       locale: ${locale}
       region: ${#jptr:/entry/fields/region/value/entry/_slug}
       destination: ${#jptr:/entry/_slug}
+  - type: project-map
+    id: fdc1ba9a-c1b7-4c13-877d-9071c73f5dd2
+    label: Special detail page
+    dynamicInputs:
+      locale: ${locale}

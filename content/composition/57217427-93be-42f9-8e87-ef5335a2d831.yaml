@@ -1,0 +1,1416 @@
+composition:
+  _name: Digital nomads
+  _id: 57217427-93be-42f9-8e87-ef5335a2d831
+  _slug: digital-nomads
+  type: page
+  _overrides:
+    042434ff-3718-440a-b8c3-590b82495338:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
+    04aee280-488d-4a63-8d12-997c838aa03d:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: ' Top places in Asia'
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-fd6f
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Find a selection of great places that combine high-speed internet
+              with a lovely environment and cheap cost of living
+    118d8461-0c14-4922-abe8-a3bff50de56b:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
+    1d7adb13-d569-437f-b894-3b76afe21d5e:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: ' Top places in Asia'
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-9f68
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Find a selection of great places that combine high-speed internet
+              with a lovely environment and cheap cost of living
+    3a5d8a3d-a773-4b95-9b92-492f53c9f85b:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: ' Top places in Asia'
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-fd6f
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Find a selection of great places that combine high-speed internet
+              with a lovely environment and cheap cost of living
+    40d0c182-d1c0-4a3e-8a40-003c3c2cfcdc:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Our top picks for digital nomads
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-5085
+        description:
+          type: text
+          locales:
+            en-US: Proven locations
+    47f18355-47e7-48fe-9042-1814c6459a16:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 035a64b1-730e-444c-921a-431bc2712e14
+    5085f093-f192-4266-958c-4edca19f99d0:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Our top picks for digital nomads
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: nomad-region-picks
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Proven locations that work great for workations picked by our
+              staff
+    57217427-93be-42f9-8e87-ef5335a2d831:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            en-US: Find Your Next Digital Nomad Hub | Uniglobe
+        pageKeywords:
+          type: text
+          locales:
+            en-US: >-
+              digital nomad, remote work, sustainable travel, eco coliving,
+              community hub
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 792ab186-0cae-4d22-9e5d-8f85eab0d789
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=85
+                title:
+                  type: text
+                  value: digital nomads can work everywhere
+                width:
+                  type: number
+                  value: 4898
+                custom:
+                  type: object
+                  value:
+                    color: '#594026'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/woman-sitting-on-tiki-bar-facing-silver-laptop-Wu2MXvbyt7w
+                    blurHash: LGF#,Rr:4UocEBIo-mI:iwxtf+RQ
+                    sourceId: Wu2MXvbyt7w
+                    createdAt: '2019-10-31T08:44:14Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/woman-sitting-on-tiki-bar-facing-silver-laptop-Wu2MXvbyt7w
+                    updatedAt: '2025-04-29T12:49:25Z'
+                    authorName: Peggy Anke
+                    downloadUrl: >-
+                      https://unsplash.com/photos/Wu2MXvbyt7w/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=80&w=200
+                    authorUsername: instagramfotografin
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@instagramfotografin
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/Wu2MXvbyt7w/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1555927816762-afac707eec2b?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 3265
+                description:
+                  type: text
+                  value: Photo by Peggy Anke on Unsplash
+              _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        openGraphTitle:
+          type: text
+          locales:
+            en-US: Find Your Next Digital Nomad Hub | Uniglobe
+        pageMetaDescription:
+          type: text
+          locales:
+            en-US: >-
+              Discover ethical co-working spaces and sustainable accommodations
+              for digital nomads. Community-focused destinations with reliable
+              connectivity and authentic experiences.
+        openGraphDescription:
+          type: text
+          locales:
+            en-US: >-
+              Discover ethical co-working spaces and sustainable accommodations
+              for digital nomads. Community-focused destinations with reliable
+              connectivity and authentic experiences.
+    5d304d4f-f976-4688-aa26-16060cef771d:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: a78fe34d-0e49-4f9a-a675-8487a4b928b6
+    85a5d9de-443b-4346-851c-0baeb061a831:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Our top picks for digital nomads
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-5085
+        description:
+          type: text
+          locales:
+            en-US: Proven locations
+    86ade199-0d6f-4c5b-bb3b-5f396d2fdc13:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
+    870b82b2-ee50-46fa-a96b-90de033fb19b:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 8cc38f9a-6d51-42a7-b330-567e29c7483a
+    9f68d967-241a-4037-b763-167a364a0a2d:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Top places in Europe
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: dest_eur
+            name: nomad-region-europe
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Explore top working destinations in Europe offering beautiful
+              scenery and efficient infrastructures.
+    a49689cb-7536-4e13-9779-800c021594b3:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 036376fb-7f06-419e-ac2b-686de17fb520
+    a547d5e9-9105-4b85-9a35-8b53d8f17f0f:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+    b12a8eb4-24fe-4ff8-9fad-88b4acce1fb6:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Top places in Europe
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-9f68
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Explore top working destinations in Europe offering beautiful
+              scenery and efficient infrastructures.
+    baea0c43-9bc2-48d8-b2af-ce10acbbe28f:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 035a64b1-730e-444c-921a-431bc2712e14
+    fd6fdafa-c863-4636-90d6-ba24f0a48e3e:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Top places in Asia
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: dest_asia
+            name: nomad-region-asia
+        description:
+          type: text
+          locales:
+            en-US: Find a selection of great places in Asia with high-speed internet.
+    5085f093-f192-4266-958c-4edca19f99d0|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: 86ade199-0d6f-4c5b-bb3b-5f396d2fdc13
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: 042434ff-3718-440a-b8c3-590b82495338
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: baea0c43-9bc2-48d8-b2af-ce10acbbe28f
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 035a64b1-730e-444c-921a-431bc2712e14
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+    57217427-93be-42f9-8e87-ef5335a2d831|1b5e7f73-2c6c-45c6-9b64-40fa984e9a9b:
+      slots:
+        $slotSectionItems:
+          - _id: 0ad45ac9-60f7-4c80-81e6-080158891c8e
+            type: container
+            slots:
+              container-inner:
+                - _id: 35b53168-8b11-4a84-929c-f14599ccccbf
+                  type: featuredCallout
+                  parameters:
+                    image:
+                      type: asset
+                      locales:
+                        en-US:
+                          - _id: 064d425f-6686-484a-a9c5-3d167ebd2ed5
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                              title:
+                                type: text
+                                value: >-
+                                  Two men enjoying a relaxed conversation with
+                                  laptops in a cozy Brazilian café.
+                              width:
+                                type: number
+                                value: 5472
+                              custom:
+                                type: object
+                                value:
+                                  sourceId: '1015568'
+                                  pexelsUrl: >-
+                                    https://www.pexels.com/photo/photograph-of-men-having-conversation-seating-on-chair-1015568/
+                                  photoTinyUrl: >-
+                                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                                  photographer: Helena Lopes
+                                  photoLargeUrl: >-
+                                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                                  photoSmallUrl: >-
+                                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=130
+                                  photoMediumUrl: >-
+                                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=350
+                                  photoLarge2xUrl: >-
+                                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                                  photographerUrl: https://www.pexels.com/@helenalopes
+                                  photoPortraitUrl: >-
+                                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                                  pexelsOriginalUrl: >-
+                                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg
+                                  photoLandscapeUrl: >-
+                                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                              height:
+                                type: number
+                                value: 3648
+                              description:
+                                type: text
+                                value: >-
+                                  Two men enjoying a relaxed conversation with
+                                  laptops in a cozy Brazilian café. - Photo by
+                                  Helena Lopes on Pexels
+                            _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+                    title:
+                      type: text
+                      locales:
+                        en-US: Different While Working Remotely
+                    titleStyle:
+                      type: tp-title-style-parameter
+                      value: h2
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Uniglobe connects you with destinations that welcome
+                          digital nomads while preserving local culture and
+                          environment. Our partnerships ensure your travel
+                          dollars support communities, not mass tourism.
+                    eyebrowText:
+                      type: text
+                      locales:
+                        en-US: Why Choose Uniglobe
+            parameters:
+              marginTop:
+                type: select
+                value: None
+              paddingTop:
+                type: select
+                value: None
+              marginBottom:
+                type: select
+                value: None
+              paddingBottom:
+                type: select
+                value: None
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Light
+          - _id: 1dca10ff-5584-4fb9-8bfe-34d2d9760f43
+            type: container
+            slots:
+              container-inner:
+                - _id: 737acb94-f82c-40d4-a197-e917484b1395
+                  type: richText
+                  parameters:
+                    content:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - tag: h2
+                                type: heading
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'More Than Just WiFi '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      At Uniglobe, we understand that digital
+                                      nomads need reliable connectivity, but
+                                      also crave meaningful connections to local
+                                      communities and sustainable practices. 
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Our curated destinations offer: '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - tag: ul
+                                type: list
+                                start: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: listitem
+                                    value: 1
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Verified connectivity
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 1
+                                        version: 1
+                                      - mode: normal
+                                        text: ' with backup options during outages '
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 2
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Community-owned accommodations
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 1
+                                        version: 1
+                                      - mode: normal
+                                        text: ' with monthly rates '
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 3
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Local integration events
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 1
+                                        version: 1
+                                      - mode: normal
+                                        text: ' to connect with residents '
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 4
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Carbon-offset programs
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 1
+                                        version: 1
+                                      - mode: normal
+                                        text: ' for your digital footprint'
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 5
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Skill-sharing opportunities
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 1
+                                        version: 1
+                                      - mode: normal
+                                        text: ' with local entrepreneurs '
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                listType: bullet
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children: []
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      We personally vet each location for both
+                                      digital readiness and ethical practices,
+                                      ensuring your stay benefits you and the
+                                      community.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: For Digital Nomads Who Care
+              marginTop:
+                type: select
+                value: None
+              paddingTop:
+                type: select
+                value: None
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Medium
+          - _id: 58fb5305-645f-44f2-a1e2-38182b25647c
+            type: container
+            slots:
+              container-inner:
+                - _id: e7a2f549-38e7-47d0-bd77-79e7349e21c6
+                  type: cardBlock
+                  slots:
+                    cardBlockInner:
+                      - _id: 26244a75-6a6b-4fc0-8265-cf259803fd76
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Community-Run
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: 727d8843-9819-4ac5-aada-547615fe8198
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1598016677484-ad34c3fd766e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzM3x8b3V0ZG9vciUyMHdvcmtzcGFjZSUyMGFyZWF8ZW58MHx8fHwxNzQ1OTQxMDYwfDA&ixlib=rb-4.0.3&q=85
+                                    title:
+                                      type: text
+                                      value: Design Desk
+                                    width:
+                                      type: number
+                                      value: 4000
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#260c0c'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/brown-wooden-table-with-black-laptop-computer-on-top-5684tm9pat8
+                                        blurHash: 'LTDb.*I;IoI:~VIpR*R*IUM{xus:'
+                                        sourceId: 5684tm9pat8
+                                        createdAt: '2020-08-21T13:31:41Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/brown-wooden-table-with-black-laptop-computer-on-top-5684tm9pat8
+                                        updatedAt: '2025-04-29T13:05:57Z'
+                                        authorName: Ryan Ancill
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/5684tm9pat8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzM3x8b3V0ZG9vciUyMHdvcmtzcGFjZSUyMGFyZWF8ZW58MHx8fHwxNzQ1OTQxMDYwfDA
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1598016677484-ad34c3fd766e?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzM3x8b3V0ZG9vciUyMHdvcmtzcGFjZSUyMGFyZWF8ZW58MHx8fHwxNzQ1OTQxMDYwfDA&ixlib=rb-4.0.3
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1598016677484-ad34c3fd766e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzM3x8b3V0ZG9vciUyMHdvcmtzcGFjZSUyMGFyZWF8ZW58MHx8fHwxNzQ1OTQxMDYwfDA&ixlib=rb-4.0.3&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1598016677484-ad34c3fd766e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzM3x8b3V0ZG9vciUyMHdvcmtzcGFjZSUyMGFyZWF8ZW58MHx8fHwxNzQ1OTQxMDYwfDA&ixlib=rb-4.0.3&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1598016677484-ad34c3fd766e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzM3x8b3V0ZG9vciUyMHdvcmtzcGFjZSUyMGFyZWF8ZW58MHx8fHwxNzQ1OTQxMDYwfDA&ixlib=rb-4.0.3&q=80&w=200
+                                        authorUsername: ryanancill
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1598016677484-ad34c3fd766e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzM3x8b3V0ZG9vciUyMHdvcmtzcGFjZSUyMGFyZWF8ZW58MHx8fHwxNzQ1OTQxMDYwfDA&ixlib=rb-4.0.3&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@ryanancill
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/5684tm9pat8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzM3x8b3V0ZG9vciUyMHdvcmtzcGFjZSUyMGFyZWF8ZW58MHx8fHwxNzQ1OTQxMDYwfDA
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-1590107221559-77e9c271fdf9image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 6000
+                                    description:
+                                      type: text
+                                      value: Photo by Ryan Ancill on Unsplash
+                                  _source: >-
+                                    unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                          title:
+                            type: text
+                            locales:
+                              en-US: Eco Coliving in Medellin
+                          badgeSize:
+                            type: select
+                            value: md
+                          badgeStyle:
+                            type: tp-badge-style-parameter
+                            value: primary
+                          buttonCopy:
+                            type: text
+                            locales:
+                              en-US: See Monthly Rates
+                          buttonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /${locale}
+                                type: projectMapNode
+                                nodeId: 8a725ed1-156c-4ba3-b1a1-7930d1b704e1
+                                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                                dynamicInputValues:
+                                  locale: ${locale}
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Solar-powered coliving space with fiber
+                                internet, community kitchen, and weekly
+                                skillshares with local tech entrepreneurs.
+                                20-minute walk to public transport.
+                          lineCountRestriction:
+                            type: tp-slider-parameter
+                            value: none
+                      - _id: a514ac17-2b12-4c95-a5e4-28a277bfa995
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Plastic free
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: 0bbcbcbd-7410-4bd6-9c10-7ef004239fc9
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1642448379920-d60e1e3544f6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxiYW1ib28lMjBodXR8ZW58MHx8fHwxNzQ1OTQxMTU3fDA&ixlib=rb-4.0.3&q=85
+                                    title:
+                                      type: text
+                                      value: a hammock sitting on a wooden deck
+                                    width:
+                                      type: number
+                                      value: 3024
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#260c0c'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/a-hammock-sitting-on-a-wooden-deck-sswlEh9dM1I
+                                        blurHash: LNHdjQTe-;tS0f-AfkV@E1-URjRj
+                                        sourceId: sswlEh9dM1I
+                                        createdAt: '2022-01-17T19:39:43Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/a-hammock-sitting-on-a-wooden-deck-sswlEh9dM1I
+                                        updatedAt: '2025-04-29T10:53:15Z'
+                                        authorName: Nadja
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/sswlEh9dM1I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxiYW1ib28lMjBodXR8ZW58MHx8fHwxNzQ1OTQxMTU3fDA
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1642448379920-d60e1e3544f6?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxiYW1ib28lMjBodXR8ZW58MHx8fHwxNzQ1OTQxMTU3fDA&ixlib=rb-4.0.3
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1642448379920-d60e1e3544f6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxiYW1ib28lMjBodXR8ZW58MHx8fHwxNzQ1OTQxMTU3fDA&ixlib=rb-4.0.3&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1642448379920-d60e1e3544f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxiYW1ib28lMjBodXR8ZW58MHx8fHwxNzQ1OTQxMTU3fDA&ixlib=rb-4.0.3&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1642448379920-d60e1e3544f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxiYW1ib28lMjBodXR8ZW58MHx8fHwxNzQ1OTQxMTU3fDA&ixlib=rb-4.0.3&q=80&w=200
+                                        authorUsername: nagold
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1642448379920-d60e1e3544f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxiYW1ib28lMjBodXR8ZW58MHx8fHwxNzQ1OTQxMTU3fDA&ixlib=rb-4.0.3&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@nagold
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/sswlEh9dM1I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxiYW1ib28lMjBodXR8ZW58MHx8fHwxNzQ1OTQxMTU3fDA
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-1610483798488-067d4d604776image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 4032
+                                    description:
+                                      type: text
+                                      value: Photo by Nadja on Unsplash
+                                  _source: >-
+                                    unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                          title:
+                            type: text
+                            locales:
+                              en-US: Beach Hub in Canggu
+                          buttonCopy:
+                            type: text
+                            locales:
+                              en-US: Explore Workspace
+                          buttonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /${locale}
+                                type: projectMapNode
+                                nodeId: 8a725ed1-156c-4ba3-b1a1-7930d1b704e1
+                                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                                dynamicInputValues:
+                                  locale: ${locale}
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Bamboo coworking space with 200Mbps internet,
+                                beachfront access, and partnerships with local
+                                sustainable restaurants. Includes language
+                                exchange program.
+                          lineCountRestriction:
+                            type: tp-slider-parameter
+                            value: none
+                      - _id: 2eed140a-a79e-4bae-bc4e-ee97a37029b5
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Carbon-Neutral
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: 86b83719-ff75-47be-ab9f-14c6c7916bb1
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1605551440214-fd53c8ac9adb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMG9mZmljZXxlbnwwfHx8fDE3NDU5NDEzNTB8MA&ixlib=rb-4.0.3&q=85
+                                    title:
+                                      type: text
+                                      value: >-
+                                        green trees and mountains under white
+                                        clouds and blue sky during daytime
+                                    width:
+                                      type: number
+                                      value: 4000
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#262626'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/green-trees-and-mountains-under-white-clouds-and-blue-sky-during-daytime-WelKzZk1pE4
+                                        blurHash: LdE{njIVRja#~XWBa#WAWAxuWWj?
+                                        sourceId: WelKzZk1pE4
+                                        createdAt: '2020-11-16T18:31:05Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/green-trees-and-mountains-under-white-clouds-and-blue-sky-during-daytime-WelKzZk1pE4
+                                        updatedAt: '2025-04-29T10:22:48Z'
+                                        authorName: Pavel Neznanov
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/WelKzZk1pE4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMG9mZmljZXxlbnwwfHx8fDE3NDU5NDEzNTB8MA
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1605551440214-fd53c8ac9adb?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMG9mZmljZXxlbnwwfHx8fDE3NDU5NDEzNTB8MA&ixlib=rb-4.0.3
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1605551440214-fd53c8ac9adb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMG9mZmljZXxlbnwwfHx8fDE3NDU5NDEzNTB8MA&ixlib=rb-4.0.3&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1605551440214-fd53c8ac9adb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMG9mZmljZXxlbnwwfHx8fDE3NDU5NDEzNTB8MA&ixlib=rb-4.0.3&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1605551440214-fd53c8ac9adb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMG9mZmljZXxlbnwwfHx8fDE3NDU5NDEzNTB8MA&ixlib=rb-4.0.3&q=80&w=200
+                                        authorUsername: npi
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1605551440214-fd53c8ac9adb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMG9mZmljZXxlbnwwfHx8fDE3NDU5NDEzNTB8MA&ixlib=rb-4.0.3&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@npi
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/WelKzZk1pE4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMG9mZmljZXxlbnwwfHx8fDE3NDU5NDEzNTB8MA
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-1603661597162-72de45b93712image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 3000
+                                    description:
+                                      type: text
+                                      value: Photo by Pavel Neznanov on Unsplash
+                                  _source: >-
+                                    unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                          title:
+                            type: text
+                            locales:
+                              en-US: Mountain Retreat in Bansko
+                          buttonCopy:
+                            type: text
+                            locales:
+                              en-US: View Availability
+                          buttonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /${locale}
+                                type: projectMapNode
+                                nodeId: 8a725ed1-156c-4ba3-b1a1-7930d1b704e1
+                                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                                dynamicInputValues:
+                                  locale: ${locale}
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Community-focused co-living with 150Mbps
+                                internet, renewable energy, and proximity to
+                                hiking trails. Includes weekly dinners with
+                                local residents.
+                          lineCountRestriction:
+                            type: tp-slider-parameter
+                            value: none
+                  variant: carousel
+                  parameters:
+                    title:
+                      type: text
+                      locales:
+                        en-US: Some of our highlights
+                    titleStyle:
+                      type: tp-title-style-parameter
+                      value: h2
+            parameters:
+              marginTop:
+                type: select
+                value: None
+              marginBottom:
+                type: select
+                value: None
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Light
+          - _id: 5de9a90a-837e-4a77-9f57-63439e84468c
+            type: $personalization
+            slots:
+              pz:
+                - _id: fd6fdafa-c863-4636-90d6-ba24f0a48e3e
+                  type: cardBlock
+                  _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      title: 'yes'
+                      buttonCopy: 'no'
+                      buttonLink: 'yes'
+                      titleStyle: 'no'
+                      buttonStyle: 'no'
+                      description: 'yes'
+                      textColorVariant: 'yes'
+                      buttonAnimationType: 'no'
+                    hideLockedParameters: true
+                - _id: 9f68d967-241a-4037-b763-167a364a0a2d
+                  type: cardBlock
+                  _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      title: 'yes'
+                      buttonCopy: 'no'
+                      buttonLink: 'yes'
+                      titleStyle: 'no'
+                      buttonStyle: 'no'
+                      description: 'yes'
+                      textColorVariant: 'yes'
+                      buttonAnimationType: 'no'
+                    hideLockedParameters: true
+                - _id: 5085f093-f192-4266-958c-4edca19f99d0
+                  type: cardBlock
+                  _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+                  _overridability:
+                    parameters:
+                      $viz: 'yes'
+                      title: 'yes'
+                      buttonCopy: 'no'
+                      buttonLink: 'yes'
+                      titleStyle: 'no'
+                      buttonStyle: 'no'
+                      description: 'yes'
+                      textColorVariant: 'yes'
+                      buttonAnimationType: 'no'
+                    hideLockedParameters: true
+            parameters:
+              algorithm:
+                type: pzAlgorithm
+                value: ssc
+              trackingEventName:
+                type: text
+                value: nomad-region
+    57217427-93be-42f9-8e87-ef5335a2d831|4b328fd1-c6ac-4666-8bb7-9d0996320c43:
+      variant: imageRight
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 28888d83-435e-4a7a-b834-5f57cc2c05a6
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=85
+                title:
+                  type: text
+                  value: digital nomads can work everywhere
+                width:
+                  type: number
+                  value: 4898
+                custom:
+                  type: object
+                  value:
+                    color: '#594026'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/woman-sitting-on-tiki-bar-facing-silver-laptop-Wu2MXvbyt7w
+                    blurHash: LGF#,Rr:4UocEBIo-mI:iwxtf+RQ
+                    sourceId: Wu2MXvbyt7w
+                    createdAt: '2019-10-31T08:44:14Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/woman-sitting-on-tiki-bar-facing-silver-laptop-Wu2MXvbyt7w
+                    updatedAt: '2025-04-29T12:49:25Z'
+                    authorName: Peggy Anke
+                    downloadUrl: >-
+                      https://unsplash.com/photos/Wu2MXvbyt7w/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=80&w=200
+                    authorUsername: instagramfotografin
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1572511443032-a3cfe6823872?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA&ixlib=rb-4.0.3&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@instagramfotografin
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/Wu2MXvbyt7w/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzQ1OTM5MTk0fDA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1555927816762-afac707eec2b?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 3265
+                description:
+                  type: text
+                  value: Photo by Peggy Anke on Unsplash
+              _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        title:
+          type: text
+          value: Find Your Next Digital Nomad Hub
+        fullHeight:
+          type: checkbox
+          value: null
+        description:
+          type: text
+          value: >-
+            Discover community-focused destinations with reliable connectivity,
+            ethical co-working spaces, and authentic local experiences that
+            support sustainable tourism.
+        eyebrowText:
+          type: text
+          value: Work & Travel Sustainably
+        marginBottom:
+          type: select
+          value: None
+        overlayColor:
+          type: tp-color-style-parameter
+          value: secondary
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Dark
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 0%
+        primaryButtonCopy:
+          type: text
+          locales:
+            en-US: Explore Nomad Hubs
+        primaryButtonLink:
+          type: link
+          value:
+            path: /${locale}
+            type: projectMapNode
+            nodeId: 8a725ed1-156c-4ba3-b1a1-7930d1b704e1
+            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            dynamicInputValues:
+              locale: ${locale}
+        secondaryButtonCopy:
+          type: text
+          locales:
+            en-US: See Monthly Stays
+        secondaryButtonLink:
+          type: link
+          value:
+            path: /${locale}
+            type: projectMapNode
+            nodeId: 8a725ed1-156c-4ba3-b1a1-7930d1b704e1
+            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            dynamicInputValues:
+              locale: ${locale}
+        secondaryButtonStyle:
+          type: tp-button-style-parameter
+          value: secondary
+    57217427-93be-42f9-8e87-ef5335a2d831|cf15e894-4494-46d6-ae9e-8a0975a8490f:
+      parameters:
+        $enr:
+          type: $enr
+          value:
+            - cat: type
+              key: wrk
+              str: 50
+            - cat: '7'
+              key: res
+              str: 50
+            - cat: profile
+              key: pro
+              str: 50
+            - cat: type
+              key: bus
+              str: 25
+            - cat: profile
+              key: mil
+              str: 50
+            - cat: profile
+              key: genz
+              str: 50
+    9f68d967-241a-4037-b763-167a364a0a2d|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: 5d304d4f-f976-4688-aa26-16060cef771d
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: a78fe34d-0e49-4f9a-a675-8487a4b928b6
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: 870b82b2-ee50-46fa-a96b-90de033fb19b
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 8cc38f9a-6d51-42a7-b330-567e29c7483a
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: a49689cb-7536-4e13-9779-800c021594b3
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 036376fb-7f06-419e-ac2b-686de17fb520
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+    fd6fdafa-c863-4636-90d6-ba24f0a48e3e|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: 47f18355-47e7-48fe-9042-1814c6459a16
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 035a64b1-730e-444c-921a-431bc2712e14
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: 118d8461-0c14-4922-abe8-a3bff50de56b
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: a547d5e9-9105-4b85-9a35-8b53d8f17f0f
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en-US
+  _pattern: 9854cddc-f320-4a77-b7dc-de9d74638436
+created: '2025-04-29T14:56:44.654093+00:00'
+modified: '2025-05-09T12:10:47.917155+00:00'
+pattern: false

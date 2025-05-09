@@ -1,0 +1,35 @@
+id: blogCategory
+name: Blog Category
+created: '2025-04-28T14:04:55.283995+00:00'
+updated: '2025-04-28T14:04:55.283995+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    typeConfig:
+      required: true
+    localizable: true
+  - id: icon
+    name: Icon
+    type: asset
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+entryName: title
+thumbnailField: icon
+description: Categories for blog posts
+icon: tag
+type: contentType
+permissions: []
+previewConfigurations: []

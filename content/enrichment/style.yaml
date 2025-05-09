@@ -1,16 +1,16 @@
 id: style
 name: Travel Style
-cap: 10000
+cap: 1000
 values:
-  - id: lux
-    value: Luxury
   - id: adv
     value: Adventure
-  - id: eco
-    value: Eco-Friendly
   - id: bud
     value: Budget
+  - id: eco
+    value: Eco-Friendly
   - id: fam
     value: Family
+  - id: lux
+    value: Luxury
   - id: sol
     value: Solo

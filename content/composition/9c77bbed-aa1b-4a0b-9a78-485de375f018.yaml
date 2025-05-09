@@ -49,6 +49,9 @@ composition:
           value: Light
     9c77bbed-aa1b-4a0b-9a78-485de375f018:
       parameters:
+        $enr:
+          type: $enr
+          value: ${#jptr:/Country/entry/fields/enrichments/value:fl=i}
         pageTitle:
           type: text
           value: ${#jptr:/Country/entry/fields/name/value:fa=a:fl=e}
@@ -267,6 +270,9 @@ composition:
     8d7d4d4c-a4cd-415f-9413-f391615ab61b|827696b7-9ff8-4fe6-9303-4ee0ec969a80:
       variant: ''
       parameters:
+        $enr:
+          type: $enr
+          value: ${#jptr:/Country/entry/fields/enrichments/value}
         content:
           type: richText
           locales:
@@ -803,5 +809,5 @@ composition:
     - it-IT
   _pattern: 3cf98231-24a0-4007-a17e-eb16c19e8abf
 created: '2024-09-19T15:05:13.631235+00:00'
-modified: '2025-04-09T10:35:02.756456+00:00'
+modified: '2025-04-30T13:29:30.335195+00:00'
 pattern: false

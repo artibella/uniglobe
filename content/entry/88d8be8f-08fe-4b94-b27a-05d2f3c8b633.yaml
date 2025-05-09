@@ -114,11 +114,6 @@ entry:
                   with intricate details. - Photo by John-Mark Smith on Pexels
             _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
       value: []
-    customSlug:
-      type: text
-      locales:
-        de-DE: nordamerika
-        en-US: north-america
     teaserText:
       type: text
       locales:

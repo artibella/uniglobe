@@ -1,0 +1,21 @@
+created: '2025-04-28T14:06:48.55733+00:00'
+modified: '2025-04-28T14:07:15.376934+00:00'
+pattern: false
+entry:
+  _id: 8373c244-85c3-4ba7-8732-e8db9623b595
+  _name: Digital Nomad
+  _slug: digital-nomad
+  type: blogCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Digital Nomad
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Practical information for remote workers seeking extended stays with
+          reliable connectivity.
+  _locales:
+    - en-US

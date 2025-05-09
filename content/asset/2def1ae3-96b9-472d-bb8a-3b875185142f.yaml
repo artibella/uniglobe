@@ -1,11 +1,14 @@
 asset:
   type: image
   _id: 2def1ae3-96b9-472d-bb8a-3b875185142f
-  _name: ''
+  _name: su-san-lee-E_eWwM29wfU-unsplash.jpg
   fields:
     title:
       type: text
-      value: su-san-lee-E_eWwM29wfU-unsplash.jpg
+      value: Kyoto temple over city
+    description:
+      type: text
+      value: Su-san Lee, Unsplash
     file:
       type: file
       value: 7c0881b1-32bc-44cf-bac5-aff1f5610077
@@ -27,4 +30,4 @@ asset:
       type: number
     custom: {}
 created: '2025-03-25T13:01:21.034798+00:00'
-modified: '2025-03-25T13:01:21.034798+00:00'
+modified: '2025-04-22T13:49:29.942297+00:00'

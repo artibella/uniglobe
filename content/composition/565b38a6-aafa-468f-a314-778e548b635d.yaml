@@ -435,39 +435,10 @@ composition:
                 type: text
                 locales:
                   en-US: Here are some impressions of Thailand
-    565b38a6-aafa-468f-a314-778e548b635d|68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
-      parameters:
-        badge:
-          type: text
-          locales: {}
-        image:
-          type: asset
-          locales: {}
-        title:
-          type: text
-          locales: {}
-        objectFit:
-          type: select
-          locales: {}
-        buttonCopy:
-          type: text
-          locales: {}
-        buttonLink:
-          type: link
-          locales: {}
-        description:
-          type: text
-          locales: {}
-        overlayColor:
-          type: tp-color-style-parameter
-          locales: {}
-        overlayOpacity:
-          type: tp-slider-parameter
-          locales: {}
   _locales:
     - en-US
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-11-08T14:38:18.10988+00:00'
-modified: '2025-04-17T16:13:21.481117+00:00'
+modified: '2025-04-28T10:45:21.633065+00:00'
 pattern: false

@@ -1,0 +1,45 @@
+id: seoMetadata
+name: SEO metadata
+created: '2025-04-28T14:39:38.821234+00:00'
+updated: '2025-04-28T14:39:38.821234+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: metaTitle
+    name: Meta Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: metaDescription
+    name: Meta description
+    type: text
+    typeConfig:
+      multiline: true
+    localizable: true
+  - id: openGraphTitle
+    name: Open Graph Title
+    type: text
+    helpText: Social sharing title
+    typeConfig: null
+    localizable: true
+  - id: openGraphDescription
+    name: Open Graph Description
+    type: text
+    helpText: Social sharing description
+    typeConfig: null
+    localizable: true
+  - id: openGraphImage
+    name: Open Graph Image
+    type: asset
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
+    localizable: true
+entryName: metaTitle
+thumbnailField: openGraphImage
+description: ''
+icon: search
+type: block
+permissions: []
+previewConfigurations: []

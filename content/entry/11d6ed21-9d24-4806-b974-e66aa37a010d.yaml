@@ -1,9 +1,9 @@
 created: '2025-03-14T11:04:42.846251+00:00'
-modified: '2025-03-14T11:05:38.288951+00:00'
+modified: '2025-04-29T08:13:12.970499+00:00'
 pattern: false
 entry:
   _id: 11d6ed21-9d24-4806-b974-e66aa37a010d
-  _name: Best things to do in Japan in 2025
+  _name: 'Best Things to Do in Japan in 2025: Local Experiences Off...'
   _slug: best-things-to-do-in-japan-in-2025
   _thumbnail: >-
     https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
@@ -19,13 +19,1023 @@ entry:
             indent: 0
             version: 1
             children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Community-Based Experiences in Rural Japan
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 1. Tohoku Reconstruction Tourism
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
               - type: paragraph
                 format: ''
                 indent: 0
                 version: 1
                 children:
                   - mode: normal
-                    text: Some content here
+                    text: >-
+                      The Tohoku region, devastated by the 2011 earthquake and
+                      tsunami, has been slowly rebuilding through community-led
+                      tourism initiatives. In 2025, several new programs will
+                      launch to mark the region's recovery, including:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Fisherman for a Day
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          : Work alongside local fishermen in Miyagi Prefecture,
+                          learning traditional techniques while supporting
+                          coastal communities.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textFormat: 1
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Storytelling Nights
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          : Evening gatherings where local elders share stories
+                          of regional history, folklore, and recovery efforts.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textFormat: 1
+                listType: bullet
+                direction: ltr
+                textFormat: 1
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      These experiences connect travelers directly with
+                      residents and ensure tourism dollars flow to communities
+                      still rebuilding. Advance booking is essential as group
+                      sizes are intentionally kept small.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 2. Noto Peninsula Craft Revival
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Following the January 2024 earthquake that devastated
+                      parts of the Noto Peninsula, local artisans have banded
+                      together to preserve traditional crafts while rebuilding
+                      their communities. The "Craft Revival Workshops" program
+                      launching in spring 2025 allows visitors to:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Learn wajima-nuri lacquerware techniques from master
+                          craftspeople
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Participate in kiriko glass lantern restoration
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Stay with local families in partially transformed
+                          traditional homes
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      All proceeds support local reconstruction efforts and
+                      artisan livelihoods, creating a meaningful exchange
+                      between visitors and hosts.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Urban Experiences Beyond the Tourist Hubs
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 3. Tokyo Neighborhood Cooking Collectives
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Skip the overcrowded tourist cooking classes and join
+                      neighborhood cooking collectives in residential areas like
+                      Koenji, Shimokitazawa, and Nakano. These weekly gatherings
+                      bring together locals and travelers to prepare seasonal
+                      dishes in home kitchens. The ¥3,000 fee goes directly to
+                      supporting local food producers and community gardens.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 4. Kyoto Machiya Preservation Stays
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Instead of contributing to overtourism in Kyoto's popular
+                      districts, consider staying in a machiya (traditional
+                      wooden townhouse) in lesser-visited neighborhoods like
+                      Nishijin or Uzumasa. Several community preservation groups
+                      have renovated these historic buildings, with tourism
+                      proceeds funding ongoing restoration efforts.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Seasonal Highlights for 2025
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 5. Setouchi Triennale 2025
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This renowned art festival transforms the rural islands of
+                      the Seto Inland Sea into open-air galleries featuring work
+                      from Japanese and international artists. The 2025 edition
+                      will highlight sustainability themes and creative
+                      responses to rural depopulation. Visit during the spring
+                      session (April-May) to avoid the summer crowds and heat.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 6. Aomori Nebuta Matsuri Alternative
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      While the famous Nebuta Festival draws massive crowds,
+                      several smaller communities in Aomori Prefecture host
+                      their own versions with local participation opportunities.
+                      The Inakadate Village festival in early August offers
+                      hands-on lantern-making workshops and home-stay options
+                      with local farmers.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 7. Digital Nomad-Friendly Rural Hubs
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Several rural communities across Japan have launched
+                      initiatives to attract digital nomads in 2025, offering:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Month-long stays in renovated kominka (traditional
+                          houses) with high-speed internet
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Co-working spaces in repurposed school buildings
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Community integration programs connecting visitors
+                          with local projects
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Japanese language exchange with residents
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Aso region in Kumamoto and the Iya Valley in Tokushima
+                      are leading this movement, creating sustainable models for
+                      tourism that address rural depopulation while providing
+                      meaningful experiences for travelers.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Sustainability Tips for Japan Travel in 2025
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Use Japan's efficient public transportation system
+                          instead of rental cars
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Stay in community-run accommodations that use proceeds
+                          for local development
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Carry a reusable water bottle—tap water is safe
+                          throughout Japan
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Join community clean-up initiatives in areas like
+                          Tohoku beaches or Mount Fuji trails
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Choose local, seasonal foods at markets and
+                          restaurants
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Japan faces significant environmental challenges,
+                      including waste management issues and rural depopulation.
+                      The experiences recommended in this guide actively address
+                      these issues through sustainable tourism practices. Many
+                      include environmental education components, and all direct
+                      tourism revenue to local communities working to preserve
+                      their natural and cultural heritage.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Practical Information
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Budget Level
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ': Mid-range'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - type: linebreak
+                    version: 1
+                  - mode: normal
+                    text: Best Time to Visit
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      : April-May (spring) or October-November (fall) for ideal
+                      weather and fewer crowds
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 1
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Helpful Tips:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The JR East-South Hokkaido Rail Pass offers excellent
+                          value for exploring northern Japan
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Book community experiences at least 3 months in
+                          advance as they often have limited capacity
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Download the Japan Transit Planner app for easy
+                          navigation of public transportation
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Consider a portable WiFi device for rural areas where
+                          public WiFi may be limited
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Learn basic Japanese phrases—even simple greetings are
+                          greatly appreciated in rural communities
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Ready to Experience Japan's Local Side?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Connect with community-based tourism initiatives for your
+                      2025 Japan adventure.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - link:
+                      path: /${locale}/destinations/asia/japan
+                      type: projectMapNode
+                      nodeId: fdc1ba9a-c1b7-4c13-877d-9071c73f5dd2
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Explore Japan Experiences
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    title:
+      type: text
+      locales:
+        en-US: >-
+          Best Things to Do in Japan in 2025: Local Experiences Off the Tourist
+          Trail
+    excerpt:
+      type: text
+      locales:
+        en-US: >-
+          Skip the overcrowded tourist spots and discover Japan's authentic side
+          with these community-based experiences that support local economies
+          and showcase true Japanese culture.
+    categories:
+      type: contentReference
+      value: ${#jptr:/ref-11d6ed21-9d24-4806-b974-e66aa37a010d-categories/entries}
+    enrichments:
+      type: $enr
+      value:
+        - cat: dest
+          key: asia
+          str: 50
+        - cat: '7'
+          key: res
+          str: 50
+    seoMetadata:
+      type: $block
+      value:
+        - _id: 11d69386-d186-4c90-86ef-9c0f9d3c852b
+          type: seoMetadata
+          fields:
+            metaTitle:
+              type: text
+              locales:
+                en-US: >-
+                  Japan 2025: Authentic Local Experiences & Sustainable Travel
+                  Guide 
+            openGraphImage:
+              type: asset
+              locales:
+                en-US:
+                  - _id: 618270aa-ecc6-45fc-975f-a6f681b3fe04
+                    type: image
+                    fields:
+                      url:
+                        type: text
+                        value: >-
+                          https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      title:
+                        type: text
+                        value: >-
+                          Night view of a busy Tokyo street with vibrant neon
+                          signs and people walking in Shinjuku, Japan.
+                      width:
+                        type: number
+                        value: 5932
+                      custom:
+                        type: object
+                        value:
+                          sourceId: '2506923'
+                          pexelsUrl: >-
+                            https://www.pexels.com/photo/people-walking-on-the-street-2506923/
+                          photoTinyUrl: >-
+                            https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                          photographer: Aleksandar Pasaric
+                          photoLargeUrl: >-
+                            https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                          photoSmallUrl: >-
+                            https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=130
+                          photoMediumUrl: >-
+                            https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&h=350
+                          photoLarge2xUrl: >-
+                            https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                          photographerUrl: https://www.pexels.com/@apasaric
+                          photoPortraitUrl: >-
+                            https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                          pexelsOriginalUrl: >-
+                            https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg
+                          photoLandscapeUrl: >-
+                            https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                      height:
+                        type: number
+                        value: 3955
+                      description:
+                        type: text
+                        value: >-
+                          Night view of a busy Tokyo street with vibrant neon
+                          signs and people walking in Shinjuku, Japan. - Photo
+                          by Aleksandar Pasaric on Pexels
+                    _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+              value: []
+            openGraphTitle:
+              type: text
+              locales:
+                en-US: >-
+                  Japan 2025: Authentic Local Experiences & Sustainable Travel
+                  Guide 
+            metaDescription:
+              type: text
+              locales:
+                en-US: >-
+                  Discover authentic, sustainable things to do in Japan in 2025,
+                  from community-led experiences to lesser-known destinations
+                  that support local economies.
+            openGraphDescription:
+              type: text
+              locales:
+                en-US: >-
+                  Discover authentic, sustainable things to do in Japan in 2025,
+                  from community-led experiences to lesser-known destinations
+                  that support local economies.
+    introduction:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Japan has long been a traveler's dream destination, but as
+                      tourism returns in full force post-pandemic, 2025 presents
+                      both challenges and opportunities for mindful travelers.
+                      While iconic spots like Tokyo's Shibuya Crossing and
+                      Kyoto's Fushimi Inari Shrine continue to draw crowds, a
+                      new wave of community-based tourism initiatives offers
+                      more authentic connections with local culture and people.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This guide focuses on experiences that not only provide
+                      deeper cultural immersion but also directly support local
+                      economies and sustainable tourism practices. From rural
+                      revitalization projects to urban community initiatives,
+                      these experiences showcase a side of Japan that most
+                      tourists never see.
                     type: text
                     style: ''
                     detail: 0
@@ -35,10 +1045,6 @@ entry:
                 textStyle: ''
                 textFormat: 0
             direction: ltr
-    title:
-      type: text
-      locales:
-        en-US: Best things to do in Japan in 2025
     featuredImage:
       type: asset
       locales:
@@ -93,5 +1099,11 @@ entry:
                   Pasaric on Pexels
             _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
       value: []
+  _dataResources:
+    ref-11d6ed21-9d24-4806-b974-e66aa37a010d-categories:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: a158381c-d0cd-4263-a481-350b514b0ea0
   _locales:
     - en-US

@@ -1,0 +1,33 @@
+created: '2025-04-28T11:43:21.451068+00:00'
+modified: '2025-04-28T13:58:21.273962+00:00'
+pattern: false
+entry:
+  _id: afc048d6-e361-473d-a8bb-a0c93aab1cfc
+  _name: Central America
+  _slug: central-america
+  type: region
+  fields: {}
+  _dataResources:
+    Countries:
+      type: countriesBySubregionName
+      variables:
+        region: Central america
+    ref-afc048d6-e361-473d-a8bb-a0c93aab1cfc-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55
+  _locales:
+    - en-US
+  _overrides:
+    afc048d6-e361-473d-a8bb-a0c93aab1cfc:
+      parameters:
+        name:
+          type: text
+          locales:
+            en-US: Central America
+        destinations:
+          type: contentReference
+          value: >-
+            ${#jptr:/ref-afc048d6-e361-473d-a8bb-a0c93aab1cfc-destinations/entries}
+  _pattern: 57ca4594-f957-4139-a439-fbfb7eb58300

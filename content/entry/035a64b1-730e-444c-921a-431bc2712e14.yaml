@@ -1,5 +1,5 @@
 created: '2024-08-21T13:15:35.435656+00:00'
-modified: '2025-04-08T07:51:05.255103+00:00'
+modified: '2025-05-05T07:54:26.613051+00:00'
 pattern: false
 entry:
   _id: 035a64b1-730e-444c-921a-431bc2712e14
@@ -28,6 +28,16 @@ entry:
         region:
           type: contentReference
           value: ${#jptr:/ref-035a64b1-730e-444c-921a-431bc2712e14-region/entries/0}
+        detailURL:
+          type: link
+          locales:
+            en-US:
+              path: /${locale}/destinations/asia/thailand
+              type: projectMapNode
+              nodeId: 249ff2ae-57df-4955-84c6-5e015e8d8408
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
         teaserText:
           type: text
           locales:
@@ -170,6 +180,12 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: asia
+              str: 50
         teaserImage:
           type: asset
           locales:

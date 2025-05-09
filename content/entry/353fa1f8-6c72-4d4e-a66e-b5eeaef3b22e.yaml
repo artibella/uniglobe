@@ -1,0 +1,21 @@
+created: '2025-04-28T14:08:31.884997+00:00'
+modified: '2025-04-28T14:08:58.89015+00:00'
+pattern: false
+entry:
+  _id: 353fa1f8-6c72-4d4e-a66e-b5eeaef3b22e
+  _name: Food Stories
+  _slug: food-stories
+  type: blogCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Food Stories
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Authentic culinary experiences that connect travelers to culture and
+          support local producers.
+  _locales:
+    - en-US

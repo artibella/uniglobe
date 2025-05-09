@@ -2,6 +2,34 @@
   "project": {
     "pz": {
       "agg": {
+        "budgetTraveler": {
+          "inputs": [
+            {
+              "dim": "style_bud"
+            },
+            {
+              "dim": "ses_off"
+            },
+            {
+              "dim": "dest_asia"
+            },
+            {
+              "dim": "dest_sa"
+            },
+            {
+              "dim": "dest_afri"
+            },
+            {
+              "dim": "profile_genz"
+            },
+            {
+              "dim": "profile_mil"
+            },
+            {
+              "dim": "profile_std"
+            }
+          ]
+        },
         "usersDACH": {
           "inputs": [
             {
@@ -35,6 +63,21 @@
       },
       "enr": {
         "dest": {
+          "cap": 10000
+        },
+        "act": {
+          "cap": 10000
+        },
+        "type": {
+          "cap": 10000
+        },
+        "ses": {
+          "cap": 10000
+        },
+        "profile": {
+          "cap": 10000
+        },
+        "style": {
           "cap": 10000
         }
       },

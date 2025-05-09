@@ -26,6 +26,18 @@ parameters:
           value: fadeIn
         - text: Fly-In
           value: flyIn
+  - id: cd7161ee-a01b-4485-ba55-5470319782be
+    name: Classification
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - clickTags
+  - id: clickTags
+    name: Click Tags
+    type: $enr
+    helpText: Enrichments that are set when the button is pressed
+    typeConfig: null
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Button_preview_image
@@ -34,4 +46,4 @@ slots: []
 titleParameter: copy
 canBeComposition: false
 created: '2024-01-15T09:26:41.93275+00:00'
-updated: '2024-01-26T13:05:11.747121+00:00'
+updated: '2025-04-25T15:42:01.292071+00:00'

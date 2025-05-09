@@ -1,5 +1,5 @@
 created: '2024-09-19T15:18:49.18102+00:00'
-modified: '2025-04-09T10:36:16.001034+00:00'
+modified: '2025-04-23T11:45:27.802193+00:00'
 pattern: false
 entry:
   _id: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
@@ -74,6 +74,12 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: asia
+              str: 50
         teaserImage:
           type: asset
           locales:

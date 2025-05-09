@@ -5,9 +5,6 @@ path: /:locale/destinations/asia/japan
 type: composition
 pathSegment: japan
 data:
-  queryStrings:
-    - name: Region
-      value: EU
-      helpText: ''
+  queryStrings: []
 compositionId: dd333bcc-0fc6-430e-855a-9a7653153846
 projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

@@ -1,16 +1,16 @@
 id: act
 name: Activity Interests
-cap: 10000
+cap: 1000
 values:
-  - id: out
-    value: Outdoor
-  - id: cul
-    value: Cultural
-  - id: spa
-    value: Spa & Wellness
   - id: adv
     value: Adventure
+  - id: cul
+    value: Cultural
   - id: fod
     value: Food & Drink
+  - id: out
+    value: Outdoor
+  - id: spa
+    value: Spa & Wellness
   - id: wld
     value: Wildlife

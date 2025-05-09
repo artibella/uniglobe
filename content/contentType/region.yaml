@@ -1,7 +1,7 @@
 id: region
 name: Region
 created: '2024-01-18T13:20:21.829613+00:00'
-updated: '2025-04-10T12:25:34.744466+00:00'
+updated: '2025-04-25T15:39:51.311684+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -80,11 +80,18 @@ fields:
       allowedTypes:
         - countryBlock
         - $loop
-  - id: customSlug
-    name: Custom Slug
-    type: text
+  - id: 13701274-887c-42d9-b8c0-0119cd6d557c
+    name: Classification
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - enrichments
+  - id: enrichments
+    name: Enrichments
+    type: $enr
+    helpText: Tag your region with enrichment values
     typeConfig: null
-    localizable: true
 entryName: name
 thumbnailField: image
 description: ''

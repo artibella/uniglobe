@@ -1,16 +1,16 @@
 id: type
 name: Trip Type
-cap: 10000
+cap: 1000
 values:
-  - id: hol
-    value: Holiday
-  - id: wrk
-    value: Workation
-  - id: hon
-    value: Honeymoon
-  - id: edu
-    value: Educational
   - id: bus
     value: Business
+  - id: edu
+    value: Educational
+  - id: hol
+    value: Holiday
+  - id: hon
+    value: Honeymoon
   - id: vol
     value: Volunteer
+  - id: wrk
+    value: Workation

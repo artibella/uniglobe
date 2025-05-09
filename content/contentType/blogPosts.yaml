@@ -1,14 +1,79 @@
 id: blogPosts
 name: Blog posts
 created: '2025-03-14T11:04:33.745697+00:00'
-updated: '2025-03-27T15:15:15.245813+00:00'
+updated: '2025-04-28T14:44:25.036153+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
+  - id: 62ef4583-19b4-4523-9715-0f26a94f5f2b
+    name: Basic Information
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - title
+        - excerpt
+        - featuredImage
   - id: title
     name: Title
     type: text
     typeConfig: null
+    localizable: true
+  - id: excerpt
+    name: Excerpt
+    type: text
+    helpText: >-
+      A brief teaser or summary designed to entice readers to click through to
+      the full article
+    typeConfig:
+      multiline: true
+    localizable: true
+  - id: featuredImage
+    name: Featured image
+    type: asset
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+  - id: 932fb88a-210f-4231-81a6-5b3313054d77
+    name: Post content
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - introduction
+        - body
+  - id: introduction
+    name: Introduction
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - asset
+          - variable
+          - h2
+          - h3
+          - h4
+          - h6
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
     localizable: true
   - id: body
     name: Body
@@ -46,13 +111,34 @@ fields:
             - image
             - video
     localizable: true
-  - id: featuredImage
-    name: Featured image
-    type: asset
+  - id: b7cf5505-d28a-4b7e-8131-218f72526d62
+    name: SEO & Metadata
+    type: group
     typeConfig:
+      collapsed: false
+      childrenParams:
+        - seoMetadata
+        - categories
+        - enrichments
+  - id: seoMetadata
+    name: SEO metadata
+    type: $block
+    typeConfig:
+      max: 1
       allowedTypes:
-        - image
-    localizable: true
+        - seoMetadata
+  - id: categories
+    name: Categories
+    type: contentReference
+    typeConfig:
+      max: 3
+      isMulti: true
+      allowedContentTypes:
+        - blogCategory
+  - id: enrichments
+    name: Enrichments
+    type: $enr
+    typeConfig: null
 entryName: title
 thumbnailField: featuredImage
 icon: file-document

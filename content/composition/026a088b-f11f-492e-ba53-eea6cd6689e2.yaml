@@ -12,6 +12,12 @@ composition:
   _overrides:
     026a088b-f11f-492e-ba53-eea6cd6689e2:
       parameters:
+        $enr:
+          type: $enr
+          value:
+            - cat: dest
+              key: sea
+              str: 50
         pageTitle:
           type: text
           locales:
@@ -115,5 +121,5 @@ composition:
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-11-14T12:57:08.747727+00:00'
-modified: '2025-01-29T09:53:33.877487+00:00'
+modified: '2025-04-29T13:01:53.126361+00:00'
 pattern: false

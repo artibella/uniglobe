@@ -1,0 +1,22 @@
+id: '7'
+name: Planning Stage
+cap: 1000
+values:
+  - id: drm
+    value: Dreaming
+    sortOrder: 1
+  - id: res
+    value: Researching
+    sortOrder: 2
+  - id: con
+    value: Considering
+    sortOrder: 3
+  - id: bud
+    value: Budgeting
+    sortOrder: 4
+  - id: bkg
+    value: Booking
+    sortOrder: 5
+  - id: fin
+    value: Finalizing
+    sortOrder: 6

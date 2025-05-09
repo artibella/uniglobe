@@ -1,5 +1,5 @@
 created: '2024-01-18T12:46:12.168253+00:00'
-modified: '2025-03-27T11:39:51.054374+00:00'
+modified: '2025-05-09T09:12:35.866847+00:00'
 pattern: false
 entry:
   _id: 5690f959-52d1-4f54-a869-30b8bfed46cb
@@ -28,6 +28,7 @@ entry:
           type: text
           locales:
             de-DE: Österreich
+            en-US: Austria
         region:
           type: contentReference
           value: ${#jptr:/ref-5690f959-52d1-4f54-a869-30b8bfed46cb-region/entries/0}
@@ -439,5 +440,5 @@ entry:
                 direction: ltr
         officialName:
           type: text
-          value: ${#jptr:/Country/0/name/nativeName/bar/official}
+          value: null
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

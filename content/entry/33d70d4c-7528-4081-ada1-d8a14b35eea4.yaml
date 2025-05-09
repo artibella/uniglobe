@@ -1,0 +1,21 @@
+created: '2025-04-28T14:06:13.794334+00:00'
+modified: '2025-04-28T14:06:40.678132+00:00'
+pattern: false
+entry:
+  _id: 33d70d4c-7528-4081-ada1-d8a14b35eea4
+  _name: Budget Travel
+  _slug: budget-travel
+  type: blogCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Budget Travel
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Maximizing experiences while minimizing costs across accommodations,
+          transportation, food, and activities.
+  _locales:
+    - en-US

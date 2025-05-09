@@ -1,0 +1,23 @@
+id: budgetTraveler
+name: Budget traveler
+description: >-
+  Travellers that are conscious on their travel budgets and prefer cheaper trips
+  and destinations and avoid peak seasons.
+type: 0
+inputs:
+  - dim: style_bud
+    sign: +
+  - dim: ses_off
+    sign: +
+  - dim: dest_asia
+    sign: +
+  - dim: dest_sa
+    sign: +
+  - dim: dest_afri
+    sign: +
+  - dim: profile_genz
+    sign: +
+  - dim: profile_mil
+    sign: +
+  - dim: profile_std
+    sign: +

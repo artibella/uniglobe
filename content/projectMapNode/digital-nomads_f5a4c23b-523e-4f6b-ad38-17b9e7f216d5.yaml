@@ -1,0 +1,9 @@
+id: f5a4c23b-523e-4f6b-ad38-17b9e7f216d5
+name: Digital nomads
+order: 600
+path: /:locale/digital-nomads
+type: composition
+pathSegment: digital-nomads
+data: {}
+compositionId: 57217427-93be-42f9-8e87-ef5335a2d831
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

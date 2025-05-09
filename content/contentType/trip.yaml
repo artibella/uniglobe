@@ -1,7 +1,7 @@
 id: trip
 name: Trip
 created: '2025-01-28T10:50:10.825326+00:00'
-updated: '2025-04-04T14:23:36.8409+00:00'
+updated: '2025-04-22T15:48:46.020785+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
@@ -109,6 +109,10 @@ fields:
     typeConfig:
       allowedTypes:
         - itineraryStop
+  - id: enrichments
+    name: Enrichments
+    type: $enr
+    typeConfig: null
 entryName: title
 thumbnailField: image
 description: |-

@@ -1,0 +1,21 @@
+created: '2025-04-28T14:05:46.873535+00:00'
+modified: '2025-04-28T14:06:08.92256+00:00'
+pattern: false
+entry:
+  _id: a158381c-d0cd-4263-a481-350b514b0ea0
+  _name: Local Life
+  _slug: local-life
+  type: blogCategory
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Local Life
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Highlighting authentic cultural experiences, community tourism, and
+          meaningful local connections.
+  _locales:
+    - en-US

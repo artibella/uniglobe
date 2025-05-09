@@ -1,6 +1,6 @@
 id: dest
 name: Destinations
-cap: 10000
+cap: 1000
 values:
   - id: afri
     value: Africa
@@ -8,6 +8,8 @@ values:
     value: Asia
   - id: car
     value: Carribian
+  - id: ce
+    value: Central America
   - id: eur
     value: Europe
   - id: na
