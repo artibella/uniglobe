@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: footer
 name: Footer
 icon: >-
@@ -8,22 +9,34 @@ parameters:
   - id: logo
     name: Logo
     type: asset
+    guidance: >-
+      Upload a high-quality version of your logo. Use a transparent PNG or SVG
+      for best results.
     typeConfig:
       max: 1
       min: 0
   - id: displayBuildTimestamp
     name: Display Build Timestamp
     type: checkbox
+    guidance: >-
+      Enable this option to display the build timestamp for debugging or
+      transparency purposes.
     typeConfig: null
   - id: copyright
     name: Copyright
     type: text
+    guidance: >-
+      Enter the copyright notice for your site. Keep it concise and up to date
+      (e.g., © 2024 Your Company).
     typeConfig:
       multiline: true
       linesCount: '10'
   - id: footerText
     name: Footer Text
     type: richText
+    guidance: >-
+      Add any additional footer text, such as disclaimers, contact info, or
+      links. Use clear, concise language and keep it brief for readability.
     typeConfig:
       elements:
         builtIn:
@@ -33,6 +46,10 @@ parameters:
         builtIn:
           - bold
 categoryId: 1bf9504a-07c4-4873-bbca-f235a6da182b
+description: >-
+  Displays the site’s footer, including logo, copyright, links, and additional
+  information. Use to provide navigation, legal, and contact details at the
+  bottom of every page.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Footer_preview_image
 useTeamPermissions: true
@@ -52,5 +69,5 @@ slots:
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 canBeComposition: false
-created: '2024-01-15T09:26:42.594078+00:00'
-updated: '2024-01-15T09:26:42.594078+00:00'
+created: '2025-07-03T19:06:17.368972+00:00'
+updated: '2025-07-03T22:23:48.974304+00:00'

@@ -39,41 +39,79 @@ composition:
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: 82cb92a6-1abf-43ab-8fe1-3d7db38a70be
-        type: hero
-        variant: imageRight
+      - _id: ff1686b6-f080-4557-9a12-373fe5cb7c7f
+        type: container
+        slots:
+          container-inner:
+            - _id: 82cb92a6-1abf-43ab-8fe1-3d7db38a70be
+              type: hero
+              variant: imageRight
+              parameters:
+                image:
+                  type: asset
+                  value: >-
+                    ${#jptr:/Blog post by Slug
+                    Content/entry/fields/featuredImage/value}
+                title:
+                  type: text
+                  value: >-
+                    ${#jptr:/Blog post by Slug
+                    Content/entry/fields/title/value:fa=a:fl=e}
+                marginTop:
+                  type: select
+                  value: None
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  value: >-
+                    ${#jptr:/Blog post by Slug
+                    Content/entry/fields/excerpt/value}
+                eyebrowText:
+                  type: text
+                  value: >-
+                    ${#jptr:/Blog post by Slug
+                    Content/entry/fields/categories/value/0/entry/fields/title/value}
+                marginBottom:
+                  type: select
+                  value: None
+                paddingBottom:
+                  type: select
+                  value: None
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Medium
+                textColorVariant:
+                  type: select
+                  value: Dark
+              _overridability:
+                hideLockedParameters: true
+        variant: fluidContent
         parameters:
-          image:
-            type: asset
-            value: >-
-              ${#jptr:/Blog post by Slug
-              Content/entry/fields/featuredImage/value}
-          title:
-            type: text
-            value: ${#jptr:/Blog post by Slug Content/entry/fields/title/value}
-          objectFit:
-            type: select
-            value: cover
-          paddingTop:
+          marginTop:
             type: select
             value: None
-          titleStyle:
-            type: tp-title-style-parameter
-            value: h1
-          description:
-            type: text
-            value: ${#jptr:/Blog post by Slug Content/entry/fields/excerpt/value}
-          eyebrowText:
-            type: text
-            value: >-
-              ${#jptr:/Blog post by Slug
-              Content/entry/fields/categories/value/0/entry/fields/title/value}
+          paddingTop:
+            type: select
+            value: Medium
+          marginBottom:
+            type: select
+            value: None
           paddingBottom:
             type: select
             value: None
-          textColorVariant:
-            type: select
-            value: Dark
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+        _overridability:
+          hideLockedParameters: true
       - _id: a8089b86-d798-4ca8-8b8b-4e1a07f9d2fa
         type: container
         slots:
@@ -96,6 +134,16 @@ composition:
                   value: ${#jptr:/Blog post by Slug Content/entry/fields/body/value}
               _overridability:
                 hideLockedParameters: true
+        parameters:
+          marginTop:
+            type: select
+            value: None
+          paddingTop:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Light
         _overridability:
           hideLockedParameters: true
   _dataResources:
@@ -111,6 +159,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-05-21T10:43:01.317561+00:00'
-modified: '2025-05-21T10:51:26.769275+00:00'
+created: '2025-07-03T19:07:01.460847+00:00'
+modified: '2025-07-03T19:07:44.656231+00:00'
 pattern: true

@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: price
 name: Price
 icon: awards
@@ -7,6 +8,9 @@ parameters:
   - id: label
     name: Label
     type: text
+    guidance: >-
+      Add a short, descriptive label for the price (e.g., 'From', 'Per night').
+      Keep it under 20 characters.
     typeConfig: null
     localizable: true
   - id: labelStyle
@@ -16,12 +20,18 @@ parameters:
   - id: price
     name: Price
     type: number
+    guidance: >-
+      Enter the price amount as a number. Do not include currency symbols; use
+      the currency parameter to specify the currency.
     typeConfig:
       decimal: true
     localizable: true
   - id: currency
     name: Currency
     type: select
+    guidance: >-
+      Select the appropriate currency for the price. Use standard codes like USD
+      or EUR.
     typeConfig:
       options:
         - text: USD
@@ -30,11 +40,14 @@ parameters:
           value: EUR
     localizable: true
 categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
+description: >-
+  Displays a price with optional label and currency. Use for product listings,
+  offers, or pricing tables.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Price_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: label
 canBeComposition: false
-created: '2024-01-15T09:26:44.817898+00:00'
-updated: '2024-01-15T15:03:13.316795+00:00'
+created: '2025-07-03T19:06:26.779029+00:00'
+updated: '2025-07-03T22:25:44.318333+00:00'

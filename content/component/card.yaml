@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: card
 name: Card
 icon: >-
@@ -16,12 +17,18 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Keep the title short and impactful—ideally under 40 characters. Use
+      sentence case and make it clear and relevant to the card’s content.
     typeConfig:
       required: false
     localizable: true
   - id: image
     name: Image
     type: asset
+    guidance: >-
+      Choose high-quality, relevant images that visually support the card’s
+      message. Avoid text overlays on images unless necessary.
     typeConfig:
       max: 1
       min: 0
@@ -37,6 +44,11 @@ parameters:
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Write concise, engaging copy that summarizes the card’s purpose or
+      offering. Aim for 1–3 sentences, and keep it under 120 characters if
+      possible to avoid truncation. Use sentence case and a friendly,
+      informative tone.
     typeConfig:
       required: false
       multiline: true
@@ -45,6 +57,9 @@ parameters:
   - id: lineCountRestriction
     name: Line Count Restriction
     type: tp-slider-parameter
+    guidance: >-
+      If set, ensure your description fits within the allowed lines for a clean
+      layout.
     typeConfig:
       step: 1
       type: custom
@@ -77,6 +92,9 @@ parameters:
   - id: badge
     name: Badge
     type: text
+    guidance: >-
+      Use a single word or short phrase (under 15 characters) that highlights a
+      key feature, category, or status. Keep it specific and relevant.
     typeConfig: null
     localizable: true
   - id: badgeSize
@@ -110,9 +128,13 @@ parameters:
     type: link
     typeConfig: null
     localizable: true
+    allowConditionalValues: true
   - id: buttonStyle
     name: Button Style
     type: tp-button-style-parameter
+    guidance: >-
+      Use action-oriented language (e.g., “Learn more”, “Book now”, “See
+      details”). Keep it under 20 characters for best appearance.
     typeConfig: null
   - id: buttonCopy
     name: Button Copy
@@ -243,8 +265,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:43.206652+00:00'
-updated: '2025-04-11T14:28:05.984525+00:00'
+created: '2025-07-03T19:06:13.971113+00:00'
+updated: '2025-07-03T19:57:15.039024+00:00'
 variants:
   - id: backgroundImage
     name: Background Image

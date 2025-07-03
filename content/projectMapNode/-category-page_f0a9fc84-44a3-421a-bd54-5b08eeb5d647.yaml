@@ -2,9 +2,8 @@ id: f0a9fc84-44a3-421a-bd54-5b08eeb5d647
 name: Category page
 order: 500
 path: /:locale/shop/:category-page
-type: composition
+type: placeholder
 pathSegment: ':category-page'
 data:
   previewValue: ''
-compositionId: 76067a37-6e23-4773-afc7-5bb9bc2d2fb3
 projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

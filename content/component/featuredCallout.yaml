@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: featuredCallout
 name: Featured Callout
 icon: >-
@@ -8,11 +9,18 @@ parameters:
   - id: eyebrowText
     name: Eyebrow Text
     type: text
+    guidance: >-
+      Use a short, attention-grabbing phrase to introduce the callout. Keep it
+      under 30 characters and use sentence case.
     typeConfig: null
     localizable: true
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Write a clear, compelling headline for the callout. Keep it under 60
+      characters, use sentence case, and make sure it communicates the main
+      value or message.
     typeConfig:
       required: false
     localizable: true
@@ -23,6 +31,9 @@ parameters:
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Provide a concise summary or supporting statement. Aim for 1–2 sentences
+      and keep it under 140 characters. Use a friendly, informative tone.
     typeConfig:
       required: false
       multiline: true
@@ -31,11 +42,18 @@ parameters:
   - id: image
     name: Image
     type: asset
+    guidance: >-
+      Choose a high-quality, relevant image that visually supports the callout’s
+      message. Avoid images with too much text or distracting elements.
     typeConfig:
       max: 1
       min: 0
     localizable: true
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+description: >-
+  Highlights a key message, offer, or feature with a prominent layout, including
+  headline, supporting text, and image. Use to draw attention to important
+  content or promotions.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Featured_callout_preview_image
 useTeamPermissions: true
@@ -49,8 +67,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:42.656446+00:00'
-updated: '2024-01-15T15:03:12.776309+00:00'
+created: '2025-07-03T19:06:16.913772+00:00'
+updated: '2025-07-03T22:23:22.19969+00:00'
 variants:
   - id: imageRight
     name: Image Right

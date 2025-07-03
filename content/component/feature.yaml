@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: feature
 name: Feature
 icon: >-
@@ -8,32 +9,48 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Write a clear, impactful title for the feature. Keep it under 40
+      characters and use sentence case.
     typeConfig:
       required: false
     localizable: true
   - id: link
     name: Link
     type: link
+    guidance: >-
+      Set the destination for the feature. Use a full URL for external links or
+      a relative path for internal navigation.
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Provide a concise, engaging description of the feature. Use 1–2 sentences
+      and keep it under 100 characters.
     typeConfig:
       required: false
     localizable: true
   - id: icon
     name: Icon
     type: asset
+    guidance: >-
+      Select a simple, recognizable icon that visually represents the feature.
+      Use high-quality assets for clarity.
     typeConfig:
       max: 1
       min: 0
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  Highlights a single feature, benefit, or key point with a title, description,
+  icon, and optional link. Use to draw attention to important aspects of your
+  offering.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Feature_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:42.908783+00:00'
-updated: '2024-01-15T15:03:12.768904+00:00'
+created: '2025-07-03T19:06:16.691284+00:00'
+updated: '2025-07-03T22:22:56.652562+00:00'

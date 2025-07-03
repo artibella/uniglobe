@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: cardBlock
 name: Card Block
 icon: >-
@@ -17,6 +18,9 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Write a clear, descriptive headline for the card block. Keep it under 50
+      characters and use sentence case.
     typeConfig: null
     localizable: true
   - id: titleStyle
@@ -26,6 +30,9 @@ parameters:
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Provide a brief summary or supporting text for the card block. Aim for 1–2
+      sentences and keep it under 120 characters.
     typeConfig:
       multiline: true
       linesCount: '10'
@@ -78,6 +85,10 @@ parameters:
         - text: Light
           value: Light
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+description: >-
+  Displays a group of cards in a block layout, optionally with a headline,
+  description, and call-to-action. Use for showcasing features, destinations, or
+  any set of related items.
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1740064572/Uniglobe/Component%20Previews/Card_Block_Wireframe_yz7aab.svg
 useTeamPermissions: true
@@ -96,8 +107,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:42.17352+00:00'
-updated: '2025-02-20T15:17:46.798453+00:00'
+created: '2025-07-03T19:06:14.460479+00:00'
+updated: '2025-07-03T22:20:07.257743+00:00'
 variants:
   - id: carousel
     name: Carousel

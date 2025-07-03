@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f22c674e-8d94-40f4-98f5-f50153335447
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: image-omkol8x8aF3MUeoZsJqfJbqtG8VTwe.png
+    file:
+      type: file
+      value: fce12cd5-f68b-4d57-97f4-84fb779f52ea
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/Rys8gSoPTJ-v6RfatU9grQ-image-omkol8x8aF3MUeoZsJqfJbqtG8VTwe.png
+      type: text
+    size:
+      value: 1622595
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-07-03T19:06:02.918484+00:00'
+modified: '2025-07-03T19:06:02.918484+00:00'

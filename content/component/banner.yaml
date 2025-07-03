@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: banner
 name: Banner
 icon: toolbar-bottom
@@ -7,11 +8,17 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Write a short, attention-grabbing headline for the banner. Keep it under
+      40 characters and use sentence case.
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Provide a brief, clear message or supporting text. Aim for 1–2 sentences
+      and keep it under 100 characters.
     typeConfig:
       multiline: true
       linesCount: '5'
@@ -19,6 +26,9 @@ parameters:
   - id: icon
     name: Icon
     type: asset
+    guidance: >-
+      Select an icon that visually supports the banner’s message. Use simple,
+      recognizable icons for clarity.
     typeConfig:
       max: 1
       min: 0
@@ -120,14 +130,18 @@ parameters:
         - text: Fly-In
           value: flyIn
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+description: >-
+  Displays a prominent message, announcement, or call-to-action at the top,
+  center, or bottom of a page. Useful for alerts, promotions, or important
+  updates.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Banner_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:42.717428+00:00'
-updated: '2024-09-23T11:46:45.571433+00:00'
+created: '2025-07-03T19:06:11.475594+00:00'
+updated: '2025-07-03T22:16:19.116278+00:00'
 variants:
   - id: fullWidth
     name: Full Width

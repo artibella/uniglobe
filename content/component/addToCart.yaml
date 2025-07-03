@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: addToCart
 name: Add to Cart
 icon: shopping-cart
@@ -7,10 +8,16 @@ parameters:
   - id: product
     name: Product
     type: json
+    guidance: >-
+      Provide the product details in JSON format. Ensure all required product
+      fields (such as ID, name, and price) are included and accurate.
     typeConfig: {}
   - id: buttonCopy
     name: Button Copy
     type: text
+    guidance: >-
+      Use a clear, action-oriented label for the button (e.g., “Add to cart”,
+      “Buy now”). Keep it under 20 characters for best appearance.
     typeConfig: null
     localizable: true
   - id: buttonStyle
@@ -27,11 +34,14 @@ parameters:
         - text: Fly-In
           value: flyIn
 categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
+description: >-
+  Displays a button that allows users to add a product to their shopping cart.
+  Commonly used on product detail pages or in product listings.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Add_to_cart_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: buttonCopy
 canBeComposition: false
-created: '2024-01-15T09:26:41.975709+00:00'
-updated: '2024-01-15T09:54:32.3668+00:00'
+created: '2025-07-03T19:06:11.226117+00:00'
+updated: '2025-07-03T22:15:50.367493+00:00'

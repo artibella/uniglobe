@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: grid
 name: Grid
 icon: view-grid
@@ -7,6 +8,9 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Add a clear, descriptive title for this grid section. Keep it under 40
+      characters and use sentence case.
     helpText: Used just to display Title Parameter
     typeConfig: null
   - id: columnsCount
@@ -89,8 +93,6 @@ parameters:
     typeConfig:
       collapsed: true
       childrenParams:
-        - fullHeight
-        - textColorVariant
         - containerVariant
         - backgroundType
         - paddingTop
@@ -163,6 +165,9 @@ parameters:
         - text: None
           value: None
 categoryId: 19f9419d-14da-496d-a4ac-eec5010e13d7
+description: >-
+  A layout component that arranges content in a flexible grid. Use to create
+  responsive, multi-column layouts for cards, images, or other components.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Grid_preview_image
 useTeamPermissions: true
@@ -195,5 +200,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:43.876648+00:00'
-updated: '2024-08-21T19:17:28.071115+00:00'
+created: '2025-07-03T19:06:18.049539+00:00'
+updated: '2025-07-03T22:25:03.599397+00:00'

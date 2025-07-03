@@ -15,6 +15,23 @@ composition:
           variables:
             locale: ${locale}
             entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
+    04aee280-488d-4a63-8d12-997c838aa03d:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: ' Top places in Asia'
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-fd6f
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Find a selection of great places that combine high-speed internet
+              with a lovely environment and cheap cost of living
     118d8461-0c14-4922-abe8-a3bff50de56b:
       parameters:
         textColorVariant:
@@ -26,6 +43,55 @@ composition:
           variables:
             locale: ${locale}
             entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
+    1d7adb13-d569-437f-b894-3b76afe21d5e:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: ' Top places in Asia'
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-9f68
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Find a selection of great places that combine high-speed internet
+              with a lovely environment and cheap cost of living
+    3a5d8a3d-a773-4b95-9b92-492f53c9f85b:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: ' Top places in Asia'
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-fd6f
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Find a selection of great places that combine high-speed internet
+              with a lovely environment and cheap cost of living
+    40d0c182-d1c0-4a3e-8a40-003c3c2cfcdc:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Our top picks for digital nomads
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-5085
+        description:
+          type: text
+          locales:
+            en-US: Proven locations
     47f18355-47e7-48fe-9042-1814c6459a16:
       parameters:
         textColorVariant:
@@ -149,6 +215,21 @@ composition:
           variables:
             locale: ${locale}
             entryId: a78fe34d-0e49-4f9a-a675-8487a4b928b6
+    85a5d9de-443b-4346-851c-0baeb061a831:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Our top picks for digital nomads
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-5085
+        description:
+          type: text
+          locales:
+            en-US: Proven locations
     86ade199-0d6f-4c5b-bb3b-5f396d2fdc13:
       parameters:
         textColorVariant:
@@ -210,6 +291,23 @@ composition:
           variables:
             locale: ${locale}
             entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+    b12a8eb4-24fe-4ff8-9fad-88b4acce1fb6:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Top places in Europe
+        $pzCrit:
+          type: $pzCrit
+          value:
+            crit: []
+            name: cardBlock-9f68
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Explore top working destinations in Europe offering beautiful
+              scenery and efficient infrastructures.
     baea0c43-9bc2-48d8-b2af-ce10acbbe28f:
       parameters:
         textColorVariant:
@@ -639,46 +737,6 @@ composition:
               backgroundType:
                 type: tp-background-type-parameter
                 value: Medium
-          - _id: 6cc3c162-5b6c-4958-8cd6-f84600f2d412
-            type: hero
-            parameters:
-              title:
-                type: text
-                locales:
-                  en-US: The ultimate guide to ethical digital nomad life
-              description:
-                type: text
-                locales:
-                  en-US: >-
-                    Ready to take your remote work lifestyle to the next level?
-                    Our free e-book is packed with practical tips, ethical
-                    travel hacks, and real stories from digital nomads who value
-                    sustainability and authentic connection. 
-
-
-                    Learn how to find eco-friendly stays, build community on the
-                    road, and make your work-travel journey more meaningful—no
-                    matter where you roam.
-              eyebrowText:
-                type: text
-                locales:
-                  en-US: Ethical Nomad Essentials
-              textColorVariant:
-                type: select
-                value: Dark
-              primaryButtonCopy:
-                type: text
-                locales:
-                  en-US: Download Free E-Book
-              primaryButtonLink:
-                type: link
-                value:
-                  path: /${locale}
-                  type: projectMapNode
-                  nodeId: 8a725ed1-156c-4ba3-b1a1-7930d1b704e1
-                  projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                  dynamicInputValues:
-                    locale: ${locale}
           - _id: 58fb5305-645f-44f2-a1e2-38182b25647c
             type: container
             slots:
@@ -1353,6 +1411,6 @@ composition:
   _locales:
     - en-US
   _pattern: 9854cddc-f320-4a77-b7dc-de9d74638436
-created: '2025-05-13T15:50:55.527765+00:00'
-modified: '2025-05-21T13:20:25.775515+00:00'
+created: '2025-07-03T19:06:54.034089+00:00'
+modified: '2025-07-03T19:06:54.034089+00:00'
 pattern: false

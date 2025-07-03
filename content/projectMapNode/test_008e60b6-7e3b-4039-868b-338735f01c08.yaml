@@ -1,9 +1,0 @@
-id: 008e60b6-7e3b-4039-868b-338735f01c08
-name: Test
-order: 700
-path: /:locale/test
-type: composition
-pathSegment: test
-data: {}
-compositionId: b529c617-61e0-473c-906f-d495629d2a5e
-projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

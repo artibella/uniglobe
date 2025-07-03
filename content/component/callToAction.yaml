@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: callToAction
 name: Call to Action
 icon: >-
@@ -18,11 +19,18 @@ parameters:
   - id: eyebrowText
     name: 'Eyebrow Text '
     type: text
+    guidance: >-
+      Use a short, attention-grabbing phrase to introduce the section. Keep it
+      under 30 characters and use sentence case.
     typeConfig: null
     localizable: true
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Write a clear, compelling headline for the call-to-action. Keep it under
+      60 characters, use sentence case, and make sure it communicates the main
+      value or message.
     typeConfig:
       required: false
       multiline: true
@@ -35,6 +43,9 @@ parameters:
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Provide a concise summary or supporting statement. Aim for 1–2 sentences
+      and keep it under 140 characters. Use a friendly, informative tone.
     typeConfig:
       required: false
       multiline: true
@@ -122,14 +133,17 @@ parameters:
         - text: Light
           value: Light
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+description: >-
+  Displays a prominent call-to-action section with headline, supporting text,
+  and one or two buttons. Use to drive user engagement and conversions.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Call_to_Action_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:41.819556+00:00'
-updated: '2024-01-15T09:57:33.986512+00:00'
+created: '2025-07-03T19:06:13.473205+00:00'
+updated: '2025-07-03T22:19:25.977994+00:00'
 variants:
   - id: alignLeft
     name: Align Left

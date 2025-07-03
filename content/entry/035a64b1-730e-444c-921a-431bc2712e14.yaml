@@ -1,5 +1,5 @@
-created: '2025-05-13T15:51:16.936211+00:00'
-modified: '2025-05-21T11:16:07.568595+00:00'
+created: '2025-07-03T19:09:37.130711+00:00'
+modified: '2025-07-03T19:09:37.130711+00:00'
 pattern: false
 entry:
   _id: 035a64b1-730e-444c-921a-431bc2712e14
@@ -25,6 +25,36 @@ entry:
   _overrides:
     035a64b1-730e-444c-921a-431bc2712e14:
       parameters:
+        icon:
+          type: asset
+          locales:
+            en-US:
+              - _id: 46eda139-0530-4f4c-b98a-5c3e28520bee
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: Uniglobe/Country icons/thailand
+                  url:
+                    type: text
+                    value: >-
+                      https://res.cloudinary.com/content-ops/image/upload/v1747818403/Uniglobe/Country%20icons/thailand.png
+                  size:
+                    type: number
+                    value: 1638130
+                  title:
+                    type: text
+                    value: Thailand
+                  width:
+                    type: number
+                    value: 1024
+                  height:
+                    type: number
+                    value: 1024
+                  mediaType:
+                    type: text
+                    value: image/png
+                _source: cloudinary-2c6d995a-4c3f-4f95-86ea-7d9f8af08667
         region:
           type: contentReference
           value: ${#jptr:/ref-035a64b1-730e-444c-921a-431bc2712e14-region/entries/0}
@@ -201,7 +231,56 @@ entry:
                     type: text
                     value: 'Copright: Sumit Chinchane'
                 _source: custom-url
-            en-US: []
+            en-US:
+              - _id: 2554808b-3aa4-4d0e-b8b6-ad1dd0456eab
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Vibrant longtail boats lined up on a sandy beach, perfect
+                      for travel and tourism imagery.
+                  width:
+                    type: number
+                    value: 4572
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '176398'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/brown-wooden-docked-boat-at-daytime-176398/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Miro Alt
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@miroalt
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/176398/pexels-photo-176398.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 3047
+                  description:
+                    type: text
+                    value: >-
+                      Vibrant longtail boats lined up on a sandy beach, perfect
+                      for travel and tourism imagery. - Photo by Miro Alt on
+                      Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
             it-IT:
               - _id: d12aff46-dffb-472c-8ebf-7865c1aeb246
                 type: image

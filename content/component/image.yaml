@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: image
 name: Image
 icon: >-
@@ -8,6 +9,9 @@ parameters:
   - id: src
     name: Image URL
     type: asset
+    guidance: >-
+      Upload a high-quality image. Use PNG or JPEG for photos, SVG for graphics.
+      Ensure the image is relevant and visually clear.
     typeConfig:
       max: 1
       min: 0
@@ -153,6 +157,9 @@ parameters:
     helpText: When checked, the image will be considered high priority and preload.
     typeConfig: null
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  Displays a single image with optional link, alt text, and styling options. Use
+  for product images, banners, or decorative visuals.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Image_preview_image
 useTeamPermissions: true
@@ -160,5 +167,5 @@ slots: []
 titleParameter: alt
 thumbnailParameter: src
 canBeComposition: false
-created: '2024-01-15T09:26:43.570364+00:00'
-updated: '2024-09-19T17:00:33.748093+00:00'
+created: '2025-07-03T19:06:21.73404+00:00'
+updated: '2025-07-03T22:25:06.225946+00:00'

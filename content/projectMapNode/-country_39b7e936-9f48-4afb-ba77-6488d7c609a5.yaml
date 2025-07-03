@@ -1,9 +1,11 @@
 id: 39b7e936-9f48-4afb-ba77-6488d7c609a5
-name: Country preview
+name: Entry preview - country
 order: 500
-path: /:locale/country-preview
+path: /:locale/previews/destinations/:country
 type: composition
-pathSegment: country-preview
-data: {}
+pathSegment: ':country'
+data:
+  previewValue: ''
+  queryStrings: []
 compositionId: c3335aaa-fb8a-4a1a-8e08-1eef3ada73e2
 projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

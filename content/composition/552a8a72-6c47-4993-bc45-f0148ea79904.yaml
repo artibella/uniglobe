@@ -6,7 +6,7 @@ composition:
     pageTitle:
       type: text
       locales:
-        de-DE: Uniglobe Reisen | Außergewöhnliche Reiseerlebnisse
+        de-DE: Uniglobe Travel | Exceptional Travel Experiences
         en-US: Uniglobe Travel | Exceptional Travel Experiences
     twitterCard:
       type: select
@@ -31,7 +31,7 @@ composition:
               value: 2d06cb01-b8aa-490b-8567-43a27046030d
             url:
               value: >-
-                https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
+                https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/9KqZXG6bQx22TtFWneU9Jw-uniglobe.svg
               type: text
             file:
               type: file
@@ -71,7 +71,7 @@ composition:
               value: 2d06cb01-b8aa-490b-8567-43a27046030d
             url:
               value: >-
-                https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
+                https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/9KqZXG6bQx22TtFWneU9Jw-uniglobe.svg
               type: text
             file:
               type: file
@@ -253,7 +253,7 @@ composition:
           title:
             type: text
             locales:
-              de-DE: Ihre Reise, unser Know-how
+              de-DE: Deine Reise, deine Erlebnise
               en-US: Your Journey, Our Expertise
           objectFit:
             type: select
@@ -268,16 +268,15 @@ composition:
             type: text
             locales:
               de-DE: >-
-                Entdecken Sie individuelle Reisemöglichkeiten, die von
-                Branchenexperten mit über 25 Jahren weltweiter Erfahrung
-                gestaltet werden.
+                Discover personalized travel solutions crafted by industry
+                experts with over 25 years of global experience
               en-US: >-
                 Discover personalized travel solutions crafted by industry
                 experts with over 25 years of global experience
           eyebrowText:
             type: text
             locales:
-              de-DE: Außergewöhnliche Reiseerlebnisse
+              de-DE: Exceptional Travel Experiences
               en-US: Exceptional Travel Experiences
           overlayColor:
             type: tp-color-style-parameter
@@ -300,7 +299,7 @@ composition:
           primaryButtonCopy:
             type: text
             locales:
-              de-DE: Alle Reiseziele entdecken
+              de-DE: Browse THE Destinations
               en-US: Browse THE Destinations
           primaryButtonLink:
             type: link
@@ -320,7 +319,7 @@ composition:
           title:
             type: text
             locales:
-              de-DE: Wie kann Uniglobe Ihr Reiseerlebnis bereichern?
+              de-DE: How can Uniglobe elevate your travel experience?
               en-US: How can Uniglobe elevate your travel experience?
           titleStyle:
             type: tp-title-style-parameter
@@ -329,10 +328,10 @@ composition:
             type: text
             locales:
               de-DE: >-
-                Von unberührten Stränden bis zu antiken Wundern bietet Uniglobe
-                Travel unvergessliche Reisen, die auf Ihre Wünsche zugeschnitten
-                sind. Unsere erfahrenen Reiseberater sorgen dafür, dass jedes
-                Detail Ihrer Reise Ihre Erwartungen übertrifft.
+                From pristine beaches to ancient wonders, Uniglobe Travel
+                provides unforgettable journeys tailored to your preferences.
+                Our expert travel advisors ensure every detail of your trip
+                exceeds expectations.
               en-US: >-
                 From pristine beaches to ancient wonders, Uniglobe Travel
                 provides unforgettable journeys tailored to your preferences.
@@ -341,7 +340,7 @@ composition:
           eyebrowText:
             type: text
             locales:
-              de-DE: Reisen Sie mit Vertrauen
+              de-DE: Travel with Confidence
               en-US: Travel with Confidence
       - _id: cc1d51b7-9e89-4031-8658-5b0d81ba15a7
         type: featuredCallout
@@ -356,15 +355,14 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Individuelle Reisepläne
+                    de-DE: Personalized Itineraries
                     en-US: Personalized Itineraries
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Individuelle Reisepläne, die auf Ihre Wünsche, Ihren
-                      Zeitplan und Ihr Budget zugeschnitten sind. Ihr
-                      Traumurlaub, ganz nach Ihren Vorstellungen.
+                      Custom travel plans designed around your preferences,
+                      schedule, and budget. Your dream vacation, your way.
                     en-US: >-
                       Custom travel plans designed around your preferences,
                       schedule, and budget. Your dream vacation, your way.
@@ -374,14 +372,14 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Globale Expertise
+                    de-DE: Global Expertise
                     en-US: Global Expertise
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Lokale Einblicke und Insider-Zugang zu Reisezielen
-                      weltweit durch unser etabliertes Partnernetzwerk.
+                      Local insights and insider access to destinations
+                      worldwide through our established network of partners.
                     en-US: >-
                       Local insights and insider access to destinations
                       worldwide through our established network of partners.
@@ -394,15 +392,15 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Rund-um-die-Uhr-Support
+                    de-DE: 24/7 Support
                     en-US: 24/7 Support
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Reisen Sie mit dem guten Gefühl, dass unser Team jederzeit
-                      für Sie da ist – egal, wo auf der Welt Sie Unterstützung
-                      benötigen.
+                      Travel with confidence knowing our team is available
+                      whenever you need assistance, no matter where you are in
+                      the world.
                     en-US: >-
                       Travel with confidence knowing our team is available
                       whenever you need assistance, no matter where you are in
@@ -514,7 +512,7 @@ composition:
           title:
             type: text
             locales:
-              de-DE: Service, der mehr bietet als erwartet
+              de-DE: Service That Goes the Extra Mile
               en-US: Service That Goes the Extra Mile
           titleStyle:
             type: tp-title-style-parameter
@@ -522,12 +520,12 @@ composition:
           description:
             type: text
             locales:
-              de-DE: >-
-                Bei Uniglobe sind wir überzeugt, dass außergewöhnliche
-                Reiseerlebnisse mit außergewöhnlichem Service beginnen. Unser
-                engagiertes Team von Reiseexpert:innen setzt sich dafür ein,
-                individuelle Reisen zu gestalten, die Ihre Erwartungen in jeder
-                Hinsicht übertreffen.
+              de-DE: >+
+                At Uniglobe, we believe that exceptional travel experiences
+                begin with exceptional service. Our dedicated team of travel
+                experts is committed to crafting personalized journeys that
+                exceed your expectations at every turn.
+
               en-US: >+
                 At Uniglobe, we believe that exceptional travel experiences
                 begin with exceptional service. Our dedicated team of travel
@@ -537,7 +535,7 @@ composition:
           eyebrowText:
             type: text
             locales:
-              de-DE: Warum Uniglobe wählen?
+              de-DE: why choose uniglobe
               en-US: why choose uniglobe
       - _id: e27870d1-b74f-4c3c-86ca-20d3b881fe95
         type: cardBlock
@@ -552,15 +550,15 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Familienurlaub
+                    de-DE: Family Vacations
                     en-US: Family Vacations
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Schaffen Sie unvergessliche Erinnerungen mit sorgfältig
-                      geplanten, familienfreundlichen Unterkünften, Aktivitäten
-                      und Erlebnissen für Reisende jeden Alters.
+                      Create lasting memories with carefully planned
+                      family-friendly accommodations, activities, and
+                      experiences for travelers of all ages.
                     en-US: >-
                       Create lasting memories with carefully planned
                       family-friendly accommodations, activities, and
@@ -574,15 +572,15 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Abenteuerreisen
+                    de-DE: ' Adventure Travel'
                     en-US: ' Adventure Travel'
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Wagen Sie Neues mit professionell geführten
-                      Outdoor-Erlebnissen – von Wildtiersafaris über
-                      Wandertouren bis hin zu Wassersportarten.
+                      Push your boundaries with expertly guided outdoor
+                      experiences, from wildlife safaris to hiking expeditions
+                      and water sports.
                     en-US: >-
                       Push your boundaries with expertly guided outdoor
                       experiences, from wildlife safaris to hiking expeditions
@@ -593,14 +591,14 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Gruppen- & Eventreisen
+                    de-DE: Group & Event Travel
                     en-US: Group & Event Travel
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Nahtlose Organisation für Hochzeiten, Familientreffen,
-                      Retreats und Interessengruppen jeder Größe.
+                      Seamless coordination for weddings, family reunions,
+                      retreats, and special interest groups of any size.
                     en-US: >-
                       Seamless coordination for weddings, family reunions,
                       retreats, and special interest groups of any size.
@@ -712,7 +710,7 @@ composition:
           title:
             type: text
             locales:
-              de-DE: Reiseservices, die zu Ihnen passen
+              de-DE: Travel Services Tailored to You
               en-US: Travel Services Tailored to You
           titleStyle:
             type: tp-title-style-parameter
@@ -720,12 +718,13 @@ composition:
           description:
             type: text
             locales:
-              de-DE: >-
-                Was auch immer Sie sich für Ihre Reise wünschen – Uniglobe
-                verfügt über das Know-how und die Ressourcen, um das perfekte
-                Erlebnis für Sie zu gestalten. Von Familienurlauben bis zu
-                Abenteuerreisen bieten wir umfassende Lösungen für jeden
-                Reisetyp.
+              de-DE: >+
+                Whatever your travel needs, Uniglobe has the expertise and
+                resources to create the perfect experience. From family
+                vacations to adventure trips, we offer comprehensive solutions
+                for every type of traveler.
+
+
               en-US: >+
                 Whatever your travel needs, Uniglobe has the expertise and
                 resources to create the perfect experience. From family
@@ -736,7 +735,7 @@ composition:
           eyebrowText:
             type: text
             locales:
-              de-DE: Entdecken Sie unsere Services
+              de-DE: explore our services
               en-US: explore our services
       - _id: 5baddcdc-228e-4013-9243-ccfcfd7d8a17
         type: accordion
@@ -748,22 +747,19 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: >-
-                      Was ist in den All-inclusive-Paketen von Uniglobe
-                      enthalten?
+                    de-DE: What's included in Uniglobe's all-inclusive packages?
                     en-US: What's included in Uniglobe's all-inclusive packages?
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Unsere All-inclusive-Pakete beinhalten in der Regel Hin-
-                      und Rückflug, Flughafentransfers, Unterkunft im Resort,
-                      alle Mahlzeiten und Getränke, Unterhaltung sowie
-                      ausgewählte Aktivitäten. Einige Premium-Erlebnisse und
-                      Ausflüge können gegen Aufpreis verfügbar sein. Jedes Paket
-                      listet transparent alle enthaltenen Leistungen auf, und
-                      unsere Reiseberater helfen Ihnen gerne dabei, Ihr Erlebnis
-                      individuell anzupassen.
+                      Our all-inclusive packages typically include round-trip
+                      airfare, airport transfers, resort accommodations, all
+                      meals and drinks, entertainment, and select activities.
+                      Some premium experiences and excursions may be available
+                      at an additional cost. Each package clearly outlines
+                      what's included, and our travel advisors can help
+                      customize your experience.
                     en-US: >-
                       Our all-inclusive packages typically include round-trip
                       airfare, airport transfers, resort accommodations, all
@@ -778,19 +774,18 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Wie weit im Voraus sollte ich meine Reise buchen?
+                    de-DE: How far in advance should I book my trip?
                     en-US: How far in advance should I book my trip?
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Für Hauptreisezeiten (Sommer, Feiertage) und beliebte
-                      Reiseziele empfehlen wir, 6-8 Monate im Voraus zu buchen,
-                      um die beste Verfügbarkeit und Preise zu sichern. Für
-                      Reisen außerhalb der Saison reichen in der Regel 3-4
-                      Monate Vorlaufzeit aus. Gelegentlich gibt es auch
-                      Last-Minute-Angebote, allerdings ist die Auswahl dann
-                      meist eingeschränkt.
+                      For peak travel seasons (summer, holidays) and popular
+                      destinations, we recommend booking 6-8 months in advance
+                      for the best availability and pricing. For off-peak
+                      travel, 3-4 months is typically sufficient. Last-minute
+                      deals are occasionally available, but selection may be
+                      limited.
                     en-US: >-
                       For peak travel seasons (summer, holidays) and popular
                       destinations, we recommend booking 6-8 months in advance
@@ -804,18 +799,18 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Brauche ich eine Reiseversicherung?
+                    de-DE: Do I need travel insurance?
                     en-US: Do I need travel insurance?
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Reiseversicherung ist zwar nicht verpflichtend, wird aber
-                      für alle Reisen dringend empfohlen. Sie schützt dich vor
-                      unerwarteten Ereignissen wie Reiseabbruch, medizinischen
-                      Notfällen, Gepäckverlust oder Verspätungen. Unsere Berater
-                      helfen dir gerne, die passende Police für deine Reise und
-                      deine Bedürfnisse zu finden.
+                      While not mandatory, we strongly recommend travel
+                      insurance for all trips. It provides coverage for
+                      unexpected events such as trip cancellations, medical
+                      emergencies, lost luggage, and travel delays. Our advisors
+                      can help you select the right policy based on your
+                      specific trip and needs.
                     en-US: >-
                       While not mandatory, we strongly recommend travel
                       insurance for all trips. It provides coverage for
@@ -829,19 +824,18 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Welche Unterstützung bietet Uniglobe während meiner Reise?
+                    de-DE: What support does Uniglobe provide during my trip?
                     en-US: What support does Uniglobe provide during my trip?
                 description:
                   type: text
                   locales:
                     de-DE: >-
-                      Uniglobe bietet rund um die Uhr Notfallunterstützung für
-                      alle Reisenden. Unser globales Support-Team hilft bei
-                      Flugstörungen, Problemen mit Unterkünften, verlorenen
-                      Dokumenten, medizinischen Notfällen und allen anderen
-                      Herausforderungen, die während Ihrer Reise auftreten
-                      können. Sie erhalten vor Ihrer Abreise spezielle
-                      Kontaktinformationen.
+                      Uniglobe offers 24/7 emergency assistance for all
+                      travelers. Our global support team can help with flight
+                      disruptions, accommodation issues, lost documents, medical
+                      emergencies, and any other challenges that may arise
+                      during your journey. You'll receive dedicated contact
+                      information prior to departure.
                     en-US: >-
                       Uniglobe offers 24/7 emergency assistance for all
                       travelers. Our global support team can help with flight
@@ -853,16 +847,15 @@ composition:
           title:
             type: text
             locales:
-              de-DE: Häufig gestellte Fragen
+              de-DE: Frequently Asked Questions
               en-US: Frequently Asked Questions
           description:
             type: text
             locales:
               de-DE: >-
-                Finden Sie Antworten auf häufig gestellte Fragen rund um das
-                Reisen mit Uniglobe. Falls Ihre Frage hier nicht beantwortet
-                wird, stehen Ihnen unsere Reiseexpert:innen jederzeit
-                telefonisch oder online zur Verfügung.
+                Find answers to common questions about traveling with Uniglobe.
+                If you don't see your question here, our travel experts are just
+                a call or click away.
               en-US: >-
                 Find answers to common questions about traveling with Uniglobe.
                 If you don't see your question here, our travel experts are just
@@ -981,7 +974,7 @@ composition:
           title:
             type: text
             locales:
-              de-DE: Bereit, deine Reiseträume wahr werden zu lassen?
+              de-DE: Ready to turn your travel dreams into reality?
               en-US: Ready to turn your travel dreams into reality?
           objectFit:
             type: select
@@ -995,9 +988,10 @@ composition:
           description:
             type: text
             locales:
-              de-DE: >-
-                Wir kümmern uns um alle Details, damit Sie sich ganz auf das
-                Sammeln unvergesslicher Erinnerungen konzentrieren können.
+              de-DE: >+
+                Let us handle the details while you focus on creating memories
+                that last a lifetime.
+
               en-US: >+
                 Let us handle the details while you focus on creating memories
                 that last a lifetime.
@@ -1005,7 +999,7 @@ composition:
           eyebrowText:
             type: text
             locales:
-              de-DE: Starte deine Reise
+              de-DE: Start Your Journey
               en-US: Start Your Journey
           paddingBottom:
             type: select
@@ -1016,7 +1010,7 @@ composition:
           primaryButtonCopy:
             type: text
             locales:
-              de-DE: Jetzt Reise starten
+              de-DE: Start Your Journey
               en-US: Start Your Journey
           primaryButtonLink:
             type: link
@@ -1033,38 +1027,33 @@ composition:
           secondaryButtonStyle:
             type: tp-button-style-parameter
             value: link
-  _dataResources:
-    Blog posts List Content:
-      type: blogPostsList
-      variables:
-        locale: ${locale}
-        search: ''
-        filters: >-
-          {"type[eq]":"blogPosts","locale[in]":"en-US","fields.introduction[match]":"eco"}
-        uiFilters: >-
-          [{"field":"type","operator":"eq","value":"blogPosts"},{"field":"locale","operator":"in","value":["en-US"]},{"field":"fields.introduction","operator":"match","value":"eco"}]
-        contentTypes: blogPosts
+      - _id: 391f3282-3715-43be-b33a-381bf30e898e
+        type: container
+        _pattern: 019ba1b5-af51-4c40-b968-f0f11b66720e
+      - _id: c25e891f-7157-4527-ad82-700b5450cfbb
+        type: container
+        _pattern: a0e086a1-87f2-4881-83d2-e53a88225cf9
   _overrides:
+    c25e891f-7157-4527-ad82-700b5450cfbb:
+      dataResources:
+        Blog posts:
+          type: blogPostSelection
+          variables:
+            limit: '3'
+            locale: ${locale}
+            search: ''
+            filters: '{"type[eq]":"blogPosts"}'
+            orderBy: created_at_DESC
+            entryIds: >-
+              305c9a69-e5cd-4488-8f96-e0fb09a260a9,11d6ed21-9d24-4806-b974-e66aa37a010d,a5122b32-5e2a-435c-b5be-5697c9de58f0
+            contentTypes: blogPosts
     e27870d1-b74f-4c3c-86ca-20d3b881fe95:
       parameters:
         title:
           type: text
           locales:
-            de-DE: Empfohlene Reiseziele
+            de-DE: Featured Destinations
             en-US: Featured Destinations
-        description:
-          type: text
-          locales:
-            de-DE: >-
-              Lust auf mehr als nur Sightseeing? Unsere empfohlenen Reiseziele
-              stehen für Nachhaltigkeit, lokale Kultur und echte Erlebnisse.
-              Entdecke mit Uniglobe authentisches und verantwortungsvolles
-              Reisen.
-            en-US: >-
-              Discover handpicked destinations that blend local culture, natural
-              beauty, and unique experiences. Whether you seek vibrant cities,
-              peaceful nature, or authentic community connections, these spots
-              are perfect for conscious travelers ready to explore differently.
       dataResources:
         Featured countries:
           type: multipleCountries
@@ -1072,6 +1061,12 @@ composition:
             locale: ${locale}
             entryIds: >-
               bdd4c8f3-2999-4885-a2b3-a08216a80aa7,49e4e7f6-9ad8-4a02-bb54-33560dadba6b,035a64b1-730e-444c-921a-431bc2712e14
+    c25e891f-7157-4527-ad82-700b5450cfbb|508a29a8-f9df-43f4-ac84-2cd9fd6bdf3f:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Featured blog posts
     e27870d1-b74f-4c3c-86ca-20d3b881fe95|797b9518-801c-44fe-b57d-d3bd74788ee1:
       parameters:
         badge:
@@ -1130,6 +1125,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-05-13T15:50:55.744893+00:00'
-modified: '2025-05-22T08:56:01.644934+00:00'
+created: '2025-07-03T19:06:56.335279+00:00'
+modified: '2025-07-03T19:06:56.335279+00:00'
 pattern: false

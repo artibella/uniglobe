@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: content
 name: Content
 icon: >-
@@ -8,6 +9,9 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Add a clear, descriptive title for this content section. Keep it under 50
+      characters and use sentence case.
     typeConfig:
       required: false
     localizable: true
@@ -23,6 +27,9 @@ parameters:
   - id: text
     name: Text
     type: text
+    guidance: >-
+      Write clear, concise text for this section. Use 1–3 sentences and keep it
+      under 150 characters for best readability.
     typeConfig:
       multiline: true
       linesCount: '5'
@@ -33,11 +40,15 @@ parameters:
     typeConfig: {}
     localizable: true
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  A flexible component for displaying text, links, and structured content. Use
+  for informational sections, introductions, or any content that doesn't fit
+  other specific components.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Content_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:43.38324+00:00'
-updated: '2024-01-15T15:03:15.117489+00:00'
+created: '2025-07-03T19:06:15.506677+00:00'
+updated: '2025-07-03T22:21:15.75482+00:00'

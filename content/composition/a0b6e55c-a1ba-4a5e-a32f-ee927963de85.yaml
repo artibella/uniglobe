@@ -37,7 +37,6 @@ composition:
                       type: text
                       value: Globe
                   _source: custom-url
-            value: []
           title:
             type: text
             locales:
@@ -201,7 +200,6 @@ composition:
             type: asset
             locales:
               en-US: ${#jptr:/Country/entry/fields/flag/value}
-            value: []
           title:
             type: text
             locales:
@@ -379,6 +377,6 @@ composition:
           5690f959-52d1-4f54-a869-30b8bfed46cb,036376fb-7f06-419e-ac2b-686de17fb520,a78fe34d-0e49-4f9a-a675-8487a4b928b6,764d065c-6412-4bb0-b354-8f98be36b00c
   _locales:
     - en-US
-created: '2024-05-13T20:10:39.872798+00:00'
-modified: '2024-05-14T17:07:59.87182+00:00'
+created: '2025-07-03T19:06:46.255105+00:00'
+modified: '2025-07-03T19:06:46.255105+00:00'
 pattern: false

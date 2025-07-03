@@ -1,0 +1,1667 @@
+composition:
+  _name: The conscious traveler's guide to Central America
+  _id: 3bea9250-254b-4eb9-bda7-d0359d57be01
+  _slug: eco-friendly-central-america-travel-guide
+  type: page
+  _dataResources:
+    Blog post:
+      type: blogPosts
+      variables:
+        locale: ${locale}
+        entryId: 583179fb-cb03-4d1c-91ea-fb9d83656d5f
+  _overrides:
+    3bea9250-254b-4eb9-bda7-d0359d57be01|08642ce6-afa1-4042-977e-d6b16354ad24:
+      slots:
+        $slotSectionItems:
+          - _id: d82ff367-cd40-404f-8611-840248bf5bdc
+            type: richText
+            parameters:
+              content:
+                type: richText
+                locales:
+                  en-US:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - tag: h1
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Discover Central America's hidden eco-gems: Your
+                                guide to sustainable adventure
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Central America isn't just a bridge between two
+                                continents—it's a living laboratory of
+                                biodiversity where your travel choices can
+                                directly support conservation efforts and local
+                                communities. From Costa Rica's community-run
+                                wildlife reserves to Guatemala's indigenous-led
+                                coffee tours, this region offers authentic
+                                experiences that leave both you and the
+                                environment better off.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+          - _id: d5227046-3e5e-4502-8354-1253d108fea5
+            type: video
+            parameters:
+              url:
+                type: link
+                locales:
+                  en-US:
+                    path: https://youtu.be/5X0H_2HjWgI?si=HR7fUVlv8oHarzxY
+                    type: url
+          - _id: ce4f2b10-5836-483e-9116-3cb0f17da8f2
+            type: richText
+            parameters:
+              content:
+                type: richText
+                locales:
+                  en-US:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Why Central America is perfect for eco-conscious
+                                travelers
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Central America packs incredible biodiversity
+                                into a relatively small area, making it ideal
+                                for travelers who want maximum impact with
+                                minimal carbon footprint. The region's
+                                commitment to community-based tourism means your
+                                dollars go directly to local families and
+                                conservation projects rather than international
+                                hotel chains.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Many Central American countries have invested
+                                heavily in sustainable infrastructure. Costa
+                                Rica generates 99% of its electricity from
+                                renewable sources, while Belize has protected
+                                over 60% of its land through national parks and
+                                marine reserves. This means you can explore with
+                                confidence knowing your destination actively
+                                supports environmental protection.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+          - _id: b46c6332-a911-4774-986d-80c0b060e7f0
+            type: imageGallery
+            parameters:
+              items:
+                type: asset
+                locales:
+                  en-US:
+                    - _id: d9940336-b20b-4359-85ae-ccb6b7fe16ef
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.unsplash.com/photo-1743756976647-266de74b5567?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxDZW50cmFsJTIwQW1lcmljYSUyN3MlMjByZW5ld2FibGUlMjBlbmVyZ3klMjBpbml0aWF0aXZlc3xlbnwwfHx8fDE3NTEzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=85
+                        title:
+                          type: text
+                          value: >-
+                            Wind turbines stand tall against a mountain
+                            backdrop.
+                        width:
+                          type: number
+                          value: 5250
+                        custom:
+                          type: object
+                          value:
+                            color: '#c0d9d9'
+                            apiUrl: >-
+                              https://api.unsplash.com/photos/wind-turbines-stand-tall-against-a-mountain-backdrop-DsFQmrSy_9o
+                            blurHash: LnI61YRkIUkC_NbHR*fQMxkCayWB
+                            sourceId: DsFQmrSy_9o
+                            createdAt: '2025-04-04T08:56:29Z'
+                            detailUrl: >-
+                              https://unsplash.com/photos/wind-turbines-stand-tall-against-a-mountain-backdrop-DsFQmrSy_9o
+                            updatedAt: '2025-07-01T10:03:17Z'
+                            authorName: Milin John
+                            downloadUrl: >-
+                              https://unsplash.com/photos/DsFQmrSy_9o/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxDZW50cmFsJTIwQW1lcmljYSUyN3MlMjByZW5ld2FibGUlMjBlbmVyZ3klMjBpbml0aWF0aXZlc3xlbnwwfHx8fDE3NTEzNjQ5MDJ8MA
+                            photoRawUrl: >-
+                              https://images.unsplash.com/photo-1743756976647-266de74b5567?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxDZW50cmFsJTIwQW1lcmljYSUyN3MlMjByZW5ld2FibGUlMjBlbmVyZ3klMjBpbml0aWF0aXZlc3xlbnwwfHx8fDE3NTEzNjQ5MDJ8MA&ixlib=rb-4.1.0
+                            photoFullUrl: >-
+                              https://images.unsplash.com/photo-1743756976647-266de74b5567?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxDZW50cmFsJTIwQW1lcmljYSUyN3MlMjByZW5ld2FibGUlMjBlbmVyZ3klMjBpbml0aWF0aXZlc3xlbnwwfHx8fDE3NTEzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=85
+                            photoSmallUrl: >-
+                              https://images.unsplash.com/photo-1743756976647-266de74b5567?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxDZW50cmFsJTIwQW1lcmljYSUyN3MlMjByZW5ld2FibGUlMjBlbmVyZ3klMjBpbml0aWF0aXZlc3xlbnwwfHx8fDE3NTEzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=400
+                            photoThumbUrl: >-
+                              https://images.unsplash.com/photo-1743756976647-266de74b5567?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxDZW50cmFsJTIwQW1lcmljYSUyN3MlMjByZW5ld2FibGUlMjBlbmVyZ3klMjBpbml0aWF0aXZlc3xlbnwwfHx8fDE3NTEzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=200
+                            authorUsername: milinjohn
+                            photoRegularUrl: >-
+                              https://images.unsplash.com/photo-1743756976647-266de74b5567?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxDZW50cmFsJTIwQW1lcmljYSUyN3MlMjByZW5ld2FibGUlMjBlbmVyZ3klMjBpbml0aWF0aXZlc3xlbnwwfHx8fDE3NTEzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                            authorProfileUrl: https://unsplash.com/@milinjohn
+                            downloadLocation: >-
+                              https://api.unsplash.com/photos/DsFQmrSy_9o/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxDZW50cmFsJTIwQW1lcmljYSUyN3MlMjByZW5ld2FibGUlMjBlbmVyZ3klMjBpbml0aWF0aXZlc3xlbnwwfHx8fDE3NTEzNjQ5MDJ8MA
+                            authorProfileImage: >-
+                              https://images.unsplash.com/profile-1509597602375-1e871d247fb2?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                        height:
+                          type: number
+                          value: 3500
+                        description:
+                          type: text
+                          value: Photo by Milin John on Unsplash
+                      _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                    - _id: 6c783250-54e8-41e0-a0ff-8121b422b00f
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.unsplash.com/photo-1680355065203-43ad84bb6e69?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8Q2VudHJhbCUyMEFtZXJpY2ElMjdzJTIwcmVuZXdhYmxlJTIwZW5lcmd5JTIwaW5pdGlhdGl2ZXN8ZW58MHx8fHwxNzUxMzY0OTAyfDA&ixlib=rb-4.1.0&q=85
+                        title:
+                          type: text
+                          value: a large solar farm with many rows of solar panels
+                        width:
+                          type: number
+                          value: 8649
+                        custom:
+                          type: object
+                          value:
+                            color: '#8ca6a6'
+                            apiUrl: >-
+                              https://api.unsplash.com/photos/a-large-solar-farm-with-many-rows-of-solar-panels-hp6Xj7LyZ1E
+                            blurHash: LPABIaxuM{R+_NxaNHWC%gs:WDWV
+                            sourceId: hp6Xj7LyZ1E
+                            createdAt: '2023-04-01T13:18:36Z'
+                            detailUrl: >-
+                              https://unsplash.com/photos/a-large-solar-farm-with-many-rows-of-solar-panels-hp6Xj7LyZ1E
+                            updatedAt: '2025-07-01T09:56:53Z'
+                            authorName: Harisankar
+                            downloadUrl: >-
+                              https://unsplash.com/photos/hp6Xj7LyZ1E/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8Q2VudHJhbCUyMEFtZXJpY2ElMjdzJTIwcmVuZXdhYmxlJTIwZW5lcmd5JTIwaW5pdGlhdGl2ZXN8ZW58MHx8fHwxNzUxMzY0OTAyfDA
+                            photoRawUrl: >-
+                              https://images.unsplash.com/photo-1680355065203-43ad84bb6e69?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8Q2VudHJhbCUyMEFtZXJpY2ElMjdzJTIwcmVuZXdhYmxlJTIwZW5lcmd5JTIwaW5pdGlhdGl2ZXN8ZW58MHx8fHwxNzUxMzY0OTAyfDA&ixlib=rb-4.1.0
+                            photoFullUrl: >-
+                              https://images.unsplash.com/photo-1680355065203-43ad84bb6e69?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8Q2VudHJhbCUyMEFtZXJpY2ElMjdzJTIwcmVuZXdhYmxlJTIwZW5lcmd5JTIwaW5pdGlhdGl2ZXN8ZW58MHx8fHwxNzUxMzY0OTAyfDA&ixlib=rb-4.1.0&q=85
+                            photoSmallUrl: >-
+                              https://images.unsplash.com/photo-1680355065203-43ad84bb6e69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8Q2VudHJhbCUyMEFtZXJpY2ElMjdzJTIwcmVuZXdhYmxlJTIwZW5lcmd5JTIwaW5pdGlhdGl2ZXN8ZW58MHx8fHwxNzUxMzY0OTAyfDA&ixlib=rb-4.1.0&q=80&w=400
+                            photoThumbUrl: >-
+                              https://images.unsplash.com/photo-1680355065203-43ad84bb6e69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8Q2VudHJhbCUyMEFtZXJpY2ElMjdzJTIwcmVuZXdhYmxlJTIwZW5lcmd5JTIwaW5pdGlhdGl2ZXN8ZW58MHx8fHwxNzUxMzY0OTAyfDA&ixlib=rb-4.1.0&q=80&w=200
+                            authorUsername: imsankar
+                            photoRegularUrl: >-
+                              https://images.unsplash.com/photo-1680355065203-43ad84bb6e69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8Q2VudHJhbCUyMEFtZXJpY2ElMjdzJTIwcmVuZXdhYmxlJTIwZW5lcmd5JTIwaW5pdGlhdGl2ZXN8ZW58MHx8fHwxNzUxMzY0OTAyfDA&ixlib=rb-4.1.0&q=80&w=1080
+                            authorProfileUrl: https://unsplash.com/@imsankar
+                            downloadLocation: >-
+                              https://api.unsplash.com/photos/hp6Xj7LyZ1E/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMXx8Q2VudHJhbCUyMEFtZXJpY2ElMjdzJTIwcmVuZXdhYmxlJTIwZW5lcmd5JTIwaW5pdGlhdGl2ZXN8ZW58MHx8fHwxNzUxMzY0OTAyfDA
+                            authorProfileImage: >-
+                              https://images.unsplash.com/profile-1730685113540-544d95f0b9a8image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                        height:
+                          type: number
+                          value: 5200
+                        description:
+                          type: text
+                          value: Photo by Harisankar on Unsplash
+                      _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                    - _id: 33a7b352-7572-421e-b843-52ab4bf40df1
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.pexels.com/photos/14096757/pexels-photo-14096757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        title:
+                          type: text
+                          value: >-
+                            Aerial view of a vast solar power plant in the
+                            Mojave Desert, highlighting renewable energy.
+                        width:
+                          type: number
+                          value: 4032
+                        custom:
+                          type: object
+                          value:
+                            sourceId: '14096757'
+                            pexelsUrl: >-
+                              https://www.pexels.com/photo/photo-of-a-solar-power-plant-14096757/
+                            photoTinyUrl: >-
+                              https://images.pexels.com/photos/14096757/pexels-photo-14096757.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                            photographer: James Guetschow
+                            photoLargeUrl: >-
+                              https://images.pexels.com/photos/14096757/pexels-photo-14096757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                            photoSmallUrl: >-
+                              https://images.pexels.com/photos/14096757/pexels-photo-14096757.jpeg?auto=compress&cs=tinysrgb&h=130
+                            photoMediumUrl: >-
+                              https://images.pexels.com/photos/14096757/pexels-photo-14096757.jpeg?auto=compress&cs=tinysrgb&h=350
+                            photoLarge2xUrl: >-
+                              https://images.pexels.com/photos/14096757/pexels-photo-14096757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                            photographerUrl: https://www.pexels.com/@james-guetschow-344441505
+                            photoPortraitUrl: >-
+                              https://images.pexels.com/photos/14096757/pexels-photo-14096757.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                            pexelsOriginalUrl: >-
+                              https://images.pexels.com/photos/14096757/pexels-photo-14096757.jpeg
+                            photoLandscapeUrl: >-
+                              https://images.pexels.com/photos/14096757/pexels-photo-14096757.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                        height:
+                          type: number
+                          value: 2268
+                        description:
+                          type: text
+                          value: >-
+                            Aerial view of a vast solar power plant in the
+                            Mojave Desert, highlighting renewable energy. -
+                            Photo by James Guetschow on Pexels
+                      _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+              title:
+                type: text
+                locales:
+                  en-US: Central America's renewable energy initiatives
+              titleStyle:
+                type: tp-title-style-parameter
+                value: h3
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Dark
+          - _id: 986d3d20-8f74-4b8d-ae2d-1bbe2e956cc1
+            type: richText
+            parameters:
+              content:
+                type: richText
+                locales:
+                  en-US:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Costa Rica: Beyond the tourist trail'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Puerto Viejo's sustainable surf scene
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Skip the crowded beaches of Tamarindo and head
+                                to Puerto Viejo on the Caribbean coast. This
+                                laid-back town runs primarily on renewable
+                                energy and offers some of the best surfing in
+                                Central America. Stay at Tree House Lodge, where
+                                your cabin literally sits in the forest canopy,
+                                and 100% of profits support local reforestation
+                                efforts.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                The area's coral reefs are protected through
+                                community-led conservation programs. Join a
+                                morning snorkel tour led by local marine
+                                biologists who'll teach you to identify
+                                endangered species while contributing to ongoing
+                                research efforts.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Monteverde's community coffee experience
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 1
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                While most tourists visit Monteverde for the
+                                cloud forest, the real magic happens on the
+                                family-run coffee farms surrounding the area.
+                                Book a homestay with the Vargas family, whose
+                                organic farm has been carbon-neutral since 2018.
+                                You'll learn traditional processing methods,
+                                help with harvesting during season, and enjoy
+                                meals made entirely from ingredients grown on
+                                the property.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                The experience costs about $35 per day including
+                                meals and accommodation—far less than any hotel
+                                in the area, with the added benefit of
+                                supporting a family that's been practicing
+                                sustainable agriculture for three generations.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: '[ImageGallery Component]'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Gallery title: "From bean to cup: Sustainable
+                                coffee farming in Monteverde"
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Images: 8 photos showing coffee picking process,
+                                traditional drying methods, family members
+                                working the farm, organic certification
+                                displays, solar-powered processing equipment,
+                                farm-to-table meals, homestay accommodations,
+                                and reforestation efforts
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Description: Experience authentic coffee culture
+                                while supporting carbon-neutral farming
+                                practices
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Guatemala: Cultural immersion meets conservation'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Lake Atitlán's indigenous-led tourism
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Lake Atitlán offers one of Central America's
+                                most powerful examples of community-based
+                                tourism. Stay in San Juan La Laguna, where the
+                                local Maya Tz'utujil community operates all
+                                tourism services collectively. Your visit
+                                directly funds education programs and lake
+                                conservation efforts.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Join women's weaving cooperatives where you'll
+                                learn traditional backstrap loom techniques
+                                while supporting female entrepreneurship. The
+                                natural dyes used come from plants grown in
+                                community gardens that also serve as carbon
+                                sinks and biodiversity corridors.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: '[ImageGallery Component]'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Gallery title: "Maya traditions and sustainable
+                                tourism at Lake Atitlán"
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Images: 10 photos featuring traditional weaving
+                                demonstrations, natural dye preparation,
+                                community garden projects, lake conservation
+                                activities, traditional boats, Maya women at
+                                work, finished textile products, volcanic
+                                landscape views, community meetings, and
+                                eco-friendly accommodations
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Description: Witness how indigenous communities
+                                balance cultural preservation with environmental
+                                protection
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Tikal's conservation homestays
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Instead of staying in expensive lodges near
+                                Tikal National Park, book with the community of
+                                Uaxactún, where local families offer guided
+                                experiences that most tourists never see. These
+                                Maya descendants know forest paths that lead to
+                                unexcavated temples and hidden cenotes.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Your guide fee supports the community's forest
+                                patrol program, which has successfully prevented
+                                illegal logging in the area for over a decade.
+                                The experience includes traditional meals cooked
+                                over wood fires and storytelling sessions that
+                                connect you to thousands of years of Maya forest
+                                knowledge.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Belize: Marine conservation in action'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Hopkins' Garifuna cultural immersion
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Hopkins village offers an authentic window into
+                                Garifuna culture while supporting marine
+                                conservation efforts. The community-run Garifuna
+                                Museum doubles as a research station for coral
+                                restoration projects. Stay with a local family
+                                and learn traditional drumming, dancing, and
+                                cooking while contributing to programs that
+                                protect the nearby barrier reef.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                The village operates entirely on solar power
+                                during daylight hours, and fishing cooperatives
+                                practice strict quotas to ensure sustainable
+                                harvests. Snorkeling trips led by local
+                                fishermen include citizen science activities
+                                where you'll help monitor coral health and fish
+                                populations.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: '[ImageGallery Component]'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Gallery title: "Garifuna culture meets marine
+                                conservation in Hopkins"
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Images: 6 photos showing traditional drumming
+                                sessions, coral restoration work, solar-powered
+                                village infrastructure, sustainable fishing
+                                practices, Garifuna cooking demonstrations, and
+                                underwater coral monitoring activities
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Description: Experience vibrant Garifuna culture
+                                while contributing to barrier reef protection
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Caye Caulker's plastic-free initiative
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                This small island has become a model for
+                                plastic-free tourism. The community banned
+                                single-use plastics in 2019 and implemented a
+                                comprehensive waste management system powered by
+                                solar energy. Stay at one of the locally-owned
+                                guesthouses where rainwater harvesting provides
+                                all fresh water needs.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Join morning beach cleanups that combine
+                                conservation action with cultural exchange.
+                                Local guides share stories about traditional
+                                fishing methods while you help remove marine
+                                debris and document findings for international
+                                research databases.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Nicaragua: Volcano adventures with impact'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Ometepe Island's organic farming stays
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Ometepe Island sits in Lake Nicaragua and
+                                operates as an almost entirely organic
+                                agricultural system. The volcanic soil creates
+                                ideal growing conditions, while the island's
+                                isolation has preserved traditional farming
+                                methods that work in harmony with the ecosystem.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Stay on working farms where you'll help with
+                                daily activities like harvesting plantains,
+                                milking cows, and preparing traditional meals.
+                                The island's agricultural cooperatives reinvest
+                                tourism profits into soil conservation and
+                                renewable energy projects.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: '[ImageGallery Component]'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Gallery title: "Sustainable agriculture on
+                                volcanic Ometepe Island"
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Images: 8 photos featuring organic farming
+                                techniques, volcanic soil close-ups, traditional
+                                livestock care, renewable energy installations
+                                on farms, harvest activities, farm-to-table meal
+                                preparation, cooperative meetings, and panoramic
+                                island views
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                            - mode: normal
+                              text: ' '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - mode: normal
+                              text: >-
+                                Description: See how volcanic soil and
+                                traditional methods create Nicaragua's most
+                                sustainable farming community
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 2
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: León's revolutionary eco-tours
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                León combines historical significance with
+                                innovative sustainability programs. The city's
+                                colonial architecture houses cooperatives that
+                                offer walking tours led by former
+                                revolutionaries who now work in environmental
+                                education.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Volcano boarding on Cerro Negro has become the
+                                region's most famous adventure activity, but few
+                                tourists know it's operated by a cooperative
+                                that employs former gang members in conservation
+                                work. Your tour fee funds reforestation projects
+                                on the volcano's slopes and youth education
+                                programs in León's marginalized neighborhoods.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Honduras: Hidden Caribbean treasures'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Utila's whale shark research
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Utila offers some of the world's most affordable
+                                diving certification, but what makes it special
+                                is the opportunity to participate in whale shark
+                                research. The Whale Shark and Oceanic Research
+                                Center trains visitors in data collection
+                                techniques, turning your dives into valuable
+                                scientific contributions.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Stay at one of the locally-owned guesthouses
+                                that participate in the island's solar energy
+                                cooperative. These accommodations cost a
+                                fraction of resort prices while providing
+                                authentic experiences and supporting
+                                community-owned renewable energy infrastructure.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children: []
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Panama: Where two oceans meet sustainably'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Bocas del Toro's sea turtle conservation
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Bocas del Toro offers Caribbean charm with
+                                serious conservation impact. The region's sea
+                                turtle protection program trains local youth as
+                                guides and researchers, creating sustainable
+                                employment while protecting endangered species.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Stay with host families in indigenous
+                                communities where traditional ecological
+                                knowledge guides conservation strategies. Night
+                                turtle tours combine education with hands-on
+                                conservation work, and your participation fee
+                                funds equipment and salaries for local
+                                researchers.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: San Blas Islands' Guna autonomy
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 1
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                The Guna people maintain autonomous control over
+                                the San Blas Islands, creating a unique model
+                                for indigenous-led tourism. All accommodations
+                                are community-owned, and traditional councils
+                                decide how tourism revenues support education
+                                and environmental protection.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                The islands operate entirely without motorized
+                                vehicles or large-scale development. Solar
+                                panels and wind turbines provide electricity,
+                                while traditional fishing methods ensure marine
+                                ecosystem health. Your visit directly supports
+                                one of the world's most successful examples of
+                                indigenous environmental governance.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Practical tips for eco-conscious Central America
+                                travel
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Transportation that makes sense
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Central America's excellent bus network offers
+                                the most sustainable way to travel between
+                                countries. Chicken buses might not be
+                                comfortable, but they're incredibly efficient
+                                and provide authentic cultural experiences. For
+                                longer distances, shuttle services operated by
+                                driver cooperatives offer more comfort while
+                                still supporting local economies.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Consider flying into one country and departing
+                                from another to maximize overland travel and
+                                minimize flights. The region's compact size
+                                makes this practical and often more interesting
+                                than round-trip journeys.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: What to pack for minimum impact
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 1
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Bring a high-quality water filter instead of
+                                buying bottled water. Central America's tap
+                                water is generally safe when filtered, and
+                                you'll eliminate hundreds of plastic bottles
+                                from your trip.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Pack reef-safe sunscreen and biodegradable soap.
+                                Many protected areas prohibit chemical
+                                sunscreens that damage coral reefs, and
+                                biodegradable soap prevents stream and river
+                                contamination.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Bring rechargeable batteries and a portable
+                                solar charger. Remote communities often have
+                                limited electricity, and these tools ensure you
+                                can document experiences without straining local
+                                resources.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Money matters for responsible travel
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Budget approximately $30-50 per day for
+                                sustainable travel in Central America, including
+                                accommodation, meals, and activities. This range
+                                allows for community homestays, locally-guided
+                                experiences, and meals at family-run restaurants
+                                while avoiding the higher costs of international
+                                chains.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Always carry small bills in local currency.
+                                Community-based tourism operations often can't
+                                break large bills, and credit card processing
+                                isn't available in remote areas.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - tag: h2
+                          type: heading
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Planning your eco-adventure
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Start by identifying which type of experience
+                                most appeals to you: marine conservation, forest
+                                protection, cultural preservation, or
+                                agricultural sustainability. Central America
+                                offers world-class opportunities in all these
+                                areas, often within the same country.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Contact community tourism organizations directly
+                                rather than booking through international
+                                platforms. This ensures more money reaches local
+                                communities and provides opportunities for
+                                customized experiences based on your interests
+                                and skills.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Consider timing your visit to coincide with
+                                seasonal activities like sea turtle nesting,
+                                coffee harvesting, or whale migration. These
+                                periods offer unique experiences while providing
+                                crucial volunteer support for conservation
+                                efforts.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Central America rewards travelers who approach
+                                it with curiosity, respect, and a genuine desire
+                                to contribute positively to the places they
+                                visit. Your choices matter here—from where you
+                                sleep to what you eat to how you explore. Make
+                                them count.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children: []
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children: []
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+                      textFormat: 1
+  _locales:
+    - en-US
+  _pattern: 8a1da5e2-ea29-4759-b15d-68bdc6370de5
+created: '2025-07-03T19:07:05.577753+00:00'
+modified: '2025-07-03T19:07:05.577753+00:00'
+pattern: false

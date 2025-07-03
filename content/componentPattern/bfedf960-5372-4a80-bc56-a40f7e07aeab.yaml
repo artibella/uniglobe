@@ -1,0 +1,98 @@
+composition:
+  _name: Blog post Card (by slug)
+  _id: bfedf960-5372-4a80-bc56-a40f7e07aeab
+  type: card
+  variant: backgroundImage
+  parameters:
+    badge:
+      type: text
+      locales:
+        de-DE: >-
+          ${#jptr:/Blog
+          post/entry/fields/categories/value/0/entry/fields/title/value}
+        en-US: >-
+          ${#jptr:/Blog
+          post/entry/fields/categories/value/0/entry/fields/title/value}
+    image:
+      type: asset
+      locales:
+        de-DE: ${#jptr:/Blog post/entry/fields/featuredImage/value}
+        en-US: ${#jptr:/Blog post/entry/fields/featuredImage/value}
+    title:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Blog post/entry/fields/title/value}
+        en-US: ${#jptr:/Blog post/entry/fields/title/value}
+    badgeSize:
+      type: select
+      value: lg
+    objectFit:
+      type: select
+      locales:
+        de-DE: cover
+        en-US: cover
+    buttonCopy:
+      type: text
+      locales:
+        de-DE: Read more
+        en-US: Read more
+    buttonLink:
+      type: link
+      locales: {}
+      localesConditions: {}
+    buttonStyle:
+      type: tp-button-style-parameter
+      value: secondary
+    description:
+      type: text
+      value: ${#jptr:/Blog post/entry/fields/excerpt/value}
+    overlayColor:
+      type: tp-color-style-parameter
+      locales:
+        de-DE: base-300
+        en-US: base-300
+    overlayOpacity:
+      type: tp-slider-parameter
+      locales:
+        de-DE: 60%
+        en-US: 80%
+    textColorVariant:
+      type: select
+      value: Light
+    lineCountRestriction:
+      type: tp-slider-parameter
+      value: '5'
+  _dataResources:
+    Blog post:
+      type: blogPostBySlug
+      variables:
+        slug: hidden-gems-in-southeast-asia-off-the-beaten-path
+        locale: ${locale}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      $viz: 'yes'
+      badge: 'yes'
+      image: 'yes'
+      title: 'yes'
+      badgeSize: 'yes'
+      objectFit: 'yes'
+      badgeStyle: 'yes'
+      buttonCopy: 'yes'
+      buttonLink: 'yes'
+      buttonStyle: 'yes'
+      description: 'yes'
+      overlayColor: 'yes'
+      overlayOpacity: 'yes'
+      textColorVariant: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+created: '2025-07-03T19:06:41.424292+00:00'
+modified: '2025-07-03T19:07:58.832294+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1737406073/Uniglobe/Component%20Previews/Country%20card.png

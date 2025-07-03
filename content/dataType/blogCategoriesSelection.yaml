@@ -1,0 +1,17 @@
+id: blogCategoriesSelection
+displayName: Blog Categories (Selection)
+ttl: 30
+path: /multiple
+custom:
+  proposedName: Multiple Blog Category
+  allowedContentTypes:
+    - blogCategory
+method: GET
+purgeKey: 85854085-f3b6-4c9c-b5ac-81eded37eb85
+archetype: multipleEntries
+variables:
+  entryIds:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

@@ -11,7 +11,6 @@ composition:
         en-US: Thailand
     image:
       type: asset
-      value: []
       locales:
         de-DE:
           - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
@@ -95,6 +94,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-05-13T15:50:52.089781+00:00'
-modified: '2025-05-13T15:50:52.089781+00:00'
+created: '2025-07-03T19:06:50.171946+00:00'
+modified: '2025-07-03T19:08:06.207011+00:00'
 pattern: true

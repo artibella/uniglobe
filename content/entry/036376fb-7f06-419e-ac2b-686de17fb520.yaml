@@ -1,5 +1,5 @@
-created: '2024-01-18T12:43:00.172879+00:00'
-modified: '2025-04-23T11:47:01.782558+00:00'
+created: '2025-07-03T19:09:14.88569+00:00'
+modified: '2025-07-03T19:09:14.88569+00:00'
 pattern: false
 entry:
   _id: 036376fb-7f06-419e-ac2b-686de17fb520
@@ -23,6 +23,36 @@ entry:
   _overrides:
     036376fb-7f06-419e-ac2b-686de17fb520:
       parameters:
+        icon:
+          type: asset
+          locales:
+            en-US:
+              - _id: e0329cca-d22c-460c-916e-75f0f5aad08b
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: Uniglobe/Country icons/denmark
+                  url:
+                    type: text
+                    value: >-
+                      https://res.cloudinary.com/content-ops/image/upload/v1747818396/Uniglobe/Country%20icons/denmark.png
+                  size:
+                    type: number
+                    value: 1666941
+                  title:
+                    type: text
+                    value: Uniglobe/Country icons/denmark
+                  width:
+                    type: number
+                    value: 1024
+                  height:
+                    type: number
+                    value: 1024
+                  mediaType:
+                    type: text
+                    value: image/png
+                _source: cloudinary-2c6d995a-4c3f-4f95-86ea-7d9f8af08667
         region:
           type: contentReference
           value: ${#jptr:/ref-036376fb-7f06-419e-ac2b-686de17fb520-region/entries/0}

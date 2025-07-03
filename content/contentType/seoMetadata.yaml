@@ -1,7 +1,7 @@
 id: seoMetadata
 name: SEO metadata
-created: '2025-05-13T15:51:10.002573+00:00'
-updated: '2025-05-21T13:30:44.10501+00:00'
+created: '2025-07-03T19:08:50.69563+00:00'
+updated: '2025-07-03T19:24:16.840522+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
@@ -9,24 +9,27 @@ fields:
     name: Meta Title
     type: text
     guidance: >-
-      Create concise page titles in sentence case (50-60 characters) optimized
-      for relevant search terms used by sustainability-minded travelers
+      Enter a concise and descriptive title for the page. This title appears in
+      search engine results and should include relevant keywords.
     typeConfig: null
     localizable: true
   - id: metaDescription
     name: Meta description
     type: text
     guidance: >-
-      Write compelling summaries (130-155 characters) that communicate unique
-      value propositions around authentic experiences and environmental
-      responsibility
+      Write a brief summary of the page content. This description appears in
+      search engine results and should encourage users to visit the page. For
+      best SEO, keep it under 155 characters, include relevant keywords, and
+      make it unique for each page.
     typeConfig:
       multiline: true
     localizable: true
   - id: openGraphTitle
     name: Open Graph Title
     type: text
-    guidance: ' Develop attention-grabbing titles in sentence case optimized for social sharing that highlight unique aspects of the content'
+    guidance: >-
+      Provide a title for social sharing platforms. This is shown when the page
+      is shared on social media.
     helpText: Social sharing title
     typeConfig: null
     localizable: true
@@ -34,14 +37,19 @@ fields:
     name: Open Graph Description
     type: text
     guidance: >-
-      Create brief, compelling descriptions that encourage engagement when
-      content is shared on social platforms
+      Write a concise and engaging summary of the page for social sharing.
+      Highlight the value for the reader, keep it under 110 characters, and
+      avoid hashtags or links. Make sure it matches the entry content and uses a
+      friendly, conversational tone.
     helpText: Social sharing description
     typeConfig: null
     localizable: true
   - id: openGraphImage
     name: Open Graph Image
     type: asset
+    guidance: >-
+      Select an image to display when the page is shared on social media
+      platforms.
     typeConfig:
       max: 1
       allowedTypes:
@@ -49,11 +57,7 @@ fields:
     localizable: true
 entryName: metaTitle
 thumbnailField: openGraphImage
-description: >-
-  Provides structured information for search engine optimization and social
-  sharing. These technical elements improve discoverability through search
-  engines and enhance presentation when shared on social platforms, helping
-  Uniglobe attract environmentally conscious Millennial and Gen-Z travelers.
+description: ''
 icon: search
 type: block
 permissions: []

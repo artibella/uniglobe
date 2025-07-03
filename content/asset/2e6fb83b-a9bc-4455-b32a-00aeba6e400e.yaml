@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2e6fb83b-a9bc-4455-b32a-00aeba6e400e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: image-2YddnpReGvD87jRR0HgV4LeJaIfJRI.png
+    file:
+      type: file
+      value: 30a036b9-b159-487a-a216-ed75c4b796ff
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/SnuIYCrASPeW1ApBDJL2Cw-image-2YddnpReGvD87jRR0HgV4LeJaIfJRI.png
+      type: text
+    size:
+      value: 1638130
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-07-03T19:06:03.856042+00:00'
+modified: '2025-07-03T19:06:03.856042+00:00'

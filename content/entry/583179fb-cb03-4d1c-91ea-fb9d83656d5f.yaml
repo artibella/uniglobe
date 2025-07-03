@@ -1,0 +1,159 @@
+created: '2025-07-03T19:09:37.867204+00:00'
+modified: '2025-07-03T19:09:37.867204+00:00'
+pattern: false
+entry:
+  _id: 583179fb-cb03-4d1c-91ea-fb9d83656d5f
+  _name: The conscious traveler's guide to Central America:...
+  _slug: eco-friendly-central-america-travel-guide
+  _thumbnail: >-
+    https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  type: blogPosts
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: >-
+          The conscious traveler's guide to Central America: Eco-adventures that
+          give back
+    excerpt:
+      type: text
+      locales:
+        en-US: >-
+          Discover authentic eco-adventures across Central America that directly
+          support conservation efforts and local communities. From coral
+          restoration in Belize to indigenous-led tours in Guatemala, experience
+          meaningful travel for just $30-50 per day.
+    categories:
+      type: contentReference
+      value: ${#jptr:/ref-583179fb-cb03-4d1c-91ea-fb9d83656d5f-categories/entries}
+    enrichments:
+      type: $enr
+      value:
+        - cat: dest
+          key: ce
+          str: 50
+        - cat: profile
+          key: mil
+          str: 50
+        - cat: style
+          key: bud
+          str: 50
+    destinations:
+      type: contentReference
+      value: ${#jptr:/ref-583179fb-cb03-4d1c-91ea-fb9d83656d5f-destinations/entries}
+    introduction:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Central America offers some of the world's most impactful
+                      travel experiences for conscious explorers. From
+                      supporting coral restoration in Belize to learning
+                      traditional coffee farming in Costa Rica, discover how
+                      your travel choices can directly fund conservation efforts
+                      and empower local communities. This comprehensive guide
+                      reveals authentic eco-adventures across seven countries,
+                      with practical tips for sustainable travel that costs
+                      $30-50 per day. Experience indigenous-led tours, community
+                      homestays, and conservation projects that most tourists
+                      never see—while making a positive difference in the places
+                      you visit.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    customContent:
+      type: checkbox
+      value: true
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: a4192788-8983-479c-a354-f823388e0bc9
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+              title:
+                type: text
+                value: >-
+                  Scenic view of a tropical beach at sunset in Puerto Viejo,
+                  Costa Rica.
+              width:
+                type: number
+                value: 5312
+              custom:
+                type: object
+                value:
+                  sourceId: '762565'
+                  pexelsUrl: >-
+                    https://www.pexels.com/photo/landscape-photo-of-beach-under-partly-cloudy-skies-762565/
+                  photoTinyUrl: >-
+                    https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                  photographer: Luis Rod
+                  photoLargeUrl: >-
+                    https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  photoSmallUrl: >-
+                    https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg?auto=compress&cs=tinysrgb&h=130
+                  photoMediumUrl: >-
+                    https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg?auto=compress&cs=tinysrgb&h=350
+                  photoLarge2xUrl: >-
+                    https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                  photographerUrl: https://www.pexels.com/@luis-rod-251519
+                  photoPortraitUrl: >-
+                    https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                  pexelsOriginalUrl: >-
+                    https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg
+                  photoLandscapeUrl: >-
+                    https://images.pexels.com/photos/762565/pexels-photo-762565.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+              height:
+                type: number
+                value: 2988
+              description:
+                type: text
+                value: >-
+                  Scenic view of a tropical beach at sunset in Puerto Viejo,
+                  Costa Rica. - Photo by Luis Rod on Pexels
+            _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+    postDetailLink:
+      type: link
+      value:
+        path: /${locale}/blog/eco-friendly-central-america-travel-guide
+        type: projectMapNode
+        nodeId: 043ab123-8976-45de-93fe-3f8b91aad1b0
+        projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+        dynamicInputValues:
+          locale: ${locale}
+  _dataResources:
+    ref-583179fb-cb03-4d1c-91ea-fb9d83656d5f-categories:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          497002d3-7e18-4645-bde2-cf247b87e9c8,f86f265b-e4be-483a-a141-dbcc75855568,33d70d4c-7528-4081-ada1-d8a14b35eea4
+    ref-583179fb-cb03-4d1c-91ea-fb9d83656d5f-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: afc048d6-e361-473d-a8bb-a0c93aab1cfc
+  _locales:
+    - en-US

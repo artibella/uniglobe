@@ -1,0 +1,11 @@
+id: 198adb6d-642e-4298-a7a9-a77ddaad3a03
+name: Post
+order: 500
+path: /:locale/blog/:post
+type: composition
+pathSegment: ':post'
+data:
+  previewValue: best-things-to-do-in-japan-in-2025
+  queryStrings: []
+compositionId: 8b8b3e61-6bbb-4c92-b68f-04e57b50205a
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

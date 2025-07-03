@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: buttonLocalized
 name: Button (Localized)
 icon: rectangle-rounded
@@ -7,11 +8,19 @@ parameters:
   - id: copy
     name: Copy
     type: text
+    guidance: >-
+      Use a clear, action-oriented label (e.g., “Learn more”, “Book now”). Keep
+      it under 20 characters for best appearance and use sentence case. Localize
+      the text for each supported language.
     typeConfig: null
     localizable: true
   - id: link
     name: Link
     type: link
+    guidance: >-
+      Set the destination for the button. Use a full URL for external links or a
+      relative path for internal navigation. Localize the link for each
+      supported language.
     typeConfig: null
     localizable: true
   - id: style
@@ -28,11 +37,15 @@ parameters:
         - text: Fly-In
           value: flyIn
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  Displays a clickable button for navigation or actions, with support for
+  localized text and links. Use for calls-to-action that need to adapt to
+  different languages or regions.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Button_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: copy
 canBeComposition: false
-created: '2024-01-26T13:05:54.404702+00:00'
-updated: '2024-01-26T13:06:33.199188+00:00'
+created: '2025-07-03T19:06:12.963769+00:00'
+updated: '2025-07-03T22:18:55.932904+00:00'

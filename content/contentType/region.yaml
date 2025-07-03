@@ -1,7 +1,7 @@
 id: region
 name: Region
-created: '2024-01-18T13:20:21.829613+00:00'
-updated: '2025-04-25T15:39:51.311684+00:00'
+created: '2025-07-03T19:08:50.404014+00:00'
+updated: '2025-07-03T19:29:22.754528+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -9,12 +9,18 @@ fields:
   - id: name
     name: Name
     type: text
+    guidance: >-
+      Enter the official or commonly recognized name of the region (e.g.,
+      Southeast Asia, Western Europe). Use the English name for consistency.
     helpText: ''
     typeConfig: null
     localizable: true
   - id: image
     name: Image
     type: asset
+    guidance: >-
+      Select an image that visually represents the region. This image will be
+      used as the main visual in listings and detail pages.
     typeConfig:
       max: 1
       allowedTypes:
@@ -24,11 +30,17 @@ fields:
   - id: teaserText
     name: Teaser Text
     type: text
+    guidance: >-
+      Write a short teaser or summary that introduces the region. This should be
+      engaging and provide a quick overview.
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: richText
+    guidance: >-
+      Provide a detailed description of the region. Use headings, lists, and
+      images to make the content informative and visually appealing.
     typeConfig:
       elements:
         builtIn:
@@ -61,6 +73,9 @@ fields:
   - id: destinations
     name: Destinations
     type: contentReference
+    guidance: >-
+      Reference one or more countries that are part of this region. This helps
+      associate the region with specific countries.
     typeConfig:
       isMulti: true
       allowedContentTypes:
@@ -75,6 +90,9 @@ fields:
   - id: countries
     name: Countries
     type: $block
+    guidance: >-
+      This block lists all countries in the region, typically sourced from an
+      external API. Review and update as needed to ensure accuracy.
     helpText: All countries in that region (from API)
     typeConfig:
       allowedTypes:
@@ -90,6 +108,10 @@ fields:
   - id: enrichments
     name: Enrichments
     type: $enr
+    guidance: >-
+      Tag your region with enrichment values to provide additional context,
+      personalization, or categorization. Choose enrichments that best describe
+      the unique aspects of this region.
     helpText: Tag your region with enrichment values
     typeConfig: null
 entryName: name

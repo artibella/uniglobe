@@ -1,0 +1,9 @@
+id: aefeb70f-ad76-41b0-af38-0787eb259621
+name: Sabbaticals
+order: 650
+path: /:locale/sabbaticals
+type: composition
+pathSegment: sabbaticals
+data: {}
+compositionId: 45015d1c-7fde-4a86-b28b-fedf80ce91cc
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

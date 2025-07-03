@@ -1,11 +1,30 @@
 asset:
-  type: other
+  type: image
   _id: d094a8b2-2993-4ec5-8665-60902503a848
   _name: ''
   fields:
     title:
       type: text
       value: person_photo_2.jpg
+    file:
+      type: file
+      value: 07edeff5-6edb-4ff6-a504-1921f0516869
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/XvKmPPCmQKuskzKqWcHB7Q-person_photo_2.jpg
+      type: text
+    size:
+      value: 18613
+      type: number
+    width:
+      value: 256
+      type: number
+    height:
+      value: 256
+      type: number
     custom: {}
-created: '2025-05-13T15:43:36.376088+00:00'
-modified: '2025-05-13T15:50:11.961202+00:00'
+created: '2025-07-03T19:05:39.95424+00:00'
+modified: '2025-07-03T19:05:39.95424+00:00'

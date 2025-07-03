@@ -1,0 +1,108 @@
+composition:
+  _name: 'Container: Blog post cards (query)'
+  _id: 019ba1b5-af51-4c40-b968-f0f11b66720e
+  type: container
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Blog posts
+  slots:
+    container-inner:
+      - _id: 508a29a8-f9df-43f4-ac84-2cd9fd6bdf3f
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: a59b593c-859a-4a2c-b785-b8c8fa89febf
+              type: $loop
+              slots:
+                body:
+                  - _id: dfcc7832-4324-4066-9edf-4a99d3d10c20
+                    type: card
+                    parameters:
+                      badge:
+                        type: text
+                        locales:
+                          en-US: >-
+                            ${#jptr:/Post/entry/fields/categories/value/0/entry/fields/title/value}
+                      image:
+                        type: asset
+                        locales:
+                          en-US: ${#jptr:/Post/entry/fields/featuredImage/value}
+                      title:
+                        type: text
+                        locales:
+                          en-US: ${#jptr:/Post/entry/fields/title/value}
+                      buttonCopy:
+                        type: text
+                        locales:
+                          en-US: Read more
+                      buttonLink:
+                        type: link
+                        locales:
+                          en-US:
+                            path: /${locale}/blog/${#jptr:/Post/entry/_slug}
+                            type: projectMapNode
+                            nodeId: 198adb6d-642e-4298-a7a9-a77ddaad3a03
+                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                            dynamicInputValues:
+                              post: ${#jptr:/Post/entry/_slug}
+                              locale: ${locale}
+                      buttonStyle:
+                        type: tp-button-style-parameter
+                        value: link
+                    _overridability:
+                      parameters:
+                        textColorVariant: 'yes'
+                      hideLockedParameters: true
+              _dataResources:
+                Post:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Blog posts/entries:fa=c'
+              _overridability:
+                hideLockedParameters: true
+        variant: carousel
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Latest blog posts
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            title: 'yes'
+            titleStyle: 'yes'
+            description: 'yes'
+            textColorVariant: 'yes'
+          hideLockedParameters: true
+  _dataResources:
+    Blog posts:
+      type: blogPostsList
+      variables:
+        limit: '3'
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"blogPosts"}'
+        orderBy: created_at_DESC
+        contentTypes: blogPosts
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      marginTop: 'yes'
+      paddingTop: 'yes'
+      marginBottom: 'yes'
+      paddingBottom: 'yes'
+      backgroundType: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-07-03T19:06:44.995575+00:00'
+modified: '2025-07-03T19:08:02.714833+00:00'
+pattern: true

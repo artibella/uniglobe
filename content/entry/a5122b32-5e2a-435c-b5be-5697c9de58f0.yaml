@@ -1,0 +1,104 @@
+created: '2025-07-03T19:09:32.841537+00:00'
+modified: '2025-07-03T19:09:32.841537+00:00'
+pattern: false
+entry:
+  _id: a5122b32-5e2a-435c-b5be-5697c9de58f0
+  _name: Perfect one month trip through Central America on a budget
+  _slug: perfect-one-month-trip-through-central-america-on-a-budget
+  _thumbnail: >-
+    https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  type: blogPosts
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: Perfect one month trip through Central America on a budget
+    categories:
+      type: contentReference
+      value: ${#jptr:/ref-a5122b32-5e2a-435c-b5be-5697c9de58f0-categories/entries}
+    introduction:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Todo
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: 9e6fbee8-f4a3-40c7-9c88-5000577bfb59
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+              title:
+                type: text
+                value: >-
+                  Experience the serene beauty of a tropical beach in RAAS,
+                  Nicaragua, with palm trees and ocean waves.
+              width:
+                type: number
+                value: 2726
+              custom:
+                type: object
+                value:
+                  sourceId: '994605'
+                  pexelsUrl: https://www.pexels.com/photo/seaside-994605/
+                  photoTinyUrl: >-
+                    https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                  photographer: Fabian Wiktor
+                  photoLargeUrl: >-
+                    https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  photoSmallUrl: >-
+                    https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&h=130
+                  photoMediumUrl: >-
+                    https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&h=350
+                  photoLarge2xUrl: >-
+                    https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                  photographerUrl: https://www.pexels.com/@fabianwiktor
+                  photoPortraitUrl: >-
+                    https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                  pexelsOriginalUrl: >-
+                    https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg
+                  photoLandscapeUrl: >-
+                    https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+              height:
+                type: number
+                value: 2047
+              description:
+                type: text
+                value: >-
+                  Experience the serene beauty of a tropical beach in RAAS,
+                  Nicaragua, with palm trees and ocean waves. - Photo by Fabian
+                  Wiktor on Pexels
+            _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+  _dataResources:
+    ref-a5122b32-5e2a-435c-b5be-5697c9de58f0-categories:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 33d70d4c-7528-4081-ada1-d8a14b35eea4
+  _locales:
+    - en-US

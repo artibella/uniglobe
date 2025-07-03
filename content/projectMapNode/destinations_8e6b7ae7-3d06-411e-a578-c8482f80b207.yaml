@@ -1,0 +1,8 @@
+id: 8e6b7ae7-3d06-411e-a578-c8482f80b207
+name: destinations
+order: 500
+path: /:locale/previews/destinations
+type: placeholder
+pathSegment: destinations
+data: {}
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: tabs
 name: Tabs
 icon: database
@@ -7,6 +8,9 @@ parameters:
   - id: size
     name: Size
     type: tp-slider-parameter
+    guidance: >-
+      Select the size of the tabs to match your design. Use 'normal' for most
+      cases, 'small' or 'large' for emphasis.
     typeConfig:
       step: 1
       type: custom
@@ -23,6 +27,9 @@ parameters:
       maxValue: 10
       minValue: 0
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  Displays a set of tabs for organizing content into multiple sections. Use for
+  content that benefits from being split into categories or steps.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Tabs_preview_image
 useTeamPermissions: true
@@ -35,8 +42,8 @@ slots:
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 canBeComposition: false
-created: '2024-01-15T09:26:45.548761+00:00'
-updated: '2024-01-15T09:26:45.548761+00:00'
+created: '2025-07-03T19:06:29.939859+00:00'
+updated: '2025-07-03T22:26:39.175231+00:00'
 variants:
   - id: boxed
     name: Boxed

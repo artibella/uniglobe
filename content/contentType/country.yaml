@@ -1,7 +1,7 @@
 id: country
 name: Country
-created: '2025-05-13T15:51:11.13139+00:00'
-updated: '2025-05-21T13:28:56.774108+00:00'
+created: '2025-07-03T19:08:48.415667+00:00'
+updated: '2025-07-03T19:24:51.021965+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -10,17 +10,14 @@ fields:
     name: Name
     type: text
     guidance: >-
-      Use the standard English name of the country in sentence case when not a
-      proper noun
+      Enter the official name of the country as recognized internationally. Use
+      the English name for consistency.
+    helpText: ''
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: richText
-    guidance: >-
-      Develop comprehensive overviews that highlight sustainable travel
-      infrastructure, community-based tourism initiatives, and authentic
-      cultural experiences available to independent travelers
     typeConfig:
       elements:
         builtIn:
@@ -53,10 +50,6 @@ fields:
   - id: timeToVisit
     name: Time to Visit
     type: richText
-    guidance: >-
-      Provide climate information alongside guidance on avoiding over-tourism
-      periods, recommending shoulder seasons, and noting community festivals or
-      environmental events worth experiencing
     typeConfig:
       elements:
         builtIn:
@@ -98,10 +91,7 @@ fields:
   - id: teaserImage
     name: Teaser image
     type: asset
-    guidance: >-
-      Select distinctive imagery that captures authentic aspects of the country
-      beyond tourist clichés, such as community markets, public transportation,
-      or natural areas with local visitors
+    helpText: ''
     typeConfig:
       max: 1
     localizable: true
@@ -109,8 +99,8 @@ fields:
     name: Teaser text
     type: text
     guidance: >-
-      Write concise descriptions (30-50 words) highlighting unique sustainable
-      or authentic experiences available in this country
+      Short interesting teaser for the travel destination. keep it in a sentence
+      not more than 20 words
     typeConfig:
       multiline: true
     localizable: true
@@ -136,6 +126,7 @@ fields:
       childrenParams:
         - images
         - videos
+        - icon
   - id: images
     name: Images
     type: asset
@@ -151,6 +142,15 @@ fields:
       allowedTypes:
         - image
         - video
+    localizable: true
+  - id: icon
+    name: Icon
+    type: asset
+    helpText: Icon that represents this country
+    typeConfig:
+      max: 1
+      allowedTypes:
+        - image
     localizable: true
   - id: 3bb59b43-bfc4-41b4-b416-c672abb9d0a0
     name: Country facts
@@ -168,12 +168,13 @@ fields:
   - id: officialName
     name: Official name
     type: text
-    guidance: Include the full, formal country name for reference
+    helpText: ''
     typeConfig: null
+    localizable: false
   - id: captial
     name: Captial
     type: text
-    guidance: List the main capital city of that country
+    helpText: ''
     typeConfig: null
     localizable: true
   - id: code
@@ -199,8 +200,9 @@ fields:
   - id: flagEmoji
     name: Flag Emoji
     type: text
-    guidance: Include the flag emoji for quick visual identification
+    helpText: ''
     typeConfig: null
+    localizable: false
   - id: region
     name: Region
     type: contentReference
@@ -215,12 +217,7 @@ fields:
     typeConfig: null
 entryName: name
 thumbnailField: flag
-description: >-
-  This destination framework presents nations as travel destinations through
-  Uniglobe's sustainable and authentic experience lens. Rather than focusing on
-  typical tourist attractions, this content emphasizes community connections,
-  environmental protection initiatives, public transportation options, and
-  immersive cultural experiences at affordable price points.
+description: ''
 icon: globe-alt
 type: contentType
 permissions:
@@ -238,8 +235,3 @@ previewConfigurations:
       locale: ${locale}
       region: ${#jptr:/entry/fields/region/value/entry/_slug}
       destination: ${#jptr:/entry/_slug}
-  - type: project-map
-    id: fdc1ba9a-c1b7-4c13-877d-9071c73f5dd2
-    label: Special detail page
-    dynamicInputs:
-      locale: ${locale}

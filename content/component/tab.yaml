@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: tab
 name: Tab
 icon: tab
@@ -7,6 +8,9 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Add a short, descriptive title for this tab (e.g., 'Details', 'Reviews').
+      Keep it under 20 characters and use sentence case.
     typeConfig: null
     localizable: true
   - id: isActive
@@ -14,6 +18,9 @@ parameters:
     type: checkbox
     typeConfig: null
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  A single tab within a tabbed interface. Use to organize content into separate,
+  easily navigable sections.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Tab_preview_image
 useTeamPermissions: true
@@ -26,5 +33,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:45.844583+00:00'
-updated: '2024-01-15T15:03:13.844012+00:00'
+created: '2025-07-03T19:06:28.397669+00:00'
+updated: '2025-07-03T22:26:38.208091+00:00'

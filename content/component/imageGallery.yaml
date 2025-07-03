@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: imageGallery
 name: Image Gallery
 icon: ui-kit
@@ -157,6 +158,9 @@ parameters:
     type: tp-play-animation-parameter
     typeConfig: null
 categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
+description: >-
+  Displays a gallery of images in a grid or carousel format. Use to showcase
+  multiple visuals, such as product photos or event highlights.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Image_gallery_preview_image
 useTeamPermissions: true
@@ -173,8 +177,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:44.353488+00:00'
-updated: '2024-01-15T15:03:12.928263+00:00'
+created: '2025-07-03T19:06:21.973388+00:00'
+updated: '2025-07-03T22:24:58.497149+00:00'
 variants:
   - id: backgroundInContainer
     name: Background In Container

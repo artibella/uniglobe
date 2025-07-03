@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: accordion
 name: Accordion
 icon: >-
@@ -8,18 +9,28 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Write a clear, concise heading for the accordion. Keep it under 40
+      characters and use sentence case.
     typeConfig:
       required: false
     localizable: true
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Provide a brief summary or supporting text for the accordion. Aim for 1–2
+      sentences and keep it under 120 characters.
     typeConfig:
       required: false
       multiline: true
       linesCount: '10'
     localizable: true
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+description: >-
+  Displays a list of expandable and collapsible sections, allowing users to
+  reveal or hide content as needed. Useful for FAQs, feature lists, or any
+  content that benefits from progressive disclosure.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Accordion_preview_image
 useTeamPermissions: true
@@ -36,5 +47,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:41.79276+00:00'
-updated: '2024-01-15T09:53:47.969601+00:00'
+created: '2025-07-03T19:06:10.141672+00:00'
+updated: '2025-07-03T22:14:25.512738+00:00'

@@ -55,7 +55,6 @@ composition:
                             Item/entry/fields/region/value/entry/fields/name/value}
                       image:
                         type: asset
-                        value: []
                         locales:
                           de-DE: >-
                             ${#jptr:/Featured countries entries Loop
@@ -232,6 +231,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-05-13T15:50:52.367427+00:00'
-modified: '2025-05-13T15:50:52.367427+00:00'
+created: '2025-07-03T19:06:42.942221+00:00'
+modified: '2025-07-03T19:08:00.6277+00:00'
 pattern: true

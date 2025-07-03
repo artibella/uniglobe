@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: modal
 name: Modal
 icon: desktop
@@ -7,10 +8,16 @@ parameters:
   - id: closeOnClickOutside
     name: Close on click outside
     type: checkbox
+    guidance: >-
+      Enable this option to allow users to close the modal by clicking outside
+      its area. Improves user experience for dismissible dialogs.
     typeConfig: null
   - id: automaticOpenTimeout
     name: Automatic Open Timeout
     type: number
+    guidance: >-
+      Set the number of seconds after which the modal should open automatically.
+      Leave blank for manual trigger only.
     helpText: In seconds. This will only be used when the trigger slot is empty.
     typeConfig: null
   - id: group_presentationSettings
@@ -41,6 +48,9 @@ parameters:
       maxValue: 10
       minValue: 0
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+description: >-
+  Displays content in a modal dialog that overlays the page. Use for pop-ups,
+  notifications, or additional information without navigating away.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Modal_preview_image
 useTeamPermissions: true
@@ -61,5 +71,5 @@ slots:
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 canBeComposition: false
-created: '2024-01-15T09:26:43.546335+00:00'
-updated: '2024-01-15T09:26:43.546335+00:00'
+created: '2025-07-03T19:06:22.449079+00:00'
+updated: '2025-07-03T22:25:42.709107+00:00'

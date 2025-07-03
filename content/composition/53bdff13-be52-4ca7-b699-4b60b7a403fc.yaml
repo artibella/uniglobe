@@ -1,0 +1,240 @@
+composition:
+  _name: Entry preview - Blog post
+  _id: 53bdff13-be52-4ca7-b699-4b60b7a403fc
+  _slug: destinations-copy
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        de-DE: >-
+          ${#jptr:/Blog post Preview/entry/fields/title/value:fa=a:fl=e} - Blog
+          post preview
+        en-US: >-
+          ${#jptr:/Blog post Preview/entry/fields/title/value} - Blog post
+          preview
+    openGraphType:
+      type: select
+      value: website
+    openGraphImage:
+      type: asset
+      value: []
+    openGraphTitle:
+      type: text
+      locales:
+        de-DE: Explore the World's Top Destinations
+        en-US: Explore the World's Top Destinations
+    openGraphDescription:
+      type: text
+      locales:
+        de-DE: >-
+          Discover leading travel destinations across Asia and Europe. Dive into
+          the rich cultures and breathtaking landscapes.
+        en-US: >-
+          Discover leading travel destinations across Asia and Europe. Dive into
+          the rich cultures and breathtaking landscapes.
+    overlayTitleToOgImage:
+      type: checkbox
+      value: 'false'
+  slots:
+    pageFooter:
+      - _id: ec2dca71-ea22-4f0e-958c-cc2c286a1c83
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 12759a9f-9760-4ce9-ac17-15078e29bc5c
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: a9bc88fe-c655-4443-85db-93e2f7a16891
+        type: container
+        slots:
+          container-inner:
+            - _id: f2bcb46a-3d4d-4392-848a-d247f878a5cf
+              type: content
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Hero variations
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h2
+            - _id: d44e61b8-669c-418d-bae3-1493f2cba92a
+              type: hero
+              _pattern: b8cbff04-3e17-4651-adcd-494022e7b9ea
+            - _id: 7bc4c37c-49f0-4cdb-a696-c0550f61b51c
+              type: hero
+              _pattern: b8cbff04-3e17-4651-adcd-494022e7b9ea
+            - _id: dd56f7e0-c59d-442b-b82e-f85d7991a149
+              type: hero
+              _pattern: b8cbff04-3e17-4651-adcd-494022e7b9ea
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Hero previews
+          paddingBottom:
+            type: select
+            value: None
+      - _id: 73056be0-7f48-4b34-8cb9-5e563cd74834
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: dbeca823-f88f-4594-b89e-3407884c0fa9
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: bce3b253-0cf1-4eeb-b870-027850c6319c
+                    type: card
+                    _pattern: bfedf960-5372-4a80-bc56-a40f7e07aeab
+                  - _id: e5e7b7bd-71da-4a0c-9076-763b8b80b911
+                    type: card
+                    _pattern: bfedf960-5372-4a80-bc56-a40f7e07aeab
+                  - _id: d0628164-1767-4a40-9c7a-5f1737afed76
+                    type: card
+                    _pattern: bfedf960-5372-4a80-bc56-a40f7e07aeab
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: small
+                gapY:
+                  type: tp-slider-parameter
+                  value: small
+                columnsCount:
+                  type: tp-slider-parameter
+                  locales:
+                    de-DE: '3'
+                    en-US: '3'
+        parameters:
+          title:
+            type: text
+            locales:
+              de-DE: Blog post cards
+              en-US: Blog post cards
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+  _dataResources:
+    Blog post Preview:
+      type: blogPostBySlug
+      variables:
+        slug: ${blog-post}
+        locale: ${locale}
+  _overrides:
+    7bc4c37c-49f0-4cdb-a696-c0550f61b51c:
+      variant: imageRight
+      parameters:
+        marginBottom:
+          type: select
+          value: Medium
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Medium
+        textColorVariant:
+          type: select
+          value: Dark
+      dataResources:
+        Blog post:
+          type: blogPostBySlug
+          variables:
+            slug: ${blog-post}
+            locale: ${locale}
+    bce3b253-0cf1-4eeb-b870-027850c6319c:
+      parameters:
+        badgeSize:
+          type: select
+          value: md
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 60%
+      dataResources:
+        Blog post:
+          type: blogPostBySlug
+          variables:
+            slug: ${blog-post}
+            locale: ${locale}
+    d0628164-1767-4a40-9c7a-5f1737afed76:
+      variant: ''
+      parameters:
+        badgeSize:
+          type: select
+          value: md
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 0%
+            en-US: 0%
+        textColorVariant:
+          type: select
+          value: Dark
+      dataResources:
+        Blog post:
+          type: blogPostBySlug
+          variables:
+            slug: ${blog-post}
+            locale: ${locale}
+    d44e61b8-669c-418d-bae3-1493f2cba92a:
+      parameters:
+        marginBottom:
+          type: select
+          value: Medium
+      dataResources:
+        Blog post:
+          type: blogPostBySlug
+          variables:
+            slug: ${blog-post}
+            locale: ${locale}
+    dd56f7e0-c59d-442b-b82e-f85d7991a149:
+      variant: backgroundImage
+      parameters:
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 60%
+      dataResources:
+        Blog post:
+          type: blogPostBySlug
+          variables:
+            slug: ${blog-post}
+            locale: ${locale}
+    e5e7b7bd-71da-4a0c-9076-763b8b80b911:
+      parameters:
+        badgeSize:
+          type: select
+          value: md
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: secondary
+            en-US: secondary
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 50%
+            en-US: 50%
+        textColorVariant:
+          type: select
+          value: Dark
+      dataResources:
+        Blog post:
+          type: blogPostBySlug
+          variables:
+            slug: ${blog-post}
+            locale: ${locale}
+  _locales:
+    - en-US
+    - de-DE
+created: '2025-07-03T19:06:54.734904+00:00'
+modified: '2025-07-03T19:06:54.734904+00:00'
+pattern: false

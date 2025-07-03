@@ -36,7 +36,7 @@ composition:
                       value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                     url:
                       value: >-
-                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/4hcYr7zqQ4GHq5dPjrq09Q-rectangle.webp
                       type: text
                     file:
                       type: file
@@ -66,7 +66,7 @@ composition:
                       value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                     url:
                       value: >-
-                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/4hcYr7zqQ4GHq5dPjrq09Q-rectangle.webp
                       type: text
                     file:
                       type: file
@@ -96,7 +96,7 @@ composition:
                       value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                     url:
                       value: >-
-                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/4hcYr7zqQ4GHq5dPjrq09Q-rectangle.webp
                       type: text
                     file:
                       type: file
@@ -117,7 +117,6 @@ composition:
                       value: image/webp
                       type: text
                   _source: uniform-assets
-            value: []
           title:
             type: text
             locales:
@@ -183,6 +182,6 @@ composition:
     - en-US
     - de-DE
     - it-IT
-created: '2024-01-17T14:10:56.145718+00:00'
-modified: '2024-11-05T10:36:18.290127+00:00'
+created: '2025-07-03T19:07:06.452758+00:00'
+modified: '2025-07-03T19:07:06.452758+00:00'
 pattern: false

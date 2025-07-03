@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: iconLink
 name: Icon Link
 icon: >-
@@ -8,19 +9,28 @@ parameters:
   - id: icon
     name: Icon
     type: asset
+    guidance: >-
+      Select a simple, recognizable icon that represents the link’s purpose. Use
+      high-quality assets for clarity.
     typeConfig:
       max: 1
       min: 0
   - id: link
     name: Link
     type: link
+    guidance: >-
+      Set the destination for the icon link. Use a full URL for external links
+      or a relative path for internal navigation.
     typeConfig:
       required: false
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  Displays an icon that links to a URL or page. Use for social media, contact,
+  or quick navigation links.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Icon_link_preview_image
 useTeamPermissions: true
 slots: []
 canBeComposition: false
-created: '2024-01-15T09:26:43.551078+00:00'
-updated: '2024-01-15T09:26:43.551078+00:00'
+created: '2025-07-03T19:06:21.462849+00:00'
+updated: '2025-07-03T22:25:05.289457+00:00'

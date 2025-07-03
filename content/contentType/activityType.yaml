@@ -1,34 +1,23 @@
 id: activityType
 name: Activity Type
-created: '2025-05-13T15:51:10.786398+00:00'
-updated: '2025-05-21T13:21:59.525128+00:00'
+created: '2025-07-03T19:08:46.360714+00:00'
+updated: '2025-07-03T19:08:46.360714+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
   - id: title
     name: Title
     type: text
-    guidance: >-
-      Create concise, descriptive names (15-25 characters) that clearly convey
-      the experience type (e.g., "Community Homestay," "Forest Trek," "Urban
-      Cycling")
     typeConfig: null
     localizable: true
   - id: teaserText
     name: Teaser Text
     type: text
-    guidance: >-
-      Write a compelling 1-2 sentence overview that highlights the
-      sustainability and authenticity aspects of this activity category
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: richText
-    guidance: >-
-      Develop comprehensive content explaining what travelers will experience,
-      emphasizing eco-friendly practices, cultural significance, and how these
-      activities support local communities. Keep the formatting simple.
     typeConfig:
       elements:
         builtIn:
@@ -62,9 +51,6 @@ fields:
   - id: icon
     name: Icon
     type: asset
-    guidance: >-
-      Suggest simple, recognizable imagery that visually represents the activity
-      category for quick identification in filters and menus
     typeConfig:
       max: 1
       allowedTypes:
@@ -80,12 +66,7 @@ fields:
     localizable: true
 entryName: title
 thumbnailField: icon
-description: >-
-  The Activity Type content type categorizes experiences available to travelers
-  within Uniglobe's offerings. It provides a classification system for filtering
-  and organizing activities based on traveler interests, making it easier for
-  Millennials and Gen-Z users to discover experiences that align with their
-  values around sustainability, authenticity, and affordability.
+description: ''
 icon: tag
 type: contentType
 permissions: []

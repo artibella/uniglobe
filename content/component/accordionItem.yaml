@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: accordionItem
 name: Accordion Item
 icon: >-
@@ -8,23 +9,33 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Write a clear, specific question or heading for this accordion item. Keep
+      it under 60 characters and use sentence case.
     typeConfig:
       required: false
     localizable: true
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Provide a detailed answer or explanation. Use 1–3 short paragraphs, keep
+      it under 300 characters if possible, and use a friendly, informative tone.
     typeConfig:
       required: false
       multiline: true
       linesCount: '10'
     localizable: true
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  A single expandable/collapsible section within an accordion. Use for
+  individual FAQ entries, feature explanations, or any content that benefits
+  from being revealed on demand.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Accordion_item_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:41.809042+00:00'
-updated: '2024-01-15T09:54:08.020892+00:00'
+created: '2025-07-03T19:06:10.758288+00:00'
+updated: '2025-07-03T22:15:13.766845+00:00'

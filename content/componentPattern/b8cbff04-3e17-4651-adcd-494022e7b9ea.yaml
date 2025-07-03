@@ -1,0 +1,102 @@
+composition:
+  _name: Blog Post Hero (by slug)
+  _id: b8cbff04-3e17-4651-adcd-494022e7b9ea
+  type: hero
+  variant: imageLeft
+  parameters:
+    image:
+      type: asset
+      value: ${#jptr:/Blog post/entry/fields/featuredImage/value}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Blog post/entry/fields/title/value}
+    marginTop:
+      type: select
+      value: None
+    objectFit:
+      type: select
+      value: cover
+    paddingTop:
+      type: select
+      value: None
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h1
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/Blog post/entry/fields/excerpt/value}
+    eyebrowText:
+      type: text
+      locales:
+        en-US: >-
+          ${#jptr:/Blog
+          post/entry/fields/categories/value/0/entry/fields/title/value}
+    marginBottom:
+      type: select
+      value: None
+    paddingBottom:
+      type: select
+      value: None
+    backgroundType:
+      type: tp-background-type-parameter
+      value: Dark
+    containerVariant:
+      type: select
+      value: fluidContent
+    textColorVariant:
+      type: select
+      value: Light
+  _dataResources:
+    Blog post:
+      type: blogPostBySlug
+      variables:
+        slug: hidden-gems-in-southeast-asia-off-the-beaten-path
+        locale: ${locale}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      $viz: 'yes'
+      delay: 'no'
+      image: 'no'
+      title: 'no'
+      video: 'no'
+      duration: 'no'
+      marginTop: 'yes'
+      objectFit: 'yes'
+      fullHeight: 'no'
+      paddingTop: 'yes'
+      titleStyle: 'no'
+      description: 'no'
+      eyebrowText: 'no'
+      marginBottom: 'yes'
+      overlayColor: 'yes'
+      animationType: 'no'
+      paddingBottom: 'yes'
+      animationOrder: 'no'
+      backgroundType: 'yes'
+      overlayOpacity: 'yes'
+      animationPreview: 'no'
+      containerVariant: 'no'
+      textColorVariant: 'yes'
+      primaryButtonCopy: 'no'
+      primaryButtonLink: 'no'
+      primaryButtonStyle: 'no'
+      secondaryButtonCopy: 'no'
+      secondaryButtonLink: 'no'
+      secondaryButtonStyle: 'no'
+      primaryButtonAnimationType: 'no'
+      secondaryButtonAnimationType: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+created: '2025-07-03T19:06:42.01377+00:00'
+modified: '2025-07-03T19:07:59.250224+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1730978313/Uniglobe/Component%20Previews/country-hero.png

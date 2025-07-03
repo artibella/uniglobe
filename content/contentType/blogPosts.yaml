@@ -1,7 +1,7 @@
 id: blogPosts
 name: Blog post
-created: '2025-05-13T15:51:10.990479+00:00'
-updated: '2025-05-21T13:26:12.871094+00:00'
+created: '2025-07-03T19:08:47.893941+00:00'
+updated: '2025-07-03T19:19:32.149412+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
@@ -18,17 +18,16 @@ fields:
     name: Title
     type: text
     guidance: >-
-      Create engaging headlines in sentence case (50-70 characters) that clearly
-      communicate value without clickbait tactics (e.g., "5 community-led tours
-      that support rainforest conservation in Costa Rica")
+      Enter a clear and descriptive headline for the blog post. This should
+      capture the main topic or message of the article.
     typeConfig: null
     localizable: true
   - id: excerpt
     name: Excerpt
     type: text
     guidance: >-
-      Write compelling summaries (40-60 words) that capture the essence of the
-      post and highlight the sustainability or authentic experience angle
+      Write a brief teaser or summary designed to entice readers to click
+      through to the full article. Keep it concise and engaging.
     helpText: >-
       A brief teaser or summary designed to entice readers to click through to
       the full article
@@ -39,8 +38,8 @@ fields:
     name: Featured image
     type: asset
     guidance: >-
-      Recommend authentic, non-staged imagery that shows real travel moments
-      rather than overly polished promotional photography
+      Select an image that visually represents the content of the blog post.
+      This image will be used as the main visual in listings and previews.
     typeConfig:
       allowedTypes:
         - image
@@ -57,9 +56,8 @@ fields:
     name: Introduction
     type: richText
     guidance: >-
-      Craft opening paragraphs that establish context, communicate relevance to
-      environmentally conscious travelers, and preview the value readers will
-      gain
+      Provide an engaging opening section for the blog post. Use this space to
+      introduce the topic and set the tone for the rest of the article.
     typeConfig:
       elements:
         builtIn:
@@ -93,12 +91,12 @@ fields:
     name: Body
     type: richText
     guidance: >-
-      Develop substantive content organized with scannable headings, featuring
-      practical information, first-hand perspectives, local insights, and
-      specific sustainability recommendation
+      Add the main content of the blog post. Use headings, lists, images, and
+      other formatting to make the article informative and easy to read.
     typeConfig:
       elements:
         builtIn:
+          - h1
           - h2
           - h3
           - h4
@@ -128,6 +126,36 @@ fields:
             - image
             - video
     localizable: true
+  - id: f3219f64-6238-4e01-934c-e198eaae6af1
+    name: Content overrides
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - customContent
+        - postDetailLink
+  - id: customContent
+    name: Custom content
+    type: checkbox
+    guidance: >-
+      Check this box if the blog post uses a dedicated composition for its
+      content instead of the standard fields.
+    helpText: >-
+      Check if this blog posts content is using a dedicated composition for its
+      content
+    typeConfig: null
+  - id: postDetailLink
+    name: Post Detail Link
+    type: link
+    guidance: >-
+      Add a link to the detailed view of the blog post if applicable. This is
+      used for navigation or reference.
+    typeConfig:
+      linkTypes:
+        tel: false
+        url: false
+        email: false
+    allowConditionalValues: true
   - id: b7cf5505-d28a-4b7e-8131-218f72526d62
     name: SEO & Metadata
     type: group
@@ -136,13 +164,14 @@ fields:
       childrenParams:
         - seoMetadata
         - categories
+        - destinations
         - enrichments
   - id: seoMetadata
     name: SEO metadata
     type: $block
     guidance: >-
-      Incorporate search terms reflecting how eco-conscious Millennials and
-      Gen-Z travelers seek authentic experiences and sustainable options
+      Fill in SEO-related information such as meta title, description, and
+      keywords to improve search engine visibility.
     typeConfig:
       max: 1
       allowedTypes:
@@ -151,25 +180,33 @@ fields:
     name: Categories
     type: contentReference
     guidance: >-
-      Select the most relevant blog categories to help users discover related
-      content aligned with their specific interests
+      Select up to three categories that best describe the topic of the blog
+      post. Categories help organize and group related posts.
     typeConfig:
       max: 3
       isMulti: true
       allowedContentTypes:
         - blogCategory
+  - id: destinations
+    name: Destinations
+    type: contentReference
+    guidance: >-
+      Reference one or more countries or regions relevant to the blog post. This
+      helps associate the content with specific locations.
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - country
+        - region
   - id: enrichments
     name: Enrichments
     type: $enr
+    guidance: >-
+      Add any enrichment tags or data that provide additional context or
+      personalization for the blog post.
     typeConfig: null
 entryName: title
 thumbnailField: featuredImage
-description: >-
-  Contains travel articles, guides, and stories that educate and inspire
-  Uniglobe's target audience. Unlike conventional travel content, these posts
-  emphasize sustainable practices, authentic cultural connections,
-  budget-friendly options, and practical advice for independent travelers
-  seeking meaningful experiences.
 icon: file-document
 type: contentType
 permissions:
@@ -221,4 +258,16 @@ permissions:
   - roleId: ebb48564-fdee-4636-8d82-c8382ad23400
     permission: delete
     state: 64
-previewConfigurations: []
+previewConfigurations:
+  - type: project-map
+    id: 198adb6d-642e-4298-a7a9-a77ddaad3a03
+    label: Post detail page
+    dynamicInputs:
+      post: ${#jptr:/entry/_slug}
+      locale: ${locale}
+  - type: project-map
+    id: 72d69cb1-82ff-4c8a-a94b-864eca711e3c
+    label: Components preview
+    dynamicInputs:
+      locale: ${locale}
+      blog-post: ${#jptr:/entry/_slug}

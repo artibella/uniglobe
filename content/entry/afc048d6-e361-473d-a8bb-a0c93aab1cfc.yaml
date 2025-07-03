@@ -1,10 +1,12 @@
-created: '2025-04-28T11:43:21.451068+00:00'
-modified: '2025-04-28T13:58:21.273962+00:00'
+created: '2025-07-03T19:09:12.339595+00:00'
+modified: '2025-07-03T19:09:12.339595+00:00'
 pattern: false
 entry:
   _id: afc048d6-e361-473d-a8bb-a0c93aab1cfc
   _name: Central America
   _slug: central-america
+  _thumbnail: >-
+    https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
   type: region
   fields: {}
   _dataResources:
@@ -12,11 +14,6 @@ entry:
       type: countriesBySubregionName
       variables:
         region: Central america
-    ref-afc048d6-e361-473d-a8bb-a0c93aab1cfc-destinations:
-      type: uniformContentInternalReference
-      variables:
-        locale: ${locale}
-        entryIds: 7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55
   _locales:
     - en-US
   _overrides:
@@ -26,8 +23,65 @@ entry:
           type: text
           locales:
             en-US: Central America
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: 240315b1-68ad-4759-94c7-2810f6846708
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      A peaceful view of a child by the tropical waves on a
+                      Costa Rican beach.
+                  width:
+                    type: number
+                    value: 5306
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '9297006'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/landscape-photography-of-a-beach-9297006/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Attie Heunis
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@attie
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2985
+                  description:
+                    type: text
+                    value: >-
+                      A peaceful view of a child by the tropical waves on a
+                      Costa Rican beach. - Photo by Attie Heunis on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+        teaserText:
+          type: text
+          locales:
+            en-US: >-
+              Central America invites you to explore lush rainforests, vibrant
+              cultures, and laid-back surf towns—all on a budget. 
         destinations:
           type: contentReference
-          value: >-
-            ${#jptr:/ref-afc048d6-e361-473d-a8bb-a0c93aab1cfc-destinations/entries}
+          value: null
   _pattern: 57ca4594-f957-4139-a439-fbfb7eb58300

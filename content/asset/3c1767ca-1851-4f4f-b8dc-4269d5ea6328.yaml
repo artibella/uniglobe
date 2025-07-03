@@ -1,11 +1,30 @@
 asset:
-  type: other
+  type: image
   _id: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
   _name: ''
   fields:
     title:
       type: text
       value: rectangle.webp
+    file:
+      type: file
+      value: f9689f0f-6f6e-481e-a696-6030918493a0
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/4hcYr7zqQ4GHq5dPjrq09Q-rectangle.webp
+      type: text
+    size:
+      value: 49092
+      type: number
+    width:
+      value: 1600
+      type: number
+    height:
+      value: 689
+      type: number
     custom: {}
-created: '2025-05-13T15:43:32.245793+00:00'
-modified: '2025-05-13T15:50:09.325615+00:00'
+created: '2025-07-03T19:05:39.294332+00:00'
+modified: '2025-07-03T19:05:39.294332+00:00'

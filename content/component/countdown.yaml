@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: countdown
 name: Countdown
 icon: edit-exposure
@@ -7,11 +8,17 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Add a short, descriptive label for the countdown (e.g., 'Sale ends in').
+      Keep it under 30 characters.
     helpText: Used just to display Title Parameter
     typeConfig: null
   - id: targetDate
     name: Target Date
     type: text
+    guidance: >-
+      Enter the target date and time for the countdown in the format
+      YYYY-MM-DDTHH:MM:SS. Include timezone if needed (e.g., -05:00).
     helpText: >-
       Format with timezone: YYYY-MM-DDTHH:MM:SS-HH:00. Format in your local
       timezone: YYYY-MM-DDTHH:MM:SS
@@ -35,14 +42,17 @@ parameters:
       maxValue: 10
       minValue: 0
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  Displays a live countdown timer to a specific date and time. Use for product
+  launches, event reminders, or limited-time offers.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Countdown_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:43.94871+00:00'
-updated: '2024-01-15T09:26:43.94871+00:00'
+created: '2025-07-03T19:06:15.726513+00:00'
+updated: '2025-07-03T22:22:04.123332+00:00'
 variants:
   - id: labelsUnder
     name: Labels Under

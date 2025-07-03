@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: gridItem
 name: Grid Item
 icon: layout-grid
@@ -7,6 +8,9 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Add a clear, descriptive title for this grid item. Keep it under 40
+      characters and use sentence case.
     helpText: Used just to display Title Parameter
     typeConfig:
       required: false
@@ -130,6 +134,9 @@ parameters:
       maxValue: 10
       minValue: 0
 categoryId: 19f9419d-14da-496d-a4ac-eec5010e13d7
+description: >-
+  A single item within a grid layout. Use to control the position and span of
+  content in a grid.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Grid_item_preview_image
 useTeamPermissions: true
@@ -163,5 +170,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:43.696193+00:00'
-updated: '2024-01-15T09:26:43.696193+00:00'
+created: '2025-07-03T19:06:18.478282+00:00'
+updated: '2025-07-03T22:25:04.165156+00:00'

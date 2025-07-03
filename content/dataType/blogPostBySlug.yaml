@@ -1,6 +1,7 @@
 id: blogPostBySlug
-displayName: Blog post by Slug
+displayName: Blog post (by slug)
 ttl: 30
+body: ''
 path: /single-by-slug
 custom:
   maxDepth: 3
@@ -8,7 +9,7 @@ custom:
   allowedContentTypes:
     - blogPosts
 method: GET
-purgeKey: b1795114-b3f2-43f9-9781-3329047a2965
+purgeKey: ef2f5665-95ed-46b5-bd5b-2f12230ba291
 archetype: singleEntryBySlug
 variables:
   slug:

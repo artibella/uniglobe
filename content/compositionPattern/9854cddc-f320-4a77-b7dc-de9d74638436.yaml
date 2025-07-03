@@ -1,5 +1,5 @@
 composition:
-  _name: Basic page
+  _name: Basic page with Hero
   _id: 9854cddc-f320-4a77-b7dc-de9d74638436
   type: page
   parameters:
@@ -32,7 +32,7 @@ composition:
                     value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                   url:
                     value: >-
-                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                      https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/4hcYr7zqQ4GHq5dPjrq09Q-rectangle.webp
                     type: text
                   file:
                     type: file
@@ -142,6 +142,6 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2024-08-20T10:20:40.261891+00:00'
-modified: '2025-04-29T15:27:54.097312+00:00'
+created: '2025-07-03T19:06:40.542672+00:00'
+modified: '2025-07-03T19:07:42.541084+00:00'
 pattern: true

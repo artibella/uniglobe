@@ -1,5 +1,5 @@
-created: '2025-04-28T14:09:02.876224+00:00'
-modified: '2025-04-28T14:09:32.229669+00:00'
+created: '2025-07-03T19:09:39.654033+00:00'
+modified: '2025-07-03T19:09:39.654033+00:00'
 pattern: false
 entry:
   _id: 4a79a8b5-43b8-49bd-acd9-c255f3eaf3d6
@@ -10,12 +10,17 @@ entry:
     title:
       type: text
       locales:
+        de-DE: Travel Skills
         en-US: Travel Skills
     description:
       type: text
       locales:
+        de-DE: >-
+          Practical skills, cultural awareness, and responsible travel practices
+          for modern travelers.
         en-US: >-
           Practical skills, cultural awareness, and responsible travel practices
           for modern travelers.
   _locales:
     - en-US
+    - de-DE

@@ -1,5 +1,5 @@
-created: '2025-03-28T11:30:24.807418+00:00'
-modified: '2025-04-23T11:46:41.341506+00:00'
+created: '2025-07-03T19:09:36.517951+00:00'
+modified: '2025-07-03T19:09:36.517951+00:00'
 pattern: false
 entry:
   _id: 8cc38f9a-6d51-42a7-b330-567e29c7483a
@@ -25,6 +25,36 @@ entry:
   _overrides:
     8cc38f9a-6d51-42a7-b330-567e29c7483a:
       parameters:
+        icon:
+          type: asset
+          locales:
+            en-US:
+              - _id: 7e5b1f5b-46c2-4173-9120-52f49d631a54
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: Uniglobe/Country icons/switzerland
+                  url:
+                    type: text
+                    value: >-
+                      https://res.cloudinary.com/content-ops/image/upload/v1747818398/Uniglobe/Country%20icons/switzerland.png
+                  size:
+                    type: number
+                    value: 1636161
+                  title:
+                    type: text
+                    value: Uniglobe/Country icons/switzerland
+                  width:
+                    type: number
+                    value: 1024
+                  height:
+                    type: number
+                    value: 1024
+                  mediaType:
+                    type: text
+                    value: image/png
+                _source: cloudinary-2c6d995a-4c3f-4f95-86ea-7d9f8af08667
         name:
           type: text
           locales:

@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: breadcrumbs
 name: Breadcrumbs
 icon: border-style-dashed
@@ -7,6 +8,9 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Optional: Add a label for the breadcrumb navigation. Keep it short and
+      descriptive, under 30 characters.
     helpText: Used just to display Title Parameter
     typeConfig: null
     localizable: true
@@ -25,6 +29,9 @@ parameters:
   - id: separator
     name: Separator
     type: select
+    guidance: >-
+      Choose the separator style for breadcrumb items. Use chevron for a modern
+      look, slash for a classic look, or none for minimalism.
     helpText: Chevron by default
     typeConfig:
       options:
@@ -35,10 +42,14 @@ parameters:
         - text: None
           value: none
 categoryId: 1bf9504a-07c4-4873-bbca-f235a6da182b
+description: >-
+  Displays a navigation trail that shows users their current location within the
+  site hierarchy. Useful for improving navigation and user orientation on
+  multi-level sites.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Breadcrumbs_preview_image
 useTeamPermissions: true
 slots: []
 canBeComposition: false
-created: '2024-01-15T09:26:41.853356+00:00'
-updated: '2024-01-15T09:54:52.367308+00:00'
+created: '2025-07-03T19:06:12.099001+00:00'
+updated: '2025-07-03T22:16:51.13599+00:00'

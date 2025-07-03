@@ -1,5 +1,5 @@
-created: '2024-01-18T12:33:27.077396+00:00'
-modified: '2025-05-05T07:52:45.107286+00:00'
+created: '2025-07-03T19:08:56.070165+00:00'
+modified: '2025-07-03T19:08:56.070165+00:00'
 pattern: true
 entry:
   _id: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
@@ -79,6 +79,7 @@ entry:
   _overridability:
     parameters:
       flag: 'yes'
+      icon: 'yes'
       name: 'yes'
       images: 'yes'
       region: 'yes'

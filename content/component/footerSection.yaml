@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: footerSection
 name: Footer Section
 icon: >-
@@ -8,9 +9,16 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Add a clear, descriptive title for this footer section (e.g., 'Company',
+      'Support', 'Legal'). Keep it under 30 characters and use sentence case.
     typeConfig:
       required: false
 categoryId: 1bf9504a-07c4-4873-bbca-f235a6da182b
+description: >-
+  A section within the site’s footer, typically used for grouping related links
+  or information. Use to organize navigation, resources, or contact details in
+  the footer area.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Footer_section_preview_image
 useTeamPermissions: true
@@ -24,5 +32,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:42.529349+00:00'
-updated: '2024-01-15T09:26:42.529349+00:00'
+created: '2025-07-03T19:06:17.609207+00:00'
+updated: '2025-07-03T22:24:12.341984+00:00'

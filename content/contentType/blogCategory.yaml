@@ -1,26 +1,19 @@
 id: blogCategory
 name: Blog Category
-created: '2025-05-13T15:51:10.885536+00:00'
-updated: '2025-05-21T13:32:04.683425+00:00'
+created: '2025-07-03T19:08:47.292298+00:00'
+updated: '2025-07-03T19:08:47.292298+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
   - id: title
     name: Title
     type: text
-    guidance: >-
-      Develop clear, value-driven category names in sentence case that
-      immediately communicate content focus (e.g., "Sustainable city guides,"
-      "Local food experiences," "Eco-adventure tips")
     typeConfig:
       required: true
     localizable: true
   - id: icon
     name: Icon
     type: asset
-    guidance: >-
-      Suggest simple, distinctive imagery that visually represents the category
-      theme for easy navigation
     typeConfig:
       max: 1
       allowedTypes:
@@ -29,22 +22,13 @@ fields:
   - id: description
     name: Description
     type: text
-    guidance: >-
-      Write concise explanations (2-3 sentences) of what content this category
-      contains and why it's valuable for eco-conscious and experience-seeking
-      travelers
     typeConfig:
       multiline: true
       linesCount: 5
     localizable: true
 entryName: title
 thumbnailField: icon
-description: >-
-  Categories for blog posts that groups Uniglobe's editorial content into
-  thematic sections that reflect the platform's values and traveler interests.
-  These categories help users discover relevant sustainable travel information,
-  authentic experience guides, and practical advice aligned with their specific
-  travel motivations.
+description: Categories for blog posts
 icon: tag
 type: contentType
 permissions: []

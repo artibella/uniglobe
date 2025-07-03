@@ -1,0 +1,8 @@
+id: 464b5ed9-34d2-46dd-9df7-0e297e965fe2
+name: Previews
+order: 700
+path: /:locale/previews
+type: placeholder
+pathSegment: previews
+data: {}
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

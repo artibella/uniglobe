@@ -1,9 +1,0 @@
-id: 4330dd54-ed73-42c3-8230-c626bb213db7
-name: Country Detail (manual)
-order: 500
-path: /:locale/country-preview/country-detail-manual
-type: composition
-pathSegment: country-detail-manual
-data: {}
-compositionId: 4e9a16ce-4cc1-4443-9f5c-aaaa3efcdf62
-projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

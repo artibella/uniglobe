@@ -1,0 +1,121 @@
+composition:
+  _name: Blog
+  _id: 11cb90d4-20e7-4a87-89bc-b3638c7de001
+  _slug: blog
+  type: page
+  _overrides:
+    eded34ba-cb08-4ef6-9102-c216a3b5ab5f:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Latest posts
+      dataResources:
+        Blog posts:
+          type: blogPostsList
+          variables:
+            locale: ${locale}
+            search: ''
+            filters: '{"type[eq]":"blogPosts"}'
+            orderBy: created_at_DESC
+            contentTypes: blogPosts
+    11cb90d4-20e7-4a87-89bc-b3638c7de001|1b5e7f73-2c6c-45c6-9b64-40fa984e9a9b:
+      slots:
+        $slotSectionItems:
+          - _id: eded34ba-cb08-4ef6-9102-c216a3b5ab5f
+            type: cardBlock
+            _pattern: 4d8154f6-47db-4629-b898-60cf711cca3a
+            _dataResources:
+              Blog posts:
+                type: blogPostsList
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  filters: '{"type[eq]":"blogPosts"}'
+                  orderBy: created_at_DESC
+                  contentTypes: blogPosts
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                buttonCopy: 'no'
+                buttonLink: 'no'
+                titleStyle: 'no'
+                buttonStyle: 'no'
+                description: 'yes'
+                textColorVariant: 'no'
+                buttonAnimationType: 'no'
+              hideLockedParameters: true
+    11cb90d4-20e7-4a87-89bc-b3638c7de001|4b328fd1-c6ac-4666-8bb7-9d0996320c43:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 92809713-e745-40d1-b659-3cde4d381114
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                title:
+                  type: text
+                  value: >-
+                    Capture of a stunning twilight sky with colorful gradients
+                    over gentle hills.
+                width:
+                  type: number
+                  value: 4928
+                custom:
+                  type: object
+                  value:
+                    sourceId: '66997'
+                    pexelsUrl: >-
+                      https://www.pexels.com/photo/sunset-over-snow-covered-mountains-66997/
+                    photoTinyUrl: >-
+                      https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                    photographer: NO  NAME
+                    photoLargeUrl: >-
+                      https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                    photoSmallUrl: >-
+                      https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&h=130
+                    photoMediumUrl: >-
+                      https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&h=350
+                    photoLarge2xUrl: >-
+                      https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                    photographerUrl: https://www.pexels.com/@no-name-14543
+                    photoPortraitUrl: >-
+                      https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                    pexelsOriginalUrl: >-
+                      https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg
+                    photoLandscapeUrl: >-
+                      https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                height:
+                  type: number
+                  value: 3264
+                description:
+                  type: text
+                  value: >-
+                    Capture of a stunning twilight sky with colorful gradients
+                    over gentle hills. - Photo by NO  NAME on Pexels
+              _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+        title:
+          type: text
+          value: Uniglobe blog
+        objectFit:
+          type: select
+          value: cover
+        description:
+          type: text
+          value: >-
+            Explore stories, tips, and guides for authentic, sustainable, and
+            affordable travel—written for conscious explorers like you.
+        eyebrowText:
+          type: text
+          value: null
+  _locales:
+    - en-US
+  _pattern: 9854cddc-f320-4a77-b7dc-de9d74638436
+created: '2025-07-03T19:06:40.942845+00:00'
+modified: '2025-07-03T19:06:40.942845+00:00'
+pattern: false

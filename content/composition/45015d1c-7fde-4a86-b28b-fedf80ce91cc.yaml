@@ -1,0 +1,740 @@
+composition:
+  _name: Sabbaticals
+  _id: 45015d1c-7fde-4a86-b28b-fedf80ce91cc
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Sabbaticals
+  slots:
+    pageFooter:
+      - _id: 9f40dc76-9b4e-4c05-a4c8-23e190102180
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: f1104a43-ba83-4aa0-af80-5206c28bedd8
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: c15cd672-f21b-444c-8609-e086860d9b09
+        type: hero
+        variant: imageRight
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: f622a107-de57-42c5-b117-f7c77a168935
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1488345979593-09db0f85545f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxyZWxheHxlbnwwfHx8fDE3NTE1NzMyMDJ8MA&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: Endless Water
+                    width:
+                      type: number
+                      value: 6000
+                    custom:
+                      type: object
+                      value:
+                        color: '#f3f3f3'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/woman-in-water-pool-Jyg7xHRmXiU
+                        blurHash: L?Kx}7NHRkfk_NWWWWayD%j[j[jt
+                        sourceId: Jyg7xHRmXiU
+                        createdAt: '2017-03-01T05:27:12Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/woman-in-water-pool-Jyg7xHRmXiU
+                        updatedAt: '2025-07-03T19:23:02Z'
+                        authorName: Alex Bertha
+                        downloadUrl: >-
+                          https://unsplash.com/photos/Jyg7xHRmXiU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxyZWxheHxlbnwwfHx8fDE3NTE1NzMyMDJ8MA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1488345979593-09db0f85545f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxyZWxheHxlbnwwfHx8fDE3NTE1NzMyMDJ8MA&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1488345979593-09db0f85545f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxyZWxheHxlbnwwfHx8fDE3NTE1NzMyMDJ8MA&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1488345979593-09db0f85545f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxyZWxheHxlbnwwfHx8fDE3NTE1NzMyMDJ8MA&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1488345979593-09db0f85545f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxyZWxheHxlbnwwfHx8fDE3NTE1NzMyMDJ8MA&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: alexbertha
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1488345979593-09db0f85545f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxyZWxheHxlbnwwfHx8fDE3NTE1NzMyMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@alexbertha
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/Jyg7xHRmXiU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxyZWxheHxlbnwwfHx8fDE3NTE1NzMyMDJ8MA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1487179163300-85e36b3e96b6?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 4000
+                    description:
+                      type: text
+                      value: Photo by Alex Bertha on Unsplash
+                  _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          title:
+            type: text
+            locales:
+              en-US: 'Transform your life: embark on an epic sabbatical adventure'
+          objectFit:
+            type: select
+            value: cover
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: 'Your sabbatical: a journey of freedom and discovery.'
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Sabbatical travel
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: ac90bcf3-2ea9-4427-bc22-a3689cea8763
+        type: featuredCallout
+        slots:
+          feature:
+            - _id: bc41116f-aec4-4d23-9934-f56b076becf8
+              type: feature
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Personal growth
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Gain new skills and a fresh perspective to enhance your
+                      personal and professional growth.
+            - _id: 9ca073d7-cab0-4f51-a0c5-91d0540bbe33
+              type: feature
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Deeper connections
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Form friendships and connect with local communities to
+                      gain deeper cultural understanding and meaningful
+                      relationships.
+            - _id: 6a256239-400c-4509-8821-d4ce3e5b835c
+              type: feature
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Adventure
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Challenge yourself to step outside your comfort zone every
+                      day by trying something unfamiliar or taking on a new
+                      task.
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 8a42fef9-c8c5-45c1-86b2-f58b3b542bac
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1515463626042-123ab67dcaa7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxtaXJyb3J8ZW58MHx8fHwxNzUxNTczMjA1fDA&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: Prism
+                    width:
+                      type: number
+                      value: 5472
+                    custom:
+                      type: object
+                      value:
+                        color: '#c0c0c0'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/shallow-focus-of-person-holding-mirror-Vmr8bGURExo
+                        blurHash: LRH_oY?bJBk??wRkt8xuNGadxajY
+                        sourceId: Vmr8bGURExo
+                        createdAt: '2018-01-09T02:11:32Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/shallow-focus-of-person-holding-mirror-Vmr8bGURExo
+                        updatedAt: '2025-07-03T18:34:01Z'
+                        authorName: Vince Fleming
+                        downloadUrl: >-
+                          https://unsplash.com/photos/Vmr8bGURExo/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxtaXJyb3J8ZW58MHx8fHwxNzUxNTczMjA1fDA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1515463626042-123ab67dcaa7?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxtaXJyb3J8ZW58MHx8fHwxNzUxNTczMjA1fDA&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1515463626042-123ab67dcaa7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxtaXJyb3J8ZW58MHx8fHwxNzUxNTczMjA1fDA&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1515463626042-123ab67dcaa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxtaXJyb3J8ZW58MHx8fHwxNzUxNTczMjA1fDA&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1515463626042-123ab67dcaa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxtaXJyb3J8ZW58MHx8fHwxNzUxNTczMjA1fDA&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: vincefleming
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1515463626042-123ab67dcaa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxtaXJyb3J8ZW58MHx8fHwxNzUxNTczMjA1fDA&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@vincefleming
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/Vmr8bGURExo/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxtaXJyb3J8ZW58MHx8fHwxNzUxNTczMjA1fDA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-fb-1513648871-b384f5e41430.jpg?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 3648
+                    description:
+                      type: text
+                      value: Photo by Vince Fleming on Unsplash
+                  _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          title:
+            type: text
+            locales:
+              en-US: Unlock freedom and adventure with a sabbatical.
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Learn how taking a sabbatical can provide practical
+                opportunities for personal growth, skill development, and new
+                experiences.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Why take a sabbatical?
+      - _id: 20b7ed92-92cc-4619-9105-170f249cb03b
+        type: container
+        slots:
+          container-inner:
+            - _id: 2fd00503-eae8-4cc5-a6a4-04bdd6d09642
+              type: callToAction
+              variant: ''
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Explore a World of Sabbatical Destinations
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Browse destinations for every style of
+                      sabbatical—mountains, cities, beaches, and more.
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Find your next adventure
+                textColorVariant:
+                  type: select
+                  value: Light
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-US: See destinations
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /en-US/destinations
+                      type: url
+        parameters:
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 664854e6-057a-4755-bcd9-36bc4d45d489
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: d395ee21-9dda-4777-87dc-0b522ff6178d
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Flexible
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 57193cf7-2516-47f6-83ea-cbab07ac9178
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1653491948587-083ee5654562?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21wYXNzJTIwb24lMjBhJTIwdGFibGV8ZW58MHx8fHwxNzUxNTcyNDEzfDA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: a pocket watch and a compass on a table
+                          width:
+                            type: number
+                            value: 2395
+                          custom:
+                            type: object
+                            value:
+                              color: '#262626'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-pocket-watch-and-a-compass-on-a-table-tCcmwlCre7s
+                              blurHash: L6AmPEIUNd-65RxY-nNx~B^ir;xt
+                              sourceId: tCcmwlCre7s
+                              createdAt: '2022-05-25T16:12:13Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-pocket-watch-and-a-compass-on-a-table-tCcmwlCre7s
+                              updatedAt: '2025-07-03T15:13:11Z'
+                              authorName: Anirudh
+                              downloadUrl: >-
+                                https://unsplash.com/photos/tCcmwlCre7s/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21wYXNzJTIwb24lMjBhJTIwdGFibGV8ZW58MHx8fHwxNzUxNTcyNDEzfDA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1653491948587-083ee5654562?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21wYXNzJTIwb24lMjBhJTIwdGFibGV8ZW58MHx8fHwxNzUxNTcyNDEzfDA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1653491948587-083ee5654562?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21wYXNzJTIwb24lMjBhJTIwdGFibGV8ZW58MHx8fHwxNzUxNTcyNDEzfDA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1653491948587-083ee5654562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21wYXNzJTIwb24lMjBhJTIwdGFibGV8ZW58MHx8fHwxNzUxNTcyNDEzfDA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1653491948587-083ee5654562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21wYXNzJTIwb24lMjBhJTIwdGFibGV8ZW58MHx8fHwxNzUxNTcyNDEzfDA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: underroot
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1653491948587-083ee5654562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21wYXNzJTIwb24lMjBhJTIwdGFibGV8ZW58MHx8fHwxNzUxNTcyNDEzfDA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@underroot
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/tCcmwlCre7s/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21wYXNzJTIwb24lMjBhJTIwdGFibGV8ZW58MHx8fHwxNzUxNTcyNDEzfDA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1635258353583-60602ce7424bimage?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3195
+                          description:
+                            type: text
+                            value: Photo by Anirudh on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Plan your route, stay flexible
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Map out your must-see spots, but leave room for
+                      spontaneous adventures.
+            - _id: 604c449b-a4e0-4233-8ef6-ea2ab864e2a2
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Budget
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 99ef5242-2784-4467-863f-a1177e3e38da
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1599081595921-238c45c87bda?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBidWRnZXQlMjBub3RlYm9va3xlbnwwfHx8fDE3NTE1NzQwMDF8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: |
+                              Notebook and #2 pencils with a highlighter
+                          width:
+                            type: number
+                            value: 5568
+                          custom:
+                            type: object
+                            value:
+                              color: '#737373'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/black-and-white-book-beside-brown-pencil-OFJ4iDE2VuE
+                              blurHash: LAEMLD00oz%1?bM{ogD%IUofjZxv
+                              sourceId: OFJ4iDE2VuE
+                              createdAt: '2020-09-02T21:58:58Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/black-and-white-book-beside-brown-pencil-OFJ4iDE2VuE
+                              updatedAt: '2025-07-03T20:10:11Z'
+                              authorName: Kelly Sikkema
+                              downloadUrl: >-
+                                https://unsplash.com/photos/OFJ4iDE2VuE/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBidWRnZXQlMjBub3RlYm9va3xlbnwwfHx8fDE3NTE1NzQwMDF8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1599081595921-238c45c87bda?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBidWRnZXQlMjBub3RlYm9va3xlbnwwfHx8fDE3NTE1NzQwMDF8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1599081595921-238c45c87bda?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBidWRnZXQlMjBub3RlYm9va3xlbnwwfHx8fDE3NTE1NzQwMDF8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1599081595921-238c45c87bda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBidWRnZXQlMjBub3RlYm9va3xlbnwwfHx8fDE3NTE1NzQwMDF8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1599081595921-238c45c87bda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBidWRnZXQlMjBub3RlYm9va3xlbnwwfHx8fDE3NTE1NzQwMDF8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: kellysikkema
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1599081595921-238c45c87bda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBidWRnZXQlMjBub3RlYm9va3xlbnwwfHx8fDE3NTE1NzQwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@kellysikkema
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/OFJ4iDE2VuE/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBidWRnZXQlMjBub3RlYm9va3xlbnwwfHx8fDE3NTE1NzQwMDF8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1741302988428-086212ab50e9?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3712
+                          description:
+                            type: text
+                            value: Photo by Kelly Sikkema on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Budget tips for long-term travel
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Track expenses and use local markets to stretch your
+                      travel funds.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 377e07c2-e3bb-4d32-82b6-87ddda655992
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Culture
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 36425a31-74cc-45d1-99e5-ad5226e0b132
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1657299156653-d3c0147ba3ee?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MHx8Z3JvdXAlMjBtZWFsJTIwc2hhcmluZ3xlbnwwfHx8fDE3NTE1NzQwOTB8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: people eating at a table
+                          width:
+                            type: number
+                            value: 6240
+                          custom:
+                            type: object
+                            value:
+                              color: '#c0c0a6'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/people-eating-at-a-table-Ma2O4mkx-c8
+                              blurHash: L9IO5+v|ruRNtl%LD%kX0N9t?H-W
+                              sourceId: Ma2O4mkx-c8
+                              createdAt: '2022-07-08T17:04:40Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/people-eating-at-a-table-Ma2O4mkx-c8
+                              updatedAt: '2025-07-03T18:22:59Z'
+                              authorName: Wasa Crispbread
+                              downloadUrl: >-
+                                https://unsplash.com/photos/Ma2O4mkx-c8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MHx8Z3JvdXAlMjBtZWFsJTIwc2hhcmluZ3xlbnwwfHx8fDE3NTE1NzQwOTB8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1657299156653-d3c0147ba3ee?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MHx8Z3JvdXAlMjBtZWFsJTIwc2hhcmluZ3xlbnwwfHx8fDE3NTE1NzQwOTB8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1657299156653-d3c0147ba3ee?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MHx8Z3JvdXAlMjBtZWFsJTIwc2hhcmluZ3xlbnwwfHx8fDE3NTE1NzQwOTB8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1657299156653-d3c0147ba3ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MHx8Z3JvdXAlMjBtZWFsJTIwc2hhcmluZ3xlbnwwfHx8fDE3NTE1NzQwOTB8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1657299156653-d3c0147ba3ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MHx8Z3JvdXAlMjBtZWFsJTIwc2hhcmluZ3xlbnwwfHx8fDE3NTE1NzQwOTB8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: wasacrispbread
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1657299156653-d3c0147ba3ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MHx8Z3JvdXAlMjBtZWFsJTIwc2hhcmluZ3xlbnwwfHx8fDE3NTE1NzQwOTB8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@wasacrispbread
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/Ma2O4mkx-c8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MHx8Z3JvdXAlMjBtZWFsJTIwc2hhcmluZ3xlbnwwfHx8fDE3NTE1NzQwOTB8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1655151625963-f0eec015f2a4image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 4160
+                          description:
+                            type: text
+                            value: Photo by Wasa Crispbread on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: 'Connect with locals: Embrace culture on sabbatical'
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Join a local event or take a class to meet people and
+                      learn new customs.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: d71f7fe3-9ec5-42fb-9c00-b177bdc1343f
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Wellness
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 8a92039a-6371-45ad-88be-17a443c295d2
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1490818387583-1baba5e638af?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxoZWFsdGh5fGVufDB8fHx8MTc1MTU3NDEwN3ww&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: >-
+                              ‘Tis the season of rhubarb. And strawberry. And
+                              blood orange. Praise be. Amen.
+                          width:
+                            type: number
+                            value: 3997
+                          custom:
+                            type: object
+                            value:
+                              color: '#f3f3f3'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/variety-of-sliced-fruits-08bOYnH_r_E
+                              blurHash: LmPshlDN9FX8xbWBafWBb_o~ozni
+                              sourceId: 08bOYnH_r_E
+                              createdAt: '2017-03-29T20:14:13Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/variety-of-sliced-fruits-08bOYnH_r_E
+                              updatedAt: '2025-07-03T19:28:33Z'
+                              authorName: Brooke Lark
+                              downloadUrl: >-
+                                https://unsplash.com/photos/08bOYnH_r_E/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxoZWFsdGh5fGVufDB8fHx8MTc1MTU3NDEwN3ww
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxoZWFsdGh5fGVufDB8fHx8MTc1MTU3NDEwN3ww&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1490818387583-1baba5e638af?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxoZWFsdGh5fGVufDB8fHx8MTc1MTU3NDEwN3ww&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1490818387583-1baba5e638af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxoZWFsdGh5fGVufDB8fHx8MTc1MTU3NDEwN3ww&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1490818387583-1baba5e638af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxoZWFsdGh5fGVufDB8fHx8MTc1MTU3NDEwN3ww&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: brookelark
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1490818387583-1baba5e638af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxoZWFsdGh5fGVufDB8fHx8MTc1MTU3NDEwN3ww&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@brookelark
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/08bOYnH_r_E/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxoZWFsdGh5fGVufDB8fHx8MTc1MTU3NDEwN3ww
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1496175100457-27a8e68786eb?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3171
+                          description:
+                            type: text
+                            value: Photo by Brooke Lark on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: 'Stay healthy on sabbatical: daily walk & wellness'
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Take a daily walk or try a new fitness routine to stay
+                      energized.
+            - _id: c778f2d8-f1bf-48d0-878c-03093446d822
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Memories
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: f13ab872-f4b4-44bc-8dd9-6e4b38917c40
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxwaG90byUyMGFsYnVtfGVufDB8fHx8MTc1MTU3NDE0OXww&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: assorted photos on beige wooden table
+                          width:
+                            type: number
+                            value: 4751
+                          custom:
+                            type: object
+                            value:
+                              color: '#c0c0c0'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/assorted-photos-on-beige-wooden-table-aV5xrpB0bwQ
+                              blurHash: LQI5GEVr4T%MV@IokCkXIUogx]jY
+                              sourceId: aV5xrpB0bwQ
+                              createdAt: '2017-07-14T17:01:31Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/assorted-photos-on-beige-wooden-table-aV5xrpB0bwQ
+                              updatedAt: '2025-07-03T15:25:30Z'
+                              authorName: Soragrit Wongsa
+                              downloadUrl: >-
+                                https://unsplash.com/photos/aV5xrpB0bwQ/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxwaG90byUyMGFsYnVtfGVufDB8fHx8MTc1MTU3NDE0OXww
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxwaG90byUyMGFsYnVtfGVufDB8fHx8MTc1MTU3NDE0OXww&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxwaG90byUyMGFsYnVtfGVufDB8fHx8MTc1MTU3NDE0OXww&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxwaG90byUyMGFsYnVtfGVufDB8fHx8MTc1MTU3NDE0OXww&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxwaG90byUyMGFsYnVtfGVufDB8fHx8MTc1MTU3NDE0OXww&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: invictar1997
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxwaG90byUyMGFsYnVtfGVufDB8fHx8MTc1MTU3NDE0OXww&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@invictar1997
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/aV5xrpB0bwQ/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxwaG90byUyMGFsYnVtfGVufDB8fHx8MTc1MTU3NDE0OXww
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-fb-1486031109-750323e6763e.jpg?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3002
+                          description:
+                            type: text
+                            value: Photo by Soragrit Wongsa on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: 'Document your sabbatical: journal or snap photos'
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Write a quick journal entry or snap a photo each day to
+                      capture your journey.
+        variant: carousel
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Unforgettable Sabbatical Journeys
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Discover essential tips to make the most of your sabbatical—plan
+                smarter, travel farther, and create unforgettable memories on
+                your journey.
+      - _id: 9881ef1a-d4c9-4ae9-b73e-bcb197fbfccb
+        type: accordion
+        slots:
+          items:
+            - _id: 94a5280e-fc76-4a3c-b919-787944ffe605
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What is a sabbatical?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      A sabbatical is an extended break from work or daily
+                      routines, often used for travel, personal growth, or
+                      pursuing new experiences.
+            - _id: ef8d95d1-489c-425d-8c23-72ba98e68989
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How long does a typical sabbatical last?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Most sabbaticals last from a few weeks to a year,
+                      depending on your goals and what your employer or personal
+                      situation allows.
+            - _id: 7a526770-43f6-47a9-9171-a3c55b338ed6
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Do I need to quit my job to take a sabbatical?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Not always! Some employers offer formal sabbatical
+                      programs or unpaid leave. It’s worth checking your
+                      company’s policies or discussing options with your
+                      manager.
+            - _id: d2b8b6d8-216b-464f-892f-2a76be103bed
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How should I budget for a sabbatical?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Start by estimating your travel and living expenses, then
+                      set aside savings in advance. Consider destinations with a
+                      lower cost of living to make your budget go further.
+            - _id: f0fe8d99-0a57-450c-8fab-a597e14e99ea
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What are the benefits of taking a sabbatical?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Sabbaticals can help you recharge, learn new skills, gain
+                      fresh perspectives, and return to work with renewed energy
+                      and creativity.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Sabbatical FAQs
+          description:
+            type: text
+            locales:
+              en-US: Find answers to common questions about taking a sabbatical.
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-07-03T19:30:42.331357+00:00'
+modified: '2025-07-03T22:03:23.463068+00:00'
+pattern: false

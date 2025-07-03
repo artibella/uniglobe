@@ -1,5 +1,5 @@
-created: '2025-05-13T15:51:17.45255+00:00'
-modified: '2025-05-21T11:16:00.684512+00:00'
+created: '2025-07-03T19:09:25.68038+00:00'
+modified: '2025-07-03T19:09:25.68038+00:00'
 pattern: false
 entry:
   _id: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
@@ -25,6 +25,36 @@ entry:
   _overrides:
     49e4e7f6-9ad8-4a02-bb54-33560dadba6b:
       parameters:
+        icon:
+          type: asset
+          locales:
+            en-US:
+              - _id: 9fc01a9d-02b0-4c8a-9bab-273b80be149d
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: Uniglobe/Country icons/Japan
+                  url:
+                    type: text
+                    value: >-
+                      https://res.cloudinary.com/content-ops/image/upload/v1747818403/Uniglobe/Country%20icons/Japan.png
+                  size:
+                    type: number
+                    value: 1622595
+                  title:
+                    type: text
+                    value: Uniglobe/Country icons/Japan
+                  width:
+                    type: number
+                    value: 1024
+                  height:
+                    type: number
+                    value: 1024
+                  mediaType:
+                    type: text
+                    value: image/png
+                _source: cloudinary-2c6d995a-4c3f-4f95-86ea-7d9f8af08667
         images:
           type: asset
           locales:
@@ -291,6 +321,9 @@ entry:
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
               dynamicInputValues:
                 locale: ${locale}
+        flagEmoji:
+          type: text
+          value: 🇯🇵
         teaserText:
           type: text
           locales:
@@ -423,6 +456,9 @@ entry:
             - cat: dest
               key: asia
               str: 50
+            - cat: ses
+              key: aut
+              str: 10
         teaserImage:
           type: asset
           locales:
@@ -631,7 +667,7 @@ entry:
                           value: 29845429-20ce-4c40-9252-e84e4b297c78
                         url:
                           value: >-
-                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/TlStS271TrCl8JHMGgXDIA-photo-1721232080277-5a7f8370a2c4
+                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/yf5Mog2bSEiu2IjqE8BE6w-photo-1721232080277-5a7f8370a2c4
                           type: text
                         file:
                           type: file
@@ -666,7 +702,7 @@ entry:
                           value: c9556355-d04b-4abe-ae4f-851c84bd76d2
                         url:
                           value: >-
-                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/zPhGkVnISgaQYGerZTm-lQ-photo-1506918357967-b358ad447c56
+                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/CQAOaWSgSm6bdVnm_6sGqA-photo-1506918357967-b358ad447c56
                           type: text
                         file:
                           type: file
@@ -739,7 +775,7 @@ entry:
                           value: 38e53eb2-d22a-467e-821d-5eb1abdbd5be
                         url:
                           value: >-
-                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/H6u45_SPROOuRyJ31Wlljg-photo-1550303435-1703d8811aaa
+                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/6anDREBfTrie3J4pOWqNRQ-photo-1550303435-1703d8811aaa
                           type: text
                         file:
                           type: file
@@ -2336,7 +2372,7 @@ entry:
                           value: 29845429-20ce-4c40-9252-e84e4b297c78
                         url:
                           value: >-
-                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/TlStS271TrCl8JHMGgXDIA-photo-1721232080277-5a7f8370a2c4
+                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/yf5Mog2bSEiu2IjqE8BE6w-photo-1721232080277-5a7f8370a2c4
                           type: text
                         file:
                           type: file
@@ -2371,7 +2407,7 @@ entry:
                           value: c9556355-d04b-4abe-ae4f-851c84bd76d2
                         url:
                           value: >-
-                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/zPhGkVnISgaQYGerZTm-lQ-photo-1506918357967-b358ad447c56
+                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/CQAOaWSgSm6bdVnm_6sGqA-photo-1506918357967-b358ad447c56
                           type: text
                         file:
                           type: file
@@ -2444,7 +2480,7 @@ entry:
                           value: 38e53eb2-d22a-467e-821d-5eb1abdbd5be
                         url:
                           value: >-
-                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/H6u45_SPROOuRyJ31Wlljg-photo-1550303435-1703d8811aaa
+                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/6anDREBfTrie3J4pOWqNRQ-photo-1550303435-1703d8811aaa
                           type: text
                         file:
                           type: file
@@ -4041,7 +4077,7 @@ entry:
                           value: 29845429-20ce-4c40-9252-e84e4b297c78
                         url:
                           value: >-
-                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/TlStS271TrCl8JHMGgXDIA-photo-1721232080277-5a7f8370a2c4
+                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/yf5Mog2bSEiu2IjqE8BE6w-photo-1721232080277-5a7f8370a2c4
                           type: text
                         file:
                           type: file
@@ -4076,7 +4112,7 @@ entry:
                           value: c9556355-d04b-4abe-ae4f-851c84bd76d2
                         url:
                           value: >-
-                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/zPhGkVnISgaQYGerZTm-lQ-photo-1506918357967-b358ad447c56
+                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/CQAOaWSgSm6bdVnm_6sGqA-photo-1506918357967-b358ad447c56
                           type: text
                         file:
                           type: file
@@ -4149,7 +4185,7 @@ entry:
                           value: 38e53eb2-d22a-467e-821d-5eb1abdbd5be
                         url:
                           value: >-
-                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/H6u45_SPROOuRyJ31Wlljg-photo-1550303435-1703d8811aaa
+                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/6anDREBfTrie3J4pOWqNRQ-photo-1550303435-1703d8811aaa
                           type: text
                         file:
                           type: file

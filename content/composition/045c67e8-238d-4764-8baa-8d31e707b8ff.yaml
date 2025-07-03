@@ -53,7 +53,7 @@ composition:
                       value: 2def1ae3-96b9-472d-bb8a-3b875185142f
                     url:
                       value: >-
-                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/fWOm9UUqSwq1EHWVdoY5fg-su-san-lee-E_eWwM29wfU-unsplash.jpg
                       type: text
                     file:
                       type: file
@@ -84,7 +84,6 @@ composition:
                         value:
                           x: 0.95
                           'y': 0.42
-            value: []
           title:
             type: text
             locales:
@@ -124,28 +123,6 @@ composition:
           textColorVariant:
             type: select
             value: Light
-      - _id: a7a42b7c-9f20-4ed0-a672-cf13e4b639da
-        type: button
-        parameters:
-          copy:
-            type: text
-            locales:
-              en-US: Go to Asia page
-          link:
-            type: link
-            value:
-              path: /${locale}/destinations/asia
-              type: projectMapNode
-              nodeId: 6d7efb88-dfa1-48cf-a681-05e4c97c8cc3
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-          clickTags:
-            type: $enr
-            value:
-              - cat: dest
-                key: asia
-                str: 50
       - _id: 9e01b248-3d44-479a-9795-a54fe1c9b19e
         type: $personalization
         slots:
@@ -153,9 +130,34 @@ composition:
             - _id: 9da1d7c2-04a8-4013-a78e-dcf735295ba8
               type: cardBlock
               _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
-            - _id: 35ba41b8-b664-48cd-ba51-f979a2ef0cec
-              type: cardBlock
-              _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+            - _id: 166112e8-f6a9-4465-b1bb-071b819ae6f4
+              type: $personalization
+              slots:
+                pz:
+                  - _id: ad9091e2-082d-4246-9eb9-13b943ce52cc
+                    type: cardBlock
+                    _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+                  - _id: 4a2b74f9-8c70-4dff-a517-1886fe6d77f2
+                    type: cardBlock
+                    _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+                  - _id: 35ba41b8-b664-48cd-ba51-f979a2ef0cec
+                    type: cardBlock
+                    _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
+              parameters:
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: dest_asia
+                        r: '50'
+                        op: ^
+                    name: destination-asia
+                algorithm:
+                  type: pzAlgorithm
+                  value: ssc
+                trackingEventName:
+                  type: text
+                  value: destinations-asia
             - _id: 55bb281d-426f-4c91-9d3a-7a1d73873516
               type: cardBlock
               _pattern: d68861d1-a129-4798-91c8-e1e6d2a05b2c
@@ -165,7 +167,7 @@ composition:
             value: 1
           trackingEventName:
             type: text
-            value: destinations-featured cards
+            value: destinations-featured-cards
       - _id: 039ff536-5193-4f28-a41a-c2085382978b
         type: $test
         slots:
@@ -189,7 +191,6 @@ composition:
                             type: text
                             value: Trip plan
                         _source: custom-url
-                  value: []
                 title:
                   type: text
                   locales:
@@ -262,7 +263,6 @@ composition:
                             type: text
                             value: Trip plan
                         _source: custom-url
-                  value: []
                 title:
                   type: text
                   locales:
@@ -321,6 +321,21 @@ composition:
             type: testSelect
             value: itineraryOfferDestinations
   _overrides:
+    25d77e62-e82d-468e-8651-3e4a24d3e0f8:
+      parameters:
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
     35ba41b8-b664-48cd-ba51-f979a2ef0cec:
       parameters:
         title:
@@ -330,10 +345,49 @@ composition:
         $pzCrit:
           type: $pzCrit
           value:
-            crit:
-              - l: bookAsiaVacation
-                op: +
-            name: 'Card Block: Explore Asia'
+            name: asia-default
+    466e3532-e958-4364-bd63-11bc9cfe27d4:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Singapore
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            en-US: Singapore
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Culture, shopping, the best street food and great night life.
+              Singapore has it all
+        textColorVariant:
+          type: select
+          value: Light
+    4a2b74f9-8c70-4dff-a517-1886fe6d77f2:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Explore Asia in style
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: style_lux
+            name: asia-luxury
     4d8e43b6-14b1-42f8-b0e5-0190e220085a:
       parameters:
         badgeSize:
@@ -364,7 +418,9 @@ composition:
             en-US: Explore our top destinations
         $pzCrit:
           type: $pzCrit
-          value: null
+          value:
+            crit: []
+            name: destinations-default
     79eadb73-5885-4f96-9cdc-09c5feac3f3b:
       parameters:
         badgeSize:
@@ -397,6 +453,52 @@ composition:
           variables:
             locale: ${locale}
             entryId: 035a64b1-730e-444c-921a-431bc2712e14
+    92790865-0e9b-41da-8337-adb815d30697:
+      parameters:
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 40%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+    979922a0-7c92-4bad-abb0-09d8d3c6d436:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Japan
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                _source: custom-url
+        title:
+          type: text
+          locales:
+            en-US: Explore Tokyo
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Yoking past and future, Tokyo dazzles with its traditional culture
+              and passion for everything new.
+        textColorVariant:
+          type: select
+          value: Light
     9da1d7c2-04a8-4013-a78e-dcf735295ba8:
       parameters:
         title:
@@ -408,8 +510,8 @@ composition:
           value:
             crit:
               - l: dest_eur
-                op: +
-            name: 'Card Block: Explore Europe'
+                op: ^
+            name: destinations-europe
     a3d9edf4-f67d-4ee1-bb62-f2f78a081354:
       parameters:
         badgeSize:
@@ -463,6 +565,17 @@ composition:
         textColorVariant:
           type: select
           value: Light
+    ad9091e2-082d-4246-9eb9-13b943ce52cc:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Explore Asia on a budget
+        $pzCrit:
+          type: $pzCrit
+          value:
+            dim: style_bud
+            name: asia-budget
     cd80f548-e7a9-4bb6-8c00-794a32a164b9:
       parameters:
         title:
@@ -581,25 +694,6 @@ composition:
     35ba41b8-b664-48cd-ba51-f979a2ef0cec|20809b46-57c4-4683-abfb-38920d790266:
       slots:
         $slotSectionItems:
-          - _id: a7f6f7d6-0408-4bf8-83f9-abb1dc76a860
-            type: card
-            variant: backgroundImage
-            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
-            _overridability:
-              parameters:
-                badge: 'yes'
-                image: 'yes'
-                title: 'yes'
-                badgeSize: 'yes'
-                objectFit: 'yes'
-                badgeStyle: 'yes'
-                buttonCopy: 'yes'
-                buttonLink: 'yes'
-                buttonStyle: 'yes'
-                description: 'yes'
-                overlayColor: 'yes'
-                overlayOpacity: 'yes'
-                textColorVariant: 'yes'
           - _id: f8f6406b-0b49-4c7e-86a0-5fe0e46f90e1
             type: card
             variant: backgroundImage
@@ -620,6 +714,85 @@ composition:
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
           - _id: ac1e9d81-173c-4141-86f4-b4e25e8f24c8
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: a7f6f7d6-0408-4bf8-83f9-abb1dc76a860
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+    4a2b74f9-8c70-4dff-a517-1886fe6d77f2|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: b6aa2122-b1d2-4c86-aa76-6d0f3a10b0dc
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: 979922a0-7c92-4bad-abb0-09d8d3c6d436
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: 466e3532-e958-4364-bd63-11bc9cfe27d4
             type: card
             variant: backgroundImage
             _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
@@ -806,8 +979,84 @@ composition:
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
               hideLockedParameters: true
+    ad9091e2-082d-4246-9eb9-13b943ce52cc|20809b46-57c4-4683-abfb-38920d790266:
+      slots:
+        $slotSectionItems:
+          - _id: e94f2358-88fb-4d2f-a0d9-5ef3d8094eee
+            type: card
+            variant: backgroundImage
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+            _overridability:
+              parameters:
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+          - _id: 25d77e62-e82d-468e-8651-3e4a24d3e0f8
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
+          - _id: 92790865-0e9b-41da-8337-adb815d30697
+            type: card
+            variant: backgroundImage
+            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
+            _dataResources:
+              Country:
+                type: country
+                variables:
+                  locale: ${locale}
+                  entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                badge: 'yes'
+                image: 'yes'
+                title: 'yes'
+                badgeSize: 'yes'
+                objectFit: 'yes'
+                badgeStyle: 'yes'
+                buttonCopy: 'yes'
+                buttonLink: 'yes'
+                buttonStyle: 'yes'
+                description: 'yes'
+                overlayColor: 'yes'
+                overlayOpacity: 'yes'
+                textColorVariant: 'yes'
+              hideLockedParameters: true
   _locales:
     - en-US
-created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-04-25T16:27:23.077503+00:00'
+created: '2025-07-03T19:06:52.762793+00:00'
+modified: '2025-07-03T19:06:52.762793+00:00'
 pattern: false

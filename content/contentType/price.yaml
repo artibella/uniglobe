@@ -1,7 +1,7 @@
 id: price
 name: Price
-created: '2025-04-04T09:18:07.576992+00:00'
-updated: '2025-04-04T09:20:03.016319+00:00'
+created: '2025-07-03T19:08:50.124101+00:00'
+updated: '2025-07-03T19:24:50.141782+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -9,6 +9,9 @@ fields:
   - id: amount
     name: Amount
     type: number
+    guidance: >-
+      Enter the price amount as a number. Do not include currency symbols; use
+      the currency field to specify the currency.
     typeConfig: null
   - id: currency
     name: Currency
