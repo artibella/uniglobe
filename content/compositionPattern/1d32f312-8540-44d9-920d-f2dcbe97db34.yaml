@@ -392,8 +392,8 @@ composition:
           locales:
             de-DE:
               path: >-
-                /${locale}/destinations/${#jptr:/Featured countries entries Loop
-                Item/entry/_slug}
+                /${locale}/reiseziele/:region/${#jptr:/Featured countries
+                entries Loop Item/entry/_slug}
               type: projectMapNode
               nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -402,8 +402,8 @@ composition:
                 destination: ${#jptr:/Featured countries entries Loop Item/entry/_slug}
             it-IT:
               path: >-
-                /${locale}/destinations/${#jptr:/Featured countries entries Loop
-                Item/entry/_slug}
+                /${locale}/destinations/:region/${#jptr:/Featured countries
+                entries Loop Item/entry/_slug}
               type: projectMapNode
               nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -450,8 +450,8 @@ composition:
     - en-US
     - de-DE
     - it-IT
-created: '2024-08-20T19:12:13.706954+00:00'
-modified: '2024-11-14T12:18:15.542484+00:00'
+created: '2025-05-13T15:50:53.879759+00:00'
+modified: '2025-05-13T15:50:53.879759+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

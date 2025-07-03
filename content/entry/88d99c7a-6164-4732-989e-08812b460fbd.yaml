@@ -1,0 +1,11 @@
+created: '2025-05-26T12:40:31.242354+00:00'
+modified: '2025-05-26T12:40:31.242354+00:00'
+pattern: false
+entry:
+  _id: 88d99c7a-6164-4732-989e-08812b460fbd
+  _name: 'New entry: Country'
+  _slug: new-entry-country
+  type: country
+  fields: {}
+  _locales:
+    - en-US

@@ -1,31 +1,11 @@
 asset:
-  type: image
+  type: other
   _id: e3963aca-5918-41b5-9ab7-db6785f7bbe3
   _name: ''
   fields:
     title:
       type: text
       value: hero_rectangle.png
-    file:
-      type: file
-      value: e629a8c7-e367-441e-93ad-ac98bcec07ef
-      value: e629a8c7-e367-441e-93ad-ac98bcec07ef
-    mediaType:
-      value: image/png
-      type: text
-    url:
-      value: >-
-        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/u1NHvzSFROOXX-TMfSEKkg-hero_rectangle.png
-      type: text
-    size:
-      value: 76327
-      type: number
-    width:
-      value: 510
-      type: number
-    height:
-      value: 496
-      type: number
     custom: {}
-created: '2024-01-15T09:26:38.742132+00:00'
-modified: '2024-01-15T09:26:38.742132+00:00'
+created: '2025-05-13T15:43:38.736181+00:00'
+modified: '2025-05-13T15:50:12.676542+00:00'

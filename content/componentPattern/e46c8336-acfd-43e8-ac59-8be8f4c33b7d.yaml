@@ -15,7 +15,7 @@ composition:
               value: 2d06cb01-b8aa-490b-8567-43a27046030d
             url:
               value: >-
-                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+                https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
               type: text
             file:
               type: file
@@ -46,7 +46,7 @@ composition:
                 value: 2d06cb01-b8aa-490b-8567-43a27046030d
               url:
                 value: >-
-                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+                  https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
                 type: text
               file:
                 type: file
@@ -76,7 +76,7 @@ composition:
                 value: 2d06cb01-b8aa-490b-8567-43a27046030d
               url:
                 value: >-
-                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+                  https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
                 type: text
               file:
                 type: file
@@ -141,7 +141,7 @@ composition:
               value: 2d06cb01-b8aa-490b-8567-43a27046030d
             url:
               value: >-
-                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
+                https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
               type: text
             file:
               type: file
@@ -184,7 +184,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /${locale}/destinations/asia
+                      path: /${locale}/reiseziele/asia
                       type: projectMapNode
                       nodeId: 6d7efb88-dfa1-48cf-a681-05e4c97c8cc3
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -211,7 +211,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /${locale}/destinations/africa
+                      path: /${locale}/reiseziele/africa
                       type: projectMapNode
                       nodeId: 197a385e-7570-499e-bfb8-fa4083baa4f7
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -238,7 +238,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /:locale/destinations/middle-east
+                      path: /:locale/reiseziele/middle-east
                       type: projectMapNode
                       nodeId: 955ac309-663a-4455-9f8e-a31df88dc000
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -263,7 +263,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /:locale/destinations/europe
+                      path: /:locale/reiseziele/europe
                       type: projectMapNode
                       nodeId: 3fc25a66-c22c-455b-980a-2095a039f680
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -288,7 +288,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /${locale}/destinations/north-america
+                      path: /${locale}/reiseziele/north-america
                       type: projectMapNode
                       nodeId: cca6ab42-658f-4dec-9161-31b08f151652
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -315,7 +315,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /${locale}/destinations/central-america-and-caribbean
+                      path: /${locale}/reiseziele/central-america-and-caribbean
                       type: projectMapNode
                       nodeId: c733b89d-b0b8-4ac2-873f-d219b4acbd16
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -342,7 +342,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /:locale/destinations/south-america
+                      path: /:locale/reiseziele/south-america
                       type: projectMapNode
                       nodeId: 9601ba92-0700-449f-8e5f-00a700d71cc0
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -438,8 +438,8 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2024-01-15T09:26:48.084372+00:00'
-modified: '2024-03-22T15:25:58.946116+00:00'
+created: '2025-05-13T15:50:51.522206+00:00'
+modified: '2025-05-13T15:50:51.522206+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Header_pattern_preview_image

@@ -1,5 +1,5 @@
-created: '2024-08-21T13:08:06.173321+00:00'
-modified: '2025-04-10T12:31:22.746707+00:00'
+created: '2025-05-13T15:51:18.499682+00:00'
+modified: '2025-05-21T11:16:03.13694+00:00'
 pattern: false
 entry:
   _id: 88d8be8f-08fe-4b94-b27a-05d2f3c8b633
@@ -113,7 +113,6 @@ entry:
                   High-angle view of a vintage map depicting the United States
                   with intricate details. - Photo by John-Mark Smith on Pexels
             _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
-      value: []
     teaserText:
       type: text
       locales:

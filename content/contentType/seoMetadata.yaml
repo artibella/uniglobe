@@ -1,30 +1,41 @@
 id: seoMetadata
 name: SEO metadata
-created: '2025-04-28T14:39:38.821234+00:00'
-updated: '2025-04-28T14:39:38.821234+00:00'
+created: '2025-05-13T15:51:10.002573+00:00'
+updated: '2025-05-21T13:30:44.10501+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
   - id: metaTitle
     name: Meta Title
     type: text
+    guidance: >-
+      Create concise page titles in sentence case (50-60 characters) optimized
+      for relevant search terms used by sustainability-minded travelers
     typeConfig: null
     localizable: true
   - id: metaDescription
     name: Meta description
     type: text
+    guidance: >-
+      Write compelling summaries (130-155 characters) that communicate unique
+      value propositions around authentic experiences and environmental
+      responsibility
     typeConfig:
       multiline: true
     localizable: true
   - id: openGraphTitle
     name: Open Graph Title
     type: text
+    guidance: ' Develop attention-grabbing titles in sentence case optimized for social sharing that highlight unique aspects of the content'
     helpText: Social sharing title
     typeConfig: null
     localizable: true
   - id: openGraphDescription
     name: Open Graph Description
     type: text
+    guidance: >-
+      Create brief, compelling descriptions that encourage engagement when
+      content is shared on social platforms
     helpText: Social sharing description
     typeConfig: null
     localizable: true
@@ -38,7 +49,11 @@ fields:
     localizable: true
 entryName: metaTitle
 thumbnailField: openGraphImage
-description: ''
+description: >-
+  Provides structured information for search engine optimization and social
+  sharing. These technical elements improve discoverability through search
+  engines and enhance presentation when shared on social platforms, helping
+  Uniglobe attract environmentally conscious Millennial and Gen-Z travelers.
 icon: search
 type: block
 permissions: []

@@ -1,7 +1,7 @@
 id: country
 name: Country
-created: '2024-01-18T12:23:31.527234+00:00'
-updated: '2025-05-05T08:03:04.764036+00:00'
+created: '2025-05-13T15:51:11.13139+00:00'
+updated: '2025-05-21T13:28:56.774108+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -9,12 +9,18 @@ fields:
   - id: name
     name: Name
     type: text
-    helpText: ''
+    guidance: >-
+      Use the standard English name of the country in sentence case when not a
+      proper noun
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: richText
+    guidance: >-
+      Develop comprehensive overviews that highlight sustainable travel
+      infrastructure, community-based tourism initiatives, and authentic
+      cultural experiences available to independent travelers
     typeConfig:
       elements:
         builtIn:
@@ -47,6 +53,10 @@ fields:
   - id: timeToVisit
     name: Time to Visit
     type: richText
+    guidance: >-
+      Provide climate information alongside guidance on avoiding over-tourism
+      periods, recommending shoulder seasons, and noting community festivals or
+      environmental events worth experiencing
     typeConfig:
       elements:
         builtIn:
@@ -88,14 +98,19 @@ fields:
   - id: teaserImage
     name: Teaser image
     type: asset
-    helpText: ''
+    guidance: >-
+      Select distinctive imagery that captures authentic aspects of the country
+      beyond tourist clichés, such as community markets, public transportation,
+      or natural areas with local visitors
     typeConfig:
       max: 1
     localizable: true
   - id: teaserText
     name: Teaser text
     type: text
-    helpText: ''
+    guidance: >-
+      Write concise descriptions (30-50 words) highlighting unique sustainable
+      or authentic experiences available in this country
     typeConfig:
       multiline: true
     localizable: true
@@ -153,13 +168,12 @@ fields:
   - id: officialName
     name: Official name
     type: text
-    helpText: ''
+    guidance: Include the full, formal country name for reference
     typeConfig: null
-    localizable: false
   - id: captial
     name: Captial
     type: text
-    helpText: ''
+    guidance: List the main capital city of that country
     typeConfig: null
     localizable: true
   - id: code
@@ -185,9 +199,8 @@ fields:
   - id: flagEmoji
     name: Flag Emoji
     type: text
-    helpText: ''
+    guidance: Include the flag emoji for quick visual identification
     typeConfig: null
-    localizable: false
   - id: region
     name: Region
     type: contentReference
@@ -202,7 +215,12 @@ fields:
     typeConfig: null
 entryName: name
 thumbnailField: flag
-description: ''
+description: >-
+  This destination framework presents nations as travel destinations through
+  Uniglobe's sustainable and authentic experience lens. Rather than focusing on
+  typical tourist attractions, this content emphasizes community connections,
+  environmental protection initiatives, public transportation options, and
+  immersive cultural experiences at affordable price points.
 icon: globe-alt
 type: contentType
 permissions:

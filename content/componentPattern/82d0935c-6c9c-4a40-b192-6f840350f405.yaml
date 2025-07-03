@@ -11,6 +11,7 @@ composition:
         en-US: ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
     image:
       type: asset
+      value: []
       locales:
         de-DE:
           - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
@@ -22,7 +23,6 @@ composition:
                   https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
             _source: custom-url
         en-US: ${#jptr:/Country/entry/fields/teaserImage/value}
-      value: []
     title:
       type: text
       locales:
@@ -41,7 +41,7 @@ composition:
       type: link
       locales:
         de-DE:
-          path: /:locale/destinations
+          path: /:locale/reiseziele
           type: projectMapNode
           nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -104,8 +104,8 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2024-10-23T13:52:50.185915+00:00'
-modified: '2025-03-27T19:36:04.201353+00:00'
+created: '2025-05-13T15:50:52.472147+00:00'
+modified: '2025-05-13T15:50:52.472147+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1737406073/Uniglobe/Component%20Previews/Country%20card.png

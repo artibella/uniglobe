@@ -1,0 +1,745 @@
+created: '2025-05-23T15:54:48.025257+00:00'
+modified: '2025-05-23T15:58:22.050431+00:00'
+pattern: false
+entry:
+  _id: 29e8cee1-5bbd-4565-9cd0-3baa204b0a9d
+  _name: Colombia
+  _slug: colombia
+  _thumbnail: https://flagcdn.com/co.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByCountryName
+      variables:
+        name: Colombia
+  _locales:
+    - en-US
+    - de-DE
+  _overrides:
+    29e8cee1-5bbd-4565-9cd0-3baa204b0a9d:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Kolumbien
+        captial:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/capital}
+        flagEmoji:
+          type: text
+          value: 🇨🇴
+        teaserText:
+          type: text
+          locales:
+            de-DE: >-
+              Discover Colombia’s vibrant culture through community-led coffee
+              farm tours, eco-lodges in the Amazon, and street art walks in
+              Bogotá. Travel by bus or bike, support local artisans, and
+              experience authentic cuisine in family-run markets—all while
+              minimizing your environmental impact.
+            en-US: >-
+              Discover Colombia’s vibrant culture through community-led coffee
+              farm tours, eco-lodges in the Amazon, and street art walks in
+              Bogotá. Travel by bus or bike, support local artisans, and
+              experience authentic cuisine in family-run markets—all while
+              minimizing your environmental impact.
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Kolumbien ist ein lebendiges, vielfältiges Land, in
+                          dem nachhaltiges Reisen und authentische Erlebnisse
+                          leicht zu finden sind. Von den nebligen Anden bis zum
+                          üppigen Amazonas findest du einen starken Fokus auf
+                          gemeinschaftsbasierten Tourismus und umweltfreundliche
+                          Initiativen. Unabhängige Reisende können sich in der
+                          Zona Cafetera Kaffeefarm-Kooperativen anschließen, wo
+                          lokale Familien ihre biologischen Anbaumethoden zeigen
+                          und dich zur Ernte einladen. Im Amazonas bieten
+                          indigene, geführte Öko-Lodges immersive Aufenthalte,
+                          die den Regenwaldschutz und die Bewahrung der Kultur
+                          unterstützen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Der öffentliche Nahverkehr ist günstig und gut
+                          ausgebaut – Fernbusse verbinden die meisten Städte,
+                          während Metropolen wie Bogotá und Medellín effiziente
+                          Metro- und Fahrradverleihsysteme haben. Für
+                          Budgetreisende bieten Hostels und Gästehäuser oft
+                          kostenlose oder günstige Stadtführungen,
+                          Street-Art-Touren und Verkostungen auf lokalen Märkten
+                          in Zusammenarbeit mit lokalen Guides an.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Kolumbiens Städte pulsieren vor Kreativität und
+                          Engagement. In Bogotá führen Muralisten
+                          Street-Art-Walks mit sozialkritischen Themen. Die
+                          Gemeinschafts-Seilbahnen in Medellín bringen dich in
+                          die Hügelviertel, wo du an Wiederaufforstungsprojekten
+                          teilnehmen oder traditionelle Handwerkskunst von
+                          lokalen Kunsthandwerker*innen lernen kannst.
+                          Küstenregionen wie Palomino und die Rosario-Inseln
+                          bieten Schildkrötenschutz-Projekte und
+                          afro-kolumbianische Musikworkshops, alles organisiert
+                          von lokalen Kollektiven.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Ob du nun in der Sierra Nevada wanderst, mit einer
+                          Familie in Cartagena Arepas kochst oder indigene
+                          Kunsthandwerksmärkte unterstützt – Kolumbien belohnt
+                          Reisende, die Verbindung, Nachhaltigkeit und echten
+                          kulturellen Austausch suchen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Colombia is a vibrant, diverse country where
+                          sustainable travel and authentic experiences are easy
+                          to find. From the misty Andes to the lush Amazon,
+                          you’ll discover a strong focus on community-based
+                          tourism and eco-friendly initiatives. Independent
+                          travelers can join coffee farm cooperatives in the
+                          Zona Cafetera, where local families share their
+                          organic growing methods and invite you to help with
+                          the harvest. In the Amazon, indigenous-led eco-lodges
+                          offer immersive stays that support rainforest
+                          conservation and cultural preservation.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Public transportation is affordable and
+                          extensive—long-distance buses connect most towns,
+                          while cities like Bogotá and Medellín have efficient
+                          metro and bike-share systems. For budget travelers,
+                          hostels and guesthouses often partner with local
+                          guides for free or low-cost walking tours, street art
+                          explorations, and food tastings in neighborhood
+                          markets. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Colombia’s cities pulse with creativity and activism.
+                          In Bogotá, muralists lead street art walks that
+                          highlight social justice themes. Medellín’s community
+                          cable cars connect you to hillside neighborhoods,
+                          where you can join reforestation projects or learn
+                          traditional crafts from local artisans. Coastal
+                          regions like Palomino and the Rosario Islands offer
+                          turtle conservation volunteering and Afro-Colombian
+                          music workshops, all run by local collectives.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Whether you’re trekking in the Sierra Nevada, learning
+                          to cook arepas with a family in Cartagena, or
+                          supporting indigenous handicraft markets, Colombia
+                          rewards travelers who seek connection, sustainability,
+                          and real cultural exchange.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        teaserImage:
+          type: asset
+          locales:
+            de-DE:
+              - _id: 8703fa93-aab5-47e6-8b72-2811581bf1d2
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Beautiful view of the Valle de Cocora with iconic wax
+                      palms and lush green hills in Colombia.
+                  width:
+                    type: number
+                    value: 5184
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '2884864'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/tall-trees-on-the-mountain-ranges-2884864/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Chris Rodriguez
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@chriispr
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 3456
+                  description:
+                    type: text
+                    value: >-
+                      Beautiful view of the Valle de Cocora with iconic wax
+                      palms and lush green hills in Colombia. - Photo by Chris
+                      Rodriguez on Pexels
+                _source: pexels-07f3c968-5be2-4b61-8854-db3b0c57ae27
+            en-US:
+              - _id: 8703fa93-aab5-47e6-8b72-2811581bf1d2
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Beautiful view of the Valle de Cocora with iconic wax
+                      palms and lush green hills in Colombia.
+                  width:
+                    type: number
+                    value: 5184
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '2884864'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/tall-trees-on-the-mountain-ranges-2884864/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Chris Rodriguez
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@chriispr
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/2884864/pexels-photo-2884864.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 3456
+                  description:
+                    type: text
+                    value: >-
+                      Beautiful view of the Valle de Cocora with iconic wax
+                      palms and lush green hills in Colombia. - Photo by Chris
+                      Rodriguez on Pexels
+                _source: pexels-07f3c968-5be2-4b61-8854-db3b0c57ae27
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'December–February (Dry Season, High Tourism):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Warm and sunny in most regions, especially on the Caribbean coast. This is peak travel time with higher prices and crowded destinations—best avoided if you want a quieter, more affordable experience.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'March–May (Shoulder Season, Start of Rains):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Pleasant temperatures and fewer tourists. Occasional rain brings lush landscapes, especially in the Andes and Amazon. Great for budget travelers and those seeking authentic local life.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'June–August (Dry Season, Local Holidays):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Another busy period, especially in cities like Bogotá and Medellín due to school breaks. Popular sites can get crowded and prices rise. Consider exploring lesser-known towns or rural areas for a more relaxed vibe.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              September–November (Shoulder Season, Green
+                              Landscapes):
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Rainy in many regions, but this means vibrant nature and fewer crowds. Ideal for eco explorers—bird migrations and reforestation events are common. Pack for wet weather and enjoy lower costs.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Community Festivals & Events:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Barranquilla Carnival (February/March)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Medellín’s Feria de las Flores (August)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Local reforestation days and indigenous
+                              celebrations (varies by region)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For a sustainable trip, aim for the shoulder seasons
+                          (March–May, September–November) to avoid over-tourism,
+                          support local communities, and experience Colombia’s
+                          authentic spirit.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'December–February (Dry Season, High Tourism):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Warm and sunny in most regions, especially on the Caribbean coast. This is peak travel time with higher prices and crowded destinations—best avoided if you want a quieter, more affordable experience.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'March–May (Shoulder Season, Start of Rains):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Pleasant temperatures and fewer tourists. Occasional rain brings lush landscapes, especially in the Andes and Amazon. Great for budget travelers and those seeking authentic local life.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'June–August (Dry Season, Local Holidays):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Another busy period, especially in cities like Bogotá and Medellín due to school breaks. Popular sites can get crowded and prices rise. Consider exploring lesser-known towns or rural areas for a more relaxed vibe.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              September–November (Shoulder Season, Green
+                              Landscapes):
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Rainy in many regions, but this means vibrant nature and fewer crowds. Ideal for eco explorers—bird migrations and reforestation events are common. Pack for wet weather and enjoy lower costs.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Community Festivals & Events:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Barranquilla Carnival (February/March)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Medellín’s Feria de las Flores (August)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Local reforestation days and indigenous
+                              celebrations (varies by region)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For a sustainable trip, aim for the shoulder seasons
+                          (March–May, September–November) to avoid over-tourism,
+                          support local communities, and experience Colombia’s
+                          authentic spirit.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        officialName:
+          type: text
+          value: Republic of Colombia
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

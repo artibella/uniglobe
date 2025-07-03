@@ -1,5 +1,5 @@
-created: '2024-11-25T12:45:01.849119+00:00'
-modified: '2025-03-03T10:24:15.132598+00:00'
+created: '2025-05-13T15:51:20.629707+00:00'
+modified: '2025-05-21T11:16:01.084353+00:00'
 pattern: false
 entry:
   _id: f9245328-a695-4e7a-882d-178d4084c4ca
@@ -64,7 +64,6 @@ entry:
                 type: text
                 value: Photo by Cosmin Georgian on Unsplash
             _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
-      value: []
     title:
       type: text
       locales:

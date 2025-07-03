@@ -1,0 +1,116 @@
+composition:
+  _name: Post detail page
+  _id: 6149fadc-360b-4647-9006-45f0f8e4b8c2
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Blog post by Slug Content/entry/fields/title/value}
+        en-US: ${#jptr:/Blog post by Slug Content/entry/fields/title/value}
+    openGraphImage:
+      type: asset
+      value: ${#jptr:/Blog post by Slug Content/entry/fields/featuredImage/value}
+    pageMetaDescription:
+      type: text
+      locales:
+        de-DE: >-
+          ${#jptr:/Blog post by Slug
+          Content/entry/fields/seoMetadata/value/0/fields/metaDescription/value}
+        en-US: >-
+          ${#jptr:/Blog post by Slug
+          Content/entry/fields/seoMetadata/value/0/fields/metaDescription/value}
+    openGraphDescription:
+      type: text
+      locales:
+        de-DE: >-
+          ${#jptr:/Blog post by Slug
+          Content/entry/fields/seoMetadata/value/0/fields/metaDescription/value}
+        en-US: >-
+          ${#jptr:/Blog post by Slug
+          Content/entry/fields/seoMetadata/value/0/fields/metaDescription/value}
+  slots:
+    pageFooter:
+      - _id: e474827e-d5f4-48aa-9586-eee8ada6900b
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 46e353f1-3406-43b5-b99e-7771d6157ea9
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 82cb92a6-1abf-43ab-8fe1-3d7db38a70be
+        type: hero
+        variant: imageRight
+        parameters:
+          image:
+            type: asset
+            value: >-
+              ${#jptr:/Blog post by Slug
+              Content/entry/fields/featuredImage/value}
+          title:
+            type: text
+            value: ${#jptr:/Blog post by Slug Content/entry/fields/title/value}
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            value: ${#jptr:/Blog post by Slug Content/entry/fields/excerpt/value}
+          eyebrowText:
+            type: text
+            value: >-
+              ${#jptr:/Blog post by Slug
+              Content/entry/fields/categories/value/0/entry/fields/title/value}
+          paddingBottom:
+            type: select
+            value: None
+          textColorVariant:
+            type: select
+            value: Dark
+      - _id: a8089b86-d798-4ca8-8b8b-4e1a07f9d2fa
+        type: container
+        slots:
+          container-inner:
+            - _id: 2ba376b2-1133-4f0e-93d6-8b77f510ec8b
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  value: >-
+                    ${#jptr:/Blog post by Slug
+                    Content/entry/fields/introduction/value}
+              _overridability:
+                hideLockedParameters: true
+            - _id: 327510cc-5789-4788-8929-c7d5df8859ea
+              type: richText
+              parameters:
+                content:
+                  type: richText
+                  value: ${#jptr:/Blog post by Slug Content/entry/fields/body/value}
+              _overridability:
+                hideLockedParameters: true
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Blog post by Slug Content:
+      type: blogPostBySlug
+      variables:
+        slug: hidden-gems-in-southeast-asia-off-the-beaten-path
+        locale: ${locale}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+created: '2025-05-21T10:43:01.317561+00:00'
+modified: '2025-05-21T10:51:26.769275+00:00'
+pattern: true

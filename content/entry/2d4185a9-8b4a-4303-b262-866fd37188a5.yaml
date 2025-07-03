@@ -1,5 +1,5 @@
-created: '2025-04-04T14:23:53.432741+00:00'
-modified: '2025-04-04T15:16:31.619939+00:00'
+created: '2025-05-13T15:51:15.270631+00:00'
+modified: '2025-05-21T11:16:08.21973+00:00'
 pattern: false
 entry:
   _id: 2d4185a9-8b4a-4303-b262-866fd37188a5
@@ -61,7 +61,6 @@ entry:
                   traditional Japanese architecture under a vibrant sky. - Photo
                   by Kyle Kroeger on Pexels
             _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
-      value: []
     title:
       type: text
       locales:

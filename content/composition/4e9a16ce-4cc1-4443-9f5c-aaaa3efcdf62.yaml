@@ -88,8 +88,8 @@ composition:
           locales:
             de-DE:
               path: >-
-                /${locale}/destinations/${#jptr:/Featured countries entries Loop
-                Item/entry/_slug}
+                /${locale}/reiseziele/:region/${#jptr:/Featured countries
+                entries Loop Item/entry/_slug}
               type: projectMapNode
               nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -114,6 +114,6 @@ composition:
     - en-US
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
-created: '2025-01-20T21:06:51.708937+00:00'
-modified: '2025-01-20T21:32:41.027205+00:00'
+created: '2025-05-13T15:50:55.418084+00:00'
+modified: '2025-05-13T15:50:55.418084+00:00'
 pattern: false

@@ -1,0 +1,1546 @@
+created: '2025-05-21T10:13:23.651885+00:00'
+modified: '2025-05-21T11:15:59.94641+00:00'
+pattern: false
+entry:
+  _id: 305c9a69-e5cd-4488-8f96-e0fb09a260a9
+  _name: 'Hidden Trails of Southeast Asia: Discover the Region’s Most...'
+  _slug: hidden-gems-in-southeast-asia-off-the-beaten-path
+  _thumbnail: >-
+    https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/zPhGkVnISgaQYGerZTm-lQ-photo-1506918357967-b358ad447c56
+  type: blogPosts
+  fields:
+    body:
+      type: richText
+      locales:
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      10 Versteckte Juwelen in Südostasien: Reiseziele abseits
+                      der Massen
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Südostasien steckt voller geheimer Orte, die dir
+                      einzigartige Abenteuer fernab der typischen Touristenpfade
+                      bieten. Hier sind zehn coole Geheimtipps, die du unbedingt
+                      auf deine Bucket List setzen solltest:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 1. Koh Phayam, Thailand
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Koh Phayam ist eine chillige Insel im Andamanensee, ganz
+                      im Süden Thailands bei Ranong. Im Gegensatz zu Hotspots
+                      wie Phuket oder Koh Samui ist hier alles noch total
+                      entspannt und unberührt. Du findest leere, puderweiße
+                      Strände wie Ao Yai und Ao Kao Kwai, Hängematten unter
+                      Palmen und kristallklares Wasser. Die Unterkünfte sind
+                      meist einfache Bungalows oder nachhaltige Eco-Resorts –
+                      perfekt, um mal richtig abzuschalten.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Highlights: Die Insel mit dem Roller erkunden, in
+                      verrückten Hippie-Bars abhängen und epische
+                      Sonnenuntergänge genießen. Beste Reisezeit: November bis
+                      April, wenn das Wetter trocken und das Meer ruhig ist. Wer
+                      Ruhe, Natur und Slow Life sucht, ist hier goldrichtig.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 2. Sulawesi, Indonesien
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Sulawesi ist eine der spannendsten Inseln Indonesiens –
+                      mit krassen Landschaften, vielen Kulturen und einigen der
+                      besten Tauchspots der Welt. Besonders bekannt sind die
+                      Toraja-Berge mit ihren traditionellen Häusern und
+                      spektakulären Begräbnisritualen. Im Norden wartet der
+                      Bunaken Nationalpark mit bunten Korallenriffen und mega
+                      Unterwasserwelt auf dich.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Weitere Highlights: Die Traumstrände der Togean-Inseln,
+                      mysteriöse Steinskulpturen im Lore Lindu Nationalpark und
+                      die coole Stadt Makassar. Beste Reisezeit: Juni bis
+                      September (trocken und perfekt zum Tauchen oder Wandern).
+                      Für Abenteurer ein echtes Paradies!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 3. Penang, Malaysia
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Penang wird oft von Kuala Lumpur oder Langkawi
+                      überschattet, ist aber ein echtes Kultur- und
+                      Food-Highlight an der Nordwestküste Malaysias. Die
+                      Hauptstadt George Town ist UNESCO-Weltkulturerbe, berühmt
+                      für bunte Streetart, Kolonialbauten und lebendige Märkte.
+                      Foodies lieben Penang für legendäre Streetfood-Stände mit
+                      Gerichten wie Char Kway Teow, Asam Laksa oder Nasi Kandar.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Abseits der Stadt kannst du im Penang Nationalpark zu
+                      versteckten Stränden wandern oder die grünen Botanischen
+                      Gärten besuchen. Festivals wie das George Town Festival
+                      oder das chinesische Neujahr sind ein echtes Erlebnis.
+                      Penang geht das ganze Jahr, aber Dezember bis März ist
+                      besonders angenehm.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 4. Koh Rong, Kambodscha
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Koh Rong ist Kambodschas Inselparadies: weiße Strände,
+                      türkisblaues Wasser und entspannte Vibes. Die Insel liegt
+                      bei Sihanoukville und ist noch recht ursprünglich. Du
+                      kannst schnorcheln, Kajak fahren, durch Mangroven paddeln
+                      oder zu einsamen Buchten wandern.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Das absolute Highlight: Nachts leuchtet das Meer durch
+                      biolumineszentes Plankton – richtig magisch! Beste
+                      Reisezeit: November bis Mai (trocken und ruhiges Meer).
+                      Perfekt zum Runterkommen und Entdecken.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 5. Nong Khiaw, Laos
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Nong Khiaw ist ein kleines Dorf am Nam Ou Fluss im Norden
+                      von Laos, umgeben von steilen Kalksteinbergen und
+                      Dschungel. Outdoor-Fans können hier zu Aussichtspunkten
+                      wie dem Pha Daeng Peak wandern, Bootstouren zu abgelegenen
+                      Dörfern machen oder versteckte Höhlen erkunden.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Außerdem kannst du das echte Dorfleben und leckere
+                      laotische Küche erleben. Beste Reisezeit: Oktober bis März
+                      (kühl und trocken, ideal zum Wandern und für Flusstouren).
+                      Für alle, die Natur und Abenteuer lieben!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 6. Ha Giang, Vietnam
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Die Provinz Ha Giang im Norden Vietnams ist bekannt für
+                      ihre atemberaubenden Berge und die bunte Kultur der
+                      Minderheiten. Die Ha Giang Loop – eine Motorradroute durch
+                      krasse Felslandschaften, Reisterrassen und Dörfer – gilt
+                      als eine der schönsten Roadtrips in Südostasien.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Highlights: Das Dong Van Karst Plateau, der bunte
+                      Sonntagsmarkt in Meo Vac und der Ma Pi Leng Pass mit
+                      Wahnsinnsausblicken. Beste Reisezeit: September bis
+                      November (goldene Reisfelder, angenehmes Wetter). Für
+                      Abenteuerlustige ein absolutes Muss!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 7. Siquijor, Philippinen
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Siquijor, auch „Insel des Feuers“ genannt, ist voller
+                      Magie und Natur. Die Insel liegt in den Visayas und ist
+                      bekannt für weiße Strände, Wasserfälle wie Cambugahay
+                      Falls und uralte Balete-Bäume. Es gibt viele Geschichten
+                      über Heiler und mystische Rituale – super spannend!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Tauchen und Schnorcheln sind hier top, und die entspannte
+                      Atmosphäre ist perfekt zum Chillen. Beste Reisezeit: März
+                      bis Mai (trocken und sonnig).
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 8. Bagan, Myanmar
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Bagan ist eine uralte Stadt am Irrawaddy-Fluss mit
+                      tausenden Tempeln und Pagoden aus dem 9. Jahrhundert. Noch
+                      nicht so überlaufen wie andere Highlights in Südostasien,
+                      aber mega beeindruckend! Am besten erkundest du die Tempel
+                      mit dem Fahrrad oder E-Bike und genießt Sonnenauf- oder
+                      -untergänge über den Pagoden.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ein besonderes Erlebnis: Eine Fahrt mit dem Heißluftballon
+                      über die Tempellandschaft (November bis Februar, wenn es
+                      kühl und trocken ist). Für Kulturfans und Fotografen ein
+                      Traum!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 9. Kep, Kambodscha
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Kep ist ein verschlafenes Küstenstädtchen im Süden
+                      Kambodschas, bekannt für frische Meeresfrüchte, alte
+                      Kolonialvillen und entspannte Stimmung. Unbedingt den
+                      berühmten Krabbenmarkt besuchen und Krabben mit
+                      Kampot-Pfeffer probieren! Im Kep Nationalpark kannst du
+                      wandern und die Aussicht genießen.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Mit dem Boot bist du schnell auf Rabbit Island (Koh
+                      Tonsay) – relaxte Strände und leckeres Seafood inklusive.
+                      Beste Reisezeit: November bis April (trocken und ruhiges
+                      Meer).
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 10. Champasak, Laos
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Champasak ist ein ruhiges Städtchen am Mekong im Süden von
+                      Laos, bekannt für den UNESCO-Tempel Wat Phou – älter als
+                      Angkor Wat und super spannend für Geschichts- und
+                      Kulturfans. Die Stadt selbst ist entspannt, mit alten
+                      Kolonialhäusern und chilliger Atmosphäre.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Außerdem ist Champasak das Tor zu den 4.000 Inseln (Si
+                      Phan Don), wo du Flussinseln erkunden, seltene
+                      Irrawaddy-Delfine sehen und durch die Landschaft radeln
+                      kannst. Beste Reisezeit: November bis Februar (kühl und
+                      angenehm).
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Diese Geheimtipps zeigen, wie vielfältig und spannend
+                      Südostasien abseits der bekannten Routen ist. Egal ob
+                      Abenteuer, Kultur oder Entspannung – hier findest du
+                      unvergessliche Erlebnisse fernab der Massen!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      10 Hidden Gems in Southeast Asia: Off-the-Beaten-Path
+                      Destinations
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Southeast Asia is a treasure trove of lesser-known
+                      destinations that offer unique experiences far from the
+                      usual tourist crowds. Here are ten hidden gems across the
+                      region that deserve a spot on your travel bucket list:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 1. Koh Phayam, Thailand
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Koh Phayam is a tranquil island in the Andaman Sea,
+                      located off the coast of Ranong in southern Thailand.
+                      Unlike its more famous neighbors, such as Phuket or Koh
+                      Samui, Koh Phayam remains blissfully undeveloped. The
+                      island is known for its empty, powdery beaches like Ao Yai
+                      and Ao Kao Kwai, where you can relax in a hammock or swim
+                      in crystal-clear waters. Rustic bungalows and eco-friendly
+                      resorts dot the shoreline, offering a laid-back atmosphere
+                      perfect for disconnecting from the world.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Highlights include exploring the island by motorbike,
+                      visiting the quirky hippie bars, and watching stunning
+                      sunsets over the Andaman Sea. The best time to visit is
+                      between November and April, when the weather is dry and
+                      the sea is calm. If you’re seeking peace, natural beauty,
+                      and a slower pace of life, Koh Phayam is the perfect
+                      escape from Thailand’s busier islands.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 2. Sulawesi, Indonesia
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Sulawesi is one of Indonesia’s most unique islands,
+                      boasting dramatic landscapes, diverse cultures, and some
+                      of the world’s best diving sites. The island is famous for
+                      the Toraja highlands, where you can witness elaborate
+                      funeral ceremonies and see traditional tongkonan houses
+                      with their distinctive boat-shaped roofs. In the north,
+                      Bunaken National Park offers spectacular coral reefs
+                      teeming with marine life, making it a paradise for divers
+                      and snorkelers.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Other highlights include the pristine beaches of Togean
+                      Islands, the mysterious megaliths of Lore Lindu National
+                      Park, and the vibrant city of Makassar. Sulawesi is best
+                      visited during the dry season from June to September, when
+                      conditions are ideal for trekking and diving. Adventurous
+                      travelers will find Sulawesi a rewarding destination full
+                      of cultural and natural wonders.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 3. Penang, Malaysia
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Penang, often overshadowed by Kuala Lumpur or Langkawi, is
+                      a cultural and culinary gem on Malaysia’s northwest coast.
+                      The island’s capital, George Town, is a UNESCO World
+                      Heritage Site known for its colorful street art, colonial
+                      architecture, and vibrant markets. Food lovers flock to
+                      Penang for its legendary hawker stalls, serving up dishes
+                      like char kway teow, asam laksa, and nasi kandar.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Beyond the city, you can hike through Penang National Park
+                      to reach secluded beaches or visit the lush Penang Botanic
+                      Gardens. The island also hosts lively festivals such as
+                      George Town Festival and Chinese New Year celebrations.
+                      Penang is a year-round destination, but the dry months
+                      from December to March are particularly pleasant for
+                      exploring on foot or bicycle.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 4. Koh Rong, Cambodia
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Koh Rong is Cambodia’s answer to paradise, with its
+                      pristine white-sand beaches, turquoise waters, and relaxed
+                      island vibe. Located off the coast of Sihanoukville, Koh
+                      Rong has limited development, making it ideal for
+                      travelers seeking a more rustic and authentic experience.
+                      Activities include snorkeling among vibrant coral reefs,
+                      kayaking through mangroves, and hiking to secluded bays.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      One of the island’s highlights is the bioluminescent
+                      plankton that lights up the water at night—a magical sight
+                      best seen during the new moon. The best time to visit Koh
+                      Rong is from November to May, when the weather is dry and
+                      the sea is calm. Whether you’re looking to unwind or
+                      explore, Koh Rong offers a peaceful retreat away from the
+                      crowds.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 5. Nong Khiaw, Laos
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Nestled on the banks of the Nam Ou River, Nong Khiaw is a
+                      picturesque town in northern Laos surrounded by towering
+                      limestone mountains and lush jungle. The area is a haven
+                      for outdoor enthusiasts, with opportunities for hiking to
+                      viewpoints like Pha Daeng Peak, taking river cruises to
+                      remote villages, and exploring hidden caves.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Nong Khiaw is also a great place to experience authentic
+                      Lao village life and sample local cuisine. The best time
+                      to visit is from October to March, when the weather is
+                      cool and dry, making it ideal for trekking and river
+                      activities. Nong Khiaw’s tranquil setting and stunning
+                      scenery make it a must-visit for those seeking peace and
+                      adventure in equal measure.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 6. Ha Giang, Vietnam
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ha Giang province is a remote region in northern Vietnam,
+                      renowned for its breathtaking mountain scenery and vibrant
+                      ethnic minority cultures. The Ha Giang Loop, a motorbike
+                      route that winds through dramatic limestone peaks,
+                      terraced rice fields, and traditional villages, is
+                      considered one of the most spectacular road trips in
+                      Southeast Asia.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Highlights include the Dong Van Karst Plateau Geopark, the
+                      colorful Meo Vac Sunday market, and the Ma Pi Leng Pass,
+                      which offers jaw-dropping views over the Nho Que River.
+                      The best time to visit Ha Giang is from September to
+                      November, when the rice terraces turn golden and the
+                      weather is cool. For adventurous travelers, Ha Giang
+                      promises an unforgettable journey off the beaten path.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 7. Siquijor, Philippines
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Siquijor, often called the “Island of Fire,” is shrouded
+                      in mystical folklore and natural beauty. Located in the
+                      central Visayas, the island is famous for its white-sand
+                      beaches, enchanting waterfalls like Cambugahay Falls, and
+                      centuries-old balete trees. Siquijor is also known for its
+                      traditional healers and spiritual rituals, adding an air
+                      of mystery to your visit.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Diving and snorkeling are popular activities, with vibrant
+                      coral reefs and marine sanctuaries to explore. The
+                      island’s laid-back vibe makes it perfect for those seeking
+                      relaxation and a slower pace of life. The best time to
+                      visit is from March to May, during the dry season, when
+                      the seas are calm and the weather is sunny.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 8. Bagan, Myanmar
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Bagan is an ancient city on the banks of the Irrawaddy
+                      River, home to thousands of temples and pagodas that date
+                      back to the 9th century. While not entirely unknown, Bagan
+                      remains less visited than other Southeast Asian wonders,
+                      offering a magical and serene atmosphere. Exploring the
+                      temple plain by bicycle or e-bike is a highlight, allowing
+                      you to discover hidden gems and watch the sunrise or
+                      sunset over the spires.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Hot air balloon rides offer a breathtaking perspective of
+                      the landscape, especially during the cool, dry season from
+                      November to February. Bagan’s rich history, spiritual
+                      ambiance, and stunning vistas make it a must-see for
+                      culture lovers and photographers alike.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 9. Kep, Cambodia
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Kep is a sleepy coastal town in southern Cambodia, known
+                      for its fresh seafood, colonial-era ruins, and laid-back
+                      charm. The town’s famous crab market is a must-visit,
+                      where you can sample freshly caught crab cooked with local
+                      Kampot pepper. Nearby, Kep National Park offers scenic
+                      hiking trails with panoramic views of the coastline and
+                      surrounding countryside.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      A short boat ride takes you to Rabbit Island (Koh Tonsay),
+                      where you can relax on quiet beaches and enjoy simple
+                      seafood meals. The best time to visit Kep is from November
+                      to April, when the weather is dry and the sea is calm.
+                      Kep’s relaxed pace and natural beauty make it an ideal
+                      destination for a peaceful getaway.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 10. Champasak, Laos
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Champasak is a riverside town in southern Laos, best known
+                      for the UNESCO-listed Wat Phou temple complex. This
+                      ancient Khmer site predates Angkor Wat and offers a
+                      fascinating glimpse into the region’s history and
+                      spirituality. The town itself is quiet and charming, with
+                      colonial-era buildings and a relaxed atmosphere.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Champasak is also a gateway to the 4,000 Islands (Si Phan
+                      Don) region, where you can explore river islands, spot
+                      rare Irrawaddy dolphins, and cycle through rural
+                      landscapes. The best time to visit is from November to
+                      February, when the weather is cool and pleasant. For
+                      culture and nature lovers, Champasak is a perfect stop on
+                      a southern Laos adventure.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      These hidden gems showcase the diversity and beauty of
+                      Southeast Asia beyond the usual hotspots. Whether you’re
+                      seeking adventure, culture, or relaxation, these
+                      destinations promise unforgettable experiences off the
+                      beaten path.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    title:
+      type: text
+      locales:
+        de-DE: >-
+          Verborgene Pfade Südostasiens: Entdecke die unterschätztesten
+          Reiseziele der Region
+        en-US: >-
+          Hidden Trails of Southeast Asia: Discover the Region’s Most Underrated
+          Destinations
+    excerpt:
+      type: text
+      locales:
+        de-DE: >-
+          Entfliehe den Massen und entdecke Südostasiens bestgehütete
+          Geheimtipps. Von ruhigen Inseln bis zu alten Tempelstädten – diese 10
+          versteckten Juwelen versprechen authentische Abenteuer und
+          unvergessliche Landschaften abseits der bekannten Pfade.
+        en-US: >-
+          Escape the crowds and uncover Southeast Asia’s best-kept secrets with
+          our guide to 10 hidden gems. From tranquil islands and ancient temple
+          towns to dramatic highland landscapes, these off-the-beaten-path
+          destinations promise authentic adventures and unforgettable
+          experiences.
+    categories:
+      type: contentReference
+      value: ${#jptr:/ref-305c9a69-e5cd-4488-8f96-e0fb09a260a9-categories/entries}
+    enrichments:
+      type: $enr
+      value:
+        - cat: '7'
+          key: res
+          str: 50
+        - cat: dest
+          key: asia
+          str: 50
+        - cat: '7'
+          key: drm
+          str: 50
+        - cat: profile
+          key: genz
+          str: 10
+    seoMetadata:
+      type: $block
+      value:
+        - _id: a4c40bbb-d395-4118-836b-84a0cd105a3b
+          type: seoMetadata
+          fields:
+            metaTitle:
+              type: text
+              locales:
+                de-DE: >-
+                  10 Hidden Gems in Southeast Asia: Off-the-Beaten-Path
+                  Destinations for Adventurous Travelers
+                en-US: >-
+                  10 Hidden Gems in Southeast Asia: Off-the-Beaten-Path
+                  Destinations for Adventurous Travelers
+            metaDescription:
+              type: text
+              locales:
+                de-DE: >-
+                  Uncover 10 hidden gems in Southeast Asia—tranquil islands,
+                  remote towns, and ancient temples—perfect for adventurous
+                  travelers seeking authentic escapes.
+                en-US: >-
+                  Uncover 10 hidden gems in Southeast Asia—tranquil islands,
+                  remote towns, and ancient temples—perfect for adventurous
+                  travelers seeking authentic escapes.
+    introduction:
+      type: richText
+      locales:
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Südostasien steckt voller geheimer Orte, die weit über die
+                      bekannten Touristen-Hotspots hinausgehen. Während Städte
+                      wie Bangkok, Bali oder Singapur oft im Rampenlicht stehen,
+                      gibt es in der Region unzählige versteckte Inseln,
+                      abgelegene Bergdörfer und kulturelle Schätze, die dir ein
+                      viel authentischeres und abenteuerlicheres Reiseerlebnis
+                      bieten.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In diesem Guide nehmen wir dich mit zu zehn der coolsten,
+                      aber oft übersehenen Reiseziele in Südostasien. Von
+                      entspannten Inseln in Thailand und mystischen Geheimtipps
+                      auf den Philippinen bis hin zu alten Tempelstädten und
+                      atemberaubenden Berglandschaften – diese Orte abseits der
+                      Massen versprechen dir einzigartige Abenteuer, krasse
+                      Natur und die Chance, das echte Leben vor Ort
+                      kennenzulernen.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Egal, ob du schon ein echter Globetrotter bist oder gerade
+                      deine erste große Reise planst: Mach dich bereit, die
+                      verborgenen Pfade Südostasiens zu entdecken – und fülle
+                      deine Bucket List mit neuen, unvergesslichen Spots!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Southeast Asia is a treasure trove of hidden destinations
+                      that go far beyond the usual tourist hotspots. While
+                      cities like Bangkok, Bali, and Singapore often steal the
+                      spotlight, the region is dotted with lesser-known islands,
+                      remote mountain towns, and cultural gems that offer a more
+                      authentic and adventurous travel experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In this guide, we’ll take you on a journey to ten of
+                      Southeast Asia’s most underrated destinations. From
+                      tranquil Thai islands and mystical Philippine hideaways to
+                      ancient temple towns and dramatic highland landscapes,
+                      these off-the-beaten-path spots promise unique adventures,
+                      breathtaking scenery, and a chance to connect with local
+                      cultures away from the crowds.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Whether you’re a seasoned explorer or planning your first
+                      trip to the region, get ready to discover the hidden
+                      trails of Southeast Asia—and add some unforgettable new
+                      places to your travel bucket list.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    featuredImage:
+      type: asset
+      locales:
+        de-DE:
+          - _id: 5ea733b2-f1a4-4ba9-8b13-f3278f2fdb15
+            type: image
+            fields:
+              id:
+                type: text
+                value: c9556355-d04b-4abe-ae4f-851c84bd76d2
+              url:
+                value: >-
+                  https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/zPhGkVnISgaQYGerZTm-lQ-photo-1506918357967-b358ad447c56
+                type: text
+              file:
+                type: file
+                value: 40334f40-9aef-4c65-b4de-6e63a085f876
+              size:
+                value: 1138813
+                type: number
+              title:
+                type: text
+                value: aerial photography of sea beside green trees during daytime
+              width:
+                value: 3000
+                type: number
+              height:
+                value: 2000
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+        en-US:
+          - _id: 52960e43-a51a-4ddd-9b95-21f5b9427abf
+            type: image
+            fields:
+              id:
+                type: text
+                value: c9556355-d04b-4abe-ae4f-851c84bd76d2
+              url:
+                value: >-
+                  https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/zPhGkVnISgaQYGerZTm-lQ-photo-1506918357967-b358ad447c56
+                type: text
+              file:
+                type: file
+                value: 40334f40-9aef-4c65-b4de-6e63a085f876
+              size:
+                value: 1138813
+                type: number
+              title:
+                type: text
+                value: aerial photography of sea beside green trees during daytime
+              width:
+                value: 3000
+                type: number
+              height:
+                value: 2000
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+  _dataResources:
+    ref-305c9a69-e5cd-4488-8f96-e0fb09a260a9-categories:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 4a79a8b5-43b8-49bd-acd9-c255f3eaf3d6
+  _locales:
+    - de-DE
+    - en-US

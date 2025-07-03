@@ -1,5 +1,5 @@
-created: '2024-08-21T13:15:35.435656+00:00'
-modified: '2025-05-05T07:54:26.613051+00:00'
+created: '2025-05-13T15:51:16.936211+00:00'
+modified: '2025-05-21T11:16:07.568595+00:00'
 pattern: false
 entry:
   _id: 035a64b1-730e-444c-921a-431bc2712e14
@@ -201,58 +201,7 @@ entry:
                     type: text
                     value: 'Copright: Sumit Chinchane'
                 _source: custom-url
-            en-US:
-              - _id: 53036598-f75f-4c68-8f78-b9b6f2ffa909
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NDQwOTg1MTJ8MA&ixlib=rb-4.0.3&q=85
-                  title:
-                    type: text
-                    value: five brown wooden boats
-                  width:
-                    type: number
-                    value: 4439
-                  custom:
-                    type: object
-                    value:
-                      color: '#0c59c0'
-                      apiUrl: >-
-                        https://api.unsplash.com/photos/five-brown-wooden-boats-jWKk-0ZBUyg
-                      blurHash: LbD0[^TMtQe,5exaRPjYrVM_t7f-
-                      sourceId: jWKk-0ZBUyg
-                      createdAt: '2019-03-13T08:17:53Z'
-                      detailUrl: >-
-                        https://unsplash.com/photos/five-brown-wooden-boats-jWKk-0ZBUyg
-                      updatedAt: '2025-04-08T07:43:47Z'
-                      authorName: Sumit Chinchane
-                      downloadUrl: >-
-                        https://unsplash.com/photos/jWKk-0ZBUyg/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NDQwOTg1MTJ8MA
-                      photoRawUrl: >-
-                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NDQwOTg1MTJ8MA&ixlib=rb-4.0.3
-                      photoFullUrl: >-
-                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NDQwOTg1MTJ8MA&ixlib=rb-4.0.3&q=85
-                      photoSmallUrl: >-
-                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NDQwOTg1MTJ8MA&ixlib=rb-4.0.3&q=80&w=400
-                      photoThumbUrl: >-
-                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NDQwOTg1MTJ8MA&ixlib=rb-4.0.3&q=80&w=200
-                      authorUsername: sumit_ac
-                      photoRegularUrl: >-
-                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NDQwOTg1MTJ8MA&ixlib=rb-4.0.3&q=80&w=1080
-                      authorProfileUrl: https://unsplash.com/@sumit_ac
-                      downloadLocation: >-
-                        https://api.unsplash.com/photos/jWKk-0ZBUyg/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NDQwOTg1MTJ8MA
-                      authorProfileImage: >-
-                        https://images.unsplash.com/placeholder-avatars/extra-large.jpg?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
-                  height:
-                    type: number
-                    value: 3072
-                  description:
-                    type: text
-                    value: Photo by Sumit Chinchane on Unsplash
-                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            en-US: []
             it-IT:
               - _id: d12aff46-dffb-472c-8ebf-7865c1aeb246
                 type: image

@@ -1,5 +1,5 @@
-created: '2024-11-05T10:25:38.04907+00:00'
-modified: '2025-03-27T18:41:00.776396+00:00'
+created: '2025-05-13T15:51:17.569365+00:00'
+modified: '2025-05-21T11:16:06.392366+00:00'
 pattern: false
 entry:
   _id: 4fc2e1e7-9d95-4d9f-b59d-80940da769d6
@@ -115,7 +115,6 @@ entry:
                   Iconic tuk tuks parked on a bustling street in Bangkok,
                   Thailand - Photo by Martin  Péchy on Pexels
             _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
-      value: []
     teaserText:
       type: text
       locales:

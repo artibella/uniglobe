@@ -1,0 +1,268 @@
+created: '2025-05-21T13:32:53.131786+00:00'
+modified: '2025-05-21T13:38:42.191191+00:00'
+pattern: false
+entry:
+  _id: b86ca2c3-2acf-4ba4-bedc-f4f8812ac39d
+  _name: Malaysia
+  _slug: malaysia
+  _thumbnail: https://flagcdn.com/my.svg
+  type: country
+  fields:
+    code:
+      type: text
+      value: MY
+    flag:
+      type: asset
+      value:
+        - _id: 6e619768-3576-453d-b393-be4b50d93e22
+          type: image
+          fields:
+            url:
+              type: text
+              value: https://flagcdn.com/my.svg
+          _source: custom-url
+    name:
+      type: text
+      locales:
+        en-US: Malaysia
+    images:
+      type: asset
+      locales:
+        en-US:
+          - _id: 8e96e80e-e20e-4653-9d50-5135a30912be
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.pexels.com/photos/462671/pexels-photo-462671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+              title:
+                type: text
+                value: >-
+                  Stunning night view of the illuminated Petronas Twin Towers in
+                  Kuala Lumpur with fountains in the foreground.
+              width:
+                type: number
+                value: 4801
+              custom:
+                type: object
+                value:
+                  sourceId: '462671'
+                  pexelsUrl: https://www.pexels.com/photo/petronas-tower-malaysia-462671/
+                  photoTinyUrl: >-
+                    https://images.pexels.com/photos/462671/pexels-photo-462671.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                  photographer: Ben Cheung
+                  photoLargeUrl: >-
+                    https://images.pexels.com/photos/462671/pexels-photo-462671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  photoSmallUrl: >-
+                    https://images.pexels.com/photos/462671/pexels-photo-462671.jpeg?auto=compress&cs=tinysrgb&h=130
+                  photoMediumUrl: >-
+                    https://images.pexels.com/photos/462671/pexels-photo-462671.jpeg?auto=compress&cs=tinysrgb&h=350
+                  photoLarge2xUrl: >-
+                    https://images.pexels.com/photos/462671/pexels-photo-462671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                  photographerUrl: https://www.pexels.com/@ben-cheung-140183
+                  photoPortraitUrl: >-
+                    https://images.pexels.com/photos/462671/pexels-photo-462671.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                  pexelsOriginalUrl: >-
+                    https://images.pexels.com/photos/462671/pexels-photo-462671.jpeg
+                  photoLandscapeUrl: >-
+                    https://images.pexels.com/photos/462671/pexels-photo-462671.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+              height:
+                type: number
+                value: 3016
+              description:
+                type: text
+                value: >-
+                  Stunning night view of the illuminated Petronas Twin Towers in
+                  Kuala Lumpur with fountains in the foreground. - Photo by Ben
+                  Cheung on Pexels
+            _source: pexels-07f3c968-5be2-4b61-8854-db3b0c57ae27
+    region:
+      type: contentReference
+      value: ${#jptr:/ref-b86ca2c3-2acf-4ba4-bedc-f4f8812ac39d-region/entries/0}
+    captial:
+      type: text
+      locales:
+        en-US: Kuala Lumpur
+    flagEmoji:
+      type: text
+      value: 🇲🇾
+    teaserText:
+      type: text
+      locales:
+        en-US: >-
+          Discover Malaysia’s vibrant mix of cultures, lush rainforests, and
+          community-run eco-lodges. Trek national parks, join local food tours,
+          and stay in rural homestays for an authentic, sustainable
+          adventure—affordable and far from the tourist crowds.
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Malaysia offers a vibrant mix of cultures, landscapes, and
+                      sustainable travel opportunities for independent
+                      explorers. The country’s extensive public
+                      transportation—like the KTM Komuter, LRT, and
+                      long-distance buses—makes it easy to travel affordably
+                      between bustling cities, lush rainforests, and tranquil
+                      islands. Community-based tourism thrives in places like
+                      the indigenous-run eco-lodges of Sabah and Sarawak, where
+                      you can support local livelihoods and learn about
+                      traditional ways of life. 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      For eco-conscious travelers, Malaysia’s national
+                      parks—such as Taman Negara and Penang National Park—offer
+                      guided treks, wildlife spotting, and conservation programs
+                      that directly benefit local communities. In Penang and
+                      Kuala Lumpur, join food tours led by local residents or
+                      take part in hands-on batik workshops to connect with
+                      Malaysia’s diverse heritage. Homestays in rural villages,
+                      like those in Kampungstay Desa Murni, provide immersive
+                      experiences and a chance to contribute to grassroots
+                      tourism initiatives.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Whether you’re hiking in the Cameron Highlands, exploring
+                      street art in George Town, or volunteering with turtle
+                      conservation projects on the east coast, Malaysia invites
+                      you to travel consciously, connect deeply, and discover
+                      authentic local life beyond the usual tourist trail.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    timeToVisit:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Malaysia’s tropical climate means it’s warm and humid
+                      year-round, with average temperatures between 25°C and
+                      32°C. The best time to visit is during the shoulder
+                      seasons: March to early June and September to early
+                      November. These months offer fewer crowds, lower prices,
+                      and a more relaxed vibe, especially in popular spots like
+                      Penang, the Perhentian Islands, and the Cameron
+                      Highlands. 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Avoid the peak tourist season from late November to
+                      February, when school holidays and major festivals like
+                      Chinese New Year can lead to crowded attractions and
+                      higher accommodation costs. The east coast islands
+                      (Perhentian, Redang, Tioman) are best visited from March
+                      to September, as the monsoon season (November to February)
+                      brings heavy rains and many eco-lodges close temporarily.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      For a deeper cultural experience, time your visit with
+                      local festivals such as Hari Raya Aidilfitri (dates vary),
+                      Thaipusam (January/February), or the George Town Festival
+                      (July/August), which celebrate Malaysia’s multicultural
+                      heritage. Eco-conscious travelers may want to join
+                      community-led conservation events, like turtle hatchling
+                      releases on the east coast (June–August) or reforestation
+                      projects in Borneo throughout the year.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    officialName:
+      type: text
+      value: Malaysia
+  _dataResources:
+    ref-b86ca2c3-2acf-4ba4-bedc-f4f8812ac39d-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
+  _locales:
+    - en-US

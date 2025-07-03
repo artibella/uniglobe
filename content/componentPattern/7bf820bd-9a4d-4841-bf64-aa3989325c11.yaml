@@ -55,6 +55,7 @@ composition:
                             Item/entry/fields/region/value/entry/fields/name/value}
                       image:
                         type: asset
+                        value: []
                         locales:
                           de-DE: >-
                             ${#jptr:/Featured countries entries Loop
@@ -62,7 +63,6 @@ composition:
                           en-US: >-
                             ${#jptr:/Featured countries entries Loop
                             Item/entry/fields/teaserImage/value}
-                        value: []
                       title:
                         type: text
                         locales:
@@ -87,8 +87,8 @@ composition:
                         locales:
                           de-DE:
                             path: >-
-                              /${locale}/destinations/${#jptr:/Featured
-                              countries entries Loop
+                              /${locale}/reiseziele/${#jptr:/Featured countries
+                              entries Loop
                               Item/entry/fields/region/value/entry/_slug}/${#jptr:/Featured
                               countries entries Loop Item/entry/_slug}
                             type: projectMapNode
@@ -232,6 +232,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-03-27T18:29:19.811927+00:00'
-modified: '2025-03-27T19:14:19.174233+00:00'
+created: '2025-05-13T15:50:52.367427+00:00'
+modified: '2025-05-13T15:50:52.367427+00:00'
 pattern: true

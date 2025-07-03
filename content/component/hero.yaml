@@ -1,5 +1,6 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://canary-pr-13585.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: >-
+  https://canary-pr-13585.pr.uniform.app/schemas/json-schema/component-definition/v1.json
 id: hero
 name: Hero
 icon: >-
@@ -26,6 +27,9 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Craft titles that are specific and compelling (50-70 characters). Use
+      sentence case for titles
     typeConfig:
       required: false
       multiline: true
@@ -39,6 +43,9 @@ parameters:
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Write descriptions that expand on the title's promise (100-250
+      characters). Use line breaks for paragraphs. no formatting is allowed
     typeConfig:
       required: false
       multiline: true
@@ -312,14 +319,22 @@ parameters:
     type: tp-play-animation-parameter
     typeConfig: null
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+description: >-
+  High-impact page header establishing main messaging. 
+
+
+  Keep eyebrow text brief (25-40 characters) and thematically connected to the
+  title. Craft titles that are specific and compelling (50-70 characters). Write
+  descriptions that expand on the title's promise (100-250 characters). Use
+  button text that clearly communicates the next action (3-5 words).
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Hero_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2024-01-15T09:26:43.56116+00:00'
-updated: '2024-09-19T09:35:35.499146+00:00'
+created: '2025-05-13T15:50:44.132297+00:00'
+updated: '2025-05-21T13:11:14.039262+00:00'
 variants:
   - id: imageLeft
     name: Image Left

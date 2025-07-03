@@ -1,7 +1,7 @@
 id: blogPosts
-name: Blog posts
-created: '2025-03-14T11:04:33.745697+00:00'
-updated: '2025-04-28T14:44:25.036153+00:00'
+name: Blog post
+created: '2025-05-13T15:51:10.990479+00:00'
+updated: '2025-05-21T13:26:12.871094+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
@@ -17,11 +17,18 @@ fields:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Create engaging headlines in sentence case (50-70 characters) that clearly
+      communicate value without clickbait tactics (e.g., "5 community-led tours
+      that support rainforest conservation in Costa Rica")
     typeConfig: null
     localizable: true
   - id: excerpt
     name: Excerpt
     type: text
+    guidance: >-
+      Write compelling summaries (40-60 words) that capture the essence of the
+      post and highlight the sustainability or authentic experience angle
     helpText: >-
       A brief teaser or summary designed to entice readers to click through to
       the full article
@@ -31,6 +38,9 @@ fields:
   - id: featuredImage
     name: Featured image
     type: asset
+    guidance: >-
+      Recommend authentic, non-staged imagery that shows real travel moments
+      rather than overly polished promotional photography
     typeConfig:
       allowedTypes:
         - image
@@ -46,6 +56,10 @@ fields:
   - id: introduction
     name: Introduction
     type: richText
+    guidance: >-
+      Craft opening paragraphs that establish context, communicate relevance to
+      environmentally conscious travelers, and preview the value readers will
+      gain
     typeConfig:
       elements:
         builtIn:
@@ -78,10 +92,13 @@ fields:
   - id: body
     name: Body
     type: richText
+    guidance: >-
+      Develop substantive content organized with scannable headings, featuring
+      practical information, first-hand perspectives, local insights, and
+      specific sustainability recommendation
     typeConfig:
       elements:
         builtIn:
-          - h1
           - h2
           - h3
           - h4
@@ -123,6 +140,9 @@ fields:
   - id: seoMetadata
     name: SEO metadata
     type: $block
+    guidance: >-
+      Incorporate search terms reflecting how eco-conscious Millennials and
+      Gen-Z travelers seek authentic experiences and sustainable options
     typeConfig:
       max: 1
       allowedTypes:
@@ -130,6 +150,9 @@ fields:
   - id: categories
     name: Categories
     type: contentReference
+    guidance: >-
+      Select the most relevant blog categories to help users discover related
+      content aligned with their specific interests
     typeConfig:
       max: 3
       isMulti: true
@@ -141,6 +164,12 @@ fields:
     typeConfig: null
 entryName: title
 thumbnailField: featuredImage
+description: >-
+  Contains travel articles, guides, and stories that educate and inspire
+  Uniglobe's target audience. Unlike conventional travel content, these posts
+  emphasize sustainable practices, authentic cultural connections,
+  budget-friendly options, and practical advice for independent travelers
+  seeking meaningful experiences.
 icon: file-document
 type: contentType
 permissions:

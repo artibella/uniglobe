@@ -1,5 +1,5 @@
-created: '2025-03-14T11:04:42.846251+00:00'
-modified: '2025-04-29T08:13:12.970499+00:00'
+created: '2025-05-13T15:51:16.549589+00:00'
+modified: '2025-05-21T11:15:50.64456+00:00'
 pattern: false
 entry:
   _id: 11d6ed21-9d24-4806-b974-e66aa37a010d
@@ -970,7 +970,6 @@ entry:
                           signs and people walking in Shinjuku, Japan. - Photo
                           by Aleksandar Pasaric on Pexels
                     _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
-              value: []
             openGraphTitle:
               type: text
               locales:
@@ -1098,7 +1097,6 @@ entry:
                   people walking in Shinjuku, Japan. - Photo by Aleksandar
                   Pasaric on Pexels
             _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
-      value: []
   _dataResources:
     ref-11d6ed21-9d24-4806-b974-e66aa37a010d-categories:
       type: uniformContentInternalReference

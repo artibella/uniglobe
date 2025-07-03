@@ -148,27 +148,30 @@ composition:
                                 type: text
                                 value: 2def1ae3-96b9-472d-bb8a-3b875185142f
                               url:
-                                type: text
                                 value: >-
-                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                                  https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/DI-nSRXZRCeCzu8wLKFrvQ-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                                type: text
                               file:
                                 type: file
                                 value: 7c0881b1-32bc-44cf-bac5-aff1f5610077
                               size:
-                                type: number
                                 value: 3328074
+                                type: number
                               title:
                                 type: text
-                                value: su-san-lee-E_eWwM29wfU-unsplash.jpg
+                                value: Kyoto temple over city
                               width:
-                                type: number
                                 value: 5911
-                              height:
                                 type: number
+                              height:
                                 value: 3941
+                                type: number
                               mediaType:
-                                type: text
                                 value: image/jpeg
+                                type: text
+                              description:
+                                type: text
+                                value: Su-san Lee, Unsplash
                             _source: uniform-assets
                     width:
                       type: number
@@ -202,32 +205,32 @@ composition:
                                 type: text
                                 value: eb2c3354-bb0c-4525-bc18-e0450a144eae
                               url:
-                                type: text
                                 value: >-
-                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/Z_wEljEOT5u2Im7fgSNO3Q-serey-kim-xjrvTc52xYc-unsplash.jpg
+                                  https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/JvU1rWHIQoCQu_Eiy6hSJA-serey-kim-xjrvTc52xYc-unsplash.jpg
+                                type: text
                               file:
                                 type: file
                                 value: 0ab5f483-3590-482c-b468-c11b2c386ea4
                               size:
-                                type: number
                                 value: 2918876
+                                type: number
                               title:
                                 type: text
                                 value: serey-kim-xjrvTc52xYc-unsplash.jpg
                               width:
-                                type: number
                                 value: 7708
-                              height:
                                 type: number
+                              height:
                                 value: 3036
+                                type: number
                               mediaType:
-                                type: text
                                 value: image/jpeg
+                                type: text
                               focalPoint:
-                                type: focalPoint
                                 value:
                                   x: 0.22
                                   'y': 0.49
+                                type: focalPoint
                             _source: uniform-assets
                     width:
                       type: number
@@ -253,29 +256,29 @@ composition:
                           type: text
                           value: c9556355-d04b-4abe-ae4f-851c84bd76d2
                         url:
-                          type: text
                           value: >-
-                            https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/V7LaplKlQXm6rE_JsKPfXg-photo-1506918357967-b358ad447c56
+                            https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/zPhGkVnISgaQYGerZTm-lQ-photo-1506918357967-b358ad447c56
+                          type: text
                         file:
                           type: file
                           value: 40334f40-9aef-4c65-b4de-6e63a085f876
                         size:
-                          type: number
                           value: 1138813
+                          type: number
                         title:
                           type: text
                           value: >-
                             aerial photography of sea beside green trees during
                             daytime
                         width:
-                          type: number
                           value: 3000
-                        height:
                           type: number
+                        height:
                           value: 2000
+                          type: number
                         mediaType:
-                          type: text
                           value: image/jpeg
+                          type: text
                       _source: uniform-assets
                     - _id: c8972cfe-ac1e-4683-a6dd-9816aabb1457
                       type: image
@@ -439,6 +442,6 @@ composition:
     - en-US
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
-created: '2024-11-08T14:38:18.10988+00:00'
-modified: '2025-04-28T10:45:21.633065+00:00'
+created: '2025-05-13T15:50:55.732949+00:00'
+modified: '2025-05-13T15:50:55.732949+00:00'
 pattern: false
