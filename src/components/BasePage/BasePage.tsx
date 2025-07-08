@@ -62,7 +62,8 @@ const PageContent: FC<Pick<BasePageProps, 'preview' | 'useUniformComposition' | 
         />
       );
     }
-    if (openGraphImage?.value) return <meta property="og:image" content={openGraphImage?.value as string} />;
+    if (openGraphImageSrc) return <meta property="og:image" content={openGraphImageSrc} />;
+    return null;
   };
 
   const renderTwitterImageElement = () => {
@@ -75,6 +76,7 @@ const PageContent: FC<Pick<BasePageProps, 'preview' | 'useUniformComposition' | 
       );
     }
     if (twitterImageSrc) return <meta property="twitter:image" content={twitterImageSrc} />;
+    return null;
   };
 
   const compositionHeader = composition?.slots?.pageHeader?.[0];

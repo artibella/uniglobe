@@ -30,6 +30,31 @@
             }
           ]
         },
+        "flashpacker": {
+          "inputs": [
+            {
+              "dim": "dest_asia"
+            },
+            {
+              "dim": "act_fod"
+            },
+            {
+              "dim": "ses_hol"
+            },
+            {
+              "dim": "act_spa"
+            },
+            {
+              "dim": "act_adv"
+            },
+            {
+              "dim": "profile_mil"
+            },
+            {
+              "dim": "style_lux"
+            }
+          ]
+        },
         "usersDACH": {
           "inputs": [
             {
