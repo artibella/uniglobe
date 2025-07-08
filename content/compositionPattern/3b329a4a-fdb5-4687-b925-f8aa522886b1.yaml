@@ -261,7 +261,7 @@ composition:
           locales:
             de-DE:
               path: >-
-                /${locale}/reiseziele/:region/${#jptr:/Featured countries
+                /${locale}/destinations/:region/${#jptr:/Featured countries
                 entries Loop Item/entry/_slug}
               type: projectMapNode
               nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
@@ -319,8 +319,8 @@ composition:
     - en-US
     - de-DE
     - it-IT
-created: '2025-05-13T15:50:53.603597+00:00'
-modified: '2025-05-13T15:50:53.603597+00:00'
+created: '2025-07-07T10:19:28.763314+00:00'
+modified: '2025-07-07T10:19:28.763314+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

@@ -1,8 +1,9 @@
 id: attraction
 name: Attraction
-created: '2024-11-25T12:44:23.972203+00:00'
-updated: '2025-03-27T15:14:53.905525+00:00'
-slugSettings: {}
+created: '2025-01-30T15:36:38.297323+00:00'
+updated: '2025-07-07T10:19:44.911253+00:00'
+slugSettings:
+  required: 'no'
 useTeamPermissions: true
 fields:
   - id: title

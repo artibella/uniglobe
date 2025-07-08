@@ -11,13 +11,13 @@ asset:
       value: Photo by Kum on Unsplash
     file:
       type: file
-      value: d1c8a5c6-6ea1-4e2a-aa32-06a10adacfb3
+      value: 164f9121-0737-431e-a6db-fc04c3283ac7
     mediaType:
       value: image/jpeg
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/hXku4GUnQEmrzlqs5GfBKw-sakura.jpg
+        https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/zKitmraKQaWRkXYv3R-fkA-sakura.jpg
       type: text
     size:
       value: 458525
@@ -29,5 +29,5 @@ asset:
       value: 1080
       type: number
     custom: {}
-created: '2024-10-11T14:30:00.155952+00:00'
-modified: '2024-10-11T14:30:59.37826+00:00'
+created: '2025-01-30T15:35:46.645929+00:00'
+modified: '2025-07-07T10:18:46.39614+00:00'

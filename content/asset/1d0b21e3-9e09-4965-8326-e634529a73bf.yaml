@@ -6,25 +6,6 @@ asset:
     title:
       type: text
       value: Google Play store button
-    file:
-      type: file
-      value: 73b5837c-0221-42c0-81a5-05f64d00ad8f
-    mediaType:
-      value: image/svg+xml
-      type: text
-    url:
-      value: >-
-        https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/XeitMCo-ScSJ--KwBcX42g-google-play-badge.svg
-      type: text
-    size:
-      value: 11823
-      type: number
-    width:
-      value: 128
-      type: number
-    height:
-      value: 128
-      type: number
     custom: {}
-created: '2025-05-13T15:43:33.497259+00:00'
-modified: '2025-05-13T15:50:10.118654+00:00'
+created: '2025-01-30T15:35:44.107439+00:00'
+modified: '2025-07-07T10:18:48.152029+00:00'

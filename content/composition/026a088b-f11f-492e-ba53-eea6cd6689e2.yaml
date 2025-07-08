@@ -94,7 +94,7 @@ composition:
           locales:
             de-DE:
               path: >-
-                /${locale}/reiseziele/:region/${#jptr:/Featured countries
+                /${locale}/destinations/:region/${#jptr:/Featured countries
                 entries Loop Item/entry/_slug}
               type: projectMapNode
               nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
@@ -120,6 +120,6 @@ composition:
     - en-US
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
-created: '2025-05-13T15:50:54.990641+00:00'
-modified: '2025-05-13T15:50:54.990641+00:00'
+created: '2025-01-30T15:36:19.949142+00:00'
+modified: '2025-07-07T10:19:33.073776+00:00'
 pattern: false

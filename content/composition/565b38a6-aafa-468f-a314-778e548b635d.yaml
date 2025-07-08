@@ -149,7 +149,7 @@ composition:
                                 value: 2def1ae3-96b9-472d-bb8a-3b875185142f
                               url:
                                 value: >-
-                                  https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/fWOm9UUqSwq1EHWVdoY5fg-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                                  https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/BlJgki-lTn2UoH_TPauxNQ-su-san-lee-E_eWwM29wfU-unsplash.jpg
                                 type: text
                               file:
                                 type: file
@@ -206,7 +206,7 @@ composition:
                                 value: eb2c3354-bb0c-4525-bc18-e0450a144eae
                               url:
                                 value: >-
-                                  https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/V3VWacveRZGxm9ZCEcyOzg-serey-kim-xjrvTc52xYc-unsplash.jpg
+                                  https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/lkpBmORKT2OAb8RwrT6UpA-serey-kim-xjrvTc52xYc-unsplash.jpg
                                 type: text
                               file:
                                 type: file
@@ -257,7 +257,7 @@ composition:
                           value: c9556355-d04b-4abe-ae4f-851c84bd76d2
                         url:
                           value: >-
-                            https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/CQAOaWSgSm6bdVnm_6sGqA-photo-1506918357967-b358ad447c56
+                            https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/aAOvre4HQ_ykLYLJGhezAg-photo-1506918357967-b358ad447c56
                           type: text
                         file:
                           type: file
@@ -442,6 +442,6 @@ composition:
     - en-US
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
-created: '2025-07-03T19:07:04.979061+00:00'
-modified: '2025-07-03T19:07:04.979061+00:00'
+created: '2025-01-30T15:36:25.761665+00:00'
+modified: '2025-07-07T10:19:33.044606+00:00'
 pattern: false
