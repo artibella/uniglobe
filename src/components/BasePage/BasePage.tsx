@@ -117,7 +117,9 @@ const PageContent: FC<Pick<BasePageProps, 'preview' | 'useUniformComposition' | 
           {faviconHref && <link rel="shortcut icon" href={faviconHref} />}
         </Head>
         {/* Umami analytics */}
-        <Script src="https://cloud.umami.is/script.js" data-website-id="f0d076b5-96cc-4c67-bb2f-5ec1ddbd0305" />
+        {process.env.NEXT_PUBLIC_UMAMI_SITE_ID && (
+          <Script src="https://cloud.umami.is/script.js" data-website-id={process.env.NEXT_PUBLIC_UMAMI_SITE_ID} />
+        )}
         {/* Docs: https://docs.uniform.app/reference/packages/uniformdev-canvas-react#slot */}
         <div className={COMMON_PADDING}>
           <UniformSlot name="pageHeader" />
