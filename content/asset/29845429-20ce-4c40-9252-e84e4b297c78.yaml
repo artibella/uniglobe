@@ -11,13 +11,13 @@ asset:
       value: 'Copyright: HANVIN CHEONG, Unsplash'
     file:
       type: file
-      value: f66598a8-f958-4f7d-b7c5-5c3b27546b6f
+      value: 7bf04894-febe-41ab-9387-7f90ed2dd2fc
     mediaType:
       value: image/jpeg
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/UE5wDdiKR_SGIKO-cirkWA-photo-1721232080277-5a7f8370a2c4
+        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/DeM2Vk3hQ2quqI0sxHlMeg-photo-1721232080277-5a7f8370a2c4
       type: text
     size:
       value: 1291114
@@ -29,5 +29,5 @@ asset:
       value: 2000
       type: number
     custom: {}
-created: '2025-01-30T15:35:44.742954+00:00'
-modified: '2025-07-07T10:18:46.304612+00:00'
+created: '2024-10-11T12:03:50.264289+00:00'
+modified: '2024-10-11T12:46:10.274354+00:00'

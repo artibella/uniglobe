@@ -1,0 +1,12 @@
+id: 0dd6dc42-c592-4942-acb2-974c15b1f87b
+sourceUrl: /:locale/destinations/asia/vietnam
+sourceRetainQuerystring: true
+targetUrl: https://uniglobe.vercel.app/:locale/destinations/vietnam
+targetStatusCode: 301
+targetProjectMapNodeId: 41a0878e-9b1f-4cca-94f1-dd1034dde1bd
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

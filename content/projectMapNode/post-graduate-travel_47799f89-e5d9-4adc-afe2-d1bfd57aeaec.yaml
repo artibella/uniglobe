@@ -1,0 +1,9 @@
+id: 47799f89-e5d9-4adc-afe2-d1bfd57aeaec
+name: Post graduate travel
+order: 693
+path: /:locale/post-graduate-travel
+type: composition
+pathSegment: post-graduate-travel
+data: {}
+compositionId: 00663d2f-7677-46ce-9d7d-bef064c8c977
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

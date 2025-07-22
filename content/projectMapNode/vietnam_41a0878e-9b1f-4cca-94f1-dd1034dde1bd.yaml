@@ -1,7 +1,7 @@
 id: 41a0878e-9b1f-4cca-94f1-dd1034dde1bd
 name: Vietnam
 order: 600
-path: /:locale/destinations/asia/vietnam
+path: /:locale/destinations/vietnam
 type: composition
 pathSegment: vietnam
 data: {}

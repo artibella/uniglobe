@@ -1,0 +1,11 @@
+created: '2025-07-10T08:09:02.781619+00:00'
+modified: '2025-07-10T08:09:02.781619+00:00'
+pattern: false
+entry:
+  _id: 15350a1a-1228-405a-aa9c-360653cd6c85
+  _name: 'New entry: Blog post'
+  _slug: new-entry-blog-post
+  type: blogPosts
+  fields: {}
+  _locales:
+    - en-US

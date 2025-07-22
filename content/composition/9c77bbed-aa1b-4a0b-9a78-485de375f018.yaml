@@ -99,7 +99,7 @@ composition:
                     value: 698d91b2-bf29-4db4-8795-70de7d92ff07
                   url:
                     value: >-
-                      https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/qKu_8CkXSYunBbW8GhrPgA-app-store-badge.svg
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
                     type: text
                   file:
                     type: file
@@ -111,13 +111,43 @@ composition:
                     type: text
                     value: Apple app store button
                   width:
-                    value: 128
+                    value: 150
                     type: number
                   height:
-                    value: 128
+                    value: 150
                     type: number
                   mediaType:
                     value: image/svg+xml
+                    type: text
+                _source: uniform-assets
+            en-US:
+              - _id: bc57e63f-aa72-4276-ada2-e9a28358587b
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 67cf9549-d649-4ab6-b6f1-cec07db58150
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/Cu-UPnc4SI2iTGe6KSpqJw-uniglobe.png
+                    type: text
+                  file:
+                    type: file
+                    value: ccf4da80-b9ed-45fb-b1e8-970cd8229fd0
+                  size:
+                    value: 60405
+                    type: number
+                  title:
+                    type: text
+                    value: Logo Uniglobe (PNG)
+                  width:
+                    value: 358
+                    type: number
+                  height:
+                    value: 335
+                    type: number
+                  mediaType:
+                    value: image/png
                     type: text
                 _source: uniform-assets
             it-IT:
@@ -129,7 +159,7 @@ composition:
                     value: 698d91b2-bf29-4db4-8795-70de7d92ff07
                   url:
                     value: >-
-                      https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/qKu_8CkXSYunBbW8GhrPgA-app-store-badge.svg
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
                     type: text
                   file:
                     type: file
@@ -141,10 +171,10 @@ composition:
                     type: text
                     value: Apple app store button
                   width:
-                    value: 128
+                    value: 150
                     type: number
                   height:
-                    value: 128
+                    value: 150
                     type: number
                   mediaType:
                     value: image/svg+xml
@@ -167,7 +197,7 @@ composition:
                         value: 1d0b21e3-9e09-4965-8326-e634529a73bf
                       url:
                         value: >-
-                          https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/6Btfcia7SA2sftDR6YzGJg-google-play-badge.svg
+                          https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/GfmpVtCXQRe6RmxnIvHF9A-google-play-badge.svg
                         type: text
                       file:
                         type: file
@@ -179,10 +209,10 @@ composition:
                         type: text
                         value: Google Play store button
                       width:
-                        value: 128
+                        value: 150
                         type: number
                       height:
-                        value: 128
+                        value: 150
                         type: number
                       mediaType:
                         value: image/svg+xml
@@ -204,7 +234,7 @@ composition:
                         value: 698d91b2-bf29-4db4-8795-70de7d92ff07
                       url:
                         value: >-
-                          https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/qKu_8CkXSYunBbW8GhrPgA-app-store-badge.svg
+                          https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
                         type: text
                       file:
                         type: file
@@ -216,10 +246,10 @@ composition:
                         type: text
                         value: Apple app store button
                       width:
-                        value: 128
+                        value: 150
                         type: number
                       height:
-                        value: 128
+                        value: 150
                         type: number
                       mediaType:
                         value: image/svg+xml
@@ -808,6 +838,6 @@ composition:
     - de-DE
     - it-IT
   _pattern: 3cf98231-24a0-4007-a17e-eb16c19e8abf
-created: '2025-07-03T19:06:49.639399+00:00'
-modified: '2025-07-03T19:06:49.639399+00:00'
+created: '2024-09-19T15:05:13.631235+00:00'
+modified: '2025-07-10T13:03:30.137667+00:00'
 pattern: false

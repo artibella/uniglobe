@@ -15,7 +15,7 @@ composition:
               value: 2d06cb01-b8aa-490b-8567-43a27046030d
             url:
               value: >-
-                https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
+                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
               type: text
             file:
               type: file
@@ -36,67 +36,6 @@ composition:
               value: image/svg+xml
               type: text
           _source: uniform-assets
-      locales:
-        de-DE:
-          - _id: 50c9b863-04e9-48cd-8b6c-9561a87169d0
-            type: image
-            fields:
-              id:
-                type: text
-                value: 2d06cb01-b8aa-490b-8567-43a27046030d
-              url:
-                value: >-
-                  https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
-                type: text
-              file:
-                type: file
-                value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
-              size:
-                value: 18253
-                type: number
-              title:
-                type: text
-                value: Logo Uniglobe (SVG)
-              width:
-                value: 358
-                type: number
-              height:
-                value: 335
-                type: number
-              mediaType:
-                value: image/svg+xml
-                type: text
-            _source: uniform-assets
-        en-US:
-          - _id: 8dac0f50-5ea5-407a-9c67-0be4b61526fb
-            type: image
-            fields:
-              id:
-                type: text
-                value: 2d06cb01-b8aa-490b-8567-43a27046030d
-              url:
-                value: >-
-                  https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
-                type: text
-              file:
-                type: file
-                value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
-              size:
-                value: 18253
-                type: number
-              title:
-                type: text
-                value: Logo Uniglobe (SVG)
-              width:
-                value: 358
-                type: number
-              height:
-                value: 335
-                type: number
-              mediaType:
-                value: image/svg+xml
-                type: text
-            _source: uniform-assets
     theme:
       type: tp-set-up-theme-parameter
       value:
@@ -141,7 +80,7 @@ composition:
               value: 2d06cb01-b8aa-490b-8567-43a27046030d
             url:
               value: >-
-                https://canary-pr-13585-img.uniform.rocks/p/vh74xJ2TQvOEGDS8RngIJQ/MxNEoJlMTvq1SpdjV45Vyw-uniglobe.svg
+                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
               type: text
             file:
               type: file
@@ -182,9 +121,28 @@ composition:
               parameters:
                 link:
                   type: link
+                  value:
+                    path: /${locale}/destinations
+                    type: projectMapNode
+                    nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Alle Reiseziele
+                    en-US: All destinations
+              _overridability:
+                hideLockedParameters: true
+            - _id: 0b6f3cb4-ef7e-4525-878f-dc8d4958c0fb
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
                   locales:
                     de-DE:
-                      path: /${locale}/reiseziele/asia
+                      path: /${locale}/destinations/asia
                       type: projectMapNode
                       nodeId: 6d7efb88-dfa1-48cf-a681-05e4c97c8cc3
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -211,7 +169,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /${locale}/reiseziele/africa
+                      path: /${locale}/destinations/africa
                       type: projectMapNode
                       nodeId: 197a385e-7570-499e-bfb8-fa4083baa4f7
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -238,7 +196,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /:locale/reiseziele/middle-east
+                      path: /:locale/destinations/middle-east
                       type: projectMapNode
                       nodeId: 955ac309-663a-4455-9f8e-a31df88dc000
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -263,7 +221,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /:locale/reiseziele/europe
+                      path: /:locale/destinations/europe
                       type: projectMapNode
                       nodeId: 3fc25a66-c22c-455b-980a-2095a039f680
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -288,7 +246,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /${locale}/reiseziele/north-america
+                      path: /${locale}/destinations/north-america
                       type: projectMapNode
                       nodeId: cca6ab42-658f-4dec-9161-31b08f151652
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -308,31 +266,32 @@ composition:
                     en-US: North America
               _overridability:
                 hideLockedParameters: true
-            - _id: 1e8b5e5a-5e41-46cf-9cfa-097a48c14165
+            - _id: 4bcb3073-ec31-4a98-91ed-4ecd85649f8d
               type: navigationLink
               parameters:
                 link:
                   type: link
                   locales:
                     de-DE:
-                      path: /${locale}/reiseziele/central-america-and-caribbean
+                      path: /${locale}/destinations/north-america
                       type: projectMapNode
-                      nodeId: c733b89d-b0b8-4ac2-873f-d219b4acbd16
+                      nodeId: cca6ab42-658f-4dec-9161-31b08f151652
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                       dynamicInputValues:
                         locale: ${locale}
                     en-US:
-                      path: /${locale}/destinations/central-america-and-caribbean
+                      path: /${locale}/destinations/central-america
                       type: projectMapNode
-                      nodeId: c733b89d-b0b8-4ac2-873f-d219b4acbd16
+                      nodeId: f7eba10c-97be-4a46-ae77-df46666ea2d8
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                       dynamicInputValues:
                         locale: ${locale}
+                        region: central-america
                 title:
                   type: text
                   locales:
-                    de-DE: Zentralamerika & Karibik
-                    en-US: Central America & Caribbean
+                    de-DE: Zentralamerika
+                    en-US: Central America
               _overridability:
                 hideLockedParameters: true
             - _id: a1355659-e117-4054-847d-c099d2eea589
@@ -342,7 +301,7 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /:locale/reiseziele/south-america
+                      path: /:locale/destinations/south-america
                       type: projectMapNode
                       nodeId: 9601ba92-0700-449f-8e5f-00a700d71cc0
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -358,6 +317,33 @@ composition:
                   locales:
                     de-DE: Südamerika
                     en-US: South America
+              _overridability:
+                hideLockedParameters: true
+            - _id: 1e8b5e5a-5e41-46cf-9cfa-097a48c14165
+              type: navigationLink
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /${locale}/destinations/caribbean
+                      type: projectMapNode
+                      nodeId: c733b89d-b0b8-4ac2-873f-d219b4acbd16
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                    en-US:
+                      path: /${locale}/destinations/caribbean
+                      type: projectMapNode
+                      nodeId: c733b89d-b0b8-4ac2-873f-d219b4acbd16
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Karibik
+                    en-US: Caribbean
               _overridability:
                 hideLockedParameters: true
         parameters:
@@ -382,21 +368,13 @@ composition:
         parameters:
           link:
             type: link
-            locales:
-              de-DE:
-                path: /${locale}/trips
-                type: projectMapNode
-                nodeId: d4128937-d0fe-4870-a6aa-2244787daa85
-                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                dynamicInputValues:
-                  locale: ${locale}
-              en-US:
-                path: /${locale}/trips
-                type: projectMapNode
-                nodeId: d4128937-d0fe-4870-a6aa-2244787daa85
-                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                dynamicInputValues:
-                  locale: ${locale}
+            value:
+              path: /${locale}/trips
+              type: projectMapNode
+              nodeId: 6f0ff622-6e79-4032-b242-a81c31e95f49
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
           title:
             type: text
             locales:
@@ -409,26 +387,37 @@ composition:
         parameters:
           link:
             type: link
-            locales:
-              de-DE:
-                path: /${locale}/destinations/:place
-                type: projectMapNode
-                nodeId: b29e3d30-3892-43f9-ae4b-0fbe7efaf32a
-                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                dynamicInputValues:
-                  locale: ${locale}
-              en-US:
-                path: /${locale}/shop
-                type: projectMapNode
-                nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
-                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                dynamicInputValues:
-                  locale: ${locale}
+            value:
+              path: /${locale}/shop
+              type: projectMapNode
+              nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
           title:
             type: text
             locales:
               de-DE: Shop
               en-US: Shop
+        _overridability:
+          hideLockedParameters: true
+      - _id: 8393ca5f-2567-4823-bd0b-61becfc20e73
+        type: navigationLink
+        parameters:
+          link:
+            type: link
+            value:
+              path: /${locale}/blog
+              type: projectMapNode
+              nodeId: 0f123409-cafd-4358-8370-456271898a15
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+          title:
+            type: text
+            locales:
+              de-DE: Reisen
+              en-US: Blog
         _overridability:
           hideLockedParameters: true
   _overridability:
@@ -438,8 +427,8 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-05-13T15:50:51.522206+00:00'
-modified: '2025-05-13T15:50:51.522206+00:00'
+created: '2024-01-15T09:26:48.084372+00:00'
+modified: '2025-07-10T12:51:04.550105+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Header_pattern_preview_image

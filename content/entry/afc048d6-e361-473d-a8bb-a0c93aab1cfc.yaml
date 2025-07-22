@@ -1,5 +1,5 @@
-created: '2025-07-03T19:09:12.339595+00:00'
-modified: '2025-07-03T19:09:12.339595+00:00'
+created: '2025-04-28T11:43:21.451068+00:00'
+modified: '2025-07-10T12:55:57.441198+00:00'
 pattern: false
 entry:
   _id: afc048d6-e361-473d-a8bb-a0c93aab1cfc
@@ -14,6 +14,12 @@ entry:
       type: countriesBySubregionName
       variables:
         region: Central america
+    ref-afc048d6-e361-473d-a8bb-a0c93aab1cfc-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55,718f9a08-407f-474f-b5de-3769bdff4c41
   _locales:
     - en-US
   _overrides:
@@ -83,5 +89,6 @@ entry:
               cultures, and laid-back surf towns—all on a budget. 
         destinations:
           type: contentReference
-          value: null
+          value: >-
+            ${#jptr:/ref-afc048d6-e361-473d-a8bb-a0c93aab1cfc-destinations/entries}
   _pattern: 57ca4594-f957-4139-a439-fbfb7eb58300

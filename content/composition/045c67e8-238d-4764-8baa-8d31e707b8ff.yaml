@@ -13,17 +13,72 @@ composition:
       value: website
     openGraphImage:
       type: asset
-      value: []
+      value:
+        - _id: 6d87bc09-016d-47a3-b238-c37294315e6b
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.pexels.com/photos/7235907/pexels-photo-7235907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+            title:
+              type: text
+              value: >-
+                Flat lay of travel items including a map, compass, and polaroid
+                for adventure planning.
+            width:
+              type: number
+              value: 6240
+            custom:
+              type: object
+              value:
+                sourceId: '7235907'
+                pexelsUrl: https://www.pexels.com/photo/marked-country-on-a-map-7235907/
+                photoTinyUrl: >-
+                  https://images.pexels.com/photos/7235907/pexels-photo-7235907.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                photographer: Nataliya Vaitkevich
+                photoLargeUrl: >-
+                  https://images.pexels.com/photos/7235907/pexels-photo-7235907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                photoSmallUrl: >-
+                  https://images.pexels.com/photos/7235907/pexels-photo-7235907.jpeg?auto=compress&cs=tinysrgb&h=130
+                photoMediumUrl: >-
+                  https://images.pexels.com/photos/7235907/pexels-photo-7235907.jpeg?auto=compress&cs=tinysrgb&h=350
+                photoLarge2xUrl: >-
+                  https://images.pexels.com/photos/7235907/pexels-photo-7235907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                photographerUrl: https://www.pexels.com/@n-voitkevich
+                photoPortraitUrl: >-
+                  https://images.pexels.com/photos/7235907/pexels-photo-7235907.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                pexelsOriginalUrl: >-
+                  https://images.pexels.com/photos/7235907/pexels-photo-7235907.jpeg
+                photoLandscapeUrl: >-
+                  https://images.pexels.com/photos/7235907/pexels-photo-7235907.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+            height:
+              type: number
+              value: 4160
+            description:
+              type: text
+              value: >-
+                Flat lay of travel items including a map, compass, and polaroid
+                for adventure planning. - Photo by Nataliya Vaitkevich on Pexels
+          _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
     openGraphTitle:
       type: text
       locales:
         en-US: Explore the World's Top Destinations
+    pageMetaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover the world's top travel destinations across Asia, Europe, and
+          beyond. Find inspiration, expert tips, and plan your next adventure
+          with UniGlobe.
     openGraphDescription:
       type: text
       locales:
         en-US: >-
-          Discover leading travel destinations across Asia and Europe. Dive into
-          the rich cultures and breathtaking landscapes.
+          Discover the world's top travel destinations across Asia, Europe, and
+          beyond. Find inspiration, expert tips, and plan your next adventure
+          with UniGlobe.
     overlayTitleToOgImage:
       type: checkbox
       value: 'false'
@@ -53,7 +108,7 @@ composition:
                       value: 2def1ae3-96b9-472d-bb8a-3b875185142f
                     url:
                       value: >-
-                        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/fWOm9UUqSwq1EHWVdoY5fg-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
                       type: text
                     file:
                       type: file
@@ -87,7 +142,7 @@ composition:
           title:
             type: text
             locales:
-              en-US: Where to next?
+              en-US: Top Travel Destinations Worldwide
           objectFit:
             type: select
             value: cover
@@ -1057,6 +1112,6 @@ composition:
               hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-07-03T19:06:52.762793+00:00'
-modified: '2025-07-03T19:06:52.762793+00:00'
+created: '2024-01-15T15:05:38.343368+00:00'
+modified: '2025-07-07T13:03:51.358018+00:00'
 pattern: false

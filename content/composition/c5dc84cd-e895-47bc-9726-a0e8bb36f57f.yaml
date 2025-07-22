@@ -1,0 +1,1504 @@
+composition:
+  _name: Gap year travel
+  _id: c5dc84cd-e895-47bc-9726-a0e8bb36f57f
+  _slug: gap-year-travel
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: >-
+          Gap Year Travel: Sustainable Adventures & Volunteer Opportunities |
+          Uniglobe
+    twitterCard:
+      type: select
+      value: summary_large_image
+    pageKeywords:
+      type: text
+      locales:
+        en-US: >-
+          gap year travel, sustainable travel, eco volunteering, budget travel,
+          cultural immersion, adventure travel, responsible tourism, gap year
+          programs
+    twitterImage:
+      type: asset
+      value:
+        - _id: 7a56336a-bd4d-4ab6-b09c-1611bb7d7629
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.unsplash.com/photo-1692750789034-8edc1e464a4f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww&ixlib=rb-4.1.0&q=85
+            focalPoint:
+              type: focalPoint
+              value:
+                x: 0.58
+                'y': 0.47
+          _source: custom-url
+    twitterTitle:
+      type: text
+      locales:
+        en-US: Gap Year Travel That Actually Matters
+    openGraphType:
+      type: select
+      value: website
+    openGraphImage:
+      type: asset
+      value:
+        - _id: 684b5b44-3c79-4d93-89b5-dcaf309d0189
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.unsplash.com/photo-1692750789034-8edc1e464a4f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww&ixlib=rb-4.1.0&q=85
+            focalPoint:
+              type: focalPoint
+              value:
+                x: 0.59
+                'y': 0.46
+          _source: custom-url
+    openGraphTitle:
+      type: text
+      locales:
+        en-US: Transform Your Gap Year with Meaningful Travel Experiences
+    twitterDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover eco-friendly gap year adventures that won't break the bank
+          and will change your perspective forever.
+    pageMetaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover meaningful gap year travel experiences with Uniglobe. From
+          eco-volunteering in Costa Rica to cultural immersion in Nepal, find
+          affordable adventures that make a difference.
+    openGraphDescription:
+      type: text
+      locales:
+        en-US: >-
+          Join thousands of Gen Z travelers creating positive impact through
+          authentic, affordable gap year adventures worldwide.
+  slots:
+    pageFooter:
+      - _id: 15613127-3d72-4b0f-a7d4-3862841264e6
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 5b110f59-586e-4426-be76-18ca5a489350
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: b1f4ceae-8675-488f-8ac7-1787b8d90b4b
+        type: hero
+        variant: imageRight
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 9f51de86-39f2-4686-b64d-2a307c9658b9
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1692750789034-8edc1e464a4f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: a man with a backpack looking at an airplane in the sky
+                    width:
+                      type: number
+                      value: 6000
+                    custom:
+                      type: object
+                      value:
+                        color: '#f3f3f3'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/a-man-with-a-backpack-looking-at-an-airplane-in-the-sky-_AG_-AW59VE
+                        blurHash: L_M7+9xtoLj[.Aofj[ayIUjsWBof
+                        sourceId: _AG_-AW59VE
+                        createdAt: '2023-08-23T00:34:12Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/a-man-with-a-backpack-looking-at-an-airplane-in-the-sky-_AG_-AW59VE
+                        updatedAt: '2025-07-08T04:02:10Z'
+                        authorName: INHYEOK PARK
+                        downloadUrl: >-
+                          https://unsplash.com/photos/_AG_-AW59VE/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1692750789034-8edc1e464a4f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1692750789034-8edc1e464a4f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1692750789034-8edc1e464a4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1692750789034-8edc1e464a4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: travelershigh
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1692750789034-8edc1e464a4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@travelershigh
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/_AG_-AW59VE/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxzdXN0YWluYWJsZSUyMHRyYXZlbCUyMHlvdXRofGVufDB8fHx8MTc1MTk2MzczNXww
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-fb-1625725334-090ed2fa367f.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 4000
+                    description:
+                      type: text
+                      value: Photo by INHYEOK PARK on Unsplash
+                  _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          title:
+            type: text
+            locales:
+              en-US: Turn your gap year into the most meaningful year of your life
+          objectFit:
+            type: select
+            value: cover
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Skip the tourist traps and create real impact. Discover
+                affordable, sustainable travel experiences that connect you with
+                local communities, protect the planet, and build skills that
+                matter for your future.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Gap Year Adventures That Matter
+          textColorVariant:
+            type: select
+            value: Dark
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Find Your Adventure
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: How It Works
+      - _id: 3a728a86-973b-4997-9f52-6f67ee963105
+        type: featuredCallout
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 2db2fecd-2d3f-431b-ab64-612c30ded33e
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHx2b2x1bnRlZXJpbmd8ZW58MHx8fHwxNzUxOTYzODQ4fDA&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: Painted red
+                    width:
+                      type: number
+                      value: 5184
+                    custom:
+                      type: object
+                      value:
+                        color: '#a60c0c'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/hands-formed-together-with-red-heart-paint-cAtzHUz7Z8g
+                        blurHash: LJE^_@tQ2sr@IpNaxZNH5,IVieNa
+                        sourceId: cAtzHUz7Z8g
+                        createdAt: '2016-07-26T22:19:07Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/hands-formed-together-with-red-heart-paint-cAtzHUz7Z8g
+                        updatedAt: '2025-07-08T03:44:50Z'
+                        authorName: Tim Marshall
+                        downloadUrl: >-
+                          https://unsplash.com/photos/cAtzHUz7Z8g/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHx2b2x1bnRlZXJpbmd8ZW58MHx8fHwxNzUxOTYzODQ4fDA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHx2b2x1bnRlZXJpbmd8ZW58MHx8fHwxNzUxOTYzODQ4fDA&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHx2b2x1bnRlZXJpbmd8ZW58MHx8fHwxNzUxOTYzODQ4fDA&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHx2b2x1bnRlZXJpbmd8ZW58MHx8fHwxNzUxOTYzODQ4fDA&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHx2b2x1bnRlZXJpbmd8ZW58MHx8fHwxNzUxOTYzODQ4fDA&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: timmarshall
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHx2b2x1bnRlZXJpbmd8ZW58MHx8fHwxNzUxOTYzODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@timmarshall
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/cAtzHUz7Z8g/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHx2b2x1bnRlZXJpbmd8ZW58MHx8fHwxNzUxOTYzODQ4fDA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1652677754823-401f02493545image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 3456
+                    description:
+                      type: text
+                      value: Photo by Tim Marshall on Unsplash
+                  _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          title:
+            type: text
+            locales:
+              en-US: 86% of gap year students say it improved their self-confidence
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                A gap year isn't just time off—it's an investment in your
+                future. Research shows gap year students perform better in
+                college, have clearer career goals, and develop stronger
+                leadership skills. Plus, you'll gain perspectives that no
+                classroom can teach.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Why Gap Years Matter Now More Than Ever
+      - _id: 5a5a4b5f-60a0-44df-b26e-fa2c3078ae21
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: 213c1767-6dd4-41ed-8b4b-02657cbf0d7c
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Carbon Negative
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 09974daf-38de-44a1-8c5e-7114323118d6
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1664922114319-4700c0ef74b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzOXx8dW5kZXJ3YXRlciUyMHZvbHVudGVlcmluZ3xlbnwwfHx8fDE3NTE5NjM5MzF8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: a person in scuba gear under water
+                          width:
+                            type: number
+                            value: 3648
+                          custom:
+                            type: object
+                            value:
+                              color: '#0c8ca6'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-person-in-scuba-gear-under-water-xsTqMVvStMA
+                              blurHash: LTBq-,%NM_R5~DxaJ5RP.AspM_S2
+                              sourceId: xsTqMVvStMA
+                              createdAt: '2022-10-04T22:33:00Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-person-in-scuba-gear-under-water-xsTqMVvStMA
+                              updatedAt: '2025-07-08T06:24:43Z'
+                              authorName: Victoria Ballesteros
+                              downloadUrl: >-
+                                https://unsplash.com/photos/xsTqMVvStMA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzOXx8dW5kZXJ3YXRlciUyMHZvbHVudGVlcmluZ3xlbnwwfHx8fDE3NTE5NjM5MzF8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1664922114319-4700c0ef74b1?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzOXx8dW5kZXJ3YXRlciUyMHZvbHVudGVlcmluZ3xlbnwwfHx8fDE3NTE5NjM5MzF8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1664922114319-4700c0ef74b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzOXx8dW5kZXJ3YXRlciUyMHZvbHVudGVlcmluZ3xlbnwwfHx8fDE3NTE5NjM5MzF8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1664922114319-4700c0ef74b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzOXx8dW5kZXJ3YXRlciUyMHZvbHVudGVlcmluZ3xlbnwwfHx8fDE3NTE5NjM5MzF8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1664922114319-4700c0ef74b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzOXx8dW5kZXJ3YXRlciUyMHZvbHVudGVlcmluZ3xlbnwwfHx8fDE3NTE5NjM5MzF8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: vicuballesteros
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1664922114319-4700c0ef74b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzOXx8dW5kZXJ3YXRlciUyMHZvbHVudGVlcmluZ3xlbnwwfHx8fDE3NTE5NjM5MzF8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@vicuballesteros
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/xsTqMVvStMA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzOXx8dW5kZXJ3YXRlciUyMHZvbHVudGVlcmluZ3xlbnwwfHx8fDE3NTE5NjM5MzF8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1637846880535-2bd22dff873aimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 2736
+                          description:
+                            type: text
+                            value: Photo by Victoria Ballesteros on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Eco volunteering programs
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Explore Programs
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Protect rainforests in Costa Rica, restore coral reefs in
+                      Thailand, or support renewable energy projects in Morocco.
+                      Make a real environmental impact while gaining hands-on
+                      experience in sustainability.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 712719a2-e107-4490-9268-d859fd62d008
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Community Led
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: e7408aeb-f8c4-406f-9bbe-794dc661d616
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1718992255941-e5d23d6661ac?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxjdWx0dXJhbCUyMGltbWVyc2lvbnxlbnwwfHx8fDE3NTE5NjM5Njl8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: A group of people standing around a metal bowl
+                          width:
+                            type: number
+                            value: 2948
+                          custom:
+                            type: object
+                            value:
+                              color: '#8c7373'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-group-of-people-standing-around-a-metal-bowl-M0Vi1LZfA1U
+                              blurHash: L5F#m^RPMv9ub-=GyWRO.l#*-.-T
+                              sourceId: M0Vi1LZfA1U
+                              createdAt: '2024-06-21T20:22:21Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-group-of-people-standing-around-a-metal-bowl-M0Vi1LZfA1U
+                              updatedAt: '2025-07-08T04:26:46Z'
+                              authorName: Outward Bound Costa Rica
+                              downloadUrl: >-
+                                https://unsplash.com/photos/M0Vi1LZfA1U/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxjdWx0dXJhbCUyMGltbWVyc2lvbnxlbnwwfHx8fDE3NTE5NjM5Njl8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1718992255941-e5d23d6661ac?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxjdWx0dXJhbCUyMGltbWVyc2lvbnxlbnwwfHx8fDE3NTE5NjM5Njl8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1718992255941-e5d23d6661ac?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxjdWx0dXJhbCUyMGltbWVyc2lvbnxlbnwwfHx8fDE3NTE5NjM5Njl8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1718992255941-e5d23d6661ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxjdWx0dXJhbCUyMGltbWVyc2lvbnxlbnwwfHx8fDE3NTE5NjM5Njl8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1718992255941-e5d23d6661ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxjdWx0dXJhbCUyMGltbWVyc2lvbnxlbnwwfHx8fDE3NTE5NjM5Njl8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: outwardboundcr
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1718992255941-e5d23d6661ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxjdWx0dXJhbCUyMGltbWVyc2lvbnxlbnwwfHx8fDE3NTE5NjM5Njl8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@outwardboundcr
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/M0Vi1LZfA1U/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxjdWx0dXJhbCUyMGltbWVyc2lvbnxlbnwwfHx8fDE3NTE5NjM5Njl8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1679519532471-872f97cf03caimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 2000
+                          description:
+                            type: text
+                            value: Photo by Outward Bound Costa Rica on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Cultural immersion stays
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Find Homestays
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Live with local families, learn traditional crafts, and
+                      participate in community projects across 30+ countries.
+                      Experience authentic cultures while supporting
+                      community-based tourism initiatives.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: b57a7c83-dd7a-46af-b6a9-c5354b768695
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Skill Building
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: a5f183df-b78c-4160-90da-852e9da967d5
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1676736875930-e5fcfde43594?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx5b3V0aCUyMHJvY2slMjBjbGltYmluZ3xlbnwwfHx8fDE3NTE5NjQwNzB8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: a woman climbing up the side of a mountain
+                          width:
+                            type: number
+                            value: 4320
+                          custom:
+                            type: object
+                            value:
+                              color: '#c0c0c0'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-woman-climbing-up-the-side-of-a-mountain-b_ZXqN9Qu_8
+                              blurHash: LLGR}24T4n%g?bIUM{R*I.g4ofaJ
+                              sourceId: b_ZXqN9Qu_8
+                              createdAt: '2023-02-18T16:19:12Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-woman-climbing-up-the-side-of-a-mountain-b_ZXqN9Qu_8
+                              updatedAt: '2025-07-08T04:28:38Z'
+                              authorName: Francisco Mateo
+                              downloadUrl: >-
+                                https://unsplash.com/photos/b_ZXqN9Qu_8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx5b3V0aCUyMHJvY2slMjBjbGltYmluZ3xlbnwwfHx8fDE3NTE5NjQwNzB8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1676736875930-e5fcfde43594?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx5b3V0aCUyMHJvY2slMjBjbGltYmluZ3xlbnwwfHx8fDE3NTE5NjQwNzB8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1676736875930-e5fcfde43594?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx5b3V0aCUyMHJvY2slMjBjbGltYmluZ3xlbnwwfHx8fDE3NTE5NjQwNzB8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1676736875930-e5fcfde43594?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx5b3V0aCUyMHJvY2slMjBjbGltYmluZ3xlbnwwfHx8fDE3NTE5NjQwNzB8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1676736875930-e5fcfde43594?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx5b3V0aCUyMHJvY2slMjBjbGltYmluZ3xlbnwwfHx8fDE3NTE5NjQwNzB8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: franmateo
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1676736875930-e5fcfde43594?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx5b3V0aCUyMHJvY2slMjBjbGltYmluZ3xlbnwwfHx8fDE3NTE5NjQwNzB8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@franmateo
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/b_ZXqN9Qu_8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx5b3V0aCUyMHJvY2slMjBjbGltYmluZ3xlbnwwfHx8fDE3NTE5NjQwNzB8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1676364176896-a3906644dbd9image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 2432
+                          description:
+                            type: text
+                            value: Photo by Francisco Mateo on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Adventure & skill building
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Start Learning
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Trek through untouched landscapes while learning
+                      wilderness survival, practice photography in remote
+                      villages, or master sustainable farming techniques.
+                      Adventure that builds your resume too.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: cf2d133e-e5f4-40c0-b375-8959b5fac09d
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: WiFi Verified
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: c5454760-1f7d-428a-a643-8568de909060
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1652608243111-98fa0e50d2e7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxyZW1vdGUlMjB3b3JrJTIwdHJhdmVsfGVufDB8fHx8MTc1MTk2NDEwMnww&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: >-
+                              Man inspiring for a work inside the mountains.
+                              Sitting on the rock and working online
+                          width:
+                            type: number
+                            value: 4000
+                          custom:
+                            type: object
+                            value:
+                              color: '#26260c'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-man-sitting-on-a-rock-with-a-laptop-in-his-lap-eLVwg-H-k2s
+                              blurHash: LZE2?^D%NIRj~pIUM}Rkt8t3RkWB
+                              sourceId: eLVwg-H-k2s
+                              createdAt: '2022-05-15T09:55:37Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-man-sitting-on-a-rock-with-a-laptop-in-his-lap-eLVwg-H-k2s
+                              updatedAt: '2025-07-08T04:06:38Z'
+                              authorName: Anastasiia Nelen
+                              downloadUrl: >-
+                                https://unsplash.com/photos/eLVwg-H-k2s/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxyZW1vdGUlMjB3b3JrJTIwdHJhdmVsfGVufDB8fHx8MTc1MTk2NDEwMnww
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1652608243111-98fa0e50d2e7?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxyZW1vdGUlMjB3b3JrJTIwdHJhdmVsfGVufDB8fHx8MTc1MTk2NDEwMnww&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1652608243111-98fa0e50d2e7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxyZW1vdGUlMjB3b3JrJTIwdHJhdmVsfGVufDB8fHx8MTc1MTk2NDEwMnww&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1652608243111-98fa0e50d2e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxyZW1vdGUlMjB3b3JrJTIwdHJhdmVsfGVufDB8fHx8MTc1MTk2NDEwMnww&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1652608243111-98fa0e50d2e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxyZW1vdGUlMjB3b3JrJTIwdHJhdmVsfGVufDB8fHx8MTc1MTk2NDEwMnww&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: mnelen
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1652608243111-98fa0e50d2e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxyZW1vdGUlMjB3b3JrJTIwdHJhdmVsfGVufDB8fHx8MTc1MTk2NDEwMnww&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@mnelen
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/eLVwg-H-k2s/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxyZW1vdGUlMjB3b3JrJTIwdHJhdmVsfGVufDB8fHx8MTc1MTk2NDEwMnww
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1617371884433-c2924a29b932image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 2668
+                          description:
+                            type: text
+                            value: Photo by Anastasiia Nelen on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Remote-friendly bases
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Find Your Base
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Work on passion projects or freelance while living in
+                      co-living spaces for young travelers. Enjoy high-speed
+                      internet, community events, and local experiences all in
+                      one place.
+        variant: carousel
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Gap year experiences designed for your generation
+          buttonCopy:
+            type: text
+            locales:
+              en-US: See All Experiences
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                From 2-week adventures to full-year journeys, find experiences
+                that match your values, budget, and goals.
+      - _id: 251f166f-bde0-4e67-b9fe-be192c8bcc44
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Start planning your life-changing gap year today
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Join over 15,000 young travelers who've already transformed
+                their gap years into meaningful adventures. Get personalized
+                recommendations based on your interests, budget, and impact
+                goals.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Ready to Make It Happen?
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Get Personalized Matches
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}
+                type: projectMapNode
+                nodeId: 8a725ed1-156c-4ba3-b1a1-7930d1b704e1
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: Chat With Alumni
+          secondaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}
+                type: projectMapNode
+                nodeId: 8a725ed1-156c-4ba3-b1a1-7930d1b704e1
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonStyle:
+            type: tp-button-style-parameter
+            value: link
+      - _id: 9d59d036-d491-44d2-9f2f-52a69efca616
+        type: container
+        slots:
+          container-inner:
+            - _id: 4c1a87e7-6609-4ba1-88f8-d21673cb4894
+              type: richText
+              variant: light
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Why Choose Sustainable Gap Year Travel?
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Your generation is redefining what travel
+                                  means. You're not just looking for Instagram
+                                  photos—you want experiences that align with
+                                  your values and create positive change.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: h3
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: The environmental impact you can make
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Traditional tourism contributes to over 8% of
+                                  global carbon emissions. But sustainable gap
+                                  year travel does the opposite. Our
+                                  community-based programs:
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: ul
+                            type: list
+                            start: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: listitem
+                                value: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Offset more carbon than they produce
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' through reforestation and renewable energy projects'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: listitem
+                                value: 2
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Support local economies
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' by ensuring 85% of your spending stays in local communities'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: listitem
+                                value: 3
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Protect biodiversity
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' through hands-on conservation work that makes measurable impact'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: listitem
+                                value: 4
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Reduce plastic waste
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' through zero-waste program initiatives'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            listType: bullet
+                            direction: ltr
+                          - tag: h3
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Skills that actually matter for your future
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Forget unpaid internships that just get you
+                                  coffee. Gap year experiences build real skills
+                                  employers value:
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: ul
+                            type: list
+                            start: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: listitem
+                                value: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Global perspective and cultural competency
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' - essential in our connected world'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: listitem
+                                value: 2
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Problem-solving under pressure
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' - learned through real challenges in new environments'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: listitem
+                                value: 3
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Language skills
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' - immersive learning that actually sticks'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: listitem
+                                value: 4
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Leadership and teamwork
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' - developed through community projects and group challenges'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: listitem
+                                value: 5
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Adaptability and resilience
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' - built through navigating new cultures independently'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            listType: bullet
+                            direction: ltr
+                          - tag: h3
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  The financial reality: it's more affordable
+                                  than you think
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Gap year travel doesn't have to drain your
+                                  savings or put you in debt. Our average
+                                  traveler spends:
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: ul
+                            type: list
+                            start: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: listitem
+                                value: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: $50-80 per day
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' for full immersion experiences including accommodation, meals, and activities'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: listitem
+                                value: 2
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: $2,000-4,000 total
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' for transformative 6-8 week programs'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: listitem
+                                value: 3
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: $6,000-12,000
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' for full year adventures across multiple countries'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            listType: bullet
+                            direction: ltr
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Compare that to a semester abroad ($15,000+)
+                                  or summer programs that cost more but offer
+                                  less authentic experiences.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+        parameters:
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: cbc11bf0-f920-416f-b49a-ad2d992a3204
+        type: container
+        slots:
+          container-inner:
+            - _id: 13e8db16-a8d5-4cfe-9f09-e4582fcfb562
+              type: content
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Hear firsthand how gap year travel changed lives, built
+                      confidence, and inspired new passions for young
+                      adventurers.
+                title:
+                  type: text
+                  locales:
+                    en-US: Real stories from real travelers
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h2
+            - _id: 27ce5d0b-e4c8-4e6e-9019-3312cade5043
+              type: spacer
+              parameters:
+                thickness:
+                  type: tp-slider-parameter
+                  value: 30px
+            - _id: 1d28d9a1-e38f-4db4-9640-8f54bd927526
+              type: review
+              parameters:
+                date:
+                  type: text
+                  value: 'Gap year: July 2024 - June 2025'
+                stars:
+                  type: tp-slider-parameter
+                  value: '5'
+                title:
+                  type: text
+                  locales:
+                    en-US: Found my passion and purpose
+                picture:
+                  type: asset
+                  value:
+                    - _id: 73668206-6770-423d-934d-0df3a8c7bbe0
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.unsplash.com/photo-1561828970-daff2303fe58?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3NHx8cG9ydHJhaXQlMjB3b21hbnxlbnwwfDJ8fHwxNzUxOTY0Nzc4fDA&ixlib=rb-4.1.0&q=85
+                        title:
+                          type: text
+                          value: woman leaning on flowers
+                        width:
+                          type: number
+                          value: 3024
+                        custom:
+                          type: object
+                          value:
+                            color: '#260c0c'
+                            apiUrl: >-
+                              https://api.unsplash.com/photos/woman-leaning-on-flowers-1KuiLuha2aU
+                            blurHash: LkHwDk0fjFkV#RR.bun+o}eUoyaf
+                            sourceId: 1KuiLuha2aU
+                            createdAt: '2019-06-29T17:22:59Z'
+                            detailUrl: >-
+                              https://unsplash.com/photos/woman-leaning-on-flowers-1KuiLuha2aU
+                            updatedAt: '2025-07-08T04:11:00Z'
+                            authorName: Tessa Edmiston
+                            downloadUrl: >-
+                              https://unsplash.com/photos/1KuiLuha2aU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3NHx8cG9ydHJhaXQlMjB3b21hbnxlbnwwfDJ8fHwxNzUxOTY0Nzc4fDA
+                            photoRawUrl: >-
+                              https://images.unsplash.com/photo-1561828970-daff2303fe58?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3NHx8cG9ydHJhaXQlMjB3b21hbnxlbnwwfDJ8fHwxNzUxOTY0Nzc4fDA&ixlib=rb-4.1.0
+                            photoFullUrl: >-
+                              https://images.unsplash.com/photo-1561828970-daff2303fe58?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3NHx8cG9ydHJhaXQlMjB3b21hbnxlbnwwfDJ8fHwxNzUxOTY0Nzc4fDA&ixlib=rb-4.1.0&q=85
+                            photoSmallUrl: >-
+                              https://images.unsplash.com/photo-1561828970-daff2303fe58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3NHx8cG9ydHJhaXQlMjB3b21hbnxlbnwwfDJ8fHwxNzUxOTY0Nzc4fDA&ixlib=rb-4.1.0&q=80&w=400
+                            photoThumbUrl: >-
+                              https://images.unsplash.com/photo-1561828970-daff2303fe58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3NHx8cG9ydHJhaXQlMjB3b21hbnxlbnwwfDJ8fHwxNzUxOTY0Nzc4fDA&ixlib=rb-4.1.0&q=80&w=200
+                            authorUsername: thewildflowerpress
+                            photoRegularUrl: >-
+                              https://images.unsplash.com/photo-1561828970-daff2303fe58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3NHx8cG9ydHJhaXQlMjB3b21hbnxlbnwwfDJ8fHwxNzUxOTY0Nzc4fDA&ixlib=rb-4.1.0&q=80&w=1080
+                            authorProfileUrl: https://unsplash.com/@thewildflowerpress
+                            downloadLocation: >-
+                              https://api.unsplash.com/photos/1KuiLuha2aU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3NHx8cG9ydHJhaXQlMjB3b21hbnxlbnwwfDJ8fHwxNzUxOTY0Nzc4fDA
+                            authorProfileImage: >-
+                              https://images.unsplash.com/profile-1696791990511-5417071239bbimage?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                        height:
+                          type: number
+                          value: 3024
+                        description:
+                          type: text
+                          value: Photo by Tessa Edmiston on Unsplash
+                      _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                personName:
+                  type: text
+                  value: Maya, 19, California
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      I spent 3 months in a village in Guatemala helping build
+                      sustainable water systems. Not only did I learn Spanish
+                      fluently, but I also discovered my passion for
+                      environmental engineering. Plus, the experience helped me
+                      get into my top choice college program.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: f66ddd41-42e2-4de7-8ad3-ae184e8eab88
+              type: review
+              parameters:
+                date:
+                  type: text
+                  value: 'Gap year: May 2023 - June 2024'
+                stars:
+                  type: tp-slider-parameter
+                  value: '5'
+                title:
+                  type: text
+                  locales:
+                    en-US: The best decision of my life
+                picture:
+                  type: asset
+                  value:
+                    - _id: 7cd78836-013f-4561-8565-59530c823a40
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHRlZW58ZW58MHwyfHx8MTc1MTk2NDczMnww&ixlib=rb-4.1.0&q=85
+                        title:
+                          type: text
+                          value: >-
+                            a young man wearing glasses standing in front of a
+                            mountain
+                        width:
+                          type: number
+                          value: 3178
+                        custom:
+                          type: object
+                          value:
+                            color: '#737373'
+                            apiUrl: >-
+                              https://api.unsplash.com/photos/a-young-man-wearing-glasses-standing-in-front-of-a-mountain-MSepzbKFz10
+                            blurHash: LVJ@%b%1tlIVXTIpWDRj0Ks-ivoL
+                            sourceId: MSepzbKFz10
+                            createdAt: '2022-06-01T19:08:57Z'
+                            detailUrl: >-
+                              https://unsplash.com/photos/a-young-man-wearing-glasses-standing-in-front-of-a-mountain-MSepzbKFz10
+                            updatedAt: '2025-07-08T03:44:44Z'
+                            authorName: Diego Hernández
+                            downloadUrl: >-
+                              https://unsplash.com/photos/MSepzbKFz10/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHRlZW58ZW58MHwyfHx8MTc1MTk2NDczMnww
+                            photoRawUrl: >-
+                              https://images.unsplash.com/photo-1654110455429-cf322b40a906?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHRlZW58ZW58MHwyfHx8MTc1MTk2NDczMnww&ixlib=rb-4.1.0
+                            photoFullUrl: >-
+                              https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHRlZW58ZW58MHwyfHx8MTc1MTk2NDczMnww&ixlib=rb-4.1.0&q=85
+                            photoSmallUrl: >-
+                              https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHRlZW58ZW58MHwyfHx8MTc1MTk2NDczMnww&ixlib=rb-4.1.0&q=80&w=400
+                            photoThumbUrl: >-
+                              https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHRlZW58ZW58MHwyfHx8MTc1MTk2NDczMnww&ixlib=rb-4.1.0&q=80&w=200
+                            authorUsername: __diegohh
+                            photoRegularUrl: >-
+                              https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHRlZW58ZW58MHwyfHx8MTc1MTk2NDczMnww&ixlib=rb-4.1.0&q=80&w=1080
+                            authorProfileUrl: https://unsplash.com/@__diegohh
+                            downloadLocation: >-
+                              https://api.unsplash.com/photos/MSepzbKFz10/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHRlZW58ZW58MHwyfHx8MTc1MTk2NDczMnww
+                            authorProfileImage: >-
+                              https://images.unsplash.com/profile-1664234725463-f8e7ec7da613image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                        height:
+                          type: number
+                          value: 3178
+                        description:
+                          type: text
+                          value: Photo by Diego Hernández on Unsplash
+                      _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                personName:
+                  type: text
+                  value: Jackson, 20, Colorado
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      My gap year taught me more about myself and the world than
+                      12 years of school combined. I worked on organic farms in
+                      New Zealand, taught English in rural Vietnam, and did
+                      marine conservation in the Philippines. Best decision I
+                      ever made.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+      - _id: 586bcc54-aa07-46bc-ab60-0349c2285508
+        type: accordion
+        slots:
+          items:
+            - _id: 3bdddea0-cf22-428f-83e7-c9c85f6fdb19
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Is gap year travel safe for young solo travelers?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Absolutely. All our partner programs have local
+                      coordinators, 24/7 emergency support, and established
+                      safety protocols. We also provide pre-departure training
+                      on cultural awareness, personal safety, and emergency
+                      procedures. Our travelers consistently rate their
+                      experiences as safe and well-supported.
+            - _id: 62889370-200f-490d-a224-aac14461c1ca
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      How do I convince my parents that a gap year is a good
+                      idea?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Share the research: 90% of gap year students return to
+                      education within 2 years, and they perform better
+                      academically than their peers. Many colleges actually
+                      encourage gap years and will defer admission. We also
+                      offer parent information sessions where they can speak
+                      with other families and program alumni.
+            - _id: bc40018f-8a93-4a11-839e-c703c73579c0
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What if I don't have enough money saved up?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      We offer flexible payment plans, scholarship
+                      opportunities, and fundraising support. Many travelers
+                      also participate in programs that provide stipends for
+                      volunteer work. Additionally, living costs in many
+                      destinations are lower than staying home, and you'll gain
+                      valuable work experience that can lead to paid
+                      opportunities.
+            - _id: 4559e06c-ae4d-43f6-ad94-ecd813d3ed05
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Will colleges accept me after a gap year?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Yes! In fact, many admissions officers view gap years
+                      positively because students return more mature, focused,
+                      and with unique experiences. Harvard encourages gap years,
+                      and schools like Princeton and MIT have specific programs
+                      for gap year students. We provide guidance on documenting
+                      your experiences for college applications.
+            - _id: 04812d6d-4d5b-43e3-bf0c-9450c8d23d68
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      What makes Uniglobe different from other gap year
+                      programs?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      We focus exclusively on sustainable, community-based
+                      experiences rather than volunteer tourism that can harm
+                      local communities. All our partners are locally owned, we
+                      verify environmental and social impact, and we provide
+                      ongoing support throughout your journey. Plus, our
+                      platform lets you design custom experiences rather than
+                      choosing from pre-packaged programs.
+            - _id: e3285b23-5562-4993-9ba9-062d4fa042ac
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Can I earn college credit during my gap year?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Many of our programs partner with colleges to offer credit
+                      for experiential learning. We also help you document your
+                      experiences for portfolio-based credit applications. Some
+                      travelers earn up to a semester's worth of credit through
+                      language immersion, research projects, and documented
+                      volunteer work.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Gap year travel faq
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Get answers to the most common questions about planning your gap
+                year adventure.
+      - _id: 688843d3-b5c1-4334-b968-3bcc3cad330d
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Don't let this be another year you wonder 'what if?'
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Thousands of your peers are already out there making a
+                difference and having incredible adventures. Your gap year could
+                be the year that changes everything—for you and for the
+                communities you'll impact.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Your Adventure Starts Now
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Start My Journey
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          primaryButtonStyle:
+            type: tp-button-style-parameter
+            value: primary
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: Download Gap Year Guide
+          secondaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonStyle:
+            type: tp-button-style-parameter
+            value: link
+  _locales:
+    - en-US
+created: '2025-07-08T09:04:33.207605+00:00'
+modified: '2025-07-08T09:16:58.778455+00:00'
+pattern: false

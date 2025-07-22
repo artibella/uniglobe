@@ -1,0 +1,80 @@
+composition:
+  _name: Digital nomads feature callout
+  _id: 7d057976-947c-4aa4-827d-5f73da5d3eba
+  type: featuredCallout
+  parameters:
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 064d425f-6686-484a-a9c5-3d167ebd2ed5
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+              title:
+                type: text
+                value: >-
+                  Two men enjoying a relaxed conversation with laptops in a cozy
+                  Brazilian café.
+              width:
+                type: number
+                value: 5472
+              custom:
+                type: object
+                value:
+                  sourceId: '1015568'
+                  pexelsUrl: >-
+                    https://www.pexels.com/photo/photograph-of-men-having-conversation-seating-on-chair-1015568/
+                  photoTinyUrl: >-
+                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                  photographer: Helena Lopes
+                  photoLargeUrl: >-
+                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  photoSmallUrl: >-
+                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=130
+                  photoMediumUrl: >-
+                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&h=350
+                  photoLarge2xUrl: >-
+                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                  photographerUrl: https://www.pexels.com/@helenalopes
+                  photoPortraitUrl: >-
+                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                  pexelsOriginalUrl: >-
+                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg
+                  photoLandscapeUrl: >-
+                    https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+              height:
+                type: number
+                value: 3648
+              description:
+                type: text
+                value: >-
+                  Two men enjoying a relaxed conversation with laptops in a cozy
+                  Brazilian café. - Photo by Helena Lopes on Pexels
+            _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+    title:
+      type: text
+      locales:
+        en-US: Different While Working Remotely
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h2
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Uniglobe connects you with destinations that welcome digital nomads
+          while preserving local culture and environment. Our partnerships
+          ensure your travel dollars support communities, not mass tourism.
+    eyebrowText:
+      type: text
+      locales:
+        en-US: Why Choose Uniglobe
+  _locales:
+    - en-US
+created: '2025-07-18T10:14:04.655207+00:00'
+modified: '2025-07-18T10:14:04.655207+00:00'
+pattern: true

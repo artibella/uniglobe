@@ -8,13 +8,13 @@ asset:
       value: expanded-asset-support-upcoming.png
     file:
       type: file
-      value: 1bf65607-0abc-4aa1-ba1f-145ea087a9f7
+      value: c777df3a-e87b-48a5-a30a-84bd5602fcde
     mediaType:
       value: image/png
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/FJqxJt9SRsCZP20GRIYCIg-expanded-asset-support-upcoming.png
+        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/zfS1cxzVRxmYaD5QSkanXQ-expanded-asset-support-upcoming.png
       type: text
     size:
       value: 485614
@@ -26,5 +26,5 @@ asset:
       value: 630
       type: number
     custom: {}
-created: '2025-01-30T15:35:43.733732+00:00'
-modified: '2025-07-07T10:18:46.324637+00:00'
+created: '2025-01-23T17:20:36.595925+00:00'
+modified: '2025-01-23T17:20:36.595925+00:00'

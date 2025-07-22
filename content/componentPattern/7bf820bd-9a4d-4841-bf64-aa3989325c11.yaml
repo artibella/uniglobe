@@ -71,11 +71,17 @@ composition:
                           en-US: >-
                             ${#jptr:/Featured countries entries Loop
                             Item/entry/fields/name/value}
+                      badgeSize:
+                        type: select
+                        value: md
                       objectFit:
                         type: select
                         locales:
                           de-DE: cover
                           en-US: cover
+                      badgeStyle:
+                        type: tp-badge-style-parameter
+                        value: primary
                       buttonCopy:
                         type: text
                         locales:
@@ -231,6 +237,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-07-07T10:19:23.925851+00:00'
-modified: '2025-07-07T10:19:23.925851+00:00'
+created: '2025-03-27T18:29:19.811927+00:00'
+modified: '2025-07-10T12:58:48.046549+00:00'
 pattern: true

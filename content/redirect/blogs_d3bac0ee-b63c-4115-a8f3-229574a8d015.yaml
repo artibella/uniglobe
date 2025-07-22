@@ -1,0 +1,12 @@
+id: d3bac0ee-b63c-4115-a8f3-229574a8d015
+sourceUrl: /:locale/blogs
+sourceRetainQuerystring: true
+targetUrl: https://uniglobe.vercel.app/:locale/blog
+targetStatusCode: 301
+targetProjectMapNodeId: 0f123409-cafd-4358-8370-456271898a15
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: false
+targetPreserveIncomingDomain: false
+targetMergeQuerystring: true
+labelAsSystem: false

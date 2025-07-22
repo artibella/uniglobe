@@ -1,0 +1,9 @@
+id: 12a9581f-969f-4e92-a9b2-c4c7abbc0ea5
+name: Sustainable travel
+order: 687
+path: /:locale/sustainable-travel
+type: composition
+pathSegment: sustainable-travel
+data: {}
+compositionId: ceea47e0-8d07-4062-9c84-31f4fee7d8cc
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

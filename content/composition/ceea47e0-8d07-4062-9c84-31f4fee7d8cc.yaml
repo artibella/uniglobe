@@ -1,0 +1,2545 @@
+composition:
+  _name: Sustainable travel / Eco tourism
+  _id: ceea47e0-8d07-4062-9c84-31f4fee7d8cc
+  _slug: sustainable-travel
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Sustainable travel & eco tourism | Uniglobe
+    pageKeywords:
+      type: text
+      locales:
+        en-US: >-
+          sustainable travel, eco tourism, responsible travel, community-based
+          tourism, regenerative travel, eco-friendly travel, sustainable
+          tourism, conscious travel, authentic travel experiences, meaningful
+          travel
+    twitterTitle:
+      type: text
+      locales:
+        en-US: 'Eco tourism with purpose: authentic, sustainable, meaningful'
+    openGraphImage:
+      type: asset
+      value:
+        - _id: 976a0625-5890-44be-acef-6520c2d8fe48
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.unsplash.com/photo-1426086800127-2601510ca027?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzUyMDAxNDc3fDA&ixlib=rb-4.1.0&q=85
+            title:
+              type: text
+              value: Train cars in the mountains
+            width:
+              type: number
+              value: 4096
+            custom:
+              type: object
+              value:
+                color: '#735940'
+                apiUrl: >-
+                  https://api.unsplash.com/photos/white-train-with-the-distance-of-mountain-during-daytime-R1Zb58LmwIY
+                blurHash: LWG8v0xCsSxt?wM_i^WB%gM{jEWB
+                sourceId: R1Zb58LmwIY
+                createdAt: '2015-03-11T15:13:26Z'
+                detailUrl: >-
+                  https://unsplash.com/photos/white-train-with-the-distance-of-mountain-during-daytime-R1Zb58LmwIY
+                updatedAt: '2025-07-08T13:33:47Z'
+                authorName: Josh Nezon
+                downloadUrl: >-
+                  https://unsplash.com/photos/R1Zb58LmwIY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzUyMDAxNDc3fDA
+                photoRawUrl: >-
+                  https://images.unsplash.com/photo-1426086800127-2601510ca027?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzUyMDAxNDc3fDA&ixlib=rb-4.1.0
+                photoFullUrl: >-
+                  https://images.unsplash.com/photo-1426086800127-2601510ca027?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzUyMDAxNDc3fDA&ixlib=rb-4.1.0&q=85
+                photoSmallUrl: >-
+                  https://images.unsplash.com/photo-1426086800127-2601510ca027?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzUyMDAxNDc3fDA&ixlib=rb-4.1.0&q=80&w=400
+                photoThumbUrl: >-
+                  https://images.unsplash.com/photo-1426086800127-2601510ca027?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzUyMDAxNDc3fDA&ixlib=rb-4.1.0&q=80&w=200
+                authorUsername: jnezon
+                photoRegularUrl: >-
+                  https://images.unsplash.com/photo-1426086800127-2601510ca027?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzUyMDAxNDc3fDA&ixlib=rb-4.1.0&q=80&w=1080
+                authorProfileUrl: https://unsplash.com/@jnezon
+                downloadLocation: >-
+                  https://api.unsplash.com/photos/R1Zb58LmwIY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzUyMDAxNDc3fDA
+                authorProfileImage: >-
+                  https://images.unsplash.com/placeholder-avatars/extra-large.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+            height:
+              type: number
+              value: 2731
+            description:
+              type: text
+              value: Photo by Josh Nezon on Unsplash
+          _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+    openGraphTitle:
+      type: text
+      locales:
+        en-US: Sustainable travel experiences that create meaningful impact
+    twitterDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover why conscious travelers choose curated sustainable
+          experiences that create positive impact in local communities
+          worldwide.
+    pageMetaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover sustainable travel with Uniglobe. Curated eco-friendly
+          experiences that support local communities and protect the planet in
+          60+ destinations.
+    openGraphDescription:
+      type: text
+      locales:
+        en-US: >-
+          Join the sustainable travel movement. Curated community-based
+          experiences in 60+ countries that support local communities and
+          protect the environment.
+  slots:
+    pageFooter:
+      - _id: 15613127-3d72-4b0f-a7d4-3862841264e6
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 5b110f59-586e-4426-be76-18ca5a489350
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: b1f4ceae-8675-488f-8ac7-1787b8d90b4b
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 1cbe8837-af5d-4b2a-a669-5a56c5a8774b
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxuYXR1cmV8ZW58MHx8fHwxNzUyMDAwNjU1fDA&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: orange flowers
+                    width:
+                      type: number
+                      value: 4928
+                    custom:
+                      type: object
+                      value:
+                        color: '#f3f3f3'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/orange-flowers-IicyiaPYGGI
+                        blurHash: L_P$]vj[ayof?wj[j[j[M_ayayf6
+                        sourceId: IicyiaPYGGI
+                        createdAt: '2016-06-05T17:07:21Z'
+                        detailUrl: https://unsplash.com/photos/orange-flowers-IicyiaPYGGI
+                        updatedAt: '2025-07-08T16:22:27Z'
+                        authorName: Henry Be
+                        downloadUrl: >-
+                          https://unsplash.com/photos/IicyiaPYGGI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxuYXR1cmV8ZW58MHx8fHwxNzUyMDAwNjU1fDA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxuYXR1cmV8ZW58MHx8fHwxNzUyMDAwNjU1fDA&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxuYXR1cmV8ZW58MHx8fHwxNzUyMDAwNjU1fDA&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxuYXR1cmV8ZW58MHx8fHwxNzUyMDAwNjU1fDA&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxuYXR1cmV8ZW58MHx8fHwxNzUyMDAwNjU1fDA&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: henry_be
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxuYXR1cmV8ZW58MHx8fHwxNzUyMDAwNjU1fDA&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@henry_be
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/IicyiaPYGGI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxuYXR1cmV8ZW58MHx8fHwxNzUyMDAwNjU1fDA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1674776116130-f22ca6c2d4a6image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 3264
+                    description:
+                      type: text
+                      value: Photo by Henry Be on Unsplash
+                  _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          title:
+            type: text
+            locales:
+              en-US: Meaningful travel experiences for conscious explorers
+          objectFit:
+            type: select
+            value: cover
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Discover curated eco-friendly adventures that support local
+                communities and protect the planet. Experience genuine culture
+                through community-led initiatives in 60+ destinations designed
+                for conscious travelers who want their journeys to matter.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Join 50,000+ conscious travelers worldwide
+          overlayColor:
+            type: tp-color-style-parameter
+            value: secondary
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 30%
+          animationPreview:
+            type: tp-play-animation-parameter
+            value: true
+          textColorVariant:
+            type: select
+            value: Dark
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Explore destinations
+          primaryButtonLink:
+            type: link
+            value:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              dynamicInputValues:
+                locale: ${locale}
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: See impact stories
+          secondaryButtonLink:
+            type: link
+            value:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              dynamicInputValues:
+                locale: ${locale}
+          secondaryButtonStyle:
+            type: tp-button-style-parameter
+            value: secondary
+      - _id: 3a728a86-973b-4997-9f52-6f67ee963105
+        type: featuredCallout
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: e0b24cbc-06e9-4235-bfdc-7dd70d8bad90
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.pexels.com/photos/7968658/pexels-photo-7968658.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                    title:
+                      type: text
+                      value: Travelers with a camera chatting in a bustling market
+                    width:
+                      type: number
+                      value: 5040
+                    custom:
+                      type: object
+                      value:
+                        sourceId: '7968658'
+                        pexelsUrl: >-
+                          https://www.pexels.com/photo/backpackers-on-market-7968658/
+                        photoTinyUrl: >-
+                          https://images.pexels.com/photos/7968658/pexels-photo-7968658.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                        photographer: George Pak
+                        photoLargeUrl: >-
+                          https://images.pexels.com/photos/7968658/pexels-photo-7968658.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        photoSmallUrl: >-
+                          https://images.pexels.com/photos/7968658/pexels-photo-7968658.jpeg?auto=compress&cs=tinysrgb&h=130
+                        photoMediumUrl: >-
+                          https://images.pexels.com/photos/7968658/pexels-photo-7968658.jpeg?auto=compress&cs=tinysrgb&h=350
+                        photoLarge2xUrl: >-
+                          https://images.pexels.com/photos/7968658/pexels-photo-7968658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        photographerUrl: https://www.pexels.com/@george-pak
+                        photoPortraitUrl: >-
+                          https://images.pexels.com/photos/7968658/pexels-photo-7968658.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                        pexelsOriginalUrl: >-
+                          https://images.pexels.com/photos/7968658/pexels-photo-7968658.jpeg
+                        photoLandscapeUrl: >-
+                          https://images.pexels.com/photos/7968658/pexels-photo-7968658.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                    height:
+                      type: number
+                      value: 3360
+                    description:
+                      type: text
+                      value: >-
+                        Travelers with a camera chatting in a bustling market -
+                        Photo by George Pak on Pexels
+                  _source: pexels-644e5a6a-d5cb-4e66-8a2e-73ab1bdd4510
+          title:
+            type: text
+            locales:
+              en-US: >-
+                84% of travelers want sustainable experiences, but struggle to
+                find authentic options
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                The biggest challenge isn't desire—it's discovering genuine,
+                community-led experiences beyond greenwashing and staged
+                tourism. Our curated network connects you with locally-owned
+                initiatives that create real impact while delivering the
+                authentic cultural connections conscious travelers seek.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Breaking the sustainability myth
+      - _id: 5a5a4b5f-60a0-44df-b26e-fa2c3078ae21
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: 213c1767-6dd4-41ed-8b4b-02657cbf0d7c
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Community-owned
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 00341047-2a41-4aec-8283-1f9d44d58825
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1566571807426-61eca847576f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxob21lc3RheXxlbnwwfHx8fDE3NTE5OTk1Mzh8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: Coto island Quanninh vietnam
+                          width:
+                            type: number
+                            value: 4032
+                          custom:
+                            type: object
+                            value:
+                              color: '#264026'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/brown-wooden-houses-XFKr7Fphwgs
+                              blurHash: LiH2v7E2M_t8~qRmWnof%gt6M|tQ
+                              sourceId: XFKr7Fphwgs
+                              createdAt: '2019-08-23T14:50:20Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/brown-wooden-houses-XFKr7Fphwgs
+                              updatedAt: '2025-07-08T16:11:17Z'
+                              authorName: Oanh MJ
+                              downloadUrl: >-
+                                https://unsplash.com/photos/XFKr7Fphwgs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxob21lc3RheXxlbnwwfHx8fDE3NTE5OTk1Mzh8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1566571807426-61eca847576f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxob21lc3RheXxlbnwwfHx8fDE3NTE5OTk1Mzh8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1566571807426-61eca847576f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxob21lc3RheXxlbnwwfHx8fDE3NTE5OTk1Mzh8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1566571807426-61eca847576f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxob21lc3RheXxlbnwwfHx8fDE3NTE5OTk1Mzh8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1566571807426-61eca847576f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxob21lc3RheXxlbnwwfHx8fDE3NTE5OTk1Mzh8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: oanhmj
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1566571807426-61eca847576f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxob21lc3RheXxlbnwwfHx8fDE3NTE5OTk1Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@oanhmj
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/XFKr7Fphwgs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxob21lc3RheXxlbnwwfHx8fDE3NTE5OTk1Mzh8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1589327616376-6f3f533f3ed3image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3024
+                          description:
+                            type: text
+                            value: Photo by Oanh MJ on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Community-led cultural immersion
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Meet local families
+                buttonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      dynamicInputValues:
+                        locale: ${locale}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Live and learn with local families in Guatemala, Morocco,
+                      and Nepal. 85% of your spending stays in the community
+                      through cooperatives, homestays, and local guides who
+                      share real stories, not tourist performances.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 712719a2-e107-4490-9268-d859fd62d008
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Regenerative
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 2845fea2-09dd-4394-b945-dcd0b4abf6fe
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.pexels.com/photos/5029929/pexels-photo-5029929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                          title:
+                            type: text
+                            value: >-
+                              Diverse group of adults planting a tree together
+                              in a field, symbolizing teamwork and environmental
+                              conservation.
+                          width:
+                            type: number
+                            value: 4160
+                          custom:
+                            type: object
+                            value:
+                              sourceId: '5029929'
+                              pexelsUrl: >-
+                                https://www.pexels.com/photo/people-planting-together-5029929/
+                              photoTinyUrl: >-
+                                https://images.pexels.com/photos/5029929/pexels-photo-5029929.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                              photographer: Anna Shvets
+                              photoLargeUrl: >-
+                                https://images.pexels.com/photos/5029929/pexels-photo-5029929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                              photoSmallUrl: >-
+                                https://images.pexels.com/photos/5029929/pexels-photo-5029929.jpeg?auto=compress&cs=tinysrgb&h=130
+                              photoMediumUrl: >-
+                                https://images.pexels.com/photos/5029929/pexels-photo-5029929.jpeg?auto=compress&cs=tinysrgb&h=350
+                              photoLarge2xUrl: >-
+                                https://images.pexels.com/photos/5029929/pexels-photo-5029929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                              photographerUrl: https://www.pexels.com/@shvetsa
+                              photoPortraitUrl: >-
+                                https://images.pexels.com/photos/5029929/pexels-photo-5029929.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                              pexelsOriginalUrl: >-
+                                https://images.pexels.com/photos/5029929/pexels-photo-5029929.jpeg
+                              photoLandscapeUrl: >-
+                                https://images.pexels.com/photos/5029929/pexels-photo-5029929.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                          height:
+                            type: number
+                            value: 6240
+                          description:
+                            type: text
+                            value: >-
+                              Diverse group of adults planting a tree together
+                              in a field, symbolizing teamwork and environmental
+                              conservation. - Photo by Anna Shvets on Pexels
+                        _source: pexels-644e5a6a-d5cb-4e66-8a2e-73ab1bdd4510
+                title:
+                  type: text
+                  locales:
+                    en-US: Active conservation projects
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Join conservation efforts
+                buttonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      dynamicInputValues:
+                        locale: ${locale}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Protect coral reefs in Thailand, restore rainforests in
+                      Costa Rica, or monitor wildlife in Kenya. These hands-on
+                      experiences help destinations recover while giving you
+                      skills and stories that last forever.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: b57a7c83-dd7a-46af-b6a9-c5354b768695
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Carbon-negative
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 33346cbe-e073-4457-a95d-0ea5ccbc8bf3
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1647553492391-46aad57b4318?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MXx8dHJhaW4lMjB0cmF2ZWwlMjBzY2VuaWN8ZW58MHx8fHwxNzUxOTk5NjE3fDA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: a view of a farm from a train window
+                          width:
+                            type: number
+                            value: 3648
+                          custom:
+                            type: object
+                            value:
+                              color: '#f3f3f3'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-view-of-a-farm-from-a-train-window-w3xTR9LJu7M
+                              blurHash: LaCi?jay00ay?bj[D%WBIVofxuRj
+                              sourceId: w3xTR9LJu7M
+                              createdAt: '2022-03-17T21:47:46Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-view-of-a-farm-from-a-train-window-w3xTR9LJu7M
+                              updatedAt: '2025-07-08T18:14:34Z'
+                              authorName: VLADISLAV BOGUTSKI
+                              downloadUrl: >-
+                                https://unsplash.com/photos/w3xTR9LJu7M/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MXx8dHJhaW4lMjB0cmF2ZWwlMjBzY2VuaWN8ZW58MHx8fHwxNzUxOTk5NjE3fDA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1647553492391-46aad57b4318?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MXx8dHJhaW4lMjB0cmF2ZWwlMjBzY2VuaWN8ZW58MHx8fHwxNzUxOTk5NjE3fDA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1647553492391-46aad57b4318?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MXx8dHJhaW4lMjB0cmF2ZWwlMjBzY2VuaWN8ZW58MHx8fHwxNzUxOTk5NjE3fDA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1647553492391-46aad57b4318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MXx8dHJhaW4lMjB0cmF2ZWwlMjBzY2VuaWN8ZW58MHx8fHwxNzUxOTk5NjE3fDA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1647553492391-46aad57b4318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MXx8dHJhaW4lMjB0cmF2ZWwlMjBzY2VuaWN8ZW58MHx8fHwxNzUxOTk5NjE3fDA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: v_bogutski
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1647553492391-46aad57b4318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MXx8dHJhaW4lMjB0cmF2ZWwlMjBzY2VuaWN8ZW58MHx8fHwxNzUxOTk5NjE3fDA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@v_bogutski
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/w3xTR9LJu7M/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0MXx8dHJhaW4lMjB0cmF2ZWwlMjBzY2VuaWN8ZW58MHx8fHwxNzUxOTk5NjE3fDA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1621010781348-5af087ab764fimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 5444
+                          description:
+                            type: text
+                            value: Photo by VLADISLAV BOGUTSKI on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Mindful journey experiences
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Discover slow travel
+                buttonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      dynamicInputValues:
+                        locale: ${locale}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Take the scenic route through Europe by train, island-hop
+                      by ferry in Southeast Asia, or cycle through sustainable
+                      villages. Longer stays mean deeper connections, smaller
+                      carbon footprints, and more meaningful cultural exchange.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: cf2d133e-e5f4-40c0-b375-8959b5fac09d
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Crowd-free
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 8bb75cd0-ee5b-4319-ade4-c227378342c4
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1735184325901-81fe6848a4a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHwlMjBwcmlzdGluZSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NTE5OTk2NDZ8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: >-
+                              A pristine beach in Orokawa Scenic Reserve, New
+                              Zealand.
+                          width:
+                            type: number
+                            value: 5711
+                          custom:
+                            type: object
+                            value:
+                              color: '#8ca6c0'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-sandy-beach-with-trees-and-water-in-the-background-awxF6smSP2I
+                              blurHash: LVH{4i_4IURiFit8xas:X9M_V@bb
+                              sourceId: awxF6smSP2I
+                              createdAt: '2024-12-26T21:13:48Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-sandy-beach-with-trees-and-water-in-the-background-awxF6smSP2I
+                              updatedAt: '2025-07-08T18:26:47Z'
+                              authorName: Anna Jackowska
+                              downloadUrl: >-
+                                https://unsplash.com/photos/awxF6smSP2I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHwlMjBwcmlzdGluZSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NTE5OTk2NDZ8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1735184325901-81fe6848a4a1?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHwlMjBwcmlzdGluZSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NTE5OTk2NDZ8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1735184325901-81fe6848a4a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHwlMjBwcmlzdGluZSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NTE5OTk2NDZ8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1735184325901-81fe6848a4a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHwlMjBwcmlzdGluZSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NTE5OTk2NDZ8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1735184325901-81fe6848a4a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHwlMjBwcmlzdGluZSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NTE5OTk2NDZ8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: lucyjac
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1735184325901-81fe6848a4a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHwlMjBwcmlzdGluZSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NTE5OTk2NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@lucyjac
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/awxF6smSP2I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHwlMjBwcmlzdGluZSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NTE5OTk2NDZ8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1723970832216-ecff65b45e73image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3807
+                          description:
+                            type: text
+                            value: Photo by Anna Jackowska on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Undiscovered destinations
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Find hidden gems
+                buttonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      projectMapId: ''
+                      dynamicInputValues:
+                        locale: ${locale}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Skip the crowds in Venice and discover Slovenia's pristine
+                      lakes. Bypass Bali's beaches for Philippines' untouched
+                      islands. Experience authentic culture in destinations
+                      where tourism enhances rather than overwhelms local
+                      communities.
+        variant: carousel
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: >-
+                Regenerative travel experiences that give back more than they
+                take
+          buttonCopy:
+            type: text
+            locales:
+              en-US: Find regenerative experiences
+          buttonLink:
+            type: link
+            value:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              dynamicInputValues:
+                locale: ${locale}
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Move beyond basic sustainability to regenerative tourism that
+                actively improves destinations while creating unforgettable
+                memories.
+      - _id: 251f166f-bde0-4e67-b9fe-be192c8bcc44
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: >-
+                Join the movement of travelers choosing experiences that create
+                positive change
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Get matched with curated experiences that align with your values
+                and desire for authentic connection. From community-led
+                conservation projects to cultural immersion with local families,
+                start your meaningful travel journey with destinations verified
+                by the communities themselves.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Ready to travel with purpose?
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Find my sustainable adventure
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: Calculate my impact
+          secondaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonStyle:
+            type: tp-button-style-parameter
+            value: link
+      - _id: 688843d3-b5c1-4334-b968-3bcc3cad330d
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Don't let this be another year you wonder 'what if?'
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Thousands of your peers are already out there making a
+                difference and having incredible adventures. Your gap year could
+                be the year that changes everything—for you and for the
+                communities you'll impact.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Your Adventure Starts Now
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Start My Journey
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          primaryButtonStyle:
+            type: tp-button-style-parameter
+            value: primary
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: Download Gap Year Guide
+          secondaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonStyle:
+            type: tp-button-style-parameter
+            value: link
+      - _id: a464296c-fd07-4dda-882b-eeb509fa392a
+        type: container
+        slots:
+          container-inner:
+            - _id: 5f011954-2b94-4b21-9178-295e6de2d9fa
+              type: richText
+              variant: light
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: 'Sustainable Travel: The Uniglobe Difference'
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Sustainable travel is more than a trend—it's a
+                                  responsibility. At Uniglobe, we are committed
+                                  to making travel better for the planet,
+                                  people, and future generations. Here’s how we
+                                  lead the way in responsible travel.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: What is Sustainable Travel?
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Sustainable travel means making choices that
+                                  minimize negative impacts on the environment,
+                                  support local communities, and preserve
+                                  cultural heritage. It involves:
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: ul
+                            type: list
+                            start: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: listitem
+                                value: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Reducing carbon emissions
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 2
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Supporting local economies
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 3
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Respecting wildlife and natural habitats
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 4
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Promoting cultural understanding
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                            listType: bullet
+                            direction: null
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: The Uniglobe Difference
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Uniglobe stands out in the travel industry by
+                                  integrating sustainability into every aspect
+                                  of our services:
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: ul
+                            type: list
+                            start: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: listitem
+                                value: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Green Partnerships:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' We collaborate with eco-certified hotels, airlines, and tour operators.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 2
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Carbon Offset Programs:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Travelers can offset their trip’s carbon footprint through verified projects.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 3
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Traveler Education:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' We provide resources and tips for making responsible choices before, during, and after travel.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 4
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Sustainable Itineraries:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Our experts design trips that prioritize low-impact transportation, local experiences, and conservation.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                            listType: bullet
+                            direction: null
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Top Sustainable Destinations
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Explore the world responsibly with Uniglobe’s
+                                  recommended destinations:
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: ol
+                            type: list
+                            start: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: listitem
+                                value: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Costa Rica
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' – Renowned for its biodiversity and eco-lodges.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 2
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: New Zealand
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' – Home to protected parks and green tourism initiatives.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 3
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Slovenia
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' – Award-winning for sustainable tourism and green cities.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 4
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Iceland
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' – Powered by renewable energy and committed to conservation.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 5
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Bhutan
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' – Focused on Gross National Happiness and low-impact tourism.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                            listType: number
+                            direction: null
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: 'Impact: Making a Difference'
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Our approach to sustainable travel creates
+                                  measurable positive impacts:
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: ul
+                            type: list
+                            start: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: listitem
+                                value: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Environmental:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Reduced emissions, less waste, and conservation of natural resources.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 2
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Economic:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Support for local businesses, artisans, and guides.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 3
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Social:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Respect for local cultures and improved quality of life for communities.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                            listType: bullet
+                            direction: null
+                          - type: quote
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  "Every journey with Uniglobe is a step toward
+                                  a more sustainable world."
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Technology for a Greener Future
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Uniglobe leverages technology to enhance
+                                  sustainability:
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: ul
+                            type: list
+                            start: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: listitem
+                                value: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Smart Booking Tools:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Suggest eco-friendly options and track carbon footprints.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 2
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Mobile Apps:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Provide real-time tips for sustainable choices on the go.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 3
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Virtual Meetings:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Offer alternatives to travel when possible, reducing emissions.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                            listType: bullet
+                            direction: null
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Building a Community of Responsible Travelers
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: 'We believe in the power of community:'
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - tag: ul
+                            type: list
+                            start: 1
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: listitem
+                                value: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Traveler Forums:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Share experiences and tips for sustainable travel.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 2
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Workshops & Webinars:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Learn from experts about responsible tourism.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: listitem
+                                value: 3
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Volunteer Opportunities:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' Join local projects during your travels.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                            listType: bullet
+                            direction: null
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Join the Movement
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Travel with Uniglobe and be part of a global
+                                  community making a positive impact. Together,
+                                  we can explore the world while preserving it
+                                  for generations to come.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Ready to travel responsibly?
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 1
+                                version: 1
+                              - mode: normal
+                                text: ' '
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                              - rel: null
+                                url: '#'
+                                type: link
+                                title: null
+                                format: ''
+                                indent: 0
+                                target: null
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Contact Uniglobe today!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+        parameters:
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: f358424c-dea6-439f-9ccb-d7d292a1d249
+        type: container
+        slots:
+          container-inner:
+            - _id: bb963573-8ebc-4bd3-8196-5610c912a8d0
+              type: content
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What travelers are saying
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+            - _id: 5fce0dd8-6ac5-4ce9-bb0d-faa0536eb0da
+              type: spacer
+              parameters:
+                thickness:
+                  type: tp-slider-parameter
+                  value: 20px
+            - _id: 1f1f9251-f10f-4128-a3fc-33a0709eaecf
+              type: testimonial
+              parameters:
+                picture:
+                  type: asset
+                  value:
+                    - _id: 60634735-51d0-4788-b733-a7ecefa34963
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.unsplash.com/photo-1633332755192-727a05c4013d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NTE5NjQ3MDF8MA&ixlib=rb-4.1.0&q=85
+                        title:
+                          type: text
+                          value: Smiling young man working in a tech startup
+                        width:
+                          type: number
+                          value: 6220
+                        custom:
+                          type: object
+                          value:
+                            color: '#d9d9d9'
+                            apiUrl: >-
+                              https://api.unsplash.com/photos/a-man-wearing-glasses-and-a-black-shirt-iEEBWgY_6lA
+                            blurHash: LlLgkYxu?vWB~WWBt7WB4.f6jFt7
+                            sourceId: iEEBWgY_6lA
+                            createdAt: '2021-10-04T07:34:39Z'
+                            detailUrl: >-
+                              https://unsplash.com/photos/a-man-wearing-glasses-and-a-black-shirt-iEEBWgY_6lA
+                            updatedAt: '2025-07-08T06:04:20Z'
+                            authorName: Alexander Hipp
+                            downloadUrl: >-
+                              https://unsplash.com/photos/iEEBWgY_6lA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NTE5NjQ3MDF8MA
+                            photoRawUrl: >-
+                              https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NTE5NjQ3MDF8MA&ixlib=rb-4.1.0
+                            photoFullUrl: >-
+                              https://images.unsplash.com/photo-1633332755192-727a05c4013d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NTE5NjQ3MDF8MA&ixlib=rb-4.1.0&q=85
+                            photoSmallUrl: >-
+                              https://images.unsplash.com/photo-1633332755192-727a05c4013d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NTE5NjQ3MDF8MA&ixlib=rb-4.1.0&q=80&w=400
+                            photoThumbUrl: >-
+                              https://images.unsplash.com/photo-1633332755192-727a05c4013d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NTE5NjQ3MDF8MA&ixlib=rb-4.1.0&q=80&w=200
+                            authorUsername: alexanderhipp
+                            photoRegularUrl: >-
+                              https://images.unsplash.com/photo-1633332755192-727a05c4013d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NTE5NjQ3MDF8MA&ixlib=rb-4.1.0&q=80&w=1080
+                            authorProfileUrl: https://unsplash.com/@alexanderhipp
+                            downloadLocation: >-
+                              https://api.unsplash.com/photos/iEEBWgY_6lA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NTE5NjQ3MDF8MA
+                            authorProfileImage: >-
+                              https://images.unsplash.com/profile-1619559142670-fcd58dab16a9image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                        height:
+                          type: number
+                          value: 6220
+                        description:
+                          type: text
+                          value: Photo by Alexander Hipp on Unsplash
+                      _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                personName:
+                  type: text
+                  locales:
+                    en-US: Marcus
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      I spent three weeks with a coffee cooperative in Guatemala
+                      and learned more about agriculture, economics, and culture
+                      than in four years of college. Living with the families
+                      who grow the coffee I drink at home completely changed my
+                      perspective on global interconnection and sustainability.
+                personPosition:
+                  type: text
+                  locales:
+                    en-US: Conservation biology student
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: a7ed21f4-cf88-40b0-8044-e99b442fae6a
+              type: testimonial
+              parameters:
+                picture:
+                  type: asset
+                  value:
+                    - _id: 724ae4b3-1829-4e86-bfbd-7b3ebf67895d
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.unsplash.com/photo-1648544440040-b8efac63af30?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMTg5fHxwb3J0YWl0JTIwd29tYW58ZW58MHwyfHx8MTc1MjAwMDA4MHww&ixlib=rb-4.1.0&q=85
+                        title:
+                          type: text
+                          value: >-
+                            Many thanks to the generous people who donate to
+                            restore the photo studio. (I can sign a commercial
+                            release.) Ukraine. Kyiv.
+                        width:
+                          type: number
+                          value: 5448
+                        custom:
+                          type: object
+                          value:
+                            color: '#262626'
+                            apiUrl: >-
+                              https://api.unsplash.com/photos/a-person-with-long-hair-o6WuoXTrGm0
+                            blurHash: L57UPD4nV@~q%gIUxuxu%MRj9E-;
+                            sourceId: o6WuoXTrGm0
+                            createdAt: '2022-03-29T09:02:31Z'
+                            detailUrl: >-
+                              https://unsplash.com/photos/a-person-with-long-hair-o6WuoXTrGm0
+                            updatedAt: '2025-07-08T13:12:55Z'
+                            authorName: Alexander Krivitskiy
+                            downloadUrl: >-
+                              https://unsplash.com/photos/o6WuoXTrGm0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMTg5fHxwb3J0YWl0JTIwd29tYW58ZW58MHwyfHx8MTc1MjAwMDA4MHww
+                            photoRawUrl: >-
+                              https://images.unsplash.com/photo-1648544440040-b8efac63af30?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMTg5fHxwb3J0YWl0JTIwd29tYW58ZW58MHwyfHx8MTc1MjAwMDA4MHww&ixlib=rb-4.1.0
+                            photoFullUrl: >-
+                              https://images.unsplash.com/photo-1648544440040-b8efac63af30?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMTg5fHxwb3J0YWl0JTIwd29tYW58ZW58MHwyfHx8MTc1MjAwMDA4MHww&ixlib=rb-4.1.0&q=85
+                            photoSmallUrl: >-
+                              https://images.unsplash.com/photo-1648544440040-b8efac63af30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMTg5fHxwb3J0YWl0JTIwd29tYW58ZW58MHwyfHx8MTc1MjAwMDA4MHww&ixlib=rb-4.1.0&q=80&w=400
+                            photoThumbUrl: >-
+                              https://images.unsplash.com/photo-1648544440040-b8efac63af30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMTg5fHxwb3J0YWl0JTIwd29tYW58ZW58MHwyfHx8MTc1MjAwMDA4MHww&ixlib=rb-4.1.0&q=80&w=200
+                            authorUsername: krivitskiy
+                            photoRegularUrl: >-
+                              https://images.unsplash.com/photo-1648544440040-b8efac63af30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMTg5fHxwb3J0YWl0JTIwd29tYW58ZW58MHwyfHx8MTc1MjAwMDA4MHww&ixlib=rb-4.1.0&q=80&w=1080
+                            authorProfileUrl: https://unsplash.com/@krivitskiy
+                            downloadLocation: >-
+                              https://api.unsplash.com/photos/o6WuoXTrGm0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMTg5fHxwb3J0YWl0JTIwd29tYW58ZW58MHwyfHx8MTc1MjAwMDA4MHww
+                            authorProfileImage: >-
+                              https://images.unsplash.com/profile-1519521209962-c46cdc04aad4?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                        height:
+                          type: number
+                          value: 6000
+                        description:
+                          type: text
+                          value: Photo by Alexander Krivitskiy on Unsplash
+                      _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                personName:
+                  type: text
+                  locales:
+                    en-US: Zara
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      The coral restoration program in Thailand completely
+                      changed my perspective on environmental action. I'm now
+                      studying marine biology and planning to dedicate my career
+                      to ocean conservation. The hands-on experience was more
+                      valuable than any textbook could ever be.
+                personPosition:
+                  type: text
+                  locales:
+                    en-US: Marine biology student
+            - _id: e0ef079d-ceb8-4a73-a9e0-2e59dbaf2405
+              type: testimonial
+              parameters:
+                picture:
+                  type: asset
+                  value:
+                    - _id: 246ad281-222c-4cb9-b536-a33189e061e1
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.unsplash.com/photo-1634445545697-9de6e9cbfecd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0NXx8cG9ydHJhaXQlMjBtYW58ZW58MHwyfHx8MTc1MjAwMDExNHww&ixlib=rb-4.1.0&q=85
+                        title:
+                          type: text
+                          value: >-
+                            a man standing in front of a building holding his
+                            head
+                        width:
+                          type: number
+                          value: 4291
+                        custom:
+                          type: object
+                          value:
+                            color: '#260c0c'
+                            apiUrl: >-
+                              https://api.unsplash.com/photos/a-man-standing-in-front-of-a-building-holding-his-head-gIJC6pgbMdU
+                            blurHash: LKFE[uo~sRNG%MnhbIM{0zWCSixa
+                            sourceId: gIJC6pgbMdU
+                            createdAt: '2021-10-17T04:42:05Z'
+                            detailUrl: >-
+                              https://unsplash.com/photos/a-man-standing-in-front-of-a-building-holding-his-head-gIJC6pgbMdU
+                            updatedAt: '2025-07-08T18:06:11Z'
+                            authorName: Umar Kashif
+                            downloadUrl: >-
+                              https://unsplash.com/photos/gIJC6pgbMdU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0NXx8cG9ydHJhaXQlMjBtYW58ZW58MHwyfHx8MTc1MjAwMDExNHww
+                            photoRawUrl: >-
+                              https://images.unsplash.com/photo-1634445545697-9de6e9cbfecd?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0NXx8cG9ydHJhaXQlMjBtYW58ZW58MHwyfHx8MTc1MjAwMDExNHww&ixlib=rb-4.1.0
+                            photoFullUrl: >-
+                              https://images.unsplash.com/photo-1634445545697-9de6e9cbfecd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0NXx8cG9ydHJhaXQlMjBtYW58ZW58MHwyfHx8MTc1MjAwMDExNHww&ixlib=rb-4.1.0&q=85
+                            photoSmallUrl: >-
+                              https://images.unsplash.com/photo-1634445545697-9de6e9cbfecd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0NXx8cG9ydHJhaXQlMjBtYW58ZW58MHwyfHx8MTc1MjAwMDExNHww&ixlib=rb-4.1.0&q=80&w=400
+                            photoThumbUrl: >-
+                              https://images.unsplash.com/photo-1634445545697-9de6e9cbfecd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0NXx8cG9ydHJhaXQlMjBtYW58ZW58MHwyfHx8MTc1MjAwMDExNHww&ixlib=rb-4.1.0&q=80&w=200
+                            authorUsername: umarkas1
+                            photoRegularUrl: >-
+                              https://images.unsplash.com/photo-1634445545697-9de6e9cbfecd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0NXx8cG9ydHJhaXQlMjBtYW58ZW58MHwyfHx8MTc1MjAwMDExNHww&ixlib=rb-4.1.0&q=80&w=1080
+                            authorProfileUrl: https://unsplash.com/@umarkas1
+                            downloadLocation: >-
+                              https://api.unsplash.com/photos/gIJC6pgbMdU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0NXx8cG9ydHJhaXQlMjBtYW58ZW58MHwyfHx8MTc1MjAwMDExNHww
+                            authorProfileImage: >-
+                              https://images.unsplash.com/profile-fb-1606518376-37813c3c3963.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                        height:
+                          type: number
+                          value: 4583
+                        description:
+                          type: text
+                          value: Photo by Umar Kashif on Unsplash
+                      _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                personName:
+                  type: text
+                  locales:
+                    en-US: Jake
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Six months of slow travel through Southeast Asia gave me
+                      skills in sustainable farming, fluency in three languages,
+                      and friendships that will last forever. Every experience
+                      was carefully curated to support local communities while
+                      providing incredible learning opportunities.
+                personPosition:
+                  type: text
+                  locales:
+                    en-US: Digital nomad and sustainable travel advocate
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Testimonials
+      - _id: 61ccf6b5-e0d7-47ed-9636-4da962e22ff9
+        type: accordion
+        slots:
+          items:
+            - _id: b4f7dafa-e731-4f54-adc2-7e5395001548
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Is sustainable travel really cheaper than traditional
+                      tourism?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Yes. Research shows sustainable accommodations cost 39%
+                      less than traditional options. Community-based homestays
+                      average $15-45/night vs. $80+ for chain hotels. Local
+                      transportation costs 70% less than tourist shuttles. You
+                      save money because you're cutting out middlemen and
+                      supporting local economies directly.
+            - _id: a58fadd6-932e-4dfe-a8af-9e1b71393f27
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How do I know if an experience is genuinely sustainable?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Look for community ownership, transparent pricing, and
+                      specific impact metrics. Genuine sustainable experiences
+                      show you exactly where your money goes, introduce you to
+                      local families by name, and measure concrete environmental
+                      or social outcomes. Avoid experiences that use vague terms
+                      like 'eco-friendly' without specific certifications or
+                      community partnerships.
+            - _id: 970973f1-73bc-4c57-b14c-d30c57f746cc
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      What's the difference between sustainable, eco, and
+                      regenerative travel?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Sustainable travel aims to 'do no harm' by minimizing
+                      negative impacts. Eco-travel focuses specifically on
+                      environmental protection. Regenerative travel goes
+                      further—it actively improves destinations through
+                      conservation projects, community development, and cultural
+                      preservation. All Uniglobe experiences are regenerative,
+                      meaning destinations are better off because you visited.
+            - _id: c9d68913-eeef-4464-a365-f20f88c240a0
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How much can I realistically save with sustainable travel?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Travelers typically save 30-50% compared to traditional
+                      tourism while creating positive impact. A typical
+                      sustainable travel budget: accommodation $15-45/night,
+                      meals $5-15/day, local transport $5-20/day, activities
+                      $10-30/day. Total: $35-110/day vs. $150-300+ for
+                      traditional travel in the same destinations.
+            - _id: fa49ec5c-b285-4da5-a152-46a01a089c51
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Can I still have comfortable accommodations while
+                      traveling sustainably?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Absolutely. Sustainable doesn't mean uncomfortable. Many
+                      eco-lodges and community guesthouses offer private rooms,
+                      hot showers, WiFi, and comfortable beds while maintaining
+                      environmental standards. You're trading generic hotel
+                      amenities for authentic experiences like home-cooked
+                      meals, local knowledge, and genuine cultural exchange.
+            - _id: 4c6a3fb2-91bd-46d8-a2d8-de32dbd94ccd
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What if I don't speak the local language?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Language barriers become opportunities for connection in
+                      community-based travel. Many hosts speak basic English,
+                      and translation apps help with specifics. More
+                      importantly, shared activities like cooking, farming, or
+                      conservation work create communication beyond words. Many
+                      travelers say language barriers led to their most
+                      meaningful travel memories.
+            - _id: fb5e02a7-5b22-4349-846e-2b9b74186315
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How do I measure the actual impact of my travel?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Every Uniglobe experience includes impact tracking: carbon
+                      saved/offset, income generated for local families,
+                      conservation milestones achieved, and cultural projects
+                      supported. You receive regular updates showing the
+                      long-term results of your travel choices, from trees
+                      planted to community infrastructure built.
+            - _id: c9103392-d86c-4f8e-a6e8-30121cbb626d
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Is sustainable travel safe for young solo travelers?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Community-based sustainable travel is often safer than
+                      traditional tourism because you're integrated into local
+                      communities rather than isolated in tourist areas. Local
+                      families and communities have invested interests in your
+                      safety and positive experience. All Uniglobe partners
+                      include safety protocols and 24/7 local contact support.
+            - _id: 2778e4aa-61ac-4c20-b5c1-7aac836aa953
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Can I still share Instagram-worthy content while traveling
+                      sustainably?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Sustainable travel often creates more compelling content
+                      than traditional tourism. Real experiences—learning
+                      traditional crafts, working on conservation projects,
+                      sharing meals with local families—generate authentic
+                      stories that stand out from generic resort photos. Plus,
+                      you can share the meaningful impact you're creating.
+            - _id: cab223f8-f431-48cb-beee-79d1f1a4ae14
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      What certifications should I look for in sustainable
+                      travel providers?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Look for GSTC (Global Sustainable Tourism Council)
+                      certification, B-Corp status, and specific community
+                      partnerships with transparent benefit-sharing. Uniglobe
+                      partners are locally owned and operated, with direct
+                      community benefits and environmental impact measurements
+                      rather than just certification logos.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Sustainable travel questions answered
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Get honest answers about eco-friendly travel, from costs to
+                carbon footprints to finding authentic experiences.
+      - _id: ae65c772-1a8b-4dd8-b9a9-6ba194f0733d
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: f50ca2e4-6422-4d44-8b63-0626bfd221ba
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Community-owned
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 58463ccc-3050-4193-a104-445cb016d495
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1642613630414-1d9938f4fe02?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxndWF0ZW1hbGElMjBjb2ZmZWV8ZW58MHx8fHwxNzUyMDAwNDI3fDA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: Coffee work
+                          width:
+                            type: number
+                            value: 4160
+                          custom:
+                            type: object
+                            value:
+                              color: '#d9d9d9'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-person-picking-coffee-beans-from-a-tree-0-SWia-_xjA
+                              blurHash: LID^V;?=%#Di4:Ipxa-qO@RQD*E1
+                              sourceId: 0-SWia-_xjA
+                              createdAt: '2022-01-19T17:41:01Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-person-picking-coffee-beans-from-a-tree-0-SWia-_xjA
+                              updatedAt: '2025-07-08T15:44:41Z'
+                              authorName: Gerson Cifuentes
+                              downloadUrl: >-
+                                https://unsplash.com/photos/0-SWia-_xjA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxndWF0ZW1hbGElMjBjb2ZmZWV8ZW58MHx8fHwxNzUyMDAwNDI3fDA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1642613630414-1d9938f4fe02?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxndWF0ZW1hbGElMjBjb2ZmZWV8ZW58MHx8fHwxNzUyMDAwNDI3fDA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1642613630414-1d9938f4fe02?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxndWF0ZW1hbGElMjBjb2ZmZWV8ZW58MHx8fHwxNzUyMDAwNDI3fDA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1642613630414-1d9938f4fe02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxndWF0ZW1hbGElMjBjb2ZmZWV8ZW58MHx8fHwxNzUyMDAwNDI3fDA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1642613630414-1d9938f4fe02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxndWF0ZW1hbGElMjBjb2ZmZWV8ZW58MHx8fHwxNzUyMDAwNDI3fDA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: gtk1x
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1642613630414-1d9938f4fe02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxndWF0ZW1hbGElMjBjb2ZmZWV8ZW58MHx8fHwxNzUyMDAwNDI3fDA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@gtk1x
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/0-SWia-_xjA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxndWF0ZW1hbGElMjBjb2ZmZWV8ZW58MHx8fHwxNzUyMDAwNDI3fDA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1518798645102-7d4d37a70ac1?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 6240
+                          description:
+                            type: text
+                            value: Photo by Gerson Cifuentes on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: 'Guatemala: Coffee cooperatives & Mayan culture'
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Explore Guatemala
+                buttonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      projectMapId: ''
+                      dynamicInputValues:
+                        locale: ${locale}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Live with Indigenous families, learn traditional weaving
+                      techniques passed down through generations, and support
+                      fair-trade coffee farmers. Experience authentic Mayan
+                      culture while contributing to community development and
+                      cultural preservation projects.
+            - _id: d2e99db0-715b-4755-8423-09bea85dd90e
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Marine protected
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: f74a3f21-2d7a-479e-a0ae-e6a1f3b71ed5
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1582967788606-a171c1080cb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXJpbmUlMjBsaWZlfGVufDB8fHx8MTc1MjAwMDQ0Mnww&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: Coral reef
+                          width:
+                            type: number
+                            value: 3000
+                          custom:
+                            type: object
+                            value:
+                              color: '#0ca6d9'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/gray-and-black-fish-under-water-hqAGgNsMpEY
+                              blurHash: Lo3.3liFW@jXk?i^e-bJbvjvjEfk
+                              sourceId: hqAGgNsMpEY
+                              createdAt: '2020-02-29T09:16:55Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/gray-and-black-fish-under-water-hqAGgNsMpEY
+                              updatedAt: '2025-07-08T13:34:18Z'
+                              authorName: Francesco Ungaro
+                              downloadUrl: >-
+                                https://unsplash.com/photos/hqAGgNsMpEY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXJpbmUlMjBsaWZlfGVufDB8fHx8MTc1MjAwMDQ0Mnww
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1582967788606-a171c1080cb0?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXJpbmUlMjBsaWZlfGVufDB8fHx8MTc1MjAwMDQ0Mnww&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1582967788606-a171c1080cb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXJpbmUlMjBsaWZlfGVufDB8fHx8MTc1MjAwMDQ0Mnww&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1582967788606-a171c1080cb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXJpbmUlMjBsaWZlfGVufDB8fHx8MTc1MjAwMDQ0Mnww&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1582967788606-a171c1080cb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXJpbmUlMjBsaWZlfGVufDB8fHx8MTc1MjAwMDQ0Mnww&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: francesco_ungaro
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1582967788606-a171c1080cb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXJpbmUlMjBsaWZlfGVufDB8fHx8MTc1MjAwMDQ0Mnww&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@francesco_ungaro
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/hqAGgNsMpEY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXJpbmUlMjBsaWZlfGVufDB8fHx8MTc1MjAwMDQ0Mnww
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1657962511013-5534a14fcb1cimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 4000
+                          description:
+                            type: text
+                            value: Photo by Francesco Ungaro on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: 'Thailand: Marine conservation & island communities'
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Discover Thailand
+                buttonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      dynamicInputValues:
+                        locale: ${locale}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Protect coral reefs through hands-on restoration work,
+                      stay with fishing families, and learn sustainable tourism
+                      practices on community-owned islands. Contribute to marine
+                      ecosystem recovery while experiencing authentic Thai
+                      island culture.
+            - _id: 7e975a5d-c588-4ad2-b2f3-fd4a436dbd42
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Overtourism-free
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 6ae2ce87-8964-4f85-be95-c9ff07dd53f3
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1492809116358-39675ab1111e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxTbG92ZW5pYSUyMEFscHN8ZW58MHx8fHwxNzUyMDAwNDY2fDA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: A mountain village
+                          width:
+                            type: number
+                            value: 7360
+                          custom:
+                            type: object
+                            value:
+                              color: '#a6c0f3'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/grey-houses-on-field-INn4Rc0Wqw0
+                              blurHash: L@F%0{kEWBa#x|ogj[j?tSadf6ju
+                              sourceId: INn4Rc0Wqw0
+                              createdAt: '2017-04-21T21:21:24Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/grey-houses-on-field-INn4Rc0Wqw0
+                              updatedAt: '2025-07-08T13:15:29Z'
+                              authorName: Jonatan Pie
+                              downloadUrl: >-
+                                https://unsplash.com/photos/INn4Rc0Wqw0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxTbG92ZW5pYSUyMEFscHN8ZW58MHx8fHwxNzUyMDAwNDY2fDA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1492809116358-39675ab1111e?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxTbG92ZW5pYSUyMEFscHN8ZW58MHx8fHwxNzUyMDAwNDY2fDA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1492809116358-39675ab1111e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxTbG92ZW5pYSUyMEFscHN8ZW58MHx8fHwxNzUyMDAwNDY2fDA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1492809116358-39675ab1111e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxTbG92ZW5pYSUyMEFscHN8ZW58MHx8fHwxNzUyMDAwNDY2fDA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1492809116358-39675ab1111e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxTbG92ZW5pYSUyMEFscHN8ZW58MHx8fHwxNzUyMDAwNDY2fDA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: r3dmax
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1492809116358-39675ab1111e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxTbG92ZW5pYSUyMEFscHN8ZW58MHx8fHwxNzUyMDAwNDY2fDA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@r3dmax
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/INn4Rc0Wqw0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxTbG92ZW5pYSUyMEFscHN8ZW58MHx8fHwxNzUyMDAwNDY2fDA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1470091078573-15c47f5750e7?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 4912
+                          description:
+                            type: text
+                            value: Photo by Jonatan Pie on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: 'Slovenia: Sustainable Alpine adventures'
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Visit Slovenia
+                buttonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      projectMapId: ''
+                      dynamicInputValues:
+                        locale: ${locale}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Hike pristine national parks, stay in traditional
+                      eco-villages, and support local farmers and artisans
+                      preserving Alpine traditions. Experience European mountain
+                      culture in a destination where tourism enhances rather
+                      than overwhelms local communities.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: a2afdb72-f580-4a9f-ab11-994617514e27
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Conservation-focused
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: d2dbb535-f085-44a6-af79-6eba86df6b83
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1610982330184-b26f7ea46541?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxLZW55YSUyME1hYXNhaXxlbnwwfHx8fDE3NTIwMDA0ODd8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: Masai people in Masai Mara, Kenya
+                          width:
+                            type: number
+                            value: 6000
+                          custom:
+                            type: object
+                            value:
+                              color: '#d9f3f3'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/group-of-people-wearing-orange-and-yellow-traditional-dress-nayS2zjJpGw
+                              blurHash: LmLW-Ln%xuoeysM{RjWB*0adjFWB
+                              sourceId: nayS2zjJpGw
+                              createdAt: '2021-01-18T15:07:34Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/group-of-people-wearing-orange-and-yellow-traditional-dress-nayS2zjJpGw
+                              updatedAt: '2025-07-08T18:13:52Z'
+                              authorName: Henrik Hansen
+                              downloadUrl: >-
+                                https://unsplash.com/photos/nayS2zjJpGw/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxLZW55YSUyME1hYXNhaXxlbnwwfHx8fDE3NTIwMDA0ODd8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1610982330184-b26f7ea46541?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxLZW55YSUyME1hYXNhaXxlbnwwfHx8fDE3NTIwMDA0ODd8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1610982330184-b26f7ea46541?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxLZW55YSUyME1hYXNhaXxlbnwwfHx8fDE3NTIwMDA0ODd8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1610982330184-b26f7ea46541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxLZW55YSUyME1hYXNhaXxlbnwwfHx8fDE3NTIwMDA0ODd8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1610982330184-b26f7ea46541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxLZW55YSUyME1hYXNhaXxlbnwwfHx8fDE3NTIwMDA0ODd8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: henrik_hansen
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1610982330184-b26f7ea46541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxLZW55YSUyME1hYXNhaXxlbnwwfHx8fDE3NTIwMDA0ODd8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@henrik_hansen
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/nayS2zjJpGw/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxLZW55YSUyME1hYXNhaXxlbnwwfHx8fDE3NTIwMDA0ODd8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1571244943562-b664ac2f5c11image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 4000
+                          description:
+                            type: text
+                            value: Photo by Henrik Hansen on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: 'Kenya: Wildlife conservation & Maasai culture'
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Experience Kenya
+                buttonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      dynamicInputValues:
+                        locale: ${locale}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Join meaningful conservation projects, stay with Maasai
+                      communities, and participate in wildlife monitoring
+                      programs that make a real difference. Protect endangered
+                      species while learning from traditional ecological
+                      knowledge and practices.
+        variant: carousel
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Start your sustainable journey in these verified destinations
+          buttonCopy:
+            type: text
+            locales:
+              en-US: View all destinations
+          buttonLink:
+            type: link
+            value:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: ''
+              dynamicInputValues:
+                locale: ${locale}
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Each destination is community-owned, environmentally positive,
+                and costs significantly less than traditional tourism options.
+      - _id: d93db75b-a93b-4ccc-9e09-96794937255b
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: >-
+                Join 50,000+ travelers choosing experiences that create lasting
+                change
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Stop settling for tourism that exploits destinations and
+                commodifies culture. Start traveling in ways that forge genuine
+                connections, support local communities, and protect the places
+                you love. Your transformative adventure begins with choosing
+                experiences that matter.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: The time for conscious travel is now
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Start my sustainable journey
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /:locale/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: ''
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: Download impact calculator
+          secondaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /:locale/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: ''
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonStyle:
+            type: tp-button-style-parameter
+            value: link
+  _locales:
+    - en-US
+created: '2025-07-08T19:00:21.329199+00:00'
+modified: '2025-07-08T19:07:39.081764+00:00'
+pattern: false

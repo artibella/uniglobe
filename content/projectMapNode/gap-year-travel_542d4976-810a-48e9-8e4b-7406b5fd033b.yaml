@@ -1,0 +1,10 @@
+id: 542d4976-810a-48e9-8e4b-7406b5fd033b
+name: Gap year travel
+order: 675
+path: /:locale/gap-year-travel
+type: composition
+pathSegment: gap-year-travel
+data:
+  queryStrings: []
+compositionId: c5dc84cd-e895-47bc-9726-a0e8bb36f57f
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

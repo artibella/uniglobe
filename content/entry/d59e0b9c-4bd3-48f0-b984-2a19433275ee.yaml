@@ -1,0 +1,2069 @@
+created: '2025-07-10T13:06:03.575436+00:00'
+modified: '2025-07-10T13:08:39.842775+00:00'
+pattern: false
+entry:
+  _id: d59e0b9c-4bd3-48f0-b984-2a19433275ee
+  _name: South America
+  _slug: south-america
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=85
+  type: region
+  fields: {}
+  _dataResources:
+    Countries:
+      type: countriesBySubregionName
+      variables:
+        region: South America
+  _locales:
+    - en-US
+    - de-DE
+  _overrides:
+    d59e0b9c-4bd3-48f0-b984-2a19433275ee:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: South America
+            en-US: South America
+        image:
+          type: asset
+          locales:
+            de-DE:
+              - _id: bc4b9097-e080-4c29-9034-90db21cbb3dc
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Wildest sunset ever
+                  width:
+                    type: number
+                    value: 6000
+                  custom:
+                    type: object
+                    value:
+                      color: '#f3f3f3'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/aerial-photography-of-cityscape-near-sea-7F65HDP0-E0
+                      blurHash: L,LzpqX8jZax~VjYj[kC%MaxWBof
+                      sourceId: 7F65HDP0-E0
+                      createdAt: '2017-01-06T19:07:43Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/aerial-photography-of-cityscape-near-sea-7F65HDP0-E0
+                      updatedAt: '2025-07-10T07:10:28Z'
+                      authorName: Agustin Diaz Gargiulo
+                      downloadUrl: >-
+                        https://unsplash.com/photos/7F65HDP0-E0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: agustindiazg
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@agustindiazg
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/7F65HDP0-E0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1632878091545-0896749d4eaeimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4000
+                  description:
+                    type: text
+                    value: Photo by Agustin Diaz Gargiulo on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            en-US:
+              - _id: bc4b9097-e080-4c29-9034-90db21cbb3dc
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Wildest sunset ever
+                  width:
+                    type: number
+                    value: 6000
+                  custom:
+                    type: object
+                    value:
+                      color: '#f3f3f3'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/aerial-photography-of-cityscape-near-sea-7F65HDP0-E0
+                      blurHash: L,LzpqX8jZax~VjYj[kC%MaxWBof
+                      sourceId: 7F65HDP0-E0
+                      createdAt: '2017-01-06T19:07:43Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/aerial-photography-of-cityscape-near-sea-7F65HDP0-E0
+                      updatedAt: '2025-07-10T07:10:28Z'
+                      authorName: Agustin Diaz Gargiulo
+                      downloadUrl: >-
+                        https://unsplash.com/photos/7F65HDP0-E0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: agustindiazg
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@agustindiazg
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/7F65HDP0-E0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1632878091545-0896749d4eaeimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4000
+                  description:
+                    type: text
+                    value: Photo by Agustin Diaz Gargiulo on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        teaserText:
+          type: text
+          locales:
+            de-DE: >-
+              South America is a vibrant mix of cultures, wild landscapes, and
+              real adventures—think Andean villages, Amazon rainforests, and
+              buzzing city life. Whether you’re trekking ancient trails,
+              learning to tango, or supporting local communities, this region
+              offers authentic, budget-friendly travel focused on sustainability
+              and genuine connections.
+            en-US: >-
+              South America is a vibrant mix of cultures, wild landscapes, and
+              real adventures—think Andean villages, Amazon rainforests, and
+              buzzing city life. Whether you’re trekking ancient trails,
+              learning to tango, or supporting local communities, this region
+              offers authentic, budget-friendly travel focused on sustainability
+              and genuine connections.
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h1
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          South America: A Continent of Diversity, Adventure,
+                          and Connection
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: '!'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=85
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Wildest sunset ever
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: Photo by Agustin Diaz Gargiulo on Unsplash
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 2
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Why Travel South America?
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          South America is a patchwork of ancient cultures, wild
+                          natural beauty, and vibrant city life. From the
+                          snow-capped Andes to the lush Amazon, this continent
+                          offers authentic experiences for travelers who want
+                          more than just a checklist of sights. Here, you’ll
+                          find:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Community-based tourism
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' that supports local families and indigenous groups'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Eco-certified hostels and homestays
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' for budget-conscious travelers'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Affordable, sustainable transport
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' like long-distance buses and shared rides'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Small group adventures
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: —think hiking, biking, and wildlife spotting
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Cultural immersion
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' through food, music, and festivals'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Countries at a Glance
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          South America is made up of 12 countries and several
+                          territories, each with its own flavor. Here are some
+                          highlights:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          | Country | Capital         | Notable
+                          For                        |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          |---------|----------------|------------------------------------|
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Argentina | Buenos Aires   | Tango, Patagonia, wine
+                          regions     |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Bolivia  | Sucre          | Salt flats, indigenous
+                          cultures    |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Brazil   | Brasília       | Amazon, Carnival,
+                          beaches          |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Chile    | Santiago       | Atacama Desert,
+                          Patagonia          |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Colombia | Bogotá         | Coffee, Caribbean coast,
+                          street art|
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Ecuador  | Quito          | Galápagos, Andes,
+                          markets          |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Guyana   | Georgetown     | Rainforests,
+                          waterfalls            |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Paraguay | Asunción       | Jesuit ruins, river
+                          life           |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Peru     | Lima           | Machu Picchu, ceviche,
+                          Andes       |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Suriname | Paramaribo     | Dutch heritage, jungle
+                          trekking    |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Uruguay  | Montevideo     | Beaches, mate culture,
+                          cycling     |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Venezuela| Caracas        | Angel Falls, Caribbean
+                          coast       |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Top Experiences for Conscious Travelers
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Trek the Inca Trail
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' or lesser-known routes like the Salkantay or Choquequirao (Peru)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Stay with a Quechua family
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' on Lake Titicaca (Bolivia/Peru)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Volunteer in Amazon conservation projects
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' (Brazil, Ecuador)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Cycle the wine roads of Mendoza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' (Argentina)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Learn samba or tango
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' in local dance schools (Brazil, Argentina)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 6
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Explore street art and local food markets
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' in Bogotá, Medellín, or Valparaíso'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Getting Around
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Buses
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' are the most affordable and eco-friendly way to travel between cities (expect $10–$40 for long distances)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Shared vans (colectivos)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' connect smaller towns'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Trains
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' are rare but scenic in places like Peru and Argentina'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Budget flights
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' exist but have a higher carbon footprint—consider offsetting if you fly'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Sustainable Travel Tips
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Support local guides and family-run hostels
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Avoid single-use plastics—bring a filter bottle
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Respect indigenous lands and traditions
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Choose group tours with clear environmental
+                              policies
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Learn basic Spanish or Portuguese to connect with
+                              locals
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Budget Breakdown (per day, average)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dorm bed: $8–$20'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Local meal: $2–$7'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Bus ride (4–8 hours): $10–$25'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Entry to major sites: $5–$30'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: When to Go
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dry season (May–September):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Best for hiking in the Andes and Patagonia'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Wet season (October–April):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Lush Amazon, fewer crowds, but some roads may be muddy'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Real Connections, Real Impact
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Traveling in South America isn’t just about seeing the
+                          sights—it’s about connecting with people, learning
+                          from different cultures, and leaving a positive
+                          impact. Whether you’re sipping mate with locals in
+                          Uruguay or helping with reforestation in the Amazon,
+                          your journey here can be both meaningful and
+                          memorable.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Ready to explore South America? Check out our guides
+                          to community stays, eco-tours, and off-the-beaten-path
+                          adventures across the continent.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 2
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 2
+                direction: ltr
+                textFormat: 2
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h1
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          South America: A Continent of Diversity, Adventure,
+                          and Connection
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: '!'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=85
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Wildest sunset ever
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: Photo by Agustin Diaz Gargiulo on Unsplash
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 2
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Why Travel South America?
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          South America is a patchwork of ancient cultures, wild
+                          natural beauty, and vibrant city life. From the
+                          snow-capped Andes to the lush Amazon, this continent
+                          offers authentic experiences for travelers who want
+                          more than just a checklist of sights. Here, you’ll
+                          find:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Community-based tourism
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' that supports local families and indigenous groups'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Eco-certified hostels and homestays
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' for budget-conscious travelers'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Affordable, sustainable transport
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' like long-distance buses and shared rides'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Small group adventures
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: —think hiking, biking, and wildlife spotting
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Cultural immersion
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' through food, music, and festivals'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Countries at a Glance
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          South America is made up of 12 countries and several
+                          territories, each with its own flavor. Here are some
+                          highlights:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          | Country | Capital         | Notable
+                          For                        |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          |---------|----------------|------------------------------------|
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Argentina | Buenos Aires   | Tango, Patagonia, wine
+                          regions     |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Bolivia  | Sucre          | Salt flats, indigenous
+                          cultures    |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Brazil   | Brasília       | Amazon, Carnival,
+                          beaches          |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Chile    | Santiago       | Atacama Desert,
+                          Patagonia          |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Colombia | Bogotá         | Coffee, Caribbean coast,
+                          street art|
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Ecuador  | Quito          | Galápagos, Andes,
+                          markets          |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Guyana   | Georgetown     | Rainforests,
+                          waterfalls            |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Paraguay | Asunción       | Jesuit ruins, river
+                          life           |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Peru     | Lima           | Machu Picchu, ceviche,
+                          Andes       |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Suriname | Paramaribo     | Dutch heritage, jungle
+                          trekking    |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Uruguay  | Montevideo     | Beaches, mate culture,
+                          cycling     |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          | Venezuela| Caracas        | Angel Falls, Caribbean
+                          coast       |
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Top Experiences for Conscious Travelers
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Trek the Inca Trail
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' or lesser-known routes like the Salkantay or Choquequirao (Peru)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Stay with a Quechua family
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' on Lake Titicaca (Bolivia/Peru)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Volunteer in Amazon conservation projects
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' (Brazil, Ecuador)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Cycle the wine roads of Mendoza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' (Argentina)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Learn samba or tango
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' in local dance schools (Brazil, Argentina)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 6
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Explore street art and local food markets
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' in Bogotá, Medellín, or Valparaíso'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Getting Around
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Buses
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' are the most affordable and eco-friendly way to travel between cities (expect $10–$40 for long distances)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Shared vans (colectivos)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' connect smaller towns'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Trains
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' are rare but scenic in places like Peru and Argentina'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Budget flights
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' exist but have a higher carbon footprint—consider offsetting if you fly'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Sustainable Travel Tips
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Support local guides and family-run hostels
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Avoid single-use plastics—bring a filter bottle
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Respect indigenous lands and traditions
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Choose group tours with clear environmental
+                              policies
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Learn basic Spanish or Portuguese to connect with
+                              locals
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Budget Breakdown (per day, average)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dorm bed: $8–$20'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Local meal: $2–$7'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Bus ride (4–8 hours): $10–$25'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Entry to major sites: $5–$30'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: When to Go
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Dry season (May–September):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Best for hiking in the Andes and Patagonia'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Wet season (October–April):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Lush Amazon, fewer crowds, but some roads may be muddy'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    listType: bullet
+                    direction: ltr
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Real Connections, Real Impact
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Traveling in South America isn’t just about seeing the
+                          sights—it’s about connecting with people, learning
+                          from different cultures, and leaving a positive
+                          impact. Whether you’re sipping mate with locals in
+                          Uruguay or helping with reforestation in the Amazon,
+                          your journey here can be both meaningful and
+                          memorable.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Ready to explore South America? Check out our guides
+                          to community stays, eco-tours, and off-the-beaten-path
+                          adventures across the continent.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 2
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 2
+                direction: ltr
+                textFormat: 2
+  _pattern: 57ca4594-f957-4139-a439-fbfb7eb58300

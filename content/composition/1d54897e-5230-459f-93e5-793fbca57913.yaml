@@ -1,0 +1,1668 @@
+composition:
+  _name: Solo female travel
+  _id: 1d54897e-5230-459f-93e5-793fbca57913
+  _slug: solo-female-travel
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: 'Solo Female Travel: Safe & Empowering Adventures for Women | Uniglobe'
+    pageKeywords:
+      type: text
+      locales:
+        en-US: >-
+          solo female travel, women traveling alone, safe travel for women,
+          female solo travelers, women travel safety, solo travel destinations,
+          solo travel tips for women, women only travel, female travel community
+    twitterTitle:
+      type: text
+      locales:
+        en-US: Solo female travel done right
+    openGraphImage:
+      type: asset
+      value:
+        - _id: a3232da4-8c56-41cb-ab6b-bb6d0e365b7b
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.unsplash.com/photo-1714669017009-25df0d1c45dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA&ixlib=rb-4.1.0&q=85
+            focalPoint:
+              type: focalPoint
+              value:
+                x: 0.6
+                'y': 0.38
+          _source: custom-url
+    openGraphTitle:
+      type: text
+      locales:
+        en-US: Solo female travel that empowers and inspires
+    twitterDescription:
+      type: text
+      locales:
+        en-US: >-
+          Safe, empowering, and authentic solo adventures designed by women, for
+          women.
+    pageMetaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Join 25,000+ women traveling solo with Uniglobe. Safe stays, local
+          female guides, and budget adventures in 50+ countries. Start your
+          journey.
+    openGraphDescription:
+      type: text
+      locales:
+        en-US: >-
+          Join thousands of women traveling solo with confidence. Find safe,
+          authentic experiences led by local women who'll show you the real
+          story.
+  slots:
+    pageFooter:
+      - _id: 15613127-3d72-4b0f-a7d4-3862841264e6
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 5b110f59-586e-4426-be76-18ca5a489350
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 4884de18-2577-4af2-8d93-2ba00f9ba289
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: f1f6d5f7-1707-4a79-9e61-18ecbd3e8300
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1714669017009-25df0d1c45dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: a woman with a backpack is walking down the road
+                    width:
+                      type: number
+                      value: 3840
+                    custom:
+                      type: object
+                      value:
+                        color: '#a6a673'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/a-woman-with-a-backpack-is-walking-down-the-road-5dsqOAsZFII
+                        blurHash: LKHx=w.lDi9F-e9F-px]NGWA%NkC
+                        sourceId: 5dsqOAsZFII
+                        createdAt: '2024-05-02T16:57:24Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/a-woman-with-a-backpack-is-walking-down-the-road-5dsqOAsZFII
+                        updatedAt: '2025-07-08T09:16:19Z'
+                        authorName: Vitaly Gariev
+                        downloadUrl: >-
+                          https://unsplash.com/photos/5dsqOAsZFII/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1714669017009-25df0d1c45dd?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1714669017009-25df0d1c45dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1714669017009-25df0d1c45dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1714669017009-25df0d1c45dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: silverkblack
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1714669017009-25df0d1c45dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@silverkblack
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/5dsqOAsZFII/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1713942088787-b6a718031fe7image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 2160
+                    description:
+                      type: text
+                      value: Photo by Vitaly Gariev on Unsplash
+                  _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          title:
+            type: text
+            locales:
+              en-US: Solo adventures designed by women, for women
+          objectFit:
+            type: select
+            value: cover
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Join a global community of solo women travelers, enjoy safe
+                stays, and explore 50+ countries from just $45/day.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Empower your solo journey
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 30%
+          textColorVariant:
+            type: select
+            value: Light
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Find Safe Adventures
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: Join the Community
+      - _id: 57ace514-082e-43ab-9f2c-41b85ea99d44
+        type: featuredCallout
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 53d3a3af-efa4-42e8-b643-3f5861a971c5
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                    title:
+                      type: text
+                      value: >-
+                        A diverse group of adults enjoying a shared meal
+                        indoors, viewed from above.
+                    width:
+                      type: number
+                      value: 6000
+                    custom:
+                      type: object
+                      value:
+                        sourceId: '3184195'
+                        pexelsUrl: >-
+                          https://www.pexels.com/photo/group-of-people-eating-together-3184195/
+                        photoTinyUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                        photographer: fauxels
+                        photoLargeUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        photoSmallUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&h=130
+                        photoMediumUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&h=350
+                        photoLarge2xUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        photographerUrl: https://www.pexels.com/@fauxels
+                        photoPortraitUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                        pexelsOriginalUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg
+                        photoLandscapeUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                    height:
+                      type: number
+                      value: 4004
+                    description:
+                      type: text
+                      value: >-
+                        A diverse group of adults enjoying a shared meal
+                        indoors, viewed from above. - Photo by fauxels on Pexels
+                  _source: pexels-644e5a6a-d5cb-4e66-8a2e-73ab1bdd4510
+          title:
+            type: text
+            locales:
+              en-US: 84% of women say solo travel is their most empowering experience
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Join 25,000+ solo female travelers discovering the world and
+                themselves—because adventure is safer and more welcoming than
+                you think.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: You're not alone in this
+      - _id: fa4c2dee-6587-40a5-80e7-6511f79ebeec
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: 80334963-a0c4-4bea-8039-3c591b8841f9
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Women-owned
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 30494728-8368-472a-bbaa-6a125d865457
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1707716312213-b1dee92f147a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFydGlzYW4lMjBjcmFmdHxlbnwwfHx8fDE3NTE5NzQ3NDR8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: A woman weaves fabric on a loom.
+                          width:
+                            type: number
+                            value: 4752
+                          custom:
+                            type: object
+                            value:
+                              color: '#d9c0a6'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-woman-weaves-fabric-on-a-loom-eAlt6MDaurM
+                              blurHash: LHIg.T-rETS$~p=|NdIV0zt3xZIo
+                              sourceId: eAlt6MDaurM
+                              createdAt: '2024-02-12T05:55:30Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-woman-weaves-fabric-on-a-loom-eAlt6MDaurM
+                              updatedAt: '2025-07-08T09:36:24Z'
+                              authorName: Farida Tania
+                              downloadUrl: >-
+                                https://unsplash.com/photos/eAlt6MDaurM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFydGlzYW4lMjBjcmFmdHxlbnwwfHx8fDE3NTE5NzQ3NDR8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1707716312213-b1dee92f147a?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFydGlzYW4lMjBjcmFmdHxlbnwwfHx8fDE3NTE5NzQ3NDR8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1707716312213-b1dee92f147a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFydGlzYW4lMjBjcmFmdHxlbnwwfHx8fDE3NTE5NzQ3NDR8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1707716312213-b1dee92f147a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFydGlzYW4lMjBjcmFmdHxlbnwwfHx8fDE3NTE5NzQ3NDR8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1707716312213-b1dee92f147a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFydGlzYW4lMjBjcmFmdHxlbnwwfHx8fDE3NTE5NzQ3NDR8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: taart_work
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1707716312213-b1dee92f147a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFydGlzYW4lMjBjcmFmdHxlbnwwfHx8fDE3NTE5NzQ3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@taart_work
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/eAlt6MDaurM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFydGlzYW4lMjBjcmFmdHxlbnwwfHx8fDE3NTE5NzQ3NDR8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1706859421287-414772ad2f1eimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 2672
+                          description:
+                            type: text
+                            value: Photo by Farida Tania on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Women-led cultural immersions
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Meet local women
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Join women's cooperatives, learn traditional crafts, and
+                      support female artisans for authentic cultural
+                      experiences.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 1f0398cc-f4f5-43f5-a935-0e9992a19a52
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Safety Verified
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 8f072cae-b264-45ff-a9eb-424161e80d31
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.pexels.com/photos/10375889/pexels-photo-10375889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                          title:
+                            type: text
+                            value: >-
+                              Excited small business owner laughing while
+                              talking on phone in a cozy bar setting.
+                          width:
+                            type: number
+                            value: 2987
+                          custom:
+                            type: object
+                            value:
+                              sourceId: '10375889'
+                              pexelsUrl: >-
+                                https://www.pexels.com/photo/woman-working-on-laptop-on-window-sill-and-talking-on-phone-10375889/
+                              photoTinyUrl: >-
+                                https://images.pexels.com/photos/10375889/pexels-photo-10375889.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                              photographer: RDNE Stock project
+                              photoLargeUrl: >-
+                                https://images.pexels.com/photos/10375889/pexels-photo-10375889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                              photoSmallUrl: >-
+                                https://images.pexels.com/photos/10375889/pexels-photo-10375889.jpeg?auto=compress&cs=tinysrgb&h=130
+                              photoMediumUrl: >-
+                                https://images.pexels.com/photos/10375889/pexels-photo-10375889.jpeg?auto=compress&cs=tinysrgb&h=350
+                              photoLarge2xUrl: >-
+                                https://images.pexels.com/photos/10375889/pexels-photo-10375889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                              photographerUrl: https://www.pexels.com/@rdne
+                              photoPortraitUrl: >-
+                                https://images.pexels.com/photos/10375889/pexels-photo-10375889.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                              pexelsOriginalUrl: >-
+                                https://images.pexels.com/photos/10375889/pexels-photo-10375889.jpeg
+                              photoLandscapeUrl: >-
+                                https://images.pexels.com/photos/10375889/pexels-photo-10375889.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                          height:
+                            type: number
+                            value: 4480
+                          description:
+                            type: text
+                            value: >-
+                              Excited small business owner laughing while
+                              talking on phone in a cozy bar setting. - Photo by
+                              RDNE Stock project on Pexels
+                        _source: pexels-644e5a6a-d5cb-4e66-8a2e-73ab1bdd4510
+                title:
+                  type: text
+                  locales:
+                    en-US: Safety-verified stays
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Find Safe Stays
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Find safe, comfortable stays personally inspected by
+                      female travel scouts, from women-only hostels to family
+                      guesthouses.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 57cab6d9-30a6-4feb-bb74-3df65ee7dfe2
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Max 8 Women
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 7f32d653-bb2c-4bde-ac62-64cf12eca34d
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.pexels.com/photos/2426216/pexels-photo-2426216.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                          title:
+                            type: text
+                            value: >-
+                              A group of adults hiking on a sunny day in a
+                              grassy landscape, wearing bandanas and sunglasses.
+                          width:
+                            type: number
+                            value: 4933
+                          custom:
+                            type: object
+                            value:
+                              sourceId: '2426216'
+                              pexelsUrl: >-
+                                https://www.pexels.com/photo/woman-wearing-black-tank-top-2426216/
+                              photoTinyUrl: >-
+                                https://images.pexels.com/photos/2426216/pexels-photo-2426216.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                              photographer: Kevin Bidwell
+                              photoLargeUrl: >-
+                                https://images.pexels.com/photos/2426216/pexels-photo-2426216.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                              photoSmallUrl: >-
+                                https://images.pexels.com/photos/2426216/pexels-photo-2426216.jpeg?auto=compress&cs=tinysrgb&h=130
+                              photoMediumUrl: >-
+                                https://images.pexels.com/photos/2426216/pexels-photo-2426216.jpeg?auto=compress&cs=tinysrgb&h=350
+                              photoLarge2xUrl: >-
+                                https://images.pexels.com/photos/2426216/pexels-photo-2426216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                              photographerUrl: https://www.pexels.com/@kevinbidwell
+                              photoPortraitUrl: >-
+                                https://images.pexels.com/photos/2426216/pexels-photo-2426216.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                              pexelsOriginalUrl: >-
+                                https://images.pexels.com/photos/2426216/pexels-photo-2426216.jpeg
+                              photoLandscapeUrl: >-
+                                https://images.pexels.com/photos/2426216/pexels-photo-2426216.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                          height:
+                            type: number
+                            value: 3289
+                          description:
+                            type: text
+                            value: >-
+                              A group of adults hiking on a sunny day in a
+                              grassy landscape, wearing bandanas and sunglasses.
+                              - Photo by Kevin Bidwell on Pexels
+                        _source: pexels-644e5a6a-d5cb-4e66-8a2e-73ab1bdd4510
+                title:
+                  type: text
+                  locales:
+                    en-US: Solo-friendly small groups
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Join a Group
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Join small groups of women for global adventures, from
+                      wildlife in Kenya to startups in Buenos Aires.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 492eda50-7582-48e5-9d91-a67c27e503c2
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Skill Building
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 8a586f7c-5375-4a2e-a56e-22bbec12a6af
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: BW Wallpaper
+                          width:
+                            type: number
+                            value: 5766
+                          custom:
+                            type: object
+                            value:
+                              color: '#d9d9d9'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/woman-holding-dslr-camera-CyHB89O-PvY
+                              blurHash: LTJkl#00xu%M~qofRjxuM{xuWBof
+                              sourceId: CyHB89O-PvY
+                              createdAt: '2018-10-17T02:01:43Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/woman-holding-dslr-camera-CyHB89O-PvY
+                              updatedAt: '2025-07-08T10:02:44Z'
+                              authorName: Felipe Bustillo
+                              downloadUrl: >-
+                                https://unsplash.com/photos/CyHB89O-PvY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: pipe_fx
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@pipe_fx
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/CyHB89O-PvY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1677212799846-bb1aedab6669image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3878
+                          description:
+                            type: text
+                            value: Photo by Felipe Bustillo on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Confidence-building challenges
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Build New Skills
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Learn scuba diving, master photography, or build business
+                      skills while gaining confidence and new abilities.
+        variant: carousel
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Solo adventures designed with your safety and growth in mind
+          buttonCopy:
+            type: text
+            locales:
+              en-US: Explore all experiences
+          buttonLink:
+            type: link
+            value:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: ''
+              dynamicInputValues:
+                locale: ${locale}
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Every experience is vetted by female travel experts and local
+                women, ensuring solo travelers feel confident and supported.
+      - _id: 8b64b355-7ddb-41ca-a736-3215709a3bfd
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Start your solo journey with a community that has your back
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Connect with experienced solo female travelers for tips,
+                recommendations, and ongoing support on your journey.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Ready to surprise yourself?
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Get personal recommendations
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /:locale/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: Join our WhatsApp groups
+          secondaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /:locale/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: ''
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonStyle:
+            type: tp-button-style-parameter
+            value: link
+      - _id: c55815b8-6bf9-47e7-ae36-80ca62ee8e9f
+        type: richText
+        parameters:
+          content:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - tag: h2
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Why Solo Female Travel Changes Everything
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Traveling alone as a woman is more than just a
+                            vacation—it's a transformative experience that can
+                            reshape your confidence, worldview, and sense of
+                            self. Here’s why solo female travel is so powerful,
+                            and how it can change everything.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: h3
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 1. You Discover Your Strength
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            When you travel solo, every decision is yours. From
+                            navigating unfamiliar cities to handling unexpected
+                            challenges, you learn just how capable you are. Each
+                            small victory—whether it’s finding your way in a new
+                            language or negotiating a price at a market—builds
+                            your self-reliance and inner strength.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Key Takeaways:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: You become your own problem-solver.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: You learn to trust your instincts.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                You realize you can handle more than you
+                                thought.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                      listType: bullet
+                      direction: ltr
+                    - tag: h3
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 2. Freedom to Choose Your Own Adventure
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Solo travel means you set the pace. Want to spend
+                            hours in a museum, or skip it entirely for a street
+                            food crawl? The choice is yours. This freedom allows
+                            you to truly listen to your own desires, often for
+                            the first time.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Benefits:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: No compromises on itinerary.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Space to explore your interests.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Time for self-reflection and growth.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                      listType: bullet
+                      direction: ltr
+                    - tag: h3
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 3. Breaking Stereotypes and Building Confidence
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Society often tells women to be cautious, to stay
+                            close to home, or to wait for a companion. Traveling
+                            solo challenges these narratives. Each journey chips
+                            away at limiting beliefs, both your own and those of
+                            others.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - type: quote
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            “Traveling alone taught me that I am not defined by
+                            others’ expectations, but by my own courage.”
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - tag: h3
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 4. Connecting with the World—and Yourself
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            When you travel alone, you’re more open to meeting
+                            new people. Locals and fellow travelers alike are
+                            often more likely to approach a solo woman, leading
+                            to authentic connections and friendships.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Ways Solo Travel Fosters Connection:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Joining group tours or classes.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Staying in hostels or homestays.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Engaging in local events or volunteering.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                      listType: bullet
+                      direction: ltr
+                    - tag: h3
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 5. Overcoming Fear and Embracing Growth
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            It’s normal to feel nervous before your first solo
+                            trip. But facing those fears head-on is empowering.
+                            Each challenge you overcome—whether it’s eating
+                            alone, navigating public transport, or dealing with
+                            setbacks—makes you braver and more adaptable.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'Tips for Overcoming Fear:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Start with a destination that feels comfortable.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Research and plan, but stay flexible.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Connect with other solo travelers online.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                      listType: bullet
+                      direction: ltr
+                    - tag: h3
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 6. Inspiring Others
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Your solo adventures don’t just change you—they
+                            inspire others. By sharing your stories, you
+                            encourage friends, family, and even strangers to
+                            step outside their comfort zones.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'How to Share Your Journey:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Write a blog or keep a travel journal.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Post photos and stories on social media.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Offer advice to aspiring solo travelers.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                      listType: bullet
+                      direction: ltr
+                    - tag: h3
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Final Thoughts
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Solo female travel is a journey of self-discovery,
+                            empowerment, and joy. It’s about rewriting the
+                            rules, embracing independence, and realizing that
+                            the world is yours to explore. Whether you’re
+                            planning your first solo trip or your tenth,
+                            remember: every adventure changes you for the
+                            better.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Ready to take the leap?
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 1
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                Start small, trust yourself, and let the world
+                                surprise you.
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: >-
+                                For more tips and inspiration, check out [Solo
+                                Female Travel Resources].
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: ltr
+                      listType: bullet
+                      direction: ltr
+                  direction: null
+      - _id: 87ddc6fc-96de-4b1c-85cc-63928aca2150
+        type: testimonial
+        parameters:
+          picture:
+            type: asset
+            value:
+              - _id: 8b8037da-4dfe-4bbf-a907-71088ab72fce
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: a close up of a person wearing a plaid shirt
+                  width:
+                    type: number
+                    value: 5213
+                  custom:
+                    type: object
+                    value:
+                      color: '#262626'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-close-up-of-a-person-wearing-a-plaid-shirt--920_CMaW88
+                      blurHash: LGB{_eIo0fxF4ot7kqofI=of$%NH
+                      sourceId: '-920_CMaW88'
+                      createdAt: '2021-12-16T01:56:17Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-close-up-of-a-person-wearing-a-plaid-shirt--920_CMaW88
+                      updatedAt: '2025-07-08T06:10:23Z'
+                      authorName: jim hatch
+                      downloadUrl: >-
+                        https://unsplash.com/photos/-920_CMaW88/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: jimo6633
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@jimo6633
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/-920_CMaW88/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-fb-1570034541-71367cab6419.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 5191
+                  description:
+                    type: text
+                    value: Photo by jim hatch on Unsplash
+                _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          personName:
+            type: text
+            locales:
+              en-US: Maya Rodriguez
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Uniglobe did more than just plan my trip—they helped me discover
+                who I am when I'm truly on my own. The inspiring women I met,
+                the challenges I overcame, and the confidence I gained have
+                completely transformed how I approach every aspect of my life.
+          personPosition:
+            type: text
+            locales:
+              en-US: Solo traveler & marketing professional
+      - _id: 0642c351-086e-4650-9f5e-b2595905123f
+        type: accordion
+        slots:
+          items:
+            - _id: 52dcd67b-38a8-415a-898d-abb35b3cdc47
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Is it really safe for women to travel alone
+                      internationally?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Yes, solo female travel is safe with the right planning
+                      and support. Our destinations are personally vetted by
+                      female scouts, and we offer 24/7 local support, verified
+                      accommodations, and emergency protocols. Most women travel
+                      solo safely every year!
+            - _id: 75ec333c-10ae-4551-b510-8ec9fb2489be
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What are the safest countries for solo female travelers?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Some of the safest destinations for women traveling alone
+                      are Costa Rica, Portugal, New Zealand, Iceland, Japan, and
+                      Singapore, thanks to their low crime rates and welcoming
+                      cultures. For more adventurous trips, Thailand, Vietnam,
+                      and Morocco also offer vibrant solo female travel
+                      communities and supportive infrastructure.
+            - _id: 848b2066-6ce2-471f-8603-2c27c4057ff9
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How much does solo female travel cost?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Our solo female travel experiences typically cost $45–65
+                      per day, covering accommodation, meals, and activities. A
+                      4–6 week trip averages $1,500–3,000 total—often less than
+                      staying home! We also offer payment plans and
+                      budget-friendly options.
+            - _id: 4be17757-b7da-403d-80f5-1cec748117ee
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What should I pack for solo female travel?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Pack light, but don't forget safety essentials like a door
+                      alarm, emergency whistle, copies of important documents, a
+                      first aid kit, and modest clothing for conservative areas.
+                      We offer destination-specific packing lists, and most
+                      items can be bought locally if needed.
+            - _id: 86768aa9-9ba6-4143-b740-89bafc2dfa98
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What if I'm naturally shy or introverted?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Solo travel is a great fit for introverts! You set your
+                      own pace and choose how much to interact with others. Our
+                      small group trips (4-8 people) offer friendly company
+                      without pressure, and many introverts find travel boosts
+                      their confidence.
+            - _id: 13d9c7b6-baf2-4ec1-ae12-9db0e6a70740
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How do I handle cultural differences around women's roles?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Each destination brief offers tailored cultural guidance
+                      for women, covering dress codes, local customs, and
+                      practical tips for navigating the area. Our local female
+                      coordinators provide support to help you feel comfortable
+                      and safe, while our partners are committed to women's
+                      empowerment.
+            - _id: 08d6d16b-bf65-46e5-8b6a-3de229b52487
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What if I don't speak the local language?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Language barriers are part of the adventure! Most
+                      destinations have English-speaking coordinators, and we
+                      provide language guides and translation apps. Gestures,
+                      kindness, and effort go a long way—many travelers find
+                      these moments lead to memorable connections.
+            - _id: 9c4cc3fe-1147-4607-b9b3-7f1f589c62ce
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How do I handle concerns about solo travel safety?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      We follow strict safety protocols, including regular
+                      check-ins and the option for video calls with local
+                      coordinators. We can also connect your family with others
+                      whose daughters have traveled with us, helping reassure
+                      them about your experience.
+            - _id: af189d6f-59ba-4d62-a1f1-5fa3596ac578
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      What is a good first destination for nervous solo female
+                      travelers?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      We suggest starting with destinations popular among solo
+                      female travelers, such as Costa Rica, Portugal, or New
+                      Zealand. Our 'First Solo Trip' experiences are tailored
+                      for beginners, offering extra support and opportunities to
+                      connect with others.
+            - _id: d26ad036-1d38-4be4-9d08-6191f83585fd
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      How can I stay safe while being open to authentic
+                      experiences?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Trust your instincts, stay aware of your surroundings, and
+                      follow our safety protocols while remaining open to
+                      connection. Our local coordinators help you distinguish
+                      between genuine cultural experiences and situations to
+                      avoid. Remember, being cautious doesn't mean being closed
+                      off—it means being smart about how you engage.
+            - _id: 95339de7-e256-465e-8e11-f25080a61f22
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Can I travel alone with dietary restrictions or health
+                      conditions?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Absolutely! We support travelers with dietary needs
+                      (vegetarian, vegan, gluten-free, allergies) and health
+                      conditions. Our local coordinators help find suitable
+                      restaurants and accommodations. Please consult your doctor
+                      before travel and bring any necessary medications with
+                      prescriptions in English.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Solo female travel questions answered
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Find honest answers to common questions women have about solo
+                travel, from safety tips to budgeting advice.
+      - _id: bffe6e89-4c99-4ea0-9049-8fcf78902bcc
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Stop waiting for someone else to be ready for your dreams
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Join thousands of women who have discovered the freedom,
+                confidence, and joy that comes with solo travel.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Start your journey here
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Start my solo journey
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /:locale/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: Connect with solo travelers
+          secondaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /:locale/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                dynamicInputValues:
+                  locale: ${locale}
+          secondaryButtonStyle:
+            type: tp-button-style-parameter
+            value: link
+  _locales:
+    - en-US
+created: '2025-07-08T13:01:37.458947+00:00'
+modified: '2025-07-08T16:00:40.162376+00:00'
+pattern: false

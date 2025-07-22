@@ -1,0 +1,187 @@
+id: microcopy
+name: Microcopy
+created: '2025-07-22T12:26:43.857094+00:00'
+updated: '2025-07-22T12:35:50.494496+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: The main text content and programmatic reference
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - value
+        - key
+    localizable: false
+  - id: value
+    name: Value
+    type: text
+    guidance: The actual text content that will be displayed to users
+    helpText: The text that users will see. Keep it concise and user-friendly.
+    typeConfig:
+      required: true
+    localizable: true
+  - id: key
+    name: Key
+    type: text
+    guidance: >-
+      Unique identifier for developers and string management systems (e.g.,
+      'button.save', 'legal.privacy')
+    helpText: >-
+      Use dot notation like 'button.save' or 'error.validation.email'. This
+      helps developers reference the text in code.
+    typeConfig: {}
+    localizable: false
+  - id: classificationGroup
+    name: Classification
+    type: group
+    guidance: Categorization and workflow information
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - category
+        - status
+    localizable: false
+  - id: category
+    name: Category
+    type: select
+    guidance: The type of microcopy to help organize and filter content
+    helpText: >-
+      Choose the category that best fits your text to help organize and filter
+      microcopy entries.
+    typeConfig:
+      options:
+        - text: UI Labels
+          value: ui
+        - text: Brand Terms
+          value: brand
+        - text: Legal Terms
+          value: legal
+        - text: Common Phrases
+          value: phrases
+        - text: Error Messages
+          value: errors
+        - text: Success Messages
+          value: success
+        - text: Call to Actions
+          value: cta
+        - text: Navigation
+          value: navigation
+        - text: Form Labels
+          value: forms
+        - text: Help Text
+          value: help
+  - id: status
+    name: Status
+    type: select
+    guidance: Current workflow status of this microcopy
+    helpText: >-
+      Track the editorial workflow. Use 'Draft' for new content, 'Review' when
+      ready for approval, 'Approved' for live content.
+    typeConfig:
+      options:
+        - text: Draft
+          value: draft
+        - text: Review
+          value: review
+        - text: Approved
+          value: approved
+        - text: Deprecated
+          value: deprecated
+    localizable: false
+  - id: usageGroup
+    name: Usage Context
+    type: group
+    guidance: Information to help editors and translators understand usage
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - context
+        - usageInstructions
+        - characterLimit
+    localizable: false
+  - id: context
+    name: Context
+    type: text
+    guidance: >-
+      Description of where and how this text is used (e.g., 'Save button on
+      checkout page', 'Footer copyright notice')
+    helpText: >-
+      Describe where this text appears and how it's used. Example: 'Appears on
+      the checkout button when cart has items'.
+    typeConfig:
+      multiline: true
+      linesCount: 5
+  - id: usageInstructions
+    name: Usage Instructions
+    type: text
+    guidance: Editorial guidelines for when and how to use this microcopy
+    helpText: >-
+      Provide guidance on when to use this text and any editorial standards that
+      apply.
+    typeConfig: {}
+    localizable: false
+  - id: characterLimit
+    name: Character Limit
+    type: number
+    guidance: Maximum character count for UI constraints (leave empty if no limit)
+    helpText: >-
+      Set a character limit if this text has UI space constraints (like button
+      labels or tooltips).
+    typeConfig: {}
+    localizable: false
+  - id: translationGroup
+    name: Translation Guidance
+    type: group
+    guidance: Information specifically for translators
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - translationNotes
+        - tone
+    localizable: false
+  - id: translationNotes
+    name: Translation Notes
+    type: text
+    guidance: >-
+      Specific instructions for translators including cultural considerations
+      and tone requirements
+    helpText: >-
+      Give translators context about cultural considerations, brand voice, or
+      specific translation requirements.
+    typeConfig: {}
+    localizable: false
+  - id: tone
+    name: Tone
+    type: select
+    guidance: The intended tone of voice for this text
+    helpText: >-
+      Choose the appropriate tone to help maintain consistent brand voice across
+      all microcopy.
+    typeConfig:
+      options:
+        - text: Professional
+          value: professional
+        - text: Friendly
+          value: friendly
+        - text: Formal
+          value: formal
+        - text: Casual
+          value: casual
+        - text: Urgent
+          value: urgent
+        - text: Reassuring
+          value: reassuring
+        - text: Informative
+          value: informative
+    localizable: false
+entryName: value
+description: >-
+  Reusable text snippets including brand terms, common phrases, legal terms, UI
+  labels and other microcopy elements that can be embedded throughout content.
+icon: readme
+type: contentType
+permissions: []
+previewConfigurations: []

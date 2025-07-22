@@ -44,7 +44,7 @@ composition:
       type: link
       locales:
         de-DE:
-          path: /:locale/reiseziele
+          path: /:locale/destinations
           type: projectMapNode
           nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -94,6 +94,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-07-03T19:06:50.171946+00:00'
-modified: '2025-07-03T19:08:06.207011+00:00'
+created: '2024-01-17T17:49:59.018884+00:00'
+modified: '2025-01-20T20:38:27.449981+00:00'
 pattern: true

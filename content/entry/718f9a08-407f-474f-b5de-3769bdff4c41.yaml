@@ -1,0 +1,534 @@
+created: '2025-07-10T12:53:46.782135+00:00'
+modified: '2025-07-10T12:55:48.766275+00:00'
+pattern: false
+entry:
+  _id: 718f9a08-407f-474f-b5de-3769bdff4c41
+  _name: Costa Rica
+  _slug: costa-rica
+  _thumbnail: https://flagcdn.com/cr.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByCountryName
+      variables:
+        name: Costa Rica
+    ref-718f9a08-407f-474f-b5de-3769bdff4c41-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: afc048d6-e361-473d-a8bb-a0c93aab1cfc
+  _locales:
+    - en-US
+    - de-DE
+  _overrides:
+    718f9a08-407f-474f-b5de-3769bdff4c41:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/name}
+        images:
+          type: asset
+          locales:
+            de-DE:
+              - _id: d7a1f767-7da5-4852-a881-a46f997d57b4
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: a very tall mountain with a very cloudy sky above it
+                  width:
+                    type: number
+                    value: 7952
+                  custom:
+                    type: object
+                    value:
+                      color: '#f3f3f3'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-very-tall-mountain-with-a-very-cloudy-sky-above-it-LgrGHYZzBSk
+                      blurHash: LuIOkO00t7jt^+IUkCj[M_%LRkWB
+                      sourceId: LgrGHYZzBSk
+                      createdAt: '2020-01-27T03:07:48Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-very-tall-mountain-with-a-very-cloudy-sky-above-it-LgrGHYZzBSk
+                      updatedAt: '2025-07-10T12:41:38Z'
+                      authorName: Cosmic Timetraveler
+                      downloadUrl: >-
+                        https://unsplash.com/photos/LgrGHYZzBSk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: cosmictimetraveler
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@cosmictimetraveler
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/LgrGHYZzBSk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1450041608738-f5aff152561f?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 5304
+                  description:
+                    type: text
+                    value: Photo by Cosmic Timetraveler on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            en-US:
+              - _id: d7a1f767-7da5-4852-a881-a46f997d57b4
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: a very tall mountain with a very cloudy sky above it
+                  width:
+                    type: number
+                    value: 7952
+                  custom:
+                    type: object
+                    value:
+                      color: '#f3f3f3'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-very-tall-mountain-with-a-very-cloudy-sky-above-it-LgrGHYZzBSk
+                      blurHash: LuIOkO00t7jt^+IUkCj[M_%LRkWB
+                      sourceId: LgrGHYZzBSk
+                      createdAt: '2020-01-27T03:07:48Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-very-tall-mountain-with-a-very-cloudy-sky-above-it-LgrGHYZzBSk
+                      updatedAt: '2025-07-10T12:41:38Z'
+                      authorName: Cosmic Timetraveler
+                      downloadUrl: >-
+                        https://unsplash.com/photos/LgrGHYZzBSk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: cosmictimetraveler
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1580094333632-438bdc04f79f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@cosmictimetraveler
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/LgrGHYZzBSk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1450041608738-f5aff152561f?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 5304
+                  description:
+                    type: text
+                    value: Photo by Cosmic Timetraveler on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-718f9a08-407f-474f-b5de-3769bdff4c41-region/entries/0}
+        videos:
+          type: asset
+          locales:
+            de-DE:
+              - _id: 96011f89-c21b-469c-a5cb-0f999cde5839
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: a group of people carrying surfboards into the ocean
+                  width:
+                    type: number
+                    value: 5760
+                  custom:
+                    type: object
+                    value:
+                      color: '#404026'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-group-of-people-carrying-surfboards-into-the-ocean-ETpRDkTI9tY
+                      blurHash: LFC~^,?bj^ofI-f5afWU0JV@f5WV
+                      sourceId: ETpRDkTI9tY
+                      createdAt: '2024-06-06T18:14:30Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-group-of-people-carrying-surfboards-into-the-ocean-ETpRDkTI9tY
+                      updatedAt: '2025-07-10T07:07:24Z'
+                      authorName: Luis Desiro
+                      downloadUrl: >-
+                        https://unsplash.com/photos/ETpRDkTI9tY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: luisdesiro
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@luisdesiro
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/ETpRDkTI9tY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1535310624584-9bb14babd1b8?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3840
+                  description:
+                    type: text
+                    value: Photo by Luis Desiro on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            en-US:
+              - _id: 96011f89-c21b-469c-a5cb-0f999cde5839
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: a group of people carrying surfboards into the ocean
+                  width:
+                    type: number
+                    value: 5760
+                  custom:
+                    type: object
+                    value:
+                      color: '#404026'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-group-of-people-carrying-surfboards-into-the-ocean-ETpRDkTI9tY
+                      blurHash: LFC~^,?bj^ofI-f5afWU0JV@f5WV
+                      sourceId: ETpRDkTI9tY
+                      createdAt: '2024-06-06T18:14:30Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-group-of-people-carrying-surfboards-into-the-ocean-ETpRDkTI9tY
+                      updatedAt: '2025-07-10T07:07:24Z'
+                      authorName: Luis Desiro
+                      downloadUrl: >-
+                        https://unsplash.com/photos/ETpRDkTI9tY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: luisdesiro
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@luisdesiro
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/ETpRDkTI9tY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxjb3N0YSUyMHJpY2ElMjBzdXJmfGVufDB8fHx8MTc1MjE1MjA5OHww
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1535310624584-9bb14babd1b8?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3840
+                  description:
+                    type: text
+                    value: Photo by Luis Desiro on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        captial:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/capital}
+        flagEmoji:
+          type: text
+          value: 🇨🇷
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Costa Rica is a compact, eco-friendly country in
+                          Central America known for its lush rainforests, active
+                          volcanoes, and Pacific and Caribbean coastlines. Here,
+                          you can spot sloths in cloud forests, surf uncrowded
+                          beaches, and connect with local communities through
+                          homestays and farm visits. Public buses and shared
+                          shuttles make it easy to get around on a budget, and
+                          many hostels and ecolodges are certified for
+                          sustainability. Costa Rica’s commitment to
+                          conservation means over 25% of its land is protected,
+                          so your travel dollars support both local people and
+                          the environment. Expect affordable meals at local
+                          sodas (around $4-7 USD), and plenty of opportunities
+                          for adventure—think ziplining, wildlife watching, and
+                          hiking—all while practicing responsible tourism.
+                          Whether you’re a solo backpacker, digital nomad, or
+                          traveling with friends, Costa Rica offers authentic
+                          experiences that go beyond the typical tourist trail.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Costa Rica is a compact, eco-friendly country in
+                          Central America known for its lush rainforests, active
+                          volcanoes, and Pacific and Caribbean coastlines. Here,
+                          you can spot sloths in cloud forests, surf uncrowded
+                          beaches, and connect with local communities through
+                          homestays and farm visits. Public buses and shared
+                          shuttles make it easy to get around on a budget, and
+                          many hostels and ecolodges are certified for
+                          sustainability. Costa Rica’s commitment to
+                          conservation means over 25% of its land is protected,
+                          so your travel dollars support both local people and
+                          the environment. Expect affordable meals at local
+                          sodas (around $4-7 USD), and plenty of opportunities
+                          for adventure—think ziplining, wildlife watching, and
+                          hiking—all while practicing responsible tourism.
+                          Whether you’re a solo backpacker, digital nomad, or
+                          traveling with friends, Costa Rica offers authentic
+                          experiences that go beyond the typical tourist trail.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        teaserImage:
+          type: asset
+          locales:
+            de-DE:
+              - _id: 2f7ec264-4feb-4b69-9c53-c3a656357c1d
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: >-
+                      On my way to visit my family we stopped on a hill top to
+                      shoot the landscape. The sunlight and environment were so
+                      beautiful it was impossible to take a bad photo
+                  width:
+                    type: number
+                    value: 3268
+                  custom:
+                    type: object
+                    value:
+                      color: '#404040'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/green-trees-on-brown-mountain-beside-blue-sea-during-daytime-3C0zrQUlyjM
+                      blurHash: LyHxQe9aofWq~pIoWWbH%Ms.NHj@
+                      sourceId: 3C0zrQUlyjM
+                      createdAt: '2020-02-20T17:06:03Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/green-trees-on-brown-mountain-beside-blue-sea-during-daytime-3C0zrQUlyjM
+                      updatedAt: '2025-07-10T10:32:31Z'
+                      authorName: Max Bender
+                      downloadUrl: >-
+                        https://unsplash.com/photos/3C0zrQUlyjM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: maxwbender
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@maxwbender
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/3C0zrQUlyjM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1633957546554-9692b70575bbimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4896
+                  description:
+                    type: text
+                    value: Photo by Max Bender on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            en-US:
+              - _id: 2f7ec264-4feb-4b69-9c53-c3a656357c1d
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: >-
+                      On my way to visit my family we stopped on a hill top to
+                      shoot the landscape. The sunlight and environment were so
+                      beautiful it was impossible to take a bad photo
+                  width:
+                    type: number
+                    value: 3268
+                  custom:
+                    type: object
+                    value:
+                      color: '#404040'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/green-trees-on-brown-mountain-beside-blue-sea-during-daytime-3C0zrQUlyjM
+                      blurHash: LyHxQe9aofWq~pIoWWbH%Ms.NHj@
+                      sourceId: 3C0zrQUlyjM
+                      createdAt: '2020-02-20T17:06:03Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/green-trees-on-brown-mountain-beside-blue-sea-during-daytime-3C0zrQUlyjM
+                      updatedAt: '2025-07-10T10:32:31Z'
+                      authorName: Max Bender
+                      downloadUrl: >-
+                        https://unsplash.com/photos/3C0zrQUlyjM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: maxwbender
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1582218290380-ae58573670e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@maxwbender
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/3C0zrQUlyjM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMHJpY2F8ZW58MHx8fHwxNzUyMTUyMDY2fDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1633957546554-9692b70575bbimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4896
+                  description:
+                    type: text
+                    value: Photo by Max Bender on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Costa Rica depends on what you
+                          want from your trip. The dry season (December to
+                          April) offers sunny days and easy travel, but it’s
+                          also the busiest and most expensive time—especially
+                          around Christmas, New Year, and Easter. If you’re
+                          looking to avoid crowds and save money, consider the
+                          green (rainy) season from May to November. Afternoon
+                          showers are common, but mornings are often clear, and
+                          the landscape is lush. This is also a great time for
+                          wildlife spotting, especially sea turtles nesting on
+                          the Caribbean coast (July–October). Surfers will find
+                          the biggest Pacific swells from May to August. No
+                          matter when you go, pack a rain jacket and quick-dry
+                          clothes, and be ready for microclimates—weather can
+                          change quickly between the coasts, mountains, and
+                          forests.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Costa Rica depends on what you
+                          want from your trip. The dry season (December to
+                          April) offers sunny days and easy travel, but it’s
+                          also the busiest and most expensive time—especially
+                          around Christmas, New Year, and Easter. If you’re
+                          looking to avoid crowds and save money, consider the
+                          green (rainy) season from May to November. Afternoon
+                          showers are common, but mornings are often clear, and
+                          the landscape is lush. This is also a great time for
+                          wildlife spotting, especially sea turtles nesting on
+                          the Caribbean coast (July–October). Surfers will find
+                          the biggest Pacific swells from May to August. No
+                          matter when you go, pack a rain jacket and quick-dry
+                          clothes, and be ready for microclimates—weather can
+                          change quickly between the coasts, mountains, and
+                          forests.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

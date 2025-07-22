@@ -174,7 +174,7 @@ composition:
                                   value: 698d91b2-bf29-4db4-8795-70de7d92ff07
                                 url:
                                   value: >-
-                                    https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/qKu_8CkXSYunBbW8GhrPgA-app-store-badge.svg
+                                    https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
                                   type: text
                                 file:
                                   type: file
@@ -186,10 +186,10 @@ composition:
                                   type: text
                                   value: Apple app store button
                                 width:
-                                  value: 128
+                                  value: 150
                                   type: number
                                 height:
-                                  value: 128
+                                  value: 150
                                   type: number
                                 mediaType:
                                   value: image/svg+xml
@@ -297,6 +297,6 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-07-03T19:06:38.902222+00:00'
-modified: '2025-07-03T19:07:57.604316+00:00'
+created: '2024-09-19T16:45:41.703706+00:00'
+modified: '2025-07-03T22:46:08.424434+00:00'
 pattern: true

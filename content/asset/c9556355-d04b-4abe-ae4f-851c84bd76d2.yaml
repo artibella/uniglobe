@@ -8,13 +8,13 @@ asset:
       value: aerial photography of sea beside green trees during daytime
     file:
       type: file
-      value: 047372c4-d5b9-428f-9891-582830a6ee4a
+      value: 40334f40-9aef-4c65-b4de-6e63a085f876
     mediaType:
       value: image/jpeg
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/aAOvre4HQ_ykLYLJGhezAg-photo-1506918357967-b358ad447c56
+        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/--W6Jg6ZQBOFcpD7v0Hj6g-photo-1506918357967-b358ad447c56
       type: text
     size:
       value: 1138813
@@ -26,5 +26,5 @@ asset:
       value: 2000
       type: number
     custom: {}
-created: '2025-01-30T15:35:46.726957+00:00'
-modified: '2025-07-07T10:18:48.247772+00:00'
+created: '2024-10-11T12:00:25.082616+00:00'
+modified: '2024-10-11T12:00:25.082616+00:00'

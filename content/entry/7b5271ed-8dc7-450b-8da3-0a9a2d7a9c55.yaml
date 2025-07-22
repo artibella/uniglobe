@@ -1,5 +1,5 @@
 created: '2025-04-28T11:40:31.803939+00:00'
-modified: '2025-04-28T11:44:34.929084+00:00'
+modified: '2025-07-16T09:25:46.494482+00:00'
 pattern: false
 entry:
   _id: 7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55
@@ -20,12 +20,69 @@ entry:
         entryIds: afc048d6-e361-473d-a8bb-a0c93aab1cfc
   _locales:
     - en-US
+    - de-DE
   _overrides:
     7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55:
       parameters:
+        name:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/name}
         images:
           type: asset
           locales:
+            de-DE:
+              - _id: b5a3ca08-a15f-4d8e-a43c-2e9085d05925
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1607870960054-049070e8f65a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxQYW5hbWF8ZW58MHx8fHwxNzQ1ODQwNTI2fDA&ixlib=rb-4.0.3&q=85
+                  title:
+                    type: text
+                    value: 'panama city. '
+                  width:
+                    type: number
+                    value: 4096
+                  custom:
+                    type: object
+                    value:
+                      color: '#f3f3f3'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/brown-and-white-concrete-building-during-daytime-8oMiql-Q9nM
+                      blurHash: LcKwtU9Z8_%M_4RPIAozoNWAR%n%
+                      sourceId: 8oMiql-Q9nM
+                      createdAt: '2020-12-13T14:51:19Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/brown-and-white-concrete-building-during-daytime-8oMiql-Q9nM
+                      updatedAt: '2025-04-28T03:31:43Z'
+                      authorName: Kaja Reichardt
+                      downloadUrl: >-
+                        https://unsplash.com/photos/8oMiql-Q9nM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxQYW5hbWF8ZW58MHx8fHwxNzQ1ODQwNTI2fDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1607870960054-049070e8f65a?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxQYW5hbWF8ZW58MHx8fHwxNzQ1ODQwNTI2fDA&ixlib=rb-4.0.3
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1607870960054-049070e8f65a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxQYW5hbWF8ZW58MHx8fHwxNzQ1ODQwNTI2fDA&ixlib=rb-4.0.3&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1607870960054-049070e8f65a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxQYW5hbWF8ZW58MHx8fHwxNzQ1ODQwNTI2fDA&ixlib=rb-4.0.3&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1607870960054-049070e8f65a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxQYW5hbWF8ZW58MHx8fHwxNzQ1ODQwNTI2fDA&ixlib=rb-4.0.3&q=80&w=200
+                      authorUsername: kajareichardtphotos
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1607870960054-049070e8f65a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxQYW5hbWF8ZW58MHx8fHwxNzQ1ODQwNTI2fDA&ixlib=rb-4.0.3&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@kajareichardtphotos
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/8oMiql-Q9nM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxQYW5hbWF8ZW58MHx8fHwxNzQ1ODQwNTI2fDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1609439448503-89bd22f3c813image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 2729
+                  description:
+                    type: text
+                    value: Photo by Kaja Reichardt on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
             en-US:
               - _id: b5a3ca08-a15f-4d8e-a43c-2e9085d05925
                 type: image
@@ -81,9 +138,17 @@ entry:
         region:
           type: contentReference
           value: ${#jptr:/ref-7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55-region/entries/0}
+        captial:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/0/capital}
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Discover Panama's vibrant culture, stunning beaches, and lush
+              rainforests! From Panama City to the famous canal, an
+              unforgettable adventure awaits you in this tropical paradise.
             en-US: >-
               Discover Panama's vibrant culture, stunning beaches, and lush
               rainforests! From Panama City to the famous canal, an
@@ -91,6 +156,71 @@ entry:
         description:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Discover the captivating charm of Panama, a Central
+                          American gem bridging two oceans. Explore its lush
+                          rainforests, pristine beaches, and vibrant cities. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Witness the engineering marvel of the Panama Canal, a
+                          testament to human ingenuity. Immerse yourself in the
+                          rich tapestry of indigenous and colonial heritage,
+                          reflected in its colorful festivals and delectable
+                          cuisine. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          From the historic streets of Panama City to the
+                          idyllic San Blas Islands, Panama invites you to embark
+                          on an unforgettable journey of natural wonders and
+                          cultural treasures.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
             en-US:
               root:
                 type: root
@@ -156,4 +286,190 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            de-DE:
+              - _id: 59c20d08-75c8-4980-b02b-b71eec8f5cf5
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Our own little island 🏝
+                  width:
+                    type: number
+                    value: 4096
+                  custom:
+                    type: object
+                    value:
+                      color: '#a6c0c0'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/brown-wooden-dock-on-body-of-water-during-daytime-1HsiFH7oqBU
+                      blurHash: LVEWj-NHo#ae_NafkDkBx]t6IUoL
+                      sourceId: 1HsiFH7oqBU
+                      createdAt: '2020-04-03T11:02:18Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/brown-wooden-dock-on-body-of-water-during-daytime-1HsiFH7oqBU
+                      updatedAt: '2025-07-10T12:39:49Z'
+                      authorName: Alessa Ciraulo
+                      downloadUrl: >-
+                        https://unsplash.com/photos/1HsiFH7oqBU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: alessaxci
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@alessaxci
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/1HsiFH7oqBU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1636453208625-cf9e52706ff8image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 2545
+                  description:
+                    type: text
+                    value: Photo by Alessa Ciraulo on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            en-US:
+              - _id: 59c20d08-75c8-4980-b02b-b71eec8f5cf5
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Our own little island 🏝
+                  width:
+                    type: number
+                    value: 4096
+                  custom:
+                    type: object
+                    value:
+                      color: '#a6c0c0'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/brown-wooden-dock-on-body-of-water-during-daytime-1HsiFH7oqBU
+                      blurHash: LVEWj-NHo#ae_NafkDkBx]t6IUoL
+                      sourceId: 1HsiFH7oqBU
+                      createdAt: '2020-04-03T11:02:18Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/brown-wooden-dock-on-body-of-water-during-daytime-1HsiFH7oqBU
+                      updatedAt: '2025-07-10T12:39:49Z'
+                      authorName: Alessa Ciraulo
+                      downloadUrl: >-
+                        https://unsplash.com/photos/1HsiFH7oqBU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: alessaxci
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1585911735226-1c39d1df845b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@alessaxci
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/1HsiFH7oqBU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxzYW4lMjBibGFzfGVufDB8fHx8MTc1MjE1MTk4MHww
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1636453208625-cf9e52706ff8image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 2545
+                  description:
+                    type: text
+                    value: Photo by Alessa Ciraulo on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Panama is during the dry
+                          season, which runs from mid-December to mid-April.
+                          This is when you'll find sunny days, lower humidity,
+                          and ideal conditions for exploring rainforests,
+                          beaches, and cities. If you want to avoid crowds and
+                          save money, consider traveling in the shoulder months
+                          of late April or early December—just be prepared for
+                          occasional rain showers. The wet season (May to
+                          November) brings lush green landscapes and fewer
+                          tourists, but heavy afternoon downpours are common,
+                          especially in the highlands and on the Caribbean
+                          coast. For cultural experiences, check out Panama’s
+                          vibrant Carnival celebrations in February or March. No
+                          matter when you go, pack light, breathable clothing
+                          and a rain jacket for sudden tropical showers.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit Panama is during the dry
+                          season, which runs from mid-December to mid-April.
+                          This is when you'll find sunny days, lower humidity,
+                          and ideal conditions for exploring rainforests,
+                          beaches, and cities. If you want to avoid crowds and
+                          save money, consider traveling in the shoulder months
+                          of late April or early December—just be prepared for
+                          occasional rain showers. The wet season (May to
+                          November) brings lush green landscapes and fewer
+                          tourists, but heavy afternoon downpours are common,
+                          especially in the highlands and on the Caribbean
+                          coast. For cultural experiences, check out Panama’s
+                          vibrant Carnival celebrations in February or March. No
+                          matter when you go, pack light, breathable clothing
+                          and a rain jacket for sudden tropical showers.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

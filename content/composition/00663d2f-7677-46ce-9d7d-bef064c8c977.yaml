@@ -1,0 +1,1456 @@
+composition:
+  _name: Post graduate travel
+  _id: 00663d2f-7677-46ce-9d7d-bef064c8c977
+  _slug: post-graduate-travel
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Post Graduate Travel | Uniglobe
+    twitterCard:
+      type: select
+      value: summary_large_image
+    twitterTitle:
+      type: text
+      locales:
+        en-US: Post Graduate Travel | Uniglobe
+    openGraphImage:
+      type: asset
+      value:
+        - _id: f8374ba0-300b-4335-af0a-f45ef6926e92
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.unsplash.com/photo-1516640175543-849c7368499b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHRyYXZlbCUyMHNvbG98ZW58MHx8fHwxNzUyMDU0MjU4fDA&ixlib=rb-4.1.0&q=85
+            title:
+              type: text
+              value: Vans
+            width:
+              type: number
+              value: 5184
+            custom:
+              type: object
+              value:
+                color: '#a68c73'
+                apiUrl: >-
+                  https://api.unsplash.com/photos/person-wearing-black-and-white-vans-old-skool-sneakers-ZO8L_XiJtaQ
+                blurHash: LOFYDQtRxt-:~Vxuxas:%MofIVRk
+                sourceId: ZO8L_XiJtaQ
+                createdAt: '2018-01-22T16:56:55Z'
+                detailUrl: >-
+                  https://unsplash.com/photos/person-wearing-black-and-white-vans-old-skool-sneakers-ZO8L_XiJtaQ
+                updatedAt: '2025-07-09T06:33:21Z'
+                authorName: Niels Kehl
+                downloadUrl: >-
+                  https://unsplash.com/photos/ZO8L_XiJtaQ/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHRyYXZlbCUyMHNvbG98ZW58MHx8fHwxNzUyMDU0MjU4fDA
+                photoRawUrl: >-
+                  https://images.unsplash.com/photo-1516640175543-849c7368499b?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHRyYXZlbCUyMHNvbG98ZW58MHx8fHwxNzUyMDU0MjU4fDA&ixlib=rb-4.1.0
+                photoFullUrl: >-
+                  https://images.unsplash.com/photo-1516640175543-849c7368499b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHRyYXZlbCUyMHNvbG98ZW58MHx8fHwxNzUyMDU0MjU4fDA&ixlib=rb-4.1.0&q=85
+                photoSmallUrl: >-
+                  https://images.unsplash.com/photo-1516640175543-849c7368499b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHRyYXZlbCUyMHNvbG98ZW58MHx8fHwxNzUyMDU0MjU4fDA&ixlib=rb-4.1.0&q=80&w=400
+                photoThumbUrl: >-
+                  https://images.unsplash.com/photo-1516640175543-849c7368499b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHRyYXZlbCUyMHNvbG98ZW58MHx8fHwxNzUyMDU0MjU4fDA&ixlib=rb-4.1.0&q=80&w=200
+                authorUsername: photographybyniels
+                photoRegularUrl: >-
+                  https://images.unsplash.com/photo-1516640175543-849c7368499b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHRyYXZlbCUyMHNvbG98ZW58MHx8fHwxNzUyMDU0MjU4fDA&ixlib=rb-4.1.0&q=80&w=1080
+                authorProfileUrl: https://unsplash.com/@photographybyniels
+                downloadLocation: >-
+                  https://api.unsplash.com/photos/ZO8L_XiJtaQ/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHRyYXZlbCUyMHNvbG98ZW58MHx8fHwxNzUyMDU0MjU4fDA
+                authorProfileImage: >-
+                  https://images.unsplash.com/profile-1513606347734-fa4382c617eb?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+            height:
+              type: number
+              value: 3456
+            description:
+              type: text
+              value: Photo by Niels Kehl on Unsplash
+          _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+    openGraphTitle:
+      type: text
+      locales:
+        en-US: Post Graduate Travel | Uniglobe
+    twitterDescription:
+      type: text
+      locales:
+        en-US: >-
+          Sustainable, budget-friendly travel programs for recent college
+          graduates. Explore the world, build your resume, and make a difference
+          before your career begins with Uniglobe.
+    pageMetaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Sustainable, budget-friendly travel for recent grads. Explore, build
+          your resume, and make a difference with Uniglobe.
+    openGraphDescription:
+      type: text
+      locales:
+        en-US: >-
+          Uniglobe offers post-grad travel adventures: meaningful, eco-friendly,
+          and designed to launch your career.
+  slots:
+    pageFooter:
+      - _id: f62a9d61-800f-47c7-94da-54e09d1388ae
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: c6e60689-4eca-4eb7-9e70-42d75f1ba719
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 947f1074-5f38-4aaf-9031-321b988a5f82
+        type: hero
+        variant: imageLeft
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: c337c727-e36d-4d44-be60-1b591cc23b10
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1527824404775-dce343118ebc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHx5b3VuZyUyMHRyYXZlbGVyJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc1MjA1MjA2NXww&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: Exploring Monument Valley
+                    width:
+                      type: number
+                      value: 5368
+                    custom:
+                      type: object
+                      value:
+                        color: '#c08c59'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/woman-with-black-backpack-standing-on-brown-dessert-TUXUCVXmjQk
+                        blurHash: LbK0mJ%M#+WBPqt8IoWBpdkDf6f6
+                        sourceId: TUXUCVXmjQk
+                        createdAt: '2018-06-01T03:48:24Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/woman-with-black-backpack-standing-on-brown-dessert-TUXUCVXmjQk
+                        updatedAt: '2025-07-09T07:00:58Z'
+                        authorName: Ivana Cajina
+                        downloadUrl: >-
+                          https://unsplash.com/photos/TUXUCVXmjQk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHx5b3VuZyUyMHRyYXZlbGVyJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc1MjA1MjA2NXww
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1527824404775-dce343118ebc?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHx5b3VuZyUyMHRyYXZlbGVyJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc1MjA1MjA2NXww&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1527824404775-dce343118ebc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHx5b3VuZyUyMHRyYXZlbGVyJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc1MjA1MjA2NXww&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1527824404775-dce343118ebc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHx5b3VuZyUyMHRyYXZlbGVyJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc1MjA1MjA2NXww&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1527824404775-dce343118ebc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHx5b3VuZyUyMHRyYXZlbGVyJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc1MjA1MjA2NXww&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: von_co
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1527824404775-dce343118ebc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHx5b3VuZyUyMHRyYXZlbGVyJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc1MjA1MjA2NXww&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@von_co
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/TUXUCVXmjQk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHx5b3VuZyUyMHRyYXZlbGVyJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc1MjA1MjA2NXww
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1665026644009-c4369aba033dimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 3579
+                    description:
+                      type: text
+                      value: Photo by Ivana Cajina on Unsplash
+                  _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          title:
+            type: text
+            locales:
+              en-US: "Adventure before the 9-to-5\_"
+          objectFit:
+            type: select
+            value: cover
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Sustainable travel experiences designed for recent college
+                graduates.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Post graduate travel
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+          textColorVariant:
+            type: select
+            value: Light
+      - _id: 6032edb6-467a-4891-b2e9-157eef063f8f
+        type: richText
+        parameters:
+          content:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - tag: h2
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            You’ve earned that degree — now earn an experience
+                            that lasts a lifetime
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            You're standing at a crossroads: diploma in hand,
+                            job market ahead. Before the 9-to-5 grind begins,
+                            take time to explore, reflect, and grow. Uniglobe’s
+                            sustainable post graduation travel programs are
+                            curated specifically for recent grads who want to
+                            travel before their career kicks off—without
+                            compromising their values or budget.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+      - _id: 1dfbf3a5-67de-49ed-bb9b-c50c8945dbe4
+        type: featuredCallout
+        slots:
+          feature:
+            - _id: 2a0cbe9f-49c3-4215-8881-be175f86203c
+              type: feature
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Purposeful exploration
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Hands-on experiences to learn, contribute, and connect
+                      with global communities.
+            - _id: 4aeca295-70ef-444e-a34d-b8d5829c1ae2
+              type: feature
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: A head start on your career
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Resume-worthy eco-volunteering, language immersion,
+                      internships, and leadership.
+            - _id: 156b118d-628e-4c72-905c-73b43ef9a8d8
+              type: feature
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Budget-conscious adventure
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Affordable tours, transparent pricing, and
+                      student-friendly payment plans.
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: c89cd5ef-5786-4f01-857e-5d840aac19ca
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.unsplash.com/photo-1542769919-3d09f3153487?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxnYXAlMjB5ZWFyJTIwdHJhdmVsfGVufDB8fHx8MTc1MjA1MjEyOHww&ixlib=rb-4.1.0&q=85
+                    title:
+                      type: text
+                      value: person lying on hammock during daytime
+                    width:
+                      type: number
+                      value: 4000
+                    custom:
+                      type: object
+                      value:
+                        color: '#d9d9c0'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/person-lying-on-hammock-during-daytime-6gigeq8KiNw
+                        blurHash: LWJI6C%1n#Rj17IUM{t8E2%LfkWC
+                        sourceId: 6gigeq8KiNw
+                        createdAt: '2018-11-21T03:13:13Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/person-lying-on-hammock-during-daytime-6gigeq8KiNw
+                        updatedAt: '2025-07-09T06:18:37Z'
+                        authorName: Sonnie Hiles
+                        downloadUrl: >-
+                          https://unsplash.com/photos/6gigeq8KiNw/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxnYXAlMjB5ZWFyJTIwdHJhdmVsfGVufDB8fHx8MTc1MjA1MjEyOHww
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1542769919-3d09f3153487?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxnYXAlMjB5ZWFyJTIwdHJhdmVsfGVufDB8fHx8MTc1MjA1MjEyOHww&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1542769919-3d09f3153487?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxnYXAlMjB5ZWFyJTIwdHJhdmVsfGVufDB8fHx8MTc1MjA1MjEyOHww&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1542769919-3d09f3153487?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxnYXAlMjB5ZWFyJTIwdHJhdmVsfGVufDB8fHx8MTc1MjA1MjEyOHww&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1542769919-3d09f3153487?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxnYXAlMjB5ZWFyJTIwdHJhdmVsfGVufDB8fHx8MTc1MjA1MjEyOHww&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: sonniehiles
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1542769919-3d09f3153487?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxnYXAlMjB5ZWFyJTIwdHJhdmVsfGVufDB8fHx8MTc1MjA1MjEyOHww&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@sonniehiles
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/6gigeq8KiNw/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxnYXAlMjB5ZWFyJTIwdHJhdmVsfGVufDB8fHx8MTc1MjA1MjEyOHww
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1582201447208-d76d68b59399image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                    height:
+                      type: number
+                      value: 6000
+                    description:
+                      type: text
+                      value: Photo by Sonnie Hiles on Unsplash
+                  _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          title:
+            type: text
+            locales:
+              en-US: Why travel after college?
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Skipping straight from finals to a full-time job isn't your only
+                option. Post-grad travel gives you:
+      - _id: 85d4f19b-2cff-4654-9244-88b5d520ee1d
+        type: richText
+        parameters:
+          content:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - tag: h2
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Why travel with Uniglobe?
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Uniglobe isn’t just another travel company. We’re a
+                            community of travelers, educators, and
+                            sustainability advocates committed to creating
+                            real-world experiences with lasting impact.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Curated for recent grads
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' – Every tour is designed to meet the needs, interests, and budgets of post-college explorers.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Sustainability-first
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' – All our partners meet strict environmental and ethical standards.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Real impact
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' – Support local communities, preserve ecosystems, and return home with more than souvenirs.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 4
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Global network
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' – Travel with fellow Uniglobe adventurers from all over the world and build connections that last.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                      listType: bullet
+                      direction: null
+                    - type: quote
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            "Uniglobe is trusted by thousands of graduates
+                            across 30+ countries."
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                  direction: null
+      - _id: 0a5f1a29-4515-49a2-86d9-d005d82018eb
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: d0f1c2c1-2345-4c99-9747-bf4e26e6fabc
+              type: card
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 90b0502f-32ae-4b55-aac6-78a8e317eeed
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1735775520764-9cf175a59f24?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8Q29zdGElMjBSaWNhJTIwcmFpbmZvcmVzdHxlbnwwfHx8fDE3NTIwNTIxNzJ8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: A forest filled with lots of green trees
+                          width:
+                            type: number
+                            value: 6656
+                          custom:
+                            type: object
+                            value:
+                              color: '#0c260c'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-forest-filled-with-lots-of-green-trees--EHTY3JP6-U
+                              blurHash: L88h]EDl8#xtx]Dls+aPZ:WUt6kB
+                              sourceId: '-EHTY3JP6-U'
+                              createdAt: '2025-01-01T23:52:16Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-forest-filled-with-lots-of-green-trees--EHTY3JP6-U
+                              updatedAt: '2025-07-09T04:08:12Z'
+                              authorName: Hunter So
+                              downloadUrl: >-
+                                https://unsplash.com/photos/-EHTY3JP6-U/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8Q29zdGElMjBSaWNhJTIwcmFpbmZvcmVzdHxlbnwwfHx8fDE3NTIwNTIxNzJ8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1735775520764-9cf175a59f24?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8Q29zdGElMjBSaWNhJTIwcmFpbmZvcmVzdHxlbnwwfHx8fDE3NTIwNTIxNzJ8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1735775520764-9cf175a59f24?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8Q29zdGElMjBSaWNhJTIwcmFpbmZvcmVzdHxlbnwwfHx8fDE3NTIwNTIxNzJ8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1735775520764-9cf175a59f24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8Q29zdGElMjBSaWNhJTIwcmFpbmZvcmVzdHxlbnwwfHx8fDE3NTIwNTIxNzJ8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1735775520764-9cf175a59f24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8Q29zdGElMjBSaWNhJTIwcmFpbmZvcmVzdHxlbnwwfHx8fDE3NTIwNTIxNzJ8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: hunterso
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1735775520764-9cf175a59f24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8Q29zdGElMjBSaWNhJTIwcmFpbmZvcmVzdHxlbnwwfHx8fDE3NTIwNTIxNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@hunterso
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/-EHTY3JP6-U/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8Q29zdGElMjBSaWNhJTIwcmFpbmZvcmVzdHxlbnwwfHx8fDE3NTIwNTIxNzJ8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1735775457913-78aabf2b87afimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3402
+                          description:
+                            type: text
+                            value: Photo by Hunter So on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Costa Rica
+                description:
+                  type: text
+                  locales:
+                    en-US: Reforest jungles and surf pristine beaches.
+            - _id: 3caa752a-fbec-474a-8cc9-5c828d792266
+              type: card
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 86c5ce46-d670-4681-964a-be6375851a20
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1694886322085-58b74bb0727b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxJbmRpYSUyMGNpdHklMjBzdHJlZXR8ZW58MHx8fHwxNzUyMDUyMTk3fDA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: India City Streets
+                          width:
+                            type: number
+                            value: 4000
+                          custom:
+                            type: object
+                            value:
+                              color: '#c0a68c'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-bird-flying-over-a-street-with-people-and-a-cow-IIKWwRc22U4
+                              blurHash: LVL4HL9F0K-;?wRjM{t8-pozoLNG
+                              sourceId: IIKWwRc22U4
+                              createdAt: '2023-09-16T18:04:09Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-bird-flying-over-a-street-with-people-and-a-cow-IIKWwRc22U4
+                              updatedAt: '2025-07-09T06:21:45Z'
+                              authorName: Gayatri Malhotra
+                              downloadUrl: >-
+                                https://unsplash.com/photos/IIKWwRc22U4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxJbmRpYSUyMGNpdHklMjBzdHJlZXR8ZW58MHx8fHwxNzUyMDUyMTk3fDA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1694886322085-58b74bb0727b?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxJbmRpYSUyMGNpdHklMjBzdHJlZXR8ZW58MHx8fHwxNzUyMDUyMTk3fDA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1694886322085-58b74bb0727b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxJbmRpYSUyMGNpdHklMjBzdHJlZXR8ZW58MHx8fHwxNzUyMDUyMTk3fDA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1694886322085-58b74bb0727b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxJbmRpYSUyMGNpdHklMjBzdHJlZXR8ZW58MHx8fHwxNzUyMDUyMTk3fDA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1694886322085-58b74bb0727b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxJbmRpYSUyMGNpdHklMjBzdHJlZXR8ZW58MHx8fHwxNzUyMDUyMTk3fDA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: gmalhotra
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1694886322085-58b74bb0727b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxJbmRpYSUyMGNpdHklMjBzdHJlZXR8ZW58MHx8fHwxNzUyMDUyMTk3fDA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@gmalhotra
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/IIKWwRc22U4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxJbmRpYSUyMGNpdHklMjBzdHJlZXR8ZW58MHx8fHwxNzUyMDUyMTk3fDA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1608514617921-235a62acbd71image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 6000
+                          description:
+                            type: text
+                            value: Photo by Gayatri Malhotra on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: India
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Volunteer in education initiatives while exploring vibrant
+                      cities.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: aa94b284-f57a-4176-9066-fea14e705c66
+              type: card
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 4fc952ab-638e-45ec-a425-21371511cbce
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1704313997517-e6baae628625?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxUaGFpbGFuZCUyMGlzbGFuZHN8ZW58MHx8fHwxNzUyMDUyMjIzfDA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: a boat with a flag on the bow in the water
+                          width:
+                            type: number
+                            value: 6000
+                          custom:
+                            type: object
+                            value:
+                              color: '#c0d9d9'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-boat-with-a-flag-on-the-bow-in-the-water-5keXNMOb-xg
+                              blurHash: L$JbX3M{E2Ri.TR-w^oexHozS#oz
+                              sourceId: 5keXNMOb-xg
+                              createdAt: '2024-01-03T20:33:54Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-boat-with-a-flag-on-the-bow-in-the-water-5keXNMOb-xg
+                              updatedAt: '2025-07-09T07:16:05Z'
+                              authorName: Tom Lorber
+                              downloadUrl: >-
+                                https://unsplash.com/photos/5keXNMOb-xg/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxUaGFpbGFuZCUyMGlzbGFuZHN8ZW58MHx8fHwxNzUyMDUyMjIzfDA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1704313997517-e6baae628625?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxUaGFpbGFuZCUyMGlzbGFuZHN8ZW58MHx8fHwxNzUyMDUyMjIzfDA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1704313997517-e6baae628625?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxUaGFpbGFuZCUyMGlzbGFuZHN8ZW58MHx8fHwxNzUyMDUyMjIzfDA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1704313997517-e6baae628625?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxUaGFpbGFuZCUyMGlzbGFuZHN8ZW58MHx8fHwxNzUyMDUyMjIzfDA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1704313997517-e6baae628625?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxUaGFpbGFuZCUyMGlzbGFuZHN8ZW58MHx8fHwxNzUyMDUyMjIzfDA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: tmlrbr
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1704313997517-e6baae628625?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxUaGFpbGFuZCUyMGlzbGFuZHN8ZW58MHx8fHwxNzUyMDUyMjIzfDA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@tmlrbr
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/5keXNMOb-xg/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxUaGFpbGFuZCUyMGlzbGFuZHN8ZW58MHx8fHwxNzUyMDUyMjIzfDA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1741608684574-6749fca28059image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 4000
+                          description:
+                            type: text
+                            value: Photo by Tom Lorber on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Thailand
+                description:
+                  type: text
+                  locales:
+                    en-US: Help with marine conservation while island hopping.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: fc979ec4-a974-41c8-b0b7-78d510792cd8
+              type: card
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: cee1df5b-82bf-493a-9164-d6d3c94db848
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1728763072213-a959410b2d87?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxwb3J0dWdhbCUyMGNvYXN0fGVufDB8fHx8MTc1MjA1MjI0NXww&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: An aerial view of a beach and a cliff
+                          width:
+                            type: number
+                            value: 4000
+                          custom:
+                            type: object
+                            value:
+                              color: '#c0d9d9'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/an-aerial-view-of-a-beach-and-a-cliff-YGLbcqJrl20
+                              blurHash: LtHoI2M{Naf6_NNHaejsyEs:niWq
+                              sourceId: YGLbcqJrl20
+                              createdAt: '2024-10-12T20:14:01Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/an-aerial-view-of-a-beach-and-a-cliff-YGLbcqJrl20
+                              updatedAt: '2025-07-09T06:14:26Z'
+                              authorName: Antonio Cogo
+                              downloadUrl: >-
+                                https://unsplash.com/photos/YGLbcqJrl20/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxwb3J0dWdhbCUyMGNvYXN0fGVufDB8fHx8MTc1MjA1MjI0NXww
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1728763072213-a959410b2d87?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxwb3J0dWdhbCUyMGNvYXN0fGVufDB8fHx8MTc1MjA1MjI0NXww&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1728763072213-a959410b2d87?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxwb3J0dWdhbCUyMGNvYXN0fGVufDB8fHx8MTc1MjA1MjI0NXww&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1728763072213-a959410b2d87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxwb3J0dWdhbCUyMGNvYXN0fGVufDB8fHx8MTc1MjA1MjI0NXww&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1728763072213-a959410b2d87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxwb3J0dWdhbCUyMGNvYXN0fGVufDB8fHx8MTc1MjA1MjI0NXww&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: antka5
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1728763072213-a959410b2d87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxwb3J0dWdhbCUyMGNvYXN0fGVufDB8fHx8MTc1MjA1MjI0NXww&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@antka5
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/YGLbcqJrl20/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxwb3J0dWdhbCUyMGNvYXN0fGVufDB8fHx8MTc1MjA1MjI0NXww
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1638173385444-17b9962c5f68?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 2250
+                          description:
+                            type: text
+                            value: Photo by Antonio Cogo on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Portugal
+                description:
+                  type: text
+                  locales:
+                    en-US: Farm organically by day, enjoy coastal charm by night.
+            - _id: 7b043a2e-9aa1-4210-9c6c-467b5823b2df
+              type: card
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 644aca5a-26ff-45d6-a3ff-fa84a070d9bd
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1710535225359-e401c31dec8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxTb3V0aCUyMEFmcmljYSUyMHdpbGRsaWZlfGVufDB8fHx8MTc1MjA1MjI2OHww&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: A giraffe in Kruger national park in South africa.
+                          width:
+                            type: number
+                            value: 6000
+                          custom:
+                            type: object
+                            value:
+                              color: '#8cc0d9'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-giraffe-standing-in-the-middle-of-a-forest-c2ifcmHXzfI
+                              blurHash: LoF@6-MvRij[u6t7ofaeM|tSj]a}
+                              sourceId: c2ifcmHXzfI
+                              createdAt: '2024-03-15T20:50:50Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-giraffe-standing-in-the-middle-of-a-forest-c2ifcmHXzfI
+                              updatedAt: '2025-07-09T03:21:26Z'
+                              authorName: ludovico di giorgi
+                              downloadUrl: >-
+                                https://unsplash.com/photos/c2ifcmHXzfI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxTb3V0aCUyMEFmcmljYSUyMHdpbGRsaWZlfGVufDB8fHx8MTc1MjA1MjI2OHww
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1710535225359-e401c31dec8e?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxTb3V0aCUyMEFmcmljYSUyMHdpbGRsaWZlfGVufDB8fHx8MTc1MjA1MjI2OHww&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1710535225359-e401c31dec8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxTb3V0aCUyMEFmcmljYSUyMHdpbGRsaWZlfGVufDB8fHx8MTc1MjA1MjI2OHww&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1710535225359-e401c31dec8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxTb3V0aCUyMEFmcmljYSUyMHdpbGRsaWZlfGVufDB8fHx8MTc1MjA1MjI2OHww&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1710535225359-e401c31dec8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxTb3V0aCUyMEFmcmljYSUyMHdpbGRsaWZlfGVufDB8fHx8MTc1MjA1MjI2OHww&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: lyudo1243
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1710535225359-e401c31dec8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxTb3V0aCUyMEFmcmljYSUyMHdpbGRsaWZlfGVufDB8fHx8MTc1MjA1MjI2OHww&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@lyudo1243
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/c2ifcmHXzfI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxTb3V0aCUyMEFmcmljYSUyMHdpbGRsaWZlfGVufDB8fHx8MTc1MjA1MjI2OHww
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1709977067626-f2e703ad8f81?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 4000
+                          description:
+                            type: text
+                            value: Photo by ludovico di giorgi on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: South Africa
+                description:
+                  type: text
+                  locales:
+                    en-US: Track wildlife and engage in community upliftment.
+        variant: carousel
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Top destinations for recent graduate adventures
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Whether you're craving wild landscapes or cultural immersion,
+                we've got something for every kind of traveler.
+      - _id: 0a51ff07-12a8-4e66-a8c9-54d4cb53cc0f
+        type: container
+        slots:
+          container-inner:
+            - _id: db4ee585-181c-4eb7-972d-26c7123fc546
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: bb0c4711-113e-4b20-8633-e31d84a53347
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: 27fb44b9-c487-469d-ac2e-eae96ae8edbe
+                          type: richText
+                          parameters:
+                            content:
+                              type: richText
+                              locales:
+                                en-US:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - tag: h2
+                                        type: heading
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Who are these trips for?
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                      - tag: ul
+                                        type: list
+                                        start: 1
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - type: listitem
+                                            value: 1
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Recent college graduates ready to
+                                                  celebrate their achievement with
+                                                  something meaningful
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 2
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Young adventurers looking for
+                                                  eco-friendly travel experiences
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 3
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Individuals hoping to travel before
+                                                  their career begins without wasting time
+                                                  or money
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 4
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Curious minds eager to learn new skills
+                                                  and broaden their worldview
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                        listType: bullet
+                                        direction: null
+                                    direction: null
+                    parameters:
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: none
+                  - _id: 169a3c85-3651-4080-901d-f16fb66834f5
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: bd4a727f-6ff8-459a-973a-a7505aa82323
+                          type: richText
+                          parameters:
+                            content:
+                              type: richText
+                              locales:
+                                en-US:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - tag: h2
+                                        type: heading
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: What’s included?
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                      - tag: ul
+                                        type: list
+                                        start: 1
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - type: listitem
+                                            value: 1
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: Eco-conscious accommodations
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 2
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Local guides and responsible travel
+                                                  partners
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 3
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Skill-building workshops & cultural
+                                                  immersion
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 4
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Optional career coaching + travel
+                                                  certifications
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 5
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Flexible start dates and group travel
+                                                  options
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                        listType: bullet
+                                        direction: null
+                                    direction: null
+                    parameters:
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: none
+                  - _id: 39d5bf9f-01fb-4668-9d17-3ab93c7bc786
+                    type: gridItem
+                    slots:
+                      inner:
+                        - _id: 7cbed2e9-22f5-43bc-b08b-f7bb3cf78242
+                          type: richText
+                          parameters:
+                            content:
+                              type: richText
+                              locales:
+                                en-US:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - tag: h2
+                                        type: heading
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: How it boosts your resume
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Sustainable travel isn’t just good for
+                                              the planet—it’s great for your future.
+                                              Employers love to see initiative,
+                                              adaptability, and global perspective. On
+                                              our trips, you can:
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                      - tag: ul
+                                        type: list
+                                        start: 1
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - type: listitem
+                                            value: 1
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: Lead local projects
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 2
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: Learn a new language
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 3
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Gain certifications in sustainability,
+                                                  teaching, or conservation
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                          - type: listitem
+                                            value: 4
+                                            format: ''
+                                            indent: 0
+                                            version: 1
+                                            children:
+                                              - mode: normal
+                                                text: >-
+                                                  Build a global network of peers and
+                                                  mentors
+                                                type: text
+                                                style: ''
+                                                detail: 0
+                                                format: 0
+                                                version: 1
+                                            direction: null
+                                        listType: bullet
+                                        direction: null
+                                    direction: null
+                    parameters:
+                      rowSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      rowStart:
+                        type: tp-slider-parameter
+                        value: None
+                      columnSpan:
+                        type: tp-slider-parameter
+                        value: '1'
+                      columnStart:
+                        type: tp-slider-parameter
+                        value: none
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: medium
+                gapY:
+                  type: tp-slider-parameter
+                  value: none
+                columnsCount:
+                  type: tp-slider-parameter
+                  locales:
+                    en-US: '3'
+        parameters:
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+      - _id: c57cd35a-e0af-45d0-a332-48ec6869ce28
+        type: testimonial
+        parameters:
+          picture:
+            type: asset
+            value:
+              - _id: eb6abf75-f641-4db9-8d06-877ca17dea21
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdHxlbnwwfDJ8fHwxNzUxOTY0NzIxfDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Fall is here
+                  width:
+                    type: number
+                    value: 3648
+                  custom:
+                    type: object
+                    value:
+                      color: '#f3f3f3'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/woman-wearing-white-t-shirt-smiling-tNCH0sKSZbA
+                      blurHash: LUKdi09GtQxa~p9ZtRt7%MjZM{R*
+                      sourceId: tNCH0sKSZbA
+                      createdAt: '2016-11-23T21:26:40Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/woman-wearing-white-t-shirt-smiling-tNCH0sKSZbA
+                      updatedAt: '2025-07-08T07:03:19Z'
+                      authorName: Matthew Hamilton
+                      downloadUrl: >-
+                        https://unsplash.com/photos/tNCH0sKSZbA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdHxlbnwwfDJ8fHwxNzUxOTY0NzIxfDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdHxlbnwwfDJ8fHwxNzUxOTY0NzIxfDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdHxlbnwwfDJ8fHwxNzUxOTY0NzIxfDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdHxlbnwwfDJ8fHwxNzUxOTY0NzIxfDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdHxlbnwwfDJ8fHwxNzUxOTY0NzIxfDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: thatsmrbio
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdHxlbnwwfDJ8fHwxNzUxOTY0NzIxfDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@thatsmrbio
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/tNCH0sKSZbA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdHxlbnwwfDJ8fHwxNzUxOTY0NzIxfDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1655948781532-0aedad4d7fbcimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3648
+                  description:
+                    type: text
+                    value: Photo by Matthew Hamilton on Unsplash
+                _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          personName:
+            type: text
+            locales:
+              en-US: Alex P.
+          description:
+            type: text
+            locales:
+              en-US: >-
+                The Thailand trip helped me figure out what kind of work I want
+                to do—and gave me something incredible to talk about in job
+                interviews.
+          personPosition:
+            type: text
+            locales:
+              en-US: Class of 2023
+      - _id: 76b7cb3d-769b-45d0-adef-9fac2e39b6ed
+        type: accordion
+        slots:
+          items:
+            - _id: 03284cbd-c3ee-4cfb-8536-577d5baa1a30
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Is this a good option if I’m not sure what I want to do
+                      yet?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Absolutely. Many grads use these trips to explore
+                      interests and clarify career goals.
+            - _id: d0b4f948-4986-4855-977a-c7f0c2c73d55
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Can I travel solo?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Yes! Most of our travelers start solo and leave with
+                      lifelong friends.
+            - _id: 39ed0a1e-2cdc-4e2e-a00f-eddc3e9d7fe0
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How long are the trips?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      From 2 weeks to 3 months—flexible enough to fit your life
+                      plans.
+      - _id: f373cf4f-7d5d-4f02-88da-133b4ac8d22a
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Ready to travel with purpose?
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Whether you want to volunteer abroad, gain global experience, or
+                just take a breather before the next big thing—this is your
+                moment.
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Discover Sustainable Adventures
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: /${locale}/destinations
+                type: projectMapNode
+                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                dynamicInputValues:
+                  locale: ${locale}
+      - _id: faab51f3-c014-4edc-90db-8b098fdfad71
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Still deciding?
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Get our free guide: “Top 10 Post-Graduation Travel Ideas That
+                Build Your Future”.
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Download Free Guide
+          primaryButtonLink:
+            type: link
+            locales:
+              en-US:
+                path: '#'
+                type: url
+          secondaryButtonStyle:
+            type: tp-button-style-parameter
+            value: link
+  _locales:
+    - en-US
+created: '2025-07-09T09:19:09.391026+00:00'
+modified: '2025-07-10T10:30:24.670311+00:00'
+pattern: false

@@ -1,0 +1,24 @@
+id: flashpacker
+name: Flashpacker
+description: >-
+  Flashpackers are travelers who embrace the freedom and spontaneity of
+  backpacking but do so with a bigger budget—think lightweight backpacks paired
+  with boutique hostels, frequent flights, and plenty of tech gear in tow. In
+  short, they want the authentic, flexible experience of the road without
+  sacrificing comfort, style, or connectivity.
+type: 0
+inputs:
+  - dim: dest_asia
+    sign: +
+  - dim: act_fod
+    sign: +
+  - dim: ses_hol
+    sign: +
+  - dim: act_spa
+    sign: +
+  - dim: act_adv
+    sign: +
+  - dim: profile_mil
+    sign: +
+  - dim: style_lux
+    sign: +

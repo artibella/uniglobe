@@ -1,0 +1,10 @@
+id: 8fbdfe02-8526-4033-aecb-4e81fe82f44e
+name: Solo female travel
+order: 625
+path: /:locale/solo-female-travel
+type: composition
+pathSegment: solo-female-travel
+data:
+  queryStrings: []
+compositionId: 1d54897e-5230-459f-93e5-793fbca57913
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

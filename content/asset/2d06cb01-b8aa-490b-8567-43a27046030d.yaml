@@ -8,13 +8,13 @@ asset:
       value: Logo Uniglobe (SVG)
     file:
       type: file
-      value: 1a61fb6b-8e3d-4636-83ae-0dd5b38800cb
+      value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
     mediaType:
       value: image/svg+xml
       type: text
     url:
       value: >-
-        https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/qVpvNg6rQ8e7XEuFmBnKbw-uniglobe.svg
+        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/k_jkNcgZQ56EkzM67qHfgA-uniglobe.svg
       type: text
     size:
       value: 18253
@@ -26,5 +26,5 @@ asset:
       value: 335
       type: number
     custom: {}
-created: '2024-04-23T15:04:17.265363+00:00'
-modified: '2025-07-07T10:18:48.307439+00:00'
+created: '2024-01-15T12:30:01.744006+00:00'
+modified: '2024-11-07T11:09:37.633024+00:00'

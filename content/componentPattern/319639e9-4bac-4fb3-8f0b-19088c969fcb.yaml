@@ -221,14 +221,53 @@ composition:
               parameters:
                 link:
                   type: link
-                  locales:
-                    en-US:
-                      path: >-
-                        https://docs.uniform.app/docs/get-started/component-starter-kit
-                      type: url
+                  value:
+                    path: /${locale}/destinations
+                    type: projectMapNode
+                    nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
                 title:
                   type: text
                   locales:
+                    de-DE: Alle Reiseziele
+                    en-US: All destinations
+            - _id: d74c3d12-6cc9-4abe-899a-5f673f1a4017
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/destinations/asia/thailand
+                    type: projectMapNode
+                    nodeId: 249ff2ae-57df-4955-84c6-5e015e8d8408
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Japan
+                    en-US: Thailand
+            - _id: e5f336c4-92e7-4bd1-8b9d-65c1c8065c93
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/destinations/asia/japan
+                    type: projectMapNode
+                    nodeId: fdc1ba9a-c1b7-4c13-877d-9071c73f5dd2
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Japan
                     en-US: Japan
             - _id: 5b5c7862-e6f7-40f6-9a51-f06299d3ecd7
               type: navigationLink
@@ -237,13 +276,21 @@ composition:
                 link:
                   type: link
                   locales:
-                    en-US:
+                    de-DE:
                       path: https://components-storybook.uniform.app/
                       type: url
+                    en-US:
+                      path: /${locale}/destinations/north-america/usa
+                      type: projectMapNode
+                      nodeId: 9b2feeda-100f-4cad-84df-02bef20609b1
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
                 title:
                   type: text
                   locales:
-                    en-US: Berlin
+                    de-DE: Berlin
+                    en-US: USA
             - _id: e5365d0c-00d9-42d2-90eb-4446084cc3c0
               type: navigationLink
               variant: footer
@@ -251,13 +298,45 @@ composition:
                 link:
                   type: link
                   locales:
-                    en-US:
+                    de-DE:
                       path: https://components.uniform.app/
                       type: url
+                    en-US:
+                      path: /${locale}/destinations/europe/italy
+                      type: projectMapNode
+                      nodeId: 3fc59067-4de9-41e2-b322-4cb733ba4c6b
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
                 title:
                   type: text
                   locales:
-                    en-US: Demo
+                    de-DE: Italien
+                    en-US: Italy
+            - _id: e467fb89-d2e8-4949-b1c9-f3c084c68bdf
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: https://components.uniform.app/
+                      type: url
+                    en-US:
+                      path: /${locale}/destinations/europe/spain
+                      type: projectMapNode
+                      nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                        region: europe
+                        destination: spain
+                title:
+                  type: text
+                  locales:
+                    de-DE: Spanien
+                    en-US: Spain
         parameters:
           title:
             type: text
@@ -272,55 +351,213 @@ composition:
               parameters:
                 link:
                   type: link
-                  locales:
-                    en-US:
-                      path: https://components.uniform.app/
-                      type: url
+                  value:
+                    path: /${locale}/destinations/asia
+                    type: projectMapNode
+                    nodeId: f7eba10c-97be-4a46-ae77-df46666ea2d8
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                      region: asia
                 title:
                   type: text
                   locales:
-                    en-US: Demo
-            - _id: 6c95b0ca-1dd2-47f0-bb0a-f0c22e2a8382
+                    de-DE: Asien
+                    en-US: Asia
+            - _id: 072e30c0-b999-4987-8935-dbe9a74624bf
               type: navigationLink
               variant: footer
               parameters:
                 link:
                   type: link
-                  locales:
-                    en-US:
-                      path: >-
-                        https://docs.uniform.app/docs/get-started/component-starter-kit
-                      type: url
+                  value:
+                    path: /${locale}/destinations/europe
+                    type: projectMapNode
+                    nodeId: f7eba10c-97be-4a46-ae77-df46666ea2d8
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                      region: europe
                 title:
                   type: text
                   locales:
-                    en-US: Japan
-            - _id: f7f8d4d5-2cff-4559-b61e-ebe7e4d3d4a8
+                    de-DE: Europa
+                    en-US: Europe
+            - _id: 84758020-4053-4522-9c75-09a33823163c
               type: navigationLink
               variant: footer
               parameters:
                 link:
                   type: link
-                  locales:
-                    en-US:
-                      path: https://components-storybook.uniform.app/
-                      type: url
+                  value:
+                    path: /${locale}/destinations/north-america
+                    type: projectMapNode
+                    nodeId: f7eba10c-97be-4a46-ae77-df46666ea2d8
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                      region: north-america
                 title:
                   type: text
                   locales:
-                    en-US: Berlin
+                    de-DE: Nordamerika
+                    en-US: North America
+            - _id: 7a0a23f1-5f51-4316-88ba-f55a99dbff58
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/destinations/south-america
+                    type: projectMapNode
+                    nodeId: f7eba10c-97be-4a46-ae77-df46666ea2d8
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                      region: south-america
+                title:
+                  type: text
+                  locales:
+                    de-DE: Nordamerika
+                    en-US: South America
         parameters:
           title:
             type: text
-            value: Tours
+            value: Regions
+      - _id: 184c3ad5-c239-4432-889b-2353398aecb8
+        type: footerSection
+        slots:
+          links:
+            - _id: 1ab3bba5-ef37-4941-919c-b106adbf67a5
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/sustainable-travel
+                    type: projectMapNode
+                    nodeId: 12a9581f-969f-4e92-a9b2-c4c7abbc0ea5
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Nachhaltiges Reisen
+                    en-US: Sustainable travel
+            - _id: a70c82cb-42ac-4a96-81bc-fd6fe0a3810e
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/digital-nomads
+                    type: projectMapNode
+                    nodeId: f5a4c23b-523e-4f6b-ad38-17b9e7f216d5
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Digitale Nomaden
+                    en-US: Digital nomads
+            - _id: 4a24a3a9-7adc-4c65-8c3a-e77c87a5712c
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/sabbaticals
+                    type: projectMapNode
+                    nodeId: aefeb70f-ad76-41b0-af38-0787eb259621
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Sabbaticals
+                    en-US: Sabbaticals
+            - _id: 289731bf-f08c-4ef9-86f5-5541468a8a39
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/post-graduate-travel
+                    type: projectMapNode
+                    nodeId: 47799f89-e5d9-4adc-afe2-d1bfd57aeaec
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Reisen nach dem Abschluss
+                    en-US: Post graduate travel
+            - _id: 71bd416f-fc43-4df2-b81b-6f960875e72b
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /${locale}/gap-year-travel
+                    type: projectMapNode
+                    nodeId: 542d4976-810a-48e9-8e4b-7406b5fd033b
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Gap Year Reisen
+                    en-US: Gap year travel
+            - _id: 95be39eb-473f-474c-b0a5-a0f14875016e
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /${locale}/solo-female-travel
+                      type: projectMapNode
+                      nodeId: 8fbdfe02-8526-4033-aecb-4e81fe82f44e
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                    en-US:
+                      path: /${locale}/solo-female-travel
+                      type: projectMapNode
+                      nodeId: 8fbdfe02-8526-4033-aecb-4e81fe82f44e
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    de-DE: Solo-Reisen für Frauen
+                    en-US: Solo female travel
+        parameters:
+          title:
+            type: text
+            value: Special interest
   _overridability:
     parameters:
       $viz: 'yes'
     hideLockedParameters: true
   _locales:
     - en-US
+    - de-DE
 created: '2024-01-15T09:26:47.163483+00:00'
-modified: '2024-08-20T10:09:56.872055+00:00'
+modified: '2025-07-10T12:42:43.195446+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Footer_preview_image

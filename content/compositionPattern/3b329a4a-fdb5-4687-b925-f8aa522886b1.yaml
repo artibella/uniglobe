@@ -173,6 +173,10 @@ composition:
                     en-US: ${#jptr:/Region/entry/fields/description/value:fa=p:fl=i}
               _overridability:
                 hideLockedParameters: true
+        parameters:
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
         _overridability:
           hideLockedParameters: true
       - _id: f0693bc9-5723-4bc9-924b-f2fd6fe3089f
@@ -319,8 +323,8 @@ composition:
     - en-US
     - de-DE
     - it-IT
-created: '2025-07-07T10:19:28.763314+00:00'
-modified: '2025-07-07T10:19:28.763314+00:00'
+created: '2025-03-27T18:26:46.445468+00:00'
+modified: '2025-07-10T12:59:26.250162+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

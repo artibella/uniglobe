@@ -40,7 +40,7 @@ composition:
       type: link
       locales:
         de-DE:
-          path: /:locale/reiseziele
+          path: /:locale/destinations
           type: projectMapNode
           nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -113,8 +113,8 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-07-03T19:06:46.930777+00:00'
-modified: '2025-07-03T19:08:03.61952+00:00'
+created: '2024-10-23T13:52:50.185915+00:00'
+modified: '2025-05-14T11:41:24.252033+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1737406073/Uniglobe/Component%20Previews/Country%20card.png
