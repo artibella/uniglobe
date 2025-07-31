@@ -6,25 +6,6 @@ asset:
     title:
       type: text
       value: Apple app store button
-    file:
-      type: file
-      value: 39d7e546-dc16-4a1e-9727-6ae06a3ff650
-    mediaType:
-      value: image/svg+xml
-      type: text
-    url:
-      value: >-
-        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/0l3n7I-KQom4D70x3YEqww-app-store-badge.svg
-      type: text
-    size:
-      value: 8406
-      type: number
-    width:
-      value: 128
-      type: number
-    height:
-      value: 128
-      type: number
     custom: {}
-created: '2024-09-19T16:42:58.797685+00:00'
-modified: '2024-09-19T16:43:19.544522+00:00'
+created: '2025-01-30T15:35:45.511987+00:00'
+modified: '2025-07-23T09:30:48.884628+00:00'

@@ -149,7 +149,7 @@ composition:
                                 value: 2def1ae3-96b9-472d-bb8a-3b875185142f
                               url:
                                 value: >-
-                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                                  https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/BlJgki-lTn2UoH_TPauxNQ-su-san-lee-E_eWwM29wfU-unsplash.jpg
                                 type: text
                               file:
                                 type: file
@@ -206,7 +206,7 @@ composition:
                                 value: eb2c3354-bb0c-4525-bc18-e0450a144eae
                               url:
                                 value: >-
-                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/Z_wEljEOT5u2Im7fgSNO3Q-serey-kim-xjrvTc52xYc-unsplash.jpg
+                                  https://canary-img.uniform.global/p/86hDpgOuRZC6YHOolH5A1w/lkpBmORKT2OAb8RwrT6UpA-serey-kim-xjrvTc52xYc-unsplash.jpg
                                 type: text
                               file:
                                 type: file
@@ -256,29 +256,29 @@ composition:
                           type: text
                           value: c9556355-d04b-4abe-ae4f-851c84bd76d2
                         url:
+                          type: text
                           value: >-
                             https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/V7LaplKlQXm6rE_JsKPfXg-photo-1506918357967-b358ad447c56
-                          type: text
                         file:
                           type: file
                           value: 40334f40-9aef-4c65-b4de-6e63a085f876
                         size:
-                          value: 1138813
                           type: number
+                          value: 1138813
                         title:
                           type: text
                           value: >-
                             aerial photography of sea beside green trees during
                             daytime
                         width:
+                          type: number
                           value: 3000
-                          type: number
                         height:
-                          value: 2000
                           type: number
+                          value: 2000
                         mediaType:
-                          value: image/jpeg
                           type: text
+                          value: image/jpeg
                       _source: uniform-assets
                     - _id: c8972cfe-ac1e-4683-a6dd-9816aabb1457
                       type: image
@@ -442,6 +442,6 @@ composition:
     - en-US
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
-created: '2024-11-08T14:38:18.10988+00:00'
-modified: '2025-07-03T22:46:12.845064+00:00'
+created: '2025-01-30T15:36:25.761665+00:00'
+modified: '2025-07-23T09:31:00.459418+00:00'
 pattern: false

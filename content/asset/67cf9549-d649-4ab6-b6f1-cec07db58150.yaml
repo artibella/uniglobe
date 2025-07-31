@@ -6,25 +6,6 @@ asset:
     title:
       type: text
       value: Logo Uniglobe (PNG)
-    file:
-      type: file
-      value: ccf4da80-b9ed-45fb-b1e8-970cd8229fd0
-    mediaType:
-      value: image/png
-      type: text
-    url:
-      value: >-
-        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/93IONF2_RTOQT6CdZ9tEVw-uniglobe.png
-      type: text
-    size:
-      value: 60405
-      type: number
-    width:
-      value: 358
-      type: number
-    height:
-      value: 335
-      type: number
     custom: {}
-created: '2024-01-15T18:22:21.43405+00:00'
-modified: '2024-11-07T11:09:21.865244+00:00'
+created: '2024-04-23T15:04:18.818135+00:00'
+modified: '2025-07-23T09:30:47.080912+00:00'

@@ -1,5 +1,5 @@
-created: '2025-07-03T19:09:36.127038+00:00'
-modified: '2025-07-03T19:09:36.127038+00:00'
+created: '2025-01-30T15:36:44.918917+00:00'
+modified: '2025-07-23T13:12:44.224753+00:00'
 pattern: false
 entry:
   _id: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
@@ -21,16 +21,22 @@ entry:
   _locales:
     - en-US
     - de-DE
-    - it-IT
   _overrides:
     bdd4c8f3-2999-4885-a2b3-a08216a80aa7:
       parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Spanien
         region:
           type: contentReference
           value: ${#jptr:/ref-bdd4c8f3-2999-4885-a2b3-a08216a80aa7-region/entries/0}
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Entdecke Spaniens Vielfalt: Von weißen Dörfern bis Street-Art,
+              authentisch, nachhaltig und überraschend günstig.
             en-US: >-
               Explore the vibrant culture, historic treasures, and stunning
               landscapes of Spain, where every region offers a unique journey
@@ -38,6 +44,99 @@ entry:
         description:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Spanien – Mehr als Sonne und Strand
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Spanien ist ein Land voller Kontraste, in dem du weit
+                          mehr als nur Tapas und Flamenco entdecken kannst. Von
+                          den weißen Dörfern Andalusiens über die wilden Küsten
+                          Galiciens bis zu den alternativen Vierteln Barcelonas
+                          – hier findest du authentische Erlebnisse abseits der
+                          Touristenströme. Erkunde lokale Märkte, übernachte in
+                          familiengeführten Hostels oder nachhaltigen Eco-Lodges
+                          und lerne die Vielfalt der spanischen Regionen kennen:
+                          Wandere durch die Pyrenäen, radle auf der Via Verde
+                          oder tauche in die lebendige Street-Art-Szene
+                          Valencias ein.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Spanien engagiert sich zunehmend für nachhaltigen
+                          Tourismus: Viele Städte fördern den öffentlichen
+                          Nahverkehr, es gibt zahlreiche Bio-Restaurants und
+                          immer mehr lokale Initiativen setzen sich für den
+                          Schutz von Natur und Kultur ein. Unterstütze kleine
+                          Betriebe, probiere regionale Spezialitäten und
+                          respektiere lokale Traditionen – so wird deine Reise
+                          nicht nur günstiger, sondern auch sinnvoller.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Tipp:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Meide die Hochsaison in den Hotspots und entdecke stattdessen unbekannte Regionen wie Extremadura oder die grünen Berge Asturiens. So reist du günstiger, nachhaltiger und kommst echten Begegnungen mit Land und Leuten näher.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
             en-US:
               root:
                 type: root
@@ -58,13 +157,28 @@ entry:
                           Barcelona and Madrid’s world-class museums to the
                           charming streets of Seville and the sun-soaked beaches
                           of the Costa del Sol, Spain enchants visitors with its
-                          unique blend of tradition and modernity. Savor
-                          delicious tapas, experience vibrant festivals like La
-                          Tomatina and Flamenco performances, and explore the
-                          natural beauty of the Pyrenees or the Balearic
-                          Islands. Whether you're wandering through historic
-                          sites, enjoying local cuisine, or relaxing by the
-                          Mediterranean, Spain offers an unforgettable
+                          unique blend of tradition and modernity. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Savor delicious tapas, experience vibrant festivals
+                          like La Tomatina and Flamenco performances, and
+                          explore the natural beauty of the Pyrenees or the
+                          Balearic Islands. Whether you're wandering through
+                          historic sites, enjoying local cuisine, or relaxing by
+                          the Mediterranean, Spain offers an unforgettable
                           experience filled with color, passion, and rich
                           heritage.
                         type: text
@@ -75,6 +189,276 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
+                direction: ltr
+        teaserImage:
+          type: asset
+          locales:
+            de-DE:
+              - _id: 8c1b7f5c-1e21-476b-9bf9-bd9e831f43fd
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1561632669-7f55f7975606?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw0fHxzcGFpbnxlbnwwfHx8fDE3NTMyNzYyMDd8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: red, yellow, and white concrete stairs
+                  width:
+                    type: number
+                    value: 5184
+                  custom:
+                    type: object
+                    value:
+                      color: '#262626'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/red-yellow-and-white-concrete-stairs-UuGAw6nF0Vw
+                      blurHash: LIGkL4t60yIV%gbvZ~aKR,WWM|of
+                      sourceId: UuGAw6nF0Vw
+                      createdAt: '2019-06-27T10:51:30Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/red-yellow-and-white-concrete-stairs-UuGAw6nF0Vw
+                      updatedAt: '2025-07-23T08:07:31Z'
+                      authorName: Sam Williams
+                      downloadUrl: >-
+                        https://unsplash.com/photos/UuGAw6nF0Vw/download?ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw0fHxzcGFpbnxlbnwwfHx8fDE3NTMyNzYyMDd8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1561632669-7f55f7975606?ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw0fHxzcGFpbnxlbnwwfHx8fDE3NTMyNzYyMDd8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1561632669-7f55f7975606?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw0fHxzcGFpbnxlbnwwfHx8fDE3NTMyNzYyMDd8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1561632669-7f55f7975606?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw0fHxzcGFpbnxlbnwwfHx8fDE3NTMyNzYyMDd8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1561632669-7f55f7975606?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw0fHxzcGFpbnxlbnwwfHx8fDE3NTMyNzYyMDd8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: sam_williams
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1561632669-7f55f7975606?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw0fHxzcGFpbnxlbnwwfHx8fDE3NTMyNzYyMDd8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@sam_williams
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/UuGAw6nF0Vw/download?ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw0fHxzcGFpbnxlbnwwfHx8fDE3NTMyNzYyMDd8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1594511197194-14a4460543e2image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3456
+                  description:
+                    type: text
+                    value: Photo by Sam Williams on Unsplash
+                _source: unisplash-bdaded99-0206-4640-be8d-d631ecabd41f
+            en-US:
+              - _id: 45d71b74-c9b6-4e9a-b096-7f995159d029
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  title:
+                    type: text
+                    value: Copyright Jorge Fernández Salas, Unsplash
+                _source: custom-url
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Beste Reisezeit für Spanien
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Spanien ist das ganze Jahr über eine Reise wert – aber
+                          je nach Region und Vorlieben gibt es echte Geheimtipps
+                          für nachhaltige, authentische Erlebnisse und günstiges
+                          Reisen:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Frühling (März–Mai):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Perfekt für Städtereisen nach Sevilla, Granada oder Valencia. Die Temperaturen sind angenehm, die Natur blüht, und die großen Touristenmassen bleiben noch aus. Viele lokale Feste wie die Feria de Abril in Sevilla bieten tiefe Einblicke in die Kultur – oft kostenlos oder für kleines Geld.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Herbst (September–November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Die Strände leeren sich, das Meer ist noch warm, und in Nordspanien (z.B. Baskenland, Asturien) locken grüne Landschaften und Erntefeste. Ideal für Wanderungen, Radtouren und kulinarische Entdeckungen abseits der Hochsaison.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Sommer (Juni–August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' In den Küstenregionen und auf den Inseln ist Hochbetrieb – aber im Landesinneren (z.B. Extremadura, Kastilien) findest du authentische Dörfer, günstige Unterkünfte und viel Platz. Tipp: Nutze Nachtzüge oder Fernbusse, um klimafreundlich und preiswert zu reisen.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (Dezember–Februar):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' In Andalusien und auf den Kanaren erwarten dich milde Temperaturen und viel Sonne. In den Pyrenäen und der Sierra Nevada kannst du nachhaltig Ski fahren – viele kleine Skigebiete setzen auf Umweltschutz und lokale Wertschöpfung.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Nachhaltigkeits-Tipp:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Vermeide die Hochsaison in überlaufenen Städten wie
+                          Barcelona oder Mallorca. Stattdessen: Entdecke kleine
+                          Küstenorte, Nationalparks oder alternative Festivals.
+                          Viele Regionen bieten Eco-Tourismus-Initiativen,
+                          Bio-Märkte und nachhaltige Unterkünfte – oft günstiger
+                          und mit echtem Mehrwert für die lokale Community.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Kurz & knapp:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Für authentische Begegnungen, faire Preise und
+                          nachhaltige Abenteuer sind Frühling und Herbst die
+                          beste Wahl. Wer flexibel ist, findet auch im Winter
+                          und Sommer abseits der Massen echte Geheimtipps.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
                   - tag: h3
                     type: heading
                     format: ''
@@ -227,19 +611,7 @@ entry:
                     children: []
                     direction: null
                 direction: ltr
-        teaserImage:
-          type: asset
-          locales:
-            en-US:
-              - _id: 45d71b74-c9b6-4e9a-b096-7f995159d029
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
-                    type: text
-                    value: Copyright Jorge Fernández Salas, Unsplash
-                _source: custom-url
+        officialName:
+          type: text
+          value: Königreich Spanien
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
