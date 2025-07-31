@@ -1,0 +1,27 @@
+created: '2025-07-22T12:41:19.310848+00:00'
+modified: '2025-07-22T12:43:18.374565+00:00'
+pattern: false
+entry:
+  _id: fa0d639b-360f-4a5a-a100-8d14be6d7546
+  _name: UniGlobe
+  _slug: uniglobe
+  type: microcopy
+  fields:
+    key:
+      type: text
+      value: brand.name
+    value:
+      type: text
+      locales:
+        en-US: UniGlobe
+    status:
+      type: select
+      value: approved
+    context:
+      type: text
+      value: Whenever the brand name is mentioned
+    category:
+      type: select
+      value: brand
+  _locales:
+    - en-US

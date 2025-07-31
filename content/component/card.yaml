@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: card
 name: Card
 icon: >-
@@ -100,6 +99,9 @@ parameters:
   - id: badgeSize
     name: Badge Size
     type: select
+    guidance: >-
+      Select an appropriate size for the badge that fits well with your card
+      design and doesn't overwhelm other content.
     typeConfig:
       options:
         - text: Large
@@ -113,6 +115,9 @@ parameters:
   - id: badgeStyle
     name: Badge Style
     type: tp-badge-style-parameter
+    guidance: >-
+      Choose a badge style that matches your brand theme and provides good
+      contrast for readability.
     typeConfig: null
   - id: group_cta
     name: CTA
@@ -126,6 +131,9 @@ parameters:
   - id: buttonLink
     name: Button Link
     type: link
+    guidance: >-
+      Link to the page or action you want users to take when they click the card
+      button.
     typeConfig: null
     localizable: true
     allowConditionalValues: true
@@ -139,11 +147,17 @@ parameters:
   - id: buttonCopy
     name: Button Copy
     type: text
+    guidance: >-
+      Write clear, action-oriented button text that tells users what will happen
+      when they click (e.g., 'Learn more', 'Buy now').
     typeConfig: null
     localizable: true
   - id: buttonAnimationType
     name: Button Animation Type
     type: select
+    guidance: >-
+      Choose an animation that enhances user experience without being
+      distracting.
     typeConfig:
       options:
         - text: Fade-In
@@ -162,6 +176,9 @@ parameters:
   - id: objectFit
     name: Object Fit
     type: select
+    guidance: >-
+      Select how the image should fit within the card container for optimal
+      visual presentation.
     typeConfig:
       options:
         - text: Contain
@@ -176,11 +193,17 @@ parameters:
   - id: overlayColor
     name: Overlay Color
     type: tp-color-style-parameter
+    guidance: >-
+      Choose an overlay color that enhances readability while maintaining visual
+      appeal.
     typeConfig: null
     localizable: true
   - id: overlayOpacity
     name: Overlay Opacity
     type: tp-slider-parameter
+    guidance: >-
+      Set overlay opacity to ensure text remains readable while maintaining
+      image visibility.
     typeConfig:
       step: 10
       type: steps
@@ -200,6 +223,9 @@ parameters:
   - id: textColorVariant
     name: Text Color Variant
     type: select
+    guidance: >-
+      Choose the text color variant that provides the best contrast against your
+      background.
     typeConfig:
       options:
         - text: Dark
@@ -219,6 +245,7 @@ parameters:
   - id: animationType
     name: Animation Type
     type: select
+    guidance: Select an animation type that fits your site's overall design language.
     typeConfig:
       options:
         - text: Fade-In
@@ -228,6 +255,9 @@ parameters:
   - id: duration
     name: Duration
     type: select
+    guidance: >-
+      Choose animation duration that feels natural and doesn't slow down user
+      interaction.
     typeConfig:
       options:
         - text: Slow
@@ -239,6 +269,9 @@ parameters:
   - id: delay
     name: Delay
     type: select
+    guidance: >-
+      Set animation delay to create staggered effects when multiple cards appear
+      together.
     typeConfig:
       options:
         - text: None
@@ -252,6 +285,7 @@ parameters:
   - id: animationPreview
     name: Animation Preview
     type: tp-play-animation-parameter
+    guidance: Use this to preview how your animation will look before publishing.
     typeConfig: null
   - id: tags
     name: Tags
@@ -259,14 +293,19 @@ parameters:
     helpText: Set enrichment tagging for this component
     typeConfig: null
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+description: >-
+  Displays content in a structured card format with image, title, description,
+  and optional call-to-action button. Use for product listings, feature
+  highlights, or any content that benefits from a contained, visual
+  presentation.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Card_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:13.971113+00:00'
-updated: '2025-07-03T19:57:15.039024+00:00'
+created: '2024-01-15T09:26:43.206652+00:00'
+updated: '2025-07-31T08:23:49.858587+00:00'
 variants:
   - id: backgroundImage
     name: Background Image

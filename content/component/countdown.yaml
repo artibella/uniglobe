@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: countdown
 name: Countdown
 icon: edit-exposure
@@ -26,6 +25,9 @@ parameters:
   - id: size
     name: Size
     type: tp-slider-parameter
+    guidance: >-
+      Choose the size of the countdown display that fits well with your page
+      layout and draws appropriate attention.
     typeConfig:
       step: 1
       type: custom
@@ -51,8 +53,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:15.726513+00:00'
-updated: '2025-07-03T22:22:04.123332+00:00'
+created: '2024-01-15T09:26:43.94871+00:00'
+updated: '2025-07-31T08:46:54.664283+00:00'
 variants:
   - id: labelsUnder
     name: Labels Under

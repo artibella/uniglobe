@@ -9,6 +9,25 @@ asset:
     description:
       type: text
       value: 'Copyright: HANVIN CHEONG, Unsplash'
+    file:
+      type: file
+      value: 7bf04894-febe-41ab-9387-7f90ed2dd2fc
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/DeM2Vk3hQ2quqI0sxHlMeg-photo-1721232080277-5a7f8370a2c4
+      type: text
+    size:
+      value: 1291114
+      type: number
+    width:
+      value: 3000
+      type: number
+    height:
+      value: 2000
+      type: number
     custom: {}
-created: '2025-01-30T15:35:44.742954+00:00'
-modified: '2025-07-23T09:30:48.826536+00:00'
+created: '2024-10-11T12:03:50.264289+00:00'
+modified: '2024-10-11T12:46:10.274354+00:00'

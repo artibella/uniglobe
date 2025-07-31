@@ -1,5 +1,5 @@
-created: '2025-07-03T19:08:56.070165+00:00'
-modified: '2025-07-03T19:08:56.070165+00:00'
+created: '2024-01-18T12:33:27.077396+00:00'
+modified: '2025-07-31T09:34:47.103891+00:00'
 pattern: true
 entry:
   _id: 80e4eeed-93ae-4cc1-8c37-5267e34ede08
@@ -53,13 +53,13 @@ entry:
                   fields:
                     code:
                       type: text
-                      value: ${#jptr:/Country 0 Loop Item/code}
+                      value: ${#jptr:/Country 0 Loop Item/code:fl=i}
                     name:
                       type: text
-                      value: ${#jptr:/Country 0 Loop Item/name}
+                      value: ${#jptr:/Country 0 Loop Item/name:fa=c:fl=i}
                     symbol:
                       type: text
-                      value: ${#jptr:/Country 0 Loop Item/symbol}
+                      value: ${#jptr:/Country 0 Loop Item/symbol:fl=i}
           _dataResources:
             Country 0 Loop Item:
               type: sys-reserved-loop

@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: grid
 name: Grid
 icon: view-grid
@@ -16,6 +15,9 @@ parameters:
   - id: columnsCount
     name: Columns Count
     type: tp-slider-parameter
+    guidance: >-
+      Set the number of columns for the grid layout. Consider your content and
+      screen sizes when choosing the column count.
     typeConfig:
       step: 1
       type: custom
@@ -52,6 +54,9 @@ parameters:
   - id: gapX
     name: Gap X
     type: tp-slider-parameter
+    guidance: >-
+      Control horizontal spacing between grid items. Use appropriate gaps to
+      maintain visual clarity without wasting space.
     typeConfig:
       step: 1
       type: custom
@@ -71,6 +76,9 @@ parameters:
   - id: gapY
     name: Gap Y
     type: tp-slider-parameter
+    guidance: >-
+      Control vertical spacing between grid rows. Match this with your
+      horizontal gap for consistent spacing.
     typeConfig:
       step: 1
       type: custom
@@ -102,6 +110,9 @@ parameters:
   - id: containerVariant
     name: Container Variant
     type: select
+    guidance: >-
+      Choose how the background should be contained within the grid layout for
+      optimal visual presentation.
     typeConfig:
       options:
         - text: Background In Container
@@ -111,10 +122,16 @@ parameters:
   - id: backgroundType
     name: Background Type
     type: tp-background-type-parameter
+    guidance: >-
+      Choose the type of background (color, image, gradient) that best supports
+      your grid content.
     typeConfig: null
   - id: paddingTop
     name: Padding Top
     type: select
+    guidance: >-
+      Set top padding to control spacing above grid content and maintain visual
+      hierarchy.
     typeConfig:
       options:
         - text: Small
@@ -128,6 +145,9 @@ parameters:
   - id: paddingBottom
     name: Padding Bottom
     type: select
+    guidance: >-
+      Set bottom padding to control spacing below grid content and separate it
+      from following sections.
     typeConfig:
       options:
         - text: Small
@@ -141,6 +161,9 @@ parameters:
   - id: marginBottom
     name: Margin Bottom
     type: select
+    guidance: >-
+      Control bottom margin to manage spacing between the grid and subsequent
+      page content.
     typeConfig:
       options:
         - text: Small
@@ -154,6 +177,9 @@ parameters:
   - id: marginTop
     name: Margin Top
     type: select
+    guidance: >-
+      Control top margin to manage spacing above the grid, especially useful
+      when placed after other components.
     typeConfig:
       options:
         - text: Small
@@ -200,5 +226,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:18.049539+00:00'
-updated: '2025-07-03T22:25:03.599397+00:00'
+created: '2024-01-15T09:26:43.876648+00:00'
+updated: '2025-07-31T08:47:40.126274+00:00'

@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: productInfo
 name: Product Info
 icon: >-
@@ -9,6 +8,9 @@ parameters:
   - id: product
     name: Product
     type: json
+    guidance: >-
+      Provide product data in JSON format including all necessary product
+      details like ID, name, price, and features.
     typeConfig: {}
   - id: group_content
     name: Content
@@ -27,11 +29,17 @@ parameters:
   - id: eyebrowText
     name: Eyebrow text
     type: text
+    guidance: >-
+      Use a short, attention-grabbing phrase to introduce the product. Keep it
+      under 30 characters and use sentence case.
     typeConfig: null
     localizable: true
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Write a clear, compelling product name or headline. Keep it under 60
+      characters and use sentence case.
     typeConfig:
       required: false
       multiline: true
@@ -40,15 +48,24 @@ parameters:
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
+    guidance: >-
+      Choose a title style that creates appropriate visual hierarchy and
+      emphasizes the product importance.
     typeConfig: null
   - id: subTitle
     name: Sub Title
     type: text
+    guidance: >-
+      Add a subtitle or secondary headline that provides additional product
+      context or category information.
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Provide a detailed product description. Use 2-3 sentences to explain
+      benefits, features, and what makes this product special.
     typeConfig:
       required: false
       multiline: true
@@ -57,11 +74,17 @@ parameters:
   - id: highlightText
     name: Highlight Text
     type: text
+    guidance: >-
+      Add any special text that should be highlighted, such as 'New', 'Best
+      Seller', or promotional messaging.
     typeConfig: null
     localizable: true
   - id: image
     name: Image
     type: asset
+    guidance: >-
+      Upload a high-quality product image that clearly shows the product and its
+      key features.
     typeConfig:
       max: 1
       min: 0
@@ -69,6 +92,9 @@ parameters:
   - id: features
     name: Features
     type: json
+    guidance: >-
+      List key product features in JSON array format. Use clear, benefit-focused
+      language for each feature.
     typeConfig:
       schema:
         type: array
@@ -86,20 +112,32 @@ parameters:
   - id: primaryButtonCopy
     name: Primary Button Copy
     type: text
+    guidance: >-
+      Write compelling copy for the primary call-to-action button. Use action
+      words like 'Buy now', 'Add to cart'.
     typeConfig: null
     localizable: true
   - id: primaryButtonStyle
     name: Primary Button Style
     type: tp-button-style-parameter
+    guidance: >-
+      Choose a button style that creates strong visual emphasis and encourages
+      user action.
     typeConfig: null
   - id: primaryButtonLink
     name: Primary Button Link
     type: link
+    guidance: >-
+      Link to the purchasing page, cart, or checkout process for the primary
+      product action.
     typeConfig: null
     localizable: true
   - id: primaryButtonAnimationType
     name: Primary Button Animation Type
     type: select
+    guidance: >-
+      Select an animation that draws attention to the primary call-to-action
+      without being overwhelming.
     typeConfig:
       options:
         - text: Fade-In
@@ -118,20 +156,32 @@ parameters:
   - id: secondaryButtonCopy
     name: Secondary Button Copy
     type: text
+    guidance: >-
+      Write copy for an optional secondary action like 'Learn more', 'View
+      details', or 'Compare'.
     typeConfig: null
     localizable: true
   - id: secondaryButtonStyle
     name: Secondary Button Style
     type: tp-button-style-parameter
+    guidance: >-
+      Choose a button style that creates clear visual hierarchy with the primary
+      button.
     typeConfig: null
   - id: secondaryButtonLink
     name: Secondary Button Link
     type: link
+    guidance: >-
+      Link to a secondary action like detailed product information or comparison
+      tools.
     typeConfig: null
     localizable: true
   - id: secondaryButtonAnimationType
     name: Secondary Button Animation Type
     type: select
+    guidance: >-
+      Select an animation for the secondary button that complements but doesn't
+      compete with the primary action.
     typeConfig:
       options:
         - text: Fade-In
@@ -150,6 +200,9 @@ parameters:
   - id: objectFit
     name: Object Fit
     type: select
+    guidance: >-
+      Choose how the product image should fit within its container for optimal
+      visual presentation.
     typeConfig:
       options:
         - text: Contain
@@ -163,10 +216,16 @@ parameters:
   - id: overlayColor
     name: Overlay Color
     type: tp-color-style-parameter
+    guidance: >-
+      Select an overlay color that enhances text readability while maintaining
+      product image visibility.
     typeConfig: null
   - id: overlayOpacity
     name: Overlay Opacity
     type: tp-slider-parameter
+    guidance: >-
+      Set overlay opacity to balance text readability with product image
+      clarity.
     typeConfig:
       step: 10
       type: steps
@@ -185,6 +244,9 @@ parameters:
   - id: fullHeight
     name: Full Height
     type: checkbox
+    guidance: >-
+      Enable full height to make the product info take up the entire viewport
+      for maximum impact.
     typeConfig: null
   - id: group_animationSettings
     name: Animation Settings
@@ -200,6 +262,9 @@ parameters:
   - id: animationType
     name: Animation Type
     type: select
+    guidance: >-
+      Select an animation type that enhances the product presentation without
+      overwhelming the content.
     typeConfig:
       options:
         - text: Fade-In
@@ -209,6 +274,9 @@ parameters:
   - id: duration
     name: Duration
     type: select
+    guidance: >-
+      Choose animation duration that feels natural and doesn't interfere with
+      product browsing experience.
     typeConfig:
       options:
         - text: Slow
@@ -220,6 +288,9 @@ parameters:
   - id: delay
     name: Delay
     type: select
+    guidance: >-
+      Set animation delay to create visual interest when the product information
+      appears.
     typeConfig:
       options:
         - text: None
@@ -233,6 +304,9 @@ parameters:
   - id: animationOrder
     name: Animation Order
     type: select
+    guidance: >-
+      Choose whether product elements animate together or sequentially for the
+      best presentation impact.
     typeConfig:
       options:
         - text: All at once (default)
@@ -242,6 +316,9 @@ parameters:
   - id: animationPreview
     name: Animation Preview
     type: tp-play-animation-parameter
+    guidance: >-
+      Use this preview function to test how your product animations will look
+      before publishing.
     typeConfig: null
 categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
 description: >-
@@ -254,5 +331,5 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:27.195363+00:00'
-updated: '2025-07-03T22:25:35.741621+00:00'
+created: '2024-01-15T09:26:44.545363+00:00'
+updated: '2025-07-31T08:49:03.129867+00:00'

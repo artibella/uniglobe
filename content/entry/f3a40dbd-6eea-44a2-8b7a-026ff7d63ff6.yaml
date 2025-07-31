@@ -1,0 +1,26 @@
+created: '2025-07-22T12:43:30.421668+00:00'
+modified: '2025-07-22T12:46:27.480764+00:00'
+pattern: false
+entry:
+  _id: f3a40dbd-6eea-44a2-8b7a-026ff7d63ff6
+  _name: Connecting the World, Respecting the Planet.
+  _slug: connecting-the-world-respecting-the-planet
+  type: microcopy
+  fields:
+    key:
+      type: text
+      value: brand.slogan
+    value:
+      type: text
+      locales:
+        de-DE: Die Welt verbinden, den Planeten schätzen.
+        en-US: Connecting the World, Respecting the Planet.
+    status:
+      type: select
+      value: approved
+    category:
+      type: select
+      value: brand
+  _locales:
+    - en-US
+    - de-DE

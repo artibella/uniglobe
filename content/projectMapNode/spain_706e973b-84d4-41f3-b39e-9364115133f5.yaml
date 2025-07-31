@@ -1,9 +1,0 @@
-id: 706e973b-84d4-41f3-b39e-9364115133f5
-name: Spain
-order: 600
-path: /:locale/destinations/europe/spain
-type: composition
-pathSegment: spain
-data: {}
-compositionId: ef57474a-f1ea-4ca4-9c6b-ed1be8dbd792
-projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

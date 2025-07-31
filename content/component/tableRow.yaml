@@ -7,8 +7,15 @@ parameters:
   - id: highlightsOnHover
     name: Highlights on hover
     type: checkbox
+    guidance: >-
+      Enable hover highlighting to improve table usability by making it easier
+      for users to track data across rows.
     typeConfig: null
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  A horizontal row within a table structure that contains data or header cells.
+  Use to organize tabular information with optional hover effects for better
+  usability.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Table_row_preview_image
 useTeamPermissions: true
@@ -24,4 +31,4 @@ slots:
     patternsInAllowedComponents: false
 canBeComposition: false
 created: '2024-01-15T09:26:45.56951+00:00'
-updated: '2024-01-15T09:26:45.56951+00:00'
+updated: '2025-07-31T08:25:27.720574+00:00'

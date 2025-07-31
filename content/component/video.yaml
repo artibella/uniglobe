@@ -7,6 +7,9 @@ parameters:
   - id: videoAsset
     name: Video Asset
     type: asset
+    guidance: >-
+      Upload a video file directly to Uniform. Use optimized formats and
+      consider file size for faster loading times.
     typeConfig:
       max: 1
       allowedTypes:
@@ -16,6 +19,9 @@ parameters:
   - id: url
     name: Video Url
     type: link
+    guidance: >-
+      Enter the URL for external video platforms like Vimeo or YouTube. Ensure
+      the video is publicly accessible and properly configured.
     helpText: For external video players such as Vimeo
     typeConfig:
       linkTypes:
@@ -26,6 +32,9 @@ parameters:
   - id: placeholderImage
     name: Placeholder Image
     type: asset
+    guidance: >-
+      Upload a custom thumbnail image that represents your video content and
+      encourages viewers to play the video.
     helpText: >-
       You can replace video preview image by using this parameter. Work only
       when light is checked
@@ -47,6 +56,9 @@ parameters:
   - id: lazyLoad
     name: Lazy Load
     type: checkbox
+    guidance: >-
+      Enable lazy loading to show only the video thumbnail initially, which
+      improves page load speed and reduces bandwidth usage.
     helpText: >-
       Check to show just the video thumbnail, which loads the full player on
       click
@@ -54,11 +66,17 @@ parameters:
   - id: loop
     name: Loop
     type: checkbox
+    guidance: >-
+      Enable looping to automatically restart the video when it reaches the end.
+      Use sparingly to avoid annoying users.
     helpText: Check or unchek to loop the media
     typeConfig: null
   - id: controls
     name: Controls
     type: checkbox
+    guidance: >-
+      Enable or disable video player controls. Hiding controls creates a cleaner
+      look but may reduce user control.
     helpText: >-
       Check or uncheck to display native player controls.  For Vimeo videos,
       hiding controls must be enabled by the video owner.
@@ -66,13 +84,20 @@ parameters:
   - id: muted
     name: Muted
     type: checkbox
+    guidance: >-
+      Mute the video by default to comply with autoplay policies and provide a
+      better user experience.
     helpText: Mutes the player
     typeConfig: null
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  Displays video content with customizable playback controls and settings. Use
+  for product demos, tutorials, promotional content, or any multimedia that
+  enhances the user experience.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Video_preview_image
 useTeamPermissions: true
 slots: []
 canBeComposition: false
 created: '2024-01-15T09:26:45.70946+00:00'
-updated: '2024-12-05T09:48:30.530199+00:00'
+updated: '2025-07-31T08:25:06.144051+00:00'

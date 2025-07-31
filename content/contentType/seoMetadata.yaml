@@ -1,7 +1,7 @@
 id: seoMetadata
 name: SEO metadata
-created: '2025-07-03T19:08:50.69563+00:00'
-updated: '2025-07-03T19:24:16.840522+00:00'
+created: '2025-04-28T14:39:38.821234+00:00'
+updated: '2025-07-31T08:19:26.353063+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
@@ -57,7 +57,9 @@ fields:
     localizable: true
 entryName: metaTitle
 thumbnailField: openGraphImage
-description: ''
+description: >-
+  SEO metadata including meta titles, descriptions, and Open Graph information
+  for optimizing page visibility in search engines and social media sharing.
 icon: search
 type: block
 permissions: []

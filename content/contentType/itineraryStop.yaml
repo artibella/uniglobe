@@ -1,7 +1,7 @@
 id: itineraryStop
 name: Itinerary Stop
 created: '2025-04-04T08:53:06.066208+00:00'
-updated: '2025-04-04T09:54:44.543129+00:00'
+updated: '2025-07-31T08:16:43.296125+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
@@ -18,6 +18,9 @@ fields:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Enter a clear, descriptive name for this itinerary stop that travelers
+      will see in their schedule.
     helpText: Name of this stop or activity as it will appear to travelers.
     typeConfig:
       required: true
@@ -25,6 +28,9 @@ fields:
   - id: type
     name: Type
     type: contentReference
+    guidance: >-
+      Select the activity type that best categorizes this stop for traveler
+      understanding and trip organization.
     helpText: >-
       Choose the activity type that best describes this stop for traveler
       understanding and filtering.
@@ -35,6 +41,9 @@ fields:
   - id: description
     name: Description
     type: richText
+    guidance: >-
+      Provide comprehensive details about what travelers will experience at this
+      stop including activities and highlights.
     helpText: >-
       Detailed information about what travelers will see, do, or experience at
       this stop.
@@ -73,6 +82,9 @@ fields:
   - id: image
     name: Image
     type: asset
+    guidance: >-
+      Choose an appealing image that represents this stop and gives travelers a
+      preview of the experience.
     helpText: Visual representation of this stop to display in the itinerary.
     typeConfig:
       max: 1
@@ -82,6 +94,9 @@ fields:
   - id: notes
     name: Notes
     type: richText
+    guidance: >-
+      Add any additional notes, tips, or special information that travelers
+      should know about this stop.
     typeConfig:
       elements:
         builtIn:
@@ -125,12 +140,18 @@ fields:
   - id: duration
     name: Duration
     type: text
+    guidance: >-
+      Specify how long this stop typically takes so travelers can plan their
+      time accordingly.
     helpText: How long this stop typically takes (e.g., '2 hours', '45 minutes').
     typeConfig: null
     localizable: true
   - id: timeOfDay
     name: Time of Day
     type: multi-select
+    guidance: >-
+      Select when during the day this activity takes place to help with
+      scheduling and expectations.
     helpText: When this activity takes place during the day.
     typeConfig:
       options:
@@ -154,18 +175,27 @@ fields:
   - id: startLocation
     name: Start location
     type: text
+    guidance: >-
+      Enter where this activity begins, especially important for meeting points
+      and logistics.
     helpText: Where this activity begins, especially important for transport or tours.
     typeConfig: null
     localizable: true
   - id: endLocation
     name: End location
     type: text
+    guidance: >-
+      Enter where this activity concludes if different from the starting
+      location.
     helpText: '"Where this activity ends, if different from the starting point.'
     typeConfig: null
     localizable: true
   - id: distance
     name: Distance
     type: text
+    guidance: >-
+      Specify the distance covered during this stop for traveler planning and
+      preparation.
     helpText: Distance covered during transport or tour.
     typeConfig: null
     localizable: true
@@ -180,6 +210,9 @@ fields:
   - id: highlights
     name: Highlights
     type: richText
+    guidance: >-
+      List the key highlights and special features of this stop that travelers
+      should not miss.
     helpText: Key points or special features of this stop to emphasize to travelers.
     typeConfig:
       elements:
@@ -216,6 +249,9 @@ fields:
   - id: attractions
     name: Attractions
     type: contentReference
+    guidance: >-
+      Reference specific attractions that are visited or can be seen during this
+      itinerary stop.
     typeConfig:
       isMulti: true
       allowedContentTypes:
@@ -231,6 +267,9 @@ fields:
   - id: includedMeals
     name: Included meals
     type: multi-select
+    guidance: >-
+      Select which meals are included as part of this stop for planning and
+      expectation setting.
     helpText: Meals that are included as part of this stop.
     typeConfig:
       options:
@@ -245,6 +284,9 @@ fields:
   - id: mealNotes
     name: Meal notes
     type: text
+    guidance: >-
+      Provide details about included meals such as dietary options, restaurant
+      information, or meal style.
     helpText: Additional details about included meals, dietary options, etc.
     typeConfig: null
     localizable: true
@@ -260,6 +302,9 @@ fields:
   - id: priceStatus
     name: Price status
     type: select
+    guidance: >-
+      Indicate whether this activity is included in the trip price or requires
+      additional payment.
     helpText: Specify how this activity is priced for travelers
     typeConfig:
       options:
@@ -272,11 +317,17 @@ fields:
   - id: isOptional
     name: Optional Activity
     type: checkbox
+    guidance: >-
+      Check if travelers can choose to skip this activity without affecting the
+      rest of their itinerary.
     helpText: Indicates whether travelers can choose to skip this activity.
     typeConfig: null
   - id: costAmount
     name: Cost Amount
     type: $block
+    guidance: >-
+      Enter the additional cost for this activity if it's not included in the
+      base trip price.
     helpText: Amount travelers will pay for this activity if not included in base price.
     typeConfig:
       allowedTypes:
@@ -284,6 +335,9 @@ fields:
   - id: itineraryStops
     name: Itinerary Stops
     type: $block
+    guidance: >-
+      Add sub-activities or detailed stops that occur within this main itinerary
+      stop.
     helpText: Add detailed stops that occur within this main stop.
     typeConfig:
       allowedTypes:

@@ -9,6 +9,25 @@ asset:
     description:
       type: text
       value: 'Copyright: Timo Volz, Unsplash'
+    file:
+      type: file
+      value: f115df05-0faf-4117-b128-7231d50e4748
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/wCOB4sNvQ52vnbx-Yr5NiQ-photo-1550303435-1703d8811aaa
+      type: text
+    size:
+      value: 1251990
+      type: number
+    width:
+      value: 3000
+      type: number
+    height:
+      value: 2000
+      type: number
     custom: {}
-created: '2025-01-30T15:35:46.367302+00:00'
-modified: '2025-07-23T09:30:48.7197+00:00'
+created: '2024-10-11T12:11:37.578401+00:00'
+modified: '2024-10-11T12:44:10.680805+00:00'

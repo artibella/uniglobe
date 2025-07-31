@@ -1,5 +1,5 @@
 created: '2024-08-21T13:38:41.298934+00:00'
-modified: '2025-03-27T11:13:00.196993+00:00'
+modified: '2025-07-25T10:16:38.207845+00:00'
 pattern: false
 entry:
   _id: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
@@ -86,17 +86,57 @@ entry:
           type: asset
           locales:
             en-US:
-              - _id: b863f1cc-efe4-4839-a1c6-7e906d62568f
+              - _id: 4e3e39a6-8aeb-47d2-9056-8cf2895092c9
                 type: image
                 fields:
                   url:
                     type: text
                     value: >-
-                      https://images.unsplash.com/photo-1551801319-ca06060f3fcc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                      https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=85
                   title:
                     type: text
-                    value: 'Copyright: Bjorn Snelders, Unsplash'
-                _source: custom-url
+                    value: Summer in Venice
+                  width:
+                    type: number
+                    value: 3872
+                  custom:
+                    type: object
+                    value:
+                      color: '#0c8cc0'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/venice-grand-canal-italy-1naE8177_bI
+                      blurHash: LVEyoU^K#6s-%jw[skaeFhfNocn~
+                      sourceId: 1naE8177_bI
+                      createdAt: '2018-03-04T14:58:47Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/venice-grand-canal-italy-1naE8177_bI
+                      updatedAt: '2025-07-23T09:20:06Z'
+                      authorName: Dan Novac
+                      downloadUrl: >-
+                        https://unsplash.com/photos/1naE8177_bI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: dnovac
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@dnovac
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/1naE8177_bI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-fb-1515664185-7aa1ce376182.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 2592
+                  description:
+                    type: text
+                    value: Photo by Dan Novac on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
         timeToVisit:
           type: richText
           locales:

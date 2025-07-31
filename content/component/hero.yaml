@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: hero
 name: Hero
 icon: >-
@@ -59,8 +58,8 @@ parameters:
     name: Image
     type: asset
     guidance: >-
-      Choose a high-quality, relevant image that visually supports the hero’s
-      message. Avoid images with too much text or distracting elements.
+      Add a video URL for background or feature videos. Use engaging,
+      high-quality videos that support your message and load quickly.
     typeConfig:
       max: 1
       min: 0
@@ -100,10 +99,16 @@ parameters:
   - id: primaryButtonStyle
     name: Primary Button Style
     type: tp-button-style-parameter
+    guidance: >-
+      Write compelling copy for the secondary call-to-action button. Use action
+      words and keep it under 20 characters for best results.
     typeConfig: null
   - id: primaryButtonAnimationType
     name: Primary Button Animation Type
     type: select
+    guidance: >-
+      Link to the page or action for your secondary call-to-action. This should
+      complement, not compete with, your primary CTA.
     typeConfig:
       options:
         - text: Fade-In
@@ -113,6 +118,9 @@ parameters:
   - id: group_secondaryCta
     name: Secondary CTA
     type: group
+    guidance: >-
+      Choose a button style that creates visual hierarchy with your primary
+      button while remaining accessible.
     typeConfig:
       childrenParams:
         - secondaryButtonCopy
@@ -122,6 +130,9 @@ parameters:
   - id: secondaryButtonCopy
     name: Secondary Button Copy
     type: text
+    guidance: >-
+      Select an animation that enhances the user experience without being
+      distracting or slowing down interaction.
     typeConfig: null
     localizable: true
   - id: secondaryButtonLink
@@ -131,10 +142,16 @@ parameters:
   - id: secondaryButtonStyle
     name: Secondary Button Style
     type: tp-button-style-parameter
+    guidance: >-
+      Choose how images should fit within the hero container to maintain visual
+      impact and load performance.
     typeConfig: null
   - id: secondaryButtonAnimationType
     name: Secondary Button Animation Type
     type: select
+    guidance: >-
+      Select an overlay color that ensures text readability while maintaining
+      the visual impact of your hero image.
     typeConfig:
       options:
         - text: Fade-In
@@ -144,6 +161,9 @@ parameters:
   - id: group_imageSettings
     name: Image Settings
     type: group
+    guidance: >-
+      Set overlay opacity to balance text readability with image visibility.
+      Test across different devices and screen sizes.
     typeConfig:
       collapsed: true
       childrenParams:
@@ -166,10 +186,16 @@ parameters:
   - id: overlayColor
     name: Overlay Color
     type: tp-color-style-parameter
+    guidance: >-
+      Enable full height to make the hero take up the entire viewport, pushing
+      other content below the fold.
     typeConfig: null
   - id: overlayOpacity
     name: Overlay Opacity
     type: tp-slider-parameter
+    guidance: >-
+      Choose the text color variant that provides the best contrast and
+      readability against your background.
     typeConfig:
       step: 10
       type: steps
@@ -181,6 +207,9 @@ parameters:
   - id: group_presentationSettings
     name: Presentation Settings
     type: group
+    guidance: >-
+      Select how the background should be contained within the hero section for
+      optimal visual presentation.
     typeConfig:
       collapsed: true
       childrenParams:
@@ -195,11 +224,17 @@ parameters:
   - id: fullHeight
     name: Full Height
     type: checkbox
+    guidance: >-
+      Choose the type of background (image, color, gradient) that best supports
+      your hero content and brand.
     helpText: If enabled, other components will appear below the fold
     typeConfig: null
   - id: textColorVariant
     name: Text Color Variant
     type: select
+    guidance: >-
+      Set top padding to control spacing above hero content and maintain visual
+      hierarchy.
     typeConfig:
       options:
         - text: Dark
@@ -209,6 +244,9 @@ parameters:
   - id: containerVariant
     name: Container Variant
     type: select
+    guidance: >-
+      Set bottom padding to control spacing below hero content and separate it
+      from following sections.
     typeConfig:
       options:
         - text: Background In Container
@@ -218,10 +256,16 @@ parameters:
   - id: backgroundType
     name: Background Type
     type: tp-background-type-parameter
+    guidance: >-
+      Control bottom margin to manage spacing between the hero and subsequent
+      page content.
     typeConfig: null
   - id: paddingTop
     name: Padding Top
     type: select
+    guidance: >-
+      Control top margin to manage spacing above the hero section, especially
+      useful when placed after other components.
     typeConfig:
       options:
         - text: Small
@@ -248,6 +292,9 @@ parameters:
   - id: marginBottom
     name: Margin Bottom
     type: select
+    guidance: >-
+      Select an animation type that fits your brand personality and enhances the
+      user experience without being overwhelming.
     typeConfig:
       options:
         - text: Small
@@ -261,6 +308,9 @@ parameters:
   - id: marginTop
     name: Margin Top
     type: select
+    guidance: >-
+      Choose animation duration that feels natural and doesn't interfere with
+      user interaction or page load experience.
     typeConfig:
       options:
         - text: Small
@@ -274,6 +324,9 @@ parameters:
   - id: group_animationSettings
     name: Animation Settings
     type: group
+    guidance: >-
+      Set animation delay to create visual interest and control when the hero
+      appears relative to other page elements.
     typeConfig:
       collapsed: true
       childrenParams:
@@ -285,6 +338,9 @@ parameters:
   - id: animationType
     name: Animation Type
     type: select
+    guidance: >-
+      Choose whether hero elements animate together or sequentially for the best
+      visual impact and user experience.
     typeConfig:
       options:
         - text: Fade-In
@@ -294,6 +350,9 @@ parameters:
   - id: duration
     name: Duration
     type: select
+    guidance: >-
+      Use this preview function to test how your animations will look before
+      publishing to ensure they meet your expectations.
     typeConfig:
       options:
         - text: Slow
@@ -329,14 +388,18 @@ parameters:
     type: tp-play-animation-parameter
     typeConfig: null
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+description: >-
+  Large, prominent section typically used at the top of pages to grab attention
+  with compelling headlines, imagery, and call-to-action buttons. Use to
+  communicate your main value proposition and encourage user engagement.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Hero_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:19.350852+00:00'
-updated: '2025-07-03T20:01:01.674083+00:00'
+created: '2024-01-15T09:26:43.56116+00:00'
+updated: '2025-07-31T08:24:46.370909+00:00'
 variants:
   - id: imageLeft
     name: Image Left

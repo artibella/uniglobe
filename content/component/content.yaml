@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: content
 name: Content
 icon: >-
@@ -18,10 +17,16 @@ parameters:
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
+    guidance: >-
+      Choose a title style that creates appropriate visual hierarchy and matches
+      your content's importance level.
     typeConfig: null
   - id: link
     name: Link
     type: link
+    guidance: >-
+      Optionally link the title to a relevant page or section for additional
+      navigation options.
     typeConfig: null
     localizable: true
   - id: text
@@ -37,6 +42,9 @@ parameters:
   - id: content
     name: Content
     type: json
+    guidance: >-
+      Add structured content data in JSON format for advanced content management
+      and integration purposes.
     typeConfig: {}
     localizable: true
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
@@ -50,5 +58,5 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:15.506677+00:00'
-updated: '2025-07-03T22:21:15.75482+00:00'
+created: '2024-01-15T09:26:43.38324+00:00'
+updated: '2025-07-31T08:46:53.53146+00:00'

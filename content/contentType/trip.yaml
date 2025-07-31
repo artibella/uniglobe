@@ -1,19 +1,24 @@
 id: trip
 name: Trip
-created: '2025-01-30T15:36:38.369999+00:00'
-updated: '2025-07-23T09:31:14.693168+00:00'
-slugSettings:
-  required: 'no'
+created: '2025-01-28T10:50:10.825326+00:00'
+updated: '2025-07-31T08:16:19.842779+00:00'
+slugSettings: {}
 useTeamPermissions: true
 fields:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Enter a compelling title for this trip that captures the essence and
+      appeal of the travel experience.
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: richText
+    guidance: >-
+      Provide a detailed description of the trip including highlights,
+      experiences, and what makes this journey special.
     typeConfig:
       elements:
         builtIn:
@@ -49,6 +54,9 @@ fields:
   - id: image
     name: Image
     type: asset
+    guidance: >-
+      Select a stunning main image that represents this trip and will attract
+      potential travelers.
     typeConfig:
       max: 1
       allowedTypes:
@@ -57,6 +65,9 @@ fields:
   - id: media
     name: Media
     type: asset
+    guidance: >-
+      Add photos and videos that showcase the destinations, activities, and
+      experiences included in this trip.
     typeConfig:
       allowedTypes:
         - image
@@ -65,21 +76,33 @@ fields:
   - id: duration
     name: Duration
     type: text
+    guidance: >-
+      Specify the total duration of the trip (e.g., '7 days', '2 weeks') for
+      planning purposes.
     typeConfig: null
     localizable: true
   - id: startLocation
     name: Start location
     type: text
+    guidance: >-
+      Enter the city or location where this trip begins for travelers' planning
+      and logistics.
     typeConfig: null
     localizable: true
   - id: endLocation
     name: End location
     type: text
+    guidance: >-
+      Enter the city or location where this trip concludes, which may be
+      different from the start location.
     typeConfig: null
     localizable: true
   - id: regions
     name: Regions
     type: contentReference
+    guidance: >-
+      Select the geographic regions this trip covers to help with categorization
+      and filtering.
     typeConfig:
       isMulti: true
       allowedContentTypes:
@@ -87,6 +110,9 @@ fields:
   - id: countries
     name: Countries
     type: contentReference
+    guidance: >-
+      Select the countries included in this trip itinerary for geographic
+      reference and planning.
     typeConfig:
       isMulti: true
       allowedContentTypes:
@@ -94,6 +120,9 @@ fields:
   - id: attractions
     name: Main attractions
     type: contentReference
+    guidance: >-
+      Choose the key attractions and highlights that are featured prominently in
+      this trip.
     helpText: Which attractions are the highlights of the trip
     typeConfig:
       isMulti: true
@@ -102,17 +131,26 @@ fields:
   - id: ageRange
     name: Age range
     type: text
+    guidance: >-
+      Specify the recommended age range or age restrictions for this trip (e.g.,
+      'All ages', '18+', 'Family-friendly').
     typeConfig: null
     localizable: true
   - id: itinerary
     name: Itinerary
     type: $block
+    guidance: >-
+      Build the detailed day-by-day itinerary with stops, activities, and
+      experiences for this trip.
     typeConfig:
       allowedTypes:
         - itineraryStop
   - id: enrichments
     name: Enrichments
     type: $enr
+    guidance: >-
+      Tag this trip with relevant enrichments for personalization and helping
+      travelers find suitable experiences.
     typeConfig: null
 entryName: title
 thumbnailField: image

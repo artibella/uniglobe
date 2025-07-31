@@ -1,25 +1,33 @@
 id: attraction
 name: Attraction
-created: '2025-01-30T15:36:38.297323+00:00'
-updated: '2025-07-23T09:31:13.583771+00:00'
-slugSettings:
-  required: 'no'
+created: '2024-11-25T12:44:23.972203+00:00'
+updated: '2025-07-31T08:19:14.546033+00:00'
+slugSettings: {}
 useTeamPermissions: true
 fields:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Enter the official or commonly known name of this attraction as travelers
+      would recognize it.
     typeConfig: null
     localizable: true
   - id: image
     name: Image
     type: asset
+    guidance: >-
+      Select a high-quality image that best represents this attraction and will
+      appeal to potential visitors.
     typeConfig:
       max: 1
     localizable: true
   - id: description
     name: Description
     type: richText
+    guidance: >-
+      Provide comprehensive information about the attraction including what
+      visitors can see, do, and experience there.
     typeConfig:
       elements:
         builtIn:
@@ -50,7 +58,9 @@ fields:
     localizable: true
 entryName: title
 thumbnailField: image
-description: ''
+description: >-
+  Tourist attractions, landmarks, and points of interest that travelers can
+  visit and experience during their journeys.
 icon: flag-alt
 type: contentType
 permissions:

@@ -1,5 +1,5 @@
 asset:
-  type: other
+  type: video
   _id: 1813675e-3f84-4929-9543-d2961f500c44
   _name: ''
   fields:
@@ -7,5 +7,5 @@ asset:
       type: text
       value: turtle.mp4
     custom: {}
-created: '2025-07-07T08:11:50.101148+00:00'
-modified: '2025-07-23T09:30:48.509171+00:00'
+created: '2025-01-24T09:59:32.031283+00:00'
+modified: '2025-07-03T22:45:46.216938+00:00'

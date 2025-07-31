@@ -1,7 +1,7 @@
 id: currency
 name: Currency
-created: '2025-07-03T19:08:49.21182+00:00'
-updated: '2025-07-03T19:26:24.925707+00:00'
+created: '2024-01-18T12:26:35.098711+00:00'
+updated: '2025-07-31T08:19:18.263833+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -23,11 +23,16 @@ fields:
   - id: symbol
     name: Symbol
     type: text
+    guidance: >-
+      Enter the currency symbol (e.g., $, €, £, ¥) that represents this
+      currency.
     helpText: ''
     typeConfig: null
     localizable: false
 entryName: name
-description: ''
+description: >-
+  Currency information including names, codes, and symbols used for pricing and
+  payment displays across the travel platform.
 icon: dollar
 type: block
 permissions: []

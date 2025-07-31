@@ -1,23 +1,32 @@
 id: activityType
 name: Activity Type
-created: '2025-07-03T19:08:46.360714+00:00'
-updated: '2025-07-03T19:08:46.360714+00:00'
+created: '2025-04-04T09:02:23.473553+00:00'
+updated: '2025-07-31T08:19:13.279497+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Enter a clear, descriptive name for this activity type that travelers will
+      easily understand.
     typeConfig: null
     localizable: true
   - id: teaserText
     name: Teaser Text
     type: text
+    guidance: >-
+      Write a brief, engaging description that gives travelers a quick overview
+      of what this activity involves.
     typeConfig: null
     localizable: true
   - id: description
     name: Description
     type: richText
+    guidance: >-
+      Provide detailed information about this activity type, including what
+      travelers can expect and any important details.
     typeConfig:
       elements:
         builtIn:
@@ -51,6 +60,9 @@ fields:
   - id: icon
     name: Icon
     type: asset
+    guidance: >-
+      Select a simple, recognizable icon that visually represents this activity
+      type for easy identification.
     typeConfig:
       max: 1
       allowedTypes:
@@ -59,6 +71,9 @@ fields:
   - id: featuredImage
     name: Featured Image
     type: asset
+    guidance: >-
+      Choose an appealing image that showcases this activity type and will
+      attract travelers' interest.
     typeConfig:
       max: 1
       allowedTypes:
@@ -66,7 +81,9 @@ fields:
     localizable: true
 entryName: title
 thumbnailField: icon
-description: ''
+description: >-
+  Categories of activities and experiences that travelers can participate in
+  during their trips, used for organizing and filtering travel content.
 icon: tag
 type: contentType
 permissions: []

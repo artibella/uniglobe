@@ -7,9 +7,15 @@ parameters:
   - id: value
     name: Value
     type: text
+    guidance: >-
+      Enter the data or content for this table cell. Keep it concise and
+      formatted appropriately for tabular display.
     typeConfig: null
     localizable: true
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: >-
+  A single data cell within a table row. Use to display individual pieces of
+  information in structured tabular layouts.
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Table_data_cell_preview_image
 useTeamPermissions: true
@@ -17,4 +23,4 @@ slots: []
 titleParameter: value
 canBeComposition: false
 created: '2024-01-15T09:26:45.560661+00:00'
-updated: '2024-01-15T15:03:14.128964+00:00'
+updated: '2025-07-31T08:25:25.287573+00:00'

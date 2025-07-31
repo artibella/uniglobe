@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: imageGallery
 name: Image Gallery
 icon: ui-kit
@@ -8,16 +7,25 @@ parameters:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Add a clear, descriptive title for the image gallery section. Keep it
+      under 40 characters and use sentence case.
     helpText: Section title
     typeConfig: null
     localizable: true
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
+    guidance: >-
+      Choose a title style that creates appropriate visual hierarchy and matches
+      your gallery's importance.
     typeConfig: null
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Write a brief description or caption for the image gallery. Provide
+      context about what the images show.
     typeConfig:
       multiline: true
       linesCount: '10'
@@ -25,12 +33,18 @@ parameters:
   - id: items
     name: Items
     type: asset
+    guidance: >-
+      Select multiple images to display in the gallery. Use high-quality,
+      consistently sized images for best results.
     typeConfig:
       min: 0
     localizable: true
   - id: maxItems
     name: Max Items
     type: number
+    guidance: >-
+      Limit the number of images shown initially. Users can view more through
+      navigation or expand options.
     typeConfig:
       max: '100'
       min: '1'
@@ -47,10 +61,16 @@ parameters:
   - id: backgroundType
     name: Background Type
     type: tp-background-type-parameter
+    guidance: >-
+      Choose the type of background that best supports your gallery content and
+      overall page design.
     typeConfig: null
   - id: paddingTop
     name: Padding Top
     type: select
+    guidance: >-
+      Set top padding to control spacing above gallery content and maintain
+      visual hierarchy.
     typeConfig:
       options:
         - text: Small
@@ -64,6 +84,9 @@ parameters:
   - id: paddingBottom
     name: Padding Bottom
     type: select
+    guidance: >-
+      Set bottom padding to control spacing below gallery content and separate
+      it from following sections.
     typeConfig:
       options:
         - text: Small
@@ -77,6 +100,9 @@ parameters:
   - id: marginTop
     name: Margin Top
     type: select
+    guidance: >-
+      Control top margin to manage spacing above the gallery, especially when
+      placed after other components.
     typeConfig:
       options:
         - text: Small
@@ -90,6 +116,9 @@ parameters:
   - id: marginBottom
     name: Margin Bottom
     type: select
+    guidance: >-
+      Control bottom margin to manage spacing between the gallery and subsequent
+      page content.
     typeConfig:
       options:
         - text: Small
@@ -114,6 +143,9 @@ parameters:
   - id: animationType
     name: Animation Type
     type: select
+    guidance: >-
+      Select an animation type that enhances the gallery appearance without
+      overwhelming the images.
     typeConfig:
       options:
         - text: Fade-In
@@ -123,6 +155,9 @@ parameters:
   - id: duration
     name: Duration
     type: select
+    guidance: >-
+      Choose animation duration that feels natural and doesn't interfere with
+      image viewing.
     typeConfig:
       options:
         - text: Slow
@@ -134,6 +169,9 @@ parameters:
   - id: delay
     name: Delay
     type: select
+    guidance: >-
+      Set animation delay to create visual interest when the gallery appears on
+      the page.
     typeConfig:
       options:
         - text: None
@@ -147,6 +185,9 @@ parameters:
   - id: animationOrder
     name: Animation Order
     type: select
+    guidance: >-
+      Choose whether gallery images animate together or sequentially for the
+      best visual impact.
     typeConfig:
       options:
         - text: All at once (default)
@@ -156,6 +197,9 @@ parameters:
   - id: animationPreview
     name: Animation Preview
     type: tp-play-animation-parameter
+    guidance: >-
+      Use this preview function to test how your gallery animations will look
+      before publishing.
     typeConfig: null
 categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
 description: >-
@@ -177,8 +221,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:21.973388+00:00'
-updated: '2025-07-03T22:24:58.497149+00:00'
+created: '2024-01-15T09:26:44.353488+00:00'
+updated: '2025-07-31T08:48:23.633304+00:00'
 variants:
   - id: backgroundInContainer
     name: Background In Container

@@ -203,6 +203,185 @@ composition:
                             value: Photo by Luca Bravo on Unsplash
                         _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
                     en-US:
+                      - _id: 5d2f78df-1e5b-4e90-bd9a-8e9437f3013b
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1529386452117-0eac170f6cd0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMGh1dHxlbnwwfHx8fDE3NTM5NTIyMDR8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: Hut
+                          width:
+                            type: number
+                            value: 4090
+                          custom:
+                            type: object
+                            value:
+                              color: '#f3f3f3'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/brown-wooden-cottage-beside-green-leafed-trees-9TcELbRYuLs
+                              blurHash: LSJayFITE1WB4-t7t7V@00ogazWB
+                              sourceId: 9TcELbRYuLs
+                              createdAt: '2018-06-19T05:35:06Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/brown-wooden-cottage-beside-green-leafed-trees-9TcELbRYuLs
+                              updatedAt: '2025-07-31T04:52:55Z'
+                              authorName: Roxanne De La Peña
+                              downloadUrl: >-
+                                https://unsplash.com/photos/9TcELbRYuLs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMGh1dHxlbnwwfHx8fDE3NTM5NTIyMDR8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1529386452117-0eac170f6cd0?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMGh1dHxlbnwwfHx8fDE3NTM5NTIyMDR8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1529386452117-0eac170f6cd0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMGh1dHxlbnwwfHx8fDE3NTM5NTIyMDR8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1529386452117-0eac170f6cd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMGh1dHxlbnwwfHx8fDE3NTM5NTIyMDR8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1529386452117-0eac170f6cd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMGh1dHxlbnwwfHx8fDE3NTM5NTIyMDR8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: roxannedlp
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1529386452117-0eac170f6cd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMGh1dHxlbnwwfHx8fDE3NTM5NTIyMDR8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@roxannedlp
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/9TcELbRYuLs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMGh1dHxlbnwwfHx8fDE3NTM5NTIyMDR8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1517448510818-b111755ee68d?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 2732
+                          description:
+                            type: text
+                            value: Photo by Roxanne De La Peña on Unsplash
+                        _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                title:
+                  type: text
+                  locales:
+                    de-DE: Deine Reise, deine Erlebnise
+                    en-US: Affordable adventures, unforgettable memories.
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    dim: budgetTraveler
+                    name: Budget Traveler
+                objectFit:
+                  type: select
+                  value: cover
+                paddingTop:
+                  type: select
+                  value: None
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    de-DE: >-
+                      Discover personalized travel solutions crafted by industry
+                      experts with over 25 years of global experience
+                    en-US: >-
+                      Explore the world on a budget—unique trips, expert tips,
+                      and unbeatable value for every traveler.
+                eyebrowText:
+                  type: text
+                  locales:
+                    de-DE: Exceptional Travel Experiences
+                    en-US: Travel more, spend less.
+                overlayColor:
+                  type: tp-color-style-parameter
+                  value: base-300
+                paddingBottom:
+                  type: select
+                  value: None
+                backgroundType:
+                  type: tp-background-type-parameter
+                  value: Light
+                overlayOpacity:
+                  type: tp-slider-parameter
+                  value: 30%
+                containerVariant:
+                  type: select
+                  value: fluidContent
+                textColorVariant:
+                  type: select
+                  value: Light
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    de-DE: Browse THE Destinations
+                    en-US: See Budget Trips
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/destinations
+                    type: projectMapNode
+                    nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: primary
+            - _id: 565c8e11-088c-4616-a955-9a515814991d
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    de-DE:
+                      - _id: 7f09a9b7-43da-4f24-b690-fe2708b4775f
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=85
+                          title:
+                            type: text
+                            value: On a boat on Lago di Braies
+                          width:
+                            type: number
+                            value: 4896
+                          custom:
+                            type: object
+                            value:
+                              color: '#262626'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/brown-wooden-boat-moving-towards-the-mountain-O453M2Liufs
+                              blurHash: LmG921WAE1Rj_4V@RPRj-;WBj@Rj
+                              sourceId: O453M2Liufs
+                              createdAt: '2016-10-15T06:59:06Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/brown-wooden-boat-moving-towards-the-mountain-O453M2Liufs
+                              updatedAt: '2025-04-07T09:02:29Z'
+                              authorName: Luca Bravo
+                              downloadUrl: >-
+                                https://unsplash.com/photos/O453M2Liufs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=80&w=200
+                              authorUsername: lucabravo
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA&ixlib=rb-4.0.3&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@lucabravo
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/O453M2Liufs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0cmF2ZWx8ZW58MHx8fHwxNzQ0MDIyODUyfDA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1585521746678-1988925483d3image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3264
+                          description:
+                            type: text
+                            value: Photo by Luca Bravo on Unsplash
+                        _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                    en-US:
                       - _id: 145daf75-47cb-45e8-a4cc-c3cb792df6d8
                         type: image
                         fields:
@@ -261,10 +440,7 @@ composition:
                 $pzCrit:
                   type: $pzCrit
                   value:
-                    crit:
-                      - l: flashpacker
-                        r: '0'
-                        op: +
+                    dim: flashpacker
                     name: Flashpacker
                 objectFit:
                   type: select
@@ -505,9 +681,12 @@ composition:
                   type: tp-button-style-parameter
                   value: primary
         parameters:
+          algorithm:
+            type: pzAlgorithm
+            value: ssc
           trackingEventName:
             type: text
-            value: Hero for Flashpackers
+            value: home-hero
       - _id: 7e072bd7-bbe7-4f97-8707-635f74d6ea8e
         type: callToAction
         parameters:
@@ -708,7 +887,7 @@ composition:
             type: text
             locales:
               de-DE: Service That Goes the Extra Mile
-              en-US: Service That Goes the Extra Mile
+              en-US: Personalized service for every traveler
           titleStyle:
             type: tp-title-style-parameter
             value: h2
@@ -1248,7 +1427,13 @@ composition:
           type: text
           locales:
             de-DE: Featured Destinations
-            en-US: Featured Destinations
+            en-US: Authentic journeys, real destinations
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Discover unique places to visit, from vibrant cities to hidden
+              local favorites around the world.
       dataResources:
         Featured countries:
           type: multipleCountries
@@ -1321,5 +1506,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-15T09:27:31.731839+00:00'
-modified: '2025-07-07T13:15:11.440884+00:00'
+modified: '2025-07-31T09:40:50.001864+00:00'
 pattern: false

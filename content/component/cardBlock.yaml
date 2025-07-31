@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: cardBlock
 name: Card Block
 icon: >-
@@ -26,6 +25,9 @@ parameters:
   - id: titleStyle
     name: Title Style
     type: tp-title-style-parameter
+    guidance: >-
+      Choose a title style that creates appropriate visual hierarchy and matches
+      your brand's design system.
     typeConfig: null
   - id: description
     name: Description
@@ -49,19 +51,31 @@ parameters:
   - id: buttonLink
     name: Button Link
     type: link
+    guidance: >-
+      Link to a page where users can learn more or take action related to the
+      card block content.
     typeConfig: null
   - id: buttonCopy
     name: Button Copy
     type: text
+    guidance: >-
+      Write clear, action-oriented button text. Use phrases like 'See all',
+      'Learn more', or 'Explore' and keep it under 20 characters.
     typeConfig: null
     localizable: true
   - id: buttonStyle
     name: Button Style
     type: tp-button-style-parameter
+    guidance: >-
+      Choose a button style that complements your card design and creates
+      appropriate emphasis.
     typeConfig: null
   - id: buttonAnimationType
     name: Button Animation Type
     type: select
+    guidance: >-
+      Select an animation that enhances user experience without distracting from
+      the card content.
     typeConfig:
       options:
         - text: Fade-In
@@ -78,6 +92,9 @@ parameters:
   - id: textColorVariant
     name: Text Color Variant
     type: select
+    guidance: >-
+      Choose the text color variant that provides the best contrast and
+      readability for your card block content.
     typeConfig:
       options:
         - text: Dark
@@ -107,8 +124,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:14.460479+00:00'
-updated: '2025-07-03T22:20:07.257743+00:00'
+created: '2024-01-15T09:26:42.17352+00:00'
+updated: '2025-07-31T08:46:42.642732+00:00'
 variants:
   - id: carousel
     name: Carousel

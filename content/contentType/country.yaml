@@ -1,7 +1,7 @@
 id: country
 name: Country
-created: '2025-07-03T19:08:48.415667+00:00'
-updated: '2025-07-03T19:24:51.021965+00:00'
+created: '2024-01-18T12:23:31.527234+00:00'
+updated: '2025-07-31T08:19:15.642507+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -18,6 +18,9 @@ fields:
   - id: description
     name: Description
     type: richText
+    guidance: >-
+      Provide detailed information about the country including culture,
+      attractions, and what travelers can expect when visiting.
     typeConfig:
       elements:
         builtIn:
@@ -50,6 +53,9 @@ fields:
   - id: timeToVisit
     name: Time to Visit
     type: richText
+    guidance: >-
+      Describe the best times to visit this country including seasonal
+      considerations, weather, and cultural events.
     typeConfig:
       elements:
         builtIn:
@@ -91,6 +97,9 @@ fields:
   - id: teaserImage
     name: Teaser image
     type: asset
+    guidance: >-
+      Select an appealing image that represents this country and will be used in
+      teasers and listings.
     helpText: ''
     typeConfig:
       max: 1
@@ -108,6 +117,9 @@ fields:
   - id: detailURL
     name: Detail URL
     type: link
+    guidance: >-
+      Link to the detailed country page if this destination has a dedicated page
+      for more information.
     helpText: >-
       Choose the node if this country has a special detail page (for linking and
       preview)
@@ -130,6 +142,9 @@ fields:
   - id: images
     name: Images
     type: asset
+    guidance: >-
+      Upload multiple images that showcase the country's landscapes,
+      attractions, and cultural highlights.
     typeConfig:
       max: 10
       allowedTypes:
@@ -138,6 +153,9 @@ fields:
   - id: videos
     name: Videos
     type: asset
+    guidance: >-
+      Add videos that give travelers a visual preview of what they can
+      experience in this country.
     typeConfig:
       allowedTypes:
         - image
@@ -146,6 +164,9 @@ fields:
   - id: icon
     name: Icon
     type: asset
+    guidance: >-
+      Select an icon or flag image that represents this country for easy
+      identification.
     helpText: Icon that represents this country
     typeConfig:
       max: 1
@@ -168,24 +189,36 @@ fields:
   - id: officialName
     name: Official name
     type: text
+    guidance: >-
+      Enter the official government name of the country as it appears in formal
+      documents.
     helpText: ''
     typeConfig: null
     localizable: false
   - id: captial
     name: Captial
     type: text
+    guidance: >-
+      Enter the name of the country's capital city for reference and travel
+      planning.
     helpText: ''
     typeConfig: null
     localizable: true
   - id: code
     name: Code
     type: text
+    guidance: >-
+      Enter the official ISO country code (e.g., US, FR, JP) for technical and
+      booking system integration.
     helpText: ''
     typeConfig: null
     localizable: false
   - id: currencies
     name: Currencies
     type: $block
+    guidance: >-
+      Add the currencies used in this country for pricing and payment
+      information.
     helpText: ''
     typeConfig:
       allowedTypes:
@@ -194,18 +227,25 @@ fields:
   - id: flag
     name: Flag
     type: asset
+    guidance: Upload the official flag image of this country for visual identification.
     helpText: ''
     typeConfig: {}
     localizable: false
   - id: flagEmoji
     name: Flag Emoji
     type: text
+    guidance: >-
+      Enter the emoji flag representation of this country for modern digital
+      display.
     helpText: ''
     typeConfig: null
     localizable: false
   - id: region
     name: Region
     type: contentReference
+    guidance: >-
+      Select the geographic region this country belongs to for organizational
+      and filtering purposes.
     helpText: ''
     typeConfig:
       allowedContentTypes:
@@ -214,10 +254,15 @@ fields:
   - id: enrichments
     name: Enrichments
     type: $enr
+    guidance: >-
+      Tag this country with relevant enrichments for personalization and
+      targeted content delivery.
     typeConfig: null
 entryName: name
 thumbnailField: flag
-description: ''
+description: >-
+  Travel destination countries with comprehensive information including
+  attractions, culture, travel tips, and practical details for trip planning.
 icon: globe-alt
 type: contentType
 permissions:

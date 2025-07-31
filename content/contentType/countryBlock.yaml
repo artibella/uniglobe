@@ -1,7 +1,7 @@
 id: countryBlock
 name: Country Block
 created: '2024-01-18T13:10:45.161616+00:00'
-updated: '2024-01-18T13:10:45.161616+00:00'
+updated: '2025-07-31T08:19:17.04321+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -9,49 +9,72 @@ fields:
   - id: name
     name: Name
     type: text
+    guidance: >-
+      Enter the common name of the country as it's typically known and
+      referenced.
     helpText: ''
     typeConfig: null
     localizable: true
   - id: code
     name: Code
     type: text
+    guidance: >-
+      Enter the official ISO country code for technical integration and
+      identification purposes.
     helpText: ''
     typeConfig: null
     localizable: false
   - id: officialName
     name: Official name
     type: text
+    guidance: >-
+      Enter the official government name of the country as it appears in formal
+      documentation.
     helpText: ''
     typeConfig: null
     localizable: false
   - id: captial
     name: Captial
     type: text
+    guidance: >-
+      Enter the name of the country's capital city for reference and geographic
+      context.
     helpText: ''
     typeConfig: null
     localizable: true
   - id: flagEmoji
     name: Flag Emoji
     type: text
+    guidance: >-
+      Enter the emoji flag representation of this country for modern digital
+      displays.
     helpText: ''
     typeConfig: null
     localizable: false
   - id: flag
     name: Flag
     type: asset
+    guidance: >-
+      Upload the official flag image for visual identification and display
+      purposes.
     helpText: ''
     typeConfig: {}
     localizable: false
   - id: currencies
     name: Currencies
     type: $block
+    guidance: >-
+      Add the currencies used in this country for pricing and payment reference
+      information.
     helpText: ''
     typeConfig:
       allowedTypes:
         - currency
         - $loop
 entryName: name
-description: ''
+description: >-
+  Simplified country data structure containing essential country information,
+  typically used for API integration and basic country references.
 icon: globe-alt
 type: block
 permissions: []

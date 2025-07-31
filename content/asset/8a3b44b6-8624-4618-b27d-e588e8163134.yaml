@@ -6,6 +6,25 @@ asset:
     title:
       type: text
       value: a house covered in snow with trees in the background
+    file:
+      type: file
+      value: 7696e75b-fe73-4547-9252-947370b4202f
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/_3G7yKADTFCWr4yyKUu7Zw-photo-1644804679983-06778d699333
+      type: text
+    size:
+      value: 800892
+      type: number
+    width:
+      value: 3000
+      type: number
+    height:
+      value: 2000
+      type: number
     custom: {}
-created: '2025-01-30T15:35:45.879029+00:00'
-modified: '2025-07-23T09:30:47.749853+00:00'
+created: '2024-10-11T14:41:24.327625+00:00'
+modified: '2024-10-11T14:41:24.327625+00:00'

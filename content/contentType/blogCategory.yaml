@@ -1,19 +1,25 @@
 id: blogCategory
 name: Blog Category
-created: '2025-07-03T19:08:47.292298+00:00'
-updated: '2025-07-03T19:08:47.292298+00:00'
+created: '2025-04-28T14:04:55.283995+00:00'
+updated: '2025-07-31T08:15:41.239157+00:00'
 slugSettings: {}
 useTeamPermissions: true
 fields:
   - id: title
     name: Title
     type: text
+    guidance: >-
+      Enter a clear, descriptive name for this blog category that helps organize
+      content topics.
     typeConfig:
       required: true
     localizable: true
   - id: icon
     name: Icon
     type: asset
+    guidance: >-
+      Select an icon that visually represents this blog category for easy
+      identification in listings.
     typeConfig:
       max: 1
       allowedTypes:
@@ -22,6 +28,9 @@ fields:
   - id: description
     name: Description
     type: text
+    guidance: >-
+      Write a brief description explaining what types of blog posts belong in
+      this category.
     typeConfig:
       multiline: true
       linesCount: 5

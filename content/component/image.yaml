@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: image
 name: Image
 icon: >-
@@ -20,12 +19,18 @@ parameters:
   - id: alt
     name: Alt Text
     type: text
+    guidance: >-
+      Provide clear, descriptive alternative text for accessibility. Describe
+      what the image shows and its purpose in context.
     helpText: alt text for image
     typeConfig: null
     localizable: true
   - id: width
     name: Width
     type: number
+    guidance: >-
+      Set the display width in pixels when not using the fill option. Consider
+      responsive design and image optimization.
     helpText: Set this only when the 'fill' property is unchecked
     typeConfig:
       min: '1'
@@ -34,6 +39,9 @@ parameters:
   - id: height
     name: Height
     type: number
+    guidance: >-
+      Set the display height in pixels when not using the fill option. Maintain
+      aspect ratio for best visual results.
     helpText: Set this only when the 'fill' property is unchecked.
     typeConfig:
       min: '1'
@@ -41,6 +49,9 @@ parameters:
   - id: link
     name: Link
     type: link
+    guidance: >-
+      Optionally link the image to a page or resource for additional interaction
+      or navigation.
     typeConfig:
       linkTypes:
         tel: false
@@ -58,10 +69,16 @@ parameters:
   - id: overlayColor
     name: Overlay Color
     type: tp-color-style-parameter
+    guidance: >-
+      Choose an overlay color that enhances text readability or creates the
+      desired visual effect.
     typeConfig: null
   - id: overlayOpacity
     name: Overlay Opacity
     type: tp-slider-parameter
+    guidance: >-
+      Set overlay opacity to balance visibility between the overlay and the
+      underlying image.
     typeConfig:
       step: 10
       type: steps
@@ -81,10 +98,16 @@ parameters:
   - id: borderColor
     name: Border Color
     type: tp-color-style-parameter
+    guidance: >-
+      Choose a border color that complements your design or creates appropriate
+      visual emphasis.
     typeConfig: null
   - id: borderWidth
     name: Border Width
     type: tp-slider-parameter
+    guidance: >-
+      Set border width in pixels. Use subtle borders (1-2px) for most cases,
+      thicker for emphasis.
     typeConfig:
       step: 1
       type: steps
@@ -95,6 +118,9 @@ parameters:
   - id: borderRadius
     name: Border Radius
     type: tp-slider-parameter
+    guidance: >-
+      Set border radius to create rounded corners. Use consistently with your
+      overall design language.
     typeConfig:
       step: 1
       type: custom
@@ -125,6 +151,9 @@ parameters:
   - id: objectFit
     name: Object Fit
     type: select
+    guidance: >-
+      Choose how the image should fit within its container for optimal visual
+      presentation.
     typeConfig:
       options:
         - text: Contain
@@ -138,6 +167,9 @@ parameters:
   - id: fill
     name: Fill
     type: checkbox
+    guidance: >-
+      Enable fill to make the image automatically size to fill its parent
+      container.
     helpText: >-
       A boolean that causes the image to fill the parent element instead of
       setting width and height.
@@ -145,6 +177,9 @@ parameters:
   - id: quality
     name: Quality
     type: number
+    guidance: >-
+      Set image quality between 10-100. Higher quality means larger file size.
+      Default of 75 works well for most images.
     helpText: >-
       The quality of the optimized image, where 100 is the best quality and
       therefore largest file size. Defaults to 75.
@@ -154,6 +189,9 @@ parameters:
   - id: priority
     name: Priority
     type: checkbox
+    guidance: >-
+      Enable priority for above-the-fold images to improve page loading
+      performance.
     helpText: When checked, the image will be considered high priority and preload.
     typeConfig: null
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
@@ -167,5 +205,5 @@ slots: []
 titleParameter: alt
 thumbnailParameter: src
 canBeComposition: false
-created: '2025-07-03T19:06:21.73404+00:00'
-updated: '2025-07-03T22:25:06.225946+00:00'
+created: '2024-01-15T09:26:43.570364+00:00'
+updated: '2025-07-31T08:48:06.677973+00:00'

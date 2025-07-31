@@ -6,6 +6,25 @@ asset:
     title:
       type: text
       value: Google Play store button
+    file:
+      type: file
+      value: 73b5837c-0221-42c0-81a5-05f64d00ad8f
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/NMpSDd_XTqyzY3hVhFBWQg-google-play-badge.svg
+      type: text
+    size:
+      value: 11823
+      type: number
+    width:
+      value: 128
+      type: number
+    height:
+      value: 128
+      type: number
     custom: {}
-created: '2025-01-30T15:35:44.107439+00:00'
-modified: '2025-07-23T09:30:48.540414+00:00'
+created: '2024-09-19T16:42:41.490063+00:00'
+modified: '2024-09-19T16:43:33.482772+00:00'

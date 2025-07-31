@@ -1,7 +1,7 @@
 id: region
 name: Region
-created: '2025-07-03T19:08:50.404014+00:00'
-updated: '2025-07-03T19:29:22.754528+00:00'
+created: '2024-01-18T13:20:21.829613+00:00'
+updated: '2025-07-31T08:19:25.154884+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -116,7 +116,9 @@ fields:
     typeConfig: null
 entryName: name
 thumbnailField: image
-description: ''
+description: >-
+  Geographic regions that group multiple countries together, used for organizing
+  destinations and helping travelers browse by broader geographic areas.
 icon: pin
 type: contentType
 permissions:

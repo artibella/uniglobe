@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: addToCart
 name: Add to Cart
 icon: shopping-cart
@@ -23,10 +22,16 @@ parameters:
   - id: buttonStyle
     name: Button Style
     type: tp-button-style-parameter
+    guidance: >-
+      Choose a button style that matches your site's design and creates
+      appropriate emphasis for this call-to-action.
     typeConfig: null
   - id: buttonAnimationType
     name: Button Animation Type
     type: select
+    guidance: >-
+      Select an animation type that enhances user experience without being
+      distracting or slowing down interaction.
     typeConfig:
       options:
         - text: Fade-In
@@ -43,5 +48,5 @@ useTeamPermissions: true
 slots: []
 titleParameter: buttonCopy
 canBeComposition: false
-created: '2025-07-03T19:06:11.226117+00:00'
-updated: '2025-07-03T22:15:50.367493+00:00'
+created: '2024-01-15T09:26:41.975709+00:00'
+updated: '2025-07-31T08:46:00.425843+00:00'

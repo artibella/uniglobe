@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: container
 name: Container
 icon: >-
@@ -28,10 +27,16 @@ parameters:
   - id: backgroundType
     name: Background Type
     type: tp-background-type-parameter
+    guidance: >-
+      Choose the type of background (color, image, gradient) that best supports
+      your container content.
     typeConfig: null
   - id: paddingTop
     name: Padding Top
     type: select
+    guidance: >-
+      Set top padding to control spacing above container content and maintain
+      visual hierarchy.
     typeConfig:
       options:
         - text: Small
@@ -45,6 +50,9 @@ parameters:
   - id: paddingBottom
     name: Padding Bottom
     type: select
+    guidance: >-
+      Set bottom padding to control spacing below container content and separate
+      it from following sections.
     typeConfig:
       options:
         - text: Small
@@ -58,6 +66,9 @@ parameters:
   - id: marginTop
     name: Margin Top
     type: select
+    guidance: >-
+      Control top margin to manage spacing above the container, especially
+      useful when placed after other components.
     typeConfig:
       options:
         - text: Small
@@ -71,6 +82,9 @@ parameters:
   - id: marginBottom
     name: Margin Bottom
     type: select
+    guidance: >-
+      Control bottom margin to manage spacing between the container and
+      subsequent page content.
     typeConfig:
       options:
         - text: Small
@@ -98,8 +112,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:15.165153+00:00'
-updated: '2025-07-03T22:20:54.966869+00:00'
+created: '2024-01-15T09:26:42.529198+00:00'
+updated: '2025-07-31T08:46:46.318537+00:00'
 variants:
   - id: backgroundInContainer
     name: Background In Container

@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: banner
 name: Banner
 icon: toolbar-bottom
@@ -44,6 +43,9 @@ parameters:
   - id: position
     name: Position
     type: select
+    guidance: >-
+      Choose where the banner should appear on the page - top for announcements,
+      center for highlights, bottom for calls-to-action.
     typeConfig:
       options:
         - text: Top
@@ -55,6 +57,9 @@ parameters:
   - id: inline
     name: Inline
     type: checkbox
+    guidance: >-
+      Enable inline positioning to integrate the banner into the page flow
+      rather than overlaying it on top of content.
     helpText: >-
       If checked, the banner will not be positioned absolutely, and the position
       parameter will be ignored.
@@ -62,6 +67,9 @@ parameters:
   - id: textAlign
     name: Text Align
     type: tp-horizontal-align-parameter
+    guidance: >-
+      Choose text alignment that best fits your banner content and overall page
+      design.
     typeConfig: null
   - id: group_primaryCta
     name: Primary CTA
@@ -76,20 +84,32 @@ parameters:
   - id: primaryButtonCopy
     name: Primary Button Copy
     type: text
+    guidance: >-
+      Write compelling copy for the primary call-to-action button. Use action
+      words and keep it under 20 characters.
     typeConfig: null
     localizable: true
   - id: primaryButtonLink
     name: Primary Button Link
     type: link
+    guidance: >-
+      Link to the page or action for your primary call-to-action. Ensure the
+      destination is relevant and accessible.
     typeConfig: null
     localizable: true
   - id: primaryButtonStyle
     name: Primary Button Style
     type: tp-button-style-parameter
+    guidance: >-
+      Choose a button style that creates appropriate visual hierarchy and
+      matches your site's design system.
     typeConfig: null
   - id: primaryButtonAnimationType
     name: Primary Button Animation Type
     type: select
+    guidance: >-
+      Select an animation that enhances the banner's visibility without being
+      overwhelming or distracting.
     typeConfig:
       options:
         - text: Fade-In
@@ -109,20 +129,30 @@ parameters:
   - id: secondaryButtonCopy
     name: Secondary Button Copy
     type: text
+    guidance: >-
+      Write copy for an optional secondary call-to-action. Use complementary
+      language that doesn't compete with the primary CTA.
     typeConfig: null
     localizable: true
   - id: secondaryButtonLink
     name: Secondary Button Link
     type: link
+    guidance: Link to a secondary action or page that supports the main banner message.
     typeConfig: null
     localizable: true
   - id: secondaryButtonStyle
     name: Secondary Button Style
     type: tp-button-style-parameter
+    guidance: >-
+      Choose a button style that creates clear visual hierarchy with the primary
+      button.
     typeConfig: null
   - id: secondaryButtonAnimationType
     name: Secondary Button Animation Type
     type: select
+    guidance: >-
+      Select an animation for the secondary button that complements but doesn't
+      compete with the primary button.
     typeConfig:
       options:
         - text: Fade-In
@@ -140,8 +170,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:11.475594+00:00'
-updated: '2025-07-03T22:16:19.116278+00:00'
+created: '2024-01-15T09:26:42.717428+00:00'
+updated: '2025-07-31T08:46:08.701242+00:00'
 variants:
   - id: fullWidth
     name: Full Width
