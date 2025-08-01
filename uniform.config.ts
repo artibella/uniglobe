@@ -14,7 +14,7 @@ const config: CLIConfiguration = {
       projectMapNode: {},
       asset: {},
       contentType: {},
-      entry: {},
+      entry: { publish: true },
       dataType: {},
       previewUrl: {},
       previewViewport: {},
