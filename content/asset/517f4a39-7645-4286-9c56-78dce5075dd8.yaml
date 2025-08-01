@@ -1,30 +1,11 @@
 asset:
-  type: image
+  type: other
   _id: 517f4a39-7645-4286-9c56-78dce5075dd8
   _name: ''
   fields:
     title:
       type: text
       value: expanded-asset-support-upcoming.png
-    file:
-      type: file
-      value: c777df3a-e87b-48a5-a30a-84bd5602fcde
-    mediaType:
-      value: image/png
-      type: text
-    url:
-      value: >-
-        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/zfS1cxzVRxmYaD5QSkanXQ-expanded-asset-support-upcoming.png
-      type: text
-    size:
-      value: 485614
-      type: number
-    width:
-      value: 1200
-      type: number
-    height:
-      value: 630
-      type: number
     custom: {}
-created: '2025-01-23T17:20:36.595925+00:00'
-modified: '2025-01-23T17:20:36.595925+00:00'
+created: '2025-08-01T11:01:03.714795+00:00'
+modified: '2025-08-01T11:04:18.958984+00:00'

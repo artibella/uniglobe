@@ -1,5 +1,5 @@
 asset:
-  type: image
+  type: other
   _id: 29845429-20ce-4c40-9252-e84e4b297c78
   _name: A building that has a lot of decorations on it
   fields:
@@ -9,25 +9,6 @@ asset:
     description:
       type: text
       value: 'Copyright: HANVIN CHEONG, Unsplash'
-    file:
-      type: file
-      value: 7bf04894-febe-41ab-9387-7f90ed2dd2fc
-    mediaType:
-      value: image/jpeg
-      type: text
-    url:
-      value: >-
-        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/DeM2Vk3hQ2quqI0sxHlMeg-photo-1721232080277-5a7f8370a2c4
-      type: text
-    size:
-      value: 1291114
-      type: number
-    width:
-      value: 3000
-      type: number
-    height:
-      value: 2000
-      type: number
     custom: {}
-created: '2024-10-11T12:03:50.264289+00:00'
-modified: '2024-10-11T12:46:10.274354+00:00'
+created: '2025-08-01T11:01:04.674237+00:00'
+modified: '2025-08-01T11:04:18.943204+00:00'
