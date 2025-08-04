@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: page
 name: Page
@@ -7,6 +7,11 @@ parameters:
   - id: pageTitle
     name: Page Title
     type: text
+    guidance: >-
+      Create a compelling page title (50-60 characters max) that includes your
+      primary keyword near the beginning. Make it descriptive and actionable
+      while avoiding keyword stuffing. Include your brand name at the end if
+      space allows. Example: 'Best Travel Deals to Europe 2024 | YourBrand'
     typeConfig:
       required: true
     localizable: true
@@ -20,6 +25,12 @@ parameters:
   - id: pageMetaDescription
     name: Page Meta Description
     type: text
+    guidance: >-
+      Write a compelling meta description (150-160 characters) that includes
+      your primary keyword and a clear call-to-action. Use active voice and
+      address user intent. Include benefits or solutions. End with action words
+      like 'Discover', 'Learn', 'Get started'. Avoid truncation by staying under
+      160 characters.
     typeConfig:
       multiline: true
       linesCount: '5'
@@ -27,6 +38,12 @@ parameters:
   - id: pageKeywords
     name: Page Keywords
     type: text
+    guidance: >-
+      Include 3-5 relevant keywords focusing on one primary keyword and 2-4
+      secondary long-tail keywords. Research user search intent and include
+      semantic variations. Avoid keyword stuffing. Format as comma-separated
+      list. Example: 'travel deals, cheap flights europe, budget vacation
+      packages, european travel discounts'
     typeConfig:
       multiline: true
     localizable: true
@@ -43,12 +60,24 @@ parameters:
   - id: openGraphTitle
     name: Open Graph Title
     type: text
+    guidance: >-
+      Create an engaging social media title (60-90 characters) that may differ
+      from your page title. Use emotional triggers like urgency, curiosity, or
+      benefit-driven language. Include relevant emojis if appropriate for your
+      brand. Focus on shareability and click-through appeal rather than strict
+      SEO optimization.
     helpText: page head title
     typeConfig: null
     localizable: true
   - id: openGraphDescription
     name: Open Graph Description
     type: text
+    guidance: >-
+      Write a compelling social media description (125-150 characters for
+      optimal display) that includes a clear value proposition and
+      call-to-action. Use engaging language that encourages shares and clicks.
+      Include relevant hashtags if space allows. Focus on benefits and emotional
+      appeal rather than features.
     helpText: >-
       used to set `og:description`. If not set, `Page Meta Description` will be
       used.
@@ -59,6 +88,12 @@ parameters:
   - id: openGraphImage
     name: Open Graph Image
     type: asset
+    guidance: >-
+      Upload a high-quality image (1200x630px for optimal Facebook/LinkedIn
+      display) with good contrast and minimal text overlay. Ensure it looks good
+      as a thumbnail. Use bright, eye-catching visuals that represent your
+      content. Avoid cluttered designs. Test how it appears on different social
+      platforms.
     helpText: This will set og:image
     typeConfig:
       max: 1
@@ -93,12 +128,23 @@ parameters:
   - id: twitterTitle
     name: Twitter Title
     type: text
+    guidance: >-
+      Create a Twitter-optimized title (50-70 characters to leave room for
+      retweets) that's engaging and conversation-starting. Use Twitter-native
+      language and consider including relevant hashtags. Focus on immediacy and
+      trending topics when relevant. Make it easily quotable and shareable.
     helpText: Sets `twitter:title`. Fallback to Page Title if not set.
     typeConfig: null
     localizable: true
   - id: twitterDescription
     name: Twitter Description
     type: text
+    guidance: >-
+      Write a Twitter-specific description (100-125 characters) that's
+      conversational and engaging. Include 1-2 relevant hashtags and consider
+      @mentions if appropriate. Use Twitter's informal tone while maintaining
+      professionalism. End with a question or call-to-action to encourage
+      engagement.
     helpText: >-
       Sets `twitter:description`. Falls back to `Page Meta Description` if not
       set
@@ -109,6 +155,11 @@ parameters:
   - id: twitterImage
     name: Twitter Image
     type: asset
+    guidance: >-
+      Upload a Twitter-optimized image (1200x675px for summary_large_image or
+      400x400px for summary card) that displays well on mobile. Use high
+      contrast, bold visuals that work at small sizes. Avoid fine details that
+      become illegible. Consider Twitter's audience and trending visual styles.
     helpText: Sets `twitter:image`. Fallsback to `og:image` if not set.
     typeConfig:
       max: 1
@@ -282,4 +333,4 @@ defaults:
 titleParameter: pageTitle
 canBeComposition: true
 created: '2024-01-15T09:26:44.57822+00:00'
-updated: '2024-08-20T10:25:26.856049+00:00'
+updated: '2025-08-04T08:00:45.384213+00:00'
