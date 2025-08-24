@@ -7,6 +7,7 @@ export type FeatureProps = ComponentProps<{
   link: Types.ProjectMapLink;
   description: string;
   icon?: string | Asset | Types.CloudinaryImage;
+  iconId?: Types.LucideIconParamTypeValue;
 }>;
 
 registerUniformComponent({

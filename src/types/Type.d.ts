@@ -90,4 +90,8 @@ declare namespace Types {
     themeName: Types.SupportedThemes;
     colors: Types.ThemeColors[];
   };
+
+  type LucideIconParamTypeValue = {
+    icon?: string;
+  };
 }

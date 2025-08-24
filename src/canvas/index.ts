@@ -20,6 +20,7 @@ import './Divider';
 import './Feature';
 import './FeaturedCallout';
 import './Hero';
+import './Icon';
 import './Image';
 import './Table';
 import './Modal';
@@ -82,6 +83,9 @@ export { default as ContentBlock } from './ContentBlock';
 export type { ContentBlockProps } from './ContentBlock';
 
 export { default as Divider } from './Divider';
+
+export { Icon } from './Icon';
+export type { IconProps } from './Icon';
 
 export { default as FeaturedCallout, FeaturedCalloutVariant } from './FeaturedCallout';
 export type { FeaturedCalloutProps } from './FeaturedCallout';
