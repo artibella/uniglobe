@@ -1644,16 +1644,6 @@ composition:
         type: container
         slots:
           container-inner:
-            - _id: bb963573-8ebc-4bd3-8196-5610c912a8d0
-              type: content
-              parameters:
-                title:
-                  type: text
-                  locales:
-                    en-US: What travelers are saying
-                titleStyle:
-                  type: tp-title-style-parameter
-                  value: h1
             - _id: 5fce0dd8-6ac5-4ce9-bb0d-faa0536eb0da
               type: spacer
               parameters:
@@ -2541,5 +2531,5 @@ composition:
   _locales:
     - en-US
 created: '2025-07-08T19:00:21.329199+00:00'
-modified: '2025-07-08T19:07:39.081764+00:00'
+modified: '2025-08-15T08:15:02.288964+00:00'
 pattern: false

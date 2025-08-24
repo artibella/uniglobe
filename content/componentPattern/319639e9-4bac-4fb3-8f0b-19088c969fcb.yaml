@@ -429,6 +429,26 @@ composition:
         type: footerSection
         slots:
           links:
+            - _id: 9833189d-deea-4dee-94e6-cc24695f910d
+              type: navigationLink
+              variant: footer
+              parameters:
+                link:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /${locale}/lp/conscious-adventures
+                      type: projectMapNode
+                      nodeId: 670663a7-2b54-4d1a-b8e9-3d31f6cbb5cc
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                title:
+                  type: text
+                  locales:
+                    en-US: Conscious adventures
+              _overridability:
+                hideLockedParameters: true
             - _id: 1ab3bba5-ef37-4941-919c-b106adbf67a5
               type: navigationLink
               variant: footer
@@ -436,7 +456,7 @@ composition:
                 link:
                   type: link
                   value:
-                    path: /${locale}/sustainable-travel
+                    path: /${locale}/lp/sustainable-travel
                     type: projectMapNode
                     nodeId: 12a9581f-969f-4e92-a9b2-c4c7abbc0ea5
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -454,7 +474,7 @@ composition:
                 link:
                   type: link
                   value:
-                    path: /${locale}/digital-nomads
+                    path: /${locale}/lp/digital-nomads
                     type: projectMapNode
                     nodeId: f5a4c23b-523e-4f6b-ad38-17b9e7f216d5
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -472,7 +492,7 @@ composition:
                 link:
                   type: link
                   value:
-                    path: /${locale}/sabbaticals
+                    path: /${locale}/lp/sabbaticals
                     type: projectMapNode
                     nodeId: aefeb70f-ad76-41b0-af38-0787eb259621
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -490,7 +510,7 @@ composition:
                 link:
                   type: link
                   value:
-                    path: /${locale}/post-graduate-travel
+                    path: /${locale}/lp/post-graduate-travel
                     type: projectMapNode
                     nodeId: 47799f89-e5d9-4adc-afe2-d1bfd57aeaec
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -508,7 +528,7 @@ composition:
                 link:
                   type: link
                   value:
-                    path: /${locale}/gap-year-travel
+                    path: /${locale}/lp/gap-year-travel
                     type: projectMapNode
                     nodeId: 542d4976-810a-48e9-8e4b-7406b5fd033b
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -527,14 +547,14 @@ composition:
                   type: link
                   locales:
                     de-DE:
-                      path: /${locale}/solo-female-travel
+                      path: /${locale}/lp/solo-female-travel
                       type: projectMapNode
                       nodeId: 8fbdfe02-8526-4033-aecb-4e81fe82f44e
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
                       dynamicInputValues:
                         locale: ${locale}
                     en-US:
-                      path: /${locale}/solo-female-travel
+                      path: /${locale}/lp/solo-female-travel
                       type: projectMapNode
                       nodeId: 8fbdfe02-8526-4033-aecb-4e81fe82f44e
                       projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -557,7 +577,7 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-15T09:26:47.163483+00:00'
-modified: '2025-07-10T12:42:43.195446+00:00'
+modified: '2025-08-08T11:51:19.06978+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Footer_preview_image

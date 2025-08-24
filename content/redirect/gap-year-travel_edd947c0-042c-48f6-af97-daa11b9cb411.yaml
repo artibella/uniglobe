@@ -1,0 +1,12 @@
+id: edd947c0-042c-48f6-af97-daa11b9cb411
+sourceUrl: /:locale/gap-year-travel
+sourceRetainQuerystring: true
+targetUrl: https://uniglobe.vercel.app/:locale/lp/gap-year-travel
+targetStatusCode: 301
+targetProjectMapNodeId: 542d4976-810a-48e9-8e4b-7406b5fd033b
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

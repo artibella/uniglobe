@@ -14,16 +14,16 @@ asset:
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/0l3n7I-KQom4D70x3YEqww-app-store-badge.svg
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/1irHrlmdQkKsxWSV_9P1oQ-app-store-badge.svg
       type: text
     size:
       value: 8406
       type: number
     width:
-      value: 128
+      value: 150
       type: number
     height:
-      value: 128
+      value: 150
       type: number
     custom: {}
 created: '2024-09-19T16:42:58.797685+00:00'

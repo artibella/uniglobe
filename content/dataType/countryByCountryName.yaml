@@ -1,6 +1,7 @@
 id: countryByCountryName
 displayName: Country by name
 ttl: 30
+body: ''
 path: /name/${name}
 custom:
   proposedName: name/${name}

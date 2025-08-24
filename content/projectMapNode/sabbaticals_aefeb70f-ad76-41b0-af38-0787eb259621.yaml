@@ -1,7 +1,7 @@
 id: aefeb70f-ad76-41b0-af38-0787eb259621
 name: Sabbaticals
-order: 650
-path: /:locale/sabbaticals
+order: 800
+path: /:locale/lp/sabbaticals
 type: composition
 pathSegment: sabbaticals
 data: {}

@@ -1,0 +1,1317 @@
+composition:
+  _name: The hitchhikers guide to eco-friendly travel
+  _id: 338f91f9-0baa-4a42-b947-eed39e15be52
+  _slug: the-hitchhikers-guide-to-eco-friendly-travel
+  type: page
+  _overrides:
+    2c97ba87-ff6b-422e-bfa6-21e1cf6187e4:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Mostly Harmless
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: 4fa0806a-ccdd-4268-8e36-a3152310b242
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1534882339110-3b6cb58c9047?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxuYXRpb25hbCUyMHBhcmt8ZW58MHwyfHx8MTc1NTY4NDMwNXww&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Yosemite
+                  width:
+                    type: number
+                    value: 2448
+                  custom:
+                    type: object
+                    value:
+                      color: '#402626'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/mountain-and-trees-7RDsNSudv0U
+                      blurHash: LsFrIzWBIUbI~WaeM{bH-;WBoJoe
+                      sourceId: 7RDsNSudv0U
+                      createdAt: '2018-08-21T20:13:31Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/mountain-and-trees-7RDsNSudv0U
+                      updatedAt: '2025-08-20T06:17:10Z'
+                      authorName: Josh Pigford
+                      downloadUrl: >-
+                        https://unsplash.com/photos/7RDsNSudv0U/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxuYXRpb25hbCUyMHBhcmt8ZW58MHwyfHx8MTc1NTY4NDMwNXww
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1534882339110-3b6cb58c9047?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxuYXRpb25hbCUyMHBhcmt8ZW58MHwyfHx8MTc1NTY4NDMwNXww&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1534882339110-3b6cb58c9047?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxuYXRpb25hbCUyMHBhcmt8ZW58MHwyfHx8MTc1NTY4NDMwNXww&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1534882339110-3b6cb58c9047?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxuYXRpb25hbCUyMHBhcmt8ZW58MHwyfHx8MTc1NTY4NDMwNXww&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1534882339110-3b6cb58c9047?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxuYXRpb25hbCUyMHBhcmt8ZW58MHwyfHx8MTc1NTY4NDMwNXww&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: shpigford
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1534882339110-3b6cb58c9047?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxuYXRpb25hbCUyMHBhcmt8ZW58MHwyfHx8MTc1NTY4NDMwNXww&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@shpigford
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/7RDsNSudv0U/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxuYXRpb25hbCUyMHBhcmt8ZW58MHwyfHx8MTc1NTY4NDMwNXww
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-fb-1499874030-abc6827b7ea6.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 2448
+                  description:
+                    type: text
+                    value: Photo by Josh Pigford on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        title:
+          type: text
+          locales:
+            en-US: Magrathea National Park
+        description:
+          type: text
+          locales:
+            en-US: >-
+              No planet-building required—just epic views and eco-trails for
+              conscious explorers.
+        textColorVariant:
+          type: select
+          value: Light
+    338f91f9-0baa-4a42-b947-eed39e15be52:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            en-US: Hitchhiker’s Guide to Eco-Friendly Travel | Uniglobe
+        twitterImage:
+          type: asset
+          value:
+            - _id: 5aa4ebbe-1211-4a1f-ac87-b63a1c57b8a0
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=85
+                title:
+                  type: text
+                  value: silhouette photography of person
+                width:
+                  type: number
+                  value: 5616
+                custom:
+                  type: object
+                  value:
+                    color: '#260c0c'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/silhouette-photography-of-person-oMpAz-DN-9I
+                    blurHash: LSB{W3Vs0zXSIqbaxZn%56kW-Vni
+                    sourceId: oMpAz-DN-9I
+                    createdAt: '2015-10-13T02:36:06Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/silhouette-photography-of-person-oMpAz-DN-9I
+                    updatedAt: '2025-08-20T09:33:13Z'
+                    authorName: Greg Rakozy
+                    downloadUrl: >-
+                      https://unsplash.com/photos/oMpAz-DN-9I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=200
+                    authorUsername: grakozy
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@grakozy
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/oMpAz-DN-9I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1495388545592-e4e376925c59?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 3744
+                description:
+                  type: text
+                  value: Photo by Greg Rakozy on Unsplash
+              _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        twitterTitle:
+          type: text
+          locales:
+            en-US: Don’t Panic! Eco-Friendly Travel, Now With 100% More Towel
+        openGraphImage:
+          type: asset
+          value:
+            - _id: f6f0d3be-9246-459e-ae7f-4308236df8cf
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=85
+                title:
+                  type: text
+                  value: silhouette photography of person
+                width:
+                  type: number
+                  value: 5616
+                custom:
+                  type: object
+                  value:
+                    color: '#260c0c'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/silhouette-photography-of-person-oMpAz-DN-9I
+                    blurHash: LSB{W3Vs0zXSIqbaxZn%56kW-Vni
+                    sourceId: oMpAz-DN-9I
+                    createdAt: '2015-10-13T02:36:06Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/silhouette-photography-of-person-oMpAz-DN-9I
+                    updatedAt: '2025-08-20T09:33:13Z'
+                    authorName: Greg Rakozy
+                    downloadUrl: >-
+                      https://unsplash.com/photos/oMpAz-DN-9I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=200
+                    authorUsername: grakozy
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@grakozy
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/oMpAz-DN-9I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1495388545592-e4e376925c59?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 3744
+                description:
+                  type: text
+                  value: Photo by Greg Rakozy on Unsplash
+              _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        openGraphTitle:
+          type: text
+          locales:
+            en-US: 🌱 Don’t Panic! The Hitchhiker’s Guide to Eco-Friendly Travel
+        twitterDescription:
+          type: text
+          locales:
+            en-US: >-
+              Explore the galaxy (or at least Earth) with our parody guide to
+              real sustainable travel! 🌍🧳 #EcoTravel Ready to join?
+        pageMetaDescription:
+          type: text
+          locales:
+            en-US: >-
+              A mostly harmless, always hilarious guide to sustainable
+              adventures. Hitch a ride to real destinations—no Vogon poetry,
+              just good green fun (and towels).
+        openGraphDescription:
+          type: text
+          locales:
+            en-US: >-
+              A mostly harmless, always hilarious guide to sustainable
+              adventures. Hitch a ride to real destinations—no Vogon poetry,
+              just good green fun (and towels).
+    42d55fee-e35f-486e-a000-e9f3f1f2af23:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Home Sweet Home
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: f7f98a25-ea30-497e-9125-44afc3435f66
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1634176866089-b633f4aec882?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlYXJ0aHxlbnwwfDJ8fHwxNzU1Njg0MzMzfDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Our Planet
+                  width:
+                    type: number
+                    value: 3400
+                  custom:
+                    type: object
+                    value:
+                      color: '#0c0c26'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-view-of-the-earth-from-space-at-night-Xu4Pz7GI9JY
+                      blurHash: L10mGuQkbvk?t.VXadksR4p0eRkX
+                      sourceId: Xu4Pz7GI9JY
+                      createdAt: '2021-10-14T02:02:09Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-view-of-the-earth-from-space-at-night-Xu4Pz7GI9JY
+                      updatedAt: '2025-08-20T07:06:15Z'
+                      authorName: ANIRUDH
+                      downloadUrl: >-
+                        https://unsplash.com/photos/Xu4Pz7GI9JY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlYXJ0aHxlbnwwfDJ8fHwxNzU1Njg0MzMzfDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1634176866089-b633f4aec882?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlYXJ0aHxlbnwwfDJ8fHwxNzU1Njg0MzMzfDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1634176866089-b633f4aec882?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlYXJ0aHxlbnwwfDJ8fHwxNzU1Njg0MzMzfDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1634176866089-b633f4aec882?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlYXJ0aHxlbnwwfDJ8fHwxNzU1Njg0MzMzfDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1634176866089-b633f4aec882?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlYXJ0aHxlbnwwfDJ8fHwxNzU1Njg0MzMzfDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: lanirudhreddy
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1634176866089-b633f4aec882?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlYXJ0aHxlbnwwfDJ8fHwxNzU1Njg0MzMzfDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@lanirudhreddy
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/Xu4Pz7GI9JY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlYXJ0aHxlbnwwfDJ8fHwxNzU1Njg0MzMzfDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1625223807940-4d4572c58435image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3400
+                  description:
+                    type: text
+                    value: Photo by ANIRUDH on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        title:
+          type: text
+          locales:
+            en-US: Earth
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Still mostly harmless, now with more bike lanes and less
+              single-use plastic.
+        textColorVariant:
+          type: select
+          value: Light
+    c1db947d-5276-4183-9216-c011781a5cea:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Intergalactic Favorite
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: 37cbd6c8-d4a9-4e94-ab4e-dae4f69877aa
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1700527562291-026cc07bfa94?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBza3klMjBiYWNrcGFja2luZ3xlbnwwfDJ8fHwxNzU1Njg0MjgxfDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: >-
+                      a group of people standing around a campfire under a night
+                      sky
+                  width:
+                    type: number
+                    value: 4000
+                  custom:
+                    type: object
+                    value:
+                      color: '#264040'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-group-of-people-standing-around-a-campfire-under-a-night-sky-GcxlLiLTti8
+                      blurHash: L97KC_R*0|wc7LoL=HS2Q-s:ozSh
+                      sourceId: GcxlLiLTti8
+                      createdAt: '2023-11-21T00:46:05Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-group-of-people-standing-around-a-campfire-under-a-night-sky-GcxlLiLTti8
+                      updatedAt: '2025-08-20T06:37:43Z'
+                      authorName: Ketan Desai
+                      downloadUrl: >-
+                        https://unsplash.com/photos/GcxlLiLTti8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBza3klMjBiYWNrcGFja2luZ3xlbnwwfDJ8fHwxNzU1Njg0MjgxfDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1700527562291-026cc07bfa94?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBza3klMjBiYWNrcGFja2luZ3xlbnwwfDJ8fHwxNzU1Njg0MjgxfDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1700527562291-026cc07bfa94?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBza3klMjBiYWNrcGFja2luZ3xlbnwwfDJ8fHwxNzU1Njg0MjgxfDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1700527562291-026cc07bfa94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBza3klMjBiYWNrcGFja2luZ3xlbnwwfDJ8fHwxNzU1Njg0MjgxfDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1700527562291-026cc07bfa94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBza3klMjBiYWNrcGFja2luZ3xlbnwwfDJ8fHwxNzU1Njg0MjgxfDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: ketszim
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1700527562291-026cc07bfa94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBza3klMjBiYWNrcGFja2luZ3xlbnwwfDJ8fHwxNzU1Njg0MjgxfDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@ketszim
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/GcxlLiLTti8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBza3klMjBiYWNrcGFja2luZ3xlbnwwfDJ8fHwxNzU1Njg0MjgxfDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1685659064122-af18f454bdb3image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4000
+                  description:
+                    type: text
+                    value: Photo by Ketan Desai on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        title:
+          type: text
+          locales:
+            en-US: Betelgeuse Backpacking
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Now with 100% less supernova, 100% more solar-powered hostels for
+              eco-friendly stays.
+        textColorVariant:
+          type: select
+          value: Light
+    338f91f9-0baa-4a42-b947-eed39e15be52|1b5e7f73-2c6c-45c6-9b64-40fa984e9a9b:
+      slots:
+        $slotSectionItems:
+          - _id: bd4d6372-f170-4ac4-8497-d2f89ea9854a
+            type: container
+            slots:
+              container-inner:
+                - _id: 6b6d435c-3dee-439a-9b06-f26ed7eac4c6
+                  type: richText
+                  parameters:
+                    content:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - tag: h2
+                                type: heading
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Mostly Harmless, Totally Green
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      In the beginning, the universe was
+                                      created. This has made a lot of people
+                                      very angry and been widely regarded as a
+                                      bad move. But you can make it better—one
+                                      eco-friendly trip at a time.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Welcome to the Hitchhiker’s Guide to
+                                      Eco-Friendly Travel: your digital towel
+                                      for navigating the galaxy (or at least
+                                      Earth) without leaving a trail of
+                                      destruction. Whether you’re a seasoned
+                                      intergalactic hitchhiker or just looking
+                                      to avoid Vogon poetry, you’re in the right
+                                      place.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                                textStyle: ''
+                                textFormat: 0
+                            direction: null
+                - _id: 2cf648f2-1211-4109-b667-58b260f19292
+                  type: container
+                  slots:
+                    container-inner:
+                      - _id: 5a04feaa-0edb-4371-a300-88efdca0c25b
+                        type: featuredCallout
+                        slots:
+                          feature:
+                            - _id: ec792367-8991-4c55-9a51-0a3f125f4eb9
+                              type: feature
+                              slots:
+                                icon:
+                                  - _id: 602a6bc1-0664-4b55-8eaa-9000cde45155
+                                    type: icon
+                                    parameters:
+                                      icon:
+                                        type: lucide-icons-icon
+                                        value:
+                                          icon: alarm-clock-plus
+                                      size:
+                                        type: select
+                                        value: xxl
+                                      color:
+                                        type: select
+                                        value: black
+                                      strokeWidth:
+                                        type: select
+                                        value: '2'
+                              parameters:
+                                title:
+                                  type: text
+                                  locales:
+                                    en-US: Carbon-neutral spaceships
+                                description:
+                                  type: text
+                                  locales:
+                                    en-US: >-
+                                      Travel sustainably—choose carbon-neutral
+                                      trains for eco-friendly adventures.
+                            - _id: a1c78650-5fca-4da0-9945-aa8efceceb2a
+                              type: feature
+                              parameters:
+                                title:
+                                  type: text
+                                  locales:
+                                    en-US: Vegan Pan Galactic Gargle Blasters
+                                description:
+                                  type: text
+                                  locales:
+                                    en-US: >-
+                                      Sip the galaxy’s best vegan Pan Galactic
+                                      Gargle Blasters at local, eco-friendly
+                                      bars.
+                            - _id: 8db91209-f51a-49f1-90ec-da36629e9ca7
+                              type: feature
+                              parameters:
+                                title:
+                                  type: text
+                                  locales:
+                                    en-US: Embrace local culture
+                                description:
+                                  type: text
+                                  locales:
+                                    en-US: >-
+                                      Skip the generic—immerse yourself in real
+                                      local culture and authentic connections.
+                            - _id: 6835c380-16fb-479c-9ad9-9a148e3bd305
+                              type: feature
+                              parameters:
+                                title:
+                                  type: text
+                                  locales:
+                                    en-US: Don’t forget your towel
+                                description:
+                                  type: text
+                                  locales:
+                                    en-US: >-
+                                      Pack light and travel lighter—your towel
+                                      is your ticket to adventure!
+                        parameters:
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: b5f64043-173a-4287-8c26-251742ad082a
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1637520941765-1fd0bcda3d80?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHx0b3dlbCUyMGJhY2twYWNrfGVufDB8fHx8MTc1NTY4NDc3NXww&ixlib=rb-4.1.0&q=85
+                                    title:
+                                      type: text
+                                      value: >-
+                                        a bottle and a pear on a towel on a
+                                        chair
+                                    width:
+                                      type: number
+                                      value: 2721
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#8c8c8c'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/a-bottle-and-a-pear-on-a-towel-on-a-chair-MqHKf15Be80
+                                        blurHash: LCF$eG4:4TD%H=f6x]occFRPx]x]
+                                        sourceId: MqHKf15Be80
+                                        createdAt: '2021-11-21T18:58:37Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/a-bottle-and-a-pear-on-a-towel-on-a-chair-MqHKf15Be80
+                                        updatedAt: '2025-08-20T03:45:49Z'
+                                        authorName: Mary Skrynnikova 💛💙
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/MqHKf15Be80/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHx0b3dlbCUyMGJhY2twYWNrfGVufDB8fHx8MTc1NTY4NDc3NXww
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1637520941765-1fd0bcda3d80?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHx0b3dlbCUyMGJhY2twYWNrfGVufDB8fHx8MTc1NTY4NDc3NXww&ixlib=rb-4.1.0
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1637520941765-1fd0bcda3d80?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHx0b3dlbCUyMGJhY2twYWNrfGVufDB8fHx8MTc1NTY4NDc3NXww&ixlib=rb-4.1.0&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1637520941765-1fd0bcda3d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHx0b3dlbCUyMGJhY2twYWNrfGVufDB8fHx8MTc1NTY4NDc3NXww&ixlib=rb-4.1.0&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1637520941765-1fd0bcda3d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHx0b3dlbCUyMGJhY2twYWNrfGVufDB8fHx8MTc1NTY4NDc3NXww&ixlib=rb-4.1.0&q=80&w=200
+                                        authorUsername: mary_skr
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1637520941765-1fd0bcda3d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHx0b3dlbCUyMGJhY2twYWNrfGVufDB8fHx8MTc1NTY4NDc3NXww&ixlib=rb-4.1.0&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@mary_skr
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/MqHKf15Be80/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHx0b3dlbCUyMGJhY2twYWNrfGVufDB8fHx8MTc1NTY4NDc3NXww
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-1649878108284-110c7684126eimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 3628
+                                    description:
+                                      type: text
+                                      value: >-
+                                        Photo by Mary Skrynnikova 💛💙 on
+                                        Unsplash
+                                  _source: >-
+                                    unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                          title:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Don’t forget your towel (and reusable water
+                                bottle)
+                          titleStyle:
+                            type: tp-title-style-parameter
+                            value: h2
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Travel sustainably, discover quirky local eats,
+                                skip the tourist traps, and always pack your
+                                towel!
+                  parameters:
+                    title:
+                      type: text
+                      locales:
+                        en-US: Guide highlights
+                    backgroundType:
+                      type: tp-background-type-parameter
+                      value: Medium
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Intro section
+          - _id: 45597710-c854-43be-ad93-c02910a120a8
+            type: container
+            slots:
+              container-inner:
+                - _id: a7ac5864-73cc-491b-a5a9-f023f14c09e6
+                  type: cardBlock
+                  slots:
+                    cardBlockInner:
+                      - _id: 91ee8947-8e53-453a-9836-28cba66faa60
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Step 1
+                          title:
+                            type: text
+                            locales:
+                              en-US: Consult the Guide (that’s us!)
+                          badgeSize:
+                            type: select
+                            value: md
+                          badgeStyle:
+                            type: tp-badge-style-parameter
+                            value: primary
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Get practical travel tips and insights to help
+                                you explore confidently and make the most of
+                                every journey.
+                      - _id: e6fdbcb9-03da-4ec1-b367-b6ffb32d5b45
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Step 2
+                          title:
+                            type: text
+                            locales:
+                              en-US: Travel without harming the planet
+                          badgeSize:
+                            type: select
+                            value: md
+                          badgeStyle:
+                            type: tp-badge-style-parameter
+                            value: primary
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Enjoy fresh air and eco-friendly composting
+                                toilets for a comfortable, sustainable stay.
+                      - _id: 25ef6696-e771-49c4-8490-7ebbb1ad59cf
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Step 3
+                          title:
+                            type: text
+                            locales:
+                              en-US: Travel by public transport
+                          badgeSize:
+                            type: select
+                            value: md
+                          badgeStyle:
+                            type: tp-badge-style-parameter
+                            value: primary
+                          description:
+                            type: text
+                            locales:
+                              en-US: Lower emissions, higher chances of adventure.
+                      - _id: a92083de-1fe1-43df-974a-97376a9fba05
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Step 4
+                          title:
+                            type: text
+                            locales:
+                              en-US: Share your adventures
+                          badgeSize:
+                            type: select
+                            value: md
+                          badgeStyle:
+                            type: tp-badge-style-parameter
+                            value: primary
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Share your travel story to inspire others—and
+                                you could win a Babel Fish!
+                  variant: carousel
+                  parameters:
+                    title:
+                      type: text
+                      locales:
+                        en-US: Infinite improbability checklist
+                    titleStyle:
+                      type: tp-title-style-parameter
+                      value: h2
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Travel green, stay mostly harmless, and discover
+                          eco-friendly adventures that make a real difference.
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Checklist
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Medium
+          - _id: 566ddf9f-51ea-4528-bd30-e8468c22d77a
+            type: container
+            slots:
+              container-inner:
+                - _id: 759a32a0-f0d5-4e06-b90d-28298c570870
+                  type: cardBlock
+                  slots:
+                    cardBlockInner:
+                      - _id: eedc5b7a-9224-41f3-a67b-3c23c74bd6f6
+                        type: grid
+                        slots:
+                          grid-inner:
+                            - _id: 2c97ba87-ff6b-422e-bfa6-21e1cf6187e4
+                              type: card
+                              variant: backgroundImage
+                              _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+                              _overridability:
+                                parameters:
+                                  badge: 'yes'
+                                  image: 'yes'
+                                  title: 'yes'
+                                  badgeSize: 'yes'
+                                  objectFit: 'yes'
+                                  badgeStyle: 'yes'
+                                  buttonCopy: 'yes'
+                                  buttonLink: 'yes'
+                                  buttonStyle: 'yes'
+                                  description: 'yes'
+                                  overlayColor: 'yes'
+                                  overlayOpacity: 'yes'
+                                  textColorVariant: 'yes'
+                            - _id: c1db947d-5276-4183-9216-c011781a5cea
+                              type: card
+                              variant: backgroundImage
+                              _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+                              _overridability:
+                                parameters:
+                                  badge: 'yes'
+                                  image: 'yes'
+                                  title: 'yes'
+                                  badgeSize: 'yes'
+                                  objectFit: 'yes'
+                                  badgeStyle: 'yes'
+                                  buttonCopy: 'yes'
+                                  buttonLink: 'yes'
+                                  buttonStyle: 'yes'
+                                  description: 'yes'
+                                  overlayColor: 'yes'
+                                  overlayOpacity: 'yes'
+                                  textColorVariant: 'yes'
+                            - _id: 42d55fee-e35f-486e-a000-e9f3f1f2af23
+                              type: card
+                              variant: backgroundImage
+                              _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
+                              _overridability:
+                                parameters:
+                                  badge: 'yes'
+                                  image: 'yes'
+                                  title: 'yes'
+                                  badgeSize: 'yes'
+                                  objectFit: 'yes'
+                                  badgeStyle: 'yes'
+                                  buttonCopy: 'yes'
+                                  buttonLink: 'yes'
+                                  buttonStyle: 'yes'
+                                  description: 'yes'
+                                  overlayColor: 'yes'
+                                  overlayOpacity: 'yes'
+                                  textColorVariant: 'yes'
+                        parameters:
+                          gapX:
+                            type: tp-slider-parameter
+                            value: small
+                          gapY:
+                            type: tp-slider-parameter
+                            value: small
+                          columnsCount:
+                            type: tp-slider-parameter
+                            locales:
+                              en-US: '1'
+                            localesConditions:
+                              en-US:
+                                - id: 0
+                                  when:
+                                    clauses:
+                                      - op: is
+                                        rule: $qk
+                                        value:
+                                          - t
+                                          - d
+                                        source: deviceType
+                                  value: '3'
+                  parameters:
+                    title:
+                      type: text
+                      locales:
+                        en-US: Discover authentic travel experiences
+                    titleStyle:
+                      type: tp-title-style-parameter
+                      value: h2
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Discover eco-friendly destinations that offer real
+                          experiences and support local communities—no
+                          planet-harming required.
+                    textColorVariant:
+                      type: select
+                      value: Light
+                - _id: b671e090-1f78-4bb1-a415-69ba66ab27dd
+                  type: icon
+                  parameters:
+                    icon:
+                      type: lucide-icons-icon
+                      value:
+                        icon: atom
+                    size:
+                      type: select
+                      value: md
+                    color:
+                      type: select
+                      value: currentColor
+                    strokeWidth:
+                      type: select
+                      value: default
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Destinations
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Dark
+          - _id: fade6df3-c09d-4413-8bf3-e42a5f678343
+            type: container
+            slots:
+              container-inner:
+                - _id: eec19df4-d50b-4dfb-b2fd-4fe91926844b
+                  type: callToAction
+                  parameters:
+                    title:
+                      type: text
+                      locales:
+                        en-US: Grab the guide that’s more useful than a Babel Fish
+                    titleStyle:
+                      type: tp-title-style-parameter
+                      value: h2
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          From towels to tips, this guide helps you travel
+                          green, avoid Vogon poetry, and maybe even find the
+                          answer to eco-friendly adventure (hint: it’s not 42).
+                    eyebrowText:
+                      type: text
+                      locales:
+                        en-US: Don’t Panic—Download Now!
+                    primaryButtonCopy:
+                      type: text
+                      locales:
+                        en-US: Get My Towel & Guide
+                    primaryButtonLink:
+                      type: link
+                      locales:
+                        en-US:
+                          path: /${locale}/shop
+                          type: projectMapNode
+                          nodeId: 95f04d2f-283d-4cee-91c2-62be739e19db
+                          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            locale: ${locale}
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Call to action
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Medium
+          - _id: b3ca21f3-94db-4118-b5b2-c0d0e1523f45
+            type: container
+            slots:
+              container-inner:
+                - _id: 3c356be1-abcc-4244-a349-8170aabb6122
+                  type: richText
+                  parameters:
+                    content:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - tag: h2
+                                type: heading
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: What Intergalactic Travelers Are Saying
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - _id: a7a2802c-18c2-445b-8e66-256a50772273
+                  type: grid
+                  slots:
+                    grid-inner:
+                      - _id: 06f0720d-2fc5-4e0c-a427-c595804f73c7
+                        type: review
+                        parameters:
+                          stars:
+                            type: tp-slider-parameter
+                            value: '5'
+                          title:
+                            type: text
+                            locales:
+                              en-US: Towel essential
+                          personName:
+                            type: text
+                            value: Ford Prefect
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                I never travel without my towel or this guide.
+                                It’s packed with real tips and helps me find
+                                cool, local spots I’d never discover on my own.
+                                Perfect for anyone who wants to travel smarter
+                                and make a positive impact.
+                      - _id: 12afe4f8-9334-4117-b702-ef0589be29c0
+                        type: review
+                        parameters:
+                          stars:
+                            type: tp-slider-parameter
+                            value: '5'
+                          title:
+                            type: text
+                            locales:
+                              en-US: Poetry relief
+                          personName:
+                            type: text
+                            value: Arthur Dent
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Way better than Vogon poetry! I had a great
+                                experience—everything felt genuine and
+                                well-organized. Would definitely recommend to
+                                anyone looking for real, meaningful travel.
+                      - _id: f85380ac-e4e3-4783-9ca5-c371e47ee2b6
+                        type: review
+                        parameters:
+                          stars:
+                            type: tp-slider-parameter
+                            value: '5'
+                          title:
+                            type: text
+                            locales:
+                              en-US: Almost 42
+                          personName:
+                            type: text
+                            value: Zaphod Beeblebrox
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                I found the answer to eco-travel. It’s not 42,
+                                but it’s close. Sustainable adventures here make
+                                every trip meaningful and fun!
+                      - _id: 0a1345ce-0f89-4229-8903-9e33f2705d71
+                        type: review
+                        parameters:
+                          stars:
+                            type: tp-slider-parameter
+                            value: '4'
+                          title:
+                            type: text
+                            locales:
+                              en-US: Mildly depressing
+                          personName:
+                            type: text
+                            value: Marvin the Paranoid Android
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                I suppose eco-friendly travel is fine, if you
+                                like that sort of thing. Not that it matters.
+                                Nothing does.
+                  parameters:
+                    gapX:
+                      type: tp-slider-parameter
+                      value: medium
+                    gapY:
+                      type: tp-slider-parameter
+                      value: medium
+                    columnsCount:
+                      type: tp-slider-parameter
+                      locales:
+                        en-US: '1'
+                      localesConditions:
+                        en-US:
+                          - id: 0
+                            when:
+                              clauses:
+                                - op: is
+                                  rule: $qk
+                                  value:
+                                    - t
+                                    - d
+                                  source: deviceType
+                            value: '2'
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Testimonials
+          - _id: e4051c0c-e234-4c44-8420-5be2a0c839f8
+            type: container
+            slots:
+              container-inner:
+                - _id: 609d432f-2e13-409b-98b5-b20bd3873730
+                  type: accordion
+                  slots:
+                    items:
+                      - _id: c7ebaf8a-53d4-47ac-9c75-69c5d9c6f738
+                        type: accordionItem
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Is hitchhiking still a thing?
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Definitely! Make sure your thumb is easy to spot
+                                and try to choose rides that are at least
+                                carbon-neutral—it's better for the planet and
+                                keeps your travels sustainable.
+                      - _id: cfa581cd-92db-4e30-8c69-e567fba56757
+                        type: accordionItem
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: What happens if I forget my towel?
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                You'll be fine without it, but you might miss
+                                some creative uses—like a scarf doubling as a
+                                towel or blanket. Pro tip: pack a lightweight,
+                                reusable scarf for extra versatility on the
+                                road.
+                      - _id: e3a77404-8833-4c24-a02f-6b03380b4e93
+                        type: accordionItem
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: >-
+                                How can I avoid harmful environmental impacts
+                                when traveling?
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Stick to local experiences, use public
+                                transport, and always recycle your
+                                guidebooks—unless they’re this one.
+                      - _id: 85804a61-0eed-4c89-8f8e-57107c9a1a38
+                        type: accordionItem
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Can I get lost using this guide?
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Getting lost is rare if you follow directions
+                                and use a map, but sometimes the best adventures
+                                happen when you wander off the planned route.
+                                Stay open to surprises, but always keep your
+                                safety and local guidelines in mind.
+                      - _id: aad4248d-33c5-4efa-83f6-7d4068c5cbf7
+                        type: accordionItem
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Is eco-friendly travel more expensive?
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Not necessarily! Often, the most sustainable
+                                choices—like walking, biking, or sharing
+                                rides—are also the most budget-friendly. You can
+                                travel responsibly without spending more, and
+                                sometimes you'll even save money along the way.
+                  parameters:
+                    title:
+                      type: text
+                      locales:
+                        en-US: Frequently asked questions
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: FAQ section
+          - _id: b20367c2-2974-4fcd-8bd9-d9727ab391f8
+            type: container
+            slots:
+              container-inner:
+                - _id: 7fa17459-193f-4c1f-89e5-6357534c7b5d
+                  type: callToAction
+                  parameters:
+                    title:
+                      type: text
+                      locales:
+                        en-US: Galactic Travels Doesn’t Exist (Yet!)
+                    titleStyle:
+                      type: tp-title-style-parameter
+                      value: h2
+                    description:
+                      type: text
+                      locales:
+                        en-US: >+
+                          If you were hoping for a real spaceship, a Babel Fish,
+                          or a Pan Galactic Gargle Blaster, we’re sorry to
+                          disappoint (for now).
+
+                          But if you want to explore the beauty of Earth with a
+                          light footprint 🌍🦶, check out our real destinations
+                          and start your own adventure.
+
+                    eyebrowText:
+                      type: text
+                      locales:
+                        en-US: 🚀 Parody Alert! 🚀
+                    textColorVariant:
+                      type: select
+                      value: Light
+                    primaryButtonCopy:
+                      type: text
+                      locales:
+                        en-US: Explore Real Destinations
+                    primaryButtonLink:
+                      type: link
+                      locales:
+                        en-US:
+                          path: /en-US/destinations
+                          type: projectMapNode
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Parody CTA
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Dark
+    338f91f9-0baa-4a42-b947-eed39e15be52|4b328fd1-c6ac-4666-8bb7-9d0996320c43:
+      variant: imageRight
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: e034f11d-bac0-4772-8f56-d7c4901bbd1f
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=85
+                title:
+                  type: text
+                  value: silhouette photography of person
+                width:
+                  type: number
+                  value: 5616
+                custom:
+                  type: object
+                  value:
+                    color: '#260c0c'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/silhouette-photography-of-person-oMpAz-DN-9I
+                    blurHash: LSB{W3Vs0zXSIqbaxZn%56kW-Vni
+                    sourceId: oMpAz-DN-9I
+                    createdAt: '2015-10-13T02:36:06Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/silhouette-photography-of-person-oMpAz-DN-9I
+                    updatedAt: '2025-08-20T09:33:13Z'
+                    authorName: Greg Rakozy
+                    downloadUrl: >-
+                      https://unsplash.com/photos/oMpAz-DN-9I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=200
+                    authorUsername: grakozy
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@grakozy
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/oMpAz-DN-9I/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8Z2FsYXh5fGVufDB8MHx8fDE3NTU2ODQ5NTR8MA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1495388545592-e4e376925c59?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 3744
+                description:
+                  type: text
+                  value: Photo by Greg Rakozy on Unsplash
+              _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        title:
+          type: text
+          value: The Hitchhiker’s Guide to eco-friendly travel
+        objectFit:
+          type: select
+          value: cover
+        fullHeight:
+          type: checkbox
+          value: null
+        paddingTop:
+          type: select
+          value: None
+        description:
+          type: text
+          value: Because the answer to sustainable travel isn’t 42, but it’s close.
+        eyebrowText:
+          type: text
+          value: Don’t Panic!
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        paddingBottom:
+          type: select
+          value: None
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Dark
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 0%
+        textColorVariant:
+          type: select
+          value: Light
+        primaryButtonCopy:
+          type: text
+          locales:
+            en-US: Start Your Journey
+  _locales:
+    - en-US
+  _pattern: 9854cddc-f320-4a77-b7dc-de9d74638436
+created: '2025-08-20T09:38:32.610069+00:00'
+modified: '2025-08-24T12:00:25.248029+00:00'
+pattern: false

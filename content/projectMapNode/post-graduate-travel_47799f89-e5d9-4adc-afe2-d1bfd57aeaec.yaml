@@ -1,7 +1,7 @@
 id: 47799f89-e5d9-4adc-afe2-d1bfd57aeaec
 name: Post graduate travel
-order: 693
-path: /:locale/post-graduate-travel
+order: 700
+path: /:locale/lp/post-graduate-travel
 type: composition
 pathSegment: post-graduate-travel
 data: {}

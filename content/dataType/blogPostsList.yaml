@@ -1,5 +1,7 @@
 id: blogPostsList
 displayName: Blog post List
+ttl: 30
+body: ''
 path: /query
 custom:
   allowedContentTypes:

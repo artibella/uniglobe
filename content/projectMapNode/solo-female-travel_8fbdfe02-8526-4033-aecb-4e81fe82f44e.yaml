@@ -1,7 +1,7 @@
 id: 8fbdfe02-8526-4033-aecb-4e81fe82f44e
 name: Solo female travel
 order: 625
-path: /:locale/solo-female-travel
+path: /:locale/lp/solo-female-travel
 type: composition
 pathSegment: solo-female-travel
 data:

@@ -1,0 +1,1339 @@
+composition:
+  _name: Eco-Conscious Adventures for Millennials & Gen-Z
+  _id: aa186399-5c7d-48c6-bb50-13d48d8d3a3d
+  _slug: conscious-adventures
+  type: page
+  _overrides:
+    aa186399-5c7d-48c6-bb50-13d48d8d3a3d:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            en-US: >-
+              Travel with Purpose: Eco-Conscious Adventures for Millennials &
+              Gen-Z
+        openGraphImage:
+          type: asset
+          value:
+            - _id: 07ccc035-2001-488d-9961-288a8dd73cb8
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1496531693211-31c5234a5ea9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzU0NjQ1MzU4fDA&ixlib=rb-4.1.0&q=85
+                title:
+                  type: text
+                  value: >-
+                    First morning of my backpacking trip around Bali. Woke up at
+                    5 to meet up with a local I had never met which turned out
+                    to be the highlight of my trip.
+                width:
+                  type: number
+                  value: 5472
+                custom:
+                  type: object
+                  value:
+                    color: '#f3f3f3'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/person-standing-on-edge-of-mountain-facing-palm-tree-WdQuEEJe-O0
+                    blurHash: LjGS12-UDiR*_NxZITWBx^WWNGn$
+                    sourceId: WdQuEEJe-O0
+                    createdAt: '2017-06-03T23:17:36Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/person-standing-on-edge-of-mountain-facing-palm-tree-WdQuEEJe-O0
+                    updatedAt: '2025-08-08T04:54:00Z'
+                    authorName: Jamie Fenn
+                    downloadUrl: >-
+                      https://unsplash.com/photos/WdQuEEJe-O0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzU0NjQ1MzU4fDA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1496531693211-31c5234a5ea9?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzU0NjQ1MzU4fDA&ixlib=rb-4.1.0
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1496531693211-31c5234a5ea9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzU0NjQ1MzU4fDA&ixlib=rb-4.1.0&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1496531693211-31c5234a5ea9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzU0NjQ1MzU4fDA&ixlib=rb-4.1.0&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1496531693211-31c5234a5ea9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzU0NjQ1MzU4fDA&ixlib=rb-4.1.0&q=80&w=200
+                    authorUsername: jamie_fenn
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1496531693211-31c5234a5ea9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzU0NjQ1MzU4fDA&ixlib=rb-4.1.0&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@jamie_fenn
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/WdQuEEJe-O0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxlY28lMjB0cmF2ZWx8ZW58MHx8fHwxNzU0NjQ1MzU4fDA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1615347163083-3436cace16d9image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 3648
+                description:
+                  type: text
+                  value: Photo by Jamie Fenn on Unsplash
+              _source: unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+        openGraphTitle:
+          type: text
+          locales:
+            en-US: >-
+              🌍 Ready for Adventure? Discover Eco-Friendly Travel for
+              Millennials & Gen-Z!
+        pageMetaDescription:
+          type: text
+          locales:
+            en-US: >-
+              Explore ethical, low-impact travel for millennials and Gen-Z.
+              Discover sustainable tips and purpose-driven journeys with
+              Uniglobe. Start your adventure!
+        openGraphDescription:
+          type: text
+          locales:
+            en-US: >-
+              Travel with purpose! Find ethical, low-impact adventures and
+              sustainable tips for Gen-Z & millennials. Start your conscious
+              journey today! #TravelBetter
+    aa186399-5c7d-48c6-bb50-13d48d8d3a3d|1b5e7f73-2c6c-45c6-9b64-40fa984e9a9b:
+      slots:
+        $slotSectionItems:
+          - _id: 647957a9-aeec-42d2-b2d8-cd7c57a70381
+            type: container
+            slots:
+              container-inner:
+                - _id: 0167b658-9694-4c3e-a3d6-c96ee7837487
+                  type: featuredCallout
+                  slots:
+                    feature:
+                      - _id: 72dca23e-91a4-4d56-9398-ea5ce4bf92ae
+                        type: feature
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Mindful travel
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Track and understand your impact to make more
+                                sustainable choices every day.
+                      - _id: 8a619725-08f0-4cfe-a9fc-7384f975d587
+                        type: feature
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Ethical tourism
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Empowers local communities by supporting fair
+                                wages and ethical practices.
+                      - _id: 0e157db0-0104-4a1c-8942-abdae85d95c3
+                        type: feature
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Climate-friendly trips
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Minimize your environmental impact by reducing
+                                emissions and waste.
+                  parameters:
+                    image:
+                      type: asset
+                      locales:
+                        en-US:
+                          - _id: 2ccc8759-a9dd-409c-a9f4-18be43e80256
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.unsplash.com/photo-1600849562126-d4670368803e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBuYXR1cmUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NTQ2NDY3NDR8MA&ixlib=rb-4.1.0&q=85
+                              title:
+                                type: text
+                                value: I lift my eyes up to the mountains
+                              width:
+                                type: number
+                                value: 5976
+                              custom:
+                                type: object
+                                value:
+                                  color: '#f3f3f3'
+                                  apiUrl: >-
+                                    https://api.unsplash.com/photos/woman-in-pink-shirt-standing-near-lake-during-daytime-3mCbSpPmAJs
+                                  blurHash: LrJRgg?bRjoe_Nj@Rit7?boefkj[
+                                  sourceId: 3mCbSpPmAJs
+                                  createdAt: '2020-09-23T08:26:18Z'
+                                  detailUrl: >-
+                                    https://unsplash.com/photos/woman-in-pink-shirt-standing-near-lake-during-daytime-3mCbSpPmAJs
+                                  updatedAt: '2025-08-08T07:10:23Z'
+                                  authorName: Simon Maage
+                                  downloadUrl: >-
+                                    https://unsplash.com/photos/3mCbSpPmAJs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBuYXR1cmUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NTQ2NDY3NDR8MA
+                                  photoRawUrl: >-
+                                    https://images.unsplash.com/photo-1600849562126-d4670368803e?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBuYXR1cmUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NTQ2NDY3NDR8MA&ixlib=rb-4.1.0
+                                  photoFullUrl: >-
+                                    https://images.unsplash.com/photo-1600849562126-d4670368803e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBuYXR1cmUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NTQ2NDY3NDR8MA&ixlib=rb-4.1.0&q=85
+                                  photoSmallUrl: >-
+                                    https://images.unsplash.com/photo-1600849562126-d4670368803e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBuYXR1cmUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NTQ2NDY3NDR8MA&ixlib=rb-4.1.0&q=80&w=400
+                                  photoThumbUrl: >-
+                                    https://images.unsplash.com/photo-1600849562126-d4670368803e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBuYXR1cmUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NTQ2NDY3NDR8MA&ixlib=rb-4.1.0&q=80&w=200
+                                  authorUsername: simonmaage
+                                  photoRegularUrl: >-
+                                    https://images.unsplash.com/photo-1600849562126-d4670368803e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBuYXR1cmUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NTQ2NDY3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080
+                                  authorProfileUrl: https://unsplash.com/@simonmaage
+                                  downloadLocation: >-
+                                    https://api.unsplash.com/photos/3mCbSpPmAJs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHx0cmF2ZWwlMjBuYXR1cmUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NTQ2NDY3NDR8MA
+                                  authorProfileImage: >-
+                                    https://images.unsplash.com/profile-1606845429244-41f07903b273image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                              height:
+                                type: number
+                                value: 3992
+                              description:
+                                type: text
+                                value: Photo by Simon Maage on Unsplash
+                            _source: unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+                    title:
+                      type: text
+                      locales:
+                        en-US: What is conscious travel?
+                    titleStyle:
+                      type: tp-title-style-parameter
+                      value: h2
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Conscious travel means making choices that benefit
+                          Planet, People, and Purpose. It’s about slowing down,
+                          respecting local cultures, and leaving each
+                          destination better than you found it.
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: What is conscious travel?
+          - _id: d8be5268-5920-4af2-8bf3-8cedda2f6059
+            type: container
+            slots:
+              container-inner:
+                - _id: be375841-e7dc-4baa-b884-54dd8503e938
+                  type: cardBlock
+                  slots:
+                    cardBlockInner:
+                      - _id: 9edfa10d-f112-4e1e-95ea-fec2ab9aa800
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Eco
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: ab2cb4b4-5c4c-4d48-969a-c66b04e241d5
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1678498308063-645fb0748fd8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjBzaWdufGVufDB8fHx8MTc1NDY0NzcwOXww&ixlib=rb-4.1.0&q=85
+                                    title:
+                                      type: text
+                                      value: a street sign with a bicycle on it
+                                    width:
+                                      type: number
+                                      value: 4000
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#262626'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/a-street-sign-with-a-bicycle-on-it-AxtJQVuM-j4
+                                        blurHash: LXHxsL01aiWA01oht6bEatohM|t7
+                                        sourceId: AxtJQVuM-j4
+                                        createdAt: '2023-03-11T01:35:15Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/a-street-sign-with-a-bicycle-on-it-AxtJQVuM-j4
+                                        updatedAt: '2025-08-08T07:47:01Z'
+                                        authorName: Alexander Kaufmann
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/AxtJQVuM-j4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjBzaWdufGVufDB8fHx8MTc1NDY0NzcwOXww
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1678498308063-645fb0748fd8?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjBzaWdufGVufDB8fHx8MTc1NDY0NzcwOXww&ixlib=rb-4.1.0
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1678498308063-645fb0748fd8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjBzaWdufGVufDB8fHx8MTc1NDY0NzcwOXww&ixlib=rb-4.1.0&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1678498308063-645fb0748fd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjBzaWdufGVufDB8fHx8MTc1NDY0NzcwOXww&ixlib=rb-4.1.0&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1678498308063-645fb0748fd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjBzaWdufGVufDB8fHx8MTc1NDY0NzcwOXww&ixlib=rb-4.1.0&q=80&w=200
+                                        authorUsername: alexander_kaufmann
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1678498308063-645fb0748fd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjBzaWdufGVufDB8fHx8MTc1NDY0NzcwOXww&ixlib=rb-4.1.0&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@alexander_kaufmann
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/AxtJQVuM-j4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHxlY28lMjBzaWdufGVufDB8fHx8MTc1NDY0NzcwOXww
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-1617539218392-b901b54408eeimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 6000
+                                    description:
+                                      type: text
+                                      value: Photo by Alexander Kaufmann on Unsplash
+                                  _source: >-
+                                    unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+                          title:
+                            type: text
+                            locales:
+                              en-US: Sustainable travel
+                          objectFit:
+                            type: select
+                            locales:
+                              en-US: cover
+                          buttonCopy:
+                            type: text
+                            locales:
+                              en-US: Learn more
+                          buttonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /:locale/sustainable-travel
+                                type: projectMapNode
+                                nodeId: 12a9581f-969f-4e92-a9b2-c4c7abbc0ea5
+                                projectMapId: ''
+                                dynamicInputValues:
+                                  locale: ${locale}
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Eco-friendly trips that minimize your impact and
+                                maximize your experience.
+                          textColorVariant:
+                            type: select
+                            value: Light
+                      - _id: e1bc4c9b-0845-4370-9914-8bf47e00646c
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Remote
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: 70d6a9ce-cc5a-45c3-9d2f-488f718f03c8
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1652088241116-5faf85b6c6aa?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzU0NjQ3ODAyfDA&ixlib=rb-4.1.0&q=85
+                                    title:
+                                      type: text
+                                      value: >-
+                                        A girl working on the table on the
+                                        terrace. Many laptops and other staff.
+                                        Side view
+                                    width:
+                                      type: number
+                                      value: 4000
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#262626'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/a-person-using-a-laptop-KfnUVCCTDDI
+                                        blurHash: LFB:]KRi4TV@-,xa9ZWX.9RkROs,
+                                        sourceId: KfnUVCCTDDI
+                                        createdAt: '2022-05-09T09:27:59Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/a-person-using-a-laptop-KfnUVCCTDDI
+                                        updatedAt: '2025-08-08T09:05:44Z'
+                                        authorName: Aleh Tsikhanau
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/KfnUVCCTDDI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzU0NjQ3ODAyfDA
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1652088241116-5faf85b6c6aa?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzU0NjQ3ODAyfDA&ixlib=rb-4.1.0
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1652088241116-5faf85b6c6aa?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzU0NjQ3ODAyfDA&ixlib=rb-4.1.0&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1652088241116-5faf85b6c6aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzU0NjQ3ODAyfDA&ixlib=rb-4.1.0&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1652088241116-5faf85b6c6aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzU0NjQ3ODAyfDA&ixlib=rb-4.1.0&q=80&w=200
+                                        authorUsername: ethnoza
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1652088241116-5faf85b6c6aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzU0NjQ3ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@ethnoza
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/KfnUVCCTDDI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwbm9tYWR8ZW58MHx8fHwxNzU0NjQ3ODAyfDA
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-1617740182648-b0a4891275e9image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 2668
+                                    description:
+                                      type: text
+                                      value: Photo by Aleh Tsikhanau on Unsplash
+                                  _source: >-
+                                    unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+                          title:
+                            type: text
+                            locales:
+                              en-US: Digital nomads
+                          buttonCopy:
+                            type: text
+                            locales:
+                              en-US: Learn more
+                          buttonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /:locale/digital-nomads
+                                type: projectMapNode
+                                nodeId: f5a4c23b-523e-4f6b-ad38-17b9e7f216d5
+                                projectMapId: ''
+                                dynamicInputValues:
+                                  locale: ${locale}
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Work and explore the world with flexibility and
+                                purpose.
+                          textColorVariant:
+                            type: select
+                            value: Light
+                          lineCountRestriction:
+                            type: tp-slider-parameter
+                            value: none
+                      - _id: e9fb1f63-3b35-41ea-b7f8-563e68ae16f5
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Empower
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: 4604c894-42e1-4e02-a7b5-69e67c7e0327
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1563211835-ce698286fb4a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxXb21hbiUyMHdpdGglMjBiYWNrcGFja3xlbnwwfDB8fHwxNzU0NjQ3ODQ2fDA&ixlib=rb-4.1.0&q=85
+                                    title:
+                                      type: text
+                                      value: >-
+                                        Adventure out into the world! It’s a
+                                        beautiful place with a lot to offer. 
+
+
+                                        Follow me at Instagram.com/charleypangus
+                                        for more photos.  
+                                    width:
+                                      type: number
+                                      value: 5965
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#262626'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/woman-standing-on-brown-wooden-bridge-S_TmqBjlglM
+                                        blurHash: LIA-3KIBt2n+_MMyt6t7xtWBWEt7
+                                        sourceId: S_TmqBjlglM
+                                        createdAt: '2019-07-15T17:31:37Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/woman-standing-on-brown-wooden-bridge-S_TmqBjlglM
+                                        updatedAt: '2025-08-08T06:00:42Z'
+                                        authorName: charley pangus
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/S_TmqBjlglM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxXb21hbiUyMHdpdGglMjBiYWNrcGFja3xlbnwwfDB8fHwxNzU0NjQ3ODQ2fDA
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1563211835-ce698286fb4a?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxXb21hbiUyMHdpdGglMjBiYWNrcGFja3xlbnwwfDB8fHwxNzU0NjQ3ODQ2fDA&ixlib=rb-4.1.0
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1563211835-ce698286fb4a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxXb21hbiUyMHdpdGglMjBiYWNrcGFja3xlbnwwfDB8fHwxNzU0NjQ3ODQ2fDA&ixlib=rb-4.1.0&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1563211835-ce698286fb4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxXb21hbiUyMHdpdGglMjBiYWNrcGFja3xlbnwwfDB8fHwxNzU0NjQ3ODQ2fDA&ixlib=rb-4.1.0&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1563211835-ce698286fb4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxXb21hbiUyMHdpdGglMjBiYWNrcGFja3xlbnwwfDB8fHwxNzU0NjQ3ODQ2fDA&ixlib=rb-4.1.0&q=80&w=200
+                                        authorUsername: charleypangus
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1563211835-ce698286fb4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxXb21hbiUyMHdpdGglMjBiYWNrcGFja3xlbnwwfDB8fHwxNzU0NjQ3ODQ2fDA&ixlib=rb-4.1.0&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@charleypangus
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/S_TmqBjlglM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxXb21hbiUyMHdpdGglMjBiYWNrcGFja3xlbnwwfDB8fHwxNzU0NjQ3ODQ2fDA
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-1563085318308-a01afeba5384?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 4480
+                                    description:
+                                      type: text
+                                      value: Photo by charley pangus on Unsplash
+                                  _source: >-
+                                    unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+                          title:
+                            type: text
+                            locales:
+                              en-US: Solo female travel
+                          buttonCopy:
+                            type: text
+                            locales:
+                              en-US: Learn more
+                          buttonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /:locale/solo-female-travel
+                                type: projectMapNode
+                                nodeId: 8fbdfe02-8526-4033-aecb-4e81fe82f44e
+                                projectMapId: ''
+                                dynamicInputValues:
+                                  locale: ${locale}
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Empowering journeys for independent women
+                                travelers.
+                          textColorVariant:
+                            type: select
+                            value: Light
+                          lineCountRestriction:
+                            type: tp-slider-parameter
+                            value: none
+                      - _id: 1922f4c8-cc4a-433f-9cf0-8fc1c858b78c
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Adventure
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: 4104e179-fadb-42e5-94cf-fdf66d72cc3f
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXB8ZW58MHx8fHwxNzU0NjQ3ODczfDA&ixlib=rb-4.1.0&q=85
+                                    title:
+                                      type: text
+                                      value: "my work space. \r\nI’m the founder of the company Arttravelling ( travel for artist)"
+                                    width:
+                                      type: number
+                                      value: 2991
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#c0c0a6'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/eyeglasses-on-map-qoAIlAmLJBU
+                                        blurHash: LHJkDa%g%4X7_Mx]-;r?S5x]tR%M
+                                        sourceId: qoAIlAmLJBU
+                                        createdAt: '2018-01-21T14:56:46Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/eyeglasses-on-map-qoAIlAmLJBU
+                                        updatedAt: '2025-08-08T06:14:54Z'
+                                        authorName: oxana v
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/qoAIlAmLJBU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXB8ZW58MHx8fHwxNzU0NjQ3ODczfDA
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXB8ZW58MHx8fHwxNzU0NjQ3ODczfDA&ixlib=rb-4.1.0
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXB8ZW58MHx8fHwxNzU0NjQ3ODczfDA&ixlib=rb-4.1.0&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXB8ZW58MHx8fHwxNzU0NjQ3ODczfDA&ixlib=rb-4.1.0&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXB8ZW58MHx8fHwxNzU0NjQ3ODczfDA&ixlib=rb-4.1.0&q=80&w=200
+                                        authorUsername: arttravelling
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXB8ZW58MHx8fHwxNzU0NjQ3ODczfDA&ixlib=rb-4.1.0&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@arttravelling
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/qoAIlAmLJBU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxtYXB8ZW58MHx8fHwxNzU0NjQ3ODczfDA
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-1487786807614-04a6c15bc851?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 3744
+                                    description:
+                                      type: text
+                                      value: Photo by oxana v on Unsplash
+                                  _source: >-
+                                    unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+                          title:
+                            type: text
+                            locales:
+                              en-US: Gap year travel
+                          buttonCopy:
+                            type: text
+                            locales:
+                              en-US: Learn more
+                          buttonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /:locale/gap-year-travel
+                                type: projectMapNode
+                                nodeId: 542d4976-810a-48e9-8e4b-7406b5fd033b
+                                projectMapId: ''
+                                dynamicInputValues:
+                                  locale: ${locale}
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Take a break, see the world, and grow between
+                                life stages.
+                          textColorVariant:
+                            type: select
+                            value: Light
+                      - _id: 07c97aef-a408-4485-b059-37e883c3ae83
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Milestone
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: cc0f6b6b-89e5-405d-9ca6-1963210c5a59
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1650064175560-369b5b45b649?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxHcmFkdWF0aW9uJTIwY2FwfGVufDB8fHx8MTc1NDY0NzkwMnww&ixlib=rb-4.1.0&q=85
+                                    title:
+                                      type: text
+                                      value: a smiley face wearing a graduation cap
+                                    width:
+                                      type: number
+                                      value: 6016
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#59a6c0'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/a-smiley-face-wearing-a-graduation-cap-iMfG5py52LA
+                                        blurHash: LJB6GJ8wT2peIbjIadadTfo~nLZ#
+                                        sourceId: iMfG5py52LA
+                                        createdAt: '2022-04-15T23:35:00Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/a-smiley-face-wearing-a-graduation-cap-iMfG5py52LA
+                                        updatedAt: '2025-08-08T06:36:12Z'
+                                        authorName: Rohit Tandon
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/iMfG5py52LA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxHcmFkdWF0aW9uJTIwY2FwfGVufDB8fHx8MTc1NDY0NzkwMnww
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1650064175560-369b5b45b649?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxHcmFkdWF0aW9uJTIwY2FwfGVufDB8fHx8MTc1NDY0NzkwMnww&ixlib=rb-4.1.0
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1650064175560-369b5b45b649?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxHcmFkdWF0aW9uJTIwY2FwfGVufDB8fHx8MTc1NDY0NzkwMnww&ixlib=rb-4.1.0&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1650064175560-369b5b45b649?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxHcmFkdWF0aW9uJTIwY2FwfGVufDB8fHx8MTc1NDY0NzkwMnww&ixlib=rb-4.1.0&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1650064175560-369b5b45b649?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxHcmFkdWF0aW9uJTIwY2FwfGVufDB8fHx8MTc1NDY0NzkwMnww&ixlib=rb-4.1.0&q=80&w=200
+                                        authorUsername: sepoys
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1650064175560-369b5b45b649?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxHcmFkdWF0aW9uJTIwY2FwfGVufDB8fHx8MTc1NDY0NzkwMnww&ixlib=rb-4.1.0&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@sepoys
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/iMfG5py52LA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw5fHxHcmFkdWF0aW9uJTIwY2FwfGVufDB8fHx8MTc1NDY0NzkwMnww
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-1583450243960-278b0a4f3f27image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 4000
+                                    description:
+                                      type: text
+                                      value: Photo by Rohit Tandon on Unsplash
+                                  _source: >-
+                                    unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+                          title:
+                            type: text
+                            locales:
+                              en-US: Post-grad travel
+                          buttonCopy:
+                            type: text
+                            locales:
+                              en-US: Learn more
+                          buttonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /post-graduate-travel
+                                type: projectMapNode
+                                nodeId: post-graduate-travel
+                                projectMapId: main
+                                dynamicInputValues: {}
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Celebrate your achievements with a meaningful
+                                travel experience.
+                          textColorVariant:
+                            type: select
+                            value: Light
+                      - _id: da66f4c9-3acf-4930-bb3d-813a42b724fa
+                        type: card
+                        parameters:
+                          badge:
+                            type: text
+                            locales:
+                              en-US: Recharge
+                          image:
+                            type: asset
+                            locales:
+                              en-US:
+                                - _id: e4c1c0ab-07c8-4e29-b99c-39de0956477e
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxzdW5yaXNlfGVufDB8fHx8MTc1NDY0NzkzMXww&ixlib=rb-4.1.0&q=85
+                                    title:
+                                      type: text
+                                      value: Hopeful Horizons
+                                    width:
+                                      type: number
+                                      value: 4159
+                                    custom:
+                                      type: object
+                                      value:
+                                        color: '#40260c'
+                                        apiUrl: >-
+                                          https://api.unsplash.com/photos/trees-under-cloudy-sky-during-sunset--G3rw6Y02D0
+                                        blurHash: LTEn;M}=M|EN?bt6RjR,169^n~xZ
+                                        sourceId: '-G3rw6Y02D0'
+                                        createdAt: '2016-08-03T19:31:24Z'
+                                        detailUrl: >-
+                                          https://unsplash.com/photos/trees-under-cloudy-sky-during-sunset--G3rw6Y02D0
+                                        updatedAt: '2025-08-08T06:50:14Z'
+                                        authorName: Dawid Zawiła
+                                        downloadUrl: >-
+                                          https://unsplash.com/photos/-G3rw6Y02D0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxzdW5yaXNlfGVufDB8fHx8MTc1NDY0NzkzMXww
+                                        photoRawUrl: >-
+                                          https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxzdW5yaXNlfGVufDB8fHx8MTc1NDY0NzkzMXww&ixlib=rb-4.1.0
+                                        photoFullUrl: >-
+                                          https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxzdW5yaXNlfGVufDB8fHx8MTc1NDY0NzkzMXww&ixlib=rb-4.1.0&q=85
+                                        photoSmallUrl: >-
+                                          https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxzdW5yaXNlfGVufDB8fHx8MTc1NDY0NzkzMXww&ixlib=rb-4.1.0&q=80&w=400
+                                        photoThumbUrl: >-
+                                          https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxzdW5yaXNlfGVufDB8fHx8MTc1NDY0NzkzMXww&ixlib=rb-4.1.0&q=80&w=200
+                                        authorUsername: davealmine
+                                        photoRegularUrl: >-
+                                          https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxzdW5yaXNlfGVufDB8fHx8MTc1NDY0NzkzMXww&ixlib=rb-4.1.0&q=80&w=1080
+                                        authorProfileUrl: https://unsplash.com/@davealmine
+                                        downloadLocation: >-
+                                          https://api.unsplash.com/photos/-G3rw6Y02D0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxzdW5yaXNlfGVufDB8fHx8MTc1NDY0NzkzMXww
+                                        authorProfileImage: >-
+                                          https://images.unsplash.com/profile-fb-1470252302-7f1403f70ad6.jpg?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                                    height:
+                                      type: number
+                                      value: 2773
+                                    description:
+                                      type: text
+                                      value: Photo by Dawid Zawiła on Unsplash
+                                  _source: >-
+                                    unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+                          title:
+                            type: text
+                            locales:
+                              en-US: Sabbaticals
+                          buttonCopy:
+                            type: text
+                            locales:
+                              en-US: Learn more
+                          buttonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /:locale/sabbaticals
+                                type: projectMapNode
+                                nodeId: aefeb70f-ad76-41b0-af38-0787eb259621
+                                projectMapId: ''
+                                dynamicInputValues:
+                                  locale: ${locale}
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Recharge and gain new perspectives with extended
+                                time away.
+                          textColorVariant:
+                            type: select
+                            value: Light
+                  variant: carousel
+                  parameters:
+                    title:
+                      type: text
+                      locales:
+                        en-US: Travel styles that fit your values
+                    titleStyle:
+                      type: tp-title-style-parameter
+                      value: h2
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Explore the ways you can see the world and stay true
+                          to your values. Click each style to learn more.
+                    textColorVariant:
+                      type: select
+                      value: Light
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Travel styles that fit your values
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Dark
+          - _id: 69ba4ee1-e94e-46a3-b215-c562513cc40a
+            type: container
+            slots:
+              container-inner:
+                - _id: bdf823a2-1e35-4727-95bc-fa2261a9ef50
+                  type: richText
+                  parameters:
+                    content:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - tag: h2
+                                type: heading
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Where values meet adventure
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'From '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - mode: normal
+                                    text: slow travel
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' through the vineyards of Portugal to '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - mode: normal
+                                    text: eco-backpacking
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' in Costa Rica, we connect you with experiences that are as good for the soul as they are for the planet.'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: null
+                                textStyle: ''
+                                textFormat: 0
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Examples:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                direction: null
+                                textStyle: ''
+                                textFormat: 0
+                              - tag: ul
+                                type: list
+                                start: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: listitem
+                                    value: 1
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: >-
+                                          Volunteering on regenerative farms in
+                                          New Zealand
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: null
+                                  - type: listitem
+                                    value: 2
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Carbon-neutral island hopping in Greece
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: null
+                                  - type: listitem
+                                    value: 3
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Wildlife conservation projects in Kenya
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: null
+                                listType: bullet
+                                direction: null
+                            direction: null
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Where Values Meet Adventure
+          - _id: 881ae63b-5ed6-406e-bbe8-13e4c88d6afb
+            type: container
+            slots:
+              container-inner:
+                - _id: f2e3cf5e-df69-4ba1-a2cf-3fe71e431ea1
+                  type: featuredCallout
+                  slots:
+                    feature:
+                      - _id: 07bfd4a6-371b-46b8-9153-e6db181b3056
+                        type: feature
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Offset your carbon emissions
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Offset your travel emissions by supporting
+                                certified carbon reduction projects.
+                      - _id: a0ef6b7f-a21f-4888-932b-a3a4740792a3
+                        type: feature
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Travel light with reusables
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Pack only essentials and choose reusable items
+                                for a more efficient trip.
+                      - _id: 11b101f0-81a1-49a3-bb8f-4a36cb1e8d1f
+                        type: feature
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Support ethical, eco-certified operators
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Choose businesses that prioritize people and the
+                                planet.
+                      - _id: e2bdad03-7656-4cb5-b596-94684b7cc2bc
+                        type: feature
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Choose slower transport when possible
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Trains, buses, and bikes offer eco-friendly ways
+                                to explore new destinations.
+                  variant: imageRight
+                  parameters:
+                    image:
+                      type: asset
+                      locales:
+                        en-US:
+                          - _id: 2640b1b7-0bd0-4fde-9df4-cd87203c1326
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.unsplash.com/photo-1541563991147-7ce10f22b1ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxlYXJ0aCUyMGJhbmRhaWR8ZW58MHx8fHwxNzU0NjQ3MzYyfDA&ixlib=rb-4.1.0&q=85
+                              title:
+                                type: text
+                                value: >-
+                                  orange, green, and yellow globe on brown
+                                  wooden surface
+                              width:
+                                type: number
+                                value: 2874
+                              custom:
+                                type: object
+                                value:
+                                  color: '#260c0c'
+                                  apiUrl: >-
+                                    https://api.unsplash.com/photos/orange-green-and-yellow-globe-on-brown-wooden-surface-o6etNDTzdiE
+                                  blurHash: LRBpB~bI0Ms+jYWqj[n$0Mk9?FRl
+                                  sourceId: o6etNDTzdiE
+                                  createdAt: '2018-11-07T04:13:48Z'
+                                  detailUrl: >-
+                                    https://unsplash.com/photos/orange-green-and-yellow-globe-on-brown-wooden-surface-o6etNDTzdiE
+                                  updatedAt: '2025-08-08T07:34:16Z'
+                                  authorName: Brandi Alexandra
+                                  downloadUrl: >-
+                                    https://unsplash.com/photos/o6etNDTzdiE/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxlYXJ0aCUyMGJhbmRhaWR8ZW58MHx8fHwxNzU0NjQ3MzYyfDA
+                                  photoRawUrl: >-
+                                    https://images.unsplash.com/photo-1541563991147-7ce10f22b1ff?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxlYXJ0aCUyMGJhbmRhaWR8ZW58MHx8fHwxNzU0NjQ3MzYyfDA&ixlib=rb-4.1.0
+                                  photoFullUrl: >-
+                                    https://images.unsplash.com/photo-1541563991147-7ce10f22b1ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxlYXJ0aCUyMGJhbmRhaWR8ZW58MHx8fHwxNzU0NjQ3MzYyfDA&ixlib=rb-4.1.0&q=85
+                                  photoSmallUrl: >-
+                                    https://images.unsplash.com/photo-1541563991147-7ce10f22b1ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxlYXJ0aCUyMGJhbmRhaWR8ZW58MHx8fHwxNzU0NjQ3MzYyfDA&ixlib=rb-4.1.0&q=80&w=400
+                                  photoThumbUrl: >-
+                                    https://images.unsplash.com/photo-1541563991147-7ce10f22b1ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxlYXJ0aCUyMGJhbmRhaWR8ZW58MHx8fHwxNzU0NjQ3MzYyfDA&ixlib=rb-4.1.0&q=80&w=200
+                                  authorUsername: brandialxndra
+                                  photoRegularUrl: >-
+                                    https://images.unsplash.com/photo-1541563991147-7ce10f22b1ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxlYXJ0aCUyMGJhbmRhaWR8ZW58MHx8fHwxNzU0NjQ3MzYyfDA&ixlib=rb-4.1.0&q=80&w=1080
+                                  authorProfileUrl: https://unsplash.com/@brandialxndra
+                                  downloadLocation: >-
+                                    https://api.unsplash.com/photos/o6etNDTzdiE/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxlYXJ0aCUyMGJhbmRhaWR8ZW58MHx8fHwxNzU0NjQ3MzYyfDA
+                                  authorProfileImage: >-
+                                    https://images.unsplash.com/profile-fb-1506466315-b97388a98ed6.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                              height:
+                                type: number
+                                value: 2477
+                              description:
+                                type: text
+                                value: Photo by Brandi Alexandra on Unsplash
+                            _source: unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+                    title:
+                      type: text
+                      locales:
+                        en-US: How to make every trip climate-friendly
+                    titleStyle:
+                      type: tp-title-style-parameter
+                      value: h2
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Discover easy ways to lower your impact and make your
+                          travels more sustainable.
+                    eyebrowText:
+                      type: text
+                      locales:
+                        en-US: Explore smarter, go greener
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Climate-friendly travel tips
+              marginBottom:
+                type: select
+                value: None
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Medium
+          - _id: d095fc20-07d0-48d2-986f-ff8ba510f0cf
+            type: container
+            slots:
+              container-inner:
+                - _id: 6ea8778e-cd90-4ef7-9fbd-a05ef7d6c3cb
+                  type: $personalization
+                  slots:
+                    pz:
+                      - _id: dc263072-84fe-4c34-88f8-23132bc54c40
+                        type: callToAction
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: 🌍 Travel That Makes an Impact ✨
+                          $pzCrit:
+                            type: $pzCrit
+                            value:
+                              crit:
+                                - l: profile_genz
+                                  r: '0'
+                                  op: +
+                              name: Gen Z (Emojis)
+                          titleStyle:
+                            type: tp-title-style-parameter
+                            value: h2
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                🌱✈️🤝  Shape the future of travel with
+                                eco-adventures, real connections, and positive
+                                change. Your next trip can make a difference! 🚀
+                          eyebrowText:
+                            type: text
+                            locales:
+                              en-US: Travel with vibes
+                          textColorVariant:
+                            type: select
+                            value: Light
+                          primaryButtonCopy:
+                            type: text
+                            locales:
+                              en-US: Explore your impact 🚀
+                          primaryButtonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /${locale}/destinations
+                                type: projectMapNode
+                                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                                dynamicInputValues:
+                                  locale: ${locale}
+                      - _id: 9e9253d4-0bf1-49f1-966e-f9e25c825e62
+                        type: callToAction
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Make Every Journey Count
+                          $pzCrit:
+                            type: $pzCrit
+                            value:
+                              dim: profile_mil
+                              name: Millennial
+                          titleStyle:
+                            type: tp-title-style-parameter
+                            value: h2
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Experience authentic travel, connect with local
+                                culture, and create stories worth sharing. Join
+                                a community that values purpose and adventure.
+                          eyebrowText:
+                            type: text
+                            locales:
+                              en-US: Travel with impact
+                          textColorVariant:
+                            type: select
+                            value: Light
+                          primaryButtonCopy:
+                            type: text
+                            locales:
+                              en-US: Start your journey
+                          primaryButtonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /${locale}/destinations
+                                type: projectMapNode
+                                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                                dynamicInputValues:
+                                  locale: ${locale}
+                      - _id: b77a5404-c9b2-4796-8676-abd039ebf8c1
+                        type: callToAction
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Travel for Change
+                          $pzCrit:
+                            type: $pzCrit
+                            value:
+                              crit: []
+                              name: Default
+                          titleStyle:
+                            type: tp-title-style-parameter
+                            value: h2
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Ready to make an impact? Discover eco-adventures
+                                and join a movement that’s shaping the future of
+                                travel.
+                          eyebrowText:
+                            type: text
+                            locales:
+                              en-US: Travel with impact
+                          textColorVariant:
+                            type: select
+                            value: Light
+                          primaryButtonCopy:
+                            type: text
+                            locales:
+                              en-US: Explore your impact
+                          primaryButtonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /${locale}/destinations
+                                type: projectMapNode
+                                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                                dynamicInputValues:
+                                  locale: ${locale}
+                  parameters:
+                    algorithm:
+                      type: pzAlgorithm
+                      value: ssc
+                    trackingEventName:
+                      type: text
+                      value: couscious-adventure-cta-p13n
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Join the Uniglobe Movement
+              marginTop:
+                type: select
+                value: None
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Dark
+    aa186399-5c7d-48c6-bb50-13d48d8d3a3d|4b328fd1-c6ac-4666-8bb7-9d0996320c43:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: 63c0696c-a9cc-43f4-8b90-8bb4d23209dc
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1426170042593-200f250dfdaf?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b29kc3xlbnwwfHx8fDE3NTQ2NDcwMzV8MA&ixlib=rb-4.1.0&q=85
+                title:
+                  type: text
+                  value: Sun peeking through the trees
+                width:
+                  type: number
+                  value: 2560
+                custom:
+                  type: object
+                  value:
+                    color: '#26260c'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/low-light-photo-of-forest-2ShvY8Lf6l0
+                    blurHash: LA9%Ca0g%29bjeRjs:IptOjaR+f6
+                    sourceId: 2ShvY8Lf6l0
+                    createdAt: '2015-03-12T14:20:52Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/low-light-photo-of-forest-2ShvY8Lf6l0
+                    updatedAt: '2025-08-08T07:18:52Z'
+                    authorName: Lukasz Szmigiel
+                    downloadUrl: >-
+                      https://unsplash.com/photos/2ShvY8Lf6l0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b29kc3xlbnwwfHx8fDE3NTQ2NDcwMzV8MA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1426170042593-200f250dfdaf?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b29kc3xlbnwwfHx8fDE3NTQ2NDcwMzV8MA&ixlib=rb-4.1.0
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1426170042593-200f250dfdaf?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b29kc3xlbnwwfHx8fDE3NTQ2NDcwMzV8MA&ixlib=rb-4.1.0&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1426170042593-200f250dfdaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b29kc3xlbnwwfHx8fDE3NTQ2NDcwMzV8MA&ixlib=rb-4.1.0&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1426170042593-200f250dfdaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b29kc3xlbnwwfHx8fDE3NTQ2NDcwMzV8MA&ixlib=rb-4.1.0&q=80&w=200
+                    authorUsername: szmigieldesign
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1426170042593-200f250dfdaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b29kc3xlbnwwfHx8fDE3NTQ2NDcwMzV8MA&ixlib=rb-4.1.0&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@szmigieldesign
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/2ShvY8Lf6l0/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b29kc3xlbnwwfHx8fDE3NTQ2NDcwMzV8MA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1441974180349-689b9b920fea?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 1440
+                description:
+                  type: text
+                  value: Photo by Lukasz Szmigiel on Unsplash
+              _source: unisplash-c692e13c-6dac-440e-952e-ba1105c6e456
+        title:
+          type: text
+          value: Eco-conscious adventures for millennials & Gen-Z
+        description:
+          type: text
+          value: >-
+            The next generation of travelers isn’t just chasing passport stamps
+            — they’re chasing purpose. 
+
+
+            At Uniglobe, we design trips that are exciting, authentic, and kind
+            to the planet.
+        eyebrowText:
+          type: text
+          value: Travel with purpose
+  _locales:
+    - en-US
+  _pattern: 9854cddc-f320-4a77-b7dc-de9d74638436
+created: '2025-08-08T11:43:05.418974+00:00'
+modified: '2025-08-08T11:49:49.153225+00:00'
+pattern: false

@@ -1,0 +1,12 @@
+id: d90d68fd-d0a0-473f-9c0b-b426efe2c52b
+sourceUrl: /:locale/solo-female-travel
+sourceRetainQuerystring: true
+targetUrl: https://uniglobe.vercel.app/:locale/lp/solo-female-travel
+targetStatusCode: 301
+targetProjectMapNodeId: 8fbdfe02-8526-4033-aecb-4e81fe82f44e
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

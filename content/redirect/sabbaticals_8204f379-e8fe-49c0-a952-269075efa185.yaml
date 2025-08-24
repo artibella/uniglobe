@@ -1,0 +1,12 @@
+id: 8204f379-e8fe-49c0-a952-269075efa185
+sourceUrl: /:locale/sabbaticals
+sourceRetainQuerystring: true
+targetUrl: https://uniglobe.vercel.app/:locale/lp/sabbaticals
+targetStatusCode: 301
+targetProjectMapNodeId: aefeb70f-ad76-41b0-af38-0787eb259621
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

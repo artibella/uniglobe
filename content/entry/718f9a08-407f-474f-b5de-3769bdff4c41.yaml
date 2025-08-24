@@ -1,5 +1,5 @@
 created: '2025-07-10T12:53:46.782135+00:00'
-modified: '2025-07-10T12:55:48.766275+00:00'
+modified: '2025-08-15T13:45:14.130887+00:00'
 pattern: false
 entry:
   _id: 718f9a08-407f-474f-b5de-3769bdff4c41
@@ -303,6 +303,20 @@ entry:
                 indent: 0
                 version: 1
                 children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Overview
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
                   - type: paragraph
                     format: ''
                     indent: 0
@@ -311,23 +325,565 @@ entry:
                       - mode: normal
                         text: >-
                           Costa Rica is a compact, eco-friendly country in
-                          Central America known for its lush rainforests, active
-                          volcanoes, and Pacific and Caribbean coastlines. Here,
-                          you can spot sloths in cloud forests, surf uncrowded
-                          beaches, and connect with local communities through
-                          homestays and farm visits. Public buses and shared
-                          shuttles make it easy to get around on a budget, and
-                          many hostels and ecolodges are certified for
-                          sustainability. Costa Rica’s commitment to
-                          conservation means over 25% of its land is protected,
-                          so your travel dollars support both local people and
-                          the environment. Expect affordable meals at local
-                          sodas (around $4-7 USD), and plenty of opportunities
-                          for adventure—think ziplining, wildlife watching, and
-                          hiking—all while practicing responsible tourism.
+                          Central America, famous for its lush rainforests,
+                          active volcanoes, and both Pacific and Caribbean
+                          coastlines. It’s a top destination for travelers
+                          seeking adventure, wildlife, and authentic cultural
+                          experiences—all with a focus on sustainability.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Culture & Community
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Costa Ricans, or "Ticos," are known for their warm
+                          hospitality and the national motto "pura vida" (pure
+                          life), which reflects a laid-back, positive outlook.
+                          You’ll find a mix of Indigenous, Spanish, and
+                          Afro-Caribbean influences in the food, music, and
+                          festivals. Community-based tourism is common—consider
+                          staying with local families or volunteering on organic
+                          farms to connect more deeply with the culture.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Top Attractions
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Monteverde Cloud Forest
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : Spot sloths, monkeys, and rare birds in misty
+                              treetops. Guided night walks and canopy ziplining
+                              are popular.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Arenal Volcano
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : Hike lava trails, soak in natural hot springs,
+                              or try whitewater rafting nearby.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Manuel Antonio National Park
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : Famous for its beaches, hiking trails, and easy
+                              wildlife viewing (monkeys, iguanas, sloths).
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Puerto Viejo de Talamanca
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : Chill Caribbean surf town with Afro-Caribbean
+                              culture, reggae music, and cacao farms.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Osa Peninsula & Corcovado National Park
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : One of the most biodiverse places on earth—ideal
+                              for serious wildlife lovers.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 6
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Tamarindo & Nosara
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : Laid-back Pacific surf towns with yoga, healthy
+                              cafes, and a digital nomad scene.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Getting Around
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Public buses and shared shuttles connect most towns
+                          and attractions, making it easy to travel on a budget.
+                          Renting a car is possible but not necessary for most
+                          routes. Many ecolodges and hostels offer free or
+                          low-cost transfers from bus stops.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Budget & Practical Tips
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Meals
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : Eat at local "sodas" (small restaurants) for
+                              $4–7 USD per meal.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Accommodation
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : Hostels and ecolodges are common, with many
+                              certified for sustainability. Dorm beds start
+                              around $10–15 USD.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Activities
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : National park entry is usually $10–16 USD.
+                              Guided tours (ziplining, wildlife walks) range
+                              from $25–60 USD.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Language
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : Spanish is the official language, but English is
+                              widely spoken in tourist areas.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 5
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Connectivity
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: >-
+                              : Wi-Fi is available in most hostels and cafes.
+                              SIM cards are cheap and easy to buy.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Responsible Travel
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Costa Rica protects over 25% of its land as national
+                          parks and reserves. Choose eco-certified
+                          accommodations, respect wildlife (no feeding or
+                          touching), and support local businesses. Many tours
+                          and lodges are owned by local families or Indigenous
+                          communities.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Who Will Love It?
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
                           Whether you’re a solo backpacker, digital nomad, or
-                          traveling with friends, Costa Rica offers authentic
-                          experiences that go beyond the typical tourist trail.
+                          traveling with friends, Costa Rica offers authentic,
+                          sustainable adventures beyond the typical tourist
+                          trail. It’s ideal for those who value nature,
+                          community, and positive impact.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: '---'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: 'Quick Facts:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Currency: Costa Rican colón (₡)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Capital: San José'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Best time to visit: December–April (dry season),
+                              but the green season (May–November) is lush and
+                              less crowded.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Safety: Generally safe, but watch your belongings
+                              in busy areas.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Costa Rica is your gateway to wild nature, friendly
+                          people, and meaningful travel experiences that benefit
+                          both you and the planet.
                         type: text
                         style: ''
                         detail: 0
@@ -337,6 +893,15 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: null
+        enrichments:
+          type: $enr
+          value:
+            - cat: act
+              key: out
+              str: 90
+            - cat: dest
+              key: ce
+              str: 100
         teaserImage:
           type: asset
           locales:

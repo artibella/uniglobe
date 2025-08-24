@@ -14,16 +14,16 @@ asset:
       type: text
     url:
       value: >-
-        https://img.uniform.global/p/FxKAU-x5Sz-UyqSvuHwJ6w/NMpSDd_XTqyzY3hVhFBWQg-google-play-badge.svg
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/GfmpVtCXQRe6RmxnIvHF9A-google-play-badge.svg
       type: text
     size:
       value: 11823
       type: number
     width:
-      value: 128
+      value: 150
       type: number
     height:
-      value: 128
+      value: 150
       type: number
     custom: {}
 created: '2024-09-19T16:42:41.490063+00:00'

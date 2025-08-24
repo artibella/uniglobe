@@ -1,0 +1,12 @@
+id: ccee9353-fb29-4cca-8814-7b7906bd9536
+sourceUrl: /:locale/digital-nomads
+sourceRetainQuerystring: true
+targetUrl: https://uniglobe.vercel.app/:locale/lp/digital-nomads
+targetStatusCode: 301
+targetProjectMapNodeId: f5a4c23b-523e-4f6b-ad38-17b9e7f216d5
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

@@ -1,0 +1,1068 @@
+composition:
+  _name: Volunteer travel
+  _id: 5487903b-53ef-426f-826e-9395b5fe2637
+  _slug: volunteer travel
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: >-
+          Volunteer Travel Abroad: Make a Difference & Explore the World |
+          UniGlobe
+    pageKeywords:
+      type: text
+      locales:
+        en-US: >-
+          volunteer travel, volunteering abroad, volunteer programs, meaningful
+          travel, gap year volunteering, responsible travel
+    twitterTitle:
+      type: text
+      locales:
+        en-US: >-
+          Travel, volunteer, make a difference: Change lives (including yours)
+          #TravelForGood
+    openGraphImage:
+      type: asset
+      value:
+        - _id: a3232da4-8c56-41cb-ab6b-bb6d0e365b7b
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.unsplash.com/photo-1714669017009-25df0d1c45dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw1fHxzb2xvJTIwZmVtYWxlJTIwdHJhdmVsZXIlMjBuYXR1cmV8ZW58MHx8fHwxNzUxOTc0NjQ3fDA&ixlib=rb-4.1.0&q=85
+            focalPoint:
+              type: focalPoint
+              value:
+                x: 0.6
+                'y': 0.38
+          _source: custom-url
+    openGraphTitle:
+      type: text
+      locales:
+        en-US: 'Volunteer Travel: Change Lives & See the World 🌍✨'
+    twitterDescription:
+      type: text
+      locales:
+        en-US: >-
+          Travel with purpose! Discover volunteer programs that make an impact
+          with @UniGlobe. Ready to give back? #TravelForGood
+    pageMetaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover life-changing volunteer travel with UniGlobe. Help
+          communities, protect nature, and gain new skills in 50+ countries.
+          Start your journey.
+    openGraphDescription:
+      type: text
+      locales:
+        en-US: >-
+          Join a global community of volunteers making a real impact. Explore
+          programs, meet new friends, and travel with purpose.
+  slots:
+    pageFooter:
+      - _id: 15613127-3d72-4b0f-a7d4-3862841264e6
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 5b110f59-586e-4426-be76-18ca5a489350
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 4884de18-2577-4af2-8d93-2ba00f9ba289
+        type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 837c9bf7-55d5-4b46-b095-16ab07f78b61
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                    title:
+                      type: text
+                      value: >-
+                        A diverse group of volunteers collecting trash in a
+                        field at sunset, promoting environmental awareness.
+                    width:
+                      type: number
+                      value: 6055
+                    custom:
+                      type: object
+                      value:
+                        sourceId: '5029859'
+                        pexelsUrl: >-
+                          https://www.pexels.com/photo/volunteers-collecting-trash-on-green-grass-field-5029859/
+                        photoTinyUrl: >-
+                          https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                        photographer: Anna Shvets
+                        photoLargeUrl: >-
+                          https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        photoSmallUrl: >-
+                          https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg?auto=compress&cs=tinysrgb&h=130
+                        photoMediumUrl: >-
+                          https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg?auto=compress&cs=tinysrgb&h=350
+                        photoLarge2xUrl: >-
+                          https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        photographerUrl: https://www.pexels.com/@shvetsa
+                        photoPortraitUrl: >-
+                          https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                        pexelsOriginalUrl: >-
+                          https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg
+                        photoLandscapeUrl: >-
+                          https://images.pexels.com/photos/5029859/pexels-photo-5029859.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                    height:
+                      type: number
+                      value: 4036
+                    description:
+                      type: text
+                      value: >-
+                        A diverse group of volunteers collecting trash in a
+                        field at sunset, promoting environmental awareness. -
+                        Photo by Anna Shvets on Pexels
+                  _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+          title:
+            type: text
+            locales:
+              en-US: 'Volunteer Abroad: Make an Impact, See the World'
+          objectFit:
+            type: select
+            value: cover
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Join meaningful volunteer programs in 50+ countries. Help
+                communities, protect wildlife, and grow as you travel.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Travel with purpose
+          overlayColor:
+            type: tp-color-style-parameter
+            value: base-300
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+          overlayOpacity:
+            type: tp-slider-parameter
+            value: 30%
+          textColorVariant:
+            type: select
+            value: Light
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Find Volunteer Programs
+          secondaryButtonCopy:
+            type: text
+            locales:
+              en-US: How It Works
+      - _id: 57ace514-082e-43ab-9f2c-41b85ea99d44
+        type: featuredCallout
+        slots:
+          feature:
+            - _id: 0f48ba07-d64f-4979-a65b-69b93b01aec0
+              type: feature
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Global impact
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Your travels directly support local communities and
+                      conservation projects worldwide.
+            - _id: 5c53e6a9-f94e-4eac-8d2c-5f14e2575558
+              type: feature
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Expert support
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Get expert travel guidance before, during, and after your
+                      journey.
+            - _id: b069e460-284d-40f6-b3b8-7d37066d6fa3
+              type: feature
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Lifelong Connections
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Connect with fellow volunteers and form lasting
+                      friendships on your travels.
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: 53d3a3af-efa4-42e8-b643-3f5861a971c5
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                    title:
+                      type: text
+                      value: >-
+                        A diverse group of adults enjoying a shared meal
+                        indoors, viewed from above.
+                    width:
+                      type: number
+                      value: 6000
+                    custom:
+                      type: object
+                      value:
+                        sourceId: '3184195'
+                        pexelsUrl: >-
+                          https://www.pexels.com/photo/group-of-people-eating-together-3184195/
+                        photoTinyUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                        photographer: fauxels
+                        photoLargeUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        photoSmallUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&h=130
+                        photoMediumUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&h=350
+                        photoLarge2xUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                        photographerUrl: https://www.pexels.com/@fauxels
+                        photoPortraitUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                        pexelsOriginalUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg
+                        photoLandscapeUrl: >-
+                          https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                    height:
+                      type: number
+                      value: 4004
+                    description:
+                      type: text
+                      value: >-
+                        A diverse group of adults enjoying a shared meal
+                        indoors, viewed from above. - Photo by fauxels on Pexels
+                  _source: pexels-644e5a6a-d5cb-4e66-8a2e-73ab1bdd4510
+          title:
+            type: text
+            locales:
+              en-US: 90% of volunteers say their experience changed their life
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Join thousands of travelers making a difference—because
+                adventure is more meaningful when you give back.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: You're not alone in this
+      - _id: fa4c2dee-6587-40a5-80e7-6511f79ebeec
+        type: cardBlock
+        slots:
+          cardBlockInner:
+            - _id: 80334963-a0c4-4bea-8039-3c591b8841f9
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Make a Difference
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 27f799c1-8576-47c9-93c0-29dbac2c95bd
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHl8ZW58MHx8fHwxNzU0OTE5OTY3fDA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: girl friends hands piled togethger
+                          width:
+                            type: number
+                            value: 5040
+                          custom:
+                            type: object
+                            value:
+                              color: '#c0c0c0'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/person-in-red-sweater-holding-babys-hand-Zyx1bK9mqmA
+                              blurHash: LPG@_X]OM|S#8x+^t9I:^kVZxbjZ
+                              sourceId: Zyx1bK9mqmA
+                              createdAt: '2020-02-20T15:50:23Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/person-in-red-sweater-holding-babys-hand-Zyx1bK9mqmA
+                              updatedAt: '2025-08-11T09:13:29Z'
+                              authorName: Hannah Busing
+                              downloadUrl: >-
+                                https://unsplash.com/photos/Zyx1bK9mqmA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHl8ZW58MHx8fHwxNzU0OTE5OTY3fDA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHl8ZW58MHx8fHwxNzU0OTE5OTY3fDA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHl8ZW58MHx8fHwxNzU0OTE5OTY3fDA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHl8ZW58MHx8fHwxNzU0OTE5OTY3fDA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHl8ZW58MHx8fHwxNzU0OTE5OTY3fDA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: hannahbusing
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHl8ZW58MHx8fHwxNzU0OTE5OTY3fDA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@hannahbusing
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/Zyx1bK9mqmA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHl8ZW58MHx8fHwxNzU0OTE5OTY3fDA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1582063050734-acc8772dc1eaimage?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3360
+                          description:
+                            type: text
+                            value: Photo by Hannah Busing on Unsplash
+                        _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                title:
+                  type: text
+                  locales:
+                    en-US: Community Projects
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: See Projects
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Teach, build, or support local initiatives—every project
+                      is vetted for real impact.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 1f0398cc-f4f5-43f5-a935-0e9992a19a52
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Protect Nature
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 111fd3dd-a710-45e9-8f9c-55bc027217f9
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1682192195180-e0c1f7904110?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNnx8Y29uc2VydmF0aW9ufGVufDB8fHx8MTc1NDkyMDAxN3ww&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: Two hippos at Nairobi National Park in April 2023
+                          width:
+                            type: number
+                            value: 5168
+                          custom:
+                            type: object
+                            value:
+                              color: '#8c8c73'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-couple-of-animals-that-are-in-the-grass-10rZ2TTOfpc
+                              blurHash: LDF5{JRkM{t5~XkBRkayM~t6WBWC
+                              sourceId: 10rZ2TTOfpc
+                              createdAt: '2023-04-22T19:37:45Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-couple-of-animals-that-are-in-the-grass-10rZ2TTOfpc
+                              updatedAt: '2025-08-11T07:47:29Z'
+                              authorName: Hung Nguyen
+                              downloadUrl: >-
+                                https://unsplash.com/photos/10rZ2TTOfpc/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNnx8Y29uc2VydmF0aW9ufGVufDB8fHx8MTc1NDkyMDAxN3ww
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1682192195180-e0c1f7904110?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNnx8Y29uc2VydmF0aW9ufGVufDB8fHx8MTc1NDkyMDAxN3ww&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1682192195180-e0c1f7904110?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNnx8Y29uc2VydmF0aW9ufGVufDB8fHx8MTc1NDkyMDAxN3ww&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1682192195180-e0c1f7904110?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNnx8Y29uc2VydmF0aW9ufGVufDB8fHx8MTc1NDkyMDAxN3ww&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1682192195180-e0c1f7904110?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNnx8Y29uc2VydmF0aW9ufGVufDB8fHx8MTc1NDkyMDAxN3ww&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: hunginternet
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1682192195180-e0c1f7904110?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNnx8Y29uc2VydmF0aW9ufGVufDB8fHx8MTc1NDkyMDAxN3ww&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@hunginternet
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/10rZ2TTOfpc/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNnx8Y29uc2VydmF0aW9ufGVufDB8fHx8MTc1NDkyMDAxN3ww
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-fb-1506682890-f2f0c7437165.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3448
+                          description:
+                            type: text
+                            value: Photo by Hung Nguyen on Unsplash
+                        _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                title:
+                  type: text
+                  locales:
+                    en-US: Environmental Conservation
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Explore Conservation
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Protect wildlife, restore habitats, and learn from local
+                      experts on every adventure.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 57cab6d9-30a6-4feb-bb74-3df65ee7dfe2
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Cultural Immersion
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 5ca21aaa-fe07-48fa-9272-979682cfdad6
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1556484687-30636164638b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbHxlbnwwfHx8fDE3NTQ5MjAwNzh8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: We're better when we're united
+                          width:
+                            type: number
+                            value: 3784
+                          custom:
+                            type: object
+                            value:
+                              color: '#262626'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/five-human-hands-on-brown-surface-LjqARJaJotc
+                              blurHash: LPGt{O00x]D%NGkWaeWCE1j]xaRk
+                              sourceId: LjqARJaJotc
+                              createdAt: '2019-04-28T20:51:39Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/five-human-hands-on-brown-surface-LjqARJaJotc
+                              updatedAt: '2025-08-11T07:33:51Z'
+                              authorName: Clay Banks
+                              downloadUrl: >-
+                                https://unsplash.com/photos/LjqARJaJotc/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbHxlbnwwfHx8fDE3NTQ5MjAwNzh8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1556484687-30636164638b?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbHxlbnwwfHx8fDE3NTQ5MjAwNzh8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1556484687-30636164638b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbHxlbnwwfHx8fDE3NTQ5MjAwNzh8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1556484687-30636164638b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbHxlbnwwfHx8fDE3NTQ5MjAwNzh8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1556484687-30636164638b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbHxlbnwwfHx8fDE3NTQ5MjAwNzh8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: claybanks
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1556484687-30636164638b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbHxlbnwwfHx8fDE3NTQ5MjAwNzh8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@claybanks
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/LjqARJaJotc/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbHxlbnwwfHx8fDE3NTQ5MjAwNzh8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1670236743900-356b1ee0dc42image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 2838
+                          description:
+                            type: text
+                            value: Photo by Clay Banks on Unsplash
+                        _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                title:
+                  type: text
+                  locales:
+                    en-US: Cultural Exchange
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Learn More
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Live and work alongside locals. Experience authentic
+                      culture and make lifelong friends.
+                lineCountRestriction:
+                  type: tp-slider-parameter
+                  value: none
+            - _id: 492eda50-7582-48e5-9d91-a67c27e503c2
+              type: card
+              parameters:
+                badge:
+                  type: text
+                  locales:
+                    en-US: Grow & Learn
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 8a586f7c-5375-4a2e-a56e-22bbec12a6af
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: BW Wallpaper
+                          width:
+                            type: number
+                            value: 5766
+                          custom:
+                            type: object
+                            value:
+                              color: '#d9d9d9'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/woman-holding-dslr-camera-CyHB89O-PvY
+                              blurHash: LTJkl#00xu%M~qofRjxuM{xuWBof
+                              sourceId: CyHB89O-PvY
+                              createdAt: '2018-10-17T02:01:43Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/woman-holding-dslr-camera-CyHB89O-PvY
+                              updatedAt: '2025-07-08T10:02:44Z'
+                              authorName: Felipe Bustillo
+                              downloadUrl: >-
+                                https://unsplash.com/photos/CyHB89O-PvY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: pipe_fx
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1539741642672-b3fada926d3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@pipe_fx
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/CyHB89O-PvY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBob3RvZ3JhcGh5JTIwbGVzc29ufGVufDB8fHx8MTc1MTk3NDgyN3ww
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1677212799846-bb1aedab6669image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 3878
+                          description:
+                            type: text
+                            value: Photo by Felipe Bustillo on Unsplash
+                        _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+                title:
+                  type: text
+                  locales:
+                    en-US: Skill Building
+                badgeStyle:
+                  type: tp-badge-style-parameter
+                  value: primary
+                buttonCopy:
+                  type: text
+                  locales:
+                    en-US: Build Skills
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Gain leadership, language, and teamwork skills that last a
+                      lifetime.
+        variant: carousel
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Volunteer travel experiences for every passion
+          buttonCopy:
+            type: text
+            locales:
+              en-US: Explore all volunteer programs
+          buttonLink:
+            type: link
+            value:
+              path: /:locale/destinations
+              type: projectMapNode
+              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+              projectMapId: ''
+              dynamicInputValues:
+                locale: ${locale}
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h2
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Every project is vetted for real impact and authentic
+                connection. Find your perfect way to give back.
+      - _id: 118e0b24-bb02-4c16-baec-6dc5ff8304d6
+        type: richText
+        parameters:
+          content:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - tag: h3
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: How Does Volunteer Travel Work?
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Volunteer travel lets you make a real difference
+                            while exploring the world. Here’s how the process
+                            works:
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: ol
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Choose your cause and destination:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: '  '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - type: linebreak
+                              version: 1
+                            - mode: normal
+                              text: '   Decide what matters most to you—such as wildlife conservation, teaching, or community development. Select from 50+ countries and a variety of projects.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Apply and get matched:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: '  '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - type: linebreak
+                              version: 1
+                            - mode: normal
+                              text: '   Complete a simple application outlining your interests and skills. Our team will match you with a vetted project that fits your goals.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Prepare with expert support:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: '  '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - type: linebreak
+                              version: 1
+                            - mode: normal
+                              text: '   Receive detailed guides on visas, packing, and cultural etiquette. Join online Q&A sessions and connect with fellow volunteers before you depart.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 4
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Travel, volunteer, and make an impact:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: '  '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - type: linebreak
+                              version: 1
+                            - mode: normal
+                              text: '   Arrive on-site, join a small group, and work alongside locals. You’ll contribute to meaningful projects and have time to explore the area.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 5
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Return home inspired:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: '  '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - type: linebreak
+                              version: 1
+                            - mode: normal
+                              text: '   After your project, you’ll have new friends, valuable skills, and a deeper understanding of the world. Many volunteers stay involved with our global network.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                      listType: number
+                      direction: null
+                  direction: null
+      - _id: 87ddc6fc-96de-4b1c-85cc-63928aca2150
+        type: testimonial
+        parameters:
+          picture:
+            type: asset
+            value:
+              - _id: 8b8037da-4dfe-4bbf-a907-71088ab72fce
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: a close up of a person wearing a plaid shirt
+                  width:
+                    type: number
+                    value: 5213
+                  custom:
+                    type: object
+                    value:
+                      color: '#262626'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-close-up-of-a-person-wearing-a-plaid-shirt--920_CMaW88
+                      blurHash: LGB{_eIo0fxF4ot7kqofI=of$%NH
+                      sourceId: '-920_CMaW88'
+                      createdAt: '2021-12-16T01:56:17Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-close-up-of-a-person-wearing-a-plaid-shirt--920_CMaW88
+                      updatedAt: '2025-07-08T06:10:23Z'
+                      authorName: jim hatch
+                      downloadUrl: >-
+                        https://unsplash.com/photos/-920_CMaW88/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: jimo6633
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1639619628924-eced0acbab4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@jimo6633
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/-920_CMaW88/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8Mnx8fDE3NTE5NzUwMzl8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-fb-1570034541-71367cab6419.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 5191
+                  description:
+                    type: text
+                    value: Photo by jim hatch on Unsplash
+                _source: unisplash-15a6749f-2def-42cd-9ca9-a594f0cfb2b1
+          personName:
+            type: text
+            locales:
+              en-US: Alex Johnson
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Volunteering in Costa Rica changed my life. I made real friends,
+                learned new skills, and left knowing I made a difference.
+          personPosition:
+            type: text
+            locales:
+              en-US: UniGlobe Volunteer
+      - _id: 30d4ad39-63ad-44fa-9a96-0d507bce1ce6
+        type: container
+        slots:
+          container-inner:
+            - _id: 8b64b355-7ddb-41ca-a736-3215709a3bfd
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Start your volunteer journey today
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h2
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Find your perfect program and join a global community of
+                      change-makers.
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Ready to make a difference?
+                textColorVariant:
+                  type: select
+                  value: Light
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-US: Get Started
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      dynamicInputValues:
+                        locale: ${locale}
+                primaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: accent
+                secondaryButtonCopy:
+                  type: text
+                  locales:
+                    en-US: Request Info
+                secondaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/destinations
+                      type: projectMapNode
+                      nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                      projectMapId: ''
+                      dynamicInputValues:
+                        locale: ${locale}
+                secondaryButtonStyle:
+                  type: tp-button-style-parameter
+                  value: secondary
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: CTA section
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 0642c351-086e-4650-9f5e-b2595905123f
+        type: accordion
+        slots:
+          items:
+            - _id: a1f1e1e2-1f1e-4e1e-9e1e-1f1e1e1e1e1e
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Is volunteer travel safe?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Yes, volunteer travel is safe when you choose a reputable
+                      organization. At UniGlobe, all programs are carefully
+                      vetted for safety. We work with trusted local coordinators
+                      and provide 24/7 support, plus practical guidance and
+                      resources to help you travel confidently and
+                      independently.
+            - _id: b2f2f2f2-2f2f-4f2f-8f2f-2f2f2f2f2f2f
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: What types of volunteer projects are available?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      You can join projects in education, wildlife conservation,
+                      healthcare, community development, and more. We match you
+                      with opportunities that fit your interests and skills, so
+                      your time abroad makes a real impact for local
+                      communities.
+            - _id: c3e3e3e3-3e3e-4e3e-9e3e-3e3e3e3e3e3e
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: How much does volunteer travel cost?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Costs vary by destination and trip length, but most
+                      programs include accommodation, some meals, and
+                      on-the-ground support. UniGlobe keeps prices affordable
+                      and always shows you exactly what’s covered—no hidden fees
+                      or surprise charges.
+            - _id: d4f4f4f4-4f4f-4f4f-8f4f-4f4f4f4f4f4f
+              type: accordionItem
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Do I need experience to volunteer abroad?
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      No experience is required for most volunteer programs! We
+                      welcome travelers from all backgrounds and provide
+                      training and support, so you can make a positive impact
+                      and feel confident every step of the way.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Volunteer travel questions answered
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Find honest answers to common questions about volunteering
+                abroad, from safety to costs and more.
+  _locales:
+    - en-US
+created: '2025-08-11T13:39:50.484686+00:00'
+modified: '2025-08-11T14:00:20.102981+00:00'
+pattern: false

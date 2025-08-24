@@ -1,0 +1,8 @@
+id: 8e1791c0-e755-440f-a99e-eb54dfcaca2d
+name: Landing pages
+order: 387
+path: /:locale/lp
+type: placeholder
+pathSegment: lp
+data: {}
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

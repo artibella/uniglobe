@@ -1,7 +1,7 @@
 id: 542d4976-810a-48e9-8e4b-7406b5fd033b
 name: Gap year travel
 order: 675
-path: /:locale/gap-year-travel
+path: /:locale/lp/gap-year-travel
 type: composition
 pathSegment: gap-year-travel
 data:

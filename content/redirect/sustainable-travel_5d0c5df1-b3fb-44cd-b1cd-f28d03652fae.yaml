@@ -1,0 +1,12 @@
+id: 5d0c5df1-b3fb-44cd-b1cd-f28d03652fae
+sourceUrl: /:locale/sustainable-travel
+sourceRetainQuerystring: true
+targetUrl: https://uniglobe.vercel.app/:locale/lp/sustainable-travel
+targetStatusCode: 301
+targetProjectMapNodeId: 12a9581f-969f-4e92-a9b2-c4c7abbc0ea5
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

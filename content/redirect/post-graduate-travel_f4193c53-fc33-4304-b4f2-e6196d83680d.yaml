@@ -1,0 +1,12 @@
+id: f4193c53-fc33-4304-b4f2-e6196d83680d
+sourceUrl: /:locale/post-graduate-travel
+sourceRetainQuerystring: true
+targetUrl: https://uniglobe.vercel.app/:locale/lp/post-graduate-travel
+targetStatusCode: 301
+targetProjectMapNodeId: 47799f89-e5d9-4adc-afe2-d1bfd57aeaec
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

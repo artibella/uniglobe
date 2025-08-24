@@ -1,0 +1,9 @@
+id: 670663a7-2b54-4d1a-b8e9-3d31f6cbb5cc
+name: Conscious adventures
+order: 500
+path: /:locale/lp/conscious-adventures
+type: composition
+pathSegment: conscious-adventures
+data: {}
+compositionId: aa186399-5c7d-48c6-bb50-13d48d8d3a3d
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

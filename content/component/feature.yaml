@@ -1,6 +1,5 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: feature
 name: Feature
 icon: >-
@@ -49,8 +48,16 @@ description: >-
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Feature_preview_image
 useTeamPermissions: true
-slots: []
+slots:
+  - id: icon
+    name: Icon
+    maxComponents: 1
+    allowedComponents:
+      - icon
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2025-07-03T19:06:16.691284+00:00'
-updated: '2025-07-03T22:22:56.652562+00:00'
+created: '2024-01-15T09:26:42.908783+00:00'
+updated: '2025-08-24T11:42:38.30479+00:00'

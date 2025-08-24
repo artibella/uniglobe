@@ -1,0 +1,82 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: icon
+name: Icon
+icon: image
+parameters:
+  - id: name
+    name: Name
+    type: text
+    guidance: Internal name for helping to identify the icon in the structure panel
+    helpText: Internal name
+    typeConfig: null
+    localizable: true
+  - id: icon
+    name: Icon
+    type: lucide-icons-icon
+    typeConfig: null
+  - id: 6450b0a3-6d5c-4ee7-9898-8d241526327a
+    name: Appearance
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - size
+        - strokeWidth
+        - color
+  - id: size
+    name: Size
+    type: select
+    helpText: Size presets for the icon
+    typeConfig:
+      options:
+        - text: Default
+          value: default
+        - text: XS
+          value: xs
+        - text: Small
+          value: sm
+        - text: Medium
+          value: md
+        - text: Large
+          value: lg
+        - text: XL
+          value: xl
+        - text: XXL
+          value: xxl
+  - id: strokeWidth
+    name: Stroke width
+    type: select
+    typeConfig:
+      options:
+        - text: Default
+          value: default
+        - text: '1'
+          value: '1'
+        - text: '2'
+          value: '2'
+        - text: '3'
+          value: '3'
+        - text: '4'
+          value: '4'
+        - text: '5'
+          value: '5'
+  - id: color
+    name: Color
+    type: select
+    typeConfig:
+      options:
+        - text: Current Color
+          value: currentColor
+        - text: Black
+          value: black
+        - text: White
+          value: white
+categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
+description: A simple icon component that renders from the Lucide icon library.
+useTeamPermissions: true
+slots: []
+titleParameter: name
+canBeComposition: false
+created: '2025-08-24T11:39:32.995379+00:00'
+updated: '2025-08-24T11:39:32.995379+00:00'

@@ -1,7 +1,7 @@
 id: f5a4c23b-523e-4f6b-ad38-17b9e7f216d5
 name: Digital nomads
 order: 600
-path: /:locale/digital-nomads
+path: /:locale/lp/digital-nomads
 type: composition
 pathSegment: digital-nomads
 data: {}
