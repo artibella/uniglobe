@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { DynamicIcon } from 'lucide-react/dynamic';
 
 export interface IconProps {
-  icon?: Types.LucideIconParamTypeValue;
+  icon?: string;
   size?: 'default' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
   strokeWidth?: 'default' | '1' | '2' | '3' | '4' | '5';
   color?: 'currentColor' | 'black' | 'white';
@@ -44,7 +44,7 @@ export const Icon: FC<IconProps> = ({
   if (!icon) return null;
 
   console.log('icon', icon);
-  const iconName = icon.icon;
+  const iconName = icon;
   const iconSize = sizeMap[size];
   const iconStrokeWidth = strokeWidthMap[strokeWidth];
   const iconColor = colorMap[color];
