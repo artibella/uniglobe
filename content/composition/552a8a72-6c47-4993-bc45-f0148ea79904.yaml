@@ -722,6 +722,14 @@ composition:
           feature:
             - _id: 845be47f-7b29-4061-9383-2461814bdcee
               type: feature
+              slots:
+                icon:
+                  - _id: 9acbd7ba-ce96-44d0-bacb-4e6c0414fdb3
+                    type: icon
+                    parameters:
+                      icon:
+                        type: lucide-icons-icon
+                        value: tickets-plane
               parameters:
                 icon:
                   type: asset
@@ -742,6 +750,14 @@ composition:
                       schedule, and budget. Your dream vacation, your way.
             - _id: 2a2bb40f-f543-4566-97c8-7cd14cb82bc1
               type: feature
+              slots:
+                icon:
+                  - _id: e3ab7f82-5ac4-45eb-98ff-a7a95ed7e57b
+                    type: icon
+                    parameters:
+                      icon:
+                        type: lucide-icons-icon
+                        value: earth
               parameters:
                 title:
                   type: text
@@ -759,6 +775,14 @@ composition:
                       worldwide through our established network of partners.
             - _id: 19438067-1453-4709-9346-914fdac47fe0
               type: feature
+              slots:
+                icon:
+                  - _id: b8aa5dbf-eaf0-4c50-abef-19cd8d270bbe
+                    type: icon
+                    parameters:
+                      icon:
+                        type: lucide-icons-icon
+                        value: calendar-clock
               parameters:
                 icon:
                   type: asset
@@ -1506,5 +1530,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-15T09:27:31.731839+00:00'
-modified: '2025-07-31T09:40:50.001864+00:00'
+modified: '2025-08-25T08:31:29.457747+00:00'
 pattern: false
