@@ -2,6 +2,26 @@
   "project": {
     "pz": {
       "agg": {
+        "bookAsiaVacation": {
+          "inputs": [
+            {
+              "dim": "dest_asia"
+            },
+            {
+              "dim": "pageViewAsianDestination"
+            }
+          ]
+        },
+        "bookEuropeVacation": {
+          "inputs": [
+            {
+              "dim": "dest_eur"
+            },
+            {
+              "dim": "pageViewEuropeanDestination"
+            }
+          ]
+        },
         "budgetTraveler": {
           "inputs": [
             {
@@ -30,6 +50,16 @@
             }
           ]
         },
+        "usersDACH": {
+          "inputs": [
+            {
+              "dim": "visitoraustria"
+            },
+            {
+              "dim": "visitorGermany"
+            }
+          ]
+        },
         "flashpacker": {
           "inputs": [
             {
@@ -54,46 +84,16 @@
               "dim": "style_lux"
             }
           ]
-        },
-        "usersDACH": {
-          "inputs": [
-            {
-              "dim": "visitoraustria"
-            },
-            {
-              "dim": "visitorGermany"
-            }
-          ]
-        },
-        "bookAsiaVacation": {
-          "inputs": [
-            {
-              "dim": "dest_asia"
-            },
-            {
-              "dim": "pageViewAsianDestination"
-            }
-          ]
-        },
-        "bookEuropeVacation": {
-          "inputs": [
-            {
-              "dim": "dest_eur"
-            },
-            {
-              "dim": "pageViewEuropeanDestination"
-            }
-          ]
         }
       },
       "enr": {
         "7": {
           "cap": 1000
         },
-        "dest": {
+        "act": {
           "cap": 1000
         },
-        "type": {
+        "dest": {
           "cap": 1000
         },
         "ses": {
@@ -105,7 +105,7 @@
         "style": {
           "cap": 1000
         },
-        "act": {
+        "type": {
           "cap": 1000
         }
       },
@@ -137,33 +137,6 @@
             ]
           }
         },
-        "pageViewAsianDestination": {
-          "str": 10,
-          "cap": 1000,
-          "dur": "p",
-          "crit": {
-            "op": "|",
-            "type": "G",
-            "clauses": [
-              {
-                "path": {
-                  "cs": false,
-                  "op": "~",
-                  "rhs": "/destinations/asia/"
-                },
-                "type": "PV"
-              },
-              {
-                "path": {
-                  "cs": false,
-                  "op": "~",
-                  "rhs": "/reiseziele/asien"
-                },
-                "type": "PV"
-              }
-            ]
-          }
-        },
         "downloadGuide": {
           "str": 50,
           "cap": 100,
@@ -185,28 +158,27 @@
             "freq": "O"
           }
         },
-        "visitorGermany": {
-          "str": 50,
-          "cap": 100,
-          "dur": "s",
+        "pageViewAsianDestination": {
+          "str": 10,
+          "cap": 1000,
+          "dur": "p",
           "crit": {
             "op": "|",
             "type": "G",
             "clauses": [
               {
-                "key": "vc-country",
-                "type": "QK",
-                "match": {
+                "path": {
                   "cs": false,
-                  "op": "=",
-                  "rhs": "DE"
-                }
+                  "op": "~",
+                  "rhs": "/destinations/asia/"
+                },
+                "type": "PV"
               },
               {
                 "path": {
-                  "cs": true,
+                  "cs": false,
                   "op": "~",
-                  "rhs": "/de-DE/"
+                  "rhs": "/reiseziele/asien"
                 },
                 "type": "PV"
               }
@@ -235,6 +207,34 @@
                   "cs": false,
                   "op": "~",
                   "rhs": "/de-AT/"
+                },
+                "type": "PV"
+              }
+            ]
+          }
+        },
+        "visitorGermany": {
+          "str": 50,
+          "cap": 100,
+          "dur": "s",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "vc-country",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "DE"
+                }
+              },
+              {
+                "path": {
+                  "cs": true,
+                  "op": "~",
+                  "rhs": "/de-DE/"
                 },
                 "type": "PV"
               }
