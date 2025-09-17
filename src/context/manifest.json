@@ -146,11 +146,12 @@
             "type": "G",
             "clauses": [
               {
-                "type": "PVC",
-                "match": {
-                  "op": ">",
-                  "rhs": 5
-                }
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/destinations/travel-guide"
+                },
+                "type": "PV"
               }
             ]
           },
