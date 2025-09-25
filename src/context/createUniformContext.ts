@@ -6,7 +6,7 @@ import {
   enableDebugConsoleLogDrain,
   enableContextDevTools,
 } from '@uniformdev/context';
-import { enableUniformInsights } from '@uniformdev/context-insights';
+import { enableUniformInsights } from '@uniformdev/insights';
 import { NextCookieTransitionDataStore } from '@uniformdev/context-next';
 
 import manifest from './manifest.json';
