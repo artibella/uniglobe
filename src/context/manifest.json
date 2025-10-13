@@ -22,34 +22,6 @@
             }
           ]
         },
-        "budgetTraveler": {
-          "inputs": [
-            {
-              "dim": "style_bud"
-            },
-            {
-              "dim": "ses_off"
-            },
-            {
-              "dim": "dest_asia"
-            },
-            {
-              "dim": "dest_sa"
-            },
-            {
-              "dim": "dest_afri"
-            },
-            {
-              "dim": "profile_genz"
-            },
-            {
-              "dim": "profile_mil"
-            },
-            {
-              "dim": "profile_std"
-            }
-          ]
-        },
         "usersDACH": {
           "inputs": [
             {
@@ -59,54 +31,17 @@
               "dim": "visitorGermany"
             }
           ]
-        },
-        "flashpacker": {
-          "inputs": [
-            {
-              "dim": "dest_asia"
-            },
-            {
-              "dim": "act_fod"
-            },
-            {
-              "dim": "ses_hol"
-            },
-            {
-              "dim": "act_spa"
-            },
-            {
-              "dim": "act_adv"
-            },
-            {
-              "dim": "profile_mil"
-            },
-            {
-              "dim": "style_lux"
-            }
-          ]
         }
       },
       "enr": {
-        "7": {
-          "cap": 1000
+        "1": {
+          "cap": 100
         },
-        "act": {
-          "cap": 1000
+        "2": {
+          "cap": 100
         },
         "dest": {
-          "cap": 1000
-        },
-        "ses": {
-          "cap": 1000
-        },
-        "profile": {
-          "cap": 1000
-        },
-        "style": {
-          "cap": 1000
-        },
-        "type": {
-          "cap": 1000
+          "cap": 10000
         }
       },
       "sig": {
@@ -146,12 +81,11 @@
             "type": "G",
             "clauses": [
               {
-                "path": {
-                  "cs": false,
-                  "op": "~",
-                  "rhs": "/destinations/travel-guide"
-                },
-                "type": "PV"
+                "type": "PVC",
+                "match": {
+                  "op": ">",
+                  "rhs": 5
+                }
               }
             ]
           },
@@ -245,7 +179,7 @@
       }
     },
     "test": {
-      "tripsToursHero": {},
+      "csjTest1": {},
       "itineraryOfferDestinations": {}
     }
   }
