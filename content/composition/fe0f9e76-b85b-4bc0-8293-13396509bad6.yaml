@@ -66,7 +66,7 @@ composition:
                       value: 8a3b44b6-8624-4618-b27d-e588e8163134
                     url:
                       value: >-
-                        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/0lQSFsIqSjChWAI53Tz-LA-photo-1644804679983-06778d699333
+                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O29eafLQSmmM4p90NzbXnQ-photo-1644804679983-06778d699333
                       type: text
                     file:
                       type: file
@@ -180,6 +180,7 @@ composition:
                   type: testVariant
                   value:
                     id: short-title
+                    control: true
                 objectFit:
                   type: select
                   value: cover
@@ -252,6 +253,7 @@ composition:
                   type: testVariant
                   value:
                     id: long-title
+                    control: false
                 objectFit:
                   type: select
                   value: cover
@@ -782,6 +784,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-07-03T19:06:53.208645+00:00'
-modified: '2025-07-03T19:06:53.208645+00:00'
+created: '2025-01-29T14:37:51.64849+00:00'
+modified: '2025-01-29T14:39:24.516347+00:00'
 pattern: false

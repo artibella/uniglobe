@@ -518,6 +518,7 @@ composition:
                   type: testVariant
                   value:
                     id: short-title
+                    control: true
                 objectFit:
                   type: select
                   value: cover
@@ -654,6 +655,7 @@ composition:
                   type: testVariant
                   value:
                     id: long-title
+                    control: false
                 objectFit:
                   type: select
                   value: cover
@@ -716,6 +718,28 @@ composition:
             type: testSelect
             value: itineraryOfferDestinations
   _overrides:
+    106f69ba-22b5-44e1-ba2a-64f8e96e65fe:
+      parameters:
+        title:
+          type: text
+          value: ${#jptr:/Country/entry/fields/name/value}
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 60%
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
     1a5a20c8-57ad-486f-ad59-870e0a556e62:
       parameters:
         textColorVariant:
@@ -954,82 +978,6 @@ composition:
           value:
             dim: style_lux
             name: asia-luxury
-    4d8e43b6-14b1-42f8-b0e5-0190e220085a:
-      parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-        image:
-          type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-        title:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
-        badgeSize:
-          type: select
-          value: sm
-        objectFit:
-          type: select
-          locales:
-            de-AT: cover
-            de-CH: cover
-            de-DE: cover
-            fr-CH: cover
-        badgeStyle:
-          type: tp-badge-style-parameter
-          value: primary
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        buttonStyle:
-          type: tp-button-style-parameter
-          value: primary
-        description:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-        overlayColor:
-          type: tp-color-style-parameter
-          locales:
-            de-AT: base-300
-            de-CH: base-300
-            de-DE: base-300
-            en-US: base-300
-            fr-CH: base-300
-        overlayOpacity:
-          type: tp-slider-parameter
-          locales:
-            de-AT: 40%
-            de-CH: 40%
-            de-DE: 40%
-            en-US: 40%
-            fr-CH: 40%
-        textColorVariant:
-          type: select
-          value: Light
     55bb281d-426f-4c91-9d3a-7a1d73873516:
       parameters:
         title:
@@ -1423,82 +1371,6 @@ composition:
               - l: dest_eur
                 op: ^
             name: destinations-europe
-    a3d9edf4-f67d-4ee1-bb62-f2f78a081354:
-      parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-        image:
-          type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-        title:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
-        badgeSize:
-          type: select
-          value: sm
-        objectFit:
-          type: select
-          locales:
-            de-AT: cover
-            de-CH: cover
-            de-DE: cover
-            fr-CH: cover
-        badgeStyle:
-          type: tp-badge-style-parameter
-          value: primary
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        buttonStyle:
-          type: tp-button-style-parameter
-          value: primary
-        description:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-        overlayColor:
-          type: tp-color-style-parameter
-          locales:
-            de-AT: base-300
-            de-CH: base-300
-            de-DE: base-300
-            en-US: base-300
-            fr-CH: base-300
-        overlayOpacity:
-          type: tp-slider-parameter
-          locales:
-            de-AT: 30%
-            de-CH: 30%
-            de-DE: 30%
-            en-US: 30%
-            fr-CH: 30%
-        textColorVariant:
-          type: select
-          value: Light
     a7f6f7d6-0408-4bf8-83f9-abb1dc76a860:
       parameters:
         badge:
@@ -1594,6 +1466,25 @@ composition:
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
+    aa30074b-22b6-4cd7-b7b3-c174eeb33cef:
+      parameters:
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            en-US: secondary
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            en-US: 60%
+        textColorVariant:
+          type: select
+          value: Dark
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: a78fe34d-0e49-4f9a-a675-8487a4b928b6
     ac1e9d81-173c-4141-86f4-b4e25e8f24c8:
       parameters:
         badge:
@@ -1918,22 +1809,16 @@ composition:
               ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
             de-DE: >-
               ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
+            en-US: >-
+              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
             fr-CH: >-
               ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
         image:
           type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
+          value: ${#jptr:/Country/entry/fields/teaserImage/value}
         title:
           type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
+          value: ${#jptr:/Country/entry/fields/name/value}
         badgeSize:
           type: select
           value: sm
@@ -1954,17 +1839,14 @@ composition:
             de-AT: Explore
             de-CH: Explore
             de-DE: Explore
+            en-US: Explore
             fr-CH: Explore
         buttonStyle:
           type: tp-button-style-parameter
           value: primary
         description:
           type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
+          value: ${#jptr:/Country/entry/fields/teaserText/value}
         overlayColor:
           type: tp-color-style-parameter
           locales:
@@ -1984,6 +1866,12 @@ composition:
         textColorVariant:
           type: select
           value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 8cc38f9a-6d51-42a7-b330-567e29c7483a
     e94f2358-88fb-4d2f-a0d9-5ef3d8094eee:
       parameters:
         badge:
@@ -2412,7 +2300,7 @@ composition:
     9da1d7c2-04a8-4013-a78e-dcf735295ba8|20809b46-57c4-4683-abfb-38920d790266:
       slots:
         $slotSectionItems:
-          - _id: 4d8e43b6-14b1-42f8-b0e5-0190e220085a
+          - _id: 106f69ba-22b5-44e1-ba2a-64f8e96e65fe
             type: card
             variant: backgroundImage
             _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
@@ -2439,7 +2327,7 @@ composition:
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
               hideLockedParameters: true
-          - _id: a3d9edf4-f67d-4ee1-bb62-f2f78a081354
+          - _id: aa30074b-22b6-4cd7-b7b3-c174eeb33cef
             type: card
             variant: backgroundImage
             _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
@@ -2448,7 +2336,7 @@ composition:
                 type: country
                 variables:
                   locale: ${locale}
-                  entryId: bdd4c8f3-2999-4885-a2b3-a08216a80aa7
+                  entryId: a78fe34d-0e49-4f9a-a675-8487a4b928b6
             _overridability:
               parameters:
                 $viz: 'yes'
@@ -2475,7 +2363,7 @@ composition:
                 type: country
                 variables:
                   locale: ${locale}
-                  entryId: a78fe34d-0e49-4f9a-a675-8487a4b928b6
+                  entryId: 8cc38f9a-6d51-42a7-b330-567e29c7483a
             _overridability:
               parameters:
                 $viz: 'yes'
@@ -2576,5 +2464,5 @@ composition:
     - de-CH
     - fr-CH
 created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-08-18T21:47:06.499126+00:00'
+modified: '2025-09-08T13:27:23.187997+00:00'
 pattern: false

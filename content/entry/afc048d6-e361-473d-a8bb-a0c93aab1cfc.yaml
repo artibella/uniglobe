@@ -1,5 +1,5 @@
 created: '2025-04-28T11:43:21.451068+00:00'
-modified: '2025-07-10T12:55:57.441198+00:00'
+modified: '2025-08-27T09:26:09.521193+00:00'
 pattern: false
 entry:
   _id: afc048d6-e361-473d-a8bb-a0c93aab1cfc
@@ -22,16 +22,67 @@ entry:
           7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55,718f9a08-407f-474f-b5de-3769bdff4c41
   _locales:
     - en-US
+    - de-DE
   _overrides:
     afc048d6-e361-473d-a8bb-a0c93aab1cfc:
       parameters:
         name:
           type: text
           locales:
+            de-DE: Zentralamerika
             en-US: Central America
         image:
           type: asset
           locales:
+            de-DE:
+              - _id: 240315b1-68ad-4759-94c7-2810f6846708
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      A peaceful view of a child by the tropical waves on a
+                      Costa Rican beach.
+                  width:
+                    type: number
+                    value: 5306
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '9297006'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/landscape-photography-of-a-beach-9297006/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Attie Heunis
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@attie
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/9297006/pexels-photo-9297006.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2985
+                  description:
+                    type: text
+                    value: >-
+                      A peaceful view of a child by the tropical waves on a
+                      Costa Rican beach. - Photo by Attie Heunis on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
             en-US:
               - _id: 240315b1-68ad-4759-94c7-2810f6846708
                 type: image
@@ -84,9 +135,625 @@ entry:
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Zentralamerika lädt dich ein, üppige Regenwälder, lebendige
+              Kulturen und entspannte Surferorte zu entdecken – und das alles
+              mit kleinem Budget.
             en-US: >-
               Central America invites you to explore lush rainforests, vibrant
               cultures, and laid-back surf towns—all on a budget. 
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Zentralamerika entdecken
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Zentralamerika verbindet Nord- und Südamerika und
+                          bietet dir eine faszinierende Mischung aus Kulturen,
+                          Landschaften und Abenteuern. Die Region umfasst Länder
+                          wie Guatemala, Belize, Honduras, El Salvador,
+                          Nicaragua, Costa Rica und Panama – jedes mit eigenem
+                          Charakter und einzigartigen Erlebnissen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Was erwartet dich?
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Vielfältige Natur:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Von dichten Regenwäldern und aktiven Vulkanen bis zu karibischen Traumstränden und Nebelwäldern.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Reiche Kultur:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Erkunde Maya-Ruinen, bunte Kolonialstädte und lebendige Märkte. Lerne von lokalen Communities und entdecke indigene Traditionen.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Nachhaltiges Reisen:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Viele Unterkünfte und Touren setzen auf Umweltschutz und unterstützen lokale Projekte. Nutze Busse, Boote oder Shuttles, um deinen CO₂-Fußabdruck zu minimieren.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Abenteuer für jedes Budget:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Ob Backpacking, Surfen, Tauchen oder Wandern – Zentralamerika ist ideal für unabhängige und preisbewusste Reisende.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Praktische Tipps
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Beste Reisezeit:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Trockenzeit von Dezember bis April, aber auch in der Regenzeit sind viele Regionen gut bereisbar.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Transport:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Öffentliche Busse ("Chicken Bus"), Minivans und Boote sind günstig und verbinden auch abgelegene Orte.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Sicherheit:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Informiere dich über aktuelle Hinweise und reise bewusst, besonders in größeren Städten.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Sprache:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spanisch ist weit verbreitet, in Belize auch Englisch. Ein paar Grundkenntnisse helfen beim Kontakt mit Locals.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Nachhaltig unterwegs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Übernachte in Eco-Lodges oder bei Gastfamilien.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Buche Touren mit lokalen Guides.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Unterstütze kleine Restaurants und
+                              Handwerksbetriebe.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Reduziere Plastikmüll und respektiere die Natur.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: '!'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - rel: null
+                        url: >-
+                          https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80
+                        type: link
+                        title: null
+                        format: ''
+                        indent: 0
+                        target: null
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Dschungel in Guatemala
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Zentralamerika ist perfekt für alle, die authentische
+                          Begegnungen, Naturerlebnisse und nachhaltiges Reisen
+                          suchen – und dabei das Budget im Blick behalten
+                          wollen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Discover Central America: Nature, Culture, and Value'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Central America is a vibrant bridge between North and
+                          South America, packed with lush rainforests, active
+                          volcanoes, and sun-soaked coastlines. Here, you can
+                          surf Pacific waves in El Salvador, trek cloud forests
+                          in Costa Rica, or snorkel the world’s second-largest
+                          barrier reef in Belize—all without breaking the bank.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Why travel Central America?
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Diverse cultures:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Experience Maya ruins in Guatemala, Garifuna music in Honduras, and colorful markets in Nicaragua. Every country offers unique traditions, languages, and flavors.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Natural wonders:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Spot sloths and toucans, hike to hidden waterfalls, or relax on Caribbean beaches. National parks and eco-reserves are everywhere, making it easy to travel sustainably.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Affordable adventures:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Budget-friendly hostels, local buses, and street food keep costs low. Small-group tours and community-run stays help your money support local families.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Sustainable travel tips
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Choose eco-lodges and public transport to reduce
+                              your footprint.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Support local guides and artisans for authentic
+                              experiences.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Respect wildlife and natural spaces—leave no
+                              trace.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Central America is perfect for independent explorers,
+                          digital nomads, and anyone seeking real connections
+                          and unforgettable landscapes—without the luxury price
+                          tag.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
         destinations:
           type: contentReference
           value: >-

@@ -1,5 +1,5 @@
 created: '2025-07-10T12:53:46.782135+00:00'
-modified: '2025-08-15T13:45:14.130887+00:00'
+modified: '2025-08-27T09:26:28.145582+00:00'
 pattern: false
 entry:
   _id: 718f9a08-407f-474f-b5de-3769bdff4c41
@@ -27,7 +27,7 @@ entry:
         name:
           type: text
           locales:
-            de-DE: ${#jptr:/Country/0/name}
+            de-DE: Costa Rica
         images:
           type: asset
           locales:
@@ -248,10 +248,16 @@ entry:
         captial:
           type: text
           locales:
-            de-DE: ${#jptr:/Country/0/capital}
+            de-DE: San José
         flagEmoji:
           type: text
           value: 🇨🇷
+        teaserText:
+          type: text
+          locales:
+            de-DE: >-
+              Entdecke Costa Rica: Regenwälder, Vulkane und nachhaltige
+              Abenteuer erwarten dich zwischen Pazifik und Karibik.
         description:
           type: richText
           locales:
@@ -269,24 +275,27 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          Costa Rica is a compact, eco-friendly country in
-                          Central America known for its lush rainforests, active
-                          volcanoes, and Pacific and Caribbean coastlines. Here,
-                          you can spot sloths in cloud forests, surf uncrowded
-                          beaches, and connect with local communities through
-                          homestays and farm visits. Public buses and shared
-                          shuttles make it easy to get around on a budget, and
-                          many hostels and ecolodges are certified for
-                          sustainability. Costa Rica’s commitment to
-                          conservation means over 25% of its land is protected,
-                          so your travel dollars support both local people and
-                          the environment. Expect affordable meals at local
-                          sodas (around $4-7 USD), and plenty of opportunities
-                          for adventure—think ziplining, wildlife watching, and
-                          hiking—all while practicing responsible tourism.
-                          Whether you’re a solo backpacker, digital nomad, or
-                          traveling with friends, Costa Rica offers authentic
-                          experiences that go beyond the typical tourist trail.
+                          Costa Rica ist ein kompaktes, umweltfreundliches Land
+                          in Mittelamerika, das für seine üppigen Regenwälder,
+                          aktiven Vulkane und Küsten am Pazifik und der Karibik
+                          bekannt ist. Hier kannst du Faultiere in Nebelwäldern
+                          beobachten, an wenig besuchten Stränden surfen und
+                          durch Homestays oder Farmbesuche mit lokalen
+                          Gemeinschaften in Kontakt kommen. Öffentliche Busse
+                          und geteilte Shuttles machen das Reisen auch mit
+                          kleinem Budget einfach, und viele Hostels sowie
+                          Ecolodges sind für ihre Nachhaltigkeit zertifiziert.
+                          Costa Ricas Engagement für den Naturschutz bedeutet,
+                          dass über 25 % der Landesfläche geschützt sind – so
+                          unterstützt du mit deinen Reisekosten sowohl die
+                          lokale Bevölkerung als auch die Umwelt. Rechne mit
+                          günstigen Mahlzeiten in lokalen Sodas (etwa 4–7 USD)
+                          und vielen Möglichkeiten für Abenteuer: Ziplining,
+                          Tierbeobachtungen und Wanderungen – alles mit Fokus
+                          auf verantwortungsvolles Reisen. Egal ob du als
+                          Solo-Backpacker, Digital Nomad oder mit Freunden
+                          unterwegs bist, Costa Rica bietet authentische
+                          Erlebnisse abseits der typischen Touristenpfade.
                         type: text
                         style: ''
                         detail: 0
@@ -1025,6 +1034,20 @@ entry:
                 indent: 0
                 version: 1
                 children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Beste Reisezeit für Costa Rica
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
                   - type: paragraph
                     format: ''
                     indent: 0
@@ -1032,22 +1055,358 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          The best time to visit Costa Rica depends on what you
-                          want from your trip. The dry season (December to
-                          April) offers sunny days and easy travel, but it’s
-                          also the busiest and most expensive time—especially
-                          around Christmas, New Year, and Easter. If you’re
-                          looking to avoid crowds and save money, consider the
-                          green (rainy) season from May to November. Afternoon
-                          showers are common, but mornings are often clear, and
-                          the landscape is lush. This is also a great time for
-                          wildlife spotting, especially sea turtles nesting on
-                          the Caribbean coast (July–October). Surfers will find
-                          the biggest Pacific swells from May to August. No
-                          matter when you go, pack a rain jacket and quick-dry
-                          clothes, and be ready for microclimates—weather can
-                          change quickly between the coasts, mountains, and
-                          forests.
+                          Die optimale Reisezeit hängt davon ab, was du erleben
+                          möchtest. Hier findest du einen Überblick über die
+                          wichtigsten Jahreszeiten und ihre Besonderheiten:
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Trockenzeit (Dezember bis April)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Wetter:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Sonnig, wenig Regen, angenehme Temperaturen'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Vorteile:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Ideale Bedingungen für Outdoor-Aktivitäten und unkompliziertes Reisen'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Nachteile:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Hochsaison – mehr Reisende, höhere Preise, besonders rund um Weihnachten, Neujahr und Ostern'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Grüne Saison / Regenzeit (Mai bis November)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Wetter:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Nachmittags oft kurze, heftige Schauer; Vormittage meist klar'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Vorteile:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Weniger Touristen, günstigere Unterkünfte und Touren, üppige Natur'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Nachteile:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Einige Straßen können schwer passierbar sein, besonders in ländlichen Gebieten'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Besondere Naturerlebnisse
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Meeresschildkröten:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Nistsaison an der Karibikküste (Juli–Oktober)'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Surfen:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Beste Pazifik-Swells von Mai bis August'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Tierbeobachtung:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Regenzeit bringt viele Tiere hervor, besonders in den Nationalparks'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Praktische Tipps
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Packe immer eine Regenjacke und schnelltrocknende
+                              Kleidung ein
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Sei auf Mikroklimata vorbereitet – das Wetter kann
+                              sich zwischen Küsten, Bergen und Wäldern schnell
+                              ändern
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Für nachhaltiges Reisen: Reise außerhalb der
+                              Hochsaison, buche lokale Unterkünfte und nutze
+                              öffentliche Verkehrsmittel
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Egal wann du reist, Costa Rica bietet das ganze Jahr
+                          über authentische Erlebnisse und eine beeindruckende
+                          Artenvielfalt.
                         type: text
                         style: ''
                         detail: 0
@@ -1096,4 +1455,7 @@ entry:
                     textStyle: ''
                     textFormat: 0
                 direction: null
+        officialName:
+          type: text
+          value: Republic of Costa Rica
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

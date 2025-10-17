@@ -1,5 +1,5 @@
 created: '2024-08-21T13:38:41.298934+00:00'
-modified: '2025-07-25T10:16:38.207845+00:00'
+modified: '2025-08-27T09:56:06.953807+00:00'
 pattern: false
 entry:
   _id: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
@@ -25,12 +25,19 @@ entry:
   _overrides:
     5df637c2-5fea-416c-a4b4-95aa58c86bd7:
       parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Italien
         region:
           type: contentReference
           value: ${#jptr:/ref-5df637c2-5fea-416c-a4b4-95aa58c86bd7-region/entries/0}
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Erlebe Italiens lebendige Kultur, köstliche Küche und nachhaltige
+              Abenteuer abseits der Touristenpfade.
             en-US: >-
               Discover Italy, where timeless history, breathtaking landscapes,
               and exquisite cuisine create a journey of unforgettable
@@ -38,6 +45,102 @@ entry:
         description:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Italien ist ein Land, das Reisende mit seiner reichen
+                          Geschichte, lebendigen Kultur und atemberaubenden
+                          Landschaften begeistert. Von den antiken Ruinen Roms
+                          über die romantischen Kanäle Venedigs bis zu den
+                          sonnenverwöhnten Stränden Siziliens bietet Italien
+                          eine Vielfalt an authentischen Erlebnissen. Hier
+                          kannst du in familiengeführten Trattorien hausgemachte
+                          Pasta genießen, auf lokalen Märkten frische Zutaten
+                          entdecken und in kleinen Dörfern mit Einheimischen ins
+                          Gespräch kommen. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Nachhaltiges Reisen wird in Italien immer wichtiger:
+                          Viele Unterkünfte sind umweltzertifiziert, und
+                          Zugreisen verbinden die Städte schnell und
+                          klimafreundlich. Abseits der Touristenströme findest
+                          du Wanderwege in den Dolomiten, ruhige Strände an der
+                          Adria und charmante Kleinstädte in der Toskana. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Italien ist ideal für unabhängige Entdecker, kleine
+                          Gruppen und alle, die Wert auf Kultur, Natur und
+                          bewussten Konsum legen. Die Preise reichen von
+                          günstigen Hostels bis zu gemütlichen
+                          Mittelklassehotels. Öffentliche Verkehrsmittel sind
+                          gut ausgebaut, und viele Regionen lassen sich auch mit
+                          dem Fahrrad erkunden. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Achte darauf, lokale Anbieter zu unterstützen, Müll zu
+                          vermeiden und respektvoll mit Kultur und Natur
+                          umzugehen. So wird deine Reise nach Italien nicht nur
+                          unvergesslich, sondern auch nachhaltig und fair für
+                          alle Beteiligten.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
             en-US:
               root:
                 type: root
@@ -84,62 +187,233 @@ entry:
                 direction: ltr
         teaserImage:
           type: asset
-          locales:
-            en-US:
-              - _id: 4e3e39a6-8aeb-47d2-9056-8cf2895092c9
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
+          value:
+            - _id: 4e3e39a6-8aeb-47d2-9056-8cf2895092c9
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=85
+                title:
+                  type: text
+                  value: Summer in Venice
+                width:
+                  type: number
+                  value: 3872
+                custom:
+                  type: object
+                  value:
+                    color: '#0c8cc0'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/venice-grand-canal-italy-1naE8177_bI
+                    blurHash: LVEyoU^K#6s-%jw[skaeFhfNocn~
+                    sourceId: 1naE8177_bI
+                    createdAt: '2018-03-04T14:58:47Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/venice-grand-canal-italy-1naE8177_bI
+                    updatedAt: '2025-07-23T09:20:06Z'
+                    authorName: Dan Novac
+                    downloadUrl: >-
+                      https://unsplash.com/photos/1naE8177_bI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0
+                    photoFullUrl: >-
                       https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=85
-                  title:
-                    type: text
-                    value: Summer in Venice
-                  width:
-                    type: number
-                    value: 3872
-                  custom:
-                    type: object
-                    value:
-                      color: '#0c8cc0'
-                      apiUrl: >-
-                        https://api.unsplash.com/photos/venice-grand-canal-italy-1naE8177_bI
-                      blurHash: LVEyoU^K#6s-%jw[skaeFhfNocn~
-                      sourceId: 1naE8177_bI
-                      createdAt: '2018-03-04T14:58:47Z'
-                      detailUrl: >-
-                        https://unsplash.com/photos/venice-grand-canal-italy-1naE8177_bI
-                      updatedAt: '2025-07-23T09:20:06Z'
-                      authorName: Dan Novac
-                      downloadUrl: >-
-                        https://unsplash.com/photos/1naE8177_bI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA
-                      photoRawUrl: >-
-                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0
-                      photoFullUrl: >-
-                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=85
-                      photoSmallUrl: >-
-                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=400
-                      photoThumbUrl: >-
-                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=200
-                      authorUsername: dnovac
-                      photoRegularUrl: >-
-                        https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080
-                      authorProfileUrl: https://unsplash.com/@dnovac
-                      downloadLocation: >-
-                        https://api.unsplash.com/photos/1naE8177_bI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA
-                      authorProfileImage: >-
-                        https://images.unsplash.com/profile-fb-1515664185-7aa1ce376182.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
-                  height:
-                    type: number
-                    value: 2592
-                  description:
-                    type: text
-                    value: Photo by Dan Novac on Unsplash
-                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=200
+                    authorUsername: dnovac
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@dnovac
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/1naE8177_bI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxpdGFseXxlbnwwfHx8fDE3NTMyNzg1OTZ8MA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-fb-1515664185-7aa1ce376182.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 2592
+                description:
+                  type: text
+                  value: Photo by Dan Novac on Unsplash
+              _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
         timeToVisit:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Beste Reisezeit für Italien
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Italien ist das ganze Jahr über ein attraktives
+                          Reiseziel, aber die beste Reisezeit hängt davon ab,
+                          was du erleben möchtest.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Frühling (April–Juni)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' ist ideal für die meisten Reisenden. Die Temperaturen sind mild, die Natur blüht, und die Städte sind noch nicht überfüllt. Viele lokale Feste finden in dieser Zeit statt, und du kannst authentische Einblicke in das italienische Leben gewinnen. Perfekt für Wanderungen, Radtouren und den Besuch von Weingütern.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Herbst (September–Oktober)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' bietet angenehmes Wetter, weniger Touristen und die Weinlese-Saison. Besonders in ländlichen Regionen und kleineren Städten kannst du lokale Märkte und kulinarische Events erleben. Die Preise für Unterkünfte und Aktivitäten sind oft günstiger als im Sommer.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Sommer (Juli–August)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' ist Hochsaison, vor allem an der Küste und in den großen Städten. Es kann sehr heiß werden (oft über 35°C), und viele Italiener machen selbst Urlaub, sodass einige kleinere Geschäfte und Restaurants geschlossen sein können. Wenn du im Sommer reist, wähle nachhaltige Unterkünfte mit Klimaanlage oder Ventilatoren und plane Aktivitäten am frühen Morgen oder späten Abend.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Winter (November–März)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' ist ruhig und authentisch, besonders in Städten wie Rom, Florenz oder Venedig. Die Alpenregion eignet sich hervorragend für Wintersport. Viele Sehenswürdigkeiten sind weniger besucht, und du kannst das lokale Leben abseits der Touristenmassen erleben. Beachte, dass einige ländliche Unterkünfte und Attraktionen in der Nebensaison geschlossen sein können.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Nachhaltigkeitstipp:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Reise möglichst außerhalb der Hochsaison, um die Umwelt zu entlasten und lokale Gemeinschaften zu unterstützen. Nutze öffentliche Verkehrsmittel wie Züge und Busse, die in Italien gut ausgebaut sind.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Fazit:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Für authentische Erlebnisse und angenehmes Wetter empfehlen wir Frühling oder Herbst. Plane deine Reise rund um lokale Feste oder Märkte, um Italien von seiner nachhaltigsten und gastfreundlichsten Seite kennenzulernen.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
             en-US:
               root:
                 type: root

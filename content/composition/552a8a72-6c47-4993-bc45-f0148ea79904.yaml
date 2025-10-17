@@ -944,6 +944,14 @@ composition:
           feature:
             - _id: 068668d5-520c-4bc5-b72a-9bda8beb189f
               type: feature
+              slots:
+                icon:
+                  - _id: 1468840b-5640-464b-8963-2c18a5854b0f
+                    type: icon
+                    parameters:
+                      icon:
+                        type: lucide-icons-icon
+                        value: baby
               parameters:
                 title:
                   type: text
@@ -963,6 +971,14 @@ composition:
                       experiences for travelers of all ages.
             - _id: b637acaa-f979-4bde-aa94-086c1ccf9c02
               type: feature
+              slots:
+                icon:
+                  - _id: 879b2293-7e5d-4f08-94d2-f97b1d805012
+                    type: icon
+                    parameters:
+                      icon:
+                        type: lucide-icons-icon
+                        value: kayak
               parameters:
                 icon:
                   type: asset
@@ -985,6 +1001,14 @@ composition:
                       and water sports.
             - _id: c8205ca3-c293-4338-8392-83574cf74dd0
               type: feature
+              slots:
+                icon:
+                  - _id: ca662aa5-bc92-4976-b42f-a3bea957900b
+                    type: icon
+                    parameters:
+                      icon:
+                        type: lucide-icons-icon
+                        value: calendar-check
               parameters:
                 title:
                   type: text
@@ -1530,5 +1554,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-15T09:27:31.731839+00:00'
-modified: '2025-08-25T08:31:29.457747+00:00'
+modified: '2025-09-02T07:59:27.157185+00:00'
 pattern: false

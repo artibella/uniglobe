@@ -1,12 +1,12 @@
 created: '2025-05-21T10:54:52.281809+00:00'
-modified: '2025-08-13T11:09:06.577912+00:00'
+modified: '2025-10-14T09:04:56.993598+00:00'
 pattern: false
 entry:
   _id: 305c9a69-e5cd-4488-8f96-e0fb09a260a9
   _name: 'Hidden Trails of Southeast Asia: Discover the Region’s Most...'
   _slug: hidden-gems-in-southeast-asia-off-the-beaten-path
   _thumbnail: >-
-    https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/V7LaplKlQXm6rE_JsKPfXg-photo-1506918357967-b358ad447c56
+    https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiZWFjaHxlbnwwfHx8fDE3NjA0MzI2ODl8MA&ixlib=rb-4.1.0&q=85
   type: blogPosts
   fields:
     body:
@@ -1506,35 +1506,59 @@ entry:
                 type: text
             _source: uniform-assets
         en-US:
-          - _id: 52960e43-a51a-4ddd-9b95-21f5b9427abf
+          - _id: e798257a-0d40-43b2-9e9e-ff165b2c04ee
             type: image
             fields:
-              id:
-                type: text
-                value: c9556355-d04b-4abe-ae4f-851c84bd76d2
               url:
-                value: >-
-                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/V7LaplKlQXm6rE_JsKPfXg-photo-1506918357967-b358ad447c56
                 type: text
-              file:
-                type: file
-                value: 40334f40-9aef-4c65-b4de-6e63a085f876
-              size:
-                value: 1138813
-                type: number
+                value: >-
+                  https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiZWFjaHxlbnwwfHx8fDE3NjA0MzI2ODl8MA&ixlib=rb-4.1.0&q=85
               title:
                 type: text
-                value: aerial photography of sea beside green trees during daytime
+                value: >-
+                  The last night of a two week stay on the North Shore of Oahu,
+                  Hawaii.
               width:
-                value: 3000
                 type: number
+                value: 4621
+              custom:
+                type: object
+                value:
+                  color: '#c0c0c0'
+                  apiUrl: >-
+                    https://api.unsplash.com/photos/seashore-during-golden-hour-KMn4VEeEPR8
+                  blurHash: 'LXL|_q}qn$IoPAn%Rjj?ogNboLs:'
+                  sourceId: KMn4VEeEPR8
+                  createdAt: '2017-10-09T05:04:47Z'
+                  detailUrl: >-
+                    https://unsplash.com/photos/seashore-during-golden-hour-KMn4VEeEPR8
+                  updatedAt: '2025-10-14T04:07:47Z'
+                  authorName: Sean Oulashin
+                  downloadUrl: >-
+                    https://unsplash.com/photos/KMn4VEeEPR8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiZWFjaHxlbnwwfHx8fDE3NjA0MzI2ODl8MA
+                  photoRawUrl: >-
+                    https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiZWFjaHxlbnwwfHx8fDE3NjA0MzI2ODl8MA&ixlib=rb-4.1.0
+                  photoFullUrl: >-
+                    https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiZWFjaHxlbnwwfHx8fDE3NjA0MzI2ODl8MA&ixlib=rb-4.1.0&q=85
+                  photoSmallUrl: >-
+                    https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiZWFjaHxlbnwwfHx8fDE3NjA0MzI2ODl8MA&ixlib=rb-4.1.0&q=80&w=400
+                  photoThumbUrl: >-
+                    https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiZWFjaHxlbnwwfHx8fDE3NjA0MzI2ODl8MA&ixlib=rb-4.1.0&q=80&w=200
+                  authorUsername: oulashin
+                  photoRegularUrl: >-
+                    https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiZWFjaHxlbnwwfHx8fDE3NjA0MzI2ODl8MA&ixlib=rb-4.1.0&q=80&w=1080
+                  authorProfileUrl: https://unsplash.com/@oulashin
+                  downloadLocation: >-
+                    https://api.unsplash.com/photos/KMn4VEeEPR8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxiZWFjaHxlbnwwfHx8fDE3NjA0MzI2ODl8MA
+                  authorProfileImage: >-
+                    https://images.unsplash.com/profile-1623168544436-7a0c9394f5d4image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
               height:
-                value: 2000
                 type: number
-              mediaType:
-                value: image/jpeg
+                value: 3072
+              description:
                 type: text
-            _source: uniform-assets
+                value: Photo by Sean Oulashin on Unsplash
+            _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
   _dataResources:
     ref-305c9a69-e5cd-4488-8f96-e0fb09a260a9-categories:
       type: uniformContentInternalReference

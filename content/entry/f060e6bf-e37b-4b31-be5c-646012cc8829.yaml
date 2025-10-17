@@ -1,0 +1,582 @@
+created: '2025-10-10T12:53:42.001231+00:00'
+modified: '2025-10-10T13:08:57.9751+00:00'
+pattern: false
+entry:
+  _id: f060e6bf-e37b-4b31-be5c-646012cc8829
+  _name: France
+  _slug: france
+  _thumbnail: https://flagcdn.com/fr.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByCountryName
+      variables:
+        name: France
+    ref-f060e6bf-e37b-4b31-be5c-646012cc8829-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 53b42f52-db71-448c-8869-e86a5b7fc80e
+  _locales:
+    - en-US
+    - de-DE
+  _overrides:
+    f060e6bf-e37b-4b31-be5c-646012cc8829:
+      parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Frankreich
+            en-US: ${#jptr:/Country/0/name}
+        images:
+          type: asset
+          locales:
+            en-US:
+              - _id: eddc0a2d-f1b3-4bba-a5b5-df8fff9ec46d
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1502602898657-3e91760cbb34?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxmcmFuY2V8ZW58MHx8fHwxNzYwMTAxNjg1fDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Eiffel Tower, Paris France
+                  width:
+                    type: number
+                    value: 5309
+                  custom:
+                    type: object
+                    value:
+                      color: '#d9c0c0'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/eiffel-tower-paris-france-nnzkZNYWHaU
+                      blurHash: LjHUneR,I;IoNfIot6xZ0ft7s.j[
+                      sourceId: nnzkZNYWHaU
+                      createdAt: '2017-08-13T05:43:31Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/eiffel-tower-paris-france-nnzkZNYWHaU
+                      updatedAt: '2025-10-07T23:53:00Z'
+                      authorName: Chris Karidis
+                      downloadUrl: >-
+                        https://unsplash.com/photos/nnzkZNYWHaU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxmcmFuY2V8ZW58MHx8fHwxNzYwMTAxNjg1fDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxmcmFuY2V8ZW58MHx8fHwxNzYwMTAxNjg1fDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1502602898657-3e91760cbb34?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxmcmFuY2V8ZW58MHx8fHwxNzYwMTAxNjg1fDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1502602898657-3e91760cbb34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxmcmFuY2V8ZW58MHx8fHwxNzYwMTAxNjg1fDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1502602898657-3e91760cbb34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxmcmFuY2V8ZW58MHx8fHwxNzYwMTAxNjg1fDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: chriskaridis
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1502602898657-3e91760cbb34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxmcmFuY2V8ZW58MHx8fHwxNzYwMTAxNjg1fDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@chriskaridis
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/nnzkZNYWHaU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxmcmFuY2V8ZW58MHx8fHwxNzYwMTAxNjg1fDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1513065946967-ba0f8faa10d3?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3530
+                  description:
+                    type: text
+                    value: Photo by Chris Karidis on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-f060e6bf-e37b-4b31-be5c-646012cc8829-region/entries/0}
+        captial:
+          type: text
+          locales:
+            en-US: ${#jptr:/Country/0/capital}
+        flagEmoji:
+          type: text
+          value: 🇫🇷
+        teaserText:
+          type: text
+          locales:
+            de-DE: >-
+              Entdecke authentische Abenteuer, lokale Kultur und nachhaltiges
+              Reisen – perfekt für junge, bewusste Entdecker.
+            en-US: >-
+              Savor France’s vibrant culture, local flavors, and timeless
+              charm—perfect for eco-minded, independent travelers year-round.
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Frankreich begeistert mit einer lebendigen Mischung
+                          aus Kultur, Geschichte und natürlicher Schönheit –
+                          perfekt für bewusste Reisende. Abseits der bekannten
+                          Highlights wie dem Eiffelturm oder dem Louvre erwarten
+                          dich bunte Straßenmärkte, familiengeführte Bäckereien
+                          und lokale Feste, die dich einladen, französische
+                          Traditionen hautnah zu erleben. Erkunde Paris
+                          entspannt mit dem Fahrrad oder nutze das effiziente
+                          Bahnnetz, um mittelalterliche Städte wie Carcassonne,
+                          die Lavendelfelder der Provence oder die wilde
+                          Atlantikküste zu entdecken.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Für eine nachhaltige Reise wähle am besten
+                          öko-zertifizierte Gästehäuser oder von der
+                          Gemeinschaft betriebene Hostels und unterstütze lokale
+                          Handwerksbetriebe auf Dorfmärkten. Regionen wie das
+                          Loiretal oder das Elsass eignen sich ideal für Slow
+                          Travel: Radle von Weingut zu Weingut, wandere durch
+                          Nationalparks oder schließe dich einer kleinen, von
+                          Einheimischen geführten Food-Tour an. Dank des gut
+                          ausgebauten öffentlichen Verkehrsnetzes kannst du auf
+                          Mietwagen meist verzichten und deinen ökologischen
+                          Fußabdruck reduzieren.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Dich erwartet eine herzliche Café-Kultur, vielfältige
+                          regionale Küchen (zum Beispiel bretonische Crêpes,
+                          provenzalisches Ratatouille oder baskische Pintxos)
+                          und viele Gelegenheiten, dein Französisch zu üben. In
+                          den meisten Museen gibt es ermäßigten oder sogar
+                          kostenlosen Eintritt für Studierende und junge
+                          Erwachsene. Begrüße Ladenbesitzer immer freundlich mit
+                          einem „Bonjour!“ und respektiere die lokalen
+                          Gepflogenheiten. Frankreich heißt Reisende willkommen,
+                          die authentische Erlebnisse, Gemeinschaft und
+                          verantwortungsvolles Entdecken schätzen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          France offers a vibrant mix of culture, history, and
+                          natural beauty that appeals to conscious travelers.
+                          Beyond iconic sights like the Eiffel Tower and the
+                          Louvre, you’ll find lively street markets, family-run
+                          bakeries, and local festivals that invite you to
+                          connect with French traditions. Explore Paris by bike
+                          or hop on efficient trains to reach medieval towns
+                          like Carcassonne, the lavender fields of Provence, or
+                          the rugged Atlantic coast.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          For a more sustainable trip, choose eco-certified
+                          guesthouses or community-run hostels, and support
+                          local artisans at village markets. Many regions, such
+                          as the Loire Valley and Alsace, are perfect for slow
+                          travel—cycle between vineyards, hike in national
+                          parks, or join a small-group food tour led by locals.
+                          France’s public transport network makes it easy to
+                          avoid car rentals and reduce your footprint.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Expect a warm café culture, diverse regional cuisines
+                          (think Breton crêpes, Provençal ratatouille, or Basque
+                          pintxos), and plenty of opportunities to practice your
+                          French. Most museums offer discounted or free entry
+                          for students and young adults. Remember to greet
+                          shopkeepers with a friendly “Bonjour!” and respect
+                          local customs. France welcomes travelers who value
+                          authentic experiences, community connection, and
+                          responsible exploration.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        enrichments:
+          type: $enr
+          value:
+            - cat: act
+              key: cul
+              str: 100
+            - cat: act
+              key: fod
+              str: 90
+            - cat: style
+              key: eco
+              str: 60
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: 0fdafec5-6f63-417d-b048-e0ee8ebee414
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Sunset over a lavender field
+                  width:
+                    type: number
+                    value: 6000
+                  custom:
+                    type: object
+                    value:
+                      color: '#f3c0c0'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/lavender-field-c1Jp-fo53U8
+                      blurHash: L.KJJoW?j]xG~UbIWVW.tRn$oLWX
+                      sourceId: c1Jp-fo53U8
+                      createdAt: '2017-07-02T13:34:17Z'
+                      detailUrl: https://unsplash.com/photos/lavender-field-c1Jp-fo53U8
+                      updatedAt: '2025-10-07T23:52:12Z'
+                      authorName: Léonard Cotte
+                      downloadUrl: >-
+                        https://unsplash.com/photos/c1Jp-fo53U8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: ettocl
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@ettocl
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/c1Jp-fo53U8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1545973666179-c5ad6746ba37?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4000
+                  description:
+                    type: text
+                    value: Photo by Léonard Cotte on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Beste Reisezeit für Frankreich
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Frankreich ist das ganze Jahr über ein spannendes
+                          Reiseziel, aber die beste Reisezeit hängt davon ab,
+                          was du erleben möchtest. Die beliebtesten Monate sind
+                          Mai bis Oktober, wenn das Wetter meist mild bis warm
+                          ist und viele Festivals stattfinden. Besonders im
+                          Frühling (April bis Juni) und Herbst (September bis
+                          Oktober) reist du entspannt, da weniger Touristen
+                          unterwegs sind und die Preise oft günstiger sind.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Frühling (März–Mai):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Ideal für Städtereisen, Wanderungen und Fahrradtouren. Die Natur blüht, das Klima ist angenehm, und viele lokale Märkte starten in die Saison.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Sommer (Juni–August):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Perfekt für Strandurlaub an der Atlantik- oder Mittelmeerküste. In Südfrankreich kann es sehr heiß werden, während es in den Alpen und Pyrenäen angenehm kühl bleibt – super für Outdoor-Abenteuer. Beachte: Im August machen viele Franzosen selbst Urlaub, daher sind manche Städte ruhiger, aber Küsten und Berge voller.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Herbst (September–November):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Weinliebhaber kommen jetzt auf ihre Kosten – es ist Erntezeit in den Weinregionen. Die Temperaturen sind mild, und die Herbstfarben machen Wanderungen besonders schön.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Winter (Dezember–Februar):'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Ideal für Wintersport in den Alpen oder Pyrenäen. Städte wie Paris sind weniger überlaufen, und Weihnachtsmärkte sorgen für besondere Stimmung. Viele Unterkünfte bieten in der Nebensaison günstigere Preise.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Nachhaltigkeitstipp:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Reise möglichst außerhalb der Hochsaison, nutze Züge oder Fernbusse und unterstütze lokale Unterkünfte und Märkte. So entdeckst du Frankreich authentisch und schonst Umwelt und Budget.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The best time to visit France is during the spring
+                          (April to June) and fall (September to November).
+                          These months offer mild weather, fewer tourists, and
+                          better prices on accommodation and activities—perfect
+                          for independent travelers and small groups looking to
+                          connect with local communities. Spring brings blooming
+                          gardens and lively outdoor markets, while autumn is
+                          ideal for wine harvest festivals and colorful
+                          countryside hikes.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Summer (July and August) is popular for festivals,
+                          open-air concerts, and beach escapes along the
+                          Mediterranean, but expect higher prices and bigger
+                          crowds, especially in major cities and coastal areas.
+                          If you visit in summer, consider exploring
+                          lesser-known regions or eco-certified rural stays to
+                          avoid over-tourism and support local economies.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Winter (December to March) is quieter, with cozy
+                          village vibes, festive Christmas markets, and
+                          affordable rates—especially in the south or for those
+                          interested in skiing in the Alps. No matter when you
+                          go, traveling by train or bus is a sustainable way to
+                          get around, and many community-run events happen
+                          year-round.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        officialName:
+          type: text
+          value: Französische Republik
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

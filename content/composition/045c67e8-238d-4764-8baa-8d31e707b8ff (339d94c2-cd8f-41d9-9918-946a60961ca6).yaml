@@ -7,10 +7,7 @@ composition:
     pageTitle:
       type: text
       locales:
-        de-AT: Top Travel Destinations Worldwide - Explore Asia and Europe
-        de-CH: Top Travel Destinations Worldwide - Explore Asia and Europe
         de-DE: Top Travel Destinations Worldwide - Explore Asia and Europe
-        fr-CH: Top Travel Destinations Worldwide - Explore Asia and Europe
     openGraphType:
       type: select
       value: website
@@ -67,45 +64,18 @@ composition:
     openGraphTitle:
       type: text
       locales:
-        de-AT: Explore the World's Top Destinations
-        de-CH: Explore the World's Top Destinations
         de-DE: Explore the World's Top Destinations
-        fr-CH: Explore the World's Top Destinations
     pageMetaDescription:
       type: text
       locales:
-        de-AT: >-
-          Discover the world's top travel destinations across Asia, Europe, and
-          beyond. Find inspiration, expert tips, and plan your next adventure
-          with UniGlobe.
-        de-CH: >-
-          Discover the world's top travel destinations across Asia, Europe, and
-          beyond. Find inspiration, expert tips, and plan your next adventure
-          with UniGlobe.
         de-DE: >-
-          Discover the world's top travel destinations across Asia, Europe, and
-          beyond. Find inspiration, expert tips, and plan your next adventure
-          with UniGlobe.
-        fr-CH: >-
           Discover the world's top travel destinations across Asia, Europe, and
           beyond. Find inspiration, expert tips, and plan your next adventure
           with UniGlobe.
     openGraphDescription:
       type: text
       locales:
-        de-AT: >-
-          Discover the world's top travel destinations across Asia, Europe, and
-          beyond. Find inspiration, expert tips, and plan your next adventure
-          with UniGlobe.
-        de-CH: >-
-          Discover the world's top travel destinations across Asia, Europe, and
-          beyond. Find inspiration, expert tips, and plan your next adventure
-          with UniGlobe.
         de-DE: >-
-          Discover the world's top travel destinations across Asia, Europe, and
-          beyond. Find inspiration, expert tips, and plan your next adventure
-          with UniGlobe.
-        fr-CH: >-
           Discover the world's top travel destinations across Asia, Europe, and
           beyond. Find inspiration, expert tips, and plan your next adventure
           with UniGlobe.
@@ -129,127 +99,7 @@ composition:
           image:
             type: asset
             locales:
-              de-AT:
-                - _id: 2f4a297d-0ccf-41cd-aa26-57c6b314de32
-                  type: image
-                  fields:
-                    id:
-                      type: text
-                      value: 2def1ae3-96b9-472d-bb8a-3b875185142f
-                    url:
-                      value: >-
-                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
-                      type: text
-                    file:
-                      type: file
-                      value: 7c0881b1-32bc-44cf-bac5-aff1f5610077
-                    size:
-                      value: 3328074
-                      type: number
-                    title:
-                      type: text
-                      value: Kyoto temple over city
-                    width:
-                      value: 5911
-                      type: number
-                    height:
-                      value: 3941
-                      type: number
-                    mediaType:
-                      value: image/jpeg
-                      type: text
-                    description:
-                      type: text
-                      value: Su-san Lee, Unsplash
-                  _source: uniform-assets
-                  _overrides:
-                    fields:
-                      focalPoint:
-                        type: focalPoint
-                        value:
-                          x: 0.95
-                          'y': 0.42
-              de-CH:
-                - _id: 2f4a297d-0ccf-41cd-aa26-57c6b314de32
-                  type: image
-                  fields:
-                    id:
-                      type: text
-                      value: 2def1ae3-96b9-472d-bb8a-3b875185142f
-                    url:
-                      value: >-
-                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
-                      type: text
-                    file:
-                      type: file
-                      value: 7c0881b1-32bc-44cf-bac5-aff1f5610077
-                    size:
-                      value: 3328074
-                      type: number
-                    title:
-                      type: text
-                      value: Kyoto temple over city
-                    width:
-                      value: 5911
-                      type: number
-                    height:
-                      value: 3941
-                      type: number
-                    mediaType:
-                      value: image/jpeg
-                      type: text
-                    description:
-                      type: text
-                      value: Su-san Lee, Unsplash
-                  _source: uniform-assets
-                  _overrides:
-                    fields:
-                      focalPoint:
-                        type: focalPoint
-                        value:
-                          x: 0.95
-                          'y': 0.42
               de-DE:
-                - _id: 2f4a297d-0ccf-41cd-aa26-57c6b314de32
-                  type: image
-                  fields:
-                    id:
-                      type: text
-                      value: 2def1ae3-96b9-472d-bb8a-3b875185142f
-                    url:
-                      value: >-
-                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
-                      type: text
-                    file:
-                      type: file
-                      value: 7c0881b1-32bc-44cf-bac5-aff1f5610077
-                    size:
-                      value: 3328074
-                      type: number
-                    title:
-                      type: text
-                      value: Kyoto temple over city
-                    width:
-                      value: 5911
-                      type: number
-                    height:
-                      value: 3941
-                      type: number
-                    mediaType:
-                      value: image/jpeg
-                      type: text
-                    description:
-                      type: text
-                      value: Su-san Lee, Unsplash
-                  _source: uniform-assets
-                  _overrides:
-                    fields:
-                      focalPoint:
-                        type: focalPoint
-                        value:
-                          x: 0.95
-                          'y': 0.42
-              fr-CH:
                 - _id: 2f4a297d-0ccf-41cd-aa26-57c6b314de32
                   type: image
                   fields:
@@ -292,10 +142,7 @@ composition:
           title:
             type: text
             locales:
-              de-AT: Top Travel Destinations Worldwide
-              de-CH: Top Travel Destinations Worldwide
-              de-DE: Top Travel Destinations Worldwide
-              fr-CH: Top Travel Destinations Worldwide
+              de-DE: Top-Reiseziele weltweit
           objectFit:
             type: select
             value: cover
@@ -308,17 +155,11 @@ composition:
           description:
             type: text
             locales:
-              de-AT: Discover the best travel destinations around the globe
-              de-CH: Discover the best travel destinations around the globe
-              de-DE: Discover the best travel destinations around the globe
-              fr-CH: Discover the best travel destinations around the globe
+              de-DE: Entdecke die besten Reiseziele weltweit
           eyebrowText:
             type: text
             locales:
-              de-AT: Plan your trip
-              de-CH: Plan your trip
-              de-DE: Plan your trip
-              fr-CH: Plan your trip
+              de-DE: Plane deine Reise
           overlayColor:
             type: tp-color-style-parameter
             value: base-300
@@ -330,7 +171,7 @@ composition:
             value: Dark
           overlayOpacity:
             type: tp-slider-parameter
-            value: 40%
+            value: 0%
           containerVariant:
             type: select
             value: fluidContent
@@ -393,43 +234,7 @@ composition:
                 image:
                   type: asset
                   locales:
-                    de-AT:
-                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                          title:
-                            type: text
-                            value: Trip plan
-                        _source: custom-url
-                    de-CH:
-                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                          title:
-                            type: text
-                            value: Trip plan
-                        _source: custom-url
                     de-DE:
-                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                          title:
-                            type: text
-                            value: Trip plan
-                        _source: custom-url
-                    fr-CH:
                       - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
                         type: image
                         fields:
@@ -444,14 +249,12 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-AT: Get a free itinerary plan
-                    de-CH: Get a free itinerary plan
-                    de-DE: Get a free itinerary plan
-                    fr-CH: Get a free itinerary plan
+                    de-DE: Erhalte einen kostenlosen Reiseplan
                 $tstVrnt:
                   type: testVariant
                   value:
                     id: short-title
+                    control: true
                 objectFit:
                   type: select
                   value: cover
@@ -461,17 +264,11 @@ composition:
                 description:
                   type: text
                   locales:
-                    de-AT: for any trips to South and Central America
-                    de-CH: for any trips to South and Central America
-                    de-DE: for any trips to South and Central America
-                    fr-CH: for any trips to South and Central America
+                    de-DE: für alle Reisen nach Süd- und Mittelamerika
                 eyebrowText:
                   type: text
                   locales:
-                    de-AT: Special offer
-                    de-CH: Special offer
-                    de-DE: Special offer
-                    fr-CH: Special offer
+                    de-DE: Sonderangebot
                 overlayColor:
                   type: tp-color-style-parameter
                   value: secondary
@@ -490,10 +287,7 @@ composition:
                 primaryButtonCopy:
                   type: text
                   locales:
-                    de-AT: Get your free plan
-                    de-CH: Get your free plan
-                    de-DE: Get your free plan
-                    fr-CH: Get your free plan
+                    de-DE: Sichere dir deinen Gratis-Plan
                 primaryButtonLink:
                   type: link
                   value:
@@ -513,43 +307,7 @@ composition:
                 image:
                   type: asset
                   locales:
-                    de-AT:
-                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                          title:
-                            type: text
-                            value: Trip plan
-                        _source: custom-url
-                    de-CH:
-                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                          title:
-                            type: text
-                            value: Trip plan
-                        _source: custom-url
                     de-DE:
-                      - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
-                        type: image
-                        fields:
-                          url:
-                            type: text
-                            value: >-
-                              https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                          title:
-                            type: text
-                            value: Trip plan
-                        _source: custom-url
-                    fr-CH:
                       - _id: 4129f1c0-f293-48d1-9f7a-5cee27fe5e84
                         type: image
                         fields:
@@ -564,14 +322,14 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-AT: Get a free itinerary plan from our local experts
-                    de-CH: Get a free itinerary plan from our local experts
-                    de-DE: Get a free itinerary plan from our local experts
-                    fr-CH: Get a free itinerary plan from our local experts
+                    de-DE: >-
+                      Erhalte einen kostenlosen Reiseplan von unseren lokalen
+                      Experten
                 $tstVrnt:
                   type: testVariant
                   value:
                     id: long-title
+                    control: false
                 objectFit:
                   type: select
                   value: cover
@@ -581,17 +339,11 @@ composition:
                 description:
                   type: text
                   locales:
-                    de-AT: for any trips to South and Central America
-                    de-CH: for any trips to South and Central America
-                    de-DE: for any trips to South and Central America
-                    fr-CH: for any trips to South and Central America
+                    de-DE: für alle Reisen nach Süd- und Mittelamerika
                 eyebrowText:
                   type: text
                   locales:
-                    de-AT: Special offer
-                    de-CH: Special offer
-                    de-DE: Special offer
-                    fr-CH: Special offer
+                    de-DE: Sonderangebot
                 overlayColor:
                   type: tp-color-style-parameter
                   value: secondary
@@ -610,10 +362,7 @@ composition:
                 primaryButtonCopy:
                   type: text
                   locales:
-                    de-AT: Get your free plan
-                    de-CH: Get your free plan
-                    de-DE: Get your free plan
-                    fr-CH: Get your free plan
+                    de-DE: Sichere dir deinen Gratis-Plan
                 primaryButtonLink:
                   type: link
                   value:
@@ -636,76 +385,28 @@ composition:
         badge:
           type: text
           locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
             de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
               ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
         image:
           type: asset
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
             de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
         title:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
+            de-DE: Vietnam
         objectFit:
           type: select
           locales:
-            de-AT: cover
-            de-CH: cover
             de-DE: cover
-            fr-CH: cover
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
         buttonLink:
           type: link
           locales:
-            de-AT:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
             de-DE:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            fr-CH:
               path: >-
                 /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
               type: projectMapNode
@@ -716,34 +417,7 @@ composition:
                 region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
                 destination: ${#jptr:/Country/entry/_slug}
           localesConditions:
-            de-AT:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
             de-DE:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            fr-CH:
               - id: 0
                 when:
                   clauses:
@@ -755,24 +429,15 @@ composition:
         description:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
             de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 40%
-            de-CH: 40%
             de-DE: 40%
-            fr-CH: 40%
         textColorVariant:
           type: select
           value: Light
@@ -787,10 +452,7 @@ composition:
         title:
           type: text
           locales:
-            de-AT: Explore Asia
-            de-CH: Explore Asia
-            de-DE: Explore Asia
-            fr-CH: Explore Asia
+            de-DE: Asien entdecken
         $pzCrit:
           type: $pzCrit
           value:
@@ -800,31 +462,10 @@ composition:
         badge:
           type: text
           locales:
-            de-AT: Singapore
-            de-CH: Singapore
             de-DE: Singapore
-            fr-CH: Singapore
         image:
           type: asset
           locales:
-            de-AT:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            de-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
             de-DE:
               - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
                 type: image
@@ -834,76 +475,28 @@ composition:
                     value: >-
                       https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                 _source: custom-url
-            fr-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
         title:
           type: text
           locales:
-            de-AT: Singapore
-            de-CH: Singapore
             de-DE: Singapore
-            fr-CH: Singapore
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            de-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            fr-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
         description:
           type: text
           locales:
-            de-AT: >-
-              Culture, shopping, the best street food and great night life.
-              Singapore has it all
-            de-CH: >-
-              Culture, shopping, the best street food and great night life.
-              Singapore has it all
             de-DE: >-
-              Culture, shopping, the best street food and great night life.
-              Singapore has it all
-            fr-CH: >-
-              Culture, shopping, the best street food and great night life.
-              Singapore has it all
+              Kultur, Shopping, das beste Street Food und ein aufregendes
+              Nachtleben – Singapur bietet alles.
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 30%
-            de-CH: 30%
             de-DE: 30%
-            fr-CH: 30%
         textColorVariant:
           type: select
           value: Light
@@ -912,10 +505,7 @@ composition:
         title:
           type: text
           locales:
-            de-AT: Explore Asia in style
-            de-CH: Explore Asia in style
-            de-DE: Explore Asia in style
-            fr-CH: Explore Asia in style
+            de-DE: Entdecke Asien mit Stil
         $pzCrit:
           type: $pzCrit
           value:
@@ -926,82 +516,34 @@ composition:
         badge:
           type: text
           locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
             de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
               ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
         image:
           type: asset
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
             de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
         title:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
+            de-DE: Italien
         badgeSize:
           type: select
           value: sm
         objectFit:
           type: select
           locales:
-            de-AT: cover
-            de-CH: cover
             de-DE: cover
-            fr-CH: cover
         badgeStyle:
           type: tp-badge-style-parameter
           value: primary
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
         buttonLink:
           type: link
           locales:
-            de-AT:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
             de-DE:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            fr-CH:
               path: >-
                 /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
               type: projectMapNode
@@ -1012,34 +554,7 @@ composition:
                 region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
                 destination: ${#jptr:/Country/entry/_slug}
           localesConditions:
-            de-AT:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
             de-DE:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            fr-CH:
               - id: 0
                 when:
                   clauses:
@@ -1054,24 +569,15 @@ composition:
         description:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
             de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 40%
-            de-CH: 40%
             de-DE: 40%
-            fr-CH: 40%
         textColorVariant:
           type: select
           value: Light
@@ -1080,96 +586,51 @@ composition:
         title:
           type: text
           locales:
-            de-AT: Explore our top destinations
-            de-CH: Explore our top destinations
-            de-DE: Explore our top destinations
-            fr-CH: Explore our top destinations
+            de-DE: Entdecke unsere Top-Reiseziele
         $pzCrit:
           type: $pzCrit
           value:
             crit: []
             name: destinations-default
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Finde authentische, nachhaltige Reiseziele für dein nächstes
+              Abenteuer – weltweit und bezahlbar.
     79eadb73-5885-4f96-9cdc-09c5feac3f3b:
       parameters:
         badge:
           type: text
           locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
             de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
               ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
         image:
           type: asset
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
             de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
         title:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
             de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
         badgeSize:
           type: select
           value: sm
         objectFit:
           type: select
           locales:
-            de-AT: cover
-            de-CH: cover
             de-DE: cover
-            fr-CH: cover
         badgeStyle:
           type: tp-badge-style-parameter
           value: primary
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
         buttonLink:
           type: link
           locales:
-            de-AT:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
             de-DE:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            fr-CH:
               path: >-
                 /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
               type: projectMapNode
@@ -1180,34 +641,7 @@ composition:
                 region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
                 destination: ${#jptr:/Country/entry/_slug}
           localesConditions:
-            de-AT:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
             de-DE:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            fr-CH:
               - id: 0
                 when:
                   clauses:
@@ -1222,24 +656,15 @@ composition:
         description:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
             de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 40%
-            de-CH: 40%
             de-DE: 40%
-            fr-CH: 40%
         textColorVariant:
           type: select
           value: Light
@@ -1254,76 +679,28 @@ composition:
         badge:
           type: text
           locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
             de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
               ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
         image:
           type: asset
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
             de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
         title:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
             de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
         objectFit:
           type: select
           locales:
-            de-AT: cover
-            de-CH: cover
             de-DE: cover
-            fr-CH: cover
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
         buttonLink:
           type: link
           locales:
-            de-AT:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
             de-DE:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            fr-CH:
               path: >-
                 /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
               type: projectMapNode
@@ -1334,34 +711,7 @@ composition:
                 region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
                 destination: ${#jptr:/Country/entry/_slug}
           localesConditions:
-            de-AT:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
             de-DE:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            fr-CH:
               - id: 0
                 when:
                   clauses:
@@ -1373,24 +723,19 @@ composition:
         description:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
+            de-DE: >-
+              Entdecke die ruhige Schönheit von Laos – mit entspannten
+              Landschaften, alten Tempeln und herzlicher Gastfreundschaft
+              erwartet dich eine Reise voller kultureller Vielfalt und
+              natürlicher Pracht.
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 40%
-            de-CH: 40%
             de-DE: 40%
-            fr-CH: 40%
         textColorVariant:
           type: select
           value: Light
@@ -1405,31 +750,10 @@ composition:
         badge:
           type: text
           locales:
-            de-AT: Japan
-            de-CH: Japan
             de-DE: Japan
-            fr-CH: Japan
         image:
           type: asset
           locales:
-            de-AT:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            de-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
             de-DE:
               - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
                 type: image
@@ -1439,76 +763,28 @@ composition:
                     value: >-
                       https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                 _source: custom-url
-            fr-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
         title:
           type: text
           locales:
-            de-AT: Explore Tokyo
-            de-CH: Explore Tokyo
-            de-DE: Explore Tokyo
-            fr-CH: Explore Tokyo
+            de-DE: Tokio entdecken
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            de-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            fr-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
         description:
           type: text
           locales:
-            de-AT: >-
-              Yoking past and future, Tokyo dazzles with its traditional culture
-              and passion for everything new.
-            de-CH: >-
-              Yoking past and future, Tokyo dazzles with its traditional culture
-              and passion for everything new.
             de-DE: >-
-              Yoking past and future, Tokyo dazzles with its traditional culture
-              and passion for everything new.
-            fr-CH: >-
               Yoking past and future, Tokyo dazzles with its traditional culture
               and passion for everything new.
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 30%
-            de-CH: 30%
             de-DE: 30%
-            fr-CH: 30%
         textColorVariant:
           type: select
           value: Light
@@ -1517,10 +793,7 @@ composition:
         title:
           type: text
           locales:
-            de-AT: Explore Europe
-            de-CH: Explore Europe
-            de-DE: Explore Europe
-            fr-CH: Explore Europe
+            de-DE: Europa entdecken
         $pzCrit:
           type: $pzCrit
           value:
@@ -1533,82 +806,34 @@ composition:
         badge:
           type: text
           locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
             de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
               ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
         image:
           type: asset
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
             de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
         title:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
+            de-DE: Spanien
         badgeSize:
           type: select
           value: sm
         objectFit:
           type: select
           locales:
-            de-AT: cover
-            de-CH: cover
             de-DE: cover
-            fr-CH: cover
         badgeStyle:
           type: tp-badge-style-parameter
           value: primary
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
         buttonLink:
           type: link
           locales:
-            de-AT:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
             de-DE:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            fr-CH:
               path: >-
                 /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
               type: projectMapNode
@@ -1619,34 +844,7 @@ composition:
                 region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
                 destination: ${#jptr:/Country/entry/_slug}
           localesConditions:
-            de-AT:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
             de-DE:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            fr-CH:
               - id: 0
                 when:
                   clauses:
@@ -1661,152 +859,41 @@ composition:
         description:
           type: text
           locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
             de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 30%
-            de-CH: 30%
             de-DE: 30%
-            fr-CH: 30%
         textColorVariant:
           type: select
           value: Light
     a7f6f7d6-0408-4bf8-83f9-abb1dc76a860:
       parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: Thailand
-            de-CH: Thailand
-            fr-CH: Thailand
-        image:
-          type: asset
-          locales:
-            de-AT:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            de-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            fr-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-        title:
-          type: text
-          locales:
-            de-AT: Bangkok
-            de-CH: Bangkok
-            fr-CH: Bangkok
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            de-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            fr-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-        description:
-          type: text
-          locales:
-            de-AT: >-
-              Culture, shopping, the best street food and great night life.
-              Bangkok has it all
-            de-CH: >-
-              Culture, shopping, the best street food and great night life.
-              Bangkok has it all
-            fr-CH: >-
-              Culture, shopping, the best street food and great night life.
-              Bangkok has it all
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 30%
-            de-CH: 30%
             de-DE: 30%
-            fr-CH: 30%
     ac1e9d81-173c-4141-86f4-b4e25e8f24c8:
       parameters:
         badge:
           type: text
           locales:
-            de-AT: Singapore
-            de-CH: Singapore
             de-DE: Singapore
-            fr-CH: Singapore
         image:
           type: asset
           locales:
-            de-AT:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            de-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
             de-DE:
               - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
                 type: image
@@ -1816,76 +903,28 @@ composition:
                     value: >-
                       https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                 _source: custom-url
-            fr-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1496939376851-89342e90adcd?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
         title:
           type: text
           locales:
-            de-AT: Singapore
-            de-CH: Singapore
             de-DE: Singapore
-            fr-CH: Singapore
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            de-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            fr-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
         description:
           type: text
           locales:
-            de-AT: >-
-              Culture, shopping, the best street food and great night life.
-              Singapore has it all
-            de-CH: >-
-              Culture, shopping, the best street food and great night life.
-              Singapore has it all
             de-DE: >-
-              Culture, shopping, the best street food and great night life.
-              Singapore has it all
-            fr-CH: >-
               Culture, shopping, the best street food and great night life.
               Singapore has it all
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 30%
-            de-CH: 30%
             de-DE: 30%
-            fr-CH: 30%
         textColorVariant:
           type: select
           value: Light
@@ -1894,10 +933,7 @@ composition:
         title:
           type: text
           locales:
-            de-AT: Explore Asia on a budget
-            de-CH: Explore Asia on a budget
-            de-DE: Explore Asia on a budget
-            fr-CH: Explore Asia on a budget
+            de-DE: Asien günstig entdecken
         $pzCrit:
           type: $pzCrit
           value:
@@ -1905,653 +941,28 @@ composition:
             name: asia-budget
     b6aa2122-b1d2-4c86-aa76-6d0f3a10b0dc:
       parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: Thailand
-            de-CH: Thailand
-            fr-CH: Thailand
-        image:
-          type: asset
-          locales:
-            de-AT:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            de-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            fr-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-        title:
-          type: text
-          locales:
-            de-AT: Bangkok
-            de-CH: Bangkok
-            fr-CH: Bangkok
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            de-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            fr-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-        description:
-          type: text
-          locales:
-            de-AT: >-
-              Culture, shopping, the best street food and great night life.
-              Bangkok has it all
-            de-CH: >-
-              Culture, shopping, the best street food and great night life.
-              Bangkok has it all
-            fr-CH: >-
-              Culture, shopping, the best street food and great night life.
-              Bangkok has it all
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 30%
-            de-CH: 30%
             de-DE: 30%
-            fr-CH: 30%
-    cd80f548-e7a9-4bb6-8c00-794a32a164b9:
+    baa1489e-382b-46d0-8a44-c31952b9c8ed:
       parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-        image:
-          type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-        title:
-          type: text
-          locales:
-            de-AT: '${#jptr:/Country/entry/fields/name/value} '
-            de-CH: '${#jptr:/Country/entry/fields/name/value} '
-            de-DE: '${#jptr:/Country/entry/fields/name/value} '
-            fr-CH: '${#jptr:/Country/entry/fields/name/value} '
-        badgeSize:
-          type: select
-          value: sm
-        objectFit:
-          type: select
-          locales:
-            de-AT: cover
-            de-CH: cover
-            de-DE: cover
-            fr-CH: cover
-        badgeStyle:
-          type: tp-badge-style-parameter
-          value: primary
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-DE:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            fr-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-          localesConditions:
-            de-AT:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-DE:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            fr-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-        buttonStyle:
-          type: tp-button-style-parameter
-          value: primary
-        description:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 40%
-            de-CH: 40%
-            de-DE: 40%
-            fr-CH: 40%
-        textColorVariant:
-          type: select
-          value: Light
-    d66927fd-6e90-4bae-8dcb-104e663308e2:
-      parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-        image:
-          type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-        title:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
-        badgeSize:
-          type: select
-          value: sm
-        objectFit:
-          type: select
-          locales:
-            de-AT: cover
-            de-CH: cover
-            de-DE: cover
-            fr-CH: cover
-        badgeStyle:
-          type: tp-badge-style-parameter
-          value: primary
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-DE:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            fr-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-          localesConditions:
-            de-AT:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-DE:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            fr-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-        buttonStyle:
-          type: tp-button-style-parameter
-          value: primary
-        description:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-        overlayColor:
-          type: tp-color-style-parameter
-          locales:
-            de-AT: base-300
-            de-CH: base-300
-            de-DE: base-300
-            fr-CH: base-300
-        overlayOpacity:
-          type: tp-slider-parameter
-          locales:
-            de-AT: 40%
-            de-CH: 40%
-            de-DE: 40%
-            fr-CH: 40%
-        textColorVariant:
-          type: select
-          value: Light
-    e94f2358-88fb-4d2f-a0d9-5ef3d8094eee:
-      parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: Thailand
-            de-CH: Thailand
-            fr-CH: Thailand
-        image:
-          type: asset
-          locales:
-            de-AT:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            de-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            fr-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-        title:
-          type: text
-          locales:
-            de-AT: Bangkok
-            de-CH: Bangkok
-            fr-CH: Bangkok
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            de-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            fr-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-        description:
-          type: text
-          locales:
-            de-AT: >-
-              Culture, shopping, the best street food and great night life.
-              Bangkok has it all
-            de-CH: >-
-              Culture, shopping, the best street food and great night life.
-              Bangkok has it all
-            fr-CH: >-
-              Culture, shopping, the best street food and great night life.
-              Bangkok has it all
-        overlayColor:
-          type: tp-color-style-parameter
-          locales:
-            de-AT: base-300
-            de-CH: base-300
-            de-DE: base-300
-            fr-CH: base-300
-        overlayOpacity:
-          type: tp-slider-parameter
-          locales:
-            de-AT: 30%
-            de-CH: 30%
-            de-DE: 30%
-            fr-CH: 30%
-    f0d943ea-d8f8-4aa8-b234-0e832467d556:
-      parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-        image:
-          type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-        title:
-          type: text
-          locales:
-            de-AT: '${#jptr:/Country/entry/fields/name/value} '
-            de-CH: '${#jptr:/Country/entry/fields/name/value} '
-            de-DE: '${#jptr:/Country/entry/fields/name/value} '
-            fr-CH: '${#jptr:/Country/entry/fields/name/value} '
-        badgeSize:
-          type: select
-          value: sm
-        objectFit:
-          type: select
-          locales:
-            de-AT: cover
-            de-CH: cover
-            de-DE: cover
-            fr-CH: cover
-        badgeStyle:
-          type: tp-badge-style-parameter
-          value: primary
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-DE:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            fr-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-          localesConditions:
-            de-AT:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-DE:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            fr-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-        buttonStyle:
-          type: tp-button-style-parameter
-          value: primary
-        description:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-        overlayColor:
-          type: tp-color-style-parameter
-          locales:
-            de-AT: base-300
-            de-CH: base-300
-            de-DE: base-300
-            fr-CH: base-300
-        overlayOpacity:
-          type: tp-slider-parameter
-          locales:
-            de-AT: 30%
-            de-CH: 30%
-            de-DE: 30%
-            fr-CH: 30%
+            de-DE: 60%
         textColorVariant:
           type: select
           value: Light
@@ -2561,46 +972,173 @@ composition:
           variables:
             locale: ${locale}
             entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
+    cd80f548-e7a9-4bb6-8c00-794a32a164b9:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
+        image:
+          type: asset
+          locales:
+            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
+        title:
+          type: text
+          locales:
+            de-DE: Italien
+        badgeSize:
+          type: select
+          value: sm
+        objectFit:
+          type: select
+          locales:
+            de-DE: cover
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
+        buttonLink:
+          type: link
+          locales:
+            de-DE:
+              path: >-
+                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
+              type: projectMapNode
+              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
+                destination: ${#jptr:/Country/entry/_slug}
+          localesConditions:
+            de-DE:
+              - id: 0
+                when:
+                  clauses:
+                    - op: is
+                      rule: $dt
+                      value: link
+                      source: ${#jptr:/Country/entry/fields/detailURL/type}
+                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        description:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 40%
+        textColorVariant:
+          type: select
+          value: Light
+    d66927fd-6e90-4bae-8dcb-104e663308e2:
+      parameters:
+        badge:
+          type: text
+          locales:
+            de-DE: >-
+              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
+        image:
+          type: asset
+          locales:
+            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
+        title:
+          type: text
+          locales:
+            de-DE: ${#jptr:/Country/entry/fields/name/value}
+        badgeSize:
+          type: select
+          value: sm
+        objectFit:
+          type: select
+          locales:
+            de-DE: cover
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: primary
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
+        buttonLink:
+          type: link
+          locales:
+            de-DE:
+              path: >-
+                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
+              type: projectMapNode
+              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
+              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                locale: ${locale}
+                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
+                destination: ${#jptr:/Country/entry/_slug}
+          localesConditions:
+            de-DE:
+              - id: 0
+                when:
+                  clauses:
+                    - op: is
+                      rule: $dt
+                      value: link
+                      source: ${#jptr:/Country/entry/fields/detailURL/type}
+                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
+        buttonStyle:
+          type: tp-button-style-parameter
+          value: primary
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Entdecke Deutschland – hier treffen historische Städte, lebendige
+              Kultur und beeindruckende Landschaften aufeinander und bieten dir
+              eine unvergessliche Reise zwischen Tradition und Moderne.
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 40%
+        textColorVariant:
+          type: select
+          value: Light
+    e94f2358-88fb-4d2f-a0d9-5ef3d8094eee:
+      parameters:
+        buttonCopy:
+          type: text
+          locales:
+            de-DE: Explore
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          locales:
+            de-DE: 30%
     f8f6406b-0b49-4c7e-86a0-5fe0e46f90e1:
       parameters:
         badge:
           type: text
           locales:
-            de-AT: Japan
-            de-CH: Japan
             de-DE: Japan
-            fr-CH: Japan
         image:
           type: asset
           locales:
-            de-AT:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            de-CH:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
             de-DE:
-              - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                _source: custom-url
-            fr-CH:
               - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
                 type: image
                 fields:
@@ -2612,64 +1150,25 @@ composition:
         title:
           type: text
           locales:
-            de-AT: Explore Tokyo
-            de-CH: Explore Tokyo
             de-DE: Explore Tokyo
-            fr-CH: Explore Tokyo
         buttonCopy:
           type: text
           locales:
-            de-AT: Explore
-            de-CH: Explore
             de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            de-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-            fr-CH:
-              path: /:locale/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
         description:
           type: text
           locales:
-            de-AT: >-
-              Yoking past and future, Tokyo dazzles with its traditional culture
-              and passion for everything new.
-            de-CH: >-
-              Yoking past and future, Tokyo dazzles with its traditional culture
-              and passion for everything new.
             de-DE: >-
-              Yoking past and future, Tokyo dazzles with its traditional culture
-              and passion for everything new.
-            fr-CH: >-
               Yoking past and future, Tokyo dazzles with its traditional culture
               and passion for everything new.
         overlayColor:
           type: tp-color-style-parameter
           locales:
-            de-AT: base-300
-            de-CH: base-300
             de-DE: base-300
-            fr-CH: base-300
         overlayOpacity:
           type: tp-slider-parameter
           locales:
-            de-AT: 30%
-            de-CH: 30%
             de-DE: 30%
-            fr-CH: 30%
         textColorVariant:
           type: select
           value: Light
@@ -2823,7 +1322,7 @@ composition:
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
               hideLockedParameters: true
-          - _id: f0d943ea-d8f8-4aa8-b234-0e832467d556
+          - _id: 79eadb73-5885-4f96-9cdc-09c5feac3f3b
             type: card
             variant: backgroundImage
             _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
@@ -2832,7 +1331,7 @@ composition:
                 type: country
                 variables:
                   locale: ${locale}
-                  entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
+                  entryId: 035a64b1-730e-444c-921a-431bc2712e14
             _overridability:
               parameters:
                 $viz: 'yes'
@@ -2850,7 +1349,7 @@ composition:
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
               hideLockedParameters: true
-          - _id: 79eadb73-5885-4f96-9cdc-09c5feac3f3b
+          - _id: baa1489e-382b-46d0-8a44-c31952b9c8ed
             type: card
             variant: backgroundImage
             _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
@@ -2859,7 +1358,7 @@ composition:
                 type: country
                 variables:
                   locale: ${locale}
-                  entryId: 035a64b1-730e-444c-921a-431bc2712e14
+                  entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
             _overridability:
               parameters:
                 $viz: 'yes'
@@ -3039,11 +1538,8 @@ composition:
               hideLockedParameters: true
   _locales:
     - de-DE
-    - de-AT
-    - de-CH
-    - fr-CH
 created: '2025-08-11T12:10:59.193023+00:00'
-modified: '2025-08-11T12:10:59.193023+00:00'
+modified: '2025-08-27T09:56:25.386961+00:00'
 pattern: false
 editionId: 339d94c2-cd8f-41d9-9918-946a60961ca6
 editionName: DACH Edition

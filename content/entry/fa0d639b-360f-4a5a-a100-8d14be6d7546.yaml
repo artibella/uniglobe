@@ -1,5 +1,5 @@
 created: '2025-07-22T12:41:19.310848+00:00'
-modified: '2025-07-22T12:43:18.374565+00:00'
+modified: '2025-08-27T09:29:50.031034+00:00'
 pattern: false
 entry:
   _id: fa0d639b-360f-4a5a-a100-8d14be6d7546
@@ -13,6 +13,7 @@ entry:
     value:
       type: text
       locales:
+        de-DE: UniGlobe
         en-US: UniGlobe
     status:
       type: select
@@ -25,3 +26,4 @@ entry:
       value: brand
   _locales:
     - en-US
+    - de-DE

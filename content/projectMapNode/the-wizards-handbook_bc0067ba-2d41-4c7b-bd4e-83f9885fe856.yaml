@@ -1,0 +1,10 @@
+id: bc0067ba-2d41-4c7b-bd4e-83f9885fe856
+name: The Wizard’s Handbook for Magical Eco-Adventures
+order: 450
+path: /:locale/lp/the-wizards-handbook
+type: composition
+pathSegment: the-wizards-handbook
+data:
+  queryStrings: []
+compositionId: d505801e-9bc1-457f-83c0-b3ce51810b0f
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

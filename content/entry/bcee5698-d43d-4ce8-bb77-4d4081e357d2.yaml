@@ -1,5 +1,5 @@
 created: '2025-07-22T12:46:54.229145+00:00'
-modified: '2025-07-22T12:47:39.399226+00:00'
+modified: '2025-08-27T09:29:30.5948+00:00'
 pattern: false
 entry:
   _id: bcee5698-d43d-4ce8-bb77-4d4081e357d2
@@ -13,6 +13,7 @@ entry:
     value:
       type: text
       locales:
+        de-DE: Empfohlen
         en-US: Featured
     status:
       type: select
@@ -22,3 +23,4 @@ entry:
       value: ui
   _locales:
     - en-US
+    - de-DE

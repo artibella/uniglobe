@@ -1,5 +1,5 @@
 created: '2024-04-29T16:14:53.213797+00:00'
-modified: '2025-03-27T11:14:23.888704+00:00'
+modified: '2025-08-27T09:51:40.263474+00:00'
 pattern: false
 entry:
   _id: 5ca426ea-70d4-4837-aa2b-172291f03447
@@ -25,6 +25,10 @@ entry:
   _overrides:
     5ca426ea-70d4-4837-aa2b-172291f03447:
       parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Kanada
         images:
           type: asset
           locales:
@@ -190,6 +194,9 @@ entry:
         teaserText:
           type: text
           locales:
+            de-DE: >-
+              Entdecke authentische Abenteuer, lokale Kultur und nachhaltiges
+              Reisen – perfekt für junge, bewusste Entdecker.
             en-US: >-
               Discover the wild beauty and vibrant cities of Canada, where
               breathtaking landscapes and rich cultural experiences await every
@@ -197,6 +204,299 @@ entry:
         description:
           type: richText
           locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Kanada ist ein riesiges, vielfältiges Land, das für
+                          seine atemberaubende Natur, multikulturellen Städte
+                          und freundlichen Menschen bekannt ist. Von den
+                          schneebedeckten Gipfeln der Rocky Mountains bis zu den
+                          wilden Küsten Neufundlands bietet Kanada unzählige
+                          Möglichkeiten für Abenteuer und authentische
+                          Begegnungen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Kultur & Menschen
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Kanadier*innen sind für ihre Offenheit und
+                          Hilfsbereitschaft berühmt. Das Land ist ein
+                          Schmelztiegel aus Kulturen: Neben den indigenen
+                          Völkern leben hier Einwanderer aus aller Welt. In
+                          Städten wie Toronto, Vancouver und Montréal findest du
+                          eine lebendige Kunstszene, Street Food aus allen
+                          Kontinenten und zahlreiche Festivals. Respekt
+                          gegenüber der Natur und den Mitmenschen ist tief in
+                          der kanadischen Kultur verankert.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Natur & Aktivitäten
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Kanada ist ein Paradies für Outdoor-Fans. Wandere
+                          durch Nationalparks wie Banff oder Jasper, paddle auf
+                          türkisblauen Seen oder beobachte Wale an der
+                          Pazifikküste. Im Winter locken Skigebiete wie Whistler
+                          oder Mont Tremblant. Wer es ruhiger mag, kann in
+                          kleinen Dörfern lokale Spezialitäten probieren oder in
+                          einer Blockhütte entspannen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Nachhaltigkeit & Community
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Viele Unterkünfte und Tourenanbieter setzen auf
+                          Nachhaltigkeit – von Öko-Lodges bis zu geführten
+                          Wanderungen mit indigenen Guides. Öffentliche
+                          Verkehrsmittel sind in Städten gut ausgebaut, für
+                          längere Strecken empfiehlt sich der Zug (z.B. VIA
+                          Rail) oder Mitfahrgelegenheiten. Unterstütze lokale
+                          Cafés, Märkte und Familienbetriebe, um die Community
+                          direkt zu stärken.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Praktische Tipps
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Budget:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Kanada ist nicht das günstigste Reiseziel, aber Hostels, Campingplätze und günstige Busverbindungen machen es auch für Backpacker erschwinglich.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Transport:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' In Städten gibt es Busse, U-Bahnen und Leihfahrräder. Für Nationalparks lohnt sich ein Mietwagen oder ein Platz im Minivan einer kleinen Gruppe.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Sprache:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Englisch und Französisch sind Amtssprachen. In Québec wird überwiegend Französisch gesprochen, aber die meisten Menschen sind zweisprachig.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 'Beste Reisezeit:'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 1
+                            version: 1
+                          - mode: normal
+                            text: ' Mai bis Oktober für Outdoor-Aktivitäten, Dezember bis März für Wintersport.'
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Reiseverantwortung
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Achte auf deinen ökologischen Fußabdruck: Nutze
+                          wiederverwendbare Wasserflaschen, entsorge Müll
+                          korrekt und respektiere Wildtiere. Informiere dich
+                          über die Geschichte und Rechte der First Nations und
+                          unterstütze Angebote, die von indigenen Communities
+                          geführt werden.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Fazit
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Kanada ist ideal für alle, die Natur, Vielfalt und
+                          echte Begegnungen suchen. Egal ob du als Backpacker,
+                          Digital Nomad oder Abenteurer*in unterwegs bist – hier
+                          findest du nachhaltige Erlebnisse, die lange in
+                          Erinnerung bleiben.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
             en-US:
               root:
                 type: root
@@ -376,17 +676,284 @@ entry:
                 direction: ltr
         teaserImage:
           type: asset
+          value:
+            - _id: 6382ca6d-bbb6-471a-af8b-73bc97e2ff2b
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1111&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                title:
+                  type: text
+                  value: 'Copyright: John Lee, Unsplash'
+              _source: custom-url
+        timeToVisit:
+          type: richText
           locales:
-            en-US:
-              - _id: 6382ca6d-bbb6-471a-af8b-73bc97e2ff2b
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1111&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                  title:
-                    type: text
-                    value: 'Copyright: John Lee, Unsplash'
-                _source: custom-url
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Beste Reisezeit für Kanada
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Kanada ist ein riesiges Land mit sehr
+                          unterschiedlichen Klimazonen, daher hängt die beste
+                          Reisezeit stark von deinen Plänen ab.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Sommer (Juni bis August):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Der Sommer ist die beliebteste Reisezeit, besonders
+                          für Outdoor-Aktivitäten wie Wandern, Kanufahren und
+                          Camping. Die Temperaturen sind angenehm warm (meist
+                          20–30°C), und viele Festivals finden statt, z.B. der
+                          Canada Day am 1. Juli. In Nationalparks und beliebten
+                          Städten kann es jedoch voll werden – buche Unterkünfte
+                          und Zugtickets frühzeitig. 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Herbst (September bis Oktober):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Der Herbst ist ideal, wenn du bunte Laubwälder
+                          ("Indian Summer") erleben möchtest, vor allem in
+                          Ontario und Québec. Die Temperaturen sind mild, die
+                          Preise oft günstiger und die Menschenmengen kleiner.
+                          Viele lokale Märkte und Erntefeste bieten authentische
+                          Einblicke in die kanadische Kultur.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Winter (Dezember bis März):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Für Wintersportler ist Kanada ein Paradies: Skifahren,
+                          Snowboarden und Schneeschuhwandern sind in den
+                          Rockies, Québec und British Columbia möglich. Die
+                          Temperaturen können jedoch extrem kalt werden (bis
+                          -30°C), besonders im Landesinneren. Viele Städte
+                          bieten Winterfeste wie das Carnaval de Québec. Achte
+                          auf nachhaltige Transportmöglichkeiten und wähle
+                          Unterkünfte mit guter Isolierung.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Frühling (April bis Mai):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Im Frühling erwacht die Natur, und die Preise sind oft
+                          niedriger. In Vancouver und an der Westküste beginnt
+                          die Blütezeit schon im März, während in anderen
+                          Regionen noch Schnee liegen kann. Es ist eine ruhige
+                          Zeit für Reisende, die Menschenmassen vermeiden
+                          möchten.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Nachhaltige Tipps:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Nutze Züge (z.B. VIA Rail) oder Fernbusse, um
+                              deinen CO₂-Fußabdruck zu reduzieren.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Übernachte in Eco-Lodges oder bei lokalen
+                              Gastgebern.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Respektiere die Natur und halte dich an markierte
+                              Wege, besonders in Nationalparks.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    listType: bullet
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Fazit:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Die beste Reisezeit für Kanada hängt davon ab, was du
+                          erleben möchtest. Für Outdoor-Abenteuer und Festivals
+                          ist der Sommer top, für Farbenpracht und weniger
+                          Trubel der Herbst. Wintersportfans kommen im Winter
+                          auf ihre Kosten, während der Frühling ruhige,
+                          authentische Erlebnisse bietet.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
   _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

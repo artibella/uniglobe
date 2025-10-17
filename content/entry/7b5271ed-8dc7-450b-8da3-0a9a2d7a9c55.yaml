@@ -1,5 +1,5 @@
 created: '2025-04-28T11:40:31.803939+00:00'
-modified: '2025-07-16T09:25:46.494482+00:00'
+modified: '2025-08-27T09:25:55.658761+00:00'
 pattern: false
 entry:
   _id: 7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55
@@ -27,7 +27,7 @@ entry:
         name:
           type: text
           locales:
-            de-DE: ${#jptr:/Country/0/name}
+            de-DE: Panama
         images:
           type: asset
           locales:
@@ -146,9 +146,8 @@ entry:
           type: text
           locales:
             de-DE: >-
-              Discover Panama's vibrant culture, stunning beaches, and lush
-              rainforests! From Panama City to the famous canal, an
-              unforgettable adventure awaits you in this tropical paradise.
+              Erlebe Panamas lebendige Kultur, traumhafte Strände und dichte
+              Regenwälder – ein tropisches Abenteuer erwartet dich!
             en-US: >-
               Discover Panama's vibrant culture, stunning beaches, and lush
               rainforests! From Panama City to the famous canal, an
@@ -170,57 +169,27 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          Discover the captivating charm of Panama, a Central
-                          American gem bridging two oceans. Explore its lush
-                          rainforests, pristine beaches, and vibrant cities. 
+                          Entdecke den faszinierenden Charme Panamas, eines
+                          zentralamerikanischen Juwels, das zwei Ozeane
+                          verbindet. Erkunde üppige Regenwälder, unberührte
+                          Strände und lebendige Städte. Erlebe das technische
+                          Wunder des Panamakanals – ein beeindruckendes Zeugnis
+                          menschlicher Ingenieurskunst. Tauche ein in das reiche
+                          Geflecht aus indigener und kolonialer Geschichte, das
+                          sich in farbenfrohen Festen und köstlicher Küche
+                          widerspiegelt. Von den historischen Straßen von
+                          Panama-Stadt bis zu den idyllischen San-Blas-Inseln
+                          lädt Panama dich zu einer unvergesslichen Reise voller
+                          Naturwunder und kultureller Schätze ein.
                         type: text
                         style: ''
                         detail: 0
                         format: 0
                         version: 1
-                    direction: ltr
+                    direction: null
                     textStyle: ''
                     textFormat: 0
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          Witness the engineering marvel of the Panama Canal, a
-                          testament to human ingenuity. Immerse yourself in the
-                          rich tapestry of indigenous and colonial heritage,
-                          reflected in its colorful festivals and delectable
-                          cuisine. 
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          From the historic streets of Panama City to the
-                          idyllic San Blas Islands, Panama invites you to embark
-                          on an unforgettable journey of natural wonders and
-                          cultural treasures.
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
-                direction: ltr
+                direction: null
             en-US:
               root:
                 type: root
@@ -410,21 +379,23 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          The best time to visit Panama is during the dry
-                          season, which runs from mid-December to mid-April.
-                          This is when you'll find sunny days, lower humidity,
-                          and ideal conditions for exploring rainforests,
-                          beaches, and cities. If you want to avoid crowds and
-                          save money, consider traveling in the shoulder months
-                          of late April or early December—just be prepared for
-                          occasional rain showers. The wet season (May to
-                          November) brings lush green landscapes and fewer
-                          tourists, but heavy afternoon downpours are common,
-                          especially in the highlands and on the Caribbean
-                          coast. For cultural experiences, check out Panama’s
-                          vibrant Carnival celebrations in February or March. No
-                          matter when you go, pack light, breathable clothing
-                          and a rain jacket for sudden tropical showers.
+                          Die beste Reisezeit für Panama ist während der
+                          Trockenzeit, die von Mitte Dezember bis Mitte April
+                          dauert. In dieser Zeit erwarten dich sonnige Tage,
+                          geringere Luftfeuchtigkeit und ideale Bedingungen, um
+                          Regenwälder, Strände und Städte zu erkunden. Wenn du
+                          Menschenmassen vermeiden und Geld sparen möchtest,
+                          reise in den Übergangsmonaten Ende April oder Anfang
+                          Dezember – sei dann aber auf gelegentliche
+                          Regenschauer vorbereitet. Die Regenzeit (Mai bis
+                          November) bringt üppig grüne Landschaften und weniger
+                          Touristen, allerdings sind starke Regengüsse am
+                          Nachmittag häufig, besonders im Hochland und an der
+                          Karibikküste. Für kulturelle Erlebnisse lohnt sich ein
+                          Besuch während des farbenfrohen Karnevals im Februar
+                          oder März. Egal wann du reist, packe leichte,
+                          atmungsaktive Kleidung und eine Regenjacke für
+                          plötzliche tropische Schauer ein.
                         type: text
                         style: ''
                         detail: 0

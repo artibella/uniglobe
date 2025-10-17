@@ -6,49 +6,13 @@ composition:
   parameters:
     badge:
       type: text
-      locales:
-        de-AT: Thailand
-        de-CH: Thailand
-        de-DE: Thailand
-        en-US: ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
+      value: ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
     image:
       type: asset
-      locales:
-        de-AT:
-          - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-            type: image
-            fields:
-              url:
-                type: text
-                value: >-
-                  https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-            _source: custom-url
-        de-CH:
-          - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-            type: image
-            fields:
-              url:
-                type: text
-                value: >-
-                  https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-            _source: custom-url
-        de-DE:
-          - _id: cb6e09a3-506b-44b5-b4f6-14354971bfa0
-            type: image
-            fields:
-              url:
-                type: text
-                value: >-
-                  https://images.unsplash.com/photo-1563492065599-3520f775eeed?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-            _source: custom-url
-        en-US: ${#jptr:/Country/entry/fields/teaserImage/value}
+      value: ${#jptr:/Country/entry/fields/teaserImage/value}
     title:
       type: text
-      locales:
-        de-AT: Bangkok
-        de-CH: Bangkok
-        de-DE: Bangkok
-        en-US: ${#jptr:/Country/entry/fields/name/value}
+      value: ${#jptr:/Country/entry/fields/name/value}
     objectFit:
       type: select
       locales:
@@ -86,17 +50,7 @@ composition:
       value: secondary
     description:
       type: text
-      locales:
-        de-AT: >-
-          Culture, shopping, the best street food and great night life. Bangkok
-          has it all
-        de-CH: >-
-          Culture, shopping, the best street food and great night life. Bangkok
-          has it all
-        de-DE: >-
-          Culture, shopping, the best street food and great night life. Bangkok
-          has it all
-        en-US: ${#jptr:/Country/entry/fields/teaserText/value}
+      value: ${#jptr:/Country/entry/fields/teaserText/value}
     overlayColor:
       type: tp-color-style-parameter
       locales:
@@ -139,7 +93,7 @@ composition:
     - de-AT
     - de-CH
 created: '2024-10-23T13:52:50.185915+00:00'
-modified: '2025-08-18T21:35:31.078895+00:00'
+modified: '2025-08-27T09:47:48.341445+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1737406073/Uniglobe/Component%20Previews/Country%20card.png

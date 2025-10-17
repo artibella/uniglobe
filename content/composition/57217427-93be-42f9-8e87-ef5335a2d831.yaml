@@ -1006,6 +1006,108 @@ composition:
               trackingEventName:
                 type: text
                 value: nomad-region
+          - _id: 021fe186-be0d-42e4-8095-8fe817aa2256
+            type: container
+            slots:
+              container-inner:
+                - _id: 2c820fc1-8fde-4318-acab-8cd03bb20c2f
+                  type: $personalization
+                  slots:
+                    pz:
+                      - _id: 0796536e-e886-4f9b-aad9-48de45484b41
+                        type: callToAction
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Travel far, spend less: top nomad hubs for every
+                                budget
+                          $pzCrit:
+                            type: $pzCrit
+                            value:
+                              dim: budgetTraveler
+                              name: Budget Traveler
+                          titleStyle:
+                            type: tp-title-style-parameter
+                            value: h2
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Discover wallet-friendly, community-driven
+                                destinations and deals for budget
+                                travelers—explore more without breaking the
+                                bank.
+                          eyebrowText:
+                            type: text
+                            locales:
+                              en-US: Start your nomad journey
+                          primaryButtonCopy:
+                            type: text
+                            locales:
+                              en-US: See Budget Destinations
+                          primaryButtonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /${locale}/destinations
+                                type: projectMapNode
+                                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                                dynamicInputValues:
+                                  locale: ${locale}
+                      - _id: da3773fc-b431-4aa3-a048-020849b0560c
+                        type: callToAction
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Explore digital nomad hubs around the world
+                          $pzCrit:
+                            type: $pzCrit
+                            value:
+                              name: Default
+                          titleStyle:
+                            type: tp-title-style-parameter
+                            value: h2
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Find ethical, community-driven places to work
+                                and connect as a digital nomad. Start your next
+                                adventure with purpose.
+                          eyebrowText:
+                            type: text
+                            locales:
+                              en-US: Start your nomad journey
+                          primaryButtonCopy:
+                            type: text
+                            locales:
+                              en-US: Browse destinations
+                          primaryButtonLink:
+                            type: link
+                            locales:
+                              en-US:
+                                path: /${locale}/destinations
+                                type: projectMapNode
+                                nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
+                                projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                                dynamicInputValues:
+                                  locale: ${locale}
+                  parameters:
+                    algorithm:
+                      type: pzAlgorithm
+                      value: ssc
+                    trackingEventName:
+                      type: text
+                      value: Final CTA - Budget Traveler
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Final CTA
     57217427-93be-42f9-8e87-ef5335a2d831|4b328fd1-c6ac-4666-8bb7-9d0996320c43:
       variant: imageRight
       parameters:
@@ -1314,5 +1416,5 @@ composition:
     - en-US
   _pattern: 9854cddc-f320-4a77-b7dc-de9d74638436
 created: '2025-04-29T14:56:44.654093+00:00'
-modified: '2025-07-18T10:53:27.974196+00:00'
+modified: '2025-09-05T11:48:37.711506+00:00'
 pattern: false

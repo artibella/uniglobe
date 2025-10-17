@@ -1,0 +1,9 @@
+id: 18b18b67-222a-4c73-8fd5-dab0e7b959e2
+name: France
+order: 500
+path: /:locale/destinations/europe/france
+type: composition
+pathSegment: france
+data: {}
+compositionId: 2cf76bff-3a5e-46ce-8857-2bac3f4a67e3
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

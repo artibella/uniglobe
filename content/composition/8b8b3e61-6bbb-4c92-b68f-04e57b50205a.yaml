@@ -9,10 +9,16 @@ composition:
       variables:
         slug: ${post}
         locale: ${locale}
+  _overrides:
+    8b8b3e61-6bbb-4c92-b68f-04e57b50205a:
+      parameters:
+        $enr:
+          type: $enr
+          value: ${#jptr:/Blog post by Slug Content/entry/fields/enrichments/value}
   _locales:
     - en-US
     - de-DE
   _pattern: 6149fadc-360b-4647-9006-45f0f8e4b8c2
-created: '2025-07-03T19:07:00.891835+00:00'
-modified: '2025-07-03T19:07:00.891835+00:00'
+created: '2025-05-21T10:56:34.258252+00:00'
+modified: '2025-10-09T12:17:08.288382+00:00'
 pattern: false

@@ -1,0 +1,974 @@
+composition:
+  _name: The Wizard’s Handbook for Magical Eco-Adventures
+  _id: d505801e-9bc1-457f-83c0-b3ce51810b0f
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: 'Magical eco-adventures: The wizard’s handbook | Uniglobe'
+    pageMetaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover sustainable travel magic with our eco-friendly guide. Explore
+          enchanting destinations and travel responsibly. Start your adventure
+          now!
+  slots:
+    pageFooter:
+      - _id: 5ce5fb99-8d36-498e-9646-4366fd268693
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 42fbc37e-3444-4a74-a127-eda2ee115ff6
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 004d8b91-dd9b-4c8f-bdf5-f99045584a54
+        type: hero
+        variant: imageLeft
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: f874a6b2-b441-4f70-8803-b7b15c4b552b
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://assets.lummi.ai/assets/QmUNKcXvkTmyRa2Ww6AfFx4MQZ9vWumJYvx5mXTA4CgGsE?auto=format&w=1500&h=1500
+                    title:
+                      type: text
+                      value: Wizard in Enchanted Forest
+                    width:
+                      type: number
+                      value: 2464
+                    custom:
+                      type: object
+                      value:
+                        tags:
+                          - Forest
+                          - Nature
+                          - Mystical
+                          - wizard
+                          - magic
+                        blurhash: e44C@HV[IBnRxaD7jG%xV[M|n5kUWYkAjYgeoyofV[V@ahV[aejbkC
+                        sourceId: cd51f1db-ebad-409f-b8a8-11cca4ea924a
+                        imageType: illustration
+                        authorName: Steph Meade
+                        categories:
+                          - Art
+                          - Nature
+                        aspectRatio: 1.327586206896552
+                        orientation: horizontal
+                        colorPalette:
+                          '0':
+                            hex: '#26482b'
+                            weight: 0.7281901041666666
+                          '1':
+                            hex: '#070d04'
+                            weight: 0.1363932291666667
+                          '2':
+                            hex: '#142210'
+                            weight: 0.1354166666666667
+                        selectedSize: original
+                        originalWidth: 2464
+                        attributionUrl: >-
+                          https://www.lummi.ai/illustration/wizard-in-enchanted-forest-lk6uv?utm_source=api&utm_campaign=api&utm_medium=referral
+                        originalHeight: 1856
+                        authorProfileUrl: >-
+                          https://www.lummi.ai/creator/steph?utm_source=api&utm_campaign=api&utm_medium=referral
+                        dominantColorGroup: green950
+                        dominantColorWeight: 0.7281901041666666
+                    height:
+                      type: number
+                      value: 1856
+                    description:
+                      type: text
+                      value: >-
+                        Wizard in Enchanted Forest - AI-generated image by Steph
+                        Meade on Lummi
+                  _source: lummi-3b322701-b5c2-43ff-a1d6-cbaab843e2c8
+          title:
+            type: text
+            locales:
+              en-US: Magical eco-adventures for conscious travelers
+          objectFit:
+            type: select
+            value: cover
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            locales:
+              en-US: >-
+                Discover sustainable adventures and authentic local experiences
+                for conscious, budget-friendly travel.
+          eyebrowText:
+            type: text
+            locales:
+              en-US: Travel differently
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+          textColorVariant:
+            type: select
+            value: Dark
+          primaryButtonCopy:
+            type: text
+            locales:
+              en-US: Start your journey
+      - _id: 0c59c259-a6c7-40e0-9df0-78fd6c9d7967
+        type: container
+        slots:
+          container-inner:
+            - _id: a71606c4-6b13-42b6-96ae-3a74d2833553
+              type: richText
+              variant: light
+              parameters:
+                content:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Welcome to your journey of sustainable travel
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Ready to explore the world in a way that’s
+                                  authentic, affordable, and kind to the planet?
+                                  You’re in the right place. This guide is
+                                  packed with practical tips, inspiring
+                                  destinations, and real advice for traveling
+                                  lighter—on your wallet and the environment.
+                                  Grab your reusable water bottle, open your
+                                  mind, and join a community of conscious
+                                  explorers making a positive impact wherever
+                                  they roam.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: A spellbook for sustainable sorcery
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 3c6fafdd-30a1-419a-8ae9-1cca5a604d33
+        type: container
+        slots:
+          container-inner:
+            - _id: ee977abd-7db9-4521-a72b-e8bbd5460ac9
+              type: featuredCallout
+              slots:
+                feature:
+                  - _id: f89b4adf-04da-4d66-8ff2-f4cde5b49d88
+                    type: feature
+                    slots:
+                      icon:
+                        - _id: ed99907c-7716-42d0-a576-ac77dd82828e
+                          type: icon
+                          parameters:
+                            icon:
+                              type: lucide-icons-icon
+                              value: brush-cleaning
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Broomstick carpools
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Share your ride to cut emissions and connect with
+                            like-minded travelers.
+                  - _id: df05d7bb-d2b8-42f0-8ef6-7064a32f16cc
+                    type: feature
+                    slots:
+                      icon:
+                        - _id: 242008f2-f59b-437e-a69f-3287de9604f6
+                          type: icon
+                          parameters:
+                            icon:
+                              type: lucide-icons-icon
+                              value: flask-round
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Potion refills only
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Bring your own flask—ditch single-use cups and keep
+                            your adventures eco-friendly.
+                  - _id: 320b5722-2169-4284-a3f3-e8051d5d464f
+                    type: feature
+                    slots:
+                      icon:
+                        - _id: 806499b6-d052-439a-9d6e-207e4c3aa289
+                          type: icon
+                          parameters:
+                            icon:
+                              type: lucide-icons-icon
+                              value: shopping-bag
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Enchanted local markets
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Support local potion-makers and spell-crafters for
+                            authentic, homegrown magic.
+                  - _id: a838ad47-969f-4ce0-8b51-07627c0e0170
+                    type: feature
+                    slots:
+                      icon:
+                        - _id: 3c4c9199-763c-416e-a810-9f2b5f98ba3a
+                          type: icon
+                          parameters:
+                            icon:
+                              type: lucide-icons-icon
+                              value: eye-off
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Invisible cloak of respect
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Leave no trace—just wonder and goodwill wherever you
+                            travel.
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 391b83a5-c092-4293-96e5-2fa7b7e00501
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1629122878149-97f90d044e3b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8d2l6YXJkfGVufDB8MXx8fDE3NjA2MTE5Nzl8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: man in black suit jacket holding blue pen
+                          width:
+                            type: number
+                            value: 3249
+                          custom:
+                            type: object
+                            value:
+                              color: '#262626'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/man-in-black-suit-jacket-holding-blue-pen-J01YXxhH2Zk
+                              blurHash: LCAu~$n%RPoI}saKWXofR+Rjbvt7
+                              sourceId: J01YXxhH2Zk
+                              createdAt: '2021-08-16T14:08:59Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/man-in-black-suit-jacket-holding-blue-pen-J01YXxhH2Zk
+                              updatedAt: '2025-10-16T10:16:28Z'
+                              authorName: dom
+                              downloadUrl: >-
+                                https://unsplash.com/photos/J01YXxhH2Zk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8d2l6YXJkfGVufDB8MXx8fDE3NjA2MTE5Nzl8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1629122878149-97f90d044e3b?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8d2l6YXJkfGVufDB8MXx8fDE3NjA2MTE5Nzl8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1629122878149-97f90d044e3b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8d2l6YXJkfGVufDB8MXx8fDE3NjA2MTE5Nzl8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1629122878149-97f90d044e3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8d2l6YXJkfGVufDB8MXx8fDE3NjA2MTE5Nzl8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1629122878149-97f90d044e3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8d2l6YXJkfGVufDB8MXx8fDE3NjA2MTE5Nzl8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: domediocre
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1629122878149-97f90d044e3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8d2l6YXJkfGVufDB8MXx8fDE3NjA2MTE5Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@domediocre
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/J01YXxhH2Zk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8d2l6YXJkfGVufDB8MXx8fDE3NjA2MTE5Nzl8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1690440236338-00d33221efdcimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 4873
+                          description:
+                            type: text
+                            value: Photo by dom on Unsplash
+                        _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                title:
+                  type: text
+                  locales:
+                    en-US: Cast your first spell with reusable magic
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Ditch single-use items for reusable bottles and bags—real
+                      magic happens when you reduce waste!
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Highlights from the Wizard’s Spellbook
+      - _id: 1ada01c5-ffb1-41ae-a6ca-5d1926a99ae2
+        type: container
+        slots:
+          container-inner:
+            - _id: a4b18e22-5074-410c-ae1c-e8795223cb63
+              type: cardBlock
+              slots:
+                cardBlockInner:
+                  - _id: d1ce6931-b89a-4786-86e1-0f1babd91f13
+                    type: card
+                    parameters:
+                      badge:
+                        type: text
+                        locales:
+                          en-US: Step 1
+                      image:
+                        type: asset
+                        locales:
+                          en-US:
+                            - _id: dfa27c3a-bf6e-4433-9b2f-2091d497359a
+                              type: image
+                              fields:
+                                url:
+                                  type: text
+                                  value: >-
+                                    https://assets.lummi.ai/assets/QmUPQvpF3R5Hn9WT5YfNiGWHXnftmXife5GWRZpfcXwBdt?auto=format&w=1500&h=1500
+                                title:
+                                  type: text
+                                  value: Cartoon Wizard Character
+                                width:
+                                  type: number
+                                  value: 5120
+                                custom:
+                                  type: object
+                                  value:
+                                    tags:
+                                      - 3d rendered
+                                      - Fantasy
+                                      - Playful
+                                      - wizard
+                                      - cartoon-style
+                                    blurhash: >-
+                                      eBC+6r$fHCI[q^0MR*MyjZj@YjX9;1w[OYIVR*kCofoz?DniD+S$x@
+                                    sourceId: 7e09be20-b7c4-4364-a78d-c392d8743c9c
+                                    imageType: 3d
+                                    authorName: Amino
+                                    categories:
+                                      - Art Direction
+                                      - Art
+                                    aspectRatio: 1
+                                    orientation: square
+                                    colorPalette:
+                                      '0':
+                                        hex: '#68a9c3'
+                                        weight: 0.824462890625
+                                      '1':
+                                        hex: '#353a91'
+                                        weight: 0.064208984375
+                                      '2':
+                                        hex: '#6a648e'
+                                        weight: 0.048583984375
+                                      '3':
+                                        hex: '#b9b9b9'
+                                        weight: 0.04296875
+                                      '4':
+                                        hex: '#a38257'
+                                        weight: 0.019775390625
+                                    selectedSize: original
+                                    originalWidth: 5120
+                                    attributionUrl: >-
+                                      https://www.lummi.ai/3d/cartoon-wizard-character-6oysh?utm_source=api&utm_campaign=api&utm_medium=referral
+                                    originalHeight: 5120
+                                    authorProfileUrl: >-
+                                      https://www.lummi.ai/creator/amino?utm_source=api&utm_campaign=api&utm_medium=referral
+                                    dominantColorGroup: cyan600
+                                    dominantColorWeight: 0.824462890625
+                                height:
+                                  type: number
+                                  value: 5120
+                                description:
+                                  type: text
+                                  value: >-
+                                    Cartoon Wizard Character - AI-generated
+                                    image by Amino on Lummi
+                              _source: lummi-3b322701-b5c2-43ff-a1d6-cbaab843e2c8
+                      title:
+                        type: text
+                        locales:
+                          en-US: Wand & reusable goblet
+                      description:
+                        type: text
+                        locales:
+                          en-US: For casting spells and sipping responsibly.
+                  - _id: 2e79e16f-5735-428e-992c-e63aeb438047
+                    type: card
+                    parameters:
+                      badge:
+                        type: text
+                        locales:
+                          en-US: Step 2
+                      image:
+                        type: asset
+                        locales:
+                          en-US:
+                            - _id: 915d107a-f42c-49a9-b41c-98a1039026e9
+                              type: image
+                              fields:
+                                url:
+                                  type: text
+                                  value: >-
+                                    https://assets.lummi.ai/assets/QmRYzQbTQENpy6TnNtPFUaQuf9XcAiKswV9HfdVCqtw1op?auto=format&w=1500&h=1500
+                                title:
+                                  type: text
+                                  value: Adventure Map View
+                                width:
+                                  type: number
+                                  value: 2688
+                                custom:
+                                  type: object
+                                  value:
+                                    tags:
+                                      - Map
+                                      - Adventure
+                                      - Illustration
+                                      - Nature
+                                      - Mountains
+                                    blurhash: >-
+                                      ecLX@mxaBMe-O=3XSzwOj]nOG8V[#;niX8wIniOmW.sCoxn+afkCnP
+                                    sourceId: d4070bcc-4bf2-403f-9abe-336c91f6b60d
+                                    imageType: illustration
+                                    authorName: Steph Meade
+                                    categories:
+                                      - Art
+                                      - Nature
+                                    aspectRatio: 1.5
+                                    orientation: horizontal
+                                    colorPalette:
+                                      '0':
+                                        hex: '#81d8b2'
+                                        weight: 0.329578488372093
+                                      '1':
+                                        hex: '#add17d'
+                                        weight: 0.2427325581395349
+                                      '2':
+                                        hex: '#f3bba5'
+                                        weight: 0.1885901162790698
+                                      '3':
+                                        hex: '#b7bcad'
+                                        weight: 0.1707848837209302
+                                      '4':
+                                        hex: '#f4883d'
+                                        weight: 0.06649709302325581
+                                    selectedSize: original
+                                    originalWidth: 2688
+                                    attributionUrl: >-
+                                      https://www.lummi.ai/illustration/adventure-map-view-r4fpw?utm_source=api&utm_campaign=api&utm_medium=referral
+                                    originalHeight: 1792
+                                    authorProfileUrl: >-
+                                      https://www.lummi.ai/creator/steph?utm_source=api&utm_campaign=api&utm_medium=referral
+                                    dominantColorGroup: emerald200
+                                    dominantColorWeight: 0.329578488372093
+                                height:
+                                  type: number
+                                  value: 1792
+                                description:
+                                  type: text
+                                  value: >-
+                                    Adventure Map View - AI-generated image by
+                                    Steph Meade on Lummi
+                              _source: lummi-3b322701-b5c2-43ff-a1d6-cbaab843e2c8
+                      title:
+                        type: text
+                        locales:
+                          en-US: Enchanted map
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Discover authentic, eco-friendly adventures that
+                            connect you with local communities.
+                  - _id: 41332400-35c2-4c17-a153-3d6eed20a867
+                    type: card
+                    parameters:
+                      badge:
+                        type: text
+                        locales:
+                          en-US: Step 3
+                      image:
+                        type: asset
+                        locales:
+                          en-US:
+                            - _id: fc40394e-b4b3-4d38-bd66-3006185e0cc5
+                              type: image
+                              fields:
+                                url:
+                                  type: text
+                                  value: >-
+                                    https://assets.lummi.ai/assets/QmSwqQvYBxYupATy8mHJuSX3rpL1bnkpxtUDFwoWFGByph?auto=format&w=1500&h=1500
+                                title:
+                                  type: text
+                                  value: Serene Aromatherapy Still Life
+                                width:
+                                  type: number
+                                  value: 2912
+                                custom:
+                                  type: object
+                                  value:
+                                    tags:
+                                      - Natural
+                                      - Antique
+                                      - Aromatherapy
+                                      - Herbs
+                                      - botanicals
+                                    blurhash: >-
+                                      e7A0,X_20MDjIBAHtRxYM{xt4;D+$%%L%L%KkCNHbbM|D*aL%0j?R+
+                                    sourceId: c3b1c521-fa2f-42e0-bf93-062e0aaeff2a
+                                    imageType: photo
+                                    authorName: Sofía
+                                    categories:
+                                      - Wellness
+                                    aspectRatio: 1.784313725490196
+                                    orientation: horizontal
+                                    colorPalette:
+                                      '0':
+                                        hex: '#232828'
+                                        weight: 0.4969618055555555
+                                      '1':
+                                        hex: '#636251'
+                                        weight: 0.3810763888888889
+                                      '2':
+                                        hex: '#532c20'
+                                        weight: 0.06597222222222222
+                                      '3':
+                                        hex: '#beb28d'
+                                        weight: 0.05598958333333334
+                                    selectedSize: original
+                                    originalWidth: 2912
+                                    attributionUrl: >-
+                                      https://www.lummi.ai/photo/serene-aromatherapy-still-life-x-us8?utm_source=api&utm_campaign=api&utm_medium=referral
+                                    originalHeight: 1632
+                                    authorProfileUrl: >-
+                                      https://www.lummi.ai/creator/sofiiiiia?utm_source=api&utm_campaign=api&utm_medium=referral
+                                    dominantColorGroup: neutral800
+                                    dominantColorWeight: 0.4969618055555555
+                                height:
+                                  type: number
+                                  value: 1632
+                                description:
+                                  type: text
+                                  value: >-
+                                    Serene Aromatherapy Still Life -
+                                    AI-generated image by Sofía on Lummi
+                              _source: lummi-3b322701-b5c2-43ff-a1d6-cbaab843e2c8
+                      title:
+                        type: text
+                        locales:
+                          en-US: Potion kit
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Brew your own eco-friendly coffee anywhere with this
+                            compact, sustainable travel kit.
+                  - _id: 2bb3bf38-2c07-490b-8e1b-a56443dbcd8c
+                    type: card
+                    parameters:
+                      badge:
+                        type: text
+                        locales:
+                          en-US: Step 4
+                      image:
+                        type: asset
+                        locales:
+                          en-US:
+                            - _id: b5b5fa85-5209-411e-bc5d-b916669a4e93
+                              type: image
+                              fields:
+                                url:
+                                  type: text
+                                  value: >-
+                                    https://assets.lummi.ai/assets/QmVCcDJsga9oTDNMgg8bJtQf7upCYjgdkU4Z6o5zwDVNQY?auto=format&w=1500&h=1500
+                                title:
+                                  type: text
+                                  value: Solitary Figure in Foggy Landscape
+                                width:
+                                  type: number
+                                  value: 2688
+                                custom:
+                                  type: object
+                                  value:
+                                    tags:
+                                      - Minimalism
+                                      - Mystery
+                                      - Introspection
+                                      - Serene
+                                      - Solitude
+                                    blurhash: >-
+                                      ea6Vq%fQjtfke:qEf6e:fQfka1fjfQfQfkkCfjfkfQf6fkf7f6fQfk
+                                    sourceId: ae60c3b1-c0fc-480f-bf32-f5c9b71eaf09
+                                    imageType: photo
+                                    authorName: Pablo Stanley
+                                    categories:
+                                      - People
+                                      - Landscape
+                                    aspectRatio: 1.5
+                                    orientation: horizontal
+                                    colorPalette:
+                                      '0':
+                                        hex: '#3abaa1'
+                                        weight: 0.7394622093023255
+                                      '1':
+                                        hex: '#327766'
+                                        weight: 0.2605377906976744
+                                    selectedSize: original
+                                    originalWidth: 2688
+                                    attributionUrl: >-
+                                      https://www.lummi.ai/photo/solitary-figure-in-foggy-landscape-addbx?utm_source=api&utm_campaign=api&utm_medium=referral
+                                    originalHeight: 1792
+                                    authorProfileUrl: >-
+                                      https://www.lummi.ai/creator/pablostanley?utm_source=api&utm_campaign=api&utm_medium=referral
+                                    dominantColorGroup: teal500
+                                    dominantColorWeight: 0.7394622093023255
+                                height:
+                                  type: number
+                                  value: 1792
+                                description:
+                                  type: text
+                                  value: >-
+                                    Solitary Figure in Foggy Landscape -
+                                    AI-generated image by Pablo Stanley on Lummi
+                              _source: lummi-3b322701-b5c2-43ff-a1d6-cbaab843e2c8
+                      title:
+                        type: text
+                        locales:
+                          en-US: Cloak of invisibility for litter
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Leave no trace—pack out your waste and protect the
+                            places you explore.
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: The wizard’s packing list
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Pack smart for your next adventure—these essentials keep
+                      your travels sustainable and stress-free.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Pack like a pro
+      - _id: 76800dc7-6c86-48c2-b830-9ae21e198f03
+        type: container
+        slots:
+          container-inner:
+            - _id: 0a6bd45e-c0a3-457e-b6ee-1dc3351d6102
+              type: cardBlock
+              slots:
+                cardBlockInner:
+                  - _id: 42887e7a-a6b7-405b-83f0-303cdaa0e0a5
+                    type: card
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Forbidden Forest eco adventure
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Explore ancient forests and spot magical
+                            wildlife—just remember to respect the local
+                            creatures.
+                  - _id: cb4ffd3b-e587-46ca-9e32-406db41d6785
+                    type: card
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Hogsmeade’s Green Market
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Shop local for craft butterbeer and organic spell
+                            ingredients, supporting small producers and
+                            sustainable practices.
+                  - _id: a4e04ca7-9aeb-4160-a9c8-2d05ad554a64
+                    type: card
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: The Crystal Lake
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Swim, meditate, and recharge in clean, tranquil
+                            waters for a mindful, eco-friendly escape.
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Magical destinations
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Discover authentic, sustainable adventures and connect
+                      with local communities on your next journey.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Enchanted destinations
+      - _id: ed5b5e9d-20dd-4525-8725-a423516bc8de
+        type: container
+        slots:
+          container-inner:
+            - _id: 855c0689-7d8f-4099-bce9-6292114fb2f5
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Start your sustainable adventure today
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Download the full Wizard’s Handbook to start your
+                      sustainable adventure—eco-friendly magic awaits!
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-US: Get My Spellbook
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Call to adventure
+      - _id: 72931278-b704-448f-aa37-b67df8b874d4
+        type: container
+        slots:
+          container-inner:
+            - _id: b1e2e2e2-1e2e-4e2e-8e2e-1e2e2e2e2e2e
+              type: review
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Loved the local experiences
+                personName:
+                  type: text
+                  value: Hermione G.
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      I never start a trip without this guide! It’s full of
+                      practical tips and eco-friendly advice that make travel
+                      easy and meaningful. Perfect for anyone who wants to
+                      explore responsibly.
+            - _id: c2c2c2c2-2c2c-4c2c-8c2c-2c2c2c2c2c2c
+              type: review
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: A must for every wizard
+                personName:
+                  type: text
+                  value: Albus D.
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      This handbook is packed with practical tips and real
+                      stories that make travel feel less intimidating and way
+                      more rewarding. It’s like having a savvy friend guide you
+                      to the good stuff—no magic needed, just solid advice.
+            - _id: d3d3d3d3-3d3d-4d3d-8d3d-3d3d3d3d3d3d
+              type: review
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Wonderfully weird
+                personName:
+                  type: text
+                  value: Luna L.
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Loved the unique vibe and friendly staff! The local
+                      touches made it feel authentic, and I appreciated the
+                      eco-friendly efforts. Perfect spot for travelers who want
+                      something real and affordable.
+            - _id: e4e4e4e4-4e4e-4e4e-8e4e-4e4e4e4e4e4e
+              type: review
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Surprisingly useful
+                personName:
+                  type: text
+                  value: Severus S.
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      I was a bit skeptical at first, but this guide really
+                      surprised me! It’s clear, practical, and actually helped
+                      me plan a more sustainable trip. Highly recommend for
+                      anyone wanting real, local experiences.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Testimonials from the magical realm
+      - _id: 729ba681-6096-4162-a952-ee7ff9a62e2f
+        type: container
+        slots:
+          container-inner:
+            - _id: f1f1f1f1-1f1f-4f1f-8f1f-1f1f1f1f1f1f
+              type: accordion
+              slots:
+                items:
+                  - _id: aa547f79-9d7f-49d2-a821-f9756bb96e06
+                    type: accordionItem
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: What is a magical eco-adventure?
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            A magical eco-adventure blends the excitement of
+                            wizarding travel with sustainable choices—imagine
+                            exploring new places with a sense of wonder,
+                            supporting local communities, and leaving only a
+                            positive impact on the planet.
+                  - _id: aa702518-a7d0-445b-bf55-e99969767440
+                    type: accordionItem
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Do I need special skills to use this guide?
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Absolutely! This guide is for everyone—no magic
+                            needed. Whether you're new to sustainable travel or
+                            already a conscious explorer, you'll find practical
+                            tips and authentic experiences to help you travel
+                            responsibly and connect with local communities.
+                  - _id: 8c20d319-7082-43c8-b9f3-2252572b7ee6
+                    type: accordionItem
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: What should I pack for an eco-friendly adventure?
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Pack light and smart: bring a reusable water bottle,
+                            a digital map app, a basic first-aid kit, and a tote
+                            bag for picking up litter. The real magic is in
+                            traveling responsibly and leaving every place better
+                            than you found it.
+                  - _id: 7e519e75-382b-4337-a90d-182d69c0097e
+                    type: accordionItem
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: How can I make my travels more sustainable?
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Opt for local experiences, support small businesses,
+                            and use public transport or shared rides whenever
+                            possible. Always respect the people, cultures, and
+                            environments you encounter to help make travel more
+                            sustainable and meaningful.
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Frequently asked questions
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Frequently asked questions
+  _locales:
+    - en-US
+created: '2025-10-16T10:34:55.662312+00:00'
+modified: '2025-10-16T19:23:29.813363+00:00'
+pattern: false
