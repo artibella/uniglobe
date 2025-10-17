@@ -5,8 +5,8 @@ import {
   ContextPlugin,
   enableDebugConsoleLogDrain,
   enableContextDevTools,
-  enableUniformInsights,
 } from '@uniformdev/context';
+import { enableUniformInsights } from '@uniformdev/insights';
 import { NextCookieTransitionDataStore } from '@uniformdev/context-next';
 
 import manifest from './manifest.json';
@@ -20,8 +20,10 @@ export default function createUniformContext(serverContext?: NextPageContext): C
       // running against a local endpoint, will use edge middleware to rewrite to the actual endpoint
       enableUniformInsights({
         endpoint: {
-          type: 'proxy',
-          path: '/api/analytics',
+          type: 'api',
+          projectId: process.env.NEXT_PUBLIC_UNIFORM_PROJECT_ID!,
+          apiKey: process.env.NEXT_PUBLIC_UNIFORM_INSIGHTS_KEY!,
+          host: process.env.NEXT_PUBLIC_INSIGHTS_API_URL!,
         },
       })
     );
