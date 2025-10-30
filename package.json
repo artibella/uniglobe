@@ -28,16 +28,16 @@
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^16.6.10",
     "@contentful/rich-text-types": "^16.3.5",
-    "@uniformdev/canvas": "20.37.1-alpha.11",
-    "@uniformdev/canvas-next": "20.37.1-alpha.11",
-    "@uniformdev/canvas-react": "20.37.1-alpha.11",
-    "@uniformdev/context": "20.37.1-alpha.11",
-    "@uniformdev/insights": "20.37.1-alpha.11",
-    "@uniformdev/context-next": "20.37.1-alpha.11",
-    "@uniformdev/context-react": "20.37.1-alpha.11",
-    "@uniformdev/project-map": "20.37.1-alpha.11",
-    "@uniformdev/richtext": "20.37.1-alpha.11",
-    "@uniformdev/tms-sdk": "20.37.1-alpha.11",
+    "@uniformdev/canvas": "20.39.3-alpha.11",
+    "@uniformdev/canvas-next": "20.39.3-alpha.11",
+    "@uniformdev/canvas-react": "20.39.3-alpha.11",
+    "@uniformdev/context": "20.39.3-alpha.11",
+    "@uniformdev/insights": "20.39.3-alpha.11",
+    "@uniformdev/context-next": "20.39.3-alpha.11",
+    "@uniformdev/context-react": "20.39.3-alpha.11",
+    "@uniformdev/project-map": "20.39.3-alpha.11",
+    "@uniformdev/richtext": "20.39.3-alpha.11",
+    "@uniformdev/tms-sdk": "20.39.3-alpha.11",
     "@vercel/og": "^0.6.2",
     "classnames": "^2.5.1",
     "daisyui": "^3.9.4",
@@ -73,7 +73,7 @@
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.4.0",
     "@typescript-eslint/types": "^6.4.0",
-    "@uniformdev/cli": "20.37.1-alpha.11",
+    "@uniformdev/cli": "20.39.3-alpha.11",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.47.0",
     "eslint-config-custom": "*",
@@ -89,5 +89,6 @@
     "tailwindcss": "^3.3.1",
     "ts-node": "^10.9.1",
     "typescript": "5.3.3"
-  }
+  },
+  "packageManager": "pnpm@8.15.4+sha512.0bd3a9be9eb0e9a692676deec00a303ba218ba279d99241475616b398dbaeedd11146f92c2843458f557b1d127e09d4c171e105bdcd6b61002b39685a8016b9e"
 }

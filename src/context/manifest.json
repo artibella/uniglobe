@@ -1,7 +1,33 @@
 {
   "project": {
     "pz": {
+      "control": 1,
       "agg": {
+        "flashpacker": {
+          "inputs": [
+            {
+              "dim": "dest_asia"
+            },
+            {
+              "dim": "act_fod"
+            },
+            {
+              "dim": "ses_hol"
+            },
+            {
+              "dim": "act_spa"
+            },
+            {
+              "dim": "act_adv"
+            },
+            {
+              "dim": "profile_mil"
+            },
+            {
+              "dim": "style_lux"
+            }
+          ]
+        },
         "bookAsiaVacation": {
           "inputs": [
             {
@@ -22,6 +48,34 @@
             }
           ]
         },
+        "budgetTraveler": {
+          "inputs": [
+            {
+              "dim": "style_bud"
+            },
+            {
+              "dim": "ses_off"
+            },
+            {
+              "dim": "dest_asia"
+            },
+            {
+              "dim": "dest_sa"
+            },
+            {
+              "dim": "dest_afri"
+            },
+            {
+              "dim": "profile_genz"
+            },
+            {
+              "dim": "profile_mil"
+            },
+            {
+              "dim": "profile_std"
+            }
+          ]
+        },
         "usersDACH": {
           "inputs": [
             {
@@ -34,14 +88,26 @@
         }
       },
       "enr": {
-        "1": {
-          "cap": 100
+        "7": {
+          "cap": 1000
         },
-        "2": {
-          "cap": 100
+        "act": {
+          "cap": 1000
         },
         "dest": {
-          "cap": 10000
+          "cap": 1000
+        },
+        "ses": {
+          "cap": 1000
+        },
+        "profile": {
+          "cap": 1000
+        },
+        "style": {
+          "cap": 1000
+        },
+        "type": {
+          "cap": 1000
         }
       },
       "sig": {
@@ -72,6 +138,34 @@
             ]
           }
         },
+        "visitoraustria": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "vc-country",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "AT"
+                }
+              },
+              {
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/de-AT/"
+                },
+                "type": "PV"
+              }
+            ]
+          }
+        },
         "downloadGuide": {
           "str": 50,
           "cap": 100,
@@ -91,6 +185,55 @@
           },
           "conversion": {
             "freq": "O"
+          }
+        },
+        "newsletterForm": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "path": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "/en-US/newsletter"
+                },
+                "type": "PV"
+              },
+              {
+                "path": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "/de-DE/newsletter"
+                },
+                "type": "PV"
+              }
+            ]
+          },
+          "conversion": {
+            "freq": "O"
+          }
+        },
+        "newsletterSignup": {
+          "str": 100,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "/en-US/newsletter/confirm"
+                },
+                "type": "PV"
+              }
+            ]
           }
         },
         "pageViewAsianDestination": {
@@ -114,34 +257,6 @@
                   "cs": false,
                   "op": "~",
                   "rhs": "/reiseziele/asien"
-                },
-                "type": "PV"
-              }
-            ]
-          }
-        },
-        "visitoraustria": {
-          "str": 50,
-          "cap": 100,
-          "dur": "p",
-          "crit": {
-            "op": "|",
-            "type": "G",
-            "clauses": [
-              {
-                "key": "vc-country",
-                "type": "QK",
-                "match": {
-                  "cs": false,
-                  "op": "=",
-                  "rhs": "AT"
-                }
-              },
-              {
-                "path": {
-                  "cs": false,
-                  "op": "~",
-                  "rhs": "/de-AT/"
                 },
                 "type": "PV"
               }
@@ -179,7 +294,6 @@
       }
     },
     "test": {
-      "csjTest1": {},
       "itineraryOfferDestinations": {}
     }
   }
