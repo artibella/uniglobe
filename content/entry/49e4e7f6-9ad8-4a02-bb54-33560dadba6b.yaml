@@ -1,5 +1,5 @@
 created: '2024-08-20T21:38:22.074765+00:00'
-modified: '2025-07-03T22:46:26.767963+00:00'
+modified: '2025-10-23T11:43:35.599803+00:00'
 pattern: false
 entry:
   _id: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
@@ -55,6 +55,10 @@ entry:
                     type: text
                     value: image/png
                 _source: cloudinary-2c6d995a-4c3f-4f95-86ea-7d9f8af08667
+        name:
+          type: text
+          locales:
+            en-US: Japan
         images:
           type: asset
           locales:
@@ -463,80 +467,119 @@ entry:
           type: asset
           locales:
             de-DE:
-              - _id: c822e52e-be10-4c97-a4ba-ffe9a4dc93bd
+              - _id: 41caa307-cf26-46a6-ab06-5cc0acc9a931
                 type: image
                 fields:
-                  url:
+                  id:
                     type: text
+                    value: 2def1ae3-96b9-472d-bb8a-3b875185142f
+                  url:
                     value: >-
-                      https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                    type: text
+                  size:
+                    value: 3328074
+                    type: number
                   title:
                     type: text
-                    value: Copyright Sora Sagano
-                _source: custom-url
-            en-US:
-              - _id: 6a1b6b06-4378-45b8-9680-a55197e639ce
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
-                      https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-                  title:
-                    type: text
-                    value: >-
-                      Scenic view of Kiyomizu-dera Temple with cherry blossoms
-                      in Kyoto, Japan, capturing traditional Japanese
-                      architecture at twilight.
+                    value: Kyoto temple over city
                   width:
+                    value: 5911
                     type: number
-                    value: 3456
-                  custom:
-                    type: object
-                    value:
-                      sourceId: '402028'
-                      pexelsUrl: >-
-                        https://www.pexels.com/photo/red-and-black-temple-surrounded-by-trees-photo-402028/
-                      photoTinyUrl: >-
-                        https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
-                      photographer: Belle Co
-                      photoLargeUrl: >-
-                        https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-                      photoSmallUrl: >-
-                        https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&h=130
-                      photoMediumUrl: >-
-                        https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&h=350
-                      photoLarge2xUrl: >-
-                        https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-                      photographerUrl: https://www.pexels.com/@belle-co-99483
-                      photoPortraitUrl: >-
-                        https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
-                      pexelsOriginalUrl: >-
-                        https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg
-                      photoLandscapeUrl: >-
-                        https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
                   height:
+                    value: 3941
                     type: number
-                    value: 2304
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  focalPoint:
+                    type: focalPoint
                   description:
                     type: text
-                    value: >-
-                      Scenic view of Kiyomizu-dera Temple with cherry blossoms
-                      in Kyoto, Japan, capturing traditional Japanese
-                      architecture at twilight. - Photo by Belle Co on Pexels
-                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
-            it-IT:
-              - _id: c822e52e-be10-4c97-a4ba-ffe9a4dc93bd
+                    value: Su-san Lee, Unsplash
+                _source: uniform-assets
+                _overrides:
+                  fields:
+                    title:
+                      type: text
+                      value: Kyoto-Tempel über der Stadt
+                    description:
+                      type: text
+                      value: Su-san Lee, Unsplash
+            en-US:
+              - _id: 3f14d3d5-36c9-4618-b3e7-5d8d90b8792e
                 type: image
                 fields:
-                  url:
+                  id:
                     type: text
+                    value: 2def1ae3-96b9-472d-bb8a-3b875185142f
+                  url:
                     value: >-
-                      https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                    type: text
+                  size:
+                    value: 3328074
+                    type: number
                   title:
                     type: text
-                    value: Copyright Sora Sagano
-                _source: custom-url
+                    value: Kyoto temple over city
+                  width:
+                    value: 5911
+                    type: number
+                  height:
+                    value: 3941
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  focalPoint:
+                    type: focalPoint
+                  description:
+                    type: text
+                    value: Su-san Lee, Unsplash
+                _source: uniform-assets
+                _overrides:
+                  fields: {}
+            it-IT:
+              - _id: 5736bee1-2fd4-4439-af2c-757c419fdf1f
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 2def1ae3-96b9-472d-bb8a-3b875185142f
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/ZOYH1IcyQSqEmUR3JPXLpA-su-san-lee-E_eWwM29wfU-unsplash.jpg
+                    type: text
+                  size:
+                    value: 3328074
+                    type: number
+                  title:
+                    type: text
+                    value: Kyoto temple over city
+                  width:
+                    value: 5911
+                    type: number
+                  height:
+                    value: 3941
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  focalPoint:
+                    type: focalPoint
+                  description:
+                    type: text
+                    value: Su-san Lee, Unsplash
+                _source: uniform-assets
+                _overrides:
+                  fields:
+                    title:
+                      type: text
+                      value: Tempio di Kyoto sulla città
+                    description:
+                      type: text
+                      value: Su-san Lee, Unsplash
         timeToVisit:
           type: richText
           locales:

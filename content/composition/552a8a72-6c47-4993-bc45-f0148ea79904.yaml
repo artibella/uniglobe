@@ -1455,6 +1455,9 @@ composition:
       - _id: c25e891f-7157-4527-ad82-700b5450cfbb
         type: container
         _pattern: a0e086a1-87f2-4881-83d2-e53a88225cf9
+      - _id: 78f9f087-b4a4-4cee-985a-1a11c717a5e9
+        type: container
+        _pattern: 03c6b8a7-f76f-4e1a-b357-e3aac63e525a
   _overrides:
     c25e891f-7157-4527-ad82-700b5450cfbb:
       dataResources:
@@ -1554,5 +1557,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-15T09:27:31.731839+00:00'
-modified: '2025-09-02T07:59:27.157185+00:00'
+modified: '2025-10-17T11:58:29.28154+00:00'
 pattern: false

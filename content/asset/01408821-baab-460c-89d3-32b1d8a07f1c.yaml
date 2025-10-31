@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 01408821-baab-460c-89d3-32b1d8a07f1c
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Wildester Sonnenuntergang aller Zeiten
+    description:
+      type: text
+      value: Foto von Agustin Diaz Gargiulo auf Unsplash
+    file:
+      type: file
+      value: f7b7f168-fa08-47b3-a6b7-7fae34d479af
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/rTUnXLcyTOa1EQEmbXMv5A-photo-1483729558449-99ef09a8c325
+      type: text
+    size:
+      value: 7400647
+      type: number
+    width:
+      value: 6000
+      type: number
+    height:
+      value: 4000
+      type: number
+    custom: {}
+created: '2025-10-30T18:10:37.072216+00:00'
+modified: '2025-10-30T18:10:37.072216+00:00'

@@ -1,0 +1,345 @@
+composition:
+  _name: Newsletter
+  _id: 1364a7cc-7888-439f-8450-40a9666b72fa
+  _slug: newsletter
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Newsletter
+  slots:
+    pageFooter:
+      - _id: c6e4156e-d367-4d18-ac32-61bd3e12be55
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 1f45f6e3-1834-4fdc-b9bb-1627d3f57d62
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: d6b58dc8-9b9c-4926-8893-dd0707c3667f
+        type: container
+        slots:
+          container-inner:
+            - _id: a00b8b0b-c118-4d6c-bde4-af00ee7b1897
+              type: hero
+              variant: backgroundImage
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 29cc480e-4055-4d80-94f5-387f40055f51
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8bmV3c2xldHRlcnxlbnwwfDF8fHwxNzYwNzAwNzIwfDA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: The focus
+                          width:
+                            type: number
+                            value: 3308
+                          custom:
+                            type: object
+                            value:
+                              color: '#a6d9d9'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/person-holding-light-bulb-fIq0tET6llw
+                              blurHash: LkNvY|=eb^WBD3I:wcbIRlsAI:xG
+                              sourceId: fIq0tET6llw
+                              createdAt: '2017-05-01T04:18:31Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/person-holding-light-bulb-fIq0tET6llw
+                              updatedAt: '2025-10-17T06:58:50Z'
+                              authorName: Diego PH
+                              downloadUrl: >-
+                                https://unsplash.com/photos/fIq0tET6llw/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8bmV3c2xldHRlcnxlbnwwfDF8fHwxNzYwNzAwNzIwfDA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8bmV3c2xldHRlcnxlbnwwfDF8fHwxNzYwNzAwNzIwfDA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8bmV3c2xldHRlcnxlbnwwfDF8fHwxNzYwNzAwNzIwfDA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8bmV3c2xldHRlcnxlbnwwfDF8fHwxNzYwNzAwNzIwfDA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8bmV3c2xldHRlcnxlbnwwfDF8fHwxNzYwNzAwNzIwfDA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: jdiegoph
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8bmV3c2xldHRlcnxlbnwwfDF8fHwxNzYwNzAwNzIwfDA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@jdiegoph
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/fIq0tET6llw/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxM3x8bmV3c2xldHRlcnxlbnwwfDF8fHwxNzYwNzAwNzIwfDA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1553882437332-2aaadee4ff49?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 4135
+                          description:
+                            type: text
+                            value: Photo by Diego PH on Unsplash
+                        _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                title:
+                  type: text
+                  locales:
+                    en-US: Sign up for travel inspiration and deals
+                objectFit:
+                  type: select
+                  value: cover
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h2
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Get authentic travel tips, local stories, and exclusive
+                      deals, delivered monthly to your inbox.
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Stay in the loop
+                textColorVariant:
+                  type: select
+                  value: Dark
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-US: Sign up
+                primaryButtonLink:
+                  type: link
+                  value:
+                    path: /${locale}/newsletter/confirm
+                    type: projectMapNode
+                    nodeId: 89fd4ac0-4ea0-4481-9544-ef3d13ce1a06
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
+      - _id: fb685c69-da03-4dbb-8cd5-1e776f0bd71f
+        type: container
+        slots:
+          container-inner:
+            - _id: 1bc0a029-00e2-410d-85b9-f72b8e3615e4
+              type: content
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: >-
+                      We respect your privacy. Unsubscribe anytime—no spam,
+                      ever.
+                title:
+                  type: text
+                  locales:
+                    en-US: Your privacy and trust matter to us
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h3
+            - _id: 4c4ade04-2c05-4c18-b6ae-55a5b2ad29d6
+              type: grid
+              slots:
+                grid-inner:
+                  - _id: 6ff7f6f8-f53e-4e54-a3c6-07df5af4ea87
+                    type: testimonial
+                    variant: cardWrapped
+                    parameters:
+                      picture:
+                        type: asset
+                        value:
+                          - _id: 53adaf16-7c66-4d4e-98ec-1ca21edc0b93
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://assets.lummi.ai/assets/QmbMN7PQyDvZk44JfsGrgAVUmVgSpBxMQXVZSuN1sDFAqd?auto=format&w=1500&h=1500
+                              title:
+                                type: text
+                                value: Smiling Young Man
+                              width:
+                                type: number
+                                value: 4800
+                              custom:
+                                type: object
+                                value:
+                                  tags:
+                                    - young man
+                                    - Outdoor
+                                    - Greenery
+                                    - Portrait
+                                    - Smile
+                                  blurhash: >-
+                                    ehHBxaofTJxGjY00j[M{ofxuyEbHxaR*RjD%oft7jbRkx]V@WBj@oe
+                                  sourceId: dd515d86-417b-4fcc-844b-7a0d2fba1df9
+                                  imageType: photo
+                                  authorName: Ananncee Stock
+                                  categories:
+                                    - People
+                                    - Nature
+                                  aspectRatio: 0.8
+                                  orientation: vertical
+                                  colorPalette:
+                                    '0':
+                                      hex: '#1c1d17'
+                                      weight: 0.232843137254902
+                                    '1':
+                                      hex: '#4d4939'
+                                      weight: 0.1951593137254902
+                                    '2':
+                                      hex: '#c4b2a0'
+                                      weight: 0.1810661764705882
+                                    '3':
+                                      hex: '#9a7054'
+                                      weight: 0.1482843137254902
+                                    '4':
+                                      hex: '#e3e8e9'
+                                      weight: 0.1446078431372549
+                                    '5':
+                                      hex: '#7e8b70'
+                                      weight: 0.09803921568627451
+                                  selectedSize: original
+                                  originalWidth: 4800
+                                  attributionUrl: >-
+                                    https://www.lummi.ai/photo/smiling-young-man-bjhof?utm_source=api&utm_campaign=api&utm_medium=referral
+                                  originalHeight: 6000
+                                  authorProfileUrl: >-
+                                    https://www.lummi.ai/creator/anannceestock?utm_source=api&utm_campaign=api&utm_medium=referral
+                                  dominantColorGroup: neutral900
+                                  dominantColorWeight: 0.232843137254902
+                              height:
+                                type: number
+                                value: 6000
+                              description:
+                                type: text
+                                value: >-
+                                  Smiling Young Man - AI-generated image by
+                                  Ananncee Stock on Lummi
+                            _source: lummi-3b322701-b5c2-43ff-a1d6-cbaab843e2c8
+                      personName:
+                        type: text
+                        locales:
+                          en-US: Alexander M.
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Uniglobe's newsletter always inspires my next
+                            adventure with practical tips and affordable deals.
+                            I appreciate how it focuses on real experiences and
+                            sustainable travel options that fit my budget.
+                      personPosition:
+                        type: text
+                        locales:
+                          en-US: Frequent Traveler
+                      lineCountRestriction:
+                        type: tp-slider-parameter
+                        value: none
+                  - _id: 53b2d99a-ccd7-4782-97da-25e1f38931aa
+                    type: testimonial
+                    variant: cardWrapped
+                    parameters:
+                      picture:
+                        type: asset
+                        value:
+                          - _id: 6f6c660d-fcbd-47a4-9579-bdbbbf9d3cc3
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://assets.lummi.ai/assets/QmUWqjydGwnENvz5uKQ75BwB4pKqPKHD8cA7UgeyMCr5Ev?auto=format&w=1500&h=1500
+                              title:
+                                type: text
+                                value: >-
+                                  Portrait of a Smiling Young Woman with Red
+                                  Glasses
+                              width:
+                                type: number
+                                value: 4096
+                              custom:
+                                type: object
+                                value:
+                                  tags:
+                                    - Accessories
+                                    - Engaging
+                                    - Portrait
+                                    - Smile
+                                    - cultural attire
+                                  blurhash: >-
+                                    eQHnpbIT*0V?^*Y6ogxZozRP-oofaJofE2XnjYsmbHV@xZbIRPjsWX
+                                  sourceId: b0cbabaf-8196-43a7-8880-af5930f6fc1b
+                                  imageType: photo
+                                  authorName: berol
+                                  categories:
+                                    - People
+                                    - Fashion
+                                  aspectRatio: 1
+                                  orientation: square
+                                  colorPalette:
+                                    '0':
+                                      hex: '#a9adad'
+                                      weight: 0.439697265625
+                                    '1':
+                                      hex: '#2a2323'
+                                      weight: 0.23974609375
+                                    '2':
+                                      hex: '#bb8054'
+                                      weight: 0.202392578125
+                                    '3':
+                                      hex: '#885e46'
+                                      weight: 0.1181640625
+                                  selectedSize: original
+                                  originalWidth: 4096
+                                  attributionUrl: >-
+                                    https://www.lummi.ai/photo/portrait-of-a-smiling-young-woman-with-red-glasses-8frqk?utm_source=api&utm_campaign=api&utm_medium=referral
+                                  originalHeight: 4096
+                                  authorProfileUrl: >-
+                                    https://www.lummi.ai/creator/berol-oac?utm_source=api&utm_campaign=api&utm_medium=referral
+                                  dominantColorGroup: neutral400
+                                  dominantColorWeight: 0.439697265625
+                              height:
+                                type: number
+                                value: 4096
+                              description:
+                                type: text
+                                value: >-
+                                  Portrait of a Smiling Young Woman with Red
+                                  Glasses - AI-generated image by berol on Lummi
+                            _source: lummi-3b322701-b5c2-43ff-a1d6-cbaab843e2c8
+                      personName:
+                        type: text
+                        locales:
+                          en-US: Samantha L.
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            I always find new travel ideas and down-to-earth
+                            tips I can actually use. The affordable options and
+                            focus on real, meaningful experiences make it easy
+                            to choose more sustainable ways to explore.
+                      personPosition:
+                        type: text
+                        locales:
+                          en-US: Frequent Traveler
+                      lineCountRestriction:
+                        type: tp-slider-parameter
+                        value: none
+              parameters:
+                gapX:
+                  type: tp-slider-parameter
+                  value: medium
+                gapY:
+                  type: tp-slider-parameter
+                  value: medium
+                columnsCount:
+                  type: tp-slider-parameter
+                  locales:
+                    en-US: '2'
+  _locales:
+    - en-US
+created: '2025-10-17T10:05:49.343718+00:00'
+modified: '2025-10-17T11:49:45.729166+00:00'
+pattern: false

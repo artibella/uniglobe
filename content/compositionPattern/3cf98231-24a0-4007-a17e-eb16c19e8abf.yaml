@@ -3,6 +3,9 @@ composition:
   _id: 3cf98231-24a0-4007-a17e-eb16c19e8abf
   type: page
   parameters:
+    $enr:
+      type: $enr
+      value: ${#jptr:/Country/entry/fields/enrichments/value:fl=i}
     pageTitle:
       type: text
       locales:
@@ -253,6 +256,9 @@ composition:
             value: Medium
         _overridability:
           hideLockedParameters: true
+      - _id: 5336a350-582e-4634-a406-422bcc3e40cd
+        type: container
+        _pattern: 03c6b8a7-f76f-4e1a-b357-e3aac63e525a
   _dataResources:
     Country:
       type: countryBySlug
@@ -283,7 +289,7 @@ composition:
     - de-DE
     - it-IT
 created: '2024-09-19T14:56:45.173053+00:00'
-modified: '2024-11-13T13:16:28.975687+00:00'
+modified: '2025-10-17T11:59:47.866351+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

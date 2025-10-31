@@ -1,5 +1,5 @@
 created: '2025-07-10T13:06:03.575436+00:00'
-modified: '2025-07-10T13:08:39.842775+00:00'
+modified: '2025-10-30T18:11:02.834529+00:00'
 pattern: false
 entry:
   _id: d59e0b9c-4bd3-48f0-b984-2a19433275ee
@@ -167,63 +167,8 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          South America: A Continent of Diversity, Adventure,
-                          and Connection
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: '!'
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - link:
-                          path: >-
-                            https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=85
-                          type: url
-                        type: link
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: Wildest sunset ever
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: Photo by Agustin Diaz Gargiulo on Unsplash
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 2
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
-                  - tag: h2
-                    type: heading
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: Why Travel South America?
+                          Lateinamerika: Ein Kontinent voller Vielfalt,
+                          Abenteuer und Begegnungen
                         type: text
                         style: ''
                         detail: 0
@@ -237,12 +182,12 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          South America is a patchwork of ancient cultures, wild
-                          natural beauty, and vibrant city life. From the
-                          snow-capped Andes to the lush Amazon, this continent
-                          offers authentic experiences for travelers who want
-                          more than just a checklist of sights. Here, you’ll
-                          find:
+                          Südamerika ist ein Mosaik aus alten Kulturen, wilder
+                          Natur und pulsierendem Stadtleben. Von den
+                          schneebedeckten Anden bis zum üppigen Amazonas bietet
+                          dieser Kontinent authentische Erlebnisse für Reisende,
+                          die mehr als nur eine Liste an Sehenswürdigkeiten
+                          abhaken wollen. Hier findest du:
                         type: text
                         style: ''
                         detail: 0
@@ -265,14 +210,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Community-based tourism
+                            text: Gemeindebasierter Tourismus
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' that supports local families and indigenous groups'
+                            text: ' zur Unterstützung lokaler Familien und indigener Gruppen'
                             type: text
                             style: ''
                             detail: 0
@@ -286,14 +231,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Eco-certified hostels and homestays
+                            text: Öko-zertifizierte Hostels und Homestays
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' for budget-conscious travelers'
+                            text: ' für preisbewusste Reisende'
                             type: text
                             style: ''
                             detail: 0
@@ -307,14 +252,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Affordable, sustainable transport
+                            text: Erschwingliche, nachhaltige Transportmittel
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' like long-distance buses and shared rides'
+                            text: ' wie Fernbusse und Mitfahrgelegenheiten'
                             type: text
                             style: ''
                             detail: 0
@@ -328,14 +273,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Small group adventures
+                            text: Kleine Gruppenabenteuer
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: —think hiking, biking, and wildlife spotting
+                            text: ' wie Wandern, Radfahren und Tierbeobachtung'
                             type: text
                             style: ''
                             detail: 0
@@ -349,14 +294,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Cultural immersion
+                            text: Kulturelles Eintauchen
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' through food, music, and festivals'
+                            text: ' durch Essen, Musik und Feste'
                             type: text
                             style: ''
                             detail: 0
@@ -372,7 +317,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Countries at a Glance
+                        text: Länder im Überblick
                         type: text
                         style: ''
                         detail: 0
@@ -386,9 +331,9 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          South America is made up of 12 countries and several
-                          territories, each with its own flavor. Here are some
-                          highlights:
+                          Südamerika besteht aus 12 Ländern und mehreren
+                          Territorien, jedes mit eigenem Charakter. Hier einige
+                          Highlights:
                         type: text
                         style: ''
                         detail: 0
@@ -397,165 +342,1065 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
-                  - type: paragraph
+                  - type: table
                     format: ''
                     indent: 0
                     version: 1
                     children:
-                      - mode: normal
-                        text: >-
-                          | Country | Capital         | Notable
-                          For                        |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Land
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 1
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Hauptstadt
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 1
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Bekannt für
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 1
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          |---------|----------------|------------------------------------|
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Argentinien
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Buenos Aires
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Tango, Patagonien, Weinregionen
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Bolivien
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Sucre
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Salzseen, indigene Kulturen
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Argentina | Buenos Aires   | Tango, Patagonia, wine
-                          regions     |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Brasilien
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Brasília
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Amazonas, Karneval, Strände
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Chile
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Santiago
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Atacama-Wüste, Patagonien
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Bolivia  | Sucre          | Salt flats, indigenous
-                          cultures    |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Kolumbien
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Bogotá
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Kaffee, Karibikküste, Street Art
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Ecuador
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Quito
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Galápagos, Anden, Märkte
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Brazil   | Brasília       | Amazon, Carnival,
-                          beaches          |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Guyana
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Georgetown
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Regenwälder, Wasserfälle
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Paraguay
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Asunción
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Jesuitenruinen, Flussleben
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Chile    | Santiago       | Atacama Desert,
-                          Patagonia          |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Peru
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Lima
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Machu Picchu, Ceviche, Anden
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Suriname
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Paramaribo
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Niederländisches Erbe, Dschungeltrekking
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Colombia | Bogotá         | Coffee, Caribbean coast,
-                          street art|
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Uruguay
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Montevideo
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Strände, Mate-Kultur, Radfahren
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Ecuador  | Quito          | Galápagos, Andes,
-                          markets          |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Guyana   | Georgetown     | Rainforests,
-                          waterfalls            |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Paraguay | Asunción       | Jesuit ruins, river
-                          life           |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Peru     | Lima           | Machu Picchu, ceviche,
-                          Andes       |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Suriname | Paramaribo     | Dutch heritage, jungle
-                          trekking    |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Uruguay  | Montevideo     | Beaches, mate culture,
-                          cycling     |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Venezuela| Caracas        | Angel Falls, Caribbean
-                          coast       |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Venezuela
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Caracas
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Angel Falls, Karibikküste
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
                     direction: ltr
-                    textStyle: ''
-                    textFormat: 0
                   - tag: h2
                     type: heading
                     format: ''
@@ -563,7 +1408,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Top Experiences for Conscious Travelers
+                        text: Top-Erlebnisse für bewusste Reisende
                         type: text
                         style: ''
                         detail: 0
@@ -584,14 +1429,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Trek the Inca Trail
+                            text: Wandere auf dem Inka-Trail
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' or lesser-known routes like the Salkantay or Choquequirao (Peru)'
+                            text: ' oder auf weniger bekannten Routen wie Salkantay oder Choquequirao (Peru)'
                             type: text
                             style: ''
                             detail: 0
@@ -605,14 +1450,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Stay with a Quechua family
+                            text: Übernachte bei einer Quechua-Familie
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' on Lake Titicaca (Bolivia/Peru)'
+                            text: ' am Titicacasee (Bolivien/Peru)'
                             type: text
                             style: ''
                             detail: 0
@@ -626,14 +1471,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Volunteer in Amazon conservation projects
+                            text: Engagiere dich in Amazonas-Schutzprojekten
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' (Brazil, Ecuador)'
+                            text: ' (Brasilien, Ecuador)'
                             type: text
                             style: ''
                             detail: 0
@@ -647,14 +1492,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Cycle the wine roads of Mendoza
+                            text: Erkunde die Weinrouten von Mendoza mit dem Fahrrad
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' (Argentina)'
+                            text: ' (Argentinien)'
                             type: text
                             style: ''
                             detail: 0
@@ -668,14 +1513,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Learn samba or tango
+                            text: Lerne Samba oder Tango
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' in local dance schools (Brazil, Argentina)'
+                            text: ' in lokalen Tanzschulen (Brasilien, Argentinien)'
                             type: text
                             style: ''
                             detail: 0
@@ -689,14 +1534,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Explore street art and local food markets
+                            text: Entdecke Street Art und lokale Märkte
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' in Bogotá, Medellín, or Valparaíso'
+                            text: ' in Bogotá, Medellín oder Valparaíso'
                             type: text
                             style: ''
                             detail: 0
@@ -712,7 +1557,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Getting Around
+                        text: Unterwegs in Südamerika
                         type: text
                         style: ''
                         detail: 0
@@ -733,14 +1578,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Buses
+                            text: Busse
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' are the most affordable and eco-friendly way to travel between cities (expect $10–$40 for long distances)'
+                            text: ' sind die günstigste und umweltfreundlichste Art, zwischen Städten zu reisen (ca. 10–40 US-Dollar für lange Strecken)'
                             type: text
                             style: ''
                             detail: 0
@@ -754,14 +1599,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Shared vans (colectivos)
+                            text: Geteilte Kleinbusse (Colectivos)
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' connect smaller towns'
+                            text: ' verbinden kleinere Orte'
                             type: text
                             style: ''
                             detail: 0
@@ -775,14 +1620,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Trains
+                            text: Züge
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' are rare but scenic in places like Peru and Argentina'
+                            text: ' sind selten, aber landschaftlich reizvoll in Peru und Argentinien'
                             type: text
                             style: ''
                             detail: 0
@@ -796,14 +1641,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: Budget flights
+                            text: Billigflüge
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' exist but have a higher carbon footprint—consider offsetting if you fly'
+                            text: ' gibt es, sie haben aber einen höheren CO₂-Fußabdruck – kompensiere, wenn du fliegst'
                             type: text
                             style: ''
                             detail: 0
@@ -819,7 +1664,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Sustainable Travel Tips
+                        text: 'Nachhaltig reisen: Tipps'
                         type: text
                         style: ''
                         detail: 0
@@ -835,56 +1680,58 @@ entry:
                     children:
                       - type: listitem
                         value: 1
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: Support local guides and family-run hostels
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 2
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: Avoid single-use plastics—bring a filter bottle
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 3
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: Respect indigenous lands and traditions
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: listitem
-                        value: 4
                         format: ''
                         indent: 0
                         version: 1
                         children:
                           - mode: normal
                             text: >-
-                              Choose group tours with clear environmental
-                              policies
+                              Unterstütze lokale Guides und familiengeführte
+                              Hostels
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Vermeide Einwegplastik – nimm eine Filterflasche
+                              mit
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Respektiere indigene Gebiete und Traditionen
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Wähle Touren mit klaren Umweltstandards
                             type: text
                             style: ''
                             detail: 0
@@ -899,8 +1746,9 @@ entry:
                         children:
                           - mode: normal
                             text: >-
-                              Learn basic Spanish or Portuguese to connect with
-                              locals
+                              Lerne Grundkenntnisse in Spanisch oder
+                              Portugiesisch, um dich mit Einheimischen zu
+                              verbinden
                             type: text
                             style: ''
                             detail: 0
@@ -916,7 +1764,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Budget Breakdown (per day, average)
+                        text: Budget-Überblick (pro Tag, durchschnittlich)
                         type: text
                         style: ''
                         detail: 0
@@ -937,7 +1785,7 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Dorm bed: $8–$20'
+                            text: 'Schlafsaalbett: 8–20 US-Dollar'
                             type: text
                             style: ''
                             detail: 0
@@ -951,7 +1799,7 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Local meal: $2–$7'
+                            text: 'Lokale Mahlzeit: 2–7 US-Dollar'
                             type: text
                             style: ''
                             detail: 0
@@ -965,7 +1813,7 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Bus ride (4–8 hours): $10–$25'
+                            text: 'Busfahrt (4–8 Stunden): 10–25 US-Dollar'
                             type: text
                             style: ''
                             detail: 0
@@ -979,7 +1827,9 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Entry to major sites: $5–$30'
+                            text: >-
+                              Eintritt zu wichtigen Sehenswürdigkeiten: 5–30
+                              US-Dollar
                             type: text
                             style: ''
                             detail: 0
@@ -995,7 +1845,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: When to Go
+                        text: Beste Reisezeit
                         type: text
                         style: ''
                         detail: 0
@@ -1016,14 +1866,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Dry season (May–September):'
+                            text: 'Trockenzeit (Mai–September):'
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' Best for hiking in the Andes and Patagonia'
+                            text: ' Ideal zum Wandern in den Anden und Patagonien'
                             type: text
                             style: ''
                             detail: 0
@@ -1037,14 +1887,14 @@ entry:
                         version: 1
                         children:
                           - mode: normal
-                            text: 'Wet season (October–April):'
+                            text: 'Regenzeit (Oktober–April):'
                             type: text
                             style: ''
                             detail: 0
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' Lush Amazon, fewer crowds, but some roads may be muddy'
+                            text: ' Üppiger Amazonas, weniger Touristen, aber manche Straßen sind matschig'
                             type: text
                             style: ''
                             detail: 0
@@ -1060,7 +1910,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Real Connections, Real Impact
+                        text: Echte Begegnungen, echter Impact
                         type: text
                         style: ''
                         detail: 0
@@ -1074,13 +1924,13 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          Traveling in South America isn’t just about seeing the
-                          sights—it’s about connecting with people, learning
-                          from different cultures, and leaving a positive
-                          impact. Whether you’re sipping mate with locals in
-                          Uruguay or helping with reforestation in the Amazon,
-                          your journey here can be both meaningful and
-                          memorable.
+                          Reisen in Südamerika bedeutet mehr als
+                          Sehenswürdigkeiten zu besuchen – es geht um
+                          Begegnungen, das Lernen von anderen Kulturen und einen
+                          positiven Fußabdruck. Ob du mit Einheimischen in
+                          Uruguay Mate trinkst oder bei der Wiederaufforstung im
+                          Amazonas hilfst: Deine Reise kann hier wirklich Sinn
+                          machen und in Erinnerung bleiben.
                         type: text
                         style: ''
                         detail: 0
@@ -1096,19 +1946,18 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          Ready to explore South America? Check out our guides
-                          to community stays, eco-tours, and off-the-beaten-path
-                          adventures across the continent.
+                          Bereit für Südamerika? Entdecke unsere Guides zu
+                          Community-Aufenthalten, Öko-Touren und Abenteuern
+                          abseits der Massen auf dem ganzen Kontinent.
                         type: text
                         style: ''
                         detail: 0
-                        format: 2
+                        format: 0
                         version: 1
                     direction: ltr
                     textStyle: ''
-                    textFormat: 2
-                direction: ltr
-                textFormat: 2
+                    textFormat: 0
+                direction: null
             en-US:
               root:
                 type: root
@@ -1116,63 +1965,6 @@ entry:
                 indent: 0
                 version: 1
                 children:
-                  - tag: h1
-                    type: heading
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          South America: A Continent of Diversity, Adventure,
-                          and Connection
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: '!'
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - link:
-                          path: >-
-                            https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxyaW98ZW58MHx8fHwxNzUyMTUyODMzfDA&ixlib=rb-4.1.0&q=85
-                          type: url
-                        type: link
-                        format: ''
-                        indent: 0
-                        version: 1
-                        children:
-                          - mode: normal
-                            text: Wildest sunset ever
-                            type: text
-                            style: ''
-                            detail: 0
-                            format: 0
-                            version: 1
-                        direction: ltr
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: Photo by Agustin Diaz Gargiulo on Unsplash
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 2
-                        version: 1
-                    direction: ltr
-                    textStyle: ''
-                    textFormat: 0
                   - tag: h2
                     type: heading
                     format: ''
@@ -1180,13 +1972,18 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Why Travel South America?
+                        text: >-
+                          South America: diversity, adventure, and real
+                          connection
                         type: text
                         style: ''
                         detail: 0
                         format: 0
                         version: 1
                     direction: ltr
+                  - type: asset
+                    __error: Asset not found
+                    version: 1
                   - type: paragraph
                     format: ''
                     indent: 0
@@ -1194,12 +1991,13 @@ entry:
                     children:
                       - mode: normal
                         text: >-
-                          South America is a patchwork of ancient cultures, wild
-                          natural beauty, and vibrant city life. From the
-                          snow-capped Andes to the lush Amazon, this continent
-                          offers authentic experiences for travelers who want
-                          more than just a checklist of sights. Here, you’ll
-                          find:
+                          South America is a vibrant patchwork of ancient
+                          cultures, wild natural beauty, and buzzing city life.
+                          From the snow-capped Andes to the lush Amazon, this
+                          continent is made for travelers who want authentic
+                          experiences, not just a checklist of sights. Here’s
+                          what makes South America stand out for conscious,
+                          independent explorers:
                         type: text
                         style: ''
                         detail: 0
@@ -1292,7 +2090,7 @@ entry:
                             format: 1
                             version: 1
                           - mode: normal
-                            text: —think hiking, biking, and wildlife spotting
+                            text: ' such as hiking, biking, and wildlife spotting'
                             type: text
                             style: ''
                             detail: 0
@@ -1329,7 +2127,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Countries at a Glance
+                        text: Countries at a glance
                         type: text
                         style: ''
                         detail: 0
@@ -1354,165 +2152,1065 @@ entry:
                     direction: ltr
                     textStyle: ''
                     textFormat: 0
-                  - type: paragraph
+                  - type: table
                     format: ''
                     indent: 0
                     version: 1
                     children:
-                      - mode: normal
-                        text: >-
-                          | Country | Capital         | Notable
-                          For                        |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Country
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 1
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Capital
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 1
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Notable for
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 1
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          |---------|----------------|------------------------------------|
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Argentina
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Buenos Aires
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Tango, Patagonia, wine regions
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Bolivia
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Sucre
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Salt flats, indigenous cultures
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Argentina | Buenos Aires   | Tango, Patagonia, wine
-                          regions     |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Brazil
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Brasília
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Amazon, Carnival, beaches
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Chile
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Santiago
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Atacama Desert, Patagonia
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Bolivia  | Sucre          | Salt flats, indigenous
-                          cultures    |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Colombia
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Bogotá
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Coffee, Caribbean coast, street art
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Ecuador
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Quito
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Galápagos, Andes, markets
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Brazil   | Brasília       | Amazon, Carnival,
-                          beaches          |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Guyana
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Georgetown
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Rainforests, waterfalls
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Paraguay
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Asunción
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Jesuit ruins, river life
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Chile    | Santiago       | Atacama Desert,
-                          Patagonia          |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Peru
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Lima
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Machu Picchu, ceviche, Andes
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Suriname
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Paramaribo
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Dutch heritage, jungle trekking
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - mode: normal
-                        text: >-
-                          | Colombia | Bogotá         | Coffee, Caribbean coast,
-                          street art|
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Uruguay
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Montevideo
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Beaches, mate culture, cycling
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
+                      - type: tablerow
+                        format: ''
+                        indent: 0
                         version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Ecuador  | Quito          | Galápagos, Andes,
-                          markets          |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Guyana   | Georgetown     | Rainforests,
-                          waterfalls            |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Paraguay | Asunción       | Jesuit ruins, river
-                          life           |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Peru     | Lima           | Machu Picchu, ceviche,
-                          Andes       |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Suriname | Paramaribo     | Dutch heritage, jungle
-                          trekking    |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Uruguay  | Montevideo     | Beaches, mate culture,
-                          cycling     |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - type: linebreak
-                        version: 1
-                      - mode: normal
-                        text: >-
-                          | Venezuela| Caracas        | Angel Falls, Caribbean
-                          coast       |
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
+                        children:
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Venezuela
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Caracas
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                          - type: tablecell
+                            format: ''
+                            indent: 0
+                            colSpan: 1
+                            rowSpan: 1
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Angel Falls, Caribbean coast
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                                textStyle: ''
+                                textFormat: 0
+                            direction: ltr
+                            headerState: 0
+                            backgroundColor: null
+                        direction: ltr
                     direction: ltr
-                    textStyle: ''
-                    textFormat: 0
                   - tag: h2
                     type: heading
                     format: ''
@@ -1520,7 +3218,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Top Experiences for Conscious Travelers
+                        text: Top experiences for conscious travelers
                         type: text
                         style: ''
                         detail: 0
@@ -1548,7 +3246,7 @@ entry:
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' or lesser-known routes like the Salkantay or Choquequirao (Peru)'
+                            text: ' or lesser-known routes like Salkantay or Choquequirao (Peru)'
                             type: text
                             style: ''
                             detail: 0
@@ -1669,7 +3367,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Getting Around
+                        text: Getting around
                         type: text
                         style: ''
                         detail: 0
@@ -1760,7 +3458,7 @@ entry:
                             format: 1
                             version: 1
                           - mode: normal
-                            text: ' exist but have a higher carbon footprint—consider offsetting if you fly'
+                            text: ' exist but have a higher carbon footprint; consider offsetting if you fly'
                             type: text
                             style: ''
                             detail: 0
@@ -1776,7 +3474,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Sustainable Travel Tips
+                        text: Sustainable travel tips
                         type: text
                         style: ''
                         detail: 0
@@ -1873,7 +3571,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Budget Breakdown (per day, average)
+                        text: Budget breakdown (per day, average)
                         type: text
                         style: ''
                         detail: 0
@@ -1952,7 +3650,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: When to Go
+                        text: When to go
                         type: text
                         style: ''
                         detail: 0
@@ -2017,7 +3715,7 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: Real Connections, Real Impact
+                        text: Real connections, real impact
                         type: text
                         style: ''
                         detail: 0
@@ -2052,18 +3750,21 @@ entry:
                     version: 1
                     children:
                       - mode: normal
-                        text: >-
-                          Ready to explore South America? Check out our guides
-                          to community stays, eco-tours, and off-the-beaten-path
-                          adventures across the continent.
+                        text: Ready to explore South America?
                         type: text
                         style: ''
                         detail: 0
-                        format: 2
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Check out our guides to community stays, eco-tours, and off-the-beaten-path adventures across the continent.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
                         version: 1
                     direction: ltr
                     textStyle: ''
-                    textFormat: 2
-                direction: ltr
-                textFormat: 2
+                    textFormat: 0
+                direction: null
   _pattern: 57ca4594-f957-4139-a439-fbfb7eb58300

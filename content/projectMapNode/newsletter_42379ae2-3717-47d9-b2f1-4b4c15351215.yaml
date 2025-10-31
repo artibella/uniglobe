@@ -1,0 +1,10 @@
+id: 42379ae2-3717-47d9-b2f1-4b4c15351215
+name: Newsletter
+order: 550
+path: /:locale/newsletter
+type: composition
+pathSegment: newsletter
+data:
+  queryStrings: []
+compositionId: 1364a7cc-7888-439f-8450-40a9666b72fa
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

@@ -1,0 +1,39 @@
+composition:
+  _name: South America
+  _id: ed1829b7-673f-4740-b1fa-0d8167828dae
+  type: page
+  _dataResources:
+    Region:
+      type: region
+      variables:
+        locale: ${locale}
+        entryId: d59e0b9c-4bd3-48f0-b984-2a19433275ee
+  _overrides:
+    ed1829b7-673f-4740-b1fa-0d8167828dae|68fa61d5-dfe1-402c-98f7-fb0a9068833e:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: "Destinations in\_${#jptr:/Region/entry/fields/name/value}"
+        description:
+          type: text
+          locales:
+            de-DE: Explore these popular destinations
+    ed1829b7-673f-4740-b1fa-0d8167828dae|68fa61d5-dfe1-402c-98f7-fb0a9068833e|797b9518-801c-44fe-b57d-d3bd74788ee1:
+      parameters:
+        objectFit:
+          type: select
+          locales:
+            de-DE: null
+        overlayColor:
+          type: tp-color-style-parameter
+          locales:
+            de-DE: null
+  _locales:
+    - en-US
+    - de-DE
+  _pattern: e0443680-195f-43bb-a34b-e548b20cdb3d
+created: '2025-10-30T18:07:15.929082+00:00'
+modified: '2025-10-30T18:12:25.440494+00:00'
+pattern: false
+categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

@@ -3,6 +3,9 @@ composition:
   _id: 1d32f312-8540-44d9-920d-f2dcbe97db34
   type: page
   parameters:
+    $enr:
+      type: $enr
+      value: ${#jptr:/Country Content/entry/fields/enrichments/value:fl=i}
     pageTitle:
       type: text
       locales:
@@ -450,8 +453,8 @@ composition:
     - en-US
     - de-DE
     - it-IT
-created: '2025-01-30T15:36:07.859799+00:00'
-modified: '2025-07-07T10:19:29.617924+00:00'
+created: '2024-08-20T19:12:13.706954+00:00'
+modified: '2025-10-17T10:02:56.156551+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

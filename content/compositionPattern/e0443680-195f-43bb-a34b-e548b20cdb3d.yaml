@@ -5,52 +5,34 @@ composition:
   parameters:
     pageTitle:
       type: text
-      locales:
-        de-DE: ${#jptr:/Country Content/entry/fields/name/value}
-        en-US: ${#jptr:/Country Content/entry/fields/name/value}
-        it-IT: ${#jptr:/Country Content/entry/fields/name/value}
+      value: ${#jptr:/Region/entry/fields/name/value}
     twitterCard:
       type: select
       value: summary_large_image
     twitterImage:
       type: asset
-      value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+      value: ${#jptr:/Region/entry/fields/image/value}
     twitterTitle:
       type: text
-      locales:
-        de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
-        en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
-        it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+      value: ${#jptr:/Region/entry/fields/name/value}
     openGraphType:
       type: select
       value: article
     openGraphImage:
       type: asset
-      value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+      value: ${#jptr:/Region/entry/fields/image/value}
     openGraphTitle:
       type: text
-      locales:
-        de-DE: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
-        en-US: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
-        it-IT: 'Destination: ${#jptr:/Country Content/entry/fields/name/value}'
+      value: ${#jptr:/Region/entry/fields/name/value}
     twitterDescription:
       type: text
-      locales:
-        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+      value: ${#jptr:/Region/entry/fields/teaserText/value}
     pageMetaDescription:
       type: text
-      locales:
-        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+      value: ${#jptr:/Region/entry/fields/teaserText/value}
     openGraphDescription:
       type: text
-      locales:
-        de-DE: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        en-US: ${#jptr:/Country Content/entry/fields/teaserText/value}
-        it-IT: ${#jptr:/Country Content/entry/fields/teaserText/value}
+      value: ${#jptr:/Region/entry/fields/teaserText/value}
   slots:
     pageFooter:
       - _id: 05db1d2d-2263-4f45-a013-78babc9b91fe
@@ -130,7 +112,7 @@ composition:
         parameters:
           image:
             type: asset
-            value: ${#jptr:/Country Content/entry/fields/teaserImage/value}
+            value: ${#jptr:/Region/entry/fields/image/value}
           title:
             type: text
             value: ${#jptr:/Region/entry/fields/name/value}
@@ -146,6 +128,9 @@ composition:
           titleStyle:
             type: tp-title-style-parameter
             value: h1
+          description:
+            type: text
+            value: ${#jptr:/Region/entry/fields/teaserText/value}
           eyebrowText:
             type: text
             value: Region overview
@@ -208,10 +193,7 @@ composition:
               parameters:
                 content:
                   type: richText
-                  locales:
-                    de-DE: ${#jptr:/Country Content/entry/fields/description/value}
-                    en-US: ${#jptr:/Country Content/entry/fields/description/value}
-                    it-IT: ${#jptr:/Country Content/entry/fields/description/value}
+                  value: ${#jptr:/Region/entry/fields/description/value}
               _overridability:
                 hideLockedParameters: true
         parameters:
@@ -279,13 +261,6 @@ composition:
       variables:
         locale: ${locale}
         entryId: b37861c7-61e6-4171-9561-c4d8df5461c5
-      isPatternParameter: true
-      ignorePatternParameterDefault: true
-    Country Content:
-      type: country
-      variables:
-        locale: ${locale},en-US
-        entryId: 035a64b1-730e-444c-921a-431bc2712e14
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _overrides:
@@ -412,8 +387,8 @@ composition:
     - en-US
     - de-DE
     - it-IT
-created: '2025-01-30T15:36:08.082755+00:00'
-modified: '2025-07-07T10:19:29.494643+00:00'
+created: '2025-01-27T14:59:07.719048+00:00'
+modified: '2025-10-30T18:06:38.566559+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

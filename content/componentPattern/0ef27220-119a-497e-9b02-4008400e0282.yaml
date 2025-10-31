@@ -102,26 +102,36 @@ composition:
                         type: tp-slider-parameter
                         locales:
                           en-US: 0%
+                      textColorVariant:
+                        type: select
+                        value: Dark
                       lineCountRestriction:
                         type: tp-slider-parameter
                         value: '3'
                     _overridability:
                       variants: true
                       parameters:
-                        $viz: 'yes'
-                        badge: 'yes'
-                        image: 'yes'
-                        title: 'yes'
-                        badgeSize: 'yes'
+                        $viz: 'no'
+                        tags: 'no'
+                        badge: 'no'
+                        delay: 'no'
+                        image: 'no'
+                        title: 'no'
+                        duration: 'no'
+                        badgeSize: 'no'
                         objectFit: 'yes'
-                        badgeStyle: 'yes'
-                        buttonCopy: 'yes'
-                        buttonLink: 'yes'
-                        buttonStyle: 'yes'
-                        description: 'yes'
+                        badgeStyle: 'no'
+                        buttonCopy: 'no'
+                        buttonLink: 'no'
+                        buttonStyle: 'no'
+                        description: 'no'
                         overlayColor: 'yes'
+                        animationType: 'no'
                         overlayOpacity: 'yes'
+                        animationPreview: 'no'
                         textColorVariant: 'yes'
+                        buttonAnimationType: 'no'
+                        lineCountRestriction: 'no'
               _dataResources:
                 Featured countries entries Loop Item:
                   type: sys-reserved-loop
@@ -194,7 +204,7 @@ composition:
     - en-US
     - de-DE
 created: '2024-11-06T18:09:42.821697+00:00'
-modified: '2025-10-10T13:19:32.386689+00:00'
+modified: '2025-10-24T14:44:23.846951+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1740064572/Uniglobe/Component%20Previews/Card_Block_Wireframe_yz7aab.svg

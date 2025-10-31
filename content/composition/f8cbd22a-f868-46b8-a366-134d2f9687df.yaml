@@ -1,0 +1,154 @@
+composition:
+  _name: Newsletter confirm
+  _id: f8cbd22a-f868-46b8-a366-134d2f9687df
+  _slug: newsletter-copy
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Newsletter
+  slots:
+    pageFooter:
+      - _id: c6e4156e-d367-4d18-ac32-61bd3e12be55
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: 1f45f6e3-1834-4fdc-b9bb-1627d3f57d62
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: d6b58dc8-9b9c-4926-8893-dd0707c3667f
+        type: container
+        slots:
+          container-inner:
+            - _id: a00b8b0b-c118-4d6c-bde4-af00ee7b1897
+              type: hero
+              variant: imageRight
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 1fdf19a4-c890-4565-9780-3535f2d215f4
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://assets.lummi.ai/assets/QmdJkLhqgpGJrGGDjVnZzT4PCczfuqWfDWQ74gmEK6SE4F?auto=format&w=1500&h=1500
+                          title:
+                            type: text
+                            value: Cartoon Mailbox Art
+                          width:
+                            type: number
+                            value: 5120
+                          custom:
+                            type: object
+                            value:
+                              tags:
+                                - Illustration
+                                - Cartoon
+                                - Minimalistic
+                                - mailbox
+                                - red flag
+                              blurhash: >-
+                                eDSs50a|~qof9Faea|kCoLjZ?bofD%Rjxux]ayM{ayt7ofWBV@xut7
+                              sourceId: ef32142a-2a6e-4c05-98bc-82b1368cf4b4
+                              imageType: illustration
+                              authorName: Amino
+                              categories:
+                                - Art
+                                - Designers at Work
+                              aspectRatio: 1
+                              orientation: square
+                              colorPalette:
+                                '0':
+                                  hex: '#fbfbfb'
+                                  weight: 0.9560546875
+                                '1':
+                                  hex: '#989595'
+                                  weight: 0.03759765625
+                              selectedSize: original
+                              originalWidth: 5120
+                              attributionUrl: >-
+                                https://www.lummi.ai/illustration/cartoon-mailbox-art-do8_z?utm_source=api&utm_campaign=api&utm_medium=referral
+                              originalHeight: 5120
+                              authorProfileUrl: >-
+                                https://www.lummi.ai/creator/amino?utm_source=api&utm_campaign=api&utm_medium=referral
+                              dominantColorGroup: zinc50
+                              dominantColorWeight: 0.9560546875
+                          height:
+                            type: number
+                            value: 5120
+                          description:
+                            type: text
+                            value: >-
+                              Cartoon Mailbox Art - AI-generated image by Amino
+                              on Lummi
+                        _source: lummi-3b322701-b5c2-43ff-a1d6-cbaab843e2c8
+                title:
+                  type: text
+                  locales:
+                    en-US: You're in! Get ready for authentic travel inspiration
+                objectFit:
+                  type: select
+                  value: cover
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      You're subscribed! Look out for authentic travel tips,
+                      local stories, and exclusive deals in your inbox each
+                      month.
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: You're subscribed
+                textColorVariant:
+                  type: select
+                  value: Light
+        parameters:
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: 8f946b35-9ea1-4012-a898-51686c56cd79
+        type: cardBlock
+        _pattern: 0ef27220-119a-497e-9b02-4008400e0282
+      - _id: 6236a1a0-9d23-4cc5-bb7b-bb8a65643231
+        type: container
+        _pattern: ee3173f8-5432-4aab-a886-e3aac30fe238
+  _overrides:
+    6236a1a0-9d23-4cc5-bb7b-bb8a65643231:
+      variant: fluidContent
+      parameters:
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Medium
+    8f946b35-9ea1-4012-a898-51686c56cd79:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Explore top destinations
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Discover authentic, budget-friendly destinations for your next
+              adventure.
+      dataResources:
+        Featured countries:
+          type: multipleCountries
+          variables:
+            locale: ${locale}
+            entryIds: >-
+              5df637c2-5fea-416c-a4b4-95aa58c86bd7,a78fe34d-0e49-4f9a-a675-8487a4b928b6,bdd4c8f3-2999-4885-a2b3-a08216a80aa7
+  _locales:
+    - en-US
+created: '2025-10-17T11:34:22.113872+00:00'
+modified: '2025-10-17T11:41:08.176968+00:00'
+pattern: false

@@ -1,94 +1,12 @@
 created: '2024-09-19T15:40:33.832669+00:00'
-modified: '2025-03-27T15:47:46.676917+00:00'
+modified: '2025-10-17T10:01:42.833945+00:00'
 pattern: true
 entry:
   _id: 57ca4594-f957-4139-a439-fbfb7eb58300
   _name: Subregion (automatic)
   _slug: region-automatic-copy
   type: region
-  fields:
-    countries:
-      type: $block
-      value:
-        - _id: 98999681-d7b6-4983-9788-2e75eeba65a4
-          type: $loop
-          fields:
-            body:
-              type: $block
-              value:
-                - _id: 706864fd-2321-4bd0-87dd-054132860ae3
-                  type: countryBlock
-                  fields:
-                    code:
-                      type: text
-                      value: ${#jptr:/Countries Loop Item/alpha2Code}
-                    flag:
-                      type: asset
-                      value:
-                        - _id: 23478b7c-9754-43f3-8372-4d4c28b47eec
-                          type: image
-                          fields:
-                            url:
-                              type: text
-                              value: ${#jptr:/Countries Loop Item/flags/svg}
-                            title:
-                              type: text
-                              value: ''
-                          _source: custom-url
-                    name:
-                      type: text
-                      locales:
-                        de-DE: ${#jptr:/Countries Loop Item/translations/deu/common}
-                        en-US: ${#jptr:/Countries Loop Item/name}
-                    captial:
-                      type: text
-                      locales:
-                        de-DE: ${#jptr:/Countries Loop Item/capital/0}
-                        en-US: ${#jptr:/Countries Loop Item/capital}
-                    currencies:
-                      type: $block
-                      value:
-                        - _id: 30655213-2910-41f2-84c9-eb033addde41
-                          type: $loop
-                          fields:
-                            body:
-                              type: $block
-                              value:
-                                - _id: 6e1699e6-3793-4b58-ac10-a8b0d1bb70c5
-                                  type: currency
-                                  fields:
-                                    code:
-                                      type: text
-                                      locales:
-                                        de-DE: >-
-                                          ${#jptr:/Countries Loop Item currencies
-                                          Loop Item/key}
-                                        en-US: >-
-                                          ${#jptr:/Countries Loop Item currencies
-                                          Loop Item/key}
-                                    name:
-                                      type: text
-                                      value: >-
-                                        ${#jptr:/Countries Loop Item currencies
-                                        Loop Item/value/name}
-                                    symbol:
-                                      type: text
-                                      value: >-
-                                        ${#jptr:/Countries Loop Item currencies
-                                        Loop Item/value/symbol}
-                          _dataResources:
-                            Countries Loop Item currencies Loop Item:
-                              type: sys-reserved-loop
-                              variables:
-                                connectedData: /Countries Loop Item/currencies
-                    officialName:
-                      type: text
-                      value: ${#jptr:/Countries Loop Item/name}
-          _dataResources:
-            Countries Loop Item:
-              type: sys-reserved-loop
-              variables:
-                connectedData: /Countries
+  fields: {}
   _dataResources:
     Countries:
       type: countriesBySubregionName
@@ -106,5 +24,6 @@ entry:
       image: 'yes'
       teaserText: 'yes'
       description: 'yes'
+      enrichments: 'yes'
       destinations: 'yes'
     hideLockedParameters: true

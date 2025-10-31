@@ -1,0 +1,287 @@
+composition:
+  _name: 'Abschnitt: Newsletter-CTA'
+  _id: 03c6b8a7-f76f-4e1a-b357-e3aac63e525a
+  type: container
+  parameters:
+    title:
+      type: text
+      locales:
+        de-DE: Newsletter CTA
+        en-US: Signup CTA
+  slots:
+    container-inner:
+      - _id: e650bdec-97e6-4ce3-99a1-bd090e75691c
+        type: $personalization
+        slots:
+          pz:
+            - _id: d8f16aa2-81f8-490a-a410-b574ff7b0349
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Entdecke günstige, nachhaltige Reisen abseits der Massen
+                    en-US: Travel more, spend less
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    dim: budgetTraveler
+                    name: budget
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    de-DE: >-
+                      Entdecke authentische, nachhaltige Reisen zu fairen
+                      Preisen – für unabhängige Entdecker, die mehr erleben und
+                      weniger ausgeben wollen.
+                    en-US: >-
+                      Sign up for our newsletter for budget travel tips,
+                      affordable destinations, and exclusive savings—delivered
+                      to your inbox.
+                eyebrowText:
+                  type: text
+                  locales:
+                    de-DE: Günstig reisen, mehr erleben
+                    en-US: Join our community
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    de-DE: Jetzt günstig buchen
+                    en-US: Sign Up Now
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /${locale}/newsletter
+                      type: projectMapNode
+                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+              _overridability:
+                parameters:
+                  textColorVariant: 'yes'
+                hideLockedParameters: true
+            - _id: 55b5db4f-c158-4110-be9e-72cec96f8dcb
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Entdecke nachhaltige Abenteuer, die verbinden
+                    en-US: Travel Asia like a local
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    dim: dest_asia
+                    name: asia
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    de-DE: >-
+                      Entdecke nachhaltige Abenteuer, unterstütze lokale
+                      Communities und reise authentisch – buche jetzt deine
+                      nächste Reise mit Uniglobe!
+                    en-US: >-
+                      Subscribe for monthly tips, local insights, and exclusive
+                      deals to make your Asia travels more authentic and
+                      affordable.
+                eyebrowText:
+                  type: text
+                  locales:
+                    de-DE: Entdecke nachhaltiges Reisen
+                    en-US: Join our community
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    de-DE: Jetzt entdecken
+                    en-US: Sign Up Now
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /:locale/newsletter
+                      type: projectMapNode
+                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                      dynamicInputValues:
+                        locale: ${locale}
+              _overridability:
+                parameters:
+                  textColorVariant: 'yes'
+                hideLockedParameters: true
+            - _id: 3c578d04-883d-4bb4-b9eb-7119de73e2c2
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Entdecke nachhaltige Abenteuer, die verbinden
+                    en-US: Explore Europe With Us
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    dim: dest_eur
+                    name: europe
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    de-DE: >-
+                      Entdecke authentische, nachhaltige Reisen abseits der
+                      Massen – buche jetzt dein nächstes Abenteuer mit Uniglobe!
+                    en-US: >-
+                      Sign up to get the latest Europe travel inspiration, local
+                      secrets, and special offers straight to your inbox.
+                eyebrowText:
+                  type: text
+                  locales:
+                    de-DE: Entdecke nachhaltiges Reisen
+                    en-US: Join our community
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    de-DE: Jetzt entdecken
+                    en-US: Sign Up Now
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /${locale}/newsletter
+                      type: projectMapNode
+                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+              _overridability:
+                parameters:
+                  textColorVariant: 'yes'
+                hideLockedParameters: true
+            - _id: a78c3289-88c3-48b9-bc05-108556faffe1
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Entdecke nachhaltige Abenteuer, die verbinden
+                    en-US: North America Awaits
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    dim: dest_na
+                    name: north-america
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    de-DE: >-
+                      Entdecke nachhaltige Reisen, unterstütze lokale
+                      Gemeinschaften und erlebe authentische Abenteuer abseits
+                      der Massen.
+                    en-US: >-
+                      Get authentic, sustainable North America travel tips and
+                      deals—subscribe for guides, local insights, and
+                      budget-friendly ideas!
+                eyebrowText:
+                  type: text
+                  locales:
+                    de-DE: Entdecke nachhaltiges Reisen
+                    en-US: Join our community
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    de-DE: Jetzt entdecken
+                    en-US: Sign Up Now
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /${locale}/newsletter
+                      type: projectMapNode
+                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+              _overridability:
+                parameters:
+                  textColorVariant: 'yes'
+                hideLockedParameters: true
+            - _id: 3d022216-9820-4268-a428-663679691e84
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Entdecke nachhaltige Abenteuer, die verbinden
+                    en-US: Subscribe to the UniGlobe Newsletter
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    name: default
+                titleStyle:
+                  type: tp-title-style-parameter
+                  value: h1
+                description:
+                  type: text
+                  locales:
+                    de-DE: >-
+                      Entdecke authentische, nachhaltige Reisen abseits der
+                      Massen – für dich, dein Budget und die Welt. Starte dein
+                      Abenteuer jetzt!
+                    en-US: >-
+                      Get authentic travel tips, local inspiration, and
+                      exclusive deals—straight to your inbox every month.
+                eyebrowText:
+                  type: text
+                  locales:
+                    de-DE: Entdecke nachhaltiges Reisen
+                    en-US: Join our community
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    de-DE: Jetzt entdecken
+                    en-US: Sign Up Now
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /${locale}/newsletter
+                      type: projectMapNode
+                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+              _overridability:
+                parameters:
+                  textColorVariant: 'yes'
+                hideLockedParameters: true
+        parameters:
+          algorithm:
+            type: pzAlgorithm
+            value: ssc
+          trackingEventName:
+            type: text
+            value: pz-newsletter-cta
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    variants: true
+    parameters:
+      $viz: 'yes'
+      backgroundType: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+created: '2025-10-17T10:14:21.33284+00:00'
+modified: '2025-10-17T12:04:31.084799+00:00'
+pattern: true

@@ -1,7 +1,7 @@
 id: region
 name: Region
 created: '2024-01-18T13:20:21.829613+00:00'
-updated: '2025-07-31T08:19:25.154884+00:00'
+updated: '2025-10-24T15:15:27.979328+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -80,24 +80,6 @@ fields:
       isMulti: true
       allowedContentTypes:
         - country
-  - id: 3178f1d2-d9cd-47a5-bb29-d527a9e39604
-    name: External data
-    type: group
-    typeConfig:
-      collapsed: true
-      childrenParams:
-        - countries
-  - id: countries
-    name: Countries
-    type: $block
-    guidance: >-
-      This block lists all countries in the region, typically sourced from an
-      external API. Review and update as needed to ensure accuracy.
-    helpText: All countries in that region (from API)
-    typeConfig:
-      allowedTypes:
-        - countryBlock
-        - $loop
   - id: 13701274-887c-42d9-b8c0-0119cd6d557c
     name: Classification
     type: group

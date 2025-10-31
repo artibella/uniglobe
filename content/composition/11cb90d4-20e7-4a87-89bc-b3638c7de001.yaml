@@ -4,6 +4,14 @@ composition:
   _slug: blog
   type: page
   _overrides:
+    11cb90d4-20e7-4a87-89bc-b3638c7de001:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            en-US: >-
+              Sustainable travel tips and stories for conscious explorers |
+              Uniglobe
     eded34ba-cb08-4ef6-9102-c216a3b5ab5f:
       parameters:
         title:
@@ -116,6 +124,6 @@ composition:
   _locales:
     - en-US
   _pattern: 9854cddc-f320-4a77-b7dc-de9d74638436
-created: '2025-07-03T19:06:40.942845+00:00'
-modified: '2025-07-03T19:06:40.942845+00:00'
+created: '2025-07-01T10:30:01.798206+00:00'
+modified: '2025-10-28T09:33:47.146837+00:00'
 pattern: false

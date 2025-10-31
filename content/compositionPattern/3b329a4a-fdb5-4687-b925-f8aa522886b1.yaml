@@ -198,6 +198,9 @@ composition:
       - _id: 5609b15e-6579-4330-a8b5-2f217f421e4c
         type: cardBlock
         _pattern: 7bf820bd-9a4d-4841-bf64-aa3989325c11
+      - _id: b9f49cc2-9ab6-49b7-aa9f-2fddae5335ad
+        type: container
+        _pattern: 03c6b8a7-f76f-4e1a-b357-e3aac63e525a
   _dataResources:
     Region:
       type: regionBySlug
@@ -221,6 +224,11 @@ composition:
           variables:
             slug: asia
             locale: ${locale}
+    b9f49cc2-9ab6-49b7-aa9f-2fddae5335ad:
+      parameters:
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Medium
     5609b15e-6579-4330-a8b5-2f217f421e4c|797b9518-801c-44fe-b57d-d3bd74788ee1:
       parameters:
         badge:
@@ -324,7 +332,7 @@ composition:
     - de-DE
     - it-IT
 created: '2025-03-27T18:26:46.445468+00:00'
-modified: '2025-07-10T12:59:26.250162+00:00'
+modified: '2025-10-17T12:00:50.20628+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: grid
 name: Grid
@@ -221,10 +221,11 @@ slots:
       - price
       - addToCart
       - review
+      - testimonial
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:43.876648+00:00'
-updated: '2025-07-31T08:47:40.126274+00:00'
+updated: '2025-10-17T11:44:19.117806+00:00'
