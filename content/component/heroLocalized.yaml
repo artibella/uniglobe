@@ -199,11 +199,17 @@ parameters:
   - id: textColorVariant
     name: Text Color Variant
     type: select
+    guidance: >-
+      Choose the text color variant that provides the best contrast and
+      readability against your background.
     typeConfig:
+      editor: segmented-control
       options:
-        - text: Dark
+        - icon: eye-alt
+          text: Dark
           value: Dark
-        - text: Light
+        - icon: eye
+          text: Light
           value: Light
   - id: containerVariant
     name: Container Variant

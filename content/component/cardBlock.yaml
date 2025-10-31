@@ -103,12 +103,15 @@ parameters:
     type: select
     guidance: >-
       Choose the text color variant that provides the best contrast and
-      readability for your card block content.
+      readability against your background.
     typeConfig:
+      editor: segmented-control
       options:
-        - text: Dark
+        - icon: eye-alt
+          text: Dark
           value: Dark
-        - text: Light
+        - icon: eye
+          text: Light
           value: Light
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 description: >-
