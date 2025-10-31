@@ -58,7 +58,7 @@ composition:
                   locales:
                     en-US: Hero variations
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h2
             - _id: d44e61b8-669c-418d-bae3-1493f2cba92a
               type: hero
@@ -113,7 +113,7 @@ composition:
               de-DE: Blog post cards
               en-US: Blog post cards
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
   _dataResources:
     Blog post Preview:

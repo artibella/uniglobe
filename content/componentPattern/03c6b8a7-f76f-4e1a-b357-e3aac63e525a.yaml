@@ -28,7 +28,7 @@ composition:
                     dim: budgetTraveler
                     name: budget
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -79,7 +79,7 @@ composition:
                     dim: dest_asia
                     name: asia
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -129,7 +129,7 @@ composition:
                     dim: dest_eur
                     name: europe
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -178,7 +178,7 @@ composition:
                     dim: dest_na
                     name: north-america
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -228,7 +228,7 @@ composition:
                   value:
                     name: default
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text

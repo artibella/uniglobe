@@ -36,12 +36,21 @@ parameters:
       linesCount: '3'
     localizable: true
   - id: titleStyle
-    name: Title Style
-    type: tp-title-style-parameter
+    name: Title style
+    type: select
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: H1
+          value: h1
+        - text: H2
+          value: h2
+        - text: H3
+          value: h3
+        - text: H4
+          value: h4
     guidance: >-
-      Choose a title style that creates appropriate visual hierarchy and matches
-      your brand's typography system.
-    typeConfig: null
+      Choose a heading tag.
   - id: description
     name: Description
     type: text

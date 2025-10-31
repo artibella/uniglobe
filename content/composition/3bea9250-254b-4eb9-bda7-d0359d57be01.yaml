@@ -317,7 +317,7 @@ composition:
                 locales:
                   en-US: Central America's renewable energy initiatives
               titleStyle:
-                type: tp-title-style-parameter
+                type: select
                 value: h3
               backgroundType:
                 type: tp-background-type-parameter

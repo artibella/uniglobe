@@ -89,7 +89,7 @@ composition:
                   type: select
                   value: cover
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h2
                 description:
                   type: text
@@ -135,7 +135,7 @@ composition:
                   locales:
                     en-US: Your privacy and trust matter to us
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h3
             - _id: 4c4ade04-2c05-4c18-b6ae-55a5b2ad29d6
               type: grid

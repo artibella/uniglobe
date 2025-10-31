@@ -69,7 +69,7 @@ composition:
             locales:
               en-US: Latest blog posts
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
         _overridability:
           parameters:

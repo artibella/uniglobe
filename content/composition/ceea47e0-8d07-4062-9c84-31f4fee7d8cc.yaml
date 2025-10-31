@@ -175,7 +175,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -288,7 +288,7 @@ composition:
                 84% of travelers want sustainable experiences, but struggle to
                 find authentic options
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -700,7 +700,7 @@ composition:
               dynamicInputValues:
                 locale: ${locale}
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -719,7 +719,7 @@ composition:
                 Join the movement of travelers choosing experiences that create
                 positive change
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -773,7 +773,7 @@ composition:
             locales:
               en-US: Don't let this be another year you wonder 'what if?'
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -2464,7 +2464,7 @@ composition:
               dynamicInputValues:
                 locale: ${locale}
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -2482,7 +2482,7 @@ composition:
                 Join 50,000+ travelers choosing experiences that create lasting
                 change
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text

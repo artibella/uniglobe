@@ -388,7 +388,7 @@ composition:
                       locales:
                         en-US: Different While Working Remotely
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -459,7 +459,7 @@ composition:
                                       At Uniglobe, we understand that digital
                                       nomads need reliable connectivity, but
                                       also crave meaningful connections to local
-                                      communities and sustainable practices. 
+                                      communities and sustainable practices.
                                     type: text
                                     style: ''
                                     detail: 0
@@ -938,7 +938,7 @@ composition:
                       locales:
                         en-US: Some of our highlights
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
             parameters:
               marginTop:
@@ -1029,7 +1029,7 @@ composition:
                               dim: budgetTraveler
                               name: Budget Traveler
                           titleStyle:
-                            type: tp-title-style-parameter
+                            type: select
                             value: h2
                           description:
                             type: text
@@ -1069,7 +1069,7 @@ composition:
                             value:
                               name: Default
                           titleStyle:
-                            type: tp-title-style-parameter
+                            type: select
                             value: h2
                           description:
                             type: text

@@ -271,7 +271,7 @@ composition:
                   type: select
                   value: None
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -449,7 +449,7 @@ composition:
                   type: select
                   value: None
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -629,7 +629,7 @@ composition:
                   type: select
                   value: None
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -696,7 +696,7 @@ composition:
               de-DE: How can Uniglobe elevate your travel experience?
               en-US: How can Uniglobe elevate your travel experience?
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -913,7 +913,7 @@ composition:
               de-DE: Service That Goes the Extra Mile
               en-US: Personalized service for every traveler
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1135,7 +1135,7 @@ composition:
               de-DE: Travel Services Tailored to You
               en-US: Travel Services Tailored to You
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1405,7 +1405,7 @@ composition:
             type: select
             value: Medium
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1557,5 +1557,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-15T09:27:31.731839+00:00'
-modified: '2025-10-17T11:58:29.28154+00:00'
+modified: '2025-10-31T17:41:23.700659+00:00'
 pattern: false

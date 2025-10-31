@@ -432,7 +432,7 @@ composition:
                 locales:
                   en-US: Gallery
               titleStyle:
-                type: tp-title-style-parameter
+                type: select
                 value: h2
               description:
                 type: text

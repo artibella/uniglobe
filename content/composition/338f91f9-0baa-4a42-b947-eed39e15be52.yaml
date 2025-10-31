@@ -609,7 +609,7 @@ composition:
                                 Don’t forget your towel (and reusable water
                                 bottle)
                           titleStyle:
-                            type: tp-title-style-parameter
+                            type: select
                             value: h2
                           description:
                             type: text
@@ -737,7 +737,7 @@ composition:
                       locales:
                         en-US: Infinite improbability checklist
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -851,7 +851,7 @@ composition:
                       locales:
                         en-US: Discover authentic travel experiences
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -899,7 +899,7 @@ composition:
                       locales:
                         en-US: Grab the guide that’s more useful than a Babel Fish
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -1190,7 +1190,7 @@ composition:
                       locales:
                         en-US: Galactic Travels Doesn’t Exist (Yet!)
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text

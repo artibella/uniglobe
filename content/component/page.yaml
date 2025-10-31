@@ -302,7 +302,7 @@ defaults:
             type: select
             value: None
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text

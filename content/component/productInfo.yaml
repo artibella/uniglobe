@@ -47,7 +47,7 @@ parameters:
     localizable: true
   - id: titleStyle
     name: Title Style
-    type: tp-title-style-parameter
+    type: select
     guidance: >-
       Choose a title style that creates appropriate visual hierarchy and
       emphasizes the product importance.

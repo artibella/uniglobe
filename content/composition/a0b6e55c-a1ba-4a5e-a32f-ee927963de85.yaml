@@ -48,7 +48,7 @@ composition:
             type: select
             value: None
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           paddingBottom:
             type: select
@@ -208,7 +208,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text

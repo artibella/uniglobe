@@ -169,7 +169,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -343,7 +343,7 @@ composition:
             locales:
               en-US: Why travel after college?
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -855,7 +855,7 @@ composition:
             locales:
               en-US: Top destinations for recent graduate adventures
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1397,7 +1397,7 @@ composition:
             locales:
               en-US: Ready to travel with purpose?
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1428,7 +1428,7 @@ composition:
             locales:
               en-US: Still deciding?
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text

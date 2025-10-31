@@ -159,7 +159,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -247,7 +247,7 @@ composition:
             locales:
               en-US: 86% of gap year students say it improved their self-confidence
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -612,7 +612,7 @@ composition:
             locales:
               en-US: See All Experiences
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -628,7 +628,7 @@ composition:
             locales:
               en-US: Start planning your life-changing gap year today
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1144,7 +1144,7 @@ composition:
                   locales:
                     en-US: Real stories from real travelers
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h2
             - _id: 27ce5d0b-e4c8-4e6e-9019-3312cade5043
               type: spacer
@@ -1449,7 +1449,7 @@ composition:
             locales:
               en-US: Don't let this be another year you wonder 'what if?'
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text

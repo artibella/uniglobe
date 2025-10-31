@@ -23,7 +23,7 @@ composition:
         dynamicInputValues:
           locale: ${locale}
     titleStyle:
-      type: tp-title-style-parameter
+      type: select
       value: h2
     buttonStyle:
       type: tp-button-style-parameter

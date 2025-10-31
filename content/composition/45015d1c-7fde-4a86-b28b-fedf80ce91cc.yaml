@@ -84,7 +84,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -203,7 +203,7 @@ composition:
             locales:
               en-US: Unlock freedom and adventure with a sabbatical.
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -229,7 +229,7 @@ composition:
                   locales:
                     en-US: Explore a World of Sabbatical Destinations
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -638,7 +638,7 @@ composition:
             locales:
               en-US: Unforgettable Sabbatical Journeys
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
