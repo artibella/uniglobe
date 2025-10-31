@@ -22,8 +22,8 @@ export default function createUniformContext(serverContext?: NextPageContext): C
         endpoint: {
           type: 'api',
           projectId: process.env.NEXT_PUBLIC_UNIFORM_PROJECT_ID!,
-          apiKey: process.env.NEXT_PUBLIC_UNIFORM_INSIGHTS_KEY!,
-          host: process.env.NEXT_PUBLIC_INSIGHTS_API_URL!,
+          apiKey: process.env.NEXT_PUBLIC_UNIFORM_INSIGHTS_API_KEY!,
+          host: process.env.NEXT_PUBLIC_UNIFORM_INSIGHTS_API_URL!,
         },
       })
     );
