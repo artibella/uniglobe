@@ -1,9 +1,650 @@
 created: '2025-10-22T13:20:41.218002+00:00'
-modified: '2025-10-22T13:20:41.218002+00:00'
+modified: '2025-11-04T12:22:25.411195+00:00'
 pattern: false
 entry:
   _id: 5f799037-6b7a-41e1-8a4f-e2efaf160843
-  _name: 'New entry: Blog post'
-  _slug: new-entry-blog-post
+  _name: Vegan food options for travelers in Japan
+  _slug: vegan-food-options-japan-travel
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1749456256254-858161e505ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHZlZ2FufGVufDB8fHx8MTc2MjI1ODkyOXww&ixlib=rb-4.1.0&q=85
   type: blogPosts
-  fields: {}
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h1
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Vegan travel in Japan: A practical guide for conscious
+                      explorers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Japan’s food scene is legendary, but if you’re vegan, you
+                      might wonder how easy it is to eat plant-based here. The
+                      good news? Japan is becoming more vegan-friendly every
+                      year, and with a little know-how, you can enjoy delicious,
+                      authentic meals while supporting local communities and
+                      sustainable practices.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Understanding vegan food in Japan
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Traditional Japanese cuisine often features fish and meat,
+                      but there’s a growing awareness of plant-based diets.
+                      You’ll find more vegan options in cities and even in some
+                      rural areas. Here are a few staples to look for:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Vegetable sushi:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Simple rolls with cucumber, pickled radish, or avocado.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Zaru soba:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Cold buckwheat noodles, usually served with a soy-based dipping sauce (ask for no fish flakes).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Yasai itame:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Stir-fried vegetables, often available at izakayas (Japanese pubs).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Shojin ryori:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Buddhist temple cuisine that’s entirely vegan, featuring seasonal veggies, tofu, and creative preparations.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Top vegan-friendly cities in Japan
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Tokyo:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' The capital is packed with vegan and vegetarian restaurants. Try '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: T’s Tantan
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 2
+                        version: 1
+                      - mode: normal
+                        text: ' for spicy ramen or '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: Ain Soph
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 2
+                        version: 1
+                      - mode: normal
+                        text: ' for fluffy vegan pancakes. Many cafes and bakeries now offer plant-based options.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Kyoto:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Known for its temples and traditional food, Kyoto is the place to try shojin ryori. Explore Nishiki Market for vegan-friendly snacks and tofu-based dishes.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Osaka:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Famous for street food, Osaka has vegan versions of local favorites like okonomiyaki (savory pancakes) and takoyaki (octopus balls—look for plant-based alternatives).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Tips for vegan travelers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Learn a few key phrases:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Saying “I am vegan” ('
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: Watashi wa bīgan desu
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 2
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          ) or “I don’t eat meat, fish, or dairy” can help you
+                          communicate your needs.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Use apps:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Download '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: https://www.happycow.net/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: HappyCow
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - mode: normal
+                        text: ' to find vegan restaurants and reviews across Japan.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Convenience store finds:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Look for onigiri (rice balls) with umeboshi (pickled plum), edamame, or seaweed snacks. Always check labels for fish-based ingredients.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Support local businesses:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Seek out family-run cafes and markets. Many are happy to adapt dishes or recommend vegan options.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Responsible and sustainable choices
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Choosing vegan meals in Japan not only supports your
+                      lifestyle but also reduces your environmental impact.
+                      Whenever possible, opt for locally sourced ingredients and
+                      eco-friendly packaging. Respect local customs and be
+                      patient—veganism is still new to many Japanese people, but
+                      curiosity and kindness go a long way.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Conclusion
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Japan is opening up to plant-based travelers, and with
+                      these tips, you’ll enjoy a tasty, memorable, and
+                      sustainable adventure. Embrace the journey, try new
+                      flavors, and connect with the local community—your vegan
+                      trip to Japan can be as enriching as it is delicious!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    title:
+      type: text
+      locales:
+        en-US: Vegan food options for travelers in Japan
+    excerpt:
+      type: text
+      locales:
+        en-US: >-
+          Curious about eating vegan in Japan? Explore top plant-based eats,
+          local tips, and sustainable dining spots from Tokyo to Kyoto—perfect
+          for conscious travelers on the go.
+    categories:
+      type: contentReference
+      value: ${#jptr:/ref-5f799037-6b7a-41e1-8a4f-e2efaf160843-categories/entries}
+    enrichments:
+      type: $enr
+      value:
+        - cat: act
+          key: fod
+          str: 100
+        - cat: dest
+          key: asia
+          str: 100
+        - cat: style
+          key: eco
+          str: 100
+    destinations:
+      type: contentReference
+      value: ${#jptr:/ref-5f799037-6b7a-41e1-8a4f-e2efaf160843-destinations/entries}
+    introduction:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Japan is a dream destination for many travelers, but if
+                      you’re vegan, you might wonder how easy it is to eat
+                      plant-based while exploring the Land of the Rising Sun.
+                      The good news? With a bit of preparation and an open mind,
+                      you’ll discover that Japan offers a surprising variety of
+                      vegan-friendly meals, from hearty noodle bowls to fresh
+                      market snacks. In this guide, you’ll get practical tips
+                      for navigating Japanese menus, learn about classic vegan
+                      dishes, and find out where to enjoy authentic, sustainable
+                      eats that support local communities. Get ready to
+                      experience Japan’s vibrant food culture—no animal products
+                      required.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: dbccbce5-2204-48cd-b4b1-ec70989dd017
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1749456256254-858161e505ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHZlZ2FufGVufDB8fHx8MTc2MjI1ODkyOXww&ixlib=rb-4.1.0&q=85
+              title:
+                type: text
+                value: Ramen bowl with toppings, ready to enjoy.
+              width:
+                type: number
+                value: 5478
+              custom:
+                type: object
+                value:
+                  color: '#a68c73'
+                  apiUrl: >-
+                    https://api.unsplash.com/photos/ramen-bowl-with-toppings-ready-to-enjoy-Hz4AcumO8zc
+                  blurHash: LJG*o^W=4qW.~AaeNHt6MzRjxss.
+                  sourceId: Hz4AcumO8zc
+                  createdAt: '2025-06-09T08:05:43Z'
+                  detailUrl: >-
+                    https://unsplash.com/photos/ramen-bowl-with-toppings-ready-to-enjoy-Hz4AcumO8zc
+                  updatedAt: '2025-11-04T09:10:51Z'
+                  authorName: Kratky Jaromir
+                  downloadUrl: >-
+                    https://unsplash.com/photos/Hz4AcumO8zc/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHZlZ2FufGVufDB8fHx8MTc2MjI1ODkyOXww
+                  photoRawUrl: >-
+                    https://images.unsplash.com/photo-1749456256254-858161e505ec?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHZlZ2FufGVufDB8fHx8MTc2MjI1ODkyOXww&ixlib=rb-4.1.0
+                  photoFullUrl: >-
+                    https://images.unsplash.com/photo-1749456256254-858161e505ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHZlZ2FufGVufDB8fHx8MTc2MjI1ODkyOXww&ixlib=rb-4.1.0&q=85
+                  photoSmallUrl: >-
+                    https://images.unsplash.com/photo-1749456256254-858161e505ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHZlZ2FufGVufDB8fHx8MTc2MjI1ODkyOXww&ixlib=rb-4.1.0&q=80&w=400
+                  photoThumbUrl: >-
+                    https://images.unsplash.com/photo-1749456256254-858161e505ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHZlZ2FufGVufDB8fHx8MTc2MjI1ODkyOXww&ixlib=rb-4.1.0&q=80&w=200
+                  authorUsername: malirsvetlem
+                  photoRegularUrl: >-
+                    https://images.unsplash.com/photo-1749456256254-858161e505ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHZlZ2FufGVufDB8fHx8MTc2MjI1ODkyOXww&ixlib=rb-4.1.0&q=80&w=1080
+                  authorProfileUrl: https://unsplash.com/@malirsvetlem
+                  downloadLocation: >-
+                    https://api.unsplash.com/photos/Hz4AcumO8zc/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHZlZ2FufGVufDB8fHx8MTc2MjI1ODkyOXww
+                  authorProfileImage: >-
+                    https://images.unsplash.com/profile-1749455148217-141bfe76fbadimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+              height:
+                type: number
+                value: 3653
+              description:
+                type: text
+                value: Photo by Kratky Jaromir on Unsplash
+            _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+  _dataResources:
+    ref-5f799037-6b7a-41e1-8a4f-e2efaf160843-categories:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          497002d3-7e18-4645-bde2-cf247b87e9c8,4a79a8b5-43b8-49bd-acd9-c255f3eaf3d6
+    ref-5f799037-6b7a-41e1-8a4f-e2efaf160843-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 49e4e7f6-9ad8-4a02-bb54-33560dadba6b
+  _locales:
+    - en-US
