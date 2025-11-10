@@ -37,9 +37,9 @@ composition:
       type: tp-button-style-parameter
       value: link
     overlayOpacity:
-      type: tp-slider-parameter
+      type: number
       locales:
-        en-US: 0%
+        en-US: 0
     animationPreview:
       type: tp-play-animation-parameter
       value: true

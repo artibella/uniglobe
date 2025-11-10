@@ -5,7 +5,7 @@ import { withoutContainer } from '../../../hocs/withoutContainer';
 
 export type GridProps = ComponentProps<
   ContainerProps & {
-    columnsCount: Types.AvailableColumnCount;
+    columnsCount: number | Types.AvailableColumnCount;
     gapY: Types.AvailableGapVariants;
     gapX: Types.AvailableGapVariants;
   }

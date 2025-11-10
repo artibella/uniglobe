@@ -91,8 +91,8 @@ composition:
           type: tp-color-style-parameter
           value: base-300
         overlayOpacity:
-          type: tp-slider-parameter
-          value: 10%
+          type: number
+          value: 10
     383d2cd3-a5cc-4261-8fdf-996b5c2a76d6|f0693bc9-5723-4bc9-924b-f2fd6fe3089f:
       slots:
         $slotSectionItems:

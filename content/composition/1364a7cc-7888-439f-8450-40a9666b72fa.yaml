@@ -329,15 +329,15 @@ composition:
                         value: 0
               parameters:
                 gapX:
-                  type: tp-slider-parameter
+                  type: select
                   value: medium
                 gapY:
-                  type: tp-slider-parameter
+                  type: select
                   value: medium
                 columnsCount:
-                  type: tp-slider-parameter
+                  type: number
                   locales:
-                    en-US: '2'
+                    en-US: 2
   _locales:
     - en-US
 created: '2025-10-17T10:05:49.343718+00:00'

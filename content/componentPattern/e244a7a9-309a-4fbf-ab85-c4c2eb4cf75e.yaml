@@ -4,10 +4,10 @@ composition:
   type: grid
   parameters:
     gapX:
-      type: tp-slider-parameter
+      type: select
       value: none
     gapY:
-      type: tp-slider-parameter
+      type: select
       value: none
     title:
       type: text
@@ -19,8 +19,8 @@ composition:
       type: select
       value: None
     columnsCount:
-      type: tp-slider-parameter
-      value: '8'
+      type: number
+      value: 8
     marginBottom:
       type: select
       value: None
@@ -268,10 +268,10 @@ composition:
                         lineCountRestriction: 'yes'
               parameters:
                 gapX:
-                  type: tp-slider-parameter
+                  type: select
                   value: none
                 gapY:
-                  type: tp-slider-parameter
+                  type: select
                   value: medium
                 title:
                   type: text
@@ -283,8 +283,8 @@ composition:
                   type: select
                   value: None
                 columnsCount:
-                  type: tp-slider-parameter
-                  value: '1'
+                  type: number
+                  value: 1
                 marginBottom:
                   type: select
                   value: None
@@ -308,16 +308,16 @@ composition:
             type: text
             value: Grouped Section
           rowSpan:
-            type: tp-slider-parameter
-            value: '1'
+            type: number
+            value: 1
           rowStart:
-            type: tp-slider-parameter
+            type: select
             value: None
           columnSpan:
-            type: tp-slider-parameter
-            value: '6'
+            type: number
+            value: 6
           columnStart:
-            type: tp-slider-parameter
+            type: select
             value: '2'
         _overridability:
           parameters:

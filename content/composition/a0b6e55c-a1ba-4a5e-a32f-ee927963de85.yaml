@@ -179,7 +179,7 @@ composition:
                                 en-US: Capital
               parameters:
                 size:
-                  type: tp-slider-parameter
+                  type: select
                   value: large
         parameters:
           title:
@@ -225,8 +225,8 @@ composition:
             type: tp-background-type-parameter
             value: Light
           overlayOpacity:
-            type: tp-slider-parameter
-            value: 50%
+            type: number
+            value: 50
           containerVariant:
             type: select
             value: backgroundInContainer
@@ -341,7 +341,7 @@ composition:
                                 en-US: Capital
               parameters:
                 size:
-                  type: tp-slider-parameter
+                  type: select
                   value: large
         parameters:
           title:
@@ -377,6 +377,6 @@ composition:
           5690f959-52d1-4f54-a869-30b8bfed46cb,036376fb-7f06-419e-ac2b-686de17fb520,a78fe34d-0e49-4f9a-a675-8487a4b928b6,764d065c-6412-4bb0-b354-8f98be36b00c
   _locales:
     - en-US
-created: '2025-07-03T19:06:46.255105+00:00'
-modified: '2025-07-03T19:06:46.255105+00:00'
+created: '2024-05-13T20:10:39.872798+00:00'
+modified: '2025-11-10T21:18:36.035344+00:00'
 pattern: false

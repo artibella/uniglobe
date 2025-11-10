@@ -1,5 +1,6 @@
-export const getGridColumnsClass = (columnsCount: Types.AvailableColumnCount) => {
-  switch (columnsCount) {
+export const getGridColumnsClass = (columnsCount: number | Types.AvailableColumnCount) => {
+  const count = typeof columnsCount === 'number' ? columnsCount.toString() : columnsCount;
+  switch (count) {
     case '1':
       return 'grid-cols-1';
     case '2':

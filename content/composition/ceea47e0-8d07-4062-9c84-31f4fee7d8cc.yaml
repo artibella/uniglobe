@@ -193,8 +193,8 @@ composition:
             type: tp-color-style-parameter
             value: secondary
           overlayOpacity:
-            type: tp-slider-parameter
-            value: 30%
+            type: number
+            value: 30
           animationPreview:
             type: tp-play-animation-parameter
             value: true

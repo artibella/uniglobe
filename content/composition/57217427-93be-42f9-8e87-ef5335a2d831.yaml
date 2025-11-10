@@ -1190,8 +1190,8 @@ composition:
           type: tp-background-type-parameter
           value: Dark
         overlayOpacity:
-          type: tp-slider-parameter
-          value: 0%
+          type: number
+          value: 0
         primaryButtonCopy:
           type: text
           locales:

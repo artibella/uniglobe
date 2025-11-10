@@ -382,8 +382,8 @@ composition:
             type: tp-background-type-parameter
             value: Dark
           overlayOpacity:
-            type: tp-slider-parameter
-            value: 40%
+            type: number
+            value: 40
           containerVariant:
             type: select
             value: fluidContent
@@ -548,8 +548,8 @@ composition:
                   type: tp-background-type-parameter
                   value: Medium
                 overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 0%
+                  type: number
+                  value: 0
                 containerVariant:
                   type: select
                   value: backgroundInContainer
@@ -685,8 +685,8 @@ composition:
                   type: tp-background-type-parameter
                   value: Medium
                 overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 0%
+                  type: number
+                  value: 0
                 containerVariant:
                   type: select
                   value: backgroundInContainer
@@ -728,9 +728,9 @@ composition:
           locales:
             en-US: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 60%
+            en-US: 60
         textColorVariant:
           type: select
           value: Light
@@ -807,9 +807,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 40%
+            de-AT: 40
             de-CH: 40%
             de-DE: 40%
             en-US: 40%
@@ -954,9 +954,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -1060,9 +1060,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 40%
+            de-AT: 40
             de-CH: 40%
             de-DE: 40%
             en-US: 40%
@@ -1204,9 +1204,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -1319,9 +1319,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -1332,9 +1332,9 @@ composition:
           locales:
             en-US: secondary
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 60%
+            en-US: 60
         textColorVariant:
           type: select
           value: Dark
@@ -1461,9 +1461,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -1574,9 +1574,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -1638,9 +1638,9 @@ composition:
             en-US: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 40%
+            de-AT: 40
             de-CH: 40%
             de-DE: 40%
             en-US: 40%
@@ -1743,9 +1743,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -1866,9 +1866,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%

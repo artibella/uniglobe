@@ -155,8 +155,8 @@ composition:
             type: tp-background-type-parameter
             value: Dark
           overlayOpacity:
-            type: tp-slider-parameter
-            value: 30%
+            type: number
+            value: 30
           textColorVariant:
             type: select
             value: Light

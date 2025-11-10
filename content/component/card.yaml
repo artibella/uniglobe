@@ -183,18 +183,16 @@ parameters:
     localizable: true
   - id: overlayOpacity
     name: Overlay Opacity
-    type: tp-slider-parameter
+    type: number
     guidance: >-
       Set overlay opacity to ensure text remains readable while maintaining
       image visibility.
     typeConfig:
-      step: 10
-      type: steps
-      unit: px
-      units: '%'
-      options: []
-      maxValue: 100
-      minValue: 0
+      max: '100'
+      min: '0'
+      steps: 10
+      editor: slider-number-field
+      useSteps: true
     localizable: true
   - id: group_presentationSettings
     name: Presentation Settings

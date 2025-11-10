@@ -11,7 +11,7 @@ export type ImageProps = ComponentProps<{
   quality?: number;
   priority?: boolean;
   overlayColor?: Types.AvailableColor;
-  overlayOpacity?: Types.AvailableOpacity;
+  overlayOpacity?: number | Types.AvailableOpacity;
   borderColor?: Types.AvailableColor;
   borderWidth?: number;
   borderRadius?: Types.AvailableBorderRadius;

@@ -102,10 +102,10 @@ composition:
                           de-DE: base-300
                           en-US: base-300
                       overlayOpacity:
-                        type: tp-slider-parameter
+                        type: number
                         locales:
-                          de-DE: 0%
-                          en-US: 0%
+                          de-DE: 0
+                          en-US: 0
                       descriptionLineCount:
                         type: number
                         value: 3
@@ -135,10 +135,10 @@ composition:
                 hideLockedParameters: true
         parameters:
           gapX:
-            type: tp-slider-parameter
+            type: select
             value: small
           gapY:
-            type: tp-slider-parameter
+            type: select
             value: none
             conditions:
               - id: 0
@@ -152,7 +152,7 @@ composition:
                       source: deviceType
                 value: medium
           columnsCount:
-            type: tp-slider-parameter
+            type: number
             value: '3'
             conditions:
               - id: 0
@@ -201,5 +201,5 @@ composition:
     - en-US
     - de-DE
 created: '2025-05-22T09:07:24.980856+00:00'
-modified: '2025-11-07T09:49:49.840363+00:00'
+modified: '2025-11-10T21:18:32.990864+00:00'
 pattern: true

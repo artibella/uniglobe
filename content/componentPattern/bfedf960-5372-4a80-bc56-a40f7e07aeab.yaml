@@ -52,10 +52,10 @@ composition:
         de-DE: base-300
         en-US: base-300
     overlayOpacity:
-      type: tp-slider-parameter
+      type: number
       locales:
-        de-DE: 60%
-        en-US: 80%
+        de-DE: 60
+        en-US: 80
     textColorVariant:
       type: select
       value: Light

@@ -61,9 +61,9 @@ composition:
           locales:
             de-DE: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: 30%
+            de-DE: 30
         textColorVariant:
           type: select
           value: Light
@@ -85,9 +85,9 @@ composition:
           locales:
             de-DE: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: 30%
+            de-DE: 30
     d9978790-1275-4558-ad3b-0758da9cb8eb:
       parameters:
         badge:
@@ -139,9 +139,9 @@ composition:
           locales:
             de-DE: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: 30%
+            de-DE: 30
         textColorVariant:
           type: select
           value: Light
@@ -270,8 +270,8 @@ composition:
           type: tp-color-style-parameter
           value: base-300
         overlayOpacity:
-          type: tp-slider-parameter
-          value: 10%
+          type: number
+          value: 10
     dd333bcc-0fc6-430e-855a-9a7653153846|f0693bc9-5723-4bc9-924b-f2fd6fe3089f:
       slots:
         $slotSectionItems:
@@ -342,9 +342,9 @@ composition:
           locales:
             de-DE: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: 0%
+            de-DE: 0
   _locales:
     - en-US
     - de-DE

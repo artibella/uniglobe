@@ -96,13 +96,13 @@ composition:
                     _pattern: bfedf960-5372-4a80-bc56-a40f7e07aeab
               parameters:
                 gapX:
-                  type: tp-slider-parameter
+                  type: select
                   value: small
                 gapY:
-                  type: tp-slider-parameter
+                  type: select
                   value: small
                 columnsCount:
-                  type: tp-slider-parameter
+                  type: number
                   locales:
                     de-DE: '3'
                     en-US: '3'
@@ -146,9 +146,9 @@ composition:
           type: select
           value: md
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 60%
+            en-US: 60
       dataResources:
         Blog post:
           type: blogPostBySlug
@@ -169,10 +169,10 @@ composition:
           locales:
             en-US: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: 0%
-            en-US: 0%
+            de-DE: 0
+            en-US: 0
         textColorVariant:
           type: select
           value: Dark
@@ -200,8 +200,8 @@ composition:
           type: tp-color-style-parameter
           value: base-300
         overlayOpacity:
-          type: tp-slider-parameter
-          value: 60%
+          type: number
+          value: 60
       dataResources:
         Blog post:
           type: blogPostBySlug
@@ -219,10 +219,10 @@ composition:
             de-DE: secondary
             en-US: secondary
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: 50%
-            en-US: 50%
+            de-DE: 50
+            en-US: 50
         textColorVariant:
           type: select
           value: Dark
@@ -235,6 +235,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-07-03T19:06:54.734904+00:00'
-modified: '2025-07-03T19:06:54.734904+00:00'
+created: '2025-06-10T11:45:25.218262+00:00'
+modified: '2025-11-10T21:18:36.019299+00:00'
 pattern: false

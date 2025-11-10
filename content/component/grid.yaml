@@ -14,86 +14,53 @@ parameters:
     typeConfig: null
   - id: columnsCount
     name: Columns Count
-    type: tp-slider-parameter
+    type: number
     guidance: >-
       Set the number of columns for the grid layout. Consider your content and
       screen sizes when choosing the column count.
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
-      options:
-        - label: '1'
-          value: '1'
-        - label: '2'
-          value: '2'
-        - label: '3'
-          value: '3'
-        - label: '4'
-          value: '4'
-        - label: '5'
-          value: '5'
-        - label: '6'
-          value: '6'
-        - label: '7'
-          value: '7'
-        - label: '8'
-          value: '8'
-        - label: '9'
-          value: '9'
-        - label: '10'
-          value: '10'
-        - label: '11'
-          value: '11'
-        - label: '12'
-          value: '12'
-      maxValue: 10
-      minValue: 0
+      max: '12'
+      min: '1'
+      steps: 1
+      editor: slider-number-field
+      useSteps: true
     localizable: true
     allowConditionalValues: true
   - id: gapX
     name: Gap X
-    type: tp-slider-parameter
+    type: select
     guidance: >-
       Control horizontal spacing between grid items. Use appropriate gaps to
       maintain visual clarity without wasting space.
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
+      editor: segmented-control
       options:
-        - label: None
+        - text: None
           value: none
-        - label: Small
+        - text: Small
           value: small
-        - label: Medium
+        - text: Medium
           value: medium
-        - label: Large
+        - text: Large
           value: large
-      maxValue: 10
-      minValue: 0
     allowConditionalValues: true
   - id: gapY
     name: Gap Y
-    type: tp-slider-parameter
+    type: select
     guidance: >-
       Control vertical spacing between grid rows. Match this with your
       horizontal gap for consistent spacing.
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
+      editor: segmented-control
       options:
-        - label: None
+        - text: None
           value: none
-        - label: Small
+        - text: Small
           value: small
-        - label: Medium
+        - text: Medium
           value: medium
-        - label: Large
+        - text: Large
           value: large
-      maxValue: 10
-      minValue: 0
     allowConditionalValues: true
   - id: group_presentationSettings
     name: Presentation Settings
@@ -228,4 +195,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:43.876648+00:00'
-updated: '2025-10-17T11:44:19.117806+00:00'
+updated: '2025-11-10T21:22:27.605782+00:00'

@@ -75,18 +75,16 @@ parameters:
     typeConfig: null
   - id: overlayOpacity
     name: Overlay Opacity
-    type: tp-slider-parameter
+    type: number
     guidance: >-
       Set overlay opacity to balance visibility between the overlay and the
       underlying image.
     typeConfig:
-      step: 10
-      type: steps
-      unit: px
-      units: '%'
-      options: []
-      maxValue: 100
-      minValue: 0
+      max: '100'
+      min: '0'
+      steps: 10
+      editor: slider-number-field
+      useSteps: true
   - id: group_border
     name: Border
     type: group
@@ -116,27 +114,22 @@ parameters:
       useSteps: true
   - id: borderRadius
     name: Border Radius
-    type: tp-slider-parameter
+    type: select
     guidance: >-
       Set border radius to create rounded corners. Use consistently with your
       overall design language.
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
       options:
-        - label: None
+        - text: None
           value: none
-        - label: Small
+        - text: Small
           value: small
-        - label: Medium
+        - text: Medium
           value: medium
-        - label: Large
+        - text: Large
           value: large
-        - label: Full
+        - text: Full
           value: full
-      maxValue: 10
-      minValue: 0
   - id: group_advanced
     name: Rendering & loading
     type: group

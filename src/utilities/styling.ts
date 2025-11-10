@@ -105,7 +105,15 @@ export const getImageOverlayColorStyle = (style?: Types.AvailableColor) => {
   }
 };
 
-export const getImageOverlayOpacityStyle = (style?: Types.AvailableOpacity) => {
+export const getImageOverlayOpacityStyle = (style?: number | Types.AvailableOpacity) => {
+  if (typeof style === 'number') {
+    // Convert number (0-100) to Tailwind opacity class
+    // Round to nearest 10 for Tailwind classes
+    const rounded = Math.round(style / 10) * 10;
+    return `bg-opacity-${rounded}`;
+  }
+  
+  // Handle legacy string format ('0%', '10%', etc.)
   switch (style) {
     case '0%':
       return 'bg-opacity-0';

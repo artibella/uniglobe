@@ -70,9 +70,9 @@ composition:
       locales:
         en-US: base-300
     overlayOpacity:
-      type: tp-slider-parameter
+      type: number
       locales:
-        en-US: 30%
+        en-US: 30
     descriptionLineCount:
       type: number
       value: 0
