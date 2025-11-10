@@ -44,8 +44,8 @@ composition:
                         type: text
                         value: July 12, 2021
                       stars:
-                        type: tp-slider-parameter
-                        value: '5'
+                        type: number
+                        value: 5
                       title:
                         type: text
                         value: Can't say enough good things
@@ -121,8 +121,8 @@ composition:
                         type: text
                         value: July 12, 2021
                       stars:
-                        type: tp-slider-parameter
-                        value: '4'
+                        type: number
+                        value: 4
                       title:
                         type: text
                         value: The last shirts I may ever need
@@ -193,8 +193,8 @@ composition:
                         type: text
                         value: July 12, 2021
                       stars:
-                        type: tp-slider-parameter
-                        value: '5'
+                        type: number
+                        value: 5
                       title:
                         type: text
                         value: Very comfy and looks the part

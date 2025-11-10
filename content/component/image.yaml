@@ -104,17 +104,16 @@ parameters:
     typeConfig: null
   - id: borderWidth
     name: Border Width
-    type: tp-slider-parameter
+    type: number
     guidance: >-
       Set border width in pixels. Use subtle borders (1-2px) for most cases,
       thicker for emphasis.
     typeConfig:
-      step: 1
-      type: steps
-      unit: px
-      options: []
-      maxValue: 10
-      minValue: 0
+      max: '10'
+      min: '0'
+      steps: 1
+      editor: slider-number-field
+      useSteps: true
   - id: borderRadius
     name: Border Radius
     type: tp-slider-parameter

@@ -1648,8 +1648,8 @@ composition:
               type: spacer
               parameters:
                 thickness:
-                  type: tp-slider-parameter
-                  value: 20px
+                  type: number
+                  value: 20
             - _id: 1f1f9251-f10f-4128-a3fc-33a0709eaecf
               type: testimonial
               parameters:

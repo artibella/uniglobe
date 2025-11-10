@@ -13,7 +13,7 @@ export type ImageProps = ComponentProps<{
   overlayColor?: Types.AvailableColor;
   overlayOpacity?: Types.AvailableOpacity;
   borderColor?: Types.AvailableColor;
-  borderWidth?: string;
+  borderWidth?: number;
   borderRadius?: Types.AvailableBorderRadius;
   objectFit?: Types.AvailableObjectFit;
 }>;

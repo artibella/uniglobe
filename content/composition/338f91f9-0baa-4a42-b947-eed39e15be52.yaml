@@ -974,8 +974,8 @@ composition:
                         type: review
                         parameters:
                           stars:
-                            type: tp-slider-parameter
-                            value: '5'
+                            type: number
+                            value: 5
                           title:
                             type: text
                             locales:
@@ -996,8 +996,8 @@ composition:
                         type: review
                         parameters:
                           stars:
-                            type: tp-slider-parameter
-                            value: '5'
+                            type: number
+                            value: 5
                           title:
                             type: text
                             locales:
@@ -1017,8 +1017,8 @@ composition:
                         type: review
                         parameters:
                           stars:
-                            type: tp-slider-parameter
-                            value: '5'
+                            type: number
+                            value: 5
                           title:
                             type: text
                             locales:

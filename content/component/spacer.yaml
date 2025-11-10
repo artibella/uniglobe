@@ -7,17 +7,16 @@ icon: merge-horizontal
 parameters:
   - id: thickness
     name: Thickness
-    type: tp-slider-parameter
+    type: number
     guidance: >-
       Set the amount of space to add between components. Use 10–100px for subtle
       spacing, more for larger gaps.
     typeConfig:
-      step: 10
-      type: steps
-      unit: px
-      options: []
-      maxValue: 250
-      minValue: 10
+      max: '250'
+      min: '10'
+      steps: 10
+      editor: slider-number-field
+      useSteps: true
 categoryId: 19f9419d-14da-496d-a4ac-eec5010e13d7
 description: >-
   Adds vertical or horizontal space between components. Use to improve layout
