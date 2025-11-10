@@ -363,10 +363,10 @@ composition:
                   locales:
                     en-US: >-
                       Teach, build, or support local initiatives—every project
-                      is vetted for real impact.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                      is vetted for                       real impact.
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 1f0398cc-f4f5-43f5-a935-0e9992a19a52
               type: card
               parameters:
@@ -445,10 +445,10 @@ composition:
                   locales:
                     en-US: >-
                       Protect wildlife, restore habitats, and learn from local
-                      experts on every adventure.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                      experts on every                       adventure.
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 57cab6d9-30a6-4feb-bb74-3df65ee7dfe2
               type: card
               parameters:
@@ -527,10 +527,10 @@ composition:
                   locales:
                     en-US: >-
                       Live and work alongside locals. Experience authentic
-                      culture and make lifelong friends.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                      culture and make                       lifelong friends.
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 492eda50-7582-48e5-9d91-a67c27e503c2
               type: card
               parameters:

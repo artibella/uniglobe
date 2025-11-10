@@ -742,9 +742,9 @@ composition:
                                 internet, community kitchen, and weekly
                                 skillshares with local tech entrepreneurs.
                                 20-minute walk to public transport.
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                       - _id: a514ac17-2b12-4c95-a5e4-28a277bfa995
                         type: card
                         parameters:
@@ -834,9 +834,9 @@ composition:
                                 beachfront access, and partnerships with local
                                 sustainable restaurants. Includes language
                                 exchange program.
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                       - _id: 2eed140a-a79e-4bae-bc4e-ee97a37029b5
                         type: card
                         parameters:
@@ -928,9 +928,9 @@ composition:
                                 internet, renewable energy, and proximity to
                                 hiking trails. Includes weekly dinners with
                                 local residents.
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                   variant: carousel
                   parameters:
                     title:

@@ -397,9 +397,9 @@ composition:
                       and Nepal. 85% of your spending stays in the community
                       through cooperatives, homestays, and local guides who
                       share real stories, not tourist performances.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 712719a2-e107-4490-9268-d859fd62d008
               type: card
               parameters:
@@ -489,9 +489,9 @@ composition:
                       Costa Rica, or monitor wildlife in Kenya. These hands-on
                       experiences help destinations recover while giving you
                       skills and stories that last forever.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: b57a7c83-dd7a-46af-b6a9-c5354b768695
               type: card
               parameters:
@@ -582,9 +582,9 @@ composition:
                       by ferry in Southeast Asia, or cycle through sustainable
                       villages. Longer stays mean deeper connections, smaller
                       carbon footprints, and more meaningful cultural exchange.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: cf2d133e-e5f4-40c0-b375-8959b5fac09d
               type: card
               parameters:
@@ -2353,9 +2353,9 @@ composition:
                       preserving Alpine traditions. Experience European mountain
                       culture in a destination where tourism enhances rather
                       than overwhelms local communities.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: a2afdb72-f580-4a9f-ab11-994617514e27
               type: card
               parameters:

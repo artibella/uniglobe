@@ -410,9 +410,9 @@ composition:
                           textColorVariant:
                             type: select
                             value: Light
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                       - _id: e9fb1f63-3b35-41ea-b7f8-563e68ae16f5
                         type: card
                         parameters:
@@ -509,9 +509,9 @@ composition:
                           textColorVariant:
                             type: select
                             value: Light
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                       - _id: 1922f4c8-cc4a-433f-9cf0-8fc1c858b78c
                         type: card
                         parameters:

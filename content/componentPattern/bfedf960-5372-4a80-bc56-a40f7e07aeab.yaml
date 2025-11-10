@@ -59,9 +59,9 @@ composition:
     textColorVariant:
       type: select
       value: Light
-    lineCountRestriction:
-      type: tp-slider-parameter
-      value: '5'
+    descriptionLineCount:
+      type: number
+      value: 5
   _dataResources:
     Blog post:
       type: blogPostBySlug

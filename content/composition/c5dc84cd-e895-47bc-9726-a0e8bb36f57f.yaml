@@ -347,9 +347,9 @@ composition:
                       Thailand, or support renewable energy projects in Morocco.
                       Make a real environmental impact while gaining hands-on
                       experience in sustainability.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 712719a2-e107-4490-9268-d859fd62d008
               type: card
               parameters:
@@ -431,9 +431,9 @@ composition:
                       participate in community projects across 30+ countries.
                       Experience authentic cultures while supporting
                       community-based tourism initiatives.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: b57a7c83-dd7a-46af-b6a9-c5354b768695
               type: card
               parameters:
@@ -515,9 +515,9 @@ composition:
                       wilderness survival, practice photography in remote
                       villages, or master sustainable farming techniques.
                       Adventure that builds your resume too.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: cf2d133e-e5f4-40c0-b375-8959b5fac09d
               type: card
               parameters:
@@ -1231,9 +1231,6 @@ composition:
                       fluently, but I also discovered my passion for
                       environmental engineering. Plus, the experience helped me
                       get into my top choice college program.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
             - _id: f66ddd41-42e2-4de7-8ad3-ae184e8eab88
               type: review
               parameters:
@@ -1315,9 +1312,6 @@ composition:
                       New Zealand, taught English in rural Vietnam, and did
                       marine conservation in the Philippines. Best decision I
                       ever made.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
       - _id: 586bcc54-aa07-46bc-ab60-0349c2285508
         type: accordion
         slots:

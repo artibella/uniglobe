@@ -73,9 +73,9 @@ composition:
       type: tp-slider-parameter
       locales:
         en-US: 30%
-    lineCountRestriction:
-      type: tp-slider-parameter
-      value: none
+    descriptionLineCount:
+      type: number
+      value: 0
   _overridability:
     parameters:
       badge: 'yes'

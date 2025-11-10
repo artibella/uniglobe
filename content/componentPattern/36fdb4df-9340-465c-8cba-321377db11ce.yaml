@@ -46,9 +46,6 @@ composition:
     textColorVariant:
       type: select
       value: Light
-    lineCountRestriction:
-      type: tp-slider-parameter
-      value: none
   _overridability:
     parameters:
       badge: 'yes'
@@ -63,7 +60,7 @@ composition:
       overlayColor: 'yes'
       overlayOpacity: 'yes'
       textColorVariant: 'no'
-      lineCountRestriction: 'yes'
+      descriptionLineCount: 'yes'
     hideLockedParameters: true
   _locales:
     - en-US

@@ -146,9 +146,9 @@ composition:
                         locales:
                           de-DE: 0%
                           en-US: 0%
-                      lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: '3'
+                      descriptionLineCount:
+                        type: number
+                        value: 3
                     _overridability:
                       variants: true
                       parameters:

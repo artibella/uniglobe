@@ -105,9 +105,9 @@ composition:
                       textColorVariant:
                         type: select
                         value: Dark
-                      lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: '3'
+                      descriptionLineCount:
+                        type: number
+                        value: 3
                     _overridability:
                       variants: true
                       parameters:
@@ -131,7 +131,7 @@ composition:
                         animationPreview: 'no'
                         textColorVariant: 'yes'
                         buttonAnimationType: 'no'
-                        lineCountRestriction: 'no'
+                        descriptionLineCount: 'no'
               _dataResources:
                 Featured countries entries Loop Item:
                   type: sys-reserved-loop

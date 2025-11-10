@@ -59,9 +59,9 @@ composition:
       type: tp-slider-parameter
       locales:
         en-US: 60%
-    lineCountRestriction:
-      type: tp-slider-parameter
-      value: none
+    descriptionLineCount:
+      type: number
+      value: 0
   _dataResources:
     Country:
       type: country

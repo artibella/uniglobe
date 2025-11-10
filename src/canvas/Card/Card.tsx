@@ -32,7 +32,7 @@ export const Card: FC<CardProps> = ({
   title,
   buttonCopy,
   description,
-  lineCountRestriction,
+  descriptionLineCount,
   useCustomTextElements,
   overlayOpacity,
   overlayColor,
@@ -58,7 +58,13 @@ export const Card: FC<CardProps> = ({
   );
 
   const descriptionClassNames = classNames(
-    getLineClampClass(lineCountRestriction),
+    getLineClampClass(
+      descriptionLineCount === 0
+        ? 'none'
+        : descriptionLineCount
+        ? (descriptionLineCount.toString() as Types.AvailableMaxLineCount)
+        : undefined
+    ),
     getDescriptionClass(variant),
     textColorVariant === 'Dark' ? 'text-secondary-content' : 'text-primary-content',
     styles?.description

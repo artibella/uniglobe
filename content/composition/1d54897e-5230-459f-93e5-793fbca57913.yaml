@@ -325,9 +325,9 @@ composition:
                       Join women's cooperatives, learn traditional crafts, and
                       support female artisans for authentic cultural
                       experiences.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 1f0398cc-f4f5-43f5-a935-0e9992a19a52
               type: card
               parameters:
@@ -406,9 +406,9 @@ composition:
                       Find safe, comfortable stays personally inspected by
                       female travel scouts, from women-only hostels to family
                       guesthouses.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 57cab6d9-30a6-4feb-bb74-3df65ee7dfe2
               type: card
               parameters:
@@ -485,10 +485,10 @@ composition:
                   locales:
                     en-US: >-
                       Join small groups of women for global adventures, from
-                      wildlife in Kenya to startups in Buenos Aires.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                      wildlife in Kenya to startups in                       Buenos Aires.
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 492eda50-7582-48e5-9d91-a67c27e503c2
               type: card
               parameters:
