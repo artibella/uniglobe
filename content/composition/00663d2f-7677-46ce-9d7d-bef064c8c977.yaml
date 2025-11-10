@@ -980,16 +980,16 @@ composition:
                                     direction: null
                     parameters:
                       rowSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       rowStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: None
                       columnSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       columnStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: none
                   - _id: 169a3c85-3651-4080-901d-f16fb66834f5
                     type: gridItem
@@ -1112,16 +1112,16 @@ composition:
                                     direction: null
                     parameters:
                       rowSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       rowStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: None
                       columnSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       columnStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: none
                   - _id: 39d5bf9f-01fb-4668-9d17-3ab93c7bc786
                     type: gridItem
@@ -1246,28 +1246,28 @@ composition:
                                     direction: null
                     parameters:
                       rowSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       rowStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: None
                       columnSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       columnStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: none
               parameters:
                 gapX:
                   type: select
                   value: medium
                 gapY:
-                  type: tp-slider-parameter
+                  type: select
                   value: none
                 columnsCount:
-                  type: tp-slider-parameter
+                  type: number
                   locales:
-                    en-US: '3'
+                    en-US: 3
         parameters:
           backgroundType:
             type: tp-background-type-parameter

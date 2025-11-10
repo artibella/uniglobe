@@ -128,7 +128,7 @@ composition:
                       type: select
                       value: contain
                     borderRadius:
-                      type: tp-slider-parameter
+                      type: select
                       value: none
                 - _id: 9a8cd41a-25b1-401c-ae1f-2ec2dac03c5f
                   type: image

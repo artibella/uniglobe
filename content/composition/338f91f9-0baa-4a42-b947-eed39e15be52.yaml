@@ -827,12 +827,12 @@ composition:
                             type: select
                             value: small
                           gapY:
-                            type: tp-slider-parameter
+                            type: select
                             value: small
                           columnsCount:
-                            type: tp-slider-parameter
+                            type: number
                             locales:
-                              en-US: '1'
+                              en-US: 1
                             localesConditions:
                               en-US:
                                 - id: 0
@@ -1058,12 +1058,12 @@ composition:
                       type: select
                       value: medium
                     gapY:
-                      type: tp-slider-parameter
+                      type: select
                       value: medium
                     columnsCount:
-                      type: tp-slider-parameter
+                      type: number
                       locales:
-                        en-US: '1'
+                        en-US: 1
                       localesConditions:
                         en-US:
                           - id: 0

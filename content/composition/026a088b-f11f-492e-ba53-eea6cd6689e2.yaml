@@ -113,9 +113,9 @@ composition:
           locales:
             de-DE: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: 0%
+            de-DE: 0
   _locales:
     - en-US
     - de-DE

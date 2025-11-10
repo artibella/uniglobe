@@ -338,8 +338,10 @@ composition:
       paddingBottom: 'yes'
       backgroundType: 'yes'
       containerVariant: 'yes'
+  _locales:
+    - en-US
 created: '2024-01-15T09:26:47.445829+00:00'
-modified: '2024-01-15T09:26:47.445829+00:00'
+modified: '2025-11-10T22:06:20.702907+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/preview-images/UniformTheme/Review_default_pattern_preview_image

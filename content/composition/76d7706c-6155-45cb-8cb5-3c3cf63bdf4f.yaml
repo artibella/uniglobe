@@ -62,7 +62,7 @@ composition:
           type: tp-color-style-parameter
           locales: {}
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales: {}
   _locales:
     - en-US

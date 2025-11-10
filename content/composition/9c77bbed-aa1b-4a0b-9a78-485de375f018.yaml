@@ -765,10 +765,10 @@ composition:
     8d7d4d4c-a4cd-415f-9413-f391615ab61b|af6145df-990f-4d27-9218-c5905b8d885f:
       parameters:
         columnsCount:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: '6'
-            it-IT: '6'
+            de-DE: 6
+            it-IT: 6
         backgroundType:
           type: tp-background-type-parameter
           value: Light
