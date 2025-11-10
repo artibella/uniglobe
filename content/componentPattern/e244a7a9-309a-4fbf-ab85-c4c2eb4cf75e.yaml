@@ -99,8 +99,8 @@ composition:
                         type: select
                         value: Dark
                       lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: none
+                        type: number
+                        value: 0
                     _overridability:
                       variants: true
                       parameters:
@@ -171,8 +171,8 @@ composition:
                         type: select
                         value: Dark
                       lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: none
+                        type: number
+                        value: 0
                     _overridability:
                       variants: true
                       parameters:
@@ -251,8 +251,8 @@ composition:
                         type: select
                         value: Dark
                       lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: none
+                        type: number
+                        value: 0
                     _overridability:
                       variants: true
                       parameters:

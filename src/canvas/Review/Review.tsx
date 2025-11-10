@@ -52,7 +52,18 @@ export const DefaultReview: FC<Omit<ReviewProps, 'component'>> = ({
             placeholder="Review title goes here"
           />
           <UniformText
-            className={classNames('mt-4', baseTextStyle, getLineClampClass(lineCountRestriction), styles?.description)}
+            className={classNames(
+              'mt-4',
+              baseTextStyle,
+              getLineClampClass(
+                lineCountRestriction === 0
+                  ? 'none'
+                  : lineCountRestriction
+                  ? (lineCountRestriction.toString() as Types.AvailableMaxLineCount)
+                  : undefined
+              ),
+              styles?.description
+            )}
             as="p"
             parameterId="description"
             placeholder="Review description goes here"
