@@ -112,7 +112,7 @@ export const getImageOverlayOpacityStyle = (style?: number | Types.AvailableOpac
     const rounded = Math.round(style / 10) * 10;
     return `bg-opacity-${rounded}`;
   }
-  
+
   // Handle legacy string format ('0%', '10%', etc.)
   switch (style) {
     case '0%':
