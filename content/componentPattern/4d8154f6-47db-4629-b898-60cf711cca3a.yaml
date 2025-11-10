@@ -130,7 +130,6 @@ composition:
                 Blog post loop:
                   type: sys-reserved-loop
                   variables:
-                    limit: '3'
                     connectedData: '#jptr:/Blog posts/entries:fa=c:fl=i'
               _overridability:
                 hideLockedParameters: true
@@ -178,13 +177,14 @@ composition:
     Blog posts:
       type: blogPostsList
       variables:
+        limit: '3'
         locale: ${locale}
         search: ''
         filters: '{"type[eq]":"blogPosts"}'
         orderBy: created_at_DESC
         contentTypes: blogPosts
       isPatternParameter: true
-      ignorePatternParameterDefault: true
+      ignorePatternParameterDefault: false
   _overridability:
     parameters:
       $viz: 'yes'
@@ -200,6 +200,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-07-03T19:06:42.512821+00:00'
-modified: '2025-07-03T19:07:59.794967+00:00'
+created: '2025-05-22T09:07:24.980856+00:00'
+modified: '2025-11-07T09:49:49.840363+00:00'
 pattern: true

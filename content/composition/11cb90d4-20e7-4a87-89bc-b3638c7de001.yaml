@@ -12,6 +12,22 @@ composition:
             en-US: >-
               Sustainable travel tips and stories for conscious explorers |
               Uniglobe
+    76b20e6e-f29a-4951-82c4-2602beba8b79:
+      parameters:
+        title:
+          type: text
+          locales:
+            en-US: Browse our travel stories
+      dataResources:
+        Blog posts:
+          type: blogPostsList
+          variables:
+            locale: ${locale}
+            offset: '3'
+            search: ''
+            filters: '{"type[eq]":"blogPosts"}'
+            orderBy: created_at_DESC
+            contentTypes: blogPosts
     eded34ba-cb08-4ef6-9102-c216a3b5ab5f:
       parameters:
         title:
@@ -22,6 +38,7 @@ composition:
         Blog posts:
           type: blogPostsList
           variables:
+            limit: '3'
             locale: ${locale}
             search: ''
             filters: '{"type[eq]":"blogPosts"}'
@@ -37,7 +54,33 @@ composition:
               Blog posts:
                 type: blogPostsList
                 variables:
+                  limit: '3'
                   locale: ${locale}
+                  search: ''
+                  filters: '{"type[eq]":"blogPosts"}'
+                  orderBy: created_at_DESC
+                  contentTypes: blogPosts
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                buttonCopy: 'no'
+                buttonLink: 'no'
+                titleStyle: 'no'
+                buttonStyle: 'no'
+                description: 'yes'
+                textColorVariant: 'no'
+                buttonAnimationType: 'no'
+              hideLockedParameters: true
+          - _id: 76b20e6e-f29a-4951-82c4-2602beba8b79
+            type: cardBlock
+            _pattern: 4d8154f6-47db-4629-b898-60cf711cca3a
+            _dataResources:
+              Blog posts:
+                type: blogPostsList
+                variables:
+                  locale: ${locale}
+                  offset: '3'
                   search: ''
                   filters: '{"type[eq]":"blogPosts"}'
                   orderBy: created_at_DESC
@@ -125,5 +168,5 @@ composition:
     - en-US
   _pattern: 9854cddc-f320-4a77-b7dc-de9d74638436
 created: '2025-07-01T10:30:01.798206+00:00'
-modified: '2025-10-28T09:33:47.146837+00:00'
+modified: '2025-11-07T09:50:45.984839+00:00'
 pattern: false

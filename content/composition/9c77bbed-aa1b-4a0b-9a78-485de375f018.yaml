@@ -121,25 +121,25 @@ composition:
                     type: text
                 _source: uniform-assets
             en-US:
-              - _id: bc57e63f-aa72-4276-ada2-e9a28358587b
+              - _id: c7365e36-e4fe-41a4-9a17-83a0860777f7
                 type: image
                 fields:
                   id:
                     type: text
-                    value: 67cf9549-d649-4ab6-b6f1-cec07db58150
+                    value: 2d06cb01-b8aa-490b-8567-43a27046030d
                   url:
                     value: >-
-                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/Cu-UPnc4SI2iTGe6KSpqJw-uniglobe.png
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
                     type: text
                   file:
                     type: file
-                    value: ccf4da80-b9ed-45fb-b1e8-970cd8229fd0
+                    value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
                   size:
-                    value: 60405
+                    value: 18253
                     type: number
                   title:
                     type: text
-                    value: Logo Uniglobe (PNG)
+                    value: Logo Uniglobe (SVG)
                   width:
                     value: 358
                     type: number
@@ -147,7 +147,7 @@ composition:
                     value: 335
                     type: number
                   mediaType:
-                    value: image/png
+                    value: image/svg+xml
                     type: text
                 _source: uniform-assets
             it-IT:
@@ -839,5 +839,5 @@ composition:
     - it-IT
   _pattern: 3cf98231-24a0-4007-a17e-eb16c19e8abf
 created: '2024-09-19T15:05:13.631235+00:00'
-modified: '2025-07-10T13:03:30.137667+00:00'
+modified: '2025-11-10T18:41:50.127104+00:00'
 pattern: false

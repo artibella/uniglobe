@@ -24,35 +24,66 @@ composition:
           image:
             type: asset
             value:
-              - _id: 749a0108-de12-493f-a28d-f9a77e854d30
+              - _id: b4581a29-e2d9-4839-a871-5429f37c4dc5
                 type: image
                 fields:
-                  id:
-                    type: text
-                    value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                   url:
-                    value: >-
-                      https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/4hcYr7zqQ4GHq5dPjrq09Q-rectangle.webp
                     type: text
-                  file:
-                    type: file
-                    value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
-                  size:
-                    value: 49092
-                    type: number
+                    value: >-
+                      https://images.unsplash.com/photo-1508614999368-9260051292e5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxncmFkaWVudHxlbnwwfHx8fDE3NjI3OTk5Nzd8MA&ixlib=rb-4.1.0&q=85
                   title:
                     type: text
-                    value: rectangle.webp
+                    value: >-
+                      Prints available at http://bit.ly/cesarprints
+
+
+                      I'm releasing my series of sky gradients photography. It's
+                      a collection of 16 photos of clear sky gradients from
+                      sunrise, sunset, or during the day situations. There's
+                      also some long exposure with some drag of the ocean cases.
+                      It's a very minimal series that would be great for desktop
+                      or mobile wallpapers.
                   width:
-                    value: 1600
                     type: number
+                    value: 5760
+                  custom:
+                    type: object
+                    value:
+                      color: '#c0c0c0'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-couple-of-cows-standing-on-top-of-a-grass-covered-field-27HiryxnHJk
+                      blurHash: LuOC?At6Rjo21Ra#bFbHVYbGafjZ
+                      sourceId: 27HiryxnHJk
+                      createdAt: '2017-10-21T19:43:50Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-couple-of-cows-standing-on-top-of-a-grass-covered-field-27HiryxnHJk
+                      updatedAt: '2025-11-10T13:37:53Z'
+                      authorName: César Couto
+                      downloadUrl: >-
+                        https://unsplash.com/photos/27HiryxnHJk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxncmFkaWVudHxlbnwwfHx8fDE3NjI3OTk5Nzd8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1508614999368-9260051292e5?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxncmFkaWVudHxlbnwwfHx8fDE3NjI3OTk5Nzd8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1508614999368-9260051292e5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxncmFkaWVudHxlbnwwfHx8fDE3NjI3OTk5Nzd8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1508614999368-9260051292e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxncmFkaWVudHxlbnwwfHx8fDE3NjI3OTk5Nzd8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1508614999368-9260051292e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxncmFkaWVudHxlbnwwfHx8fDE3NjI3OTk5Nzd8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: xcrap
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1508614999368-9260051292e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxncmFkaWVudHxlbnwwfHx8fDE3NjI3OTk5Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@xcrap
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/27HiryxnHJk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxncmFkaWVudHxlbnwwfHx8fDE3NjI3OTk5Nzd8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1652656566523-cb08ce516971image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
                   height:
-                    value: 689
                     type: number
-                  mediaType:
-                    value: image/webp
+                    value: 3840
+                  description:
                     type: text
-                _source: uniform-assets
+                    value: Photo by César Couto on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
           title:
             type: text
             value: Page Title
@@ -142,6 +173,6 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-07-03T19:06:40.542672+00:00'
-modified: '2025-07-03T19:07:42.541084+00:00'
+created: '2024-08-20T10:20:40.261891+00:00'
+modified: '2025-11-10T18:39:46.996925+00:00'
 pattern: true

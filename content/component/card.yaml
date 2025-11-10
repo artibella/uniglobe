@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: card
 name: Card
@@ -40,6 +40,7 @@ parameters:
       childrenParams:
         - description
         - lineCountRestriction
+        - descriptionLineCount
   - id: description
     name: Description
     type: text
@@ -80,6 +81,16 @@ parameters:
           value: '6'
       maxValue: 10
       minValue: 0
+  - id: descriptionLineCount
+    name: Line count
+    type: number
+    guidance: Restrict line count of description field
+    typeConfig:
+      max: '6'
+      min: '1'
+      steps: 1
+      editor: slider-number-field
+      useSteps: true
   - id: group_badge
     name: Badge
     type: group
@@ -308,7 +319,7 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:43.206652+00:00'
-updated: '2025-07-31T08:23:49.858587+00:00'
+updated: '2025-11-10T18:02:15.892362+00:00'
 variants:
   - id: backgroundImage
     name: Background Image

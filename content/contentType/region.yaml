@@ -103,13 +103,7 @@ description: >-
   destinations and helping travelers browse by broader geographic areas.
 icon: pin
 type: contentType
-permissions:
-  - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
-    permission: read
-    state: 0
-  - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
-    permission: read
-    state: 64
+permissions: []
 previewConfigurations:
   - type: project-map
     id: f7eba10c-97be-4a46-ae77-df46666ea2d8
