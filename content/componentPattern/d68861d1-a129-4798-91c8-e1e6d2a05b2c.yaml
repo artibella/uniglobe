@@ -59,10 +59,10 @@ composition:
                 hideLockedParameters: true
         parameters:
           gapX:
-            type: tp-slider-parameter
+            type: select
             value: small
           gapY:
-            type: tp-slider-parameter
+            type: select
             value: none
             conditions:
               - id: 0
@@ -76,8 +76,8 @@ composition:
                       source: deviceType
                 value: medium
           columnsCount:
-            type: tp-slider-parameter
-            value: '3'
+            type: number
+            value: 3
             conditions:
               - id: 0
                 when:

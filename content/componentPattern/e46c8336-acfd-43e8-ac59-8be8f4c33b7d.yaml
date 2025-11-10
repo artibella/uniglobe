@@ -105,7 +105,7 @@ composition:
       type: select
       value: inter
     syntheticGap:
-      type: tp-slider-parameter
+      type: select
       value: Medium
     linksAlignment:
       type: tp-horizontal-align-parameter

@@ -1259,7 +1259,7 @@ composition:
                         value: none
               parameters:
                 gapX:
-                  type: tp-slider-parameter
+                  type: select
                   value: medium
                 gapY:
                   type: tp-slider-parameter

@@ -824,7 +824,7 @@ composition:
                                   textColorVariant: 'yes'
                         parameters:
                           gapX:
-                            type: tp-slider-parameter
+                            type: select
                             value: small
                           gapY:
                             type: tp-slider-parameter
@@ -1055,7 +1055,7 @@ composition:
                                 Nothing does.
                   parameters:
                     gapX:
-                      type: tp-slider-parameter
+                      type: select
                       value: medium
                     gapY:
                       type: tp-slider-parameter

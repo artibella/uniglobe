@@ -428,10 +428,10 @@ composition:
             de-DE: base-300
             it-IT: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: 0%
-            it-IT: 0%
+            de-DE: 0
+            it-IT: 0
   _overridability:
     parameters:
       $viz: 'yes'

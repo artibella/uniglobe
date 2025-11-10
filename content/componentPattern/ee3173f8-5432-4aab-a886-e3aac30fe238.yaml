@@ -138,16 +138,16 @@ composition:
                   type: text
                   value: Download banner
                 rowSpan:
-                  type: tp-slider-parameter
-                  value: '1'
+                  type: number
+                  value: 1
                 rowStart:
-                  type: tp-slider-parameter
+                  type: select
                   value: None
                 columnSpan:
-                  type: tp-slider-parameter
-                  value: '4'
+                  type: number
+                  value: 4
                 columnStart:
-                  type: tp-slider-parameter
+                  type: select
                   value: none
               _overridability:
                 hideLockedParameters: true
@@ -216,7 +216,7 @@ composition:
                         type: select
                         value: contain
                       borderRadius:
-                        type: tp-slider-parameter
+                        type: select
                         value: none
                     _overridability:
                       parameters:
@@ -231,25 +231,25 @@ composition:
                   type: text
                   value: App logo
                 rowSpan:
-                  type: tp-slider-parameter
-                  value: '1'
+                  type: number
+                  value: 1
                 rowStart:
-                  type: tp-slider-parameter
+                  type: select
                   value: None
                 columnSpan:
-                  type: tp-slider-parameter
-                  value: '2'
+                  type: number
+                  value: 2
                 columnStart:
-                  type: tp-slider-parameter
+                  type: select
                   value: none
               _overridability:
                 hideLockedParameters: true
         parameters:
           gapX:
-            type: tp-slider-parameter
+            type: select
             value: medium
           gapY:
-            type: tp-slider-parameter
+            type: select
             value: none
           marginTop:
             type: select
@@ -258,9 +258,9 @@ composition:
             type: select
             value: Small
           columnsCount:
-            type: tp-slider-parameter
+            type: number
             locales:
-              en-US: '6'
+              en-US: 6
           marginBottom:
             type: select
             value: None
