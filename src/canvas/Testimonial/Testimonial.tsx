@@ -13,7 +13,16 @@ export const Testimonial: FC<TestimonialProps> = ({ picture, logo, lineCountRest
       {Boolean(logo) && <Image src={getMediaUrl(logo)} width={180} height={90} alt="testimonial-logo" />}
       <div>
         <UniformText
-          className={classNames('text-secondary-content mt-4', getLineClampClass(lineCountRestriction))}
+          className={classNames(
+            'text-secondary-content mt-4',
+            getLineClampClass(
+              lineCountRestriction === 0
+                ? 'none'
+                : lineCountRestriction
+                ? (lineCountRestriction.toString() as Types.AvailableMaxLineCount)
+                : undefined
+            )
+          )}
           as="p"
           parameterId="description"
           placeholder="Testimonial description goes here"

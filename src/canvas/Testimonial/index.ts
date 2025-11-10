@@ -11,7 +11,7 @@ export type TestimonialProps = ComponentProps<{
   picture?: string | Asset;
   logo?: string | Asset;
   description: string;
-  lineCountRestriction: Types.AvailableMaxLineCount;
+  lineCountRestriction?: number;
 }>;
 
 [undefined, TestimonialVariant.CardWrapped].forEach(variantId =>

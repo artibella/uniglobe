@@ -234,8 +234,8 @@ composition:
                         locales:
                           en-US: Frequent Traveler
                       lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: none
+                        type: number
+                        value: 0
                   - _id: 53b2d99a-ccd7-4782-97da-25e1f38931aa
                     type: testimonial
                     variant: cardWrapped
@@ -325,8 +325,8 @@ composition:
                         locales:
                           en-US: Frequent Traveler
                       lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: none
+                        type: number
+                        value: 0
               parameters:
                 gapX:
                   type: tp-slider-parameter
