@@ -70,12 +70,12 @@ composition:
       locales:
         en-US: base-300
     overlayOpacity:
-      type: tp-slider-parameter
+      type: number
       locales:
-        en-US: 30%
-    lineCountRestriction:
-      type: tp-slider-parameter
-      value: none
+        en-US: 30
+    descriptionLineCount:
+      type: number
+      value: 0
   _overridability:
     parameters:
       badge: 'yes'

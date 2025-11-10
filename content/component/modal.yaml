@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: modal
 name: Modal
@@ -28,27 +28,23 @@ parameters:
         - maxWidth
   - id: maxWidth
     name: Max Width
-    type: tp-slider-parameter
+    type: select
     guidance: >-
       Set the maximum width for the modal dialog. Choose a size that
       accommodates your content while maintaining readability.
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
+      editor: slider
       options:
-        - label: None
+        - text: None
           value: None
-        - label: Small
+        - text: Small
           value: small
-        - label: Medium
+        - text: Medium
           value: medium
-        - label: Large
+        - text: Large
           value: large
-        - label: X Large
+        - text: X Large
           value: xLarge
-      maxValue: 10
-      minValue: 0
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 description: >-
   Displays content in a modal dialog that overlays the page. Use for pop-ups,
@@ -74,4 +70,4 @@ slots:
     patternsInAllowedComponents: false
 canBeComposition: false
 created: '2024-01-15T09:26:43.546335+00:00'
-updated: '2025-07-31T08:48:30.313292+00:00'
+updated: '2025-11-10T21:40:36.274647+00:00'

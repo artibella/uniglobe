@@ -159,7 +159,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -247,7 +247,7 @@ composition:
             locales:
               en-US: 86% of gap year students say it improved their self-confidence
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -347,9 +347,9 @@ composition:
                       Thailand, or support renewable energy projects in Morocco.
                       Make a real environmental impact while gaining hands-on
                       experience in sustainability.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 712719a2-e107-4490-9268-d859fd62d008
               type: card
               parameters:
@@ -431,9 +431,9 @@ composition:
                       participate in community projects across 30+ countries.
                       Experience authentic cultures while supporting
                       community-based tourism initiatives.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: b57a7c83-dd7a-46af-b6a9-c5354b768695
               type: card
               parameters:
@@ -515,9 +515,9 @@ composition:
                       wilderness survival, practice photography in remote
                       villages, or master sustainable farming techniques.
                       Adventure that builds your resume too.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: cf2d133e-e5f4-40c0-b375-8959b5fac09d
               type: card
               parameters:
@@ -612,7 +612,7 @@ composition:
             locales:
               en-US: See All Experiences
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -628,7 +628,7 @@ composition:
             locales:
               en-US: Start planning your life-changing gap year today
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1144,14 +1144,14 @@ composition:
                   locales:
                     en-US: Real stories from real travelers
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h2
             - _id: 27ce5d0b-e4c8-4e6e-9019-3312cade5043
               type: spacer
               parameters:
                 thickness:
-                  type: tp-slider-parameter
-                  value: 30px
+                  type: number
+                  value: 30
             - _id: 1d28d9a1-e38f-4db4-9640-8f54bd927526
               type: review
               parameters:
@@ -1159,8 +1159,8 @@ composition:
                   type: text
                   value: 'Gap year: July 2024 - June 2025'
                 stars:
-                  type: tp-slider-parameter
-                  value: '5'
+                  type: number
+                  value: 5
                 title:
                   type: text
                   locales:
@@ -1231,9 +1231,6 @@ composition:
                       fluently, but I also discovered my passion for
                       environmental engineering. Plus, the experience helped me
                       get into my top choice college program.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
             - _id: f66ddd41-42e2-4de7-8ad3-ae184e8eab88
               type: review
               parameters:
@@ -1241,8 +1238,8 @@ composition:
                   type: text
                   value: 'Gap year: May 2023 - June 2024'
                 stars:
-                  type: tp-slider-parameter
-                  value: '5'
+                  type: number
+                  value: 5
                 title:
                   type: text
                   locales:
@@ -1315,9 +1312,6 @@ composition:
                       New Zealand, taught English in rural Vietnam, and did
                       marine conservation in the Philippines. Best decision I
                       ever made.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
       - _id: 586bcc54-aa07-46bc-ab60-0349c2285508
         type: accordion
         slots:
@@ -1449,7 +1443,7 @@ composition:
             locales:
               en-US: Don't let this be another year you wonder 'what if?'
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text

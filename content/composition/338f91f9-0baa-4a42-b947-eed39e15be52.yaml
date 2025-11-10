@@ -609,7 +609,7 @@ composition:
                                 Don’t forget your towel (and reusable water
                                 bottle)
                           titleStyle:
-                            type: tp-title-style-parameter
+                            type: select
                             value: h2
                           description:
                             type: text
@@ -737,7 +737,7 @@ composition:
                       locales:
                         en-US: Infinite improbability checklist
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -824,15 +824,15 @@ composition:
                                   textColorVariant: 'yes'
                         parameters:
                           gapX:
-                            type: tp-slider-parameter
+                            type: select
                             value: small
                           gapY:
-                            type: tp-slider-parameter
+                            type: select
                             value: small
                           columnsCount:
-                            type: tp-slider-parameter
+                            type: number
                             locales:
-                              en-US: '1'
+                              en-US: 1
                             localesConditions:
                               en-US:
                                 - id: 0
@@ -851,7 +851,7 @@ composition:
                       locales:
                         en-US: Discover authentic travel experiences
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -899,7 +899,7 @@ composition:
                       locales:
                         en-US: Grab the guide that’s more useful than a Babel Fish
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -974,8 +974,8 @@ composition:
                         type: review
                         parameters:
                           stars:
-                            type: tp-slider-parameter
-                            value: '5'
+                            type: number
+                            value: 5
                           title:
                             type: text
                             locales:
@@ -996,8 +996,8 @@ composition:
                         type: review
                         parameters:
                           stars:
-                            type: tp-slider-parameter
-                            value: '5'
+                            type: number
+                            value: 5
                           title:
                             type: text
                             locales:
@@ -1017,8 +1017,8 @@ composition:
                         type: review
                         parameters:
                           stars:
-                            type: tp-slider-parameter
-                            value: '5'
+                            type: number
+                            value: 5
                           title:
                             type: text
                             locales:
@@ -1055,15 +1055,15 @@ composition:
                                 Nothing does.
                   parameters:
                     gapX:
-                      type: tp-slider-parameter
+                      type: select
                       value: medium
                     gapY:
-                      type: tp-slider-parameter
+                      type: select
                       value: medium
                     columnsCount:
-                      type: tp-slider-parameter
+                      type: number
                       locales:
-                        en-US: '1'
+                        en-US: 1
                       localesConditions:
                         en-US:
                           - id: 0
@@ -1190,7 +1190,7 @@ composition:
                       locales:
                         en-US: Galactic Travels Doesn’t Exist (Yet!)
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -1314,8 +1314,8 @@ composition:
           type: tp-background-type-parameter
           value: Dark
         overlayOpacity:
-          type: tp-slider-parameter
-          value: 0%
+          type: number
+          value: 0
         textColorVariant:
           type: select
           value: Light

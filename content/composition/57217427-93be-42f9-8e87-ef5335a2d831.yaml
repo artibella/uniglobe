@@ -388,7 +388,7 @@ composition:
                       locales:
                         en-US: Different While Working Remotely
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -459,7 +459,7 @@ composition:
                                       At Uniglobe, we understand that digital
                                       nomads need reliable connectivity, but
                                       also crave meaningful connections to local
-                                      communities and sustainable practices. 
+                                      communities and sustainable practices.
                                     type: text
                                     style: ''
                                     detail: 0
@@ -742,9 +742,9 @@ composition:
                                 internet, community kitchen, and weekly
                                 skillshares with local tech entrepreneurs.
                                 20-minute walk to public transport.
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                       - _id: a514ac17-2b12-4c95-a5e4-28a277bfa995
                         type: card
                         parameters:
@@ -834,9 +834,9 @@ composition:
                                 beachfront access, and partnerships with local
                                 sustainable restaurants. Includes language
                                 exchange program.
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                       - _id: 2eed140a-a79e-4bae-bc4e-ee97a37029b5
                         type: card
                         parameters:
@@ -928,9 +928,9 @@ composition:
                                 internet, renewable energy, and proximity to
                                 hiking trails. Includes weekly dinners with
                                 local residents.
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                   variant: carousel
                   parameters:
                     title:
@@ -938,7 +938,7 @@ composition:
                       locales:
                         en-US: Some of our highlights
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
             parameters:
               marginTop:
@@ -1029,7 +1029,7 @@ composition:
                               dim: budgetTraveler
                               name: Budget Traveler
                           titleStyle:
-                            type: tp-title-style-parameter
+                            type: select
                             value: h2
                           description:
                             type: text
@@ -1069,7 +1069,7 @@ composition:
                             value:
                               name: Default
                           titleStyle:
-                            type: tp-title-style-parameter
+                            type: select
                             value: h2
                           description:
                             type: text
@@ -1190,8 +1190,8 @@ composition:
           type: tp-background-type-parameter
           value: Dark
         overlayOpacity:
-          type: tp-slider-parameter
-          value: 0%
+          type: number
+          value: 0
         primaryButtonCopy:
           type: text
           locales:

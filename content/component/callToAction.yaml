@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: callToAction
 name: Call to Action
@@ -36,12 +36,20 @@ parameters:
       linesCount: '3'
     localizable: true
   - id: titleStyle
-    name: Title Style
-    type: tp-title-style-parameter
-    guidance: >-
-      Choose a title style that creates appropriate visual hierarchy and matches
-      your brand's typography system.
-    typeConfig: null
+    name: Title style
+    type: select
+    guidance: Choose a heading tag.
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: H1
+          value: h1
+        - text: H2
+          value: h2
+        - text: H3
+          value: h3
+        - text: H4
+          value: h4
   - id: description
     name: Description
     type: text
@@ -156,10 +164,13 @@ parameters:
       Choose the text color variant that provides the best contrast and
       readability against your background.
     typeConfig:
+      editor: segmented-control
       options:
-        - text: Dark
+        - icon: eye-alt
+          text: Dark
           value: Dark
-        - text: Light
+        - icon: eye
+          text: Light
           value: Light
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 description: >-
@@ -172,7 +183,7 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:41.819556+00:00'
-updated: '2025-07-31T08:46:33.776887+00:00'
+updated: '2025-10-31T18:11:01.260525+00:00'
 variants:
   - id: alignLeft
     name: Align Left

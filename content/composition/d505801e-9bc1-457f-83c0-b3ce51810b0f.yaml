@@ -99,7 +99,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -340,7 +340,7 @@ composition:
                   locales:
                     en-US: Cast your first spell with reusable magic
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -700,7 +700,7 @@ composition:
                   locales:
                     en-US: The wizard’s packing list
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text

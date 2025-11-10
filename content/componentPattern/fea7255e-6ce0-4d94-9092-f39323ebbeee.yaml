@@ -4,10 +4,10 @@ composition:
   type: grid
   parameters:
     gapX:
-      type: tp-slider-parameter
+      type: select
       value: none
     gapY:
-      type: tp-slider-parameter
+      type: select
       value: none
     title:
       type: text
@@ -19,8 +19,8 @@ composition:
       type: select
       value: None
     columnsCount:
-      type: tp-slider-parameter
-      value: '8'
+      type: number
+      value: 8
     marginBottom:
       type: select
       value: None
@@ -45,8 +45,8 @@ composition:
                         type: text
                         value: July 12, 2021
                       stars:
-                        type: tp-slider-parameter
-                        value: '5'
+                        type: number
+                        value: 5
                       title:
                         type: text
                         value: Can't say enough good things!
@@ -100,8 +100,8 @@ composition:
                         type: select
                         value: Dark
                       lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: '5'
+                        type: number
+                        value: 5
                     _overridability:
                       variants: true
                       parameters:
@@ -123,8 +123,8 @@ composition:
                         type: text
                         value: July 12, 2021
                       stars:
-                        type: tp-slider-parameter
-                        value: '4'
+                        type: number
+                        value: 4
                       title:
                         type: text
                         value: The last shirts I may ever need
@@ -176,8 +176,8 @@ composition:
                         type: select
                         value: Dark
                       lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: '5'
+                        type: number
+                        value: 5
                     _overridability:
                       variants: true
                       parameters:
@@ -199,8 +199,8 @@ composition:
                         type: text
                         value: July 12, 2021
                       stars:
-                        type: tp-slider-parameter
-                        value: '5'
+                        type: number
+                        value: 5
                       title:
                         type: text
                         value: Very comfy and looks the part
@@ -254,8 +254,8 @@ composition:
                         type: select
                         value: Dark
                       lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: '5'
+                        type: number
+                        value: 5
                     _overridability:
                       variants: true
                       parameters:
@@ -271,10 +271,10 @@ composition:
                         lineCountRestriction: 'yes'
               parameters:
                 gapX:
-                  type: tp-slider-parameter
+                  type: select
                   value: none
                 gapY:
-                  type: tp-slider-parameter
+                  type: select
                   value: none
                 title:
                   type: text
@@ -286,8 +286,8 @@ composition:
                   type: select
                   value: None
                 columnsCount:
-                  type: tp-slider-parameter
-                  value: '1'
+                  type: number
+                  value: 1
                 marginBottom:
                   type: select
                   value: None
@@ -311,16 +311,16 @@ composition:
             type: text
             value: Grouped Section
           rowSpan:
-            type: tp-slider-parameter
-            value: '1'
+            type: number
+            value: 1
           rowStart:
-            type: tp-slider-parameter
+            type: select
             value: None
           columnSpan:
-            type: tp-slider-parameter
-            value: '6'
+            type: number
+            value: 6
           columnStart:
-            type: tp-slider-parameter
+            type: select
             value: '2'
         _overridability:
           parameters:

@@ -25,7 +25,7 @@ export type ReviewProps = ComponentProps<{
   textColorVariant: Types.AvailableTextColorVariant;
   starsColor: Types.AvailableColor;
   showReviewLabel: boolean;
-  lineCountRestriction: Types.AvailableMaxLineCount;
+  lineCountRestriction?: number;
   styles?: Style;
 }>;
 

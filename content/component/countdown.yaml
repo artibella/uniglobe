@@ -24,25 +24,20 @@ parameters:
     typeConfig: null
   - id: size
     name: Size
-    type: tp-slider-parameter
+    type: select
     guidance: >-
       Choose the size of the countdown display that fits well with your page
       layout and draws appropriate attention.
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
       options:
-        - label: Tiny
+        - text: Tiny
           value: tiny
-        - label: Small
+        - text: Small
           value: small
-        - label: Normal
+        - text: Normal
           value: normal
-        - label: Large
+        - text: Large
           value: large
-      maxValue: 10
-      minValue: 0
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
 description: >-
   Displays a live countdown timer to a specific date and time. Use for product

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: hero
 name: Hero
@@ -40,9 +40,19 @@ parameters:
     localizable: true
     allowConditionalValues: true
   - id: titleStyle
-    name: Title Style
-    type: tp-title-style-parameter
-    typeConfig: null
+    name: Title style
+    type: select
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: H1
+          value: h1
+        - text: H2
+          value: h2
+        - text: H3
+          value: h3
+        - text: H4
+          value: h4
   - id: description
     name: Description
     type: text
@@ -192,18 +202,16 @@ parameters:
     typeConfig: null
   - id: overlayOpacity
     name: Overlay Opacity
-    type: tp-slider-parameter
+    type: number
     guidance: >-
       Choose the text color variant that provides the best contrast and
       readability against your background.
     typeConfig:
-      step: 10
-      type: steps
-      unit: px
-      units: '%'
-      options: []
-      maxValue: 100
-      minValue: 0
+      max: '100'
+      min: '0'
+      steps: 10
+      editor: slider-number-field
+      useSteps: true
   - id: group_presentationSettings
     name: Presentation Settings
     type: group
@@ -233,13 +241,16 @@ parameters:
     name: Text Color Variant
     type: select
     guidance: >-
-      Set top padding to control spacing above hero content and maintain visual
-      hierarchy.
+      Choose the text color variant that provides the best contrast and
+      readability against your background.
     typeConfig:
+      editor: segmented-control
       options:
-        - text: Dark
+        - icon: eye-alt
+          text: Dark
           value: Dark
-        - text: Light
+        - icon: eye
+          text: Light
           value: Light
   - id: containerVariant
     name: Container Variant
@@ -399,7 +410,7 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:43.56116+00:00'
-updated: '2025-07-31T08:24:46.370909+00:00'
+updated: '2025-10-31T17:40:13.206395+00:00'
 variants:
   - id: imageLeft
     name: Image Left

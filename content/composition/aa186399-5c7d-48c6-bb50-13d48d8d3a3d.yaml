@@ -200,7 +200,7 @@ composition:
                       locales:
                         en-US: What is conscious travel?
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -410,9 +410,9 @@ composition:
                           textColorVariant:
                             type: select
                             value: Light
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                       - _id: e9fb1f63-3b35-41ea-b7f8-563e68ae16f5
                         type: card
                         parameters:
@@ -439,7 +439,7 @@ composition:
 
 
                                         Follow me at Instagram.com/charleypangus
-                                        for more photos.  
+                                        for more photos.
                                     width:
                                       type: number
                                       value: 5965
@@ -509,9 +509,9 @@ composition:
                           textColorVariant:
                             type: select
                             value: Light
-                          lineCountRestriction:
-                            type: tp-slider-parameter
-                            value: none
+                          descriptionLineCount:
+                            type: number
+                            value: 0
                       - _id: 1922f4c8-cc4a-433f-9cf0-8fc1c858b78c
                         type: card
                         parameters:
@@ -788,7 +788,7 @@ composition:
                       locales:
                         en-US: Travel styles that fit your values
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -1079,7 +1079,7 @@ composition:
                       locales:
                         en-US: How to make every trip climate-friendly
                     titleStyle:
-                      type: tp-title-style-parameter
+                      type: select
                       value: h2
                     description:
                       type: text
@@ -1126,7 +1126,7 @@ composition:
                                   op: +
                               name: Gen Z (Emojis)
                           titleStyle:
-                            type: tp-title-style-parameter
+                            type: select
                             value: h2
                           description:
                             type: text
@@ -1169,7 +1169,7 @@ composition:
                               dim: profile_mil
                               name: Millennial
                           titleStyle:
-                            type: tp-title-style-parameter
+                            type: select
                             value: h2
                           description:
                             type: text
@@ -1212,7 +1212,7 @@ composition:
                               crit: []
                               name: Default
                           titleStyle:
-                            type: tp-title-style-parameter
+                            type: select
                             value: h2
                           description:
                             type: text

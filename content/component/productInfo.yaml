@@ -47,7 +47,7 @@ parameters:
     localizable: true
   - id: titleStyle
     name: Title Style
-    type: tp-title-style-parameter
+    type: select
     guidance: >-
       Choose a title style that creates appropriate visual hierarchy and
       emphasizes the product importance.
@@ -222,18 +222,16 @@ parameters:
     typeConfig: null
   - id: overlayOpacity
     name: Overlay Opacity
-    type: tp-slider-parameter
+    type: number
     guidance: >-
       Set overlay opacity to balance text readability with product image
       clarity.
     typeConfig:
-      step: 10
-      type: steps
-      unit: px
-      units: '%'
-      options: []
-      maxValue: 100
-      minValue: 0
+      max: '100'
+      min: '0'
+      steps: 10
+      editor: slider-number-field
+      useSteps: true
   - id: group_presentationSettings
     name: Presentation Settings
     type: group

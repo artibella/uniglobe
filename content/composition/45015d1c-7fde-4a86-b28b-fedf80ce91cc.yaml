@@ -84,7 +84,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -203,7 +203,7 @@ composition:
             locales:
               en-US: Unlock freedom and adventure with a sabbatical.
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -229,7 +229,7 @@ composition:
                   locales:
                     en-US: Explore a World of Sabbatical Destinations
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -407,9 +407,9 @@ composition:
                     en-US: >-
                       Track expenses and use local markets to stretch your
                       travel funds.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 377e07c2-e3bb-4d32-82b6-87ddda655992
               type: card
               parameters:
@@ -482,9 +482,9 @@ composition:
                     en-US: >-
                       Join a local event or take a class to meet people and
                       learn new customs.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: d71f7fe3-9ec5-42fb-9c00-b177bdc1343f
               type: card
               parameters:
@@ -638,7 +638,7 @@ composition:
             locales:
               en-US: Unforgettable Sabbatical Journeys
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text

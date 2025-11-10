@@ -354,7 +354,7 @@ composition:
             type: select
             value: None
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -382,8 +382,8 @@ composition:
             type: tp-background-type-parameter
             value: Dark
           overlayOpacity:
-            type: tp-slider-parameter
-            value: 40%
+            type: number
+            value: 40
           containerVariant:
             type: select
             value: fluidContent
@@ -523,7 +523,7 @@ composition:
                   type: select
                   value: cover
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -548,8 +548,8 @@ composition:
                   type: tp-background-type-parameter
                   value: Medium
                 overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 0%
+                  type: number
+                  value: 0
                 containerVariant:
                   type: select
                   value: backgroundInContainer
@@ -660,7 +660,7 @@ composition:
                   type: select
                   value: cover
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -685,8 +685,8 @@ composition:
                   type: tp-background-type-parameter
                   value: Medium
                 overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 0%
+                  type: number
+                  value: 0
                 containerVariant:
                   type: select
                   value: backgroundInContainer
@@ -728,9 +728,9 @@ composition:
           locales:
             en-US: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 60%
+            en-US: 60
         textColorVariant:
           type: select
           value: Light
@@ -807,9 +807,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 40%
+            de-AT: 40
             de-CH: 40%
             de-DE: 40%
             en-US: 40%
@@ -954,9 +954,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -993,160 +993,8 @@ composition:
           value:
             crit: []
             name: destinations-default
-    79eadb73-5885-4f96-9cdc-09c5feac3f3b:
+    6b4544e8-8e3d-4530-a8eb-c29669a3ff43:
       parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-        image:
-          type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-        title:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
-        badgeSize:
-          type: select
-          value: sm
-        objectFit:
-          type: select
-          locales:
-            de-AT: cover
-            de-CH: cover
-            de-DE: cover
-            en-US: cover
-            fr-CH: cover
-        badgeStyle:
-          type: tp-badge-style-parameter
-          value: primary
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        buttonLink:
-          type: link
-          locales:
-            de-AT:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            de-DE:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-            fr-CH:
-              path: >-
-                /${locale}/destinations/${#jptr:/Country/entry/fields/region/value/entry/_slug}/${#jptr:/Country/entry/_slug}
-              type: projectMapNode
-              nodeId: 36233b0d-5cd2-4a58-8aa5-760f101ef191
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
-                region: ${#jptr:/Country/entry/fields/region/value/entry/_slug}
-                destination: ${#jptr:/Country/entry/_slug}
-          localesConditions:
-            de-AT:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            de-DE:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-            fr-CH:
-              - id: 0
-                when:
-                  clauses:
-                    - op: is
-                      rule: $dt
-                      value: link
-                      source: ${#jptr:/Country/entry/fields/detailURL/type}
-                value: ${#jptr:/Country/entry/fields/detailURL/value:fl=i}
-        buttonStyle:
-          type: tp-button-style-parameter
-          value: primary
-        description:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-        overlayColor:
-          type: tp-color-style-parameter
-          locales:
-            de-AT: base-300
-            de-CH: base-300
-            de-DE: base-300
-            en-US: base-300
-            fr-CH: base-300
-        overlayOpacity:
-          type: tp-slider-parameter
-          locales:
-            de-AT: 40%
-            de-CH: 40%
-            de-DE: 40%
-            en-US: 40%
-            fr-CH: 40%
         textColorVariant:
           type: select
           value: Light
@@ -1155,7 +1003,7 @@ composition:
           type: country
           variables:
             locale: ${locale}
-            entryId: 035a64b1-730e-444c-921a-431bc2712e14
+            entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
     92790865-0e9b-41da-8337-adb815d30697:
       parameters:
         badge:
@@ -1212,9 +1060,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 40%
+            de-AT: 40
             de-CH: 40%
             de-DE: 40%
             en-US: 40%
@@ -1228,6 +1076,17 @@ composition:
           variables:
             locale: ${locale}
             entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+    9645307b-8f25-494a-9e0d-241d2bd99bc1:
+      parameters:
+        textColorVariant:
+          type: select
+          value: Light
+      dataResources:
+        Country:
+          type: country
+          variables:
+            locale: ${locale}
+            entryId: 035a64b1-730e-444c-921a-431bc2712e14
     979922a0-7c92-4bad-abb0-09d8d3c6d436:
       parameters:
         badge:
@@ -1345,9 +1204,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -1460,9 +1319,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -1473,9 +1332,9 @@ composition:
           locales:
             en-US: secondary
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 60%
+            en-US: 60
         textColorVariant:
           type: select
           value: Dark
@@ -1602,9 +1461,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -1715,89 +1574,12 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
-    cd80f548-e7a9-4bb6-8c00-794a32a164b9:
-      parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-        image:
-          type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-        title:
-          type: text
-          locales:
-            de-AT: '${#jptr:/Country/entry/fields/name/value} '
-            de-CH: '${#jptr:/Country/entry/fields/name/value} '
-            de-DE: '${#jptr:/Country/entry/fields/name/value} '
-            en-US: '${#jptr:/Country/entry/fields/name/value} '
-            fr-CH: '${#jptr:/Country/entry/fields/name/value} '
-        badgeSize:
-          type: select
-          value: sm
-        objectFit:
-          type: select
-          locales:
-            de-AT: cover
-            de-CH: cover
-            de-DE: cover
-            fr-CH: cover
-        badgeStyle:
-          type: tp-badge-style-parameter
-          value: primary
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        buttonStyle:
-          type: tp-button-style-parameter
-          value: primary
-        description:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-        overlayColor:
-          type: tp-color-style-parameter
-          locales:
-            de-AT: base-300
-            de-CH: base-300
-            de-DE: base-300
-            en-US: base-300
-            fr-CH: base-300
-        overlayOpacity:
-          type: tp-slider-parameter
-          locales:
-            de-AT: 40%
-            de-CH: 40%
-            de-DE: 40%
-            en-US: 40%
-            fr-CH: 40%
-        textColorVariant:
-          type: select
-          value: Light
     d66927fd-6e90-4bae-8dcb-104e663308e2:
       parameters:
         badge:
@@ -1856,9 +1638,9 @@ composition:
             en-US: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 40%
+            de-AT: 40
             de-CH: 40%
             de-DE: 40%
             en-US: 40%
@@ -1961,9 +1743,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -2084,9 +1866,9 @@ composition:
             de-DE: base-300
             fr-CH: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-AT: 30%
+            de-AT: 30
             de-CH: 30%
             de-DE: 30%
             fr-CH: 30%
@@ -2216,7 +1998,7 @@ composition:
     55bb281d-426f-4c91-9d3a-7a1d73873516|20809b46-57c4-4683-abfb-38920d790266:
       slots:
         $slotSectionItems:
-          - _id: cd80f548-e7a9-4bb6-8c00-794a32a164b9
+          - _id: 6b4544e8-8e3d-4530-a8eb-c29669a3ff43
             type: card
             variant: backgroundImage
             _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
@@ -2243,7 +2025,7 @@ composition:
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
               hideLockedParameters: true
-          - _id: 79eadb73-5885-4f96-9cdc-09c5feac3f3b
+          - _id: 9645307b-8f25-494a-9e0d-241d2bd99bc1
             type: card
             variant: backgroundImage
             _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
@@ -2464,5 +2246,5 @@ composition:
     - de-CH
     - fr-CH
 created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-09-08T13:27:23.187997+00:00'
+modified: '2025-11-07T09:19:05.456966+00:00'
 pattern: false

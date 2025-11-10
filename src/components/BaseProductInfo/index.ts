@@ -25,7 +25,7 @@ export type Props = {
   secondaryButtonLink?: Types.ProjectMapLink;
   secondaryButtonAnimationType?: Types.AnimationType;
   overlayColor?: Types.AvailableColor;
-  overlayOpacity?: Types.AvailableOpacity;
+  overlayOpacity?: number | Types.AvailableOpacity;
   objectFit?: Types.AvailableObjectFit;
   onClickPrimaryButton?: () => void;
   onClickSecondaryButton?: () => void;

@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: gridItem
 name: Grid Item
@@ -15,135 +15,89 @@ parameters:
       required: false
   - id: columnStart
     name: Column Start
-    type: tp-slider-parameter
+    type: select
     guidance: >-
       Specify which column line this grid item should start from. Use this to
       position items precisely within the grid.
     helpText: Use this to make an element start at the nth grid line
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
+      editor: slider
       options:
-        - label: None
+        - text: None
           value: none
-        - label: '1'
+        - text: '1'
           value: '1'
-        - label: '2'
+        - text: '2'
           value: '2'
-        - label: '3'
+        - text: '3'
           value: '3'
-        - label: '4'
+        - text: '4'
           value: '4'
-        - label: '5'
+        - text: '5'
           value: '5'
-        - label: '6'
+        - text: '6'
           value: '6'
-        - label: '7'
+        - text: '7'
           value: '7'
-        - label: '8'
+        - text: '8'
           value: '8'
-        - label: '9'
+        - text: '9'
           value: '9'
-        - label: '10'
+        - text: '10'
           value: '10'
-        - label: '11'
+        - text: '11'
           value: '11'
-        - label: '12'
+        - text: '12'
           value: '12'
-      maxValue: 10
-      minValue: 0
   - id: columnSpan
     name: Column Span
-    type: tp-slider-parameter
+    type: number
     guidance: >-
       Set how many columns this grid item should span across. Use larger spans
       for featured content or important elements.
     helpText: Use this parameter to set number of columns item should span
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
-      options:
-        - label: '1'
-          value: '1'
-        - label: '2'
-          value: '2'
-        - label: '3'
-          value: '3'
-        - label: '4'
-          value: '4'
-        - label: '5'
-          value: '5'
-        - label: '6'
-          value: '6'
-        - label: '7'
-          value: '7'
-        - label: '8'
-          value: '8'
-        - label: '9'
-          value: '9'
-        - label: '10'
-          value: '10'
-        - label: '11'
-          value: '11'
-        - label: '12'
-          value: '12'
-      maxValue: 10
-      minValue: 0
+      max: '12'
+      min: '1'
+      steps: 1
+      editor: slider-number-field
+      useSteps: true
   - id: rowStart
     name: Row Start
-    type: tp-slider-parameter
+    type: select
     guidance: >-
       Specify which row this grid item should start from for precise vertical
       positioning within the grid.
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
+      editor: slider
       options:
-        - label: None
+        - text: None
           value: None
-        - label: '1'
+        - text: '1'
           value: '1'
-        - label: '2'
+        - text: '2'
           value: '2'
-        - label: '3'
+        - text: '3'
           value: '3'
-        - label: '4'
+        - text: '4'
           value: '4'
-        - label: '5'
+        - text: '5'
           value: '5'
-        - label: '6'
+        - text: '6'
           value: '6'
-      maxValue: 10
-      minValue: 0
   - id: rowSpan
     name: Row Span
-    type: tp-slider-parameter
+    type: number
     guidance: >-
       Set how many rows this grid item should span vertically. Use for content
       that needs more vertical space.
     helpText: Use this parameter to set number of row item should span
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
-      options:
-        - label: '1'
-          value: '1'
-        - label: '2'
-          value: '2'
-        - label: '3'
-          value: '3'
-        - label: '4'
-          value: '4'
-        - label: '5'
-          value: '5'
-        - label: '6'
-          value: '6'
-      maxValue: 10
-      minValue: 0
+      max: '6'
+      min: '1'
+      steps: 1
+      editor: slider-number-field
+      useSteps: true
 categoryId: 19f9419d-14da-496d-a4ac-eec5010e13d7
 description: >-
   A single item within a grid layout. Use to control the position and span of
@@ -182,4 +136,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2024-01-15T09:26:43.696193+00:00'
-updated: '2025-07-31T08:47:43.094773+00:00'
+updated: '2025-11-10T21:25:33.060715+00:00'

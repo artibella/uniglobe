@@ -1,0 +1,41 @@
+asset:
+  type: image
+  _id: 7449980a-1875-48b0-b127-61b785b2ac8c
+  _name: >-
+    amboseli-national-park-kenya-by-sergey-pesterev-unsplash-regular-wdMWMHXU.jpg
+  fields:
+    title:
+      type: text
+      value: Safari Afica
+    description:
+      type: text
+      value: >-
+        A safari vehicle drives on a dusty road surrounded by acacia trees in
+        Amboseli National Park, Kenya during a golden sunset.
+    file:
+      type: file
+      value: 2d2ecdf3-1046-4e4e-8686-d5a45926787d
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/zd1VOZjJQmymCZ3qwpPg_g-amboseli-national-park-kenya-by-sergey-pesterev-unsplash-regular-wdMWMHXU.jpg
+      type: text
+    size:
+      value: 80257
+      type: number
+    width:
+      value: 1080
+      type: number
+    height:
+      value: 723
+      type: number
+    focalPoint:
+      value:
+        x: 0.51
+        'y': 0
+      type: focalPoint
+    custom: {}
+created: '2025-11-04T10:42:48.061116+00:00'
+modified: '2025-11-04T10:45:39.234925+00:00'

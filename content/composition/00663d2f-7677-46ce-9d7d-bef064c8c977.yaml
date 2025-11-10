@@ -169,7 +169,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -343,7 +343,7 @@ composition:
             locales:
               en-US: Why travel after college?
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -644,9 +644,9 @@ composition:
                     en-US: >-
                       Volunteer in education initiatives while exploring vibrant
                       cities.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: aa94b284-f57a-4176-9066-fea14e705c66
               type: card
               parameters:
@@ -712,10 +712,10 @@ composition:
                 description:
                   type: text
                   locales:
-                    en-US: Help with marine conservation while island hopping.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                    en-US: Help with marine conservation while                       island hopping.
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: fc979ec4-a974-41c8-b0b7-78d510792cd8
               type: card
               parameters:
@@ -855,7 +855,7 @@ composition:
             locales:
               en-US: Top destinations for recent graduate adventures
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -980,16 +980,16 @@ composition:
                                     direction: null
                     parameters:
                       rowSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       rowStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: None
                       columnSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       columnStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: none
                   - _id: 169a3c85-3651-4080-901d-f16fb66834f5
                     type: gridItem
@@ -1112,16 +1112,16 @@ composition:
                                     direction: null
                     parameters:
                       rowSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       rowStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: None
                       columnSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       columnStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: none
                   - _id: 39d5bf9f-01fb-4668-9d17-3ab93c7bc786
                     type: gridItem
@@ -1246,28 +1246,28 @@ composition:
                                     direction: null
                     parameters:
                       rowSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       rowStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: None
                       columnSpan:
-                        type: tp-slider-parameter
-                        value: '1'
+                        type: number
+                        value: 1
                       columnStart:
-                        type: tp-slider-parameter
+                        type: select
                         value: none
               parameters:
                 gapX:
-                  type: tp-slider-parameter
+                  type: select
                   value: medium
                 gapY:
-                  type: tp-slider-parameter
+                  type: select
                   value: none
                 columnsCount:
-                  type: tp-slider-parameter
+                  type: number
                   locales:
-                    en-US: '3'
+                    en-US: 3
         parameters:
           backgroundType:
             type: tp-background-type-parameter
@@ -1397,7 +1397,7 @@ composition:
             locales:
               en-US: Ready to travel with purpose?
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1428,7 +1428,7 @@ composition:
             locales:
               en-US: Still deciding?
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text

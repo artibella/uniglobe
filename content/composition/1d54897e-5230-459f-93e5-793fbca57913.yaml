@@ -136,7 +136,7 @@ composition:
             type: select
             value: cover
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -155,8 +155,8 @@ composition:
             type: tp-background-type-parameter
             value: Dark
           overlayOpacity:
-            type: tp-slider-parameter
-            value: 30%
+            type: number
+            value: 30
           textColorVariant:
             type: select
             value: Light
@@ -228,7 +228,7 @@ composition:
             locales:
               en-US: 84% of women say solo travel is their most empowering experience
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -325,9 +325,9 @@ composition:
                       Join women's cooperatives, learn traditional crafts, and
                       support female artisans for authentic cultural
                       experiences.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 1f0398cc-f4f5-43f5-a935-0e9992a19a52
               type: card
               parameters:
@@ -406,9 +406,9 @@ composition:
                       Find safe, comfortable stays personally inspected by
                       female travel scouts, from women-only hostels to family
                       guesthouses.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 57cab6d9-30a6-4feb-bb74-3df65ee7dfe2
               type: card
               parameters:
@@ -485,10 +485,10 @@ composition:
                   locales:
                     en-US: >-
                       Join small groups of women for global adventures, from
-                      wildlife in Kenya to startups in Buenos Aires.
-                lineCountRestriction:
-                  type: tp-slider-parameter
-                  value: none
+                      wildlife in Kenya to startups in                       Buenos Aires.
+                descriptionLineCount:
+                  type: number
+                  value: 0
             - _id: 492eda50-7582-48e5-9d91-a67c27e503c2
               type: card
               parameters:
@@ -588,7 +588,7 @@ composition:
               dynamicInputValues:
                 locale: ${locale}
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -604,7 +604,7 @@ composition:
             locales:
               en-US: Start your solo journey with a community that has your back
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1620,7 +1620,7 @@ composition:
             locales:
               en-US: Stop waiting for someone else to be ready for your dreams
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text

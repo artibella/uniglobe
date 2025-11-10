@@ -34,7 +34,7 @@ export type HeroProps = ComponentProps<
     secondaryButtonStyle: Types.ButtonStyles;
     secondaryButtonAnimationType?: Types.AnimationType;
     overlayColor?: Types.AvailableColor;
-    overlayOpacity?: Types.AvailableOpacity;
+    overlayOpacity?: number | Types.AvailableOpacity;
     objectFit?: Types.AvailableObjectFit;
     useCustomTextElements?: boolean;
     fullHeight?: boolean;

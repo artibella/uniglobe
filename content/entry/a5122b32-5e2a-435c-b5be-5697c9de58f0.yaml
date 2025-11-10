@@ -1,5 +1,5 @@
-created: '2025-07-03T19:09:32.841537+00:00'
-modified: '2025-07-03T19:09:32.841537+00:00'
+created: '2025-06-12T08:50:02.148646+00:00'
+modified: '2025-11-07T09:38:12.516945+00:00'
 pattern: false
 entry:
   _id: a5122b32-5e2a-435c-b5be-5697c9de58f0
@@ -9,13 +9,972 @@ entry:
     https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
   type: blogPosts
   fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h1
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Perfect one month trip through Central America on a budget
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Dreaming of volcanoes, rainforests, ancient ruins, and
+                      surf towns—without breaking the bank? Central America is
+                      packed with adventure, culture, and natural beauty, all at
+                      a price that’s friendly for backpackers and budget
+                      travelers. Here’s your guide to an epic, affordable
+                      one-month journey through Guatemala, Honduras, Nicaragua,
+                      and Costa Rica.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 4-week Central America itinerary
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This route balances must-see highlights with off-the-path
+                      gems, using public transport and local stays to keep costs
+                      low and experiences authentic.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Week 1: Guatemala'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Antigua (3 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Wander cobblestone streets, hike Pacaya Volcano, and sample street food at the local market. Don’t miss the vibrant artisan markets and rooftop views.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Lake Atitlán (3 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Take a chicken bus to Panajachel, then explore lakeside villages like San Pedro (laid-back, budget-friendly) and San Juan (artsy, local cooperatives). Kayak, hike, or just chill with a view.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Semuc Champey (1 day):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Head to Lanquín for turquoise pools and jungle caves. It’s a bit of a trek, but worth it for the scenery and adventure.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Week 2: Guatemala & Honduras'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Flores & Tikal (2 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Base yourself in colorful Flores and take a sunrise tour of the Tikal ruins—one of the most impressive Mayan sites.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Rio Dulce & Livingston (1 day):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Cruise down the Rio Dulce to the Afro-Caribbean town of Livingston for a taste of Garifuna culture.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Copán Ruinas, Honduras (2 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Cross into Honduras to explore the Copán ruins, famous for intricate stelae and macaw conservation. The town is relaxed and affordable.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Utila (2 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' If you’re into diving, hop to Utila in the Bay Islands—one of the cheapest places in the world to get PADI certified. Otherwise, spend more time inland or at Lake Yojoa for nature and coffee tours.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Week 3: Nicaragua'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'León (2 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Climb cathedral rooftops, try volcano boarding on Cerro Negro, and enjoy the student vibe and street art.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Granada (2 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Explore colonial architecture, kayak the isletas, and visit nearby Masaya Volcano for night lava views.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Ometepe Island (3 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Take the ferry to this volcanic island in Lake Nicaragua. Hike, bike, swim, and stay in eco-hostels or family-run guesthouses.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Week 4: Costa Rica'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Monteverde (2 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Zipline through cloud forests, walk hanging bridges, and spot wildlife on night tours.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'La Fortuna (2 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Soak in free hot springs, hike to waterfalls, and catch views of Arenal Volcano.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Puerto Viejo de Talamanca (3 days):'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Chill on the Caribbean coast, bike to nearby beaches, and visit the Jaguar Rescue Center. The vibe is laid-back and there are plenty of budget hostels.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Budget travel tips: save money and travel smarter'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Transport:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Use local buses ("chicken buses" in Guatemala, "colectivos" elsewhere) for the cheapest fares. For longer distances, try shuttle vans with other travelers to split costs. Book night buses to save on accommodation.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Accommodation:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Stay in hostels, guesthouses, or eco-lodges. Look for dorms, but also check out family-run hospedajes for a more local experience. In some places, you can camp or rent a hammock for even less.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Food:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Eat where locals eat—markets, comedores, and street stalls. Try pupusas in Honduras, gallo pinto in Nicaragua and Costa Rica, and tamales in Guatemala. Cooking your own meals in hostel kitchens also saves cash.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Activities:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Join free walking tours, hike independently, and ask hostels about group discounts. Many natural attractions (waterfalls, lakes, volcanoes) are free or have a small entrance fee.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Money:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Carry some USD and local currency. ATMs are common in cities but can be scarce on islands or in rural areas. Avoid currency exchange at airports for better rates.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Must-see sights and hidden gems
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Semuc Champey, Guatemala:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Stunning limestone pools in the jungle—less crowded if you stay overnight in Lanquín.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Copán Ruinas, Honduras:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Smaller than Tikal but packed with history and friendly locals.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Ometepe Island, Nicaragua:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Twin volcanoes, waterfalls, and quiet villages—perfect for slow travel.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Monteverde Cloud Forest, Costa Rica:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Misty trails, rare wildlife, and a strong eco-focus.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Livingston, Guatemala:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Accessible only by boat, this Afro-Caribbean town offers a unique cultural mix and delicious tapado (seafood stew).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'León’s rooftop views, Nicaragua:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Climb the cathedral for sunset and panoramic city views.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Puerto Viejo’s beaches, Costa Rica:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Less developed than the Pacific coast, with reggae vibes and affordable eats.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Safety and travel logistics for budget travelers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Stay aware:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Petty theft can happen, especially on buses and in busy markets. Use a money belt, keep valuables out of sight, and don’t flash expensive gear.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Travel during the day:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Roads can be rough and poorly lit at night. Daytime travel is safer and lets you enjoy the scenery.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Use trusted transport:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Ask your hostel or guesthouse for recommended bus companies or shared shuttles, especially for border crossings.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Border crossings:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Have your documents ready, carry small bills for fees, and be patient—lines can be long. Double-check visa requirements for your nationality.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Health:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Drink filtered or bottled water, especially in rural areas. Pack a basic first aid kit and any prescription meds you need.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Community respect:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Learn a few Spanish phrases, ask before taking photos, and support local businesses. Your travel choices make a difference!'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Ready to explore?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Central America is a playground for adventurous, conscious
+                      travelers. With a little planning and a flexible attitude,
+                      you can experience ancient cultures, wild nature, and warm
+                      communities—without spending a fortune. Pack light, stay
+                      curious, and get ready for the journey of a lifetime!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
     title:
       type: text
       locales:
         en-US: Perfect one month trip through Central America on a budget
+    excerpt:
+      type: text
+      locales:
+        en-US: >-
+          Ready for an epic adventure without draining your wallet? Discover how
+          to travel through Central America for a month—exploring jungles,
+          volcanoes, and vibrant cultures—on a true backpacker budget.
     categories:
       type: contentReference
       value: ${#jptr:/ref-a5122b32-5e2a-435c-b5be-5697c9de58f0-categories/entries}
+    enrichments:
+      type: $enr
+      value:
+        - cat: '7'
+          key: bud
+          str: 100
+        - cat: act
+          key: adv
+          str: 90
+        - cat: act
+          key: out
+          str: 80
+        - cat: act
+          key: fod
+          str: 70
+        - cat: dest
+          key: ce
+          str: 100
+        - cat: style
+          key: bud
+          str: 100
+        - cat: '7'
+          key: res
+          str: 70
+    destinations:
+      type: contentReference
+      value: ${#jptr:/ref-a5122b32-5e2a-435c-b5be-5697c9de58f0-destinations/entries}
     introduction:
       type: richText
       locales:
@@ -32,16 +991,46 @@ entry:
                 version: 1
                 children:
                   - mode: normal
-                    text: Todo
+                    text: >-
+                      Dreaming of a month-long adventure where your money
+                      stretches as far as your curiosity? Central America is
+                      calling. This vibrant region packs lush jungles, ancient
+                      ruins, surf-ready beaches, and colorful towns into a
+                      compact, budget-friendly playground. Whether you’re
+                      craving volcano hikes in Guatemala, street food in El
+                      Salvador, or slow mornings in Costa Rican cloud forests,
+                      you’ll find authentic experiences that don’t break the
+                      bank.
                     type: text
                     style: ''
                     detail: 0
                     format: 0
                     version: 1
-                direction: ltr
+                direction: null
                 textStyle: ''
                 textFormat: 0
-            direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In this guide, you’ll discover how to craft the perfect
+                      one-month itinerary through Central America—without
+                      sacrificing adventure or your savings. Get ready for
+                      practical tips on cheap transport, affordable stays, and
+                      ways to connect with local communities. Your epic,
+                      wallet-friendly journey starts here.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
     featuredImage:
       type: asset
       locales:
@@ -100,5 +1089,11 @@ entry:
       variables:
         locale: ${locale}
         entryIds: 33d70d4c-7528-4081-ada1-d8a14b35eea4
+    ref-a5122b32-5e2a-435c-b5be-5697c9de58f0-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          718f9a08-407f-474f-b5de-3769bdff4c41,7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55
   _locales:
     - en-US

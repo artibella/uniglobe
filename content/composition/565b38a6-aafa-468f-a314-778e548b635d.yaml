@@ -69,63 +69,6 @@ composition:
     565b38a6-aafa-468f-a314-778e548b635d|f0693bc9-5723-4bc9-924b-f2fd6fe3089f:
       slots:
         $slotSectionItems:
-          - _id: c995b097-9d6a-4c51-a7e0-b1320ac5ab59
-            type: video
-            parameters:
-              controls:
-                type: checkbox
-                value: true
-              videoAsset:
-                type: asset
-                locales:
-                  de-DE:
-                    - _id: 9b570863-a787-4f48-a055-dcec0c85c853
-                      type: video
-                      fields:
-                        id:
-                          type: text
-                          value: 1813675e-3f84-4929-9543-d2961f500c44
-                        url:
-                          type: text
-                          value: >-
-                            https://files.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/WbdfSHuvS5iWJPORozx7Tg-turtle.mp4
-                        file:
-                          type: file
-                          value: 0bb5ef7f-f7f7-4ca8-8a0f-3e6a25c3bfdb
-                        size:
-                          type: number
-                          value: 12030518
-                        title:
-                          type: text
-                          value: turtle.mp4
-                        mediaType:
-                          type: text
-                          value: video/mp4
-                      _source: uniform-assets
-                  en-US:
-                    - _id: 9b570863-a787-4f48-a055-dcec0c85c853
-                      type: video
-                      fields:
-                        id:
-                          type: text
-                          value: 1813675e-3f84-4929-9543-d2961f500c44
-                        url:
-                          type: text
-                          value: >-
-                            https://files.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/WbdfSHuvS5iWJPORozx7Tg-turtle.mp4
-                        file:
-                          type: file
-                          value: 0bb5ef7f-f7f7-4ca8-8a0f-3e6a25c3bfdb
-                        size:
-                          type: number
-                          value: 12030518
-                        title:
-                          type: text
-                          value: turtle.mp4
-                        mediaType:
-                          type: text
-                          value: video/mp4
-                      _source: uniform-assets
           - _id: 4328d2e3-f47d-4435-b4ae-4e80aa7c1a5d
             type: imageGallery
             slots:
@@ -185,7 +128,7 @@ composition:
                       type: select
                       value: contain
                     borderRadius:
-                      type: tp-slider-parameter
+                      type: select
                       value: none
                 - _id: 9a8cd41a-25b1-401c-ae1f-2ec2dac03c5f
                   type: image
@@ -432,7 +375,7 @@ composition:
                 locales:
                   en-US: Gallery
               titleStyle:
-                type: tp-title-style-parameter
+                type: select
                 value: h2
               description:
                 type: text
@@ -443,5 +386,5 @@ composition:
     - de-DE
   _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
 created: '2024-11-08T14:38:18.10988+00:00'
-modified: '2025-07-03T22:46:12.845064+00:00'
+modified: '2025-11-10T18:36:17.843903+00:00'
 pattern: false

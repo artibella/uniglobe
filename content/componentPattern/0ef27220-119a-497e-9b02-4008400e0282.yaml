@@ -22,7 +22,7 @@ composition:
         dynamicInputValues:
           locale: ${locale}
     titleStyle:
-      type: tp-title-style-parameter
+      type: select
       value: h2
     buttonStyle:
       type: tp-button-style-parameter
@@ -99,15 +99,15 @@ composition:
                         type: tp-color-style-parameter
                         value: base-300
                       overlayOpacity:
-                        type: tp-slider-parameter
+                        type: number
                         locales:
-                          en-US: 0%
+                          en-US: 0
                       textColorVariant:
                         type: select
                         value: Dark
-                      lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: '3'
+                      descriptionLineCount:
+                        type: number
+                        value: 3
                     _overridability:
                       variants: true
                       parameters:
@@ -131,7 +131,7 @@ composition:
                         animationPreview: 'no'
                         textColorVariant: 'yes'
                         buttonAnimationType: 'no'
-                        lineCountRestriction: 'no'
+                        descriptionLineCount: 'no'
               _dataResources:
                 Featured countries entries Loop Item:
                   type: sys-reserved-loop
@@ -141,10 +141,10 @@ composition:
                 hideLockedParameters: true
         parameters:
           gapX:
-            type: tp-slider-parameter
+            type: select
             value: small
           gapY:
-            type: tp-slider-parameter
+            type: select
             value: none
             conditions:
               - id: 0
@@ -158,7 +158,7 @@ composition:
                       source: deviceType
                 value: medium
           columnsCount:
-            type: tp-slider-parameter
+            type: number
             value: '3'
             conditions:
               - id: 0
@@ -204,7 +204,7 @@ composition:
     - en-US
     - de-DE
 created: '2024-11-06T18:09:42.821697+00:00'
-modified: '2025-10-24T14:44:23.846951+00:00'
+modified: '2025-11-10T21:18:32.89503+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1740064572/Uniglobe/Component%20Previews/Card_Block_Wireframe_yz7aab.svg

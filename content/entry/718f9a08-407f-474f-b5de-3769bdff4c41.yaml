@@ -1,5 +1,5 @@
 created: '2025-07-10T12:53:46.782135+00:00'
-modified: '2025-08-27T09:26:28.145582+00:00'
+modified: '2025-11-07T09:39:28.031263+00:00'
 pattern: false
 entry:
   _id: 718f9a08-407f-474f-b5de-3769bdff4c41
@@ -258,6 +258,9 @@ entry:
             de-DE: >-
               Entdecke Costa Rica: Regenwälder, Vulkane und nachhaltige
               Abenteuer erwarten dich zwischen Pazifik und Karibik.
+            en-US: >-
+              Experience pura vida in Costa Rica—lush rainforests, wild beaches,
+              and sustainable adventures for every traveler.
         description:
           type: richText
           locales:
@@ -911,6 +914,12 @@ entry:
             - cat: dest
               key: ce
               str: 100
+            - cat: act
+              key: adv
+              str: 50
+            - cat: style
+              key: adv
+              str: 50
         teaserImage:
           type: asset
           locales:

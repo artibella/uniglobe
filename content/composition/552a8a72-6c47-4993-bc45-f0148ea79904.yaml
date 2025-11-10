@@ -271,7 +271,7 @@ composition:
                   type: select
                   value: None
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -297,8 +297,8 @@ composition:
                   type: tp-background-type-parameter
                   value: Light
                 overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 30%
+                  type: number
+                  value: 30
                 containerVariant:
                   type: select
                   value: fluidContent
@@ -449,7 +449,7 @@ composition:
                   type: select
                   value: None
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -476,8 +476,8 @@ composition:
                   type: tp-background-type-parameter
                   value: Light
                 overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 30%
+                  type: number
+                  value: 30
                 containerVariant:
                   type: select
                   value: fluidContent
@@ -629,7 +629,7 @@ composition:
                   type: select
                   value: None
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -655,8 +655,8 @@ composition:
                   type: tp-background-type-parameter
                   value: Light
                 overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 30%
+                  type: number
+                  value: 30
                 containerVariant:
                   type: select
                   value: fluidContent
@@ -696,7 +696,7 @@ composition:
               de-DE: How can Uniglobe elevate your travel experience?
               en-US: How can Uniglobe elevate your travel experience?
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -913,7 +913,7 @@ composition:
               de-DE: Service That Goes the Extra Mile
               en-US: Personalized service for every traveler
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1135,7 +1135,7 @@ composition:
               de-DE: Travel Services Tailored to You
               en-US: Travel Services Tailored to You
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1405,7 +1405,7 @@ composition:
             type: select
             value: Medium
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h2
           description:
             type: text
@@ -1550,12 +1550,12 @@ composition:
           locales:
             de-DE: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            de-DE: 0%
+            de-DE: 0
   _locales:
     - en-US
     - de-DE
 created: '2024-01-15T09:27:31.731839+00:00'
-modified: '2025-10-17T11:58:29.28154+00:00'
+modified: '2025-11-10T21:36:15.984269+00:00'
 pattern: false

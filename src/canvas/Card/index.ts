@@ -21,10 +21,10 @@ export type CardProps = ComponentProps<{
   buttonLink?: Types.ProjectMapLink;
   buttonStyle: Types.ButtonStyles;
   buttonAnimationType?: Types.AnimationType;
-  lineCountRestriction: Types.AvailableMaxLineCount;
+  descriptionLineCount?: number;
   useCustomTextElements?: boolean;
   overlayColor?: Types.AvailableColor;
-  overlayOpacity?: Types.AvailableOpacity;
+  overlayOpacity?: number | Types.AvailableOpacity;
   objectFit?: Types.AvailableObjectFit;
   textColorVariant?: Types.AvailableTextColorVariant;
   animationType?: Types.AnimationType;

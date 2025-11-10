@@ -56,12 +56,12 @@ composition:
       locales:
         en-US: base-300
     overlayOpacity:
-      type: tp-slider-parameter
+      type: number
       locales:
-        en-US: 60%
-    lineCountRestriction:
-      type: tp-slider-parameter
-      value: none
+        en-US: 60
+    descriptionLineCount:
+      type: number
+      value: 0
   _dataResources:
     Country:
       type: country

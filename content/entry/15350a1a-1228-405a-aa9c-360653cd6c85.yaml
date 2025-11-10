@@ -1,11 +1,550 @@
 created: '2025-07-10T08:09:02.781619+00:00'
-modified: '2025-07-10T08:09:02.781619+00:00'
+modified: '2025-11-04T12:40:55.245839+00:00'
 pattern: false
 entry:
   _id: 15350a1a-1228-405a-aa9c-360653cd6c85
-  _name: 'New entry: Blog post'
+  _name: Best day trips in Thailand for nature lovers
   _slug: new-entry-blog-post
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=85
   type: blogPosts
-  fields: {}
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Top national parks in Thailand for eco-adventurers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Thailand is more than just bustling cities and famous
+                      beaches. If you’re craving wild landscapes, unique
+                      wildlife, and a chance to connect with nature, these
+                      national parks offer unforgettable experiences for
+                      conscious travelers.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 1. Erawan National Park (Kanchanaburi)
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Hike through lush jungle trails and cool off in the
+                      emerald pools of Erawan’s seven-tiered waterfall. The park
+                      is perfect for a day trip or an overnight stay in a local
+                      guesthouse. Don’t forget your swimsuit for a dip in the
+                      natural pools!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 2. Doi Inthanon National Park (Chiang Mai)
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Stand on Thailand’s highest peak and wander through misty
+                      cloud forests. Doi Inthanon is home to cascading
+                      waterfalls, vibrant hill tribe villages, and rare bird
+                      species. Visit local markets and support community-run
+                      homestays for a more immersive experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 3. Khao Yai National Park (Nakhon Ratchasima)
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Just a few hours from Bangkok, Khao Yai is one of Asia’s
+                      best wildlife parks. Spot wild elephants, gibbons, and
+                      hornbills on guided treks. Choose eco-certified tours to
+                      minimize your impact and learn from local guides.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 4. Phang Nga Bay (Phuket/Krabi)
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Kayak through dramatic limestone cliffs, hidden lagoons,
+                      and mangrove forests in this iconic bay. Join small-group
+                      tours that respect the fragile ecosystem and avoid crowded
+                      routes. Early morning trips offer the most peaceful
+                      experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 5. Khao Sok National Park (Surat Thani)
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Take a boat trip on Cheow Lan Lake, surrounded by towering
+                      limestone karsts and ancient rainforest. Stay in floating
+                      bungalows run by local families and wake up to the sounds
+                      of gibbons. This park is a haven for adventure seekers and
+                      nature lovers alike.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Practical tips for responsible travel
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Bring comfortable shoes, sunscreen, and plenty of
+                          water.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Respect local wildlife and always follow park
+                          guidelines.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Book tours with reputable, eco-friendly guides for the
+                          best experience.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Support community-run accommodations and local
+                          businesses.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ready to explore? Thailand’s natural beauty is waiting
+                      just beyond the city limits. Choose your park, pack your
+                      sense of adventure, and travel with purpose!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    title:
+      type: text
+      locales:
+        en-US: Best day trips in Thailand for nature lovers
+    excerpt:
+      type: text
+      locales:
+        en-US: >-
+          Ready to explore Thailand beyond the usual spots? Dive into these
+          unique day trips that connect you with nature, local communities, and
+          real adventure—perfect for eco-minded travelers and curious explorers.
+    categories:
+      type: contentReference
+      value: ${#jptr:/ref-15350a1a-1228-405a-aa9c-360653cd6c85-categories/entries}
+    enrichments:
+      type: $enr
+      value:
+        - cat: act
+          key: out
+          str: 100
+        - cat: style
+          key: eco
+          str: 100
+        - cat: act
+          key: adv
+          str: 80
+        - cat: dest
+          key: asia
+          str: 50
+        - cat: '7'
+          key: res
+          str: 50
+    seoMetadata:
+      type: $block
+      value:
+        - _id: 06b59be2-f704-48b6-a47d-bc076ef60d51
+          type: seoMetadata
+          fields:
+            metaTitle:
+              type: text
+              locales:
+                en-US: >-
+                  Best day trips in Thailand for nature lovers | Eco adventures
+                  & local experiences
+            openGraphImage:
+              type: asset
+              locales:
+                en-US:
+                  - _id: a09cacc1-5bc0-40d5-9b93-b583753649c0
+                    type: image
+                    fields:
+                      url:
+                        type: text
+                        value: >-
+                          https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=85
+                      title:
+                        type: text
+                        value: "Biking hundreds of kilometers through the mountains to see sunsets like this was something I’ll never forget.\r\n\r\nFor your next trip to Thailand, skip the beach parties and head up north. Rent a bike and explore all the small villages along the way. Meet the locals who have nothing but smiles or their faces and gorge on all the Khao Soi you can find.\r\n\r\nThailand, till we meet again."
+                      width:
+                        type: number
+                        value: 4000
+                      custom:
+                        type: object
+                        value:
+                          color: '#402626'
+                          apiUrl: >-
+                            https://api.unsplash.com/photos/birds-eye-view-of-white-temple-surround-by-trees-2CjOnwJCMJM
+                          blurHash: L;I:m~R*azay}@WCa{j@%1o0ayj@
+                          sourceId: 2CjOnwJCMJM
+                          createdAt: '2017-12-06T09:46:02Z'
+                          detailUrl: >-
+                            https://unsplash.com/photos/birds-eye-view-of-white-temple-surround-by-trees-2CjOnwJCMJM
+                          updatedAt: '2025-11-04T09:49:13Z'
+                          authorName: Bharath Mohan
+                          downloadUrl: >-
+                            https://unsplash.com/photos/2CjOnwJCMJM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA
+                          photoRawUrl: >-
+                            https://images.unsplash.com/photo-1512553353614-82a7370096dc?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0
+                          photoFullUrl: >-
+                            https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=85
+                          photoSmallUrl: >-
+                            https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=80&w=400
+                          photoThumbUrl: >-
+                            https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=80&w=200
+                          authorUsername: illusn
+                          photoRegularUrl: >-
+                            https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=80&w=1080
+                          authorProfileUrl: https://unsplash.com/@illusn
+                          downloadLocation: >-
+                            https://api.unsplash.com/photos/2CjOnwJCMJM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA
+                          authorProfileImage: >-
+                            https://images.unsplash.com/profile-1512552799526-71405ea37160?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                      height:
+                        type: number
+                        value: 2250
+                      description:
+                        type: text
+                        value: Photo by Bharath Mohan on Unsplash
+                    _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            metaDescription:
+              type: text
+              locales:
+                en-US: >-
+                  Discover the best day trips in Thailand for nature
+                  lovers—explore national parks, wildlife, and eco-friendly
+                  adventures beyond the usual tourist spots.
+            openGraphDescription:
+              type: text
+              locales:
+                en-US: >-
+                  Explore Thailand’s wild side with eco-friendly day trips,
+                  local guides, and real nature adventures.
+    destinations:
+      type: contentReference
+      value: ${#jptr:/ref-15350a1a-1228-405a-aa9c-360653cd6c85-destinations/entries}
+    introduction:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      When you think of Thailand, bustling street markets and
+                      postcard-perfect beaches probably come to mind. But beyond
+                      the cities and coastlines, Thailand is packed with wild
+                      landscapes, lush jungles, and hidden waterfalls just
+                      waiting to be explored. If you’re craving a break from the
+                      crowds and want to connect with nature, you’ll find plenty
+                      of day trips that offer adventure, wildlife encounters,
+                      and a fresh perspective on this incredible country. Get
+                      ready to lace up your boots, grab your camera, and
+                      discover a side of Thailand that’s all about natural
+                      beauty and authentic experiences.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: bbe1ecd8-f003-4ed5-8c48-4a7dd7382ced
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=85
+              title:
+                type: text
+                value: "Biking hundreds of kilometers through the mountains to see sunsets like this was something I’ll never forget.\r\n\r\nFor your next trip to Thailand, skip the beach parties and head up north. Rent a bike and explore all the small villages along the way. Meet the locals who have nothing but smiles or their faces and gorge on all the Khao Soi you can find.\r\n\r\nThailand, till we meet again."
+              width:
+                type: number
+                value: 4000
+              custom:
+                type: object
+                value:
+                  color: '#402626'
+                  apiUrl: >-
+                    https://api.unsplash.com/photos/birds-eye-view-of-white-temple-surround-by-trees-2CjOnwJCMJM
+                  blurHash: L;I:m~R*azay}@WCa{j@%1o0ayj@
+                  sourceId: 2CjOnwJCMJM
+                  createdAt: '2017-12-06T09:46:02Z'
+                  detailUrl: >-
+                    https://unsplash.com/photos/birds-eye-view-of-white-temple-surround-by-trees-2CjOnwJCMJM
+                  updatedAt: '2025-11-04T09:49:13Z'
+                  authorName: Bharath Mohan
+                  downloadUrl: >-
+                    https://unsplash.com/photos/2CjOnwJCMJM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA
+                  photoRawUrl: >-
+                    https://images.unsplash.com/photo-1512553353614-82a7370096dc?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0
+                  photoFullUrl: >-
+                    https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=85
+                  photoSmallUrl: >-
+                    https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=80&w=400
+                  photoThumbUrl: >-
+                    https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=80&w=200
+                  authorUsername: illusn
+                  photoRegularUrl: >-
+                    https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA&ixlib=rb-4.1.0&q=80&w=1080
+                  authorProfileUrl: https://unsplash.com/@illusn
+                  downloadLocation: >-
+                    https://api.unsplash.com/photos/2CjOnwJCMJM/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxEb2klMjBJbnRoYW5vbnxlbnwwfHx8fDE3NjIyNTk4OTd8MA
+                  authorProfileImage: >-
+                    https://images.unsplash.com/profile-1512552799526-71405ea37160?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+              height:
+                type: number
+                value: 2250
+              description:
+                type: text
+                value: Photo by Bharath Mohan on Unsplash
+            _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+  _dataResources:
+    ref-15350a1a-1228-405a-aa9c-360653cd6c85-categories:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: f86f265b-e4be-483a-a141-dbcc75855568
+    ref-15350a1a-1228-405a-aa9c-360653cd6c85-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 035a64b1-730e-444c-921a-431bc2712e14
   _locales:
     - en-US

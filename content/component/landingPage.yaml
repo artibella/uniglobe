@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
 $schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
-id: page
-name: Page
+id: landingPage
+name: Landing Page
 icon: file-document
 parameters:
   - id: pageTitle
@@ -220,7 +220,6 @@ slots:
       - video
       - grid
       - price
-      - addToCart
       - banner
       - review
       - modal
@@ -232,7 +231,6 @@ slots:
       - table
       - countdown
       - $localization
-      - page
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -245,7 +243,7 @@ slots:
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 defaults:
-  type: page
+  type: landingPage
   slots:
     pageFooter:
       - type: footer
@@ -325,7 +323,39 @@ defaults:
           textColorVariant:
             type: select
             value: Light
+      - type: container
+        slots:
+          container-inner:
+            - type: cardBlock
+              slots:
+                cardBlockInner:
+                  - type: card
+                  - type: card
+                  - type: card
+      - type: container
+        slots:
+          container-inner:
+            - type: featuredCallout
+              slots:
+                feature:
+                  - type: feature
+                    slots:
+                      icon:
+                        - type: icon
+                  - type: feature
+                    slots:
+                      icon:
+                        - type: icon
+            - type: callToAction
+      - type: container
+        _pattern: 03c6b8a7-f76f-4e1a-b357-e3aac63e525a
+        _overridability:
+          variants: true
+          parameters:
+            $viz: 'yes'
+            backgroundType: 'yes'
+          hideLockedParameters: true
 titleParameter: pageTitle
 canBeComposition: true
-created: '2024-01-15T09:26:44.57822+00:00'
-updated: '2025-11-04T10:32:04.790653+00:00'
+created: '2025-11-04T10:33:28.126107+00:00'
+updated: '2025-11-04T10:38:14.387198+00:00'

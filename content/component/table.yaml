@@ -1,31 +1,26 @@
-# yaml-language-server: $schema=<https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json>
-$schema: >-
-  https://canary-pr-13710.pr.uniform.app/schemas/json-schema/component-definition/v1.json
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
 id: table
 name: Table
 icon: view-grid
 parameters:
   - id: size
     name: Size
-    type: tp-slider-parameter
+    type: select
     guidance: >-
       Select the size of the table to match your content and layout. Use
       'normal' for most cases, 'small' or 'large' for emphasis.
     typeConfig:
-      step: 1
-      type: custom
-      unit: px
+      editor: segmented-control
       options:
-        - label: Tiny
+        - text: Tiny
           value: tiny
-        - label: Small
+        - text: Small
           value: small
-        - label: Normal
+        - text: Normal
           value: normal
-        - label: Large
+        - text: Large
           value: large
-      maxValue: 10
-      minValue: 0
 categoryId: 94a7a423-8c09-4264-8495-c562c17d811e
 description: >-
   Displays tabular data with customizable rows and columns. Use for structured
@@ -50,8 +45,8 @@ slots:
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 canBeComposition: false
-created: '2025-07-03T19:06:28.651544+00:00'
-updated: '2025-07-03T22:26:40.240449+00:00'
+created: '2024-01-15T09:26:45.560035+00:00'
+updated: '2025-11-10T21:42:00.50763+00:00'
 variants:
   - id: zebra
     name: Zebra

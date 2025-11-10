@@ -21,11 +21,10 @@ composition:
     pageContent:
       - _id: 9fc879b0-4876-42aa-aa86-a2eda9768a6a
         type: hero
-        variant: backgroundImage
+        variant: imageLeft
         parameters:
           image:
             type: asset
-            value: []
             locales:
               de-DE:
                 - _id: 749a0108-de12-493f-a28d-f9a77e854d30
@@ -35,58 +34,82 @@ composition:
                       type: text
                       value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                     url:
-                      type: text
                       value: >-
                         https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
+                      type: text
                     file:
                       type: file
                       value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
                     size:
-                      type: number
                       value: 49092
+                      type: number
                     title:
                       type: text
                       value: rectangle.webp
                     width:
-                      type: number
                       value: 1600
-                    height:
                       type: number
+                    height:
                       value: 689
+                      type: number
                     mediaType:
-                      type: text
                       value: image/webp
+                      type: text
                   _source: uniform-assets
               en-US:
-                - _id: 749a0108-de12-493f-a28d-f9a77e854d30
+                - _id: c32da385-10c9-4fc0-99ea-417686a2133f
                   type: image
                   fields:
-                    id:
-                      type: text
-                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
                     url:
                       type: text
                       value: >-
-                        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/G1Peu5qQRHiEnF-nLhTpSg-rectangle.webp
-                    file:
-                      type: file
-                      value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
-                    size:
-                      type: number
-                      value: 49092
+                        https://images.unsplash.com/photo-1556742111-a301076d9d18?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MXwxfHNlYXJjaHwxMnx8c3RvcmV8ZW58MHx8fHwxNzYyNzk5ODk0fDA&ixlib=rb-4.1.0&q=85
                     title:
                       type: text
-                      value: rectangle.webp
+                      value: >-
+                        person holding black Android smartphone close-up
+                        photography
                     width:
                       type: number
-                      value: 1600
+                      value: 3000
+                    custom:
+                      type: object
+                      value:
+                        color: '#d9d9d9'
+                        apiUrl: >-
+                          https://api.unsplash.com/photos/person-holding-black-android-smartphone-close-up-photography-XvS-uKUoUao
+                        blurHash: LQLq5~R-00NHD*tSIooJ%M-pxvVr
+                        sourceId: XvS-uKUoUao
+                        createdAt: '2019-05-01T20:22:03Z'
+                        detailUrl: >-
+                          https://unsplash.com/photos/person-holding-black-android-smartphone-close-up-photography-XvS-uKUoUao
+                        updatedAt: '2025-11-10T18:32:09Z'
+                        authorName: Clay Banks
+                        downloadUrl: >-
+                          https://unsplash.com/photos/XvS-uKUoUao/download?ixid=M3wzNzE5MzN8MXwxfHNlYXJjaHwxMnx8c3RvcmV8ZW58MHx8fHwxNzYyNzk5ODk0fDA
+                        photoRawUrl: >-
+                          https://images.unsplash.com/photo-1556742111-a301076d9d18?ixid=M3wzNzE5MzN8MXwxfHNlYXJjaHwxMnx8c3RvcmV8ZW58MHx8fHwxNzYyNzk5ODk0fDA&ixlib=rb-4.1.0
+                        photoFullUrl: >-
+                          https://images.unsplash.com/photo-1556742111-a301076d9d18?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MXwxfHNlYXJjaHwxMnx8c3RvcmV8ZW58MHx8fHwxNzYyNzk5ODk0fDA&ixlib=rb-4.1.0&q=85
+                        photoSmallUrl: >-
+                          https://images.unsplash.com/photo-1556742111-a301076d9d18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MXwxfHNlYXJjaHwxMnx8c3RvcmV8ZW58MHx8fHwxNzYyNzk5ODk0fDA&ixlib=rb-4.1.0&q=80&w=400
+                        photoThumbUrl: >-
+                          https://images.unsplash.com/photo-1556742111-a301076d9d18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MXwxfHNlYXJjaHwxMnx8c3RvcmV8ZW58MHx8fHwxNzYyNzk5ODk0fDA&ixlib=rb-4.1.0&q=80&w=200
+                        authorUsername: claybanks
+                        photoRegularUrl: >-
+                          https://images.unsplash.com/photo-1556742111-a301076d9d18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MXwxfHNlYXJjaHwxMnx8c3RvcmV8ZW58MHx8fHwxNzYyNzk5ODk0fDA&ixlib=rb-4.1.0&q=80&w=1080
+                        authorProfileUrl: https://unsplash.com/@claybanks
+                        downloadLocation: >-
+                          https://api.unsplash.com/photos/XvS-uKUoUao/download?ixid=M3wzNzE5MzN8MXwxfHNlYXJjaHwxMnx8c3RvcmV8ZW58MHx8fHwxNzYyNzk5ODk0fDA
+                        authorProfileImage: >-
+                          https://images.unsplash.com/profile-1670236743900-356b1ee0dc42image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
                     height:
                       type: number
-                      value: 689
-                    mediaType:
+                      value: 2002
+                    description:
                       type: text
-                      value: image/webp
-                  _source: uniform-assets
+                      value: Photo by Clay Banks on Unsplash
+                  _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
           title:
             type: text
             locales:
@@ -99,7 +122,7 @@ composition:
             type: select
             value: None
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -117,7 +140,7 @@ composition:
             value: fluidContent
           textColorVariant:
             type: select
-            value: Light
+            value: Dark
       - _id: bb128d44-43eb-46a6-b26a-d889f6750700
         type: breadcrumbs
         parameters:
@@ -134,5 +157,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-17T15:29:40.565424+00:00'
-modified: '2024-01-17T15:31:26.278739+00:00'
+modified: '2025-11-10T18:38:50.956737+00:00'
 pattern: false

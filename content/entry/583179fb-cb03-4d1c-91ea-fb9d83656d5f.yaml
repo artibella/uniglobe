@@ -1,5 +1,5 @@
-created: '2025-07-03T19:09:37.867204+00:00'
-modified: '2025-07-03T19:09:37.867204+00:00'
+created: '2025-07-01T10:00:49.508633+00:00'
+modified: '2025-11-07T09:34:19.833868+00:00'
 pattern: false
 entry:
   _id: 583179fb-cb03-4d1c-91ea-fb9d83656d5f
@@ -37,6 +37,9 @@ entry:
           str: 50
         - cat: style
           key: bud
+          str: 50
+        - cat: style
+          key: adv
           str: 50
     destinations:
       type: contentReference

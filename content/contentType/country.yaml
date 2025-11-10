@@ -265,13 +265,7 @@ description: >-
   attractions, culture, travel tips, and practical details for trip planning.
 icon: globe-alt
 type: contentType
-permissions:
-  - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
-    permission: read
-    state: 0
-  - roleId: 6ac09e95-4b5f-4b2e-961b-45bf453d3140
-    permission: read
-    state: 64
+permissions: []
 previewConfigurations:
   - type: project-map
     id: 36233b0d-5cd2-4a58-8aa5-760f101ef191

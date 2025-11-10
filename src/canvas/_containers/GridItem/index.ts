@@ -2,9 +2,9 @@ import { ComponentProps, registerUniformComponent } from '@uniformdev/canvas-rea
 import GridItem from './GridItem';
 
 export type GridItemProps = ComponentProps<{
-  columnSpan?: Types.AvailableColumnCount;
+  columnSpan?: number | Types.AvailableColumnCount;
   columnStart?: Types.AvailableColumnCount;
-  rowSpan?: Types.AvailableRowCount;
+  rowSpan?: number | Types.AvailableRowCount;
   rowStart?: Types.AvailableRowCount;
 }>;
 

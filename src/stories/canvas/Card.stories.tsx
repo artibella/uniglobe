@@ -30,7 +30,6 @@ const BASE_PROPS: Omit<CardProps, 'component'> = {
     path: '/',
   },
   buttonStyle: 'primary',
-  lineCountRestriction: 'none',
   textColorVariant: 'Dark',
 };
 

@@ -1,5 +1,7 @@
-export const getGridColumnsSpanClass = (colSpan?: Types.AvailableColumnCount) => {
-  switch (colSpan) {
+export const getGridColumnsSpanClass = (colSpan?: number | Types.AvailableColumnCount) => {
+  if (!colSpan) return '';
+  const span = typeof colSpan === 'number' ? colSpan.toString() : colSpan;
+  switch (span) {
     case '1':
       return 'md:col-span-1';
     case '2':
@@ -60,8 +62,10 @@ export const getGridColumnsStartClass = (colSpan?: Types.AvailableColumnCount) =
   }
 };
 
-export const getGridRowsSpanClass = (rowSpan?: Types.AvailableRowCount) => {
-  switch (rowSpan) {
+export const getGridRowsSpanClass = (rowSpan?: number | Types.AvailableRowCount) => {
+  if (!rowSpan) return '';
+  const span = typeof rowSpan === 'number' ? rowSpan.toString() : rowSpan;
+  switch (span) {
     case '1':
       return 'md:row-span-1';
     case '2':

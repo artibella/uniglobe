@@ -99,7 +99,7 @@ composition:
             type: select
             value: None
           titleStyle:
-            type: tp-title-style-parameter
+            type: select
             value: h1
           description:
             type: text
@@ -121,8 +121,8 @@ composition:
             type: tp-background-type-parameter
             value: Dark
           overlayOpacity:
-            type: tp-slider-parameter
-            value: 40%
+            type: number
+            value: 40
           containerVariant:
             type: select
             value: fluidContent
@@ -185,7 +185,7 @@ composition:
                   type: select
                   value: cover
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -202,8 +202,8 @@ composition:
                   type: tp-background-type-parameter
                   value: Medium
                 overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 0%
+                  type: number
+                  value: 0
                 containerVariant:
                   type: select
                   value: backgroundInContainer
@@ -258,7 +258,7 @@ composition:
                   type: select
                   value: cover
                 titleStyle:
-                  type: tp-title-style-parameter
+                  type: select
                   value: h1
                 description:
                   type: text
@@ -275,8 +275,8 @@ composition:
                   type: tp-background-type-parameter
                   value: Medium
                 overlayOpacity:
-                  type: tp-slider-parameter
-                  value: 0%
+                  type: number
+                  value: 0
                 containerVariant:
                   type: select
                   value: backgroundInContainer
@@ -333,9 +333,9 @@ composition:
           locales:
             en-US: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 40%
+            en-US: 40
         textColorVariant:
           type: select
           value: Light
@@ -368,9 +368,9 @@ composition:
           locales:
             en-US: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 40%
+            en-US: 40
         textColorVariant:
           type: select
           value: Light
@@ -409,9 +409,9 @@ composition:
           locales:
             en-US: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 30%
+            en-US: 30
         textColorVariant:
           type: select
           value: Light
@@ -462,9 +462,9 @@ composition:
           locales:
             en-US: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 40%
+            en-US: 40
         textColorVariant:
           type: select
           value: Light
@@ -488,9 +488,9 @@ composition:
           locales:
             en-US: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 40%
+            en-US: 40
         textColorVariant:
           type: select
           value: Light
@@ -510,9 +510,9 @@ composition:
           locales:
             en-US: base-300
         overlayOpacity:
-          type: tp-slider-parameter
+          type: number
           locales:
-            en-US: 30%
+            en-US: 30
         textColorVariant:
           type: select
           value: Light

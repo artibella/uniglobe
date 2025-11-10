@@ -60,7 +60,7 @@ composition:
       locales:
         en-US: Different While Working Remotely
     titleStyle:
-      type: tp-title-style-parameter
+      type: select
       value: h2
     description:
       type: text

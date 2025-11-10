@@ -1,0 +1,487 @@
+composition:
+  _name: Sustainable Africa Trips
+  _id: dc5ecf4c-343b-489f-acad-b7539d60787e
+  _slug: africa-trips
+  type: landingPage
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: >-
+          Sustainable Africa trips: Eco-friendly adventures & responsible travel
+          | UniGlobe
+    pageKeywords:
+      type: text
+      locales:
+        en-US: >-
+          sustainable africa trips, eco-friendly safaris, responsible travel
+          africa, ethical wildlife tours, community tourism africa
+    twitterImage:
+      type: asset
+      value:
+        - _id: bf508f48-d634-4fa6-a2d8-260df22dc196
+          type: image
+          fields:
+            id:
+              type: text
+              value: 7449980a-1875-48b0-b127-61b785b2ac8c
+            url:
+              value: >-
+                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/zd1VOZjJQmymCZ3qwpPg_g-amboseli-national-park-kenya-by-sergey-pesterev-unsplash-regular-wdMWMHXU.jpg
+              type: text
+            size:
+              value: 80257
+              type: number
+            title:
+              type: text
+              value: Safari Afica
+            width:
+              value: 1080
+              type: number
+            height:
+              value: 723
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.51
+                'y': 0
+              type: focalPoint
+            description:
+              type: text
+              value: >-
+                A safari vehicle drives on a dusty road surrounded by acacia
+                trees in Amboseli National Park, Kenya during a golden sunset.
+          _source: uniform-assets
+          _overrides:
+            fields: {}
+    twitterTitle:
+      type: text
+      locales:
+        en-US: >-
+          Travel Africa sustainably: eco safaris, local guides & real impact
+          🌍✈️ #EcoTravel #AfricaAdventure
+    openGraphType:
+      type: select
+      value: website
+    openGraphImage:
+      type: asset
+      value:
+        - _id: b6efd0f0-3f01-4862-a05d-76c1f27d79f2
+          type: image
+          fields:
+            id:
+              type: text
+              value: 7449980a-1875-48b0-b127-61b785b2ac8c
+            url:
+              value: >-
+                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/zd1VOZjJQmymCZ3qwpPg_g-amboseli-national-park-kenya-by-sergey-pesterev-unsplash-regular-wdMWMHXU.jpg
+              type: text
+            size:
+              value: 80257
+              type: number
+            title:
+              type: text
+              value: Safari Afica
+            width:
+              value: 1080
+              type: number
+            height:
+              value: 723
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.51
+                'y': 0
+              type: focalPoint
+            description:
+              type: text
+              value: >-
+                A safari vehicle drives on a dusty road surrounded by acacia
+                trees in Amboseli National Park, Kenya during a golden sunset.
+          _source: uniform-assets
+          _overrides:
+            fields: {}
+    openGraphTitle:
+      type: text
+      locales:
+        en-US: Explore Africa Sustainably 🌍 Eco Safaris & Local Adventures Await!
+    twitterDescription:
+      type: text
+      locales:
+        en-US: >-
+          Ready for real Africa? Travel sustainably, connect with locals, and
+          make a difference. Where will you go first? #EcoTravel #Africa
+    pageMetaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Explore sustainable Africa trips with eco-friendly safaris and local
+          tours. Support communities and wildlife. Discover your adventure—book
+          now!
+    openGraphDescription:
+      type: text
+      locales:
+        en-US: >-
+          Explore Africa with purpose—choose eco-friendly safaris, connect with
+          locals, and help protect wildlife. Start your sustainable adventure
+          now! #SustainableTravel
+  slots:
+    pageFooter:
+      - _id: e79a0799-2a67-4c0f-b069-57b8aa68fdb6
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: d0b446fd-404f-4865-bae3-4c296f2dc1a0
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: cc6187ed-30d5-4ada-88ad-655d0e049063
+        type: hero
+        variant: imageRight
+        parameters:
+          image:
+            type: asset
+            value:
+              - _id: 4b357917-312a-407a-94c6-98a09a4e16ba
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 7449980a-1875-48b0-b127-61b785b2ac8c
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/zd1VOZjJQmymCZ3qwpPg_g-amboseli-national-park-kenya-by-sergey-pesterev-unsplash-regular-wdMWMHXU.jpg
+                    type: text
+                  size:
+                    value: 80257
+                    type: number
+                  title:
+                    type: text
+                    value: Safari Afica
+                  width:
+                    value: 1080
+                    type: number
+                  height:
+                    value: 723
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  focalPoint:
+                    value:
+                      x: 0.51
+                      'y': 0
+                    type: focalPoint
+                  description:
+                    type: text
+                    value: >-
+                      A safari vehicle drives on a dusty road surrounded by
+                      acacia trees in Amboseli National Park, Kenya during a
+                      golden sunset.
+                _source: uniform-assets
+                _overrides:
+                  fields:
+                    focalPoint:
+                      type: focalPoint
+                      value:
+                        x: 0.64
+                        'y': 0.48
+          title:
+            type: text
+            value: Experience wild Africa on your own terms
+          objectFit:
+            type: select
+            value: cover
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: select
+            value: h1
+          description:
+            type: text
+            value: >-
+              Embark on an unforgettable African adventure—explore untamed
+              landscapes, connect with vibrant cultures, and travel with
+              purpose.
+          eyebrowText:
+            type: text
+            value: Discover Africa beyond the ordinary
+          paddingBottom:
+            type: select
+            value: None
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Medium
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Dark
+      - _id: 7b917087-e2b1-4a63-aa7a-499283bf1964
+        type: container
+        slots:
+          container-inner:
+            - _id: b6e4ddda-e73a-4c6e-9e27-a4ccf91bd789
+              type: cardBlock
+              slots:
+                cardBlockInner:
+                  - _id: c7006e2d-91d5-4b34-859f-e608e5ae5992
+                    type: card
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Amboseli National Park, Kenya
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Watch elephants roam near Kilimanjaro, explore
+                            underground springs fed by Mount Kilimanjaro, and
+                            stay at eco-lodges that support Maasai communities
+                            and wildlife.
+                  - _id: fe4a10fd-fea9-4b2a-8fe9-6b703f3aceb2
+                    type: card
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Okavango Delta, Botswana
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Drift silently past grazing elephants and vibrant
+                            birdlife in a mokoro, surrounded by untouched
+                            wilderness.
+                  - _id: 9a897243-8594-4fb5-a8da-04b41c6ad82f
+                    type: card
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Kruger National Park, South Africa
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Spot rare wildlife on guided bush walks and learn
+                            tracking skills from local rangers in Kruger
+                            National Park.
+              variant: carousel
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Top sustainable safari destinations
+                titleStyle:
+                  type: select
+                  value: h2
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Discover eco-friendly safari spots in Africa that support
+                      conservation and local communities.
+      - _id: 2f398bfd-94dd-42f5-a0be-68c31d1a26c0
+        type: container
+        slots:
+          container-inner:
+            - _id: e578db1d-07ef-43d0-b028-05038963f8a1
+              type: featuredCallout
+              slots:
+                feature:
+                  - _id: ba7ba3b6-8580-408d-b208-c5ea0b7f90de
+                    type: feature
+                    slots:
+                      icon:
+                        - _id: 6bf1c275-5cea-4573-adf0-eddc6b97a818
+                          type: icon
+                          parameters:
+                            icon:
+                              type: lucide-icons-icon
+                              value: paw-print
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Wildlife conservation
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Join guided safaris led by local rangers, where your
+                            fees fund anti-poaching patrols and wildlife care.
+                  - _id: 9706a4ca-be33-4dc2-9668-f91753a646c4
+                    type: feature
+                    slots:
+                      icon:
+                        - _id: 8110f822-a07a-4549-b062-2881d58e1746
+                          type: icon
+                          parameters:
+                            icon:
+                              type: lucide-icons-icon
+                              value: users
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Community empowerment
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            By choosing local guides and shops, you help small
+                            entrepreneurs thrive.
+                  - _id: ffb14975-bad7-4be6-8aa6-3be030482836
+                    type: feature
+                    slots:
+                      icon:
+                        - _id: 29e55f87-0100-49b4-b71c-ddbaff334e43
+                          type: icon
+                          parameters:
+                            icon:
+                              type: lucide-icons-icon
+                              value: leaf
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Eco-friendly lodges
+                      description:
+                        type: text
+                        locales:
+                          en-US: >-
+                            Enjoy solar-powered amenities for a comfortable,
+                            low-impact stay in Africa's wild places.
+              parameters:
+                image:
+                  type: asset
+                  locales:
+                    en-US:
+                      - _id: 170ab096-47e4-43d6-a629-c8a473722b63
+                        type: image
+                        fields:
+                          url:
+                            type: text
+                            value: >-
+                              https://images.unsplash.com/photo-1728891333203-9e920c7bf9cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxzYWZhcmklMjBhbmltYWxzfGVufDB8MXx8fDE3NjIyNTM3Mzd8MA&ixlib=rb-4.1.0&q=85
+                          title:
+                            type: text
+                            value: >-
+                              A giraffe standing under a tree in the middle of a
+                              field
+                          width:
+                            type: number
+                            value: 4160
+                          custom:
+                            type: object
+                            value:
+                              color: '#0c4073'
+                              apiUrl: >-
+                                https://api.unsplash.com/photos/a-giraffe-standing-under-a-tree-in-the-middle-of-a-field-2RWxKlQael4
+                              blurHash: LZA_9vxuM_M{IxWAoIofDgRjoyxZ
+                              sourceId: 2RWxKlQael4
+                              createdAt: '2024-10-14T07:40:32Z'
+                              detailUrl: >-
+                                https://unsplash.com/photos/a-giraffe-standing-under-a-tree-in-the-middle-of-a-field-2RWxKlQael4
+                              updatedAt: '2025-11-04T09:36:31Z'
+                              authorName: Eliott Chatauret
+                              downloadUrl: >-
+                                https://unsplash.com/photos/2RWxKlQael4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxzYWZhcmklMjBhbmltYWxzfGVufDB8MXx8fDE3NjIyNTM3Mzd8MA
+                              photoRawUrl: >-
+                                https://images.unsplash.com/photo-1728891333203-9e920c7bf9cd?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxzYWZhcmklMjBhbmltYWxzfGVufDB8MXx8fDE3NjIyNTM3Mzd8MA&ixlib=rb-4.1.0
+                              photoFullUrl: >-
+                                https://images.unsplash.com/photo-1728891333203-9e920c7bf9cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxzYWZhcmklMjBhbmltYWxzfGVufDB8MXx8fDE3NjIyNTM3Mzd8MA&ixlib=rb-4.1.0&q=85
+                              photoSmallUrl: >-
+                                https://images.unsplash.com/photo-1728891333203-9e920c7bf9cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxzYWZhcmklMjBhbmltYWxzfGVufDB8MXx8fDE3NjIyNTM3Mzd8MA&ixlib=rb-4.1.0&q=80&w=400
+                              photoThumbUrl: >-
+                                https://images.unsplash.com/photo-1728891333203-9e920c7bf9cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxzYWZhcmklMjBhbmltYWxzfGVufDB8MXx8fDE3NjIyNTM3Mzd8MA&ixlib=rb-4.1.0&q=80&w=200
+                              authorUsername: vitocrl
+                              photoRegularUrl: >-
+                                https://images.unsplash.com/photo-1728891333203-9e920c7bf9cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxzYWZhcmklMjBhbmltYWxzfGVufDB8MXx8fDE3NjIyNTM3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080
+                              authorProfileUrl: https://unsplash.com/@vitocrl
+                              downloadLocation: >-
+                                https://api.unsplash.com/photos/2RWxKlQael4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw3fHxzYWZhcmklMjBhbmltYWxzfGVufDB8MXx8fDE3NjIyNTM3Mzd8MA
+                              authorProfileImage: >-
+                                https://images.unsplash.com/profile-1731256728592-38bd61b8dab4?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                          height:
+                            type: number
+                            value: 6240
+                          description:
+                            type: text
+                            value: Photo by Eliott Chatauret on Unsplash
+                        _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                title:
+                  type: text
+                  locales:
+                    en-US: Discover Africa through sustainable travel
+                titleStyle:
+                  type: select
+                  value: h2
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Travel with purpose—support wildlife, empower local
+                      communities, and enjoy eco-friendly adventures across
+                      Africa.
+      - _id: 7e3c6d05-9434-4196-bdc4-30f1c26d8138
+        type: container
+        slots:
+          container-inner:
+            - _id: e020cea7-a3b1-411b-8c96-0bb48efcf92b
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Join the movement for conscious travel
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Ready to start your journey? Explore unique trips and
+                      connect with local communities now.
+                eyebrowText:
+                  type: text
+                  locales:
+                    en-US: Travel responsibly
+                textColorVariant:
+                  type: select
+                  value: Light
+                primaryButtonCopy:
+                  type: text
+                  locales:
+                    en-US: Explore Destinations
+                primaryButtonLink:
+                  type: link
+                  locales:
+                    en-US:
+                      path: /${locale}/destinations/africa
+                      type: projectMapNode
+                      nodeId: f7eba10c-97be-4a46-ae77-df46666ea2d8
+                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                      dynamicInputValues:
+                        locale: ${locale}
+                        region: africa
+        parameters:
+          backgroundType:
+            type: tp-background-type-parameter
+            value: Dark
+      - _id: a92f9ce6-42b5-46e1-959b-f6042b1318f7
+        type: container
+        _pattern: 03c6b8a7-f76f-4e1a-b357-e3aac63e525a
+  _locales:
+    - en-US
+created: '2025-11-04T10:39:11.831+00:00'
+modified: '2025-11-04T11:07:47.01204+00:00'
+pattern: false

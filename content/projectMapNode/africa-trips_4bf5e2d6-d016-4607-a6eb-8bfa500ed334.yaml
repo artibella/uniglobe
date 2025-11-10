@@ -1,0 +1,9 @@
+id: 4bf5e2d6-d016-4607-a6eb-8bfa500ed334
+name: Africa trips
+order: 300
+path: /:locale/lp/africa-trips
+type: composition
+pathSegment: africa-trips
+data: {}
+compositionId: dc5ecf4c-343b-489f-acad-b7539d60787e
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

@@ -65,9 +65,9 @@ composition:
         en-US: >-
           Culture, shopping, the best street food and great night life. Bangkok
           has it all
-    lineCountRestriction:
-      type: tp-slider-parameter
-      value: none
+    descriptionLineCount:
+      type: number
+      value: 0
   _overridability:
     parameters:
       badge: 'yes'

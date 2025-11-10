@@ -23,7 +23,7 @@ composition:
         dynamicInputValues:
           locale: ${locale}
     titleStyle:
-      type: tp-title-style-parameter
+      type: select
       value: h2
     buttonStyle:
       type: tp-button-style-parameter
@@ -102,13 +102,13 @@ composition:
                           de-DE: base-300
                           en-US: base-300
                       overlayOpacity:
-                        type: tp-slider-parameter
+                        type: number
                         locales:
-                          de-DE: 0%
-                          en-US: 0%
-                      lineCountRestriction:
-                        type: tp-slider-parameter
-                        value: '3'
+                          de-DE: 0
+                          en-US: 0
+                      descriptionLineCount:
+                        type: number
+                        value: 3
                     _overridability:
                       variants: true
                       parameters:
@@ -130,16 +130,15 @@ composition:
                 Blog post loop:
                   type: sys-reserved-loop
                   variables:
-                    limit: '3'
                     connectedData: '#jptr:/Blog posts/entries:fa=c:fl=i'
               _overridability:
                 hideLockedParameters: true
         parameters:
           gapX:
-            type: tp-slider-parameter
+            type: select
             value: small
           gapY:
-            type: tp-slider-parameter
+            type: select
             value: none
             conditions:
               - id: 0
@@ -153,7 +152,7 @@ composition:
                       source: deviceType
                 value: medium
           columnsCount:
-            type: tp-slider-parameter
+            type: number
             value: '3'
             conditions:
               - id: 0
@@ -178,13 +177,14 @@ composition:
     Blog posts:
       type: blogPostsList
       variables:
+        limit: '3'
         locale: ${locale}
         search: ''
         filters: '{"type[eq]":"blogPosts"}'
         orderBy: created_at_DESC
         contentTypes: blogPosts
       isPatternParameter: true
-      ignorePatternParameterDefault: true
+      ignorePatternParameterDefault: false
   _overridability:
     parameters:
       $viz: 'yes'
@@ -200,6 +200,6 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2025-07-03T19:06:42.512821+00:00'
-modified: '2025-07-03T19:07:59.794967+00:00'
+created: '2025-05-22T09:07:24.980856+00:00'
+modified: '2025-11-10T21:18:32.990864+00:00'
 pattern: true
