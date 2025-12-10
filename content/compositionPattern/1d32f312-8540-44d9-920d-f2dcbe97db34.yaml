@@ -328,7 +328,7 @@ composition:
         locale: ${locale},en-US
         entryId: 035a64b1-730e-444c-921a-431bc2712e14
       isPatternParameter: true
-      ignorePatternParameterDefault: true
+      ignorePatternParameterDefault: false
   _overrides:
     68fa61d5-dfe1-402c-98f7-fb0a9068833e:
       parameters:
@@ -454,7 +454,7 @@ composition:
     - de-DE
     - it-IT
 created: '2024-08-20T19:12:13.706954+00:00'
-modified: '2025-10-17T10:02:56.156551+00:00'
+modified: '2025-12-10T11:47:10.62097+00:00'
 pattern: true
 description: A custom destination page
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

@@ -1,0 +1,579 @@
+composition:
+  _name: Apps
+  _id: da155b06-a0aa-4252-a34f-a6f6c1534e09
+  _slug: app
+  type: page
+  _overrides:
+    029ee636-3ab6-4bff-9dbd-84c30afb2f31:
+      parameters:
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Dark
+    da155b06-a0aa-4252-a34f-a6f6c1534e09|1b5e7f73-2c6c-45c6-9b64-40fa984e9a9b:
+      slots:
+        $slotSectionItems:
+          - _id: 2f4fe386-5d42-417e-a400-07162cff67c0
+            type: container
+            slots:
+              container-inner:
+                - _id: c6892be6-e137-4949-a912-ad37abc52c8b
+                  type: featuredCallout
+                  slots:
+                    feature:
+                      - _id: e6010a62-4f92-4bc9-a953-faa233316de6
+                        type: feature
+                        slots:
+                          icon:
+                            - _id: e58a3d50-4f04-43bd-a1a6-f704afc5ee4c
+                              type: icon
+                              parameters:
+                                icon:
+                                  type: lucide-icons-icon
+                                  value: tickets-plane
+                                name:
+                                  type: text
+                                  locales:
+                                    en-US: discount
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Deals on hotels and flights
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Get exclusive rates for authentic, sustainable
+                                trips you can’t find elsewhere.
+                      - _id: dd47c770-7348-4f48-a48b-9cdaef852126
+                        type: feature
+                        slots:
+                          icon:
+                            - _id: 1a4e6a01-fcfd-4adb-a783-d8c124ec2056
+                              type: icon
+                              parameters:
+                                icon:
+                                  type: lucide-icons-icon
+                                  value: circle-star
+                                name:
+                                  type: text
+                                  locales:
+                                    en-US: award
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Join our travel community
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Get VIP perks and early access when you join our
+                                conscious travel community.
+                      - _id: 5a2ba408-f22c-4cb6-a2f4-bcf0f6a29f4b
+                        type: feature
+                        slots:
+                          icon:
+                            - _id: 29886aaa-d2e2-436d-996d-15e0804bec0d
+                              type: icon
+                              parameters:
+                                icon:
+                                  type: lucide-icons-icon
+                                  value: map
+                                name:
+                                  type: text
+                                  locales:
+                                    en-US: cloud-off
+                        parameters:
+                          title:
+                            type: text
+                            locales:
+                              en-US: Offline guides and maps
+                          description:
+                            type: text
+                            locales:
+                              en-US: >-
+                                Download guides and maps to explore confidently
+                                without internet access.
+                  parameters:
+                    image:
+                      type: asset
+                      locales:
+                        en-US:
+                          - _id: 12b89af4-b78e-4715-a555-6eb3dcddb194
+                            type: image
+                            fields:
+                              id:
+                                type: text
+                                value: 3d3d92b7-c087-4e81-b629-923c3663f54d
+                              url:
+                                value: >-
+                                  https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/IQoNQ4IUTQqJz6Lzj6wtYQ-fake-app-screen.png
+                                type: text
+                              file:
+                                type: file
+                                value: 1db51942-4765-48b6-b48c-d4b9c1640bd6
+                              size:
+                                value: 470783
+                                type: number
+                              title:
+                                type: text
+                                value: fake-app-screen.png
+                              width:
+                                value: 369
+                                type: number
+                              height:
+                                value: 725
+                                type: number
+                              mediaType:
+                                value: image/png
+                                type: text
+                            _source: uniform-assets
+                    title:
+                      type: text
+                      locales:
+                        en-US: Your all-in-one travel companion
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Unlock exclusive deals, join a global travel
+                          community, and access offline guides—all in the
+                          UniGlobe app.
+                    eyebrowText:
+                      type: text
+                      locales:
+                        en-US: Introducing the UniGlobe App
+          - _id: 029ee636-3ab6-4bff-9dbd-84c30afb2f31
+            type: container
+            _pattern: ee3173f8-5432-4aab-a886-e3aac30fe238
+            _overridability:
+              variants: true
+              parameters:
+                $viz: 'yes'
+                title: 'yes'
+                marginTop: 'yes'
+                paddingTop: 'yes'
+                marginBottom: 'yes'
+                paddingBottom: 'yes'
+                backgroundType: 'yes'
+              hideLockedParameters: true
+          - _id: 89d32d6f-b9aa-4909-8cce-3205555d99f1
+            type: container
+            slots:
+              container-inner:
+                - _id: ccb99e66-cf91-40e0-a416-1ee674c5c988
+                  type: content
+                  parameters:
+                    text:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Travelers love the UniGlobe app for its exclusive
+                          deals, offline guides, and real community impact.
+                    title:
+                      type: text
+                      locales:
+                        en-US: What travelers are saying
+                    titleStyle:
+                      type: select
+                      value: h2
+                - _id: d53801bf-16a1-4e4b-b81b-5d89ed5319df
+                  type: testimonial
+                  variant: ''
+                  parameters:
+                    picture:
+                      type: asset
+                      value:
+                        - _id: 1dae007f-db55-4d9c-8b2f-be9b6050ce57
+                          type: image
+                          fields:
+                            url:
+                              type: text
+                              value: >-
+                                https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxtYW58ZW58MHwyfHx8MTc2MzM4MDIxN3ww&ixlib=rb-4.1.0&q=85
+                            title:
+                              type: text
+                              value: >-
+                                a young man wearing glasses standing in front of
+                                a mountain
+                            width:
+                              type: number
+                              value: 3178
+                            custom:
+                              type: object
+                              value:
+                                color: '#737373'
+                                apiUrl: >-
+                                  https://api.unsplash.com/photos/a-young-man-wearing-glasses-standing-in-front-of-a-mountain-MSepzbKFz10
+                                blurHash: LVJ@%b%1tlIVXTIpWDRj0Ks-ivoL
+                                sourceId: MSepzbKFz10
+                                createdAt: '2022-06-01T19:08:57Z'
+                                detailUrl: >-
+                                  https://unsplash.com/photos/a-young-man-wearing-glasses-standing-in-front-of-a-mountain-MSepzbKFz10
+                                updatedAt: '2025-11-17T09:15:43Z'
+                                authorName: Diego Hernández
+                                downloadUrl: >-
+                                  https://unsplash.com/photos/MSepzbKFz10/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxtYW58ZW58MHwyfHx8MTc2MzM4MDIxN3ww
+                                photoRawUrl: >-
+                                  https://images.unsplash.com/photo-1654110455429-cf322b40a906?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxtYW58ZW58MHwyfHx8MTc2MzM4MDIxN3ww&ixlib=rb-4.1.0
+                                photoFullUrl: >-
+                                  https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxtYW58ZW58MHwyfHx8MTc2MzM4MDIxN3ww&ixlib=rb-4.1.0&q=85
+                                photoSmallUrl: >-
+                                  https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxtYW58ZW58MHwyfHx8MTc2MzM4MDIxN3ww&ixlib=rb-4.1.0&q=80&w=400
+                                photoThumbUrl: >-
+                                  https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxtYW58ZW58MHwyfHx8MTc2MzM4MDIxN3ww&ixlib=rb-4.1.0&q=80&w=200
+                                authorUsername: __diegohh
+                                photoRegularUrl: >-
+                                  https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxtYW58ZW58MHwyfHx8MTc2MzM4MDIxN3ww&ixlib=rb-4.1.0&q=80&w=1080
+                                authorProfileUrl: https://unsplash.com/@__diegohh
+                                downloadLocation: >-
+                                  https://api.unsplash.com/photos/MSepzbKFz10/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHxtYW58ZW58MHwyfHx8MTc2MzM4MDIxN3ww
+                                authorProfileImage: >-
+                                  https://images.unsplash.com/profile-1664234725463-f8e7ec7da613image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                            height:
+                              type: number
+                              value: 3178
+                            description:
+                              type: text
+                              value: Photo by Diego Hernández on Unsplash
+                          _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                    personName:
+                      type: text
+                      locales:
+                        en-US: Jordan Lee
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          I saved $200 on my last trip and the offline maps made
+                          exploring Paris so much easier. This platform really
+                          helps you travel smarter and more sustainably.
+                    personPosition:
+                      type: text
+                      locales:
+                        en-US: Sustainability Advocate
+                - _id: 757668dd-4ea5-4d80-91fd-f1f2b8d9ed24
+                  type: testimonial
+                  parameters:
+                    picture:
+                      type: asset
+                      value:
+                        - _id: 3da14670-a121-49ca-90f8-7d74fc60e891
+                          type: image
+                          fields:
+                            url:
+                              type: text
+                              value: >-
+                                https://images.unsplash.com/photo-1732888419806-9403823b5c34?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjB5b3VuZyUyMHdvbWFufGVufDB8Mnx8fDE3NjMzODAyNjR8MA&ixlib=rb-4.1.0&q=85
+                            title:
+                              type: text
+                              value: A woman in a white shirt is smiling
+                            width:
+                              type: number
+                              value: 4480
+                            custom:
+                              type: object
+                              value:
+                                color: '#f3f3f3'
+                                apiUrl: >-
+                                  https://api.unsplash.com/photos/a-woman-in-a-white-shirt-is-smiling-BrZiUMe5AkE
+                                blurHash: LYJkJ:4n9ut7_N9Fo0of%gIUMxof
+                                sourceId: BrZiUMe5AkE
+                                createdAt: '2024-11-29T13:53:58Z'
+                                detailUrl: >-
+                                  https://unsplash.com/photos/a-woman-in-a-white-shirt-is-smiling-BrZiUMe5AkE
+                                updatedAt: '2025-11-17T09:45:02Z'
+                                authorName: rakesh kumar
+                                downloadUrl: >-
+                                  https://unsplash.com/photos/BrZiUMe5AkE/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjB5b3VuZyUyMHdvbWFufGVufDB8Mnx8fDE3NjMzODAyNjR8MA
+                                photoRawUrl: >-
+                                  https://images.unsplash.com/photo-1732888419806-9403823b5c34?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjB5b3VuZyUyMHdvbWFufGVufDB8Mnx8fDE3NjMzODAyNjR8MA&ixlib=rb-4.1.0
+                                photoFullUrl: >-
+                                  https://images.unsplash.com/photo-1732888419806-9403823b5c34?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjB5b3VuZyUyMHdvbWFufGVufDB8Mnx8fDE3NjMzODAyNjR8MA&ixlib=rb-4.1.0&q=85
+                                photoSmallUrl: >-
+                                  https://images.unsplash.com/photo-1732888419806-9403823b5c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjB5b3VuZyUyMHdvbWFufGVufDB8Mnx8fDE3NjMzODAyNjR8MA&ixlib=rb-4.1.0&q=80&w=400
+                                photoThumbUrl: >-
+                                  https://images.unsplash.com/photo-1732888419806-9403823b5c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjB5b3VuZyUyMHdvbWFufGVufDB8Mnx8fDE3NjMzODAyNjR8MA&ixlib=rb-4.1.0&q=80&w=200
+                                authorUsername: solarmonkey123
+                                photoRegularUrl: >-
+                                  https://images.unsplash.com/photo-1732888419806-9403823b5c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjB5b3VuZyUyMHdvbWFufGVufDB8Mnx8fDE3NjMzODAyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080
+                                authorProfileUrl: https://unsplash.com/@solarmonkey123
+                                downloadLocation: >-
+                                  https://api.unsplash.com/photos/BrZiUMe5AkE/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjB5b3VuZyUyMHdvbWFufGVufDB8Mnx8fDE3NjMzODAyNjR8MA
+                                authorProfileImage: >-
+                                  https://images.unsplash.com/profile-1732888586520-33dd3872d91eimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                            height:
+                              type: number
+                              value: 4287
+                            description:
+                              type: text
+                              value: Photo by rakesh kumar on Unsplash
+                          _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                    personName:
+                      type: text
+                      locales:
+                        en-US: Priya Sharma
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Traveling solo can feel intimidating, but Uniglobe’s
+                          community made me feel instantly welcome and safe. I
+                          connected with other travelers for local tips and even
+                          joined a small group hike, which turned into new
+                          friendships. It’s reassuring to know you’re never
+                          really alone when you have this kind of support.
+                    personPosition:
+                      type: text
+                      locales:
+                        en-US: Digital Nomad
+                - _id: ecf3d721-a25d-4c66-b743-540841ee643f
+                  type: testimonial
+                  parameters:
+                    picture:
+                      type: asset
+                      value:
+                        - _id: 233ff5f3-894f-4b18-9a99-e36fa15be125
+                          type: image
+                          fields:
+                            url:
+                              type: text
+                              value: >-
+                                https://images.unsplash.com/photo-1623162900891-e582ab1d55a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZXxlbnwwfDJ8fHwxNzYzMzgwMzQ5fDA&ixlib=rb-4.1.0&q=85
+                            title:
+                              type: text
+                              value: man in black and white striped long sleeve shirt
+                            width:
+                              type: number
+                              value: 4459
+                            custom:
+                              type: object
+                              value:
+                                color: '#260c0c'
+                                apiUrl: >-
+                                  https://api.unsplash.com/photos/man-in-black-and-white-striped-long-sleeve-shirt-sF8X2NsYxUs
+                                blurHash: L5FOWA9u?v9ayF$*9Fxa8^R*9Zof
+                                sourceId: sF8X2NsYxUs
+                                createdAt: '2021-06-08T14:36:14Z'
+                                detailUrl: >-
+                                  https://unsplash.com/photos/man-in-black-and-white-striped-long-sleeve-shirt-sF8X2NsYxUs
+                                updatedAt: '2025-11-17T06:02:09Z'
+                                authorName: Dollar Gill
+                                downloadUrl: >-
+                                  https://unsplash.com/photos/sF8X2NsYxUs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZXxlbnwwfDJ8fHwxNzYzMzgwMzQ5fDA
+                                photoRawUrl: >-
+                                  https://images.unsplash.com/photo-1623162900891-e582ab1d55a1?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZXxlbnwwfDJ8fHwxNzYzMzgwMzQ5fDA&ixlib=rb-4.1.0
+                                photoFullUrl: >-
+                                  https://images.unsplash.com/photo-1623162900891-e582ab1d55a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZXxlbnwwfDJ8fHwxNzYzMzgwMzQ5fDA&ixlib=rb-4.1.0&q=85
+                                photoSmallUrl: >-
+                                  https://images.unsplash.com/photo-1623162900891-e582ab1d55a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZXxlbnwwfDJ8fHwxNzYzMzgwMzQ5fDA&ixlib=rb-4.1.0&q=80&w=400
+                                photoThumbUrl: >-
+                                  https://images.unsplash.com/photo-1623162900891-e582ab1d55a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZXxlbnwwfDJ8fHwxNzYzMzgwMzQ5fDA&ixlib=rb-4.1.0&q=80&w=200
+                                authorUsername: dollargill
+                                photoRegularUrl: >-
+                                  https://images.unsplash.com/photo-1623162900891-e582ab1d55a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZXxlbnwwfDJ8fHwxNzYzMzgwMzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080
+                                authorProfileUrl: https://unsplash.com/@dollargill
+                                downloadLocation: >-
+                                  https://api.unsplash.com/photos/sF8X2NsYxUs/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZXxlbnwwfDJ8fHwxNzYzMzgwMzQ5fDA
+                                authorProfileImage: >-
+                                  https://images.unsplash.com/profile-1762741226078-bb68e2d679e0image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                            height:
+                              type: number
+                              value: 4459
+                            description:
+                              type: text
+                              value: Photo by Dollar Gill on Unsplash
+                          _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                    personName:
+                      type: text
+                      locales:
+                        en-US: Lucas Meyer
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          I used Uniglobe’s offline guides while exploring a
+                          remote village in northern Vietnam, where cell service
+                          was spotty. Having all the maps, local tips, and
+                          cultural info downloaded made it easy to navigate and
+                          connect with locals, so I never felt lost or stressed
+                          about missing out. It really let me focus on the
+                          experience instead of worrying about logistics.
+                    personPosition:
+                      type: text
+                      locales:
+                        en-US: Adventure Blogger
+                - _id: 89bbd05c-fb49-4490-b2c4-390d7e4e43fb
+                  type: testimonial
+                  parameters:
+                    picture:
+                      type: asset
+                      value:
+                        - _id: 81c3fbbf-0e76-40e4-bbd0-6498e1f512dd
+                          type: image
+                          fields:
+                            url:
+                              type: text
+                              value: >-
+                                https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                            title:
+                              type: text
+                              value: >-
+                                Beautiful portrait of a woman with elegant
+                                hairstyle on a vibrant yellow background.
+                            width:
+                              type: number
+                              value: 5760
+                            custom:
+                              type: object
+                              value:
+                                sourceId: '415829'
+                                pexelsUrl: >-
+                                  https://www.pexels.com/photo/woman-wearing-black-spaghetti-strap-top-415829/
+                                photoTinyUrl: >-
+                                  https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                                photographer: Pixabay
+                                photoLargeUrl: >-
+                                  https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                                photoSmallUrl: >-
+                                  https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&h=130
+                                photoMediumUrl: >-
+                                  https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&h=350
+                                photoLarge2xUrl: >-
+                                  https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                                photographerUrl: https://www.pexels.com/@pixabay
+                                photoPortraitUrl: >-
+                                  https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                                pexelsOriginalUrl: >-
+                                  https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg
+                                photoLandscapeUrl: >-
+                                  https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                            height:
+                              type: number
+                              value: 5075
+                            description:
+                              type: text
+                              value: >-
+                                Beautiful portrait of a woman with elegant
+                                hairstyle on a vibrant yellow background. -
+                                Photo by Pixabay on Pexels
+                          _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+                    personName:
+                      type: text
+                      locales:
+                        en-US: Maria Gonzalez
+                    description:
+                      type: text
+                      locales:
+                        en-US: >-
+                          Thanks to Uniglobe’s exclusive deals, our family was
+                          able to enjoy a unique vacation without breaking the
+                          bank. We stayed in eco-friendly guesthouses and joined
+                          small group tours that helped us connect with local
+                          culture. The experience was both affordable and truly
+                          memorable for all of us.
+                    personPosition:
+                      type: text
+                      locales:
+                        en-US: Teacher
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: Testimonials
+              backgroundType:
+                type: tp-background-type-parameter
+                value: Medium
+    da155b06-a0aa-4252-a34f-a6f6c1534e09|4b328fd1-c6ac-4666-8bb7-9d0996320c43:
+      variant: imageRight
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: cdf78e36-3d3e-44ac-ba36-6601267e486d
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1527489377706-5bf97e608852?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3aWxkZXJuZXNzfGVufDB8fHx8MTc2MzM4MDcxMnww&ixlib=rb-4.1.0&q=85
+                title:
+                  type: text
+                  value: >-
+                    Not really lost though ;). I took this picture during a hike
+                    in Yoho National Park in the late morning.
+                width:
+                  type: number
+                  value: 5142
+                custom:
+                  type: object
+                  value:
+                    color: '#d9d9f3'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/time-lapse-photography-of-river--qrcOR33ErA
+                    blurHash: LgE|3uxuRPNH%j$xV?NG%itQWYR*
+                    sourceId: '-qrcOR33ErA'
+                    createdAt: '2018-05-28T06:38:34Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/time-lapse-photography-of-river--qrcOR33ErA
+                    updatedAt: '2025-11-17T09:57:24Z'
+                    authorName: Hendrik Cornelissen
+                    downloadUrl: >-
+                      https://unsplash.com/photos/-qrcOR33ErA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3aWxkZXJuZXNzfGVufDB8fHx8MTc2MzM4MDcxMnww
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1527489377706-5bf97e608852?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3aWxkZXJuZXNzfGVufDB8fHx8MTc2MzM4MDcxMnww&ixlib=rb-4.1.0
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1527489377706-5bf97e608852?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3aWxkZXJuZXNzfGVufDB8fHx8MTc2MzM4MDcxMnww&ixlib=rb-4.1.0&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1527489377706-5bf97e608852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3aWxkZXJuZXNzfGVufDB8fHx8MTc2MzM4MDcxMnww&ixlib=rb-4.1.0&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1527489377706-5bf97e608852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3aWxkZXJuZXNzfGVufDB8fHx8MTc2MzM4MDcxMnww&ixlib=rb-4.1.0&q=80&w=200
+                    authorUsername: the_bracketeer
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1527489377706-5bf97e608852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3aWxkZXJuZXNzfGVufDB8fHx8MTc2MzM4MDcxMnww&ixlib=rb-4.1.0&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@the_bracketeer
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/-qrcOR33ErA/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx3aWxkZXJuZXNzfGVufDB8fHx8MTc2MzM4MDcxMnww
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1691399023649-72b285262c40image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 3111
+                description:
+                  type: text
+                  value: Photo by Hendrik Cornelissen on Unsplash
+              _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        title:
+          type: text
+          value: Get exclusive travel deals and go offline with UniGlobe
+        description:
+          type: text
+          value: >-
+            Download our app for members-only deals, offline travel guides, and
+            exclusive tips for conscious explorers.
+        eyebrowText:
+          type: text
+          value: App exclusive
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Medium
+        overlayOpacity:
+          type: number
+          value: 0
+        textColorVariant:
+          type: select
+          value: Dark
+        primaryButtonCopy:
+          type: text
+          locales:
+            en-US: Download the app
+  _locales:
+    - en-US
+  _pattern: 9854cddc-f320-4a77-b7dc-de9d74638436
+created: '2025-11-17T11:03:33.375552+00:00'
+modified: '2025-11-17T12:58:57.920294+00:00'
+pattern: false

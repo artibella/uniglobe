@@ -1,5 +1,5 @@
 created: '2024-08-21T13:15:35.435656+00:00'
-modified: '2025-11-04T20:56:54.204533+00:00'
+modified: '2025-11-18T16:48:41.897553+00:00'
 pattern: false
 entry:
   _id: 035a64b1-730e-444c-921a-431bc2712e14
@@ -55,6 +55,341 @@ entry:
                     type: text
                     value: image/png
                 _source: cloudinary-2c6d995a-4c3f-4f95-86ea-7d9f8af08667
+        images:
+          type: asset
+          locales:
+            en-US:
+              - _id: 23c749c8-745e-467d-a8f4-16d2a8aecfb7
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: five brown wooden boats
+                  width:
+                    type: number
+                    value: 4439
+                  custom:
+                    type: object
+                    value:
+                      color: '#0c59c0'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/five-brown-wooden-boats-jWKk-0ZBUyg
+                      blurHash: LbD0[^TMtQe,5exaRPjYrVM_t7f-
+                      sourceId: jWKk-0ZBUyg
+                      createdAt: '2019-03-13T08:17:53Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/five-brown-wooden-boats-jWKk-0ZBUyg
+                      updatedAt: '2025-11-18T12:12:15Z'
+                      authorName: Sumit Chinchane
+                      downloadUrl: >-
+                        https://unsplash.com/photos/jWKk-0ZBUyg/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: sumit_ac
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@sumit_ac
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/jWKk-0ZBUyg/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/placeholder-avatars/extra-large.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3072
+                  description:
+                    type: text
+                    value: Photo by Sumit Chinchane on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+              - _id: 72cbc54f-230e-44fe-be18-5f3be7303960
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: A spot of paradise
+                  width:
+                    type: number
+                    value: 3456
+                  custom:
+                    type: object
+                    value:
+                      color: '#c0d9f3'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/photo-of-brown-bench-near-swimming-pool-Koei_7yYtIo
+                      blurHash: LwFG:+s:Z~kW^-ozkpn+*0s+i_bH
+                      sourceId: Koei_7yYtIo
+                      createdAt: '2018-03-05T11:49:17Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/photo-of-brown-bench-near-swimming-pool-Koei_7yYtIo
+                      updatedAt: '2025-11-18T15:00:50Z'
+                      authorName: Sara Dubler
+                      downloadUrl: >-
+                        https://unsplash.com/photos/Koei_7yYtIo/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: ahungryblonde_
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@ahungryblonde_
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/Koei_7yYtIo/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw4fHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1520251321459-0f8f98e32055?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 2304
+                  description:
+                    type: text
+                    value: Photo by Sara Dubler on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+              - _id: fa201c95-2b07-4793-a1a9-0c8e1264a9aa
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1583491470869-ca0b9fa90216?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMHx8YmFuZ2tva3xlbnwwfHx8fDE3NjM0ODM3MjZ8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: >-
+                      I was standing on an island in the middle of the road
+                      outside the Grand Palace, and this Tuk-tuk randomly drove
+                      by and parked right in this spot. At first, I wasn't going
+                      to capture it but I thought that it was too unexpected and
+                      coincidental to not take a photo of. It turned out to be
+                      one of my favourite photo to date.
+                  width:
+                    type: number
+                    value: 3278
+                  custom:
+                    type: object
+                    value:
+                      color: '#c0f3f3'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/blue-and-yellow-auto-rickshaw-on-road-during-daytime-SHOP_CkCb6w
+                      blurHash: LyJIX[tRtRj]?^RQa#ozO[jZaeWC
+                      sourceId: SHOP_CkCb6w
+                      createdAt: '2020-03-06T10:46:31Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/blue-and-yellow-auto-rickshaw-on-road-during-daytime-SHOP_CkCb6w
+                      updatedAt: '2025-11-18T10:41:25Z'
+                      authorName: Mos Sukjaroenkraisri
+                      downloadUrl: >-
+                        https://unsplash.com/photos/SHOP_CkCb6w/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMHx8YmFuZ2tva3xlbnwwfHx8fDE3NjM0ODM3MjZ8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1583491470869-ca0b9fa90216?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMHx8YmFuZ2tva3xlbnwwfHx8fDE3NjM0ODM3MjZ8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1583491470869-ca0b9fa90216?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMHx8YmFuZ2tva3xlbnwwfHx8fDE3NjM0ODM3MjZ8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1583491470869-ca0b9fa90216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMHx8YmFuZ2tva3xlbnwwfHx8fDE3NjM0ODM3MjZ8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1583491470869-ca0b9fa90216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMHx8YmFuZ2tva3xlbnwwfHx8fDE3NjM0ODM3MjZ8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: mossuk
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1583491470869-ca0b9fa90216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMHx8YmFuZ2tva3xlbnwwfHx8fDE3NjM0ODM3MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@mossuk
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/SHOP_CkCb6w/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMHx8YmFuZ2tva3xlbnwwfHx8fDE3NjM0ODM3MjZ8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1661170419611-007ec2432a11?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4098
+                  description:
+                    type: text
+                    value: Photo by Mos Sukjaroenkraisri on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+              - _id: 02c065a8-385c-4ef4-a7e0-c82320f7ab03
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1528181304800-259b08848526?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: >-
+                      Traveling on motorbike in norther thailand we came across
+                      these amazing sculptural temples and buildings.
+                  width:
+                    type: number
+                    value: 5034
+                  custom:
+                    type: object
+                    value:
+                      color: '#d9d9d9'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/standing-statue-and-temples-landmark-during-daytime-gsllxmVO4HQ
+                      blurHash: L.IrQxRlnhM}yZWFoeS5R+bcogoy
+                      sourceId: gsllxmVO4HQ
+                      createdAt: '2018-06-05T06:50:34Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/standing-statue-and-temples-landmark-during-daytime-gsllxmVO4HQ
+                      updatedAt: '2025-11-18T13:07:00Z'
+                      authorName: Mathew Schwartz
+                      downloadUrl: >-
+                        https://unsplash.com/photos/gsllxmVO4HQ/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1528181304800-259b08848526?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1528181304800-259b08848526?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1528181304800-259b08848526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1528181304800-259b08848526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: cadop
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1528181304800-259b08848526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@cadop
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/gsllxmVO4HQ/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyfHx0aGFpbGFuZHxlbnwwfHx8fDE3NjM0ODM2NDJ8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/placeholder-avatars/extra-large.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3356
+                  description:
+                    type: text
+                    value: Photo by Mathew Schwartz on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+              - _id: 57d17a3c-4588-480a-9c7c-c182be5409ac
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1644027620178-83cf81e8ece4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxrb2glMjBwaGFuZ2FufGVufDB8fHx8MTc2MzQ4Mzg0N3ww&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: a tropical beach with a palm tree leaning over the water
+                  width:
+                    type: number
+                    value: 6000
+                  custom:
+                    type: object
+                    value:
+                      color: '#a6d9d9'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/a-tropical-beach-with-a-palm-tree-leaning-over-the-water-IzkxzMQXIow
+                      blurHash: LUIi2lys.9yD5R$+jYyD?wMxV?WE
+                      sourceId: IzkxzMQXIow
+                      createdAt: '2022-02-05T02:32:08Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/a-tropical-beach-with-a-palm-tree-leaning-over-the-water-IzkxzMQXIow
+                      updatedAt: '2025-11-18T11:10:41Z'
+                      authorName: Johnny Africa
+                      downloadUrl: >-
+                        https://unsplash.com/photos/IzkxzMQXIow/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxrb2glMjBwaGFuZ2FufGVufDB8fHx8MTc2MzQ4Mzg0N3ww
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1644027620178-83cf81e8ece4?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxrb2glMjBwaGFuZ2FufGVufDB8fHx8MTc2MzQ4Mzg0N3ww&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1644027620178-83cf81e8ece4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxrb2glMjBwaGFuZ2FufGVufDB8fHx8MTc2MzQ4Mzg0N3ww&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1644027620178-83cf81e8ece4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxrb2glMjBwaGFuZ2FufGVufDB8fHx8MTc2MzQ4Mzg0N3ww&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1644027620178-83cf81e8ece4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxrb2glMjBwaGFuZ2FufGVufDB8fHx8MTc2MzQ4Mzg0N3ww&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: johnnyafrica
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1644027620178-83cf81e8ece4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxrb2glMjBwaGFuZ2FufGVufDB8fHx8MTc2MzQ4Mzg0N3ww&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@johnnyafrica
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/IzkxzMQXIow/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHw0fHxrb2glMjBwaGFuZ2FufGVufDB8fHx8MTc2MzQ4Mzg0N3ww
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1644026408459-f62fb3d4a22dimage?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4000
+                  description:
+                    type: text
+                    value: Photo by Johnny Africa on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+              - _id: 39e4ee6f-70ce-4b7e-8d67-a52149345e3f
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://assets.lummi.ai/assets/QmNkP8333CtSEUy3aY8ahoy3jXPdj2UGh8Pf3nUuCRBBTT?auto=format&w=1500&h=1500
+                  title:
+                    type: text
+                    value: Scenic Lake Tour
+                  width:
+                    type: number
+                    value: 2048
+                  custom:
+                    type: object
+                    value:
+                      tags:
+                        - wooden boat
+                        - cultural element
+                        - lush greenery
+                        - limestone cliffs
+                        - turquoise lake
+                      blurhash: eTBOXF%%tls;WA-sxvslkWWBk@ozobafaxkYnhWAoMo0RjV?V@ozoz
+                      sourceId: d6cc3c31-b19e-4605-8a3f-8f5962ec2b4b
+                      imageType: photo
+                      authorName: Cayetano Gros
+                      categories:
+                        - Travel
+                        - Nature
+                      aspectRatio: 1.79020979020979
+                      orientation: horizontal
+                      colorPalette:
+                        '0':
+                          hex: '#86aed2'
+                          weight: 0.2217881944444444
+                        '1':
+                          hex: '#5d8a97'
+                          weight: 0.2048611111111111
+                        '2':
+                          hex: '#2a8b83'
+                          weight: 0.1909722222222222
+                        '3':
+                          hex: '#335356'
+                          weight: 0.1844618055555556
+                        '4':
+                          hex: '#6b785a'
+                          weight: 0.1675347222222222
+                        '5':
+                          hex: '#5f493d'
+                          weight: 0.03038194444444444
+                      selectedSize: original
+                      originalWidth: 2048
+                      attributionUrl: >-
+                        https://www.lummi.ai/photo/scenic-lake-tour-iee6n?utm_source=api&utm_campaign=api&utm_medium=referral
+                      originalHeight: 1144
+                      authorProfileUrl: >-
+                        https://www.lummi.ai/creator/cayetanogros?utm_source=api&utm_campaign=api&utm_medium=referral
+                      dominantColorGroup: blue300
+                      dominantColorWeight: 0.2217881944444444
+                  height:
+                    type: number
+                    value: 1144
+                  description:
+                    type: text
+                    value: >-
+                      Scenic Lake Tour - AI-generated image by Cayetano Gros on
+                      Lummi
+                _source: lummi-3b322701-b5c2-43ff-a1d6-cbaab843e2c8
         region:
           type: contentReference
           value: ${#jptr:/ref-035a64b1-730e-444c-921a-431bc2712e14-region/entries/0}

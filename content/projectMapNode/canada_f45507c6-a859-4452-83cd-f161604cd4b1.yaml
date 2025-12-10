@@ -1,0 +1,9 @@
+id: f45507c6-a859-4452-83cd-f161604cd4b1
+name: Canada
+order: 500
+path: /:locale/destinations/north-america/canada
+type: composition
+pathSegment: canada
+data: {}
+compositionId: 5af57f14-1ae7-44ad-97e9-269828597f3a
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

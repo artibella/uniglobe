@@ -1,0 +1,10 @@
+id: a25403b0-2461-4ee0-822b-ac5d8166243d
+name: Apps
+order: 625
+path: /:locale/apps
+type: composition
+pathSegment: apps
+data:
+  queryStrings: []
+compositionId: da155b06-a0aa-4252-a34f-a6f6c1534e09
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

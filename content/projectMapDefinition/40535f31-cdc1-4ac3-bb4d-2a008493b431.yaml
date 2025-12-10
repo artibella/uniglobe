@@ -2,3 +2,16 @@ id: 40535f31-cdc1-4ac3-bb4d-2a008493b431
 name: Sitemap
 baseUrl: https://uniglobe.vercel.app
 default: true
+globalQueryStrings:
+  - name: utm_source
+    value: ''
+    helpText: ''
+    optionsSource:
+      source: static
+      options:
+        - name: Website
+          value: website
+        - name: Email
+          value: email
+        - name: Newsletter
+          value: newsletter

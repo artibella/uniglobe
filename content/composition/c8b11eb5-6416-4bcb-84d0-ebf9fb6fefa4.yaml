@@ -1,0 +1,17 @@
+composition:
+  _name: Spain
+  _id: c8b11eb5-6416-4bcb-84d0-ebf9fb6fefa4
+  _slug: spain
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale}
+        entryId: ''
+  _locales:
+    - en-US
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2025-11-28T14:54:34.338535+00:00'
+modified: '2025-11-28T14:57:04.568505+00:00'
+pattern: false

@@ -5,6 +5,7 @@ path: /:locale/destinations/:region/:destination
 type: composition
 pathSegment: ':destination'
 data:
-  previewValue: ''
+  previewValue: japan
+  queryStrings: []
 compositionId: 9c77bbed-aa1b-4a0b-9a78-485de375f018
 projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

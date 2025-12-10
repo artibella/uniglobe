@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3d3d92b7-c087-4e81-b629-923c3663f54d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: fake-app-screen.png
+    file:
+      type: file
+      value: 1db51942-4765-48b6-b48c-d4b9c1640bd6
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/IQoNQ4IUTQqJz6Lzj6wtYQ-fake-app-screen.png
+      type: text
+    size:
+      value: 470783
+      type: number
+    width:
+      value: 369
+      type: number
+    height:
+      value: 725
+      type: number
+    custom: {}
+created: '2025-11-17T12:56:12.239488+00:00'
+modified: '2025-11-17T12:56:12.239488+00:00'
