@@ -26,15 +26,15 @@ const uniformHandler = createPreviewHandler({
 export default async function preview(req: NextApiRequest, res: NextApiResponse) {
   const originalSetHeader = res.setHeader.bind(res);
 
-  res.setHeader = function (name: string, value: any) {
+  res.setHeader = function (name: string, value: string | string[] | number) {
     if (name.toLowerCase() === 'set-cookie') {
-      const cookies = Array.isArray(value) ? value : [value];
-      value = cookies.map((cookie: string) => {
-        cookie = String(cookie);
-        if (cookie.includes('SameSite')) {
-          return cookie.replace(/SameSite=\w+/gi, 'SameSite=None; Secure');
+      const cookies = Array.isArray(value) ? value : [String(value)];
+      value = cookies.map(cookie => {
+        const cookieStr = String(cookie);
+        if (cookieStr.includes('SameSite')) {
+          return cookieStr.replace(/SameSite=\w+/gi, 'SameSite=None; Secure');
         }
-        return `${cookie}; SameSite=None; Secure`;
+        return `${cookieStr}; SameSite=None; Secure`;
       });
     }
     return originalSetHeader(name, value);
