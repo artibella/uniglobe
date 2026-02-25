@@ -20,152 +20,6 @@ composition:
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: 8e1ca450-cb22-496c-a257-f85aaabad63a
-        type: hero
-        variant: backgroundImage
-        parameters:
-          image:
-            type: asset
-            locales:
-              de-DE:
-                - _id: 749a0108-de12-493f-a28d-f9a77e854d30
-                  type: image
-                  fields:
-                    id:
-                      type: text
-                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
-                    url:
-                      value: >-
-                        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/4hcYr7zqQ4GHq5dPjrq09Q-rectangle.webp
-                      type: text
-                    file:
-                      type: file
-                      value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
-                    size:
-                      value: 49092
-                      type: number
-                    title:
-                      type: text
-                      value: rectangle.webp
-                    width:
-                      value: 1600
-                      type: number
-                    height:
-                      value: 689
-                      type: number
-                    mediaType:
-                      value: image/webp
-                      type: text
-                  _source: uniform-assets
-              en-US:
-                - _id: 749a0108-de12-493f-a28d-f9a77e854d30
-                  type: image
-                  fields:
-                    id:
-                      type: text
-                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
-                    url:
-                      value: >-
-                        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/4hcYr7zqQ4GHq5dPjrq09Q-rectangle.webp
-                      type: text
-                    file:
-                      type: file
-                      value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
-                    size:
-                      value: 49092
-                      type: number
-                    title:
-                      type: text
-                      value: rectangle.webp
-                    width:
-                      value: 1600
-                      type: number
-                    height:
-                      value: 689
-                      type: number
-                    mediaType:
-                      value: image/webp
-                      type: text
-                  _source: uniform-assets
-              it-IT:
-                - _id: 749a0108-de12-493f-a28d-f9a77e854d30
-                  type: image
-                  fields:
-                    id:
-                      type: text
-                      value: 3c1767ca-1851-4f4f-b8dc-4269d5ea6328
-                    url:
-                      value: >-
-                        https://canary-pr-13710-img.uniform.rocks/p/pxA3P2TISECqFz0moTqA-Q/4hcYr7zqQ4GHq5dPjrq09Q-rectangle.webp
-                      type: text
-                    file:
-                      type: file
-                      value: 417f72e5-d0bc-47c8-8633-eb537728e2ec
-                    size:
-                      value: 49092
-                      type: number
-                    title:
-                      type: text
-                      value: rectangle.webp
-                    width:
-                      value: 1600
-                      type: number
-                    height:
-                      value: 689
-                      type: number
-                    mediaType:
-                      value: image/webp
-                      type: text
-                  _source: uniform-assets
-          title:
-            type: text
-            locales:
-              de-DE: Reisen & Touren
-              en-US: Trips & Tours
-              it-IT: Viaggi & Tour
-          objectFit:
-            type: select
-            value: cover
-          paddingTop:
-            type: select
-            value: None
-          titleStyle:
-            type: select
-            value: h1
-          description:
-            type: text
-            locales:
-              de-DE: Entdecken Sie unsere Touren rund um den Globus
-              en-US: Explore our tours around the globe
-              it-IT: Esplora i nostri tour in tutto il mondo
-          eyebrowText:
-            type: text
-            locales:
-              de-DE: Augenbrauentext
-          paddingBottom:
-            type: select
-            value: None
-          containerVariant:
-            type: select
-            value: fluidContent
-          textColorVariant:
-            type: select
-            value: Light
-          primaryButtonCopy:
-            type: text
-            locales:
-              de-DE: Alle Reiseziele
-              en-US: See destinations
-              it-IT: Vedi le destinazioni
-          primaryButtonLink:
-            type: link
-            value:
-              path: /${locale}/destinations
-              type: projectMapNode
-              nodeId: 57b970df-6750-4780-a2b0-6c9e80ca5dab
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-              dynamicInputValues:
-                locale: ${locale}
       - _id: 533ba3bb-7d07-4f77-8e71-f1bc8c3c76ae
         type: breadcrumbs
         parameters:
@@ -178,10 +32,27 @@ composition:
           displayRootNode:
             type: checkbox
             value: true
+      - _id: df64a3c8-937c-4628-b358-faf25f6cd86c
+        type: enhancedParametersDemo
+        parameters:
+          switch:
+            type: checkbox
+            value: false
+          withTrueLabel:
+            type: checkbox
+            value: false
+          multiSelectDropdown:
+            type: multi-select
+            value:
+              - easy
+              - medium
+          withTrueAndFalseLabels:
+            type: checkbox
+            value: true
   _locales:
     - en-US
     - de-DE
     - it-IT
-created: '2025-07-03T19:07:06.452758+00:00'
-modified: '2025-07-03T19:07:06.452758+00:00'
+created: '2024-01-17T14:10:56.145718+00:00'
+modified: '2026-01-28T09:48:19.417716+00:00'
 pattern: false

@@ -95,6 +95,9 @@ composition:
                       value: t
                       source: deviceType
                 value: '2'
+          $internal_displayName:
+            type: text
+            value: Card grid
         _overridability:
           hideLockedParameters: true
   _overridability:
@@ -113,5 +116,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-10-23T08:47:03.115946+00:00'
-modified: '2024-10-31T17:40:48.867163+00:00'
+modified: '2026-01-21T10:01:33.304807+00:00'
 pattern: true

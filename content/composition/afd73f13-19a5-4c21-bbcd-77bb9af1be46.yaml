@@ -1,0 +1,11 @@
+composition:
+  _name: Home
+  _id: afd73f13-19a5-4c21-bbcd-77bb9af1be46
+  _slug: ':locale'
+  type: page
+  _locales:
+    - en-US
+  _pattern: dbdee048-844f-43d1-9c49-620356469a32
+created: '2026-01-27T09:34:08.092693+00:00'
+modified: '2026-01-27T09:39:37.678131+00:00'
+pattern: false

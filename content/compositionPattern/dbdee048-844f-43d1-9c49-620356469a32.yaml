@@ -1,181 +1,27 @@
 composition:
-  _name: Home (Backup)
-  _id: 552a8a72-6c47-4993-bc45-f0148ea79904
+  _name: Homepage Pattern
+  _id: dbdee048-844f-43d1-9c49-620356469a32
   type: page
   parameters:
     pageTitle:
       type: text
       locales:
-        de-AT: Uniglobe Travel | Exceptional Travel Experiences
-        de-CH: Uniglobe Travel | Exceptional Travel Experiences
-        de-DE: Uniglobe Travel | Exceptional Travel Experiences
         en-US: Uniglobe Travel | Exceptional Travel Experiences
-    twitterCard:
-      type: select
-      value: summary_large_image
-    pageKeywords:
-      type: text
-      locales:
-        de-AT: >-
-          travel, vacation, adventure, global travel, luxury travel, business
-          travel, group travel
-        de-CH: >-
-          travel, vacation, adventure, global travel, luxury travel, business
-          travel, group travel
-        de-DE: >-
-          travel, vacation, adventure, global travel, luxury travel, business
-          travel, group travel
-        en-US: >-
-          travel, vacation, adventure, global travel, luxury travel, business
-          travel, group travel
-    twitterImage:
-      type: asset
-      value:
-        - _id: 6b327f7e-7687-4b94-9083-2b373583cd7b
-          type: image
-          fields:
-            id:
-              type: text
-              value: 2d06cb01-b8aa-490b-8567-43a27046030d
-            url:
-              value: >-
-                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
-              type: text
-            file:
-              type: file
-              value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
-            size:
-              value: 18253
-              type: number
-            title:
-              type: text
-              value: Logo Uniglobe (SVG)
-            width:
-              value: 358
-              type: number
-            height:
-              value: 335
-              type: number
-            mediaType:
-              value: image/svg+xml
-              type: text
-          _source: uniform-assets
-    twitterTitle:
-      type: text
-      locales:
-        de-AT: Uniglobe Travel | Your Journey, Our Expertise
-        de-CH: Uniglobe Travel | Your Journey, Our Expertise
-        de-DE: Uniglobe Travel | Your Journey, Our Expertise
-        en-US: Uniglobe Travel | Your Journey, Our Expertise
-    openGraphType:
-      type: select
-      value: website
-    openGraphImage:
-      type: asset
-      value:
-        - _id: 32d146e7-dcdd-451b-bae1-30584def01de
-          type: image
-          fields:
-            id:
-              type: text
-              value: 2d06cb01-b8aa-490b-8567-43a27046030d
-            url:
-              value: >-
-                https://img.uniform.global/p/Qp0hM90oRjOR9Pz_URYcmg/O54dtID0T-iSRHoNKM6vNg-uniglobe.svg
-              type: text
-            file:
-              type: file
-              value: 2c838e1c-e312-4f13-9841-3fc06a5d4247
-            size:
-              value: 18253
-              type: number
-            title:
-              type: text
-              value: Logo Uniglobe (SVG)
-            width:
-              value: 358
-              type: number
-            height:
-              value: 335
-              type: number
-            mediaType:
-              value: image/svg+xml
-              type: text
-          _source: uniform-assets
-    openGraphTitle:
-      type: text
-      locales:
-        de-AT: Uniglobe Travel | Your Journey, Our Expertise
-        de-CH: Uniglobe Travel | Your Journey, Our Expertise
-        de-DE: Uniglobe Travel | Your Journey, Our Expertise
-        en-US: Uniglobe Travel | Your Journey, Our Expertise
-    twitterDescription:
-      type: text
-      locales:
-        de-AT: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience.
-        de-CH: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience.
-        de-DE: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience.
-        en-US: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience.
-    pageMetaDescription:
-      type: text
-      locales:
-        de-AT: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience. Let Uniglobe be your gateway
-          to extraordinary destinations.
-        de-CH: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience. Let Uniglobe be your gateway
-          to extraordinary destinations.
-        de-DE: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience. Let Uniglobe be your gateway
-          to extraordinary destinations.
-        en-US: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience. Let Uniglobe be your gateway
-          to extraordinary destinations.
-    openGraphDescription:
-      type: text
-      locales:
-        de-AT: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience.
-        de-CH: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience.
-        de-DE: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience.
-        en-US: >-
-          Discover personalized travel solutions crafted by industry experts
-          with over 25 years of global experience.
-    overlayTitleToTwitterImage:
-      type: checkbox
-      value: true
   slots:
     pageFooter:
-      - _id: a671f401-5678-42be-a5d7-de05de74b2f3
+      - _id: 2700fd63-4734-4391-9a0a-d2b7aaa054cb
         type: footer
         _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
     pageHeader:
-      - _id: 62938edd-e33a-45c7-93a6-a2a3e16fa8d7
+      - _id: 292bff16-dd6b-4256-b5aa-c7c96271e724
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: 78cda512-9d59-4842-b9bf-02b733bb4468
+      - _id: e66af3cb-082d-4727-b971-52aac943e534
         type: $personalization
         slots:
           pz:
-            - _id: 1f352a25-7acb-4893-a11c-f06bd45f27ab
+            - _id: b50cd2a7-2551-40e4-878a-c7ac6cbd7a2d
               type: hero
               variant: backgroundImage
               parameters:
@@ -470,7 +316,17 @@ composition:
                 primaryButtonStyle:
                   type: tp-button-style-parameter
                   value: primary
-            - _id: 565c8e11-088c-4616-a955-9a515814991d
+              _overridability:
+                variants: false
+                parameters:
+                  image: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+                  eyebrowText: 'yes'
+                  primaryButtonCopy: 'yes'
+                  primaryButtonLink: 'yes'
+                hideLockedParameters: true
+            - _id: 36f21049-61d6-4715-9a30-ab4d3adcc8c7
               type: hero
               variant: backgroundImage
               parameters:
@@ -765,7 +621,16 @@ composition:
                 primaryButtonStyle:
                   type: tp-button-style-parameter
                   value: primary
-            - _id: 971eb983-0ee7-45e6-b8ce-eaceb3fb27d3
+              _overridability:
+                parameters:
+                  image: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+                  eyebrowText: 'yes'
+                  primaryButtonCopy: 'yes'
+                  primaryButtonLink: 'yes'
+                hideLockedParameters: true
+            - _id: 24ef159e-345c-4cd2-bcfb-2e305d52ea9f
               type: hero
               variant: backgroundImage
               parameters:
@@ -1060,9 +925,14 @@ composition:
                 primaryButtonStyle:
                   type: tp-button-style-parameter
                   value: primary
-            - _id: bb808b0f-ccd8-4c09-81d5-2d9944ef9d88
-              type: hero
-              _pattern: b8cbff04-3e17-4651-adcd-494022e7b9ea
+              _overridability:
+                parameters:
+                  title: 'yes'
+                  description: 'yes'
+                  eyebrowText: 'yes'
+                  primaryButtonCopy: 'yes'
+                  primaryButtonLink: 'yes'
+                hideLockedParameters: true
         parameters:
           algorithm:
             type: pzAlgorithm
@@ -1070,7 +940,7 @@ composition:
           trackingEventName:
             type: text
             value: home-hero
-      - _id: 7e072bd7-bbe7-4f97-8707-635f74d6ea8e
+      - _id: 49c453ad-5a3e-4cb0-a7ff-6cd8de787eb5
         type: callToAction
         parameters:
           title:
@@ -1116,15 +986,31 @@ composition:
           $internal_displayName:
             type: text
             value: Uniglobe Travel Experience
-      - _id: cc1d51b7-9e89-4031-8658-5b0d81ba15a7
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            title: 'yes'
+            titleStyle: 'yes'
+            description: 'yes'
+            eyebrowText: 'yes'
+            textColorVariant: 'yes'
+            primaryButtonCopy: 'yes'
+            primaryButtonLink: 'yes'
+            primaryButtonStyle: 'yes'
+            secondaryButtonCopy: 'yes'
+            secondaryButtonLink: 'yes'
+            secondaryButtonStyle: 'yes'
+            primaryButtonAnimationType: 'yes'
+            secondaryButtonAnimationType: 'yes'
+      - _id: 0ee4a12b-4f44-42d5-829f-1001032ada22
         type: featuredCallout
         slots:
           feature:
-            - _id: 845be47f-7b29-4061-9383-2461814bdcee
+            - _id: e1223fc8-a90d-4e78-bcdc-35b511a8d9b2
               type: feature
               slots:
                 icon:
-                  - _id: 9acbd7ba-ce96-44d0-bacb-4e6c0414fdb3
+                  - _id: d5cd4c9f-ac23-42f9-9671-6d9e838327e1
                     type: icon
                     parameters:
                       icon:
@@ -1156,16 +1042,31 @@ composition:
                     en-US: >-
                       Custom travel plans designed around your preferences,
                       schedule, and budget. Your dream vacation, your way.
-            - _id: 2a2bb40f-f543-4566-97c8-7cd14cb82bc1
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  icon: 'yes'
+                  link: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+            - _id: f7ab9d75-590b-4897-803b-88a4599973e6
               type: feature
               slots:
                 icon:
-                  - _id: e3ab7f82-5ac4-45eb-98ff-a7a95ed7e57b
+                  - _id: 7b219ed0-f0aa-494a-9391-adac872962e7
                     type: icon
                     parameters:
                       icon:
                         type: lucide-icons-icon
                         value: earth
+                    _overridability:
+                      parameters:
+                        $viz: 'yes'
+                        icon: 'yes'
+                        name: 'yes'
+                        size: 'yes'
+                        color: 'yes'
+                        strokeWidth: 'yes'
               parameters:
                 title:
                   type: text
@@ -1189,16 +1090,31 @@ composition:
                     en-US: >-
                       Local insights and insider access to destinations
                       worldwide through our established network of partners.
-            - _id: 19438067-1453-4709-9346-914fdac47fe0
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  icon: 'yes'
+                  link: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+            - _id: 6adcb58b-f128-4c95-8ba4-5416df232a8f
               type: feature
               slots:
                 icon:
-                  - _id: b8aa5dbf-eaf0-4c50-abef-19cd8d270bbe
+                  - _id: 30d15dc4-5278-467d-8378-0954cf83269b
                     type: icon
                     parameters:
                       icon:
                         type: lucide-icons-icon
                         value: calendar-clock
+                    _overridability:
+                      parameters:
+                        $viz: 'yes'
+                        icon: 'yes'
+                        name: 'yes'
+                        size: 'yes'
+                        color: 'yes'
+                        strokeWidth: 'yes'
               parameters:
                 icon:
                   type: asset
@@ -1229,6 +1145,13 @@ composition:
                       Travel with confidence knowing our team is available
                       whenever you need assistance, no matter where you are in
                       the world.
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  icon: 'yes'
+                  link: 'yes'
+                  title: 'yes'
+                  description: 'yes'
         parameters:
           image:
             type: asset
@@ -1480,23 +1403,34 @@ composition:
           $internal_displayName:
             type: text
             value: Travel Service Features
-      - _id: e27870d1-b74f-4c3c-86ca-20d3b881fe95
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            image: 'yes'
+            title: 'yes'
+            titleStyle: 'yes'
+            description: 'yes'
+            eyebrowText: 'yes'
+          hideLockedParameters: true
+      - _id: d123415a-07ca-4459-92e9-1156a4d2fc4a
         type: cardBlock
         _pattern: 0ef27220-119a-497e-9b02-4008400e0282
-      - _id: 45ca2e18-6110-4047-8f54-2f9ae43d047b
+      - _id: c77092dc-5a9c-4b10-88be-30a725daf867
         type: featuredCallout
         slots:
           feature:
-            - _id: 068668d5-520c-4bc5-b72a-9bda8beb189f
+            - _id: f5532a61-e611-415a-a41c-63bc251d3923
               type: feature
               slots:
                 icon:
-                  - _id: 1468840b-5640-464b-8963-2c18a5854b0f
+                  - _id: f7734912-61f8-4296-bc3e-35c04c384e15
                     type: icon
                     parameters:
                       icon:
                         type: lucide-icons-icon
                         value: baby
+                    _overridability:
+                      hideLockedParameters: true
               parameters:
                 title:
                   type: text
@@ -1524,16 +1458,23 @@ composition:
                       Create lasting memories with carefully planned
                       family-friendly accommodations, activities, and
                       experiences for travelers of all ages.
-            - _id: b637acaa-f979-4bde-aa94-086c1ccf9c02
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+            - _id: 2e8bf506-596f-47ed-9426-111ba793d3f4
               type: feature
               slots:
                 icon:
-                  - _id: 879b2293-7e5d-4f08-94d2-f97b1d805012
+                  - _id: 53b7bd6a-64db-4dbe-97ee-c812fc3c6fee
                     type: icon
                     parameters:
                       icon:
                         type: lucide-icons-icon
                         value: kayak
+                    _overridability:
+                      hideLockedParameters: true
               parameters:
                 icon:
                   type: asset
@@ -1564,16 +1505,23 @@ composition:
                       Push your boundaries with expertly guided outdoor
                       experiences, from wildlife safaris to hiking expeditions
                       and water sports.
-            - _id: c8205ca3-c293-4338-8392-83574cf74dd0
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+            - _id: f3cd6037-92b8-46e8-ba69-565f4c7ddcf2
               type: feature
               slots:
                 icon:
-                  - _id: ca662aa5-bc92-4976-b42f-a3bea957900b
+                  - _id: 6cdd103a-f93b-43fb-bd4e-a29679891521
                     type: icon
                     parameters:
                       icon:
                         type: lucide-icons-icon
                         value: calendar-check
+                    _overridability:
+                      hideLockedParameters: true
               parameters:
                 title:
                   type: text
@@ -1597,6 +1545,11 @@ composition:
                     en-US: >-
                       Seamless coordination for weddings, family reunions,
                       retreats, and special interest groups of any size.
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  title: 'yes'
+                  description: 'yes'
         variant: imageRight
         parameters:
           image:
@@ -1853,11 +1806,20 @@ composition:
           $internal_displayName:
             type: text
             value: Travel Services Overview
-      - _id: 5baddcdc-228e-4013-9243-ccfcfd7d8a17
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            image: 'yes'
+            title: 'yes'
+            titleStyle: 'yes'
+            description: 'yes'
+            eyebrowText: 'yes'
+          hideLockedParameters: true
+      - _id: 586f156b-7f1f-49bc-9bc3-8663c3689069
         type: accordion
         slots:
           items:
-            - _id: 40feaadf-2bb2-4d6c-87d7-d72487a6aab8
+            - _id: efc8acc5-6db1-4cc4-a7a4-166a5feef0b6
               type: accordionItem
               parameters:
                 title:
@@ -1902,7 +1864,12 @@ composition:
                       at an additional cost. Each package clearly outlines
                       what's included, and our travel advisors can help
                       customize your experience.
-            - _id: 92d7f00f-d300-4fee-8f02-45305892ac4c
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+            - _id: 5b31f104-1497-402e-9d35-8c4d816b9402
               type: accordionItem
               parameters:
                 title:
@@ -1943,7 +1910,12 @@ composition:
                       travel, 3-4 months is typically sufficient. Last-minute
                       deals are occasionally available, but selection may be
                       limited.
-            - _id: 6ef4f9f8-90e5-4fc6-8290-6a48b0f8046b
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+            - _id: c3838da6-ac6a-4267-b29b-2dff20988f34
               type: accordionItem
               parameters:
                 title:
@@ -1984,7 +1956,12 @@ composition:
                       emergencies, lost luggage, and travel delays. Our advisors
                       can help you select the right policy based on your
                       specific trip and needs.
-            - _id: 68387eb3-5d35-4f58-99aa-3dcc7f628cfc
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+            - _id: 97e79d67-e1e5-489e-bcc2-f6343b81ada9
               type: accordionItem
               parameters:
                 title:
@@ -2025,6 +2002,11 @@ composition:
                       emergencies, and any other challenges that may arise
                       during your journey. You'll receive dedicated contact
                       information prior to departure.
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  title: 'yes'
+                  description: 'yes'
         parameters:
           title:
             type: text
@@ -2052,7 +2034,12 @@ composition:
                 Find answers to common questions about traveling with Uniglobe.
                 If you don't see your question here, our travel experts are just
                 a call or click away.
-      - _id: 8fff3946-2b9b-45c4-ab24-c56e5ef09d19
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            title: 'yes'
+            description: 'yes'
+      - _id: 0a4a114c-bdd9-4065-82c8-0b89e5ca177f
         type: hero
         variant: imageRight
         parameters:
@@ -2340,38 +2327,56 @@ composition:
           $internal_displayName:
             type: text
             value: Travel Dreams Hero Section
-      - _id: 391f3282-3715-43be-b33a-381bf30e898e
+        _overridability:
+          parameters:
+            $viz: 'no'
+            delay: 'no'
+            image: 'yes'
+            title: 'yes'
+            video: 'yes'
+            duration: 'no'
+            marginTop: 'no'
+            objectFit: 'no'
+            fullHeight: 'no'
+            paddingTop: 'no'
+            titleStyle: 'yes'
+            description: 'yes'
+            eyebrowText: 'yes'
+            marginBottom: 'no'
+            overlayColor: 'no'
+            animationType: 'no'
+            paddingBottom: 'no'
+            animationOrder: 'no'
+            backgroundType: 'no'
+            overlayOpacity: 'no'
+            animationPreview: 'no'
+            containerVariant: 'no'
+            textColorVariant: 'no'
+            primaryButtonCopy: 'yes'
+            primaryButtonLink: 'yes'
+            primaryButtonStyle: 'no'
+            secondaryButtonCopy: 'yes'
+            secondaryButtonLink: 'yes'
+            secondaryButtonStyle: 'no'
+            primaryButtonAnimationType: 'no'
+            secondaryButtonAnimationType: 'no'
+          hideLockedParameters: true
+      - _id: 64f2f559-0650-4620-953b-5868ad7e1ff9
         type: container
         _pattern: 019ba1b5-af51-4c40-b968-f0f11b66720e
-      - _id: c25e891f-7157-4527-ad82-700b5450cfbb
+      - _id: 68dea642-3642-4aaa-849c-a48f1834831c
         type: container
         _pattern: a0e086a1-87f2-4881-83d2-e53a88225cf9
-      - _id: 78f9f087-b4a4-4cee-985a-1a11c717a5e9
+      - _id: aea8b758-2955-4d81-8367-409a5292daa4
         type: container
         _pattern: 03c6b8a7-f76f-4e1a-b357-e3aac63e525a
   _overrides:
-    391f3282-3715-43be-b33a-381bf30e898e:
+    64f2f559-0650-4620-953b-5868ad7e1ff9:
       parameters:
         $internal_displayName:
           type: text
           value: Latest Blog Posts
-    bb808b0f-ccd8-4c09-81d5-2d9944ef9d88:
-      parameters:
-        $pzCrit:
-          type: $pzCrit
-          value:
-            crit: []
-            name: hero-bb80
-        $internal_displayName:
-          type: text
-          value: Blog post hero
-      dataResources:
-        Blog post:
-          type: blogPostBySlug
-          variables:
-            slug: hidden-gems-in-southeast-asia-off-the-beaten-path
-            locale: ${locale}
-    c25e891f-7157-4527-ad82-700b5450cfbb:
+    68dea642-3642-4aaa-849c-a48f1834831c:
       parameters:
         $internal_displayName:
           type: text
@@ -2388,7 +2393,7 @@ composition:
             entryIds: >-
               305c9a69-e5cd-4488-8f96-e0fb09a260a9,11d6ed21-9d24-4806-b974-e66aa37a010d,a5122b32-5e2a-435c-b5be-5697c9de58f0
             contentTypes: blogPosts
-    e27870d1-b74f-4c3c-86ca-20d3b881fe95:
+    d123415a-07ca-4459-92e9-1156a4d2fc4a:
       parameters:
         title:
           type: text
@@ -2413,13 +2418,13 @@ composition:
             locale: ${locale}
             entryIds: >-
               f060e6bf-e37b-4b31-be5c-646012cc8829,5ca426ea-70d4-4837-aa2b-172291f03447,7b5271ed-8dc7-450b-8da3-0a9a2d7a9c55
-    c25e891f-7157-4527-ad82-700b5450cfbb|508a29a8-f9df-43f4-ac84-2cd9fd6bdf3f:
+    68dea642-3642-4aaa-849c-a48f1834831c|508a29a8-f9df-43f4-ac84-2cd9fd6bdf3f:
       parameters:
         title:
           type: text
           locales:
             en-US: Featured blog posts
-    e27870d1-b74f-4c3c-86ca-20d3b881fe95|797b9518-801c-44fe-b57d-d3bd74788ee1:
+    d123415a-07ca-4459-92e9-1156a4d2fc4a|797b9518-801c-44fe-b57d-d3bd74788ee1:
       parameters:
         badge:
           type: text
@@ -2480,11 +2485,28 @@ composition:
             de-AT: 0
             de-CH: 0
             de-DE: 0
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      pageTitle: 'yes'
+      twitterCard: 'yes'
+      pageKeywords: 'yes'
+      twitterImage: 'yes'
+      twitterTitle: 'yes'
+      openGraphType: 'yes'
+      openGraphImage: 'yes'
+      openGraphTitle: 'yes'
+      twitterDescription: 'yes'
+      pageMetaDescription: 'yes'
+      openGraphDescription: 'yes'
+      overlayTitleToOgImage: 'yes'
+      overlayTitleToTwitterImage: 'yes'
+    hideLockedParameters: true
   _locales:
     - en-US
     - de-DE
     - de-AT
     - de-CH
-created: '2024-01-15T09:27:31.731839+00:00'
-modified: '2026-01-27T09:33:08.792171+00:00'
-pattern: false
+created: '2026-01-27T09:15:39.446939+00:00'
+modified: '2026-01-27T11:55:42.90869+00:00'
+pattern: true

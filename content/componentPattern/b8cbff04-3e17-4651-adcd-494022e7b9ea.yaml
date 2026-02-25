@@ -9,8 +9,7 @@ composition:
       value: ${#jptr:/Blog post/entry/fields/featuredImage/value}
     title:
       type: text
-      locales:
-        en-US: ${#jptr:/Blog post/entry/fields/title/value}
+      value: ${#jptr:/Blog post/entry/fields/title/value}
     marginTop:
       type: select
       value: None
@@ -25,14 +24,12 @@ composition:
       value: h1
     description:
       type: text
-      locales:
-        en-US: ${#jptr:/Blog post/entry/fields/excerpt/value}
+      value: ${#jptr:/Blog post/entry/fields/excerpt/value}
     eyebrowText:
       type: text
-      locales:
-        en-US: >-
-          ${#jptr:/Blog
-          post/entry/fields/categories/value/0/entry/fields/title/value}
+      value: >-
+        ${#jptr:/Blog
+        post/entry/fields/categories/value/0/entry/fields/title/value}
     marginBottom:
       type: select
       value: None
@@ -53,7 +50,7 @@ composition:
       type: blogPostBySlug
       variables:
         slug: hidden-gems-in-southeast-asia-off-the-beaten-path
-        locale: ${locale}
+        locale: ${locale},en-US
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _overridability:
@@ -61,7 +58,7 @@ composition:
     parameters:
       $viz: 'yes'
       delay: 'no'
-      image: 'no'
+      image: 'yes'
       title: 'no'
       video: 'no'
       duration: 'no'
@@ -95,8 +92,10 @@ composition:
     - en-US
     - de-DE
     - it-IT
-created: '2025-07-03T19:06:42.01377+00:00'
-modified: '2025-07-03T19:07:59.250224+00:00'
+    - de-AT
+    - de-CH
+created: '2025-06-10T11:33:14.991817+00:00'
+modified: '2026-01-19T14:31:19.546097+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1730978313/Uniglobe/Component%20Previews/country-hero.png

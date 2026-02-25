@@ -1,9 +1,0 @@
-id: 886a762c-c025-431d-be19-0e8c64e4878e
-name: Laos
-order: 500
-path: /:locale/destinations/asia/laos
-type: composition
-pathSegment: laos
-data: {}
-compositionId: 026a088b-f11f-492e-ba53-eea6cd6689e2
-projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

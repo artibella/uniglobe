@@ -58,6 +58,9 @@ composition:
     overlayOpacity:
       type: number
       locales:
+        de-AT: 60
+        de-CH: 60
+        de-DE: 60
         en-US: 60
     descriptionLineCount:
       type: number
@@ -93,7 +96,7 @@ composition:
     - de-AT
     - de-CH
 created: '2024-10-23T13:52:50.185915+00:00'
-modified: '2025-08-27T09:47:48.341445+00:00'
+modified: '2026-01-21T09:13:32.871425+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1737406073/Uniglobe/Component%20Previews/Country%20card.png

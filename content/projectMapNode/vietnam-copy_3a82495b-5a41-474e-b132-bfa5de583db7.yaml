@@ -1,8 +1,0 @@
-id: 3a82495b-5a41-474e-b132-bfa5de583db7
-name: Vietnam
-order: 700
-path: /:locale/destinations/asia/vietnam-copy
-type: placeholder
-pathSegment: vietnam-copy
-data: {}
-projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

@@ -1,0 +1,29 @@
+composition:
+  _name: Costa Rica
+  _id: 489ceebf-7574-474c-8515-6f04da9db432
+  _slug: costa-rica
+  type: page
+  _dataResources:
+    Country Content:
+      type: country
+      variables:
+        locale: ${locale},en-US
+        entryId: 718f9a08-407f-474f-b5de-3769bdff4c41
+  _overrides:
+    489ceebf-7574-474c-8515-6f04da9db432|89a78264-bfb9-4be3-af8d-0bdf4b26ac41:
+      parameters:
+        backgroundType:
+          type: tp-background-type-parameter
+          value: Medium
+        textColorVariant:
+          type: select
+          value: Dark
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+  _pattern: 1d32f312-8540-44d9-920d-f2dcbe97db34
+created: '2026-02-13T21:36:00.158736+00:00'
+modified: '2026-02-13T21:37:40.695887+00:00'
+pattern: false
+categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29

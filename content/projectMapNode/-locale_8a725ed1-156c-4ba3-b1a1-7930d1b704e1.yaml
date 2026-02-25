@@ -1,10 +1,10 @@
 id: 8a725ed1-156c-4ba3-b1a1-7930d1b704e1
 name: Home
-type: composition
-data:
-  previewValue: ''
 order: 200
 path: /:locale
-compositionId: 552a8a72-6c47-4993-bc45-f0148ea79904
+type: composition
 pathSegment: ':locale'
+data:
+  previewValue: ''
+compositionId: afd73f13-19a5-4c21-bbcd-77bb9af1be46
 projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

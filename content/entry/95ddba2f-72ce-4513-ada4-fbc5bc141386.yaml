@@ -1,0 +1,733 @@
+created: '2026-02-16T08:42:46.629535+00:00'
+modified: '2026-02-16T09:10:32.741119+00:00'
+pattern: false
+entry:
+  _id: 95ddba2f-72ce-4513-ada4-fbc5bc141386
+  _name: Top surf destinations in Costa Rica for adventurous and...
+  _slug: top-surf-destinations-in-costa-rica-for-adventurous-and
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxzdXJmJTIwY29zdGElMjByaWNhfGVufDB8fHx8MTc3MTIzMjg5Nnww&ixlib=rb-4.1.0&q=85
+  type: blogPosts
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Top 5 surf destinations in Costa Rica for conscious
+                      explorers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 1. Tamarindo
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Located on the Nicoya Peninsula, Tamarindo is a classic
+                      starting point for surfers. The sandy bottom beach break
+                      delivers consistent waves year-round, making it perfect
+                      for beginners and intermediates. The lively town offers
+                      loads of surf schools, great eats, and nightlife to round
+                      off a perfect day in the water.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'When to go:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' November to April for smaller, manageable waves; May to October for bigger swells.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 2. Playa Hermosa
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Just south of Jaco, Playa Hermosa is a mecca for
+                      experienced surfers. Its powerful beach break can deliver
+                      heavy tubes, especially during the rainy season. The
+                      black-sand beach stretches for miles and hosts
+                      international surf competitions, drawing talent from all
+                      over the world.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Insider tip:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' The waves can get big and strong—better suited for advanced surfers.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 3. Santa Teresa & Mal País
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The chilled jungle town of Santa Teresa has become a
+                      surfer’s and digital nomad’s paradise. Expect fun beach
+                      breaks, point breaks, and a welcoming scene for both
+                      longboarders and shortboarders. The sunsets here are
+                      legendary, and the consistent swell means you can catch a
+                      ride pretty much any season.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 4. Pavones
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Wave chasers flock to Pavones for a reason: it’s home to
+                      one of the longest left-hand breaks in the world. On the
+                      right swell, you can ride a single wave for nearly a
+                      kilometer! The sleepy village and untouched nature make
+                      this a dream spot for surfers looking for adventure off
+                      the main route.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Best for:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Intermediate and advanced surfers who want to test their endurance.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 5. Dominical
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Another favorite on the southern Pacific coast, Dominical
+                      offers steep, powerful breaks that attract experienced
+                      surfers. The town has a laid-back vibe, with yoga retreats
+                      and organic cafes dotting the main strip. If you’re
+                      chasing big, consistent waves, this is your place.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Bonus:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Dominicalito, just to the south, is a good option for beginners.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Tips for surfing in Costa Rica
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Respect local surf etiquette and always be mindful of
+                          others in the water.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Watch out for strong rip currents, especially during
+                          the rainy season.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Many towns offer affordable board rentals and beginner
+                          lessons—great for testing the waters.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Consider using eco-friendly sunscreen to help protect
+                          Costa Rica's reefs and wildlife.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Final thoughts
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      No matter where you end up, surfing in Costa Rica is about
+                      more than just catching waves—it’s about soaking up the
+                      stunning scenery and the warm hospitality of the country.
+                      Grab your board and get ready for the ride of your life!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Ready to plan your conscious surf trip? Let’s go!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 2
+            direction: null
+    title:
+      type: text
+      locales:
+        en-US: >-
+          Top surf destinations in Costa Rica for adventurous and eco-conscious
+          travelers
+    excerpt:
+      type: text
+      locales:
+        en-US: >-
+          The best surf spots in Costa Rica for conscious explorers
+
+          If catching consistent swells and living the pura vida lifestyle are
+          on your bucket list, Costa Rica tops the list for eco-minded surfers
+          and adventure seekers. From relaxed beach towns to remote jungle
+          breaks, there’s a wave here for everyone—no matter your level. Here’s
+          your guide to the top surf spots that deliver thrills, community
+          vibes, and mindful travel experiences.
+
+          1. Tamarindo
+
+          Set on the Nicoya Peninsula, Tamarindo is the ultimate launchpad for
+          beginner and intermediate surfers. With sandy-bottom beach breaks and
+          reliable waves all year, this vibrant town is packed with locally run
+          surf schools, friendly instructors, and a buzzing food scene. Surfers
+          here can refuel with fresh fish tacos and join in for sunset
+          sessions—the ultimate pura vida energy.
+
+          When to go: November–April brings mellow surf for beginners. Bigger
+          swells roll in May–October for those chasing a challenge.
+
+          Sustainability tip: Look for surf camps supporting beach cleanups and
+          eco-certified hostels.
+
+          2. Playa Hermosa (near Jaco)
+
+          Just south of Jaco, Playa Hermosa draws experienced surfers thanks to
+          its powerful, world-class waves and epic rainy season tubes. This
+          sprawling black-sand beach even hosts international surf
+          competitions—expect a lively local surf scene and plenty of
+          inspiration for your next session.
+
+          Insider tip: Only paddle out if you’re confident in heavy surf.
+          Beginners can spectate from the shore where surf culture is thriving.
+
+          Community connect: Support local sodas for authentic eats after your
+          session.
+
+          3. Santa Teresa & Mal País
+
+          Santa Teresa and Mal País are where laid-back vibes meet world-class
+          surf. With playful beach and point breaks for both longboarders and
+          shortboarders, this is a favorite with chill locals and digital nomads
+          alike. After your session, explore community-run yoga shalas and
+          sustainable cafes tucked among the jungle.
+
+          Year-round waves: Consistent swell makes anytime a good time to visit.
+
+          Responsible travel: Choose eco-lodges or family-run guesthouses to
+          support the local community.
+
+          4. Pavones
+
+          Seeking something legendary? Pavones is home to one of the planet’s
+          longest lefts, where you can ride a wave for almost a kilometer on a
+          good day. The remote village and wild nature set the scene for a real
+          adventure, with plenty of time to connect with the locals and enjoy
+          untouched landscapes.
+
+          Best for: Intermediate to advanced surfers with stamina to spare.
+
+          Off the beaten path: Minimal crowds and rustic accommodations make for
+          an authentic, nature-first experience.
+
+          5. Dominical
+
+          On the southern Pacific coast, Dominical is the classic laid-back surf
+          town where yoga, organic eats, and big waves rule. The steep beach
+          break is ideal for more experienced surfers, while nearby Dominicalito
+          welcomes newcomers with gentler rides and a supportive surf school
+          scene.
+
+          Community highlight: Join local-led yoga or volunteer for beach
+          cleanup days between surf sessions.
+
+          Sustainable stays: Book eco-friendly hostels to support conservation
+          efforts.
+
+          Top tips for surfing Costa Rica the eco-friendly way
+
+          Respect local surf etiquette and always greet your fellow surfers—it’s
+          all about good vibes here.
+
+          Ask local guides about currents and safe zones, especially during
+          green season when swells grow.
+
+          Choose reef-safe sunscreen and reusable water bottles to protect the
+          ocean and wildlife.
+
+          Opt for community-based lessons or rentals, which directly support the
+          local economy.
+
+          Travel light—many towns offer board rentals and budget group lessons.
+
+          Final thoughts
+
+          Costa Rica’s surf scene is more than just waves—it’s about connecting
+          with the people, the vibrant nature, and sustainable travel
+          traditions. Whether you’re a first-timer or a seasoned shredder,
+          you’ll find your place (and your tribe) here. Pack your board, keep it
+          eco, and get ready to ride—Costa Rica style!
+
+          Ready to start your surf adventure? Join the Uniglobe community and
+          travel with purpose.
+    categories:
+      type: contentReference
+      value: ${#jptr:/ref-95ddba2f-72ce-4513-ada4-fbc5bc141386-categories/entries}
+    enrichments:
+      type: $enr
+      value:
+        - cat: act
+          key: out
+          str: 100
+        - cat: act
+          key: adv
+          str: 80
+        - cat: dest
+          key: ce
+          str: 100
+        - cat: style
+          key: eco
+          str: 90
+        - cat: style
+          key: adv
+          str: 60
+        - cat: profile
+          key: genz
+          str: 60
+        - cat: profile
+          key: mil
+          str: 60
+    destinations:
+      type: contentReference
+      value: ${#jptr:/ref-95ddba2f-72ce-4513-ada4-fbc5bc141386-destinations/entries}
+    introduction:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ready to trade your daily routine for saltwater, sunshine,
+                      and pure adventure? Costa Rica calls with endless waves,
+                      warm water, and a friendly surf culture rooted in Pura
+                      Vida. Here, you’ll find surf breaks for every
+                      ability—whether you’re mastering your first pop-up or
+                      chasing clean barrels. But Costa Rica is more than a surf
+                      destination; it’s a place where sustainability matters and
+                      every session supports local communities.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      This guide breaks down the top surf spots across the
+                      country, with tips for sustainable travel, community
+                      connection, and honest insight to help you ride
+                      responsibly. Grab your board—it’s time to experience Costa
+                      Rica, the conscious traveler’s way.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: 1f2d7889-db43-4906-9ae6-3dae27bf5f92
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxzdXJmJTIwY29zdGElMjByaWNhfGVufDB8fHx8MTc3MTIzMjg5Nnww&ixlib=rb-4.1.0&q=85
+              title:
+                type: text
+                value: a group of people carrying surfboards into the ocean
+              width:
+                type: number
+                value: 5760
+              custom:
+                type: object
+                value:
+                  color: '#404026'
+                  apiUrl: >-
+                    https://api.unsplash.com/photos/a-group-of-people-carrying-surfboards-into-the-ocean-ETpRDkTI9tY
+                  blurHash: LFC~^,?bj^ofI-f5afWU0JV@f5WV
+                  sourceId: ETpRDkTI9tY
+                  createdAt: '2024-06-06T18:14:30Z'
+                  detailUrl: >-
+                    https://unsplash.com/photos/a-group-of-people-carrying-surfboards-into-the-ocean-ETpRDkTI9tY
+                  updatedAt: '2026-02-16T06:21:33Z'
+                  authorName: Luis Desiro
+                  downloadUrl: >-
+                    https://unsplash.com/photos/ETpRDkTI9tY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxzdXJmJTIwY29zdGElMjByaWNhfGVufDB8fHx8MTc3MTIzMjg5Nnww
+                  photoRawUrl: >-
+                    https://images.unsplash.com/photo-1717697453509-039c2dd77663?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxzdXJmJTIwY29zdGElMjByaWNhfGVufDB8fHx8MTc3MTIzMjg5Nnww&ixlib=rb-4.1.0
+                  photoFullUrl: >-
+                    https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxzdXJmJTIwY29zdGElMjByaWNhfGVufDB8fHx8MTc3MTIzMjg5Nnww&ixlib=rb-4.1.0&q=85
+                  photoSmallUrl: >-
+                    https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxzdXJmJTIwY29zdGElMjByaWNhfGVufDB8fHx8MTc3MTIzMjg5Nnww&ixlib=rb-4.1.0&q=80&w=400
+                  photoThumbUrl: >-
+                    https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxzdXJmJTIwY29zdGElMjByaWNhfGVufDB8fHx8MTc3MTIzMjg5Nnww&ixlib=rb-4.1.0&q=80&w=200
+                  authorUsername: luisdesiro
+                  photoRegularUrl: >-
+                    https://images.unsplash.com/photo-1717697453509-039c2dd77663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxzdXJmJTIwY29zdGElMjByaWNhfGVufDB8fHx8MTc3MTIzMjg5Nnww&ixlib=rb-4.1.0&q=80&w=1080
+                  authorProfileUrl: https://unsplash.com/@luisdesiro
+                  downloadLocation: >-
+                    https://api.unsplash.com/photos/ETpRDkTI9tY/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxzdXJmJTIwY29zdGElMjByaWNhfGVufDB8fHx8MTc3MTIzMjg5Nnww
+                  authorProfileImage: >-
+                    https://images.unsplash.com/profile-1535310624584-9bb14babd1b8?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+              height:
+                type: number
+                value: 3840
+              description:
+                type: text
+                value: Photo by Luis Desiro on Unsplash
+            _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+  _dataResources:
+    ref-95ddba2f-72ce-4513-ada4-fbc5bc141386-categories:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: f86f265b-e4be-483a-a141-dbcc75855568
+    ref-95ddba2f-72ce-4513-ada4-fbc5bc141386-destinations:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 718f9a08-407f-474f-b5de-3769bdff4c41
+  _locales:
+    - en-US

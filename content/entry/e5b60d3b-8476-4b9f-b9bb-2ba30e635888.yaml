@@ -1,0 +1,642 @@
+created: '2026-02-25T10:36:41.805171+00:00'
+modified: '2026-02-25T10:43:41.864709+00:00'
+pattern: false
+entry:
+  _id: e5b60d3b-8476-4b9f-b9bb-2ba30e635888
+  _name: Cambodia
+  _slug: cambodia
+  _thumbnail: https://flagcdn.com/kh.svg
+  type: country
+  fields: {}
+  _dataResources:
+    Country:
+      type: countryByCountryName
+      variables:
+        name: Cambodia
+    ref-e5b60d3b-8476-4b9f-b9bb-2ba30e635888-region:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b37861c7-61e6-4171-9561-c4d8df5461c5
+  _locales:
+    - en-US
+    - de-DE
+    - it-IT
+  _overrides:
+    e5b60d3b-8476-4b9f-b9bb-2ba30e635888:
+      parameters:
+        region:
+          type: contentReference
+          value: ${#jptr:/ref-e5b60d3b-8476-4b9f-b9bb-2ba30e635888-region/entries/0}
+        flagEmoji:
+          type: text
+          value: 🇰🇭
+        teaserText:
+          type: text
+          locales:
+            de-DE: >-
+              Entdecke Kambodschas alte Tempel, lebendige Kultur und herzliche
+              Menschen für dein authentisches Südostasien-Abenteuer.
+            en-US: >-
+              Explore Cambodia’s ancient temples, vibrant culture, and friendly
+              locals for an authentic Southeast Asian adventure.
+        description:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Kambodscha lädt dich ein, ein Land zu erkunden, in dem
+                          antike Wunder und das alltägliche Leben auf lebendige,
+                          überraschende Weise miteinander verschmelzen. Die
+                          legendäre Tempelanlage Angkor Wat ist nur der Anfang
+                          deiner Reise: Wandere durch dichte Dschungel oder
+                          paddle auf den idyllischen Flüssen der Cardamom
+                          Mountains, lass das Tempo am entspannten Mekong-Fluss
+                          langsamer werden oder halte Ausschau nach seltenen
+                          Irrawaddy-Delfinen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Dieses Land ist geprägt vom mächtigen Khmer-Reich,
+                          kolonialer Geschichte und dem unerschütterlichen
+                          Lebensmut seiner Menschen. Erlebe die Seele
+                          Kambodschas beim Streetfood, im Lachen der Märkte und
+                          in den Geschichten, die dir gastfreundliche
+                          Einheimische erzählen. Kostet die Khmer-Küche –
+                          probiere zum Beispiel Fisch-Amok oder knusprige Num
+                          Banh Chok – und entdecke erschwingliche Homestays,
+                          Eco-Lodges und von der Community geführte Touren, die
+                          direkt lokale Familien unterstützen.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Die Fortbewegung ist unkompliziert: Tuk-Tuks,
+                          Fahrräder oder nachhaltige Busse verbinden Städte wie
+                          Phnom Penh und Siem Reap mit abgelegenen Dörfern und
+                          entspannten Inseln. Wer hier reist, unterstützt ein
+                          Land im Wandel, in dem bewusster Tourismus
+                          Gemeinschaften stärkt und Naturschätze bewahrt. Dich
+                          erwartet eine Mischung aus traditionellem Lebensstil
+                          und modernen Annehmlichkeiten – vergiss aber nicht: In
+                          Kambodscha läuft alles ein bisschen langsamer. Das
+                          schafft Raum für echte Begegnungen und Erinnerungen,
+                          die bleiben.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Egal ob Solo-Backpacker, Naturfreundin oder
+                          neugieriger Foodie – Kambodscha gibt dir die
+                          Möglichkeit, nachhaltig zu reisen, bewusst zu
+                          konsumieren und eine der gastfreundlichsten Kulturen
+                          Südostasiens hautnah zu erleben.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Cambodia invites you to explore a land where ancient
+                          wonders and everyday life mingle in vibrant,
+                          unexpected ways. Home to the legendary Angkor Wat,
+                          Cambodia’s temple complexes are just the start. Trek
+                          lush jungles or kayak the scenic rivers of the
+                          Cardamom Mountains, then slow down along the relaxed
+                          Mekong or spot rare Irrawaddy dolphins.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          This is a place shaped by the mighty Khmer Empire,
+                          colonial history, and the resilience of its people.
+                          You’ll feel Cambodia’s spirit in the buzz of its
+                          street food stalls, the laughter at local markets, and
+                          the stories shared by friendly hosts. Dive into Khmer
+                          cuisine—try fish amok or crispy num banh chok—while
+                          exploring affordable home stays, eco-lodges, and
+                          community-run tours that directly support local
+                          families.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Getting around is easy with tuk-tuks, bikes, or
+                          sustainable buses connecting cities like Phnom Penh
+                          and Siem Reap to off-the-path villages and laid-back
+                          islands. Traveling here means supporting a country
+                          renewing itself, where responsible tourism can help
+                          communities thrive and preserve natural treasures.
+                          Expect a blend of traditional life and modern
+                          comforts, but remember: things move at a slower,
+                          Cambodian pace—perfect for real connections and
+                          lasting memories.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Whether you’re a solo backpacker, eco-hiker, or
+                          curious foodie, Cambodia empowers you to travel
+                          sustainably, spend thoughtfully, and experience one of
+                          Southeast Asia’s most welcoming cultures up-close.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        enrichments:
+          type: $enr
+          value:
+            - cat: dest
+              key: asia
+              str: 100
+            - cat: act
+              key: cul
+              str: 80
+            - cat: act
+              key: adv
+              str: 60
+        teaserImage:
+          type: asset
+          locales:
+            en-US:
+              - _id: 7fa7d6e4-3ae5-46b2-a8dc-9ad476a0b553
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1599283787923-51b965a58b05?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxhbmdrb3IlMjB3YXR8ZW58MHx8fHwxNzcyMDE2MDYyfDA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: Angkor Wat, Agkor, Cambodia
+                  width:
+                    type: number
+                    value: 6000
+                  custom:
+                    type: object
+                    value:
+                      color: '#8c8c8c'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/people-walking-on-park-near-trees-and-building-during-daytime-gt3gK_Wob2g
+                      blurHash: LMB4j.WAIos=KBocohj^WKf,M_Rj
+                      sourceId: gt3gK_Wob2g
+                      createdAt: '2020-09-05T05:31:22Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/people-walking-on-park-near-trees-and-building-during-daytime-gt3gK_Wob2g
+                      updatedAt: '2026-02-25T03:13:13Z'
+                      authorName: allPhoto Bangkok
+                      downloadUrl: >-
+                        https://unsplash.com/photos/gt3gK_Wob2g/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxhbmdrb3IlMjB3YXR8ZW58MHx8fHwxNzcyMDE2MDYyfDA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1599283787923-51b965a58b05?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxhbmdrb3IlMjB3YXR8ZW58MHx8fHwxNzcyMDE2MDYyfDA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1599283787923-51b965a58b05?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxhbmdrb3IlMjB3YXR8ZW58MHx8fHwxNzcyMDE2MDYyfDA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1599283787923-51b965a58b05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxhbmdrb3IlMjB3YXR8ZW58MHx8fHwxNzcyMDE2MDYyfDA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1599283787923-51b965a58b05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxhbmdrb3IlMjB3YXR8ZW58MHx8fHwxNzcyMDE2MDYyfDA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: allphotobangkok
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1599283787923-51b965a58b05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxhbmdrb3IlMjB3YXR8ZW58MHx8fHwxNzcyMDE2MDYyfDA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@allphotobangkok
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/gt3gK_Wob2g/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxhbmdrb3IlMjB3YXR8ZW58MHx8fHwxNzcyMDE2MDYyfDA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1709374745212-3e0bd29ad921image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4000
+                  description:
+                    type: text
+                    value: Photo by allPhoto Bangkok on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        timeToVisit:
+          type: richText
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h2
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Wann du Kambodscha besuchen solltest
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Kambodscha ist ganzjährig ein spannendes Reiseziel,
+                          aber je nach Saison erlebst du das Land
+                          unterschiedlich. Die angenehmsten Monate sind von
+                          November bis April: In der Trockenzeit erwarten dich
+                          sonnige Tage und kühlere Temperaturen (meist 21–32°C),
+                          perfekt zum Erkunden von Angkor Wat, Radeln um Siem
+                          Reap oder dem Besuch lokaler Dörfer und
+                          Community-Touren. Um beliebte Sehenswürdigkeiten kann
+                          es dann voller werden und die Preise steigen leicht,
+                          aber abseits der Hauptorte findest du weiterhin ruhige
+                          Märkte und kleine Abenteuer.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Reist du lieber preisbewusst und ohne viele Besucher,
+                          plane deinen Trip in der grünen Regenzeit von Mai bis
+                          Oktober. Morgens bleibt es oft trocken und warm, am
+                          Nachmittag sorgen kurze, kräftige Schauer für
+                          Erfrischung. Die Landschaft verwandelt sich in eine
+                          üppige, grüne Oase mit Reisfeldern und Wildblumen.
+                          Unterkünfte, Touren und Eco-Lodges sind meist
+                          günstiger, und dein Besuch unterstützt die hiesigen
+                          Communities in einer ruhigeren Zeit. Höhere
+                          Wasserstände machen das Kayaken und Bootfahren auf dem
+                          Mekong oder Tonlé Sap zum Erlebnis.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Die heiße Jahreszeit (März bis Mai) bringt hohe
+                          Temperaturen, vor allem im Inland. Starte Ausflüge am
+                          besten früh, trinke genug (am nachhaltigsten mit einer
+                          wiederbefüllbaren Flasche) und gönn dir während der
+                          Mittagshitze Pausen in schattigen Eco-Cafés oder
+                          Baumhaus-Lodges.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Für echte Begegnungen: Das Khmer-Neujahr (Mitte April)
+                          füllt die Städte mit Festen. Die Wasserfestspiele (Bon
+                          Om Touk) im November begeistern mit Bootsrennen,
+                          Streetfood und Live-Musik – ein echtes
+                          Gemeinschaftserlebnis.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Egal wann du reist, achte auf angemessene Kleidung in
+                          Tempeln und hinterlasse einen möglichst kleinen
+                          Fußabdruck: Wähle grüne Verkehrsmittel, übernachte bei
+                          Familien oder in nachhaltigen Hostels und nutze
+                          wiederverwendbare Produkte.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: When to visit Cambodia
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Cambodia is a year-round destination, but your
+                          experience will vary depending on the season. The most
+                          comfortable months to visit are from 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: November to April
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          , when the dry season brings cooler temperatures
+                          (typically 21–32°C/70–90°F) and sunny days. This is
+                          the ideal time for exploring Angkor Wat, biking around
+                          Siem Reap, visiting floating villages, or joining
+                          community-run tours in rural areas. Although prices
+                          and visitor numbers can rise around major sites, it's
+                          still easy to find off-the-beaten-path alternatives
+                          and calm mornings at local markets.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          If you prefer to avoid crowds and hunt for bargains,
+                          consider visiting during the 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: green/rainy season
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' from '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: May to October
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          . While you’ll encounter regular afternoon showers
+                          (often dramatic but brief), the mornings are usually
+                          warm and dry, and the countryside transforms into lush
+                          green rice paddies and wildflowers. Accommodation,
+                          tours, and eco-lodges tend to be more affordable, and
+                          you’ll help support communities in their quieter
+                          months. River levels are higher—great for kayaking or
+                          taking a boat along the Mekong and Tonlé Sap.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'The '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: hot season
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' (March to May) brings soaring temperatures, especially inland. Plan your outings early, stay hydrated with refillable water bottles, and seek shade in sustainable cafés or treehouse lodges during midday heat.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'For deeper connections, look out for '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: Khmer New Year (mid-April)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' when cities become festival hotspots, or join the vibrant '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: Water Festival (Bon Om Touk)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' in November for local boat races, street food, and music. Whenever you travel, remember to respect temple dress codes and minimize your footprint by choosing green transport, supporting family-run stays, and carrying reusable items.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+        officialName:
+          type: text
+          value: Königreich Kambodscha
+  _pattern: 80e4eeed-93ae-4cc1-8c37-5267e34ede08

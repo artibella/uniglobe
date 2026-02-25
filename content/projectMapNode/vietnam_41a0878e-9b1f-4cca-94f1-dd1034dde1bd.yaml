@@ -1,9 +1,0 @@
-id: 41a0878e-9b1f-4cca-94f1-dd1034dde1bd
-name: Vietnam
-order: 600
-path: /:locale/destinations/vietnam
-type: composition
-pathSegment: vietnam
-data: {}
-compositionId: 383d2cd3-a5cc-4261-8fdf-996b5c2a76d6
-projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

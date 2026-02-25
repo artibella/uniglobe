@@ -233,6 +233,7 @@ slots:
       - countdown
       - $localization
       - page
+      - enhancedParametersDemo
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -328,4 +329,4 @@ defaults:
 titleParameter: pageTitle
 canBeComposition: true
 created: '2024-01-15T09:26:44.57822+00:00'
-updated: '2025-11-04T10:32:04.790653+00:00'
+updated: '2026-01-27T15:45:48.544133+00:00'

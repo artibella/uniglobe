@@ -6,6 +6,9 @@ composition:
     title:
       type: text
       locales:
+        de-AT: Blogbeiträge
+        de-CH: Blogbeiträge
+        de-DE: Blogbeiträge
         en-US: Blog posts
   slots:
     container-inner:
@@ -22,35 +25,44 @@ composition:
                     parameters:
                       badge:
                         type: text
-                        locales:
-                          en-US: >-
-                            ${#jptr:/Post/entry/fields/categories/value/0/entry/fields/title/value}
+                        value: >-
+                          ${#jptr:/Post/entry/fields/categories/value/0/entry/fields/title/value}
                       image:
                         type: asset
                         locales:
+                          de-AT: ${#jptr:/Post/entry/fields/featuredImage/value}
+                          de-CH: ${#jptr:/Post/entry/fields/featuredImage/value}
+                          de-DE: ${#jptr:/Post/entry/fields/featuredImage/value}
                           en-US: ${#jptr:/Post/entry/fields/featuredImage/value}
                       title:
                         type: text
-                        locales:
-                          en-US: ${#jptr:/Post/entry/fields/title/value}
+                        value: ${#jptr:/Post/entry/fields/title/value}
+                      badgeSize:
+                        type: select
+                        value: sm
+                      badgeStyle:
+                        type: tp-badge-style-parameter
+                        value: outline
                       buttonCopy:
                         type: text
                         locales:
+                          de-AT: Jetzt lesen
+                          de-CH: Jetzt lesen
+                          de-DE: Jetzt lesen
                           en-US: Read more
                       buttonLink:
                         type: link
-                        locales:
-                          en-US:
-                            path: /${locale}/blog/${#jptr:/Post/entry/_slug}
-                            type: projectMapNode
-                            nodeId: 198adb6d-642e-4298-a7a9-a77ddaad3a03
-                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                            dynamicInputValues:
-                              post: ${#jptr:/Post/entry/_slug}
-                              locale: ${locale}
+                        value:
+                          path: /${locale}/blog/${#jptr:/Post/entry/_slug}
+                          type: projectMapNode
+                          nodeId: 198adb6d-642e-4298-a7a9-a77ddaad3a03
+                          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            post: ${#jptr:/Post/entry/_slug}
+                            locale: ${locale}
                       buttonStyle:
                         type: tp-button-style-parameter
-                        value: link
+                        value: secondary
                     _overridability:
                       parameters:
                         textColorVariant: 'yes'
@@ -67,6 +79,9 @@ composition:
           title:
             type: text
             locales:
+              de-AT: Aktuelle Reisetipps & Stories
+              de-CH: Aktuelle Reisetipps & Stories
+              de-DE: Aktuelle Reisetipps & Stories
               en-US: Latest blog posts
           titleStyle:
             type: select
@@ -103,6 +118,9 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-07-03T19:06:44.995575+00:00'
-modified: '2025-07-03T19:08:02.714833+00:00'
+    - de-DE
+    - de-AT
+    - de-CH
+created: '2025-06-12T07:55:09.250834+00:00'
+modified: '2026-01-27T10:56:17.407006+00:00'
 pattern: true

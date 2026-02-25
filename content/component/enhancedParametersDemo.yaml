@@ -1,0 +1,235 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: enhancedParametersDemo
+name: Enhanced parameters demo
+icon: check-r
+parameters:
+  - id: 5b0bace6-084a-4869-be2e-1651ac981d88
+    name: Single select
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - dropdown
+        - radioButtons
+        - segmentedControlText
+        - segmentedControlIconOnly
+        - segmentedControlsWithIcon
+        - slider
+  - id: dropdown
+    name: Dropdown
+    type: select
+    helpText: Standard dropdown parameter
+    typeConfig:
+      editor: select
+      options:
+        - text: Option 1
+          value: Option 1
+        - text: Option 2
+          value: Option 2
+  - id: radioButtons
+    name: Radio buttons
+    type: select
+    helpText: Single select shown as radio buttons
+    typeConfig:
+      editor: radio
+      options:
+        - text: Option 1
+          value: Option 1
+        - text: Option 2
+          value: Option 2
+        - text: Option 3
+          value: Option 3
+        - text: Option 4
+          value: Option 4
+  - id: segmentedControlText
+    name: 'Segmented control: Text'
+    type: select
+    helpText: Show options as segmented control
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: H1
+          value: h1
+        - text: H2
+          value: h2
+        - text: H3
+          value: h3
+        - text: H4
+          value: h4
+  - id: segmentedControlIconOnly
+    name: 'Segmented control: Icon only'
+    type: select
+    helpText: Show options as segmented control using icons only
+    typeConfig:
+      editor: segmented-control
+      options:
+        - icon: format-left
+          text: ''
+          value: left
+        - icon: format-center
+          text: ''
+          value: center
+        - icon: format-right
+          text: ''
+          value: right
+        - icon: format-justify
+          text: ''
+          value: justify
+  - id: segmentedControlsWithIcon
+    name: 'Segmented control: with icon'
+    type: select
+    helpText: Show options as segmented control with icon
+    typeConfig:
+      editor: segmented-control
+      options:
+        - icon: format-left
+          text: Left
+          value: left
+        - icon: format-center
+          text: Center
+          value: center
+        - icon: format-right
+          text: Right
+          value: right
+  - id: slider
+    name: Slider
+    type: select
+    typeConfig:
+      editor: slider
+      options:
+        - text: XS
+          value: XS
+        - text: S
+          value: S
+        - text: M
+          value: M
+        - text: L
+          value: L
+        - text: XL
+          value: XL
+        - text: XXL
+          value: XXL
+  - id: e84131a5-d7a1-4971-91db-81df8c80e529
+    name: Number
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - number
+        - numberSlider
+        - numberSliderWithSteps
+  - id: number
+    name: Number
+    type: number
+    helpText: Number input field (default)
+    typeConfig: null
+  - id: numberSlider
+    name: Number Slider
+    type: number
+    helpText: Show number input as a slider
+    typeConfig:
+      max: 100
+      min: 0
+      editor: slider-number-field
+  - id: numberSliderWithSteps
+    name: Number Slider with Steps
+    type: number
+    helpText: Show as number slider with steps
+    typeConfig:
+      max: 100
+      min: 0
+      steps: 10
+      editor: slider-number-field
+      useSteps: true
+  - id: 6827b617-4afe-47cd-867d-bfee7853a7a0
+    name: Multi Select
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - multiSelectDropdown
+        - checkboxes
+  - id: multiSelectDropdown
+    name: Multi-select dropdown
+    type: multi-select
+    helpText: Show as dropdown (default)
+    typeConfig:
+      options:
+        - text: Easy
+          value: easy
+        - text: Medium
+          value: medium
+        - text: Hard
+          value: hard
+        - text: Extra hard
+          value: extrahard
+  - id: checkboxes
+    name: Checkboxes
+    type: multi-select
+    helpText: Select multiple options as checkboxes
+    typeConfig:
+      editor: checkboxes
+      options:
+        - text: Easy
+          value: easy
+        - text: Medium
+          value: medium
+        - text: Hard
+          value: hard
+        - text: Extra Hard
+          value: extrahard
+  - id: a1bff88b-e35a-4874-979f-46919e94c34d
+    name: Boolean
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - switch
+        - withTrueLabel
+        - withTrueAndFalseLabels
+  - id: switch
+    name: Switch
+    type: checkbox
+    helpText: Default boolean (no labels)
+    typeConfig: null
+  - id: withTrueLabel
+    name: With true label
+    type: checkbox
+    helpText: Show an alternative label for the boolean parameter
+    typeConfig:
+      trueLabel: 'Yes'
+  - id: withTrueAndFalseLabels
+    name: With False and True labels
+    type: checkbox
+    helpText: Show segmented control with False and True label
+    typeConfig:
+      trueLabel: 'Yes'
+      falseLabel: 'No'
+  - id: 5ccc33bc-bec5-434c-ac98-2b7777ddc2f9
+    name: Text
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - singleLine
+        - multiLine
+  - id: singleLine
+    name: 'Single line '
+    type: text
+    helpText: Single-line text field (default)
+    typeConfig: null
+    localizable: true
+  - id: multiLine
+    name: Multi line
+    type: text
+    helpText: Multi-line text field
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2026-01-27T15:23:55.467543+00:00'
+updated: '2026-01-28T11:24:29.72507+00:00'

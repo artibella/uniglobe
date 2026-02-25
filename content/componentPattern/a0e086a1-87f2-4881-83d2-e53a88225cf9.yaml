@@ -6,7 +6,11 @@ composition:
     title:
       type: text
       locales:
+        de-AT: Blog posts
+        de-CH: Blog posts
+        de-DE: Blog posts
         en-US: Blog posts
+        fr-CH: Blog posts
   slots:
     container-inner:
       - _id: 508a29a8-f9df-43f4-ac84-2cd9fd6bdf3f
@@ -22,32 +26,37 @@ composition:
                     parameters:
                       badge:
                         type: text
-                        locales:
-                          en-US: >-
-                            ${#jptr:/Post/entry/fields/categories/value/0/entry/fields/title/value}
+                        value: >-
+                          ${#jptr:/Post/entry/fields/categories/value/0/entry/fields/title/value}
                       image:
                         type: asset
                         locales:
+                          de-AT: ${#jptr:/Post/entry/fields/featuredImage/value}
+                          de-CH: ${#jptr:/Post/entry/fields/featuredImage/value}
+                          de-DE: ${#jptr:/Post/entry/fields/featuredImage/value}
                           en-US: ${#jptr:/Post/entry/fields/featuredImage/value}
+                          fr-CH: ${#jptr:/Post/entry/fields/featuredImage/value}
                       title:
                         type: text
-                        locales:
-                          en-US: ${#jptr:/Post/entry/fields/title/value}
+                        value: ${#jptr:/Post/entry/fields/title/value}
                       buttonCopy:
                         type: text
                         locales:
+                          de-AT: Jetzt lesen
+                          de-CH: Jetzt lesen
+                          de-DE: Jetzt lesen
                           en-US: Read more
+                          fr-CH: En savoir plus
                       buttonLink:
                         type: link
-                        locales:
-                          en-US:
-                            path: /${locale}/blog/${#jptr:/Post/entry/_slug}
-                            type: projectMapNode
-                            nodeId: 198adb6d-642e-4298-a7a9-a77ddaad3a03
-                            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                            dynamicInputValues:
-                              post: ${#jptr:/Post/entry/_slug}
-                              locale: ${locale}
+                        value:
+                          path: /${locale}/blog/${#jptr:/Post/entry/_slug}
+                          type: projectMapNode
+                          nodeId: 198adb6d-642e-4298-a7a9-a77ddaad3a03
+                          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            post: ${#jptr:/Post/entry/_slug}
+                            locale: ${locale}
                       buttonStyle:
                         type: tp-button-style-parameter
                         value: link
@@ -67,7 +76,11 @@ composition:
           title:
             type: text
             locales:
-              en-US: Latest blog posts
+              de-AT: Für dich ausgewählt
+              de-CH: Für dich ausgewählt
+              de-DE: Für dich ausgewählt
+              en-US: Featured blog posts
+              fr-CH: Latest blog posts
           titleStyle:
             type: select
             value: h2
@@ -84,7 +97,7 @@ composition:
       type: blogPostSelection
       variables:
         limit: '3'
-        locale: ${locale}
+        locale: ${locale},en-US
         search: ''
         filters: '{"type[eq]":"blogPosts"}'
         orderBy: created_at_DESC
@@ -105,6 +118,10 @@ composition:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-07-03T19:06:45.672457+00:00'
-modified: '2025-07-03T19:08:03.202378+00:00'
+    - de-DE
+    - de-AT
+    - de-CH
+    - fr-CH
+created: '2025-06-12T08:45:54.273884+00:00'
+modified: '2026-01-27T10:48:16.72671+00:00'
 pattern: true

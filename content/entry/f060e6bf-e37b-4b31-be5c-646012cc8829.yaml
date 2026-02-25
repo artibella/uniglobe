@@ -1,5 +1,5 @@
 created: '2025-10-10T12:53:42.001231+00:00'
-modified: '2025-10-10T13:08:57.9751+00:00'
+modified: '2026-01-27T09:52:20.264697+00:00'
 pattern: false
 entry:
   _id: f060e6bf-e37b-4b31-be5c-646012cc8829
@@ -285,58 +285,56 @@ entry:
               str: 60
         teaserImage:
           type: asset
-          locales:
-            en-US:
-              - _id: 0fdafec5-6f63-417d-b048-e0ee8ebee414
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: >-
+          value:
+            - _id: 0fdafec5-6f63-417d-b048-e0ee8ebee414
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=85
+                title:
+                  type: text
+                  value: Sunset over a lavender field
+                width:
+                  type: number
+                  value: 6000
+                custom:
+                  type: object
+                  value:
+                    color: '#f3c0c0'
+                    apiUrl: https://api.unsplash.com/photos/lavender-field-c1Jp-fo53U8
+                    blurHash: L.KJJoW?j]xG~UbIWVW.tRn$oLWX
+                    sourceId: c1Jp-fo53U8
+                    createdAt: '2017-07-02T13:34:17Z'
+                    detailUrl: https://unsplash.com/photos/lavender-field-c1Jp-fo53U8
+                    updatedAt: '2025-10-07T23:52:12Z'
+                    authorName: Léonard Cotte
+                    downloadUrl: >-
+                      https://unsplash.com/photos/c1Jp-fo53U8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0
+                    photoFullUrl: >-
                       https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=85
-                  title:
-                    type: text
-                    value: Sunset over a lavender field
-                  width:
-                    type: number
-                    value: 6000
-                  custom:
-                    type: object
-                    value:
-                      color: '#f3c0c0'
-                      apiUrl: >-
-                        https://api.unsplash.com/photos/lavender-field-c1Jp-fo53U8
-                      blurHash: L.KJJoW?j]xG~UbIWVW.tRn$oLWX
-                      sourceId: c1Jp-fo53U8
-                      createdAt: '2017-07-02T13:34:17Z'
-                      detailUrl: https://unsplash.com/photos/lavender-field-c1Jp-fo53U8
-                      updatedAt: '2025-10-07T23:52:12Z'
-                      authorName: Léonard Cotte
-                      downloadUrl: >-
-                        https://unsplash.com/photos/c1Jp-fo53U8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww
-                      photoRawUrl: >-
-                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0
-                      photoFullUrl: >-
-                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=85
-                      photoSmallUrl: >-
-                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=80&w=400
-                      photoThumbUrl: >-
-                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=80&w=200
-                      authorUsername: ettocl
-                      photoRegularUrl: >-
-                        https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=80&w=1080
-                      authorProfileUrl: https://unsplash.com/@ettocl
-                      downloadLocation: >-
-                        https://api.unsplash.com/photos/c1Jp-fo53U8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww
-                      authorProfileImage: >-
-                        https://images.unsplash.com/profile-1545973666179-c5ad6746ba37?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
-                  height:
-                    type: number
-                    value: 4000
-                  description:
-                    type: text
-                    value: Photo by Léonard Cotte on Unsplash
-                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=80&w=200
+                    authorUsername: ettocl
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1499002238440-d264edd596ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww&ixlib=rb-4.1.0&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@ettocl
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/c1Jp-fo53U8/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxNHx8ZnJhbmNlfGVufDB8fHx8MTc2MDEwMTY4NXww
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1545973666179-c5ad6746ba37?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 4000
+                description:
+                  type: text
+                  value: Photo by Léonard Cotte on Unsplash
+              _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
         timeToVisit:
           type: richText
           locales:

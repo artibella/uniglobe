@@ -751,78 +751,6 @@ composition:
           variables:
             locale: ${locale}
             entryId: 5ca426ea-70d4-4837-aa2b-172291f03447
-    25d77e62-e82d-468e-8651-3e4a24d3e0f8:
-      parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-        image:
-          type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-        title:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
-        objectFit:
-          type: select
-          locales:
-            de-AT: cover
-            de-CH: cover
-            de-DE: cover
-            fr-CH: cover
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        description:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-        overlayColor:
-          type: tp-color-style-parameter
-          locales:
-            de-AT: base-300
-            de-CH: base-300
-            de-DE: base-300
-            fr-CH: base-300
-        overlayOpacity:
-          type: number
-          locales:
-            de-AT: 40
-            de-CH: 40%
-            de-DE: 40%
-            en-US: 40%
-            fr-CH: 40%
-        textColorVariant:
-          type: select
-          value: Light
-      dataResources:
-        Country:
-          type: country
-          variables:
-            locale: ${locale}
-            entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
     35ba41b8-b664-48cd-ba51-f979a2ef0cec:
       parameters:
         title:
@@ -955,11 +883,7 @@ composition:
             fr-CH: base-300
         overlayOpacity:
           type: number
-          locales:
-            de-AT: 30
-            de-CH: 30%
-            de-DE: 30%
-            fr-CH: 30%
+          value: 30
         textColorVariant:
           type: select
           value: Light
@@ -1004,78 +928,6 @@ composition:
           variables:
             locale: ${locale}
             entryId: 5df637c2-5fea-416c-a4b4-95aa58c86bd7
-    92790865-0e9b-41da-8337-adb815d30697:
-      parameters:
-        badge:
-          type: text
-          locales:
-            de-AT: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            de-DE: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-            fr-CH: >-
-              ${#jptr:/Country/entry/fields/region/value/entry/fields/name/value}
-        image:
-          type: asset
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserImage/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserImage/value}
-        title:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/name/value}
-            de-CH: ${#jptr:/Country/entry/fields/name/value}
-            de-DE: ${#jptr:/Country/entry/fields/name/value}
-            fr-CH: ${#jptr:/Country/entry/fields/name/value}
-        objectFit:
-          type: select
-          locales:
-            de-AT: cover
-            de-CH: cover
-            de-DE: cover
-            fr-CH: cover
-        buttonCopy:
-          type: text
-          locales:
-            de-AT: Explore
-            de-CH: Explore
-            de-DE: Explore
-            fr-CH: Explore
-        description:
-          type: text
-          locales:
-            de-AT: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-            de-DE: ${#jptr:/Country/entry/fields/teaserText/value}
-            fr-CH: ${#jptr:/Country/entry/fields/teaserText/value}
-        overlayColor:
-          type: tp-color-style-parameter
-          locales:
-            de-AT: base-300
-            de-CH: base-300
-            de-DE: base-300
-            fr-CH: base-300
-        overlayOpacity:
-          type: number
-          locales:
-            de-AT: 40
-            de-CH: 40%
-            de-DE: 40%
-            en-US: 40%
-            fr-CH: 40%
-        textColorVariant:
-          type: select
-          value: Light
-      dataResources:
-        Country:
-          type: country
-          variables:
-            locale: ${locale}
-            entryId: 1e00d404-3375-4219-a14f-dc639caf6147
     9645307b-8f25-494a-9e0d-241d2bd99bc1:
       parameters:
         textColorVariant:
@@ -1205,11 +1057,7 @@ composition:
             fr-CH: base-300
         overlayOpacity:
           type: number
-          locales:
-            de-AT: 30
-            de-CH: 30%
-            de-DE: 30%
-            fr-CH: 30%
+          value: 30
         textColorVariant:
           type: select
           value: Light
@@ -1230,6 +1078,79 @@ composition:
               - l: dest_eur
                 op: ^
             name: destinations-europe
+    a552f5d6-5b1a-44b8-92a7-4287e7cf682e:
+      parameters:
+        badge:
+          type: text
+          locales:
+            en-US: Malaysia
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: e94ac939-9374-4a93-9c57-569767734a22
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.pexels.com/photos/5396572/pexels-photo-5396572.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                  title:
+                    type: text
+                    value: >-
+                      Stunning aerial view of Kuala Lumpur showcasing the iconic
+                      Petronas Twin Towers and cityscape.
+                  width:
+                    type: number
+                    value: 2816
+                  custom:
+                    type: object
+                    value:
+                      sourceId: '5396572'
+                      pexelsUrl: >-
+                        https://www.pexels.com/photo/aerial-view-of-city-buildings-5396572/
+                      photoTinyUrl: >-
+                        https://images.pexels.com/photos/5396572/pexels-photo-5396572.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                      photographer: Sarowar Hussain
+                      photoLargeUrl: >-
+                        https://images.pexels.com/photos/5396572/pexels-photo-5396572.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      photoSmallUrl: >-
+                        https://images.pexels.com/photos/5396572/pexels-photo-5396572.jpeg?auto=compress&cs=tinysrgb&h=130
+                      photoMediumUrl: >-
+                        https://images.pexels.com/photos/5396572/pexels-photo-5396572.jpeg?auto=compress&cs=tinysrgb&h=350
+                      photoLarge2xUrl: >-
+                        https://images.pexels.com/photos/5396572/pexels-photo-5396572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                      photographerUrl: https://www.pexels.com/@sarowar-hussain-3111579
+                      photoPortraitUrl: >-
+                        https://images.pexels.com/photos/5396572/pexels-photo-5396572.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                      pexelsOriginalUrl: >-
+                        https://images.pexels.com/photos/5396572/pexels-photo-5396572.jpeg
+                      photoLandscapeUrl: >-
+                        https://images.pexels.com/photos/5396572/pexels-photo-5396572.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                  height:
+                    type: number
+                    value: 2112
+                  description:
+                    type: text
+                    value: >-
+                      Stunning aerial view of Kuala Lumpur showcasing the iconic
+                      Petronas Twin Towers and cityscape. - Photo by Sarowar
+                      Hussain on Pexels
+                _source: pexels-76f5d484-d357-4cc2-b0e0-78dd32f3d454
+        title:
+          type: text
+          locales:
+            en-US: Kuala Lumpur
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Dive into Kuala Lumpur’s vibrant mix of culture, food, and
+              nightlife—perfect for budget travelers looking for affordable
+              adventures.
+        textColorVariant:
+          type: select
+          value: Light
     a7f6f7d6-0408-4bf8-83f9-abb1dc76a860:
       parameters:
         badge:
@@ -1320,11 +1241,7 @@ composition:
             fr-CH: base-300
         overlayOpacity:
           type: number
-          locales:
-            de-AT: 30
-            de-CH: 30%
-            de-DE: 30%
-            fr-CH: 30%
+          value: 30
     aa30074b-22b6-4cd7-b7b3-c174eeb33cef:
       parameters:
         overlayColor:
@@ -1462,11 +1379,7 @@ composition:
             fr-CH: base-300
         overlayOpacity:
           type: number
-          locales:
-            de-AT: 30
-            de-CH: 30%
-            de-DE: 30%
-            fr-CH: 30%
+          value: 30
         textColorVariant:
           type: select
           value: Light
@@ -1575,11 +1488,82 @@ composition:
             fr-CH: base-300
         overlayOpacity:
           type: number
+          value: 30
+    bd21771a-109b-447c-984c-6de3c43277b9:
+      parameters:
+        badge:
+          type: text
           locales:
-            de-AT: 30
-            de-CH: 30%
-            de-DE: 30%
-            fr-CH: 30%
+            en-US: Indonesia
+        image:
+          type: asset
+          locales:
+            en-US:
+              - _id: c4cf9290-ec54-435f-aa6b-8f5d8841288a
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1555400038-63f5ba517a47?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxCYWxpfGVufDB8fHx8MTc2ODk4ODU5NXww&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: >-
+                      Morning view on the lovely Tegelalang rice terraces north
+                      of Ubud, Tegelalang, Bali
+                  width:
+                    type: number
+                    value: 6000
+                  custom:
+                    type: object
+                    value:
+                      color: '#0c260c'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/green-rice-field--2WlTWZLnRc
+                      blurHash: LHA1Oi%c8{Mz_4RnD%bD-=RlIUae
+                      sourceId: '-2WlTWZLnRc'
+                      createdAt: '2019-04-16T07:34:53Z'
+                      detailUrl: https://unsplash.com/photos/green-rice-field--2WlTWZLnRc
+                      updatedAt: '2026-01-21T08:00:00Z'
+                      authorName: Niklas Weiss
+                      downloadUrl: >-
+                        https://unsplash.com/photos/-2WlTWZLnRc/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxCYWxpfGVufDB8fHx8MTc2ODk4ODU5NXww
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1555400038-63f5ba517a47?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxCYWxpfGVufDB8fHx8MTc2ODk4ODU5NXww&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1555400038-63f5ba517a47?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxCYWxpfGVufDB8fHx8MTc2ODk4ODU5NXww&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1555400038-63f5ba517a47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxCYWxpfGVufDB8fHx8MTc2ODk4ODU5NXww&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1555400038-63f5ba517a47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxCYWxpfGVufDB8fHx8MTc2ODk4ODU5NXww&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: treesoftheplanet
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1555400038-63f5ba517a47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxCYWxpfGVufDB8fHx8MTc2ODk4ODU5NXww&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@treesoftheplanet
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/-2WlTWZLnRc/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzfHxCYWxpfGVufDB8fHx8MTc2ODk4ODU5NXww
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1564499846579-0617696837be?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 4000
+                  description:
+                    type: text
+                    value: Photo by Niklas Weiss on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        title:
+          type: text
+          locales:
+            en-US: Bali
+        description:
+          type: text
+          locales:
+            en-US: >-
+              Experience Bali’s iconic beaches, lush rice terraces, and
+              welcoming culture—all affordable for any traveler.
+        textColorVariant:
+          type: select
+          value: Light
     d66927fd-6e90-4bae-8dcb-104e663308e2:
       parameters:
         badge:
@@ -1640,11 +1624,11 @@ composition:
         overlayOpacity:
           type: number
           locales:
-            de-AT: 40
-            de-CH: 40%
-            de-DE: 40%
-            en-US: 40%
-            fr-CH: 40%
+            de-AT: 60
+            de-CH: 60
+            de-DE: 60
+            en-US: 60
+            fr-CH: 60
         textColorVariant:
           type: select
           value: Light
@@ -1745,10 +1729,14 @@ composition:
         overlayOpacity:
           type: number
           locales:
-            de-AT: 30
-            de-CH: 30%
-            de-DE: 30%
-            fr-CH: 30%
+            de-AT: 40
+            de-CH: 40
+            de-DE: 40
+            en-US: 40
+            fr-CH: 40
+        textColorVariant:
+          type: select
+          value: Light
     f8f6406b-0b49-4c7e-86a0-5fe0e46f90e1:
       parameters:
         badge:
@@ -1867,11 +1855,7 @@ composition:
             fr-CH: base-300
         overlayOpacity:
           type: number
-          locales:
-            de-AT: 30
-            de-CH: 30%
-            de-DE: 30%
-            fr-CH: 30%
+          value: 30
         textColorVariant:
           type: select
           value: Light
@@ -2185,19 +2169,12 @@ composition:
                 overlayColor: 'yes'
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
-          - _id: 25d77e62-e82d-468e-8651-3e4a24d3e0f8
+          - _id: a552f5d6-5b1a-44b8-92a7-4287e7cf682e
             type: card
             variant: backgroundImage
-            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
-            _dataResources:
-              Country:
-                type: country
-                variables:
-                  locale: ${locale}
-                  entryId: 8abbed23-87a2-4f1d-8ba8-e26818e7c323
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
             _overridability:
               parameters:
-                $viz: 'yes'
                 badge: 'yes'
                 image: 'yes'
                 title: 'yes'
@@ -2211,20 +2188,12 @@ composition:
                 overlayColor: 'yes'
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
-              hideLockedParameters: true
-          - _id: 92790865-0e9b-41da-8337-adb815d30697
+          - _id: bd21771a-109b-447c-984c-6de3c43277b9
             type: card
             variant: backgroundImage
-            _pattern: 82d0935c-6c9c-4a40-b192-6f840350f405
-            _dataResources:
-              Country:
-                type: country
-                variables:
-                  locale: ${locale}
-                  entryId: 1e00d404-3375-4219-a14f-dc639caf6147
+            _pattern: 3e33e9ad-b5e8-47e5-942b-8dadbed72472
             _overridability:
               parameters:
-                $viz: 'yes'
                 badge: 'yes'
                 image: 'yes'
                 title: 'yes'
@@ -2238,7 +2207,6 @@ composition:
                 overlayColor: 'yes'
                 overlayOpacity: 'yes'
                 textColorVariant: 'yes'
-              hideLockedParameters: true
   _locales:
     - en-US
     - de-DE
@@ -2246,5 +2214,5 @@ composition:
     - de-CH
     - fr-CH
 created: '2024-01-15T15:05:38.343368+00:00'
-modified: '2025-11-07T09:19:05.456966+00:00'
+modified: '2026-01-21T09:43:48.495247+00:00'
 pattern: false

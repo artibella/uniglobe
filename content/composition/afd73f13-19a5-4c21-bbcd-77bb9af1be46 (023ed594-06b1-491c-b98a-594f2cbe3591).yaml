@@ -1,0 +1,586 @@
+composition:
+  _name: Home
+  _id: afd73f13-19a5-4c21-bbcd-77bb9af1be46
+  _slug: ':locale'
+  type: page
+  _overrides:
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            de-AT: Beste Reisedeals nach Europa 2024 | Uniglobe
+            de-CH: Beste Reisedeals nach Europa 2024 | Uniglobe
+            de-DE: Beste Reisedeals nach Europa 2024 | Uniglobe
+        pageKeywords:
+          type: text
+          locales:
+            de-AT: >-
+              Reisedeals, günstige Flüge Europa, preiswerte Urlaubspakete,
+              europäische Reiserabatte
+            de-CH: >-
+              Reisedeals, günstige Flüge Europa, preiswerte Urlaubspakete,
+              europäische Reiserabatte
+            de-DE: >-
+              Reisedeals, günstige Flüge Europa, preiswerte Urlaubspakete,
+              europäische Reiserabatte
+        twitterTitle:
+          type: text
+          locales:
+            de-AT: >-
+              Der Twitter-Titel wurde ins Deutsche übersetzt. (Bitte geben Sie
+              den englischen Titel an, damit ich ihn korrekt übersetzen kann.)
+            de-CH: >-
+              Der Twitter-Titel wurde ins Deutsche übersetzt. (Bitte geben Sie
+              den englischen Titel an, damit ich ihn korrekt übersetzen kann.)
+            de-DE: >-
+              Der Twitter-Titel wurde ins Deutsche übersetzt. (Bitte geben Sie
+              den englischen Titel an, damit ich ihn korrekt übersetzen kann.)
+        openGraphTitle:
+          type: text
+          locales:
+            de-AT: >-
+              Erlebe authentische Abenteuer und nachhaltiges Reisen – entdecke
+              Uniglobe! 🌍💚
+            de-CH: >-
+              Erlebe authentische Abenteuer und nachhaltiges Reisen – entdecke
+              Uniglobe! 🌍💚
+            de-DE: >-
+              Erlebe authentische Abenteuer und nachhaltiges Reisen – entdecke
+              Uniglobe! 🌍💚
+        twitterDescription:
+          type: text
+          locales:
+            de-AT: >-
+              Entdecke nachhaltige Abenteuer, unterstütze lokale Communities &
+              reise erschwinglich. Bist du bereit für #EcoTravel? Teile deine
+              Pläne!
+            de-CH: >-
+              Entdecke nachhaltige Abenteuer, unterstütze lokale Communities &
+              reise erschwinglich. Bist du bereit für #EcoTravel? Teile deine
+              Pläne!
+            de-DE: >-
+              Entdecke nachhaltige Abenteuer, unterstütze lokale Communities &
+              reise erschwinglich. Bist du bereit für #EcoTravel? Teile deine
+              Pläne!
+        pageMetaDescription:
+          type: text
+          locales:
+            de-AT: >-
+              Entdecke nachhaltige Reisen für junge, bewusste Explorer. Erlebe
+              authentische Begegnungen, spare Budget und reise
+              verantwortungsvoll. Jetzt mehr erfahren!
+            de-CH: >-
+              Entdecke nachhaltige Reisen für junge, bewusste Explorer. Erlebe
+              authentische Begegnungen, spare Budget und reise
+              verantwortungsvoll. Jetzt mehr erfahren!
+            de-DE: >-
+              Entdecke nachhaltige Reisen für junge, bewusste Explorer. Erlebe
+              authentische Begegnungen, spare Budget und reise
+              verantwortungsvoll. Jetzt mehr erfahren!
+        openGraphDescription:
+          type: text
+          locales:
+            de-AT: >-
+              Entdecke nachhaltige Abenteuer, echte Kulturen und günstige Reisen
+              mit Uniglobe. Werde Teil unserer Community—jetzt planen!
+              #ReiseGemeinsam
+            de-CH: >-
+              Entdecke nachhaltige Abenteuer, echte Kulturen und günstige Reisen
+              mit Uniglobe. Werde Teil unserer Community—jetzt planen!
+              #ReiseGemeinsam
+            de-DE: >-
+              Entdecke nachhaltige Abenteuer, echte Kulturen und günstige Reisen
+              mit Uniglobe. Werde Teil unserer Community—jetzt planen!
+              #ReiseGemeinsam
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|0a4a114c-bdd9-4065-82c8-0b89e5ca177f:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Bereit, deine Reiseträume wahr werden zu lassen?
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Wir kümmern uns um die Details, damit du unvergessliche
+              Erinnerungen schaffen kannst.
+        eyebrowText:
+          type: text
+          locales:
+            de-DE: Starte dein Abenteuer
+        primaryButtonCopy:
+          type: text
+          locales:
+            de-DE: Starte deine Reise
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|0ee4a12b-4f44-42d5-829f-1001032ada22:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Service, der mehr bietet
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Hier entdeckst du authentische Erlebnisse, nachhaltige Tipps und
+              echte Community für dein nächstes Abenteuer.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|24ef159e-345c-4cd2-bcfb-2e305d52ea9f:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-CH: Bitte gib den englischen Titel an, den du übersetzen möchtest.
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Entdecke authentische Erlebnisse, nachhaltige Reisen und echte
+              Verbindungen – für junge, budgetbewusste Abenteurer.
+        eyebrowText:
+          type: text
+          locales:
+            de-AT: Entdecke nachhaltiges Reisen
+            de-CH: Entdecke nachhaltiges Reisen
+            de-DE: Entdecke nachhaltiges Reisen
+        primaryButtonCopy:
+          type: text
+          locales:
+            de-AT: Jetzt loslegen
+            de-CH: Jetzt loslegen
+            de-DE: Jetzt entdecken
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|2e8bf506-596f-47ed-9426-111ba793d3f4:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Abenteuerreisen
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Erweitere deinen Horizont mit professionell geführten
+              Outdoor-Abenteuern – von Wildtier-Safaris bis zu Wanderungen und
+              Wassersport.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|36f21049-61d6-4715-9a30-ab4d3adcc8c7:
+      parameters:
+        image:
+          type: asset
+          locales:
+            de-AT:
+              - _id: 63d29a38-3391-4276-8ae8-8ec7afa8eb65
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: building with infinity pool
+                  width:
+                    type: number
+                    value: 5472
+                  custom:
+                    type: object
+                    value:
+                      color: '#404040'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/building-with-infinity-pool-MA82mPIZeGI
+                      blurHash: LqI;bfXTJ7e.~VNHW=bFxaIVNat6
+                      sourceId: MA82mPIZeGI
+                      createdAt: '2019-06-25T22:31:49Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/building-with-infinity-pool-MA82mPIZeGI
+                      updatedAt: '2026-01-27T08:04:53Z'
+                      authorName: Roberto Nickson
+                      downloadUrl: >-
+                        https://unsplash.com/photos/MA82mPIZeGI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: rpnickson
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@rpnickson
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/MA82mPIZeGI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1572857588159-ed093f79d93aimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3648
+                  description:
+                    type: text
+                    value: Photo by Roberto Nickson on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            de-CH:
+              - _id: 63d29a38-3391-4276-8ae8-8ec7afa8eb65
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: building with infinity pool
+                  width:
+                    type: number
+                    value: 5472
+                  custom:
+                    type: object
+                    value:
+                      color: '#404040'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/building-with-infinity-pool-MA82mPIZeGI
+                      blurHash: LqI;bfXTJ7e.~VNHW=bFxaIVNat6
+                      sourceId: MA82mPIZeGI
+                      createdAt: '2019-06-25T22:31:49Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/building-with-infinity-pool-MA82mPIZeGI
+                      updatedAt: '2026-01-27T08:04:53Z'
+                      authorName: Roberto Nickson
+                      downloadUrl: >-
+                        https://unsplash.com/photos/MA82mPIZeGI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: rpnickson
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@rpnickson
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/MA82mPIZeGI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1572857588159-ed093f79d93aimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3648
+                  description:
+                    type: text
+                    value: Photo by Roberto Nickson on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+            de-DE:
+              - _id: 63d29a38-3391-4276-8ae8-8ec7afa8eb65
+                type: image
+                fields:
+                  url:
+                    type: text
+                    value: >-
+                      https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=85
+                  title:
+                    type: text
+                    value: building with infinity pool
+                  width:
+                    type: number
+                    value: 5472
+                  custom:
+                    type: object
+                    value:
+                      color: '#404040'
+                      apiUrl: >-
+                        https://api.unsplash.com/photos/building-with-infinity-pool-MA82mPIZeGI
+                      blurHash: LqI;bfXTJ7e.~VNHW=bFxaIVNat6
+                      sourceId: MA82mPIZeGI
+                      createdAt: '2019-06-25T22:31:49Z'
+                      detailUrl: >-
+                        https://unsplash.com/photos/building-with-infinity-pool-MA82mPIZeGI
+                      updatedAt: '2026-01-27T08:04:53Z'
+                      authorName: Roberto Nickson
+                      downloadUrl: >-
+                        https://unsplash.com/photos/MA82mPIZeGI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA
+                      photoRawUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0
+                      photoFullUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=85
+                      photoSmallUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=80&w=400
+                      photoThumbUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=80&w=200
+                      authorUsername: rpnickson
+                      photoRegularUrl: >-
+                        https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+                      authorProfileUrl: https://unsplash.com/@rpnickson
+                      downloadLocation: >-
+                        https://api.unsplash.com/photos/MA82mPIZeGI/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbHxlbnwwfHx8fDE3Njk1MDgwNjZ8MA
+                      authorProfileImage: >-
+                        https://images.unsplash.com/profile-1572857588159-ed093f79d93aimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                  height:
+                    type: number
+                    value: 3648
+                  description:
+                    type: text
+                    value: Photo by Roberto Nickson on Unsplash
+                _source: unisplash-45dc5fc5-978f-42de-ac4a-4b716bdb7772
+        title:
+          type: text
+          locales:
+            de-DE: Entdecke nachhaltige Abenteuer neu – authentisch und komfortabel
+        description:
+          type: text
+          locales:
+            de-AT: >-
+              Entdecke nachhaltige Abenteuer, authentische Begegnungen und
+              smarte Tipps für unabhängige Reisen mit Komfort und Stil.
+            de-CH: >-
+              Entdecke nachhaltige Abenteuer, echte Begegnungen und stylishe
+              Hostels – für unabhängige, bewusste Reisen mit Komfort und
+              Flexibilität.
+            de-DE: >-
+              Erkunde authentische, nachhaltige Reisen, die Komfort und lokale
+              Erlebnisse verbinden – perfekt für dich als stilbewussten
+              Abenteurer.
+        eyebrowText:
+          type: text
+          locales:
+            de-CH: Entdecke authentische Reisen
+            de-DE: Authentisch reisen, komfortabel bleiben
+        primaryButtonCopy:
+          type: text
+          locales:
+            de-AT: Jetzt entdecken
+            de-CH: Jetzt entdecken
+            de-DE: Jetzt entdecken
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|49c453ad-5a3e-4cb0-a7ff-6cd8de787eb5:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-AT: Wie kann Uniglobe dein Reiseerlebnis verbessern?
+            de-CH: Wie kann Uniglobe dein Reiseerlebnis verbessern?
+            de-DE: Wie kann Uniglobe dein Reiseerlebnis verbessern?
+        description:
+          type: text
+          locales:
+            de-AT: >-
+              Entdecke nachhaltige Abenteuer und buche authentische Erlebnisse
+              direkt vor Ort.
+            de-CH: >-
+              Buche deine nächste nachhaltige Reise und entdecke authentische
+              Erlebnisse mit Gleichgesinnten.
+            de-DE: >-
+              Entdecke authentische Erlebnisse und nachhaltige Reisen – schließe
+              dich unserer Community bewusster Abenteurer an!
+        eyebrowText:
+          type: text
+          locales:
+            de-DE: Reise mit Zuversicht
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|586f156b-7f1f-49bc-9bc3-8663c3689069:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Häufige Fragen
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Hier findest du Antworten auf häufige Fragen rund ums Reisen mit
+              Uniglobe.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|5b31f104-1497-402e-9d35-8c4d816b9402:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Wie früh sollte ich meine Reise buchen?
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Für Hauptreisezeiten (Sommer, Feiertage) und beliebte Ziele
+              empfehlen wir, 6-8 Monate im Voraus zu buchen, um die beste
+              Verfügbarkeit und Preise zu sichern. In der Nebensaison reichen
+              meist 3-4 Monate. Es gibt manchmal Last-Minute-Angebote, aber die
+              Auswahl kann begrenzt sein.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|64f2f559-0650-4620-953b-5868ad7e1ff9:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-AT: Blogbeiträge
+            de-CH: Blogbeiträge
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|68dea642-3642-4aaa-849c-a48f1834831c:
+      dataResources:
+        Blog posts:
+          type: blogPostSelection
+          variables:
+            limit: '3'
+            locale: ${locale},en-US
+            search: ''
+            filters: '{"type[eq]":"blogPosts"}'
+            orderBy: created_at_DESC
+            entryIds: >-
+              305c9a69-e5cd-4488-8f96-e0fb09a260a9,11d6ed21-9d24-4806-b974-e66aa37a010d,a5122b32-5e2a-435c-b5be-5697c9de58f0
+            contentTypes: blogPosts
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|97e79d67-e1e5-489e-bcc2-f6343b81ada9:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Welche Unterstützung bietet Uniglobe während meiner Reise?
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Uniglobe bietet allen Reisenden rund um die Uhr Notfallhilfe.
+              Unser globales Support-Team unterstützt dich bei Flugproblemen,
+              Unterkunftsfragen, verlorenen Dokumenten, medizinischen Notfällen
+              und anderen Herausforderungen während deiner Reise. Deine
+              persönlichen Kontaktinfos erhältst du vor Abreise.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|b50cd2a7-2551-40e4-878a-c7ac6cbd7a2d:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-AT: Entdecke authentische Reisen, die Sinn machen
+            de-CH: Entdecke authentische Reisen, die deinem Budget passen
+            de-DE: Erlebe nachhaltiges Reisen für kleines Geld
+        description:
+          type: text
+          locales:
+            de-AT: >-
+              Entdecke authentische Abenteuer, nachhaltige Reisen und echte
+              Erlebnisse abseits der Massen – leistbar, lokal, bewusst.
+            de-CH: >-
+              Entdecke authentische, nachhaltige Reisen abseits der Massen –
+              günstig, lokal und echt, für junge Entdecker wie dich.
+            de-DE: >-
+              Entdecke authentische, nachhaltige Reisen, die deinen Geldbeutel
+              schonen und echte Verbindungen ermöglichen.
+        eyebrowText:
+          type: text
+          locales:
+            de-AT: Reisen, die Sinn machen
+            de-CH: Entdecke günstiges Reisen
+            de-DE: Reisen, die verbinden
+        primaryButtonCopy:
+          type: text
+          locales:
+            de-AT: Jetzt entdecken
+            de-CH: Jetzt entdecken
+            de-DE: Jetzt entdecken
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|c3838da6-ac6a-4267-b29b-2dff20988f34:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Brauche ich eine Reiseversicherung?
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Eine Reiseversicherung ist nicht vorgeschrieben, aber wir
+              empfehlen sie für jede Reise. Sie schützt dich bei unerwarteten
+              Ereignissen wie Stornierungen, medizinischen Notfällen,
+              Gepäckverlust und Verspätungen. Unsere Berater unterstützen dich
+              gerne dabei, die passende Police für deine Reise und Bedürfnisse
+              auszuwählen.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|c77092dc-5a9c-4b10-88be-30a725daf867:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Reiseservices, die zu dir passen
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Egal, wie du reisen möchtest – Uniglobe bietet dir Erfahrung und
+              Ressourcen für dein perfektes Abenteuer. Von Familienurlauben bis
+              zu Aktivreisen haben wir passende Angebote für jeden Reisetyp.
+        eyebrowText:
+          type: text
+          locales:
+            de-AT: Entdecke unsere Services
+            de-CH: Entdecke unsere Services
+            de-DE: Entdecke unsere Services
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|d123415a-07ca-4459-92e9-1156a4d2fc4a:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Authentische Reisen, echte Ziele
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Entdecke einzigartige Reiseziele – von pulsierenden Städten bis zu
+              lokalen Geheimtipps weltweit.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|efc8acc5-6db1-4cc4-a7a4-166a5feef0b6:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Was ist in Uniglobes All-inclusive-Paketen enthalten?
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Unsere All-inclusive-Pakete beinhalten in der Regel Hin- und
+              Rückflug, Flughafentransfers, Unterkunft im Resort, alle
+              Mahlzeiten und Getränke, Unterhaltung sowie ausgewählte
+              Aktivitäten. Einige Premium-Erlebnisse und Ausflüge sind gegen
+              Aufpreis buchbar. Jedes Paket listet klar auf, was enthalten ist,
+              und unsere Reiseberater:innen unterstützen dich gerne bei der
+              individuellen Gestaltung deiner Reise.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|f3cd6037-92b8-46e8-ba69-565f4c7ddcf2:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Gruppen- und Eventreisen
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Nahtlose Organisation für Hochzeiten, Familientreffen, Retreats
+              und Interessengruppen jeder Größe.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|f5532a61-e611-415a-a41c-63bc251d3923:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Familienurlaube
+        description:
+          type: text
+          locales:
+            de-DE: >-
+              Schaffe bleibende Erinnerungen mit sorgfältig geplanten,
+              familienfreundlichen Unterkünften, Aktivitäten und Erlebnissen für
+              Reisende jeden Alters.
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|64f2f559-0650-4620-953b-5868ad7e1ff9|508a29a8-f9df-43f4-ac84-2cd9fd6bdf3f:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-AT: Aktuelle Reisetipps & Stories
+            de-CH: Aktuelle Reisetipps & Stories
+    afd73f13-19a5-4c21-bbcd-77bb9af1be46|d123415a-07ca-4459-92e9-1156a4d2fc4a|797b9518-801c-44fe-b57d-d3bd74788ee1:
+      parameters:
+        overlayOpacity:
+          type: number
+          locales:
+            de-AT: 0
+            de-CH: 0
+  _locales:
+    - de-DE
+    - de-AT
+    - de-CH
+  _pattern: dbdee048-844f-43d1-9c49-620356469a32
+created: '2026-01-27T09:38:02.038242+00:00'
+modified: '2026-01-27T10:49:56.945674+00:00'
+pattern: false
+editionId: 023ed594-06b1-491c-b98a-594f2cbe3591
+editionName: DACH Edition
+editionPriority: 10

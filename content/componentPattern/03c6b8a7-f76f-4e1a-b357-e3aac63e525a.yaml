@@ -1,11 +1,13 @@
 composition:
-  _name: 'Abschnitt: Newsletter-CTA'
+  _name: Newsletter CTA
   _id: 03c6b8a7-f76f-4e1a-b357-e3aac63e525a
   type: container
   parameters:
     title:
       type: text
       locales:
+        de-AT: Newsletter CTA
+        de-CH: Newsletter CTA
         de-DE: Newsletter CTA
         en-US: Signup CTA
   slots:
@@ -20,6 +22,8 @@ composition:
                 title:
                   type: text
                   locales:
+                    de-AT: Entdecke günstige, nachhaltige Reisen abseits der Massen
+                    de-CH: Entdecke günstige, nachhaltige Reisen abseits der Massen
                     de-DE: Entdecke günstige, nachhaltige Reisen abseits der Massen
                     en-US: Travel more, spend less
                 $pzCrit:
@@ -33,6 +37,14 @@ composition:
                 description:
                   type: text
                   locales:
+                    de-AT: >-
+                      Entdecke authentische, nachhaltige Reisen zu fairen
+                      Preisen – für unabhängige Entdecker, die mehr erleben und
+                      weniger ausgeben wollen.
+                    de-CH: >-
+                      Entdecke authentische, nachhaltige Reisen zu fairen
+                      Preisen – für unabhängige Entdecker, die mehr erleben und
+                      weniger ausgeben wollen.
                     de-DE: >-
                       Entdecke authentische, nachhaltige Reisen zu fairen
                       Preisen – für unabhängige Entdecker, die mehr erleben und
@@ -44,23 +56,25 @@ composition:
                 eyebrowText:
                   type: text
                   locales:
+                    de-AT: Günstig reisen, mehr erleben
+                    de-CH: Günstig reisen, mehr erleben
                     de-DE: Günstig reisen, mehr erleben
                     en-US: Join our community
                 primaryButtonCopy:
                   type: text
                   locales:
-                    de-DE: Jetzt günstig buchen
+                    de-AT: Jetzt anmelden
+                    de-CH: Jetzt anmelden
+                    de-DE: Jetzt anmelden
                     en-US: Sign Up Now
                 primaryButtonLink:
                   type: link
-                  locales:
-                    en-US:
-                      path: /${locale}/newsletter
-                      type: projectMapNode
-                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
-                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      dynamicInputValues:
-                        locale: ${locale}
+                  value:
+                    path: /de-CH/newsletter
+                    type: projectMapNode
+                    nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                    dynamicInputValues:
+                      locale: de-CH
               _overridability:
                 parameters:
                   textColorVariant: 'yes'
@@ -71,6 +85,8 @@ composition:
                 title:
                   type: text
                   locales:
+                    de-AT: Entdecke nachhaltige Abenteuer, die verbinden
+                    de-CH: Entdecke nachhaltige Abenteuer, die verbinden
                     de-DE: Entdecke nachhaltige Abenteuer, die verbinden
                     en-US: Travel Asia like a local
                 $pzCrit:
@@ -84,6 +100,14 @@ composition:
                 description:
                   type: text
                   locales:
+                    de-AT: >-
+                      Entdecke nachhaltige Abenteuer, unterstütze lokale
+                      Communities und reise authentisch – buche jetzt deine
+                      nächste Reise mit Uniglobe!
+                    de-CH: >-
+                      Entdecke nachhaltige Abenteuer, unterstütze lokale
+                      Communities und reise authentisch – buche jetzt deine
+                      nächste Reise mit Uniglobe!
                     de-DE: >-
                       Entdecke nachhaltige Abenteuer, unterstütze lokale
                       Communities und reise authentisch – buche jetzt deine
@@ -95,22 +119,25 @@ composition:
                 eyebrowText:
                   type: text
                   locales:
+                    de-AT: Entdecke nachhaltiges Reisen
+                    de-CH: Entdecke nachhaltiges Reisen
                     de-DE: Entdecke nachhaltiges Reisen
                     en-US: Join our community
                 primaryButtonCopy:
                   type: text
                   locales:
-                    de-DE: Jetzt entdecken
+                    de-AT: Jetzt anmelden
+                    de-CH: Jetzt anmelden
+                    de-DE: Jetzt anmelden
                     en-US: Sign Up Now
                 primaryButtonLink:
                   type: link
-                  locales:
-                    en-US:
-                      path: /:locale/newsletter
-                      type: projectMapNode
-                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
-                      dynamicInputValues:
-                        locale: ${locale}
+                  value:
+                    path: /de-CH/newsletter
+                    type: projectMapNode
+                    nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                    dynamicInputValues:
+                      locale: de-CH
               _overridability:
                 parameters:
                   textColorVariant: 'yes'
@@ -121,6 +148,8 @@ composition:
                 title:
                   type: text
                   locales:
+                    de-AT: Entdecke nachhaltige Abenteuer, die verbinden
+                    de-CH: Entdecke nachhaltige Abenteuer, die verbinden
                     de-DE: Entdecke nachhaltige Abenteuer, die verbinden
                     en-US: Explore Europe With Us
                 $pzCrit:
@@ -134,6 +163,12 @@ composition:
                 description:
                   type: text
                   locales:
+                    de-AT: >-
+                      Entdecke authentische, nachhaltige Reisen abseits der
+                      Massen – buche jetzt dein nächstes Abenteuer mit Uniglobe!
+                    de-CH: >-
+                      Entdecke authentische, nachhaltige Reisen abseits der
+                      Massen – buche jetzt dein nächstes Abenteuer mit Uniglobe!
                     de-DE: >-
                       Entdecke authentische, nachhaltige Reisen abseits der
                       Massen – buche jetzt dein nächstes Abenteuer mit Uniglobe!
@@ -143,23 +178,26 @@ composition:
                 eyebrowText:
                   type: text
                   locales:
+                    de-AT: Entdecke nachhaltiges Reisen
+                    de-CH: Entdecke nachhaltiges Reisen
                     de-DE: Entdecke nachhaltiges Reisen
                     en-US: Join our community
                 primaryButtonCopy:
                   type: text
                   locales:
-                    de-DE: Jetzt entdecken
+                    de-AT: Jetzt anmelden
+                    de-CH: Jetzt anmelden
+                    de-DE: Jetzt anmelden
                     en-US: Sign Up Now
                 primaryButtonLink:
                   type: link
-                  locales:
-                    en-US:
-                      path: /${locale}/newsletter
-                      type: projectMapNode
-                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
-                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      dynamicInputValues:
-                        locale: ${locale}
+                  value:
+                    path: /${locale}/newsletter
+                    type: projectMapNode
+                    nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
               _overridability:
                 parameters:
                   textColorVariant: 'yes'
@@ -170,6 +208,8 @@ composition:
                 title:
                   type: text
                   locales:
+                    de-AT: Entdecke nachhaltige Abenteuer, die verbinden
+                    de-CH: Entdecke nachhaltige Abenteuer, die verbinden
                     de-DE: Entdecke nachhaltige Abenteuer, die verbinden
                     en-US: North America Awaits
                 $pzCrit:
@@ -183,6 +223,14 @@ composition:
                 description:
                   type: text
                   locales:
+                    de-AT: >-
+                      Entdecke nachhaltige Reisen, unterstütze lokale
+                      Gemeinschaften und erlebe authentische Abenteuer abseits
+                      der Massen.
+                    de-CH: >-
+                      Entdecke nachhaltige Reisen, unterstütze lokale
+                      Gemeinschaften und erlebe authentische Abenteuer abseits
+                      der Massen.
                     de-DE: >-
                       Entdecke nachhaltige Reisen, unterstütze lokale
                       Gemeinschaften und erlebe authentische Abenteuer abseits
@@ -194,23 +242,26 @@ composition:
                 eyebrowText:
                   type: text
                   locales:
+                    de-AT: Entdecke nachhaltiges Reisen
+                    de-CH: Entdecke nachhaltiges Reisen
                     de-DE: Entdecke nachhaltiges Reisen
                     en-US: Join our community
                 primaryButtonCopy:
                   type: text
                   locales:
-                    de-DE: Jetzt entdecken
+                    de-AT: Jetzt anmelden
+                    de-CH: Jetzt anmelden
+                    de-DE: Jetzt anmelden
                     en-US: Sign Up Now
                 primaryButtonLink:
                   type: link
-                  locales:
-                    en-US:
-                      path: /${locale}/newsletter
-                      type: projectMapNode
-                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
-                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      dynamicInputValues:
-                        locale: ${locale}
+                  value:
+                    path: /${locale}/newsletter
+                    type: projectMapNode
+                    nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
               _overridability:
                 parameters:
                   textColorVariant: 'yes'
@@ -221,6 +272,8 @@ composition:
                 title:
                   type: text
                   locales:
+                    de-AT: Entdecke nachhaltige Abenteuer, die verbinden
+                    de-CH: Entdecke nachhaltige Abenteuer, die verbinden
                     de-DE: Entdecke nachhaltige Abenteuer, die verbinden
                     en-US: Subscribe to the UniGlobe Newsletter
                 $pzCrit:
@@ -233,6 +286,14 @@ composition:
                 description:
                   type: text
                   locales:
+                    de-AT: >-
+                      Entdecke authentische, nachhaltige Reisen abseits der
+                      Massen – für dich, dein Budget und die Welt. Starte dein
+                      Abenteuer jetzt!
+                    de-CH: >-
+                      Entdecke authentische, nachhaltige Reisen abseits der
+                      Massen – für dich, dein Budget und die Welt. Starte dein
+                      Abenteuer jetzt!
                     de-DE: >-
                       Entdecke authentische, nachhaltige Reisen abseits der
                       Massen – für dich, dein Budget und die Welt. Starte dein
@@ -243,23 +304,26 @@ composition:
                 eyebrowText:
                   type: text
                   locales:
+                    de-AT: Entdecke nachhaltiges Reisen
+                    de-CH: Entdecke nachhaltiges Reisen
                     de-DE: Entdecke nachhaltiges Reisen
                     en-US: Join our community
                 primaryButtonCopy:
                   type: text
                   locales:
-                    de-DE: Jetzt entdecken
+                    de-AT: Jetzt anmelden
+                    de-CH: Jetzt anmelden
+                    de-DE: Jetzt anmelden
                     en-US: Sign Up Now
                 primaryButtonLink:
                   type: link
-                  locales:
-                    en-US:
-                      path: /${locale}/newsletter
-                      type: projectMapNode
-                      nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
-                      projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      dynamicInputValues:
-                        locale: ${locale}
+                  value:
+                    path: /${locale}/newsletter
+                    type: projectMapNode
+                    nodeId: 42379ae2-3717-47d9-b2f1-4b4c15351215
+                    projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      locale: ${locale}
               _overridability:
                 parameters:
                   textColorVariant: 'yes'
@@ -282,6 +346,8 @@ composition:
   _locales:
     - en-US
     - de-DE
+    - de-AT
+    - de-CH
 created: '2025-10-17T10:14:21.33284+00:00'
-modified: '2025-10-17T12:04:31.084799+00:00'
+modified: '2026-01-27T09:30:52.863048+00:00'
 pattern: true

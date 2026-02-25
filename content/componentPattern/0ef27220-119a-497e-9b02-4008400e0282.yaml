@@ -45,11 +45,9 @@ composition:
                     parameters:
                       badge:
                         type: text
-                        locales:
-                          de-DE: Thailand
-                          en-US: >-
-                            ${#jptr:/Featured countries entries Loop
-                            Item/entry/fields/region/value/entry/fields/name/value}
+                        value: >-
+                          ${#jptr:/Featured countries entries Loop
+                          Item/entry/fields/region/value/entry/fields/name/value}
                       image:
                         type: asset
                         value: >-
@@ -204,7 +202,7 @@ composition:
     - en-US
     - de-DE
 created: '2024-11-06T18:09:42.821697+00:00'
-modified: '2025-11-10T21:18:32.89503+00:00'
+modified: '2026-01-19T11:36:40.882842+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1740064572/Uniglobe/Component%20Previews/Card_Block_Wireframe_yz7aab.svg
