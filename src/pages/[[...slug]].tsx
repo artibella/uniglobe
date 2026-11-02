@@ -10,7 +10,14 @@ export const getServerSideProps = withUniformGetServerSideProps({
     state: Boolean(context.preview) ? CANVAS_DRAFT_STATE : CANVAS_PUBLISHED_STATE,
     //locale: context.locale ?? context.defaultLocale,
   }),
-  modifyPath: prependLocale,
+  // In contextual editing the SDK only renders the edited composition when this path equals the editor's
+  // path exactly, which never includes query strings; otherwise static project map nodes win over dynamic ones.
+  modifyPath: (path, context) => {
+    const isContextualEditing = Boolean(
+      (context.previewData as { isUniformContextualEditing?: boolean })?.isUniformContextualEditing
+    );
+    return prependLocale(isContextualEditing ? path.split('?')[0] : path, context);
+  },
   client: getRouteClient(),
   handleComposition: async (routeResponse, _context) => {
     const { composition, errors } = routeResponse.compositionApiResponse || {};
