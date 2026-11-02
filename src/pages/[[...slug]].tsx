@@ -11,12 +11,19 @@ export const getServerSideProps = withUniformGetServerSideProps({
     //locale: context.locale ?? context.defaultLocale,
   }),
   // In contextual editing the SDK only renders the edited composition when this path equals the editor's
-  // path exactly, which never includes query strings; otherwise static project map nodes win over dynamic ones.
+  // `path` exactly, otherwise static project map nodes win over dynamic ones. The editor's path carries
+  // project map query strings (e.g. `utm_source=`) and ours carries `is_incontext_editing_mode`, so compare
+  // without query strings.
   modifyPath: (path, context) => {
-    const isContextualEditing = Boolean(
-      (context.previewData as { isUniformContextualEditing?: boolean })?.isUniformContextualEditing
-    );
-    return prependLocale(isContextualEditing ? path.split('?')[0] : path, context);
+    const localizedPath = prependLocale(path, context);
+    const { isUniformContextualEditing, compositionPath } = (context.previewData ?? {}) as {
+      isUniformContextualEditing?: boolean;
+      compositionPath?: string;
+    };
+    if (isUniformContextualEditing && compositionPath?.split('?')[0] === localizedPath.split('?')[0]) {
+      return compositionPath;
+    }
+    return localizedPath;
   },
   client: getRouteClient(),
   handleComposition: async (routeResponse, _context) => {
